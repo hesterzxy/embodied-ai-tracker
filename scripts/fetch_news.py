@@ -23,6 +23,9 @@ KEYWORDS = [
 
 RSS_SOURCES = [
     {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
+    {"name": "甲子光年", "url": "https://www.jazzyear.com/feed"},
+    {"name": "智东西", "url": "https://www.zhidx.com/feed"},
     {"name": "36氪", "url": "https://36kr.com/feed"},
 ]
 

@@ -52,6 +52,15 @@ table.cmp thead th.self{border-bottom:2px solid var(--accent)}
 table.cmp td.self,table.cmp th.self{background:var(--accent-soft)}
 table.cmp td .src{display:block;font-size:10.5px;color:var(--ink4);margin-top:3px}
 table.cmp td.dash{color:var(--ink4)}
+table.cmp td{position:relative;padding-top:18px}
+table.cmp td .cell-source{position:absolute;top:4px;right:6px;font-size:10px;color:var(--accent);font-family:var(--mono)}
+table.cmp td .cell-source a{color:var(--accent);text-decoration:none}
+table.cmp td .cell-source a:hover{text-decoration:underline}
+table.cmp td .cell-bullets{list-style:none;margin:0;padding:0}
+table.cmp td .cell-bullets li{position:relative;padding-left:10px;margin:3px 0;font-size:12.5px;line-height:1.5}
+table.cmp td .cell-bullets li::before{content:'·';position:absolute;left:0;color:var(--ink3)}
+table.cmp td .cell-bullets li .b-label{color:var(--ink2);font-weight:500}
+table.cmp td .cell-bullets li .b-detail{color:var(--ink)}
 
 /* ---------- dynamics ---------- */
 .toggle{display:inline-flex;border:1px solid var(--line2);border-radius:2px;overflow:hidden;margin-right:14px}
@@ -72,6 +81,7 @@ table.cmp td.dash{color:var(--ink4)}
 .weekgroup li{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px;display:grid;grid-template-columns:80px 1fr;gap:16px}
 .weekgroup li .d{font-family:var(--mono);font-size:11px;color:var(--ink3)}
 .weekrange{font-family:var(--mono);font-size:12px;color:var(--ink3)}
+.week-insight{font-size:13.5px;color:var(--ink2);background:var(--shade);padding:14px 16px;margin:0 0 16px;line-height:1.7;border-left:3px solid var(--accent)}
 
 /* add-company inline */
 .addbox{margin:8px 0 0;display:none}
@@ -96,7 +106,7 @@ table.cmp td.dash{color:var(--ink4)}
   <div class="masthead">
     <div>
       <h1>具身智能赛道 · 竞争格局</h1>
-      <div class="dek">以人形机器人为主线，追踪第一梯队的技术路线、产品化与商业化进展，并每周汇总赛道动态。</div>
+      <div class="dek">追踪第一梯队技术路线、产品化与商业化进展。</div>
     </div>
     <div class="meta">
       本次发布 <b id="pubdate">—</b><br>
@@ -113,14 +123,13 @@ table.cmp td.dash{color:var(--ink4)}
       <div class="sectitle">竞争格局对比</div>
     </div>
     <button class="txtbtn" id="addBtn">+ 添加公司</button>
+    <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
   <div class="addbox" id="addBox">
     <input id="addInput" type="text" placeholder="输入要追踪的公司名…">
     <button class="go" id="addGo">添加</button>
     <div class="notice" id="addNotice"></div>
   </div>
-  <div class="secnote">纵轴为维度，横轴为公司；公司名下为入选理由。Sharpa 列以浅蓝标示。</div>
-
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
       <thead id="cmpHead"></thead>
@@ -140,7 +149,6 @@ table.cmp td.dash{color:var(--ink4)}
       <button id="tFeed" class="on">最新动态</button>
       <button id="tWeek">本周报</button>
     </div>
-    <span class="secnote" id="feedNote" style="margin:0">自动抓取，实时更新，无需人工。</span>
     <button class="txtbtn hide" id="copyWeek" style="margin-left:auto">复制周报</button>
   </div>
 
@@ -156,14 +164,13 @@ table.cmp td.dash{color:var(--ink4)}
   </div>
 
   <div class="foot">
-    <b>数据说明</b>：对比表每周由人工审核后发布；最新动态由公众号 RSS 经定时任务自动抓取，无需人工；周报由本周动态按话题自动聚合、人工审核措辞后发布。<br>
-    <b>口径</b>：以人形机器人为主线，收录第一梯队整机/全栈玩家，海外仅列对标标杆。融资类信息多为媒体公开报道，引用前需核实。<br>
-    <b>维护</b>：每周一个发布点；新增自选公司将于下个发布点更新后显示。<br>
+    <b>数据说明</b>：对比表每周人工审核后发布；动态由公众号 RSS 自动抓取。融资信息引用前请核实。<br>
     <b>数据更新</b>：<span id="dataUpdated">—</span>
   </div>
 
 </div>
 
+<script src="./scripts/xlsx.full.min.js"></script>
 <script>
 // ---- helpers ----
 function nextMonday(){
@@ -236,8 +243,33 @@ async function loadTable(){
         let html=`<td class="rowdim">${r.label}</td>`;
         r.cells.forEach((cell,idx)=>{
           const cls=data.companies[idx].emphasis?'self':'';
-          const src=(r.sources&&r.sources[idx])?`<span class="src">${r.sources[idx]}</span>`:'';
-          html+=`<td class="${cls}">${cell}${src}</td>`;
+          // Build bullets
+          const parts = cell.split(/[,，、;；]/).filter(s=>s.trim());
+          let bullets = '';
+          if(parts.length<=1){
+            bullets = `<li><span class="b-detail">${cell}</span></li>`;
+          }else{
+            bullets = parts.map(p=>{
+              const text = p.trim();
+              if(text.includes(':') || text.includes('：')){
+                const sep = text.includes(':') ? ':' : '：';
+                const [label, ...rest] = text.split(sep);
+                return `<li><span class="b-label">${label.trim()}${sep}</span><span class="b-detail">${rest.join(sep).trim()}</span></li>`;
+              }
+              return `<li><span class="b-detail">${text}</span></li>`;
+            }).join('');
+          }
+          // Source link top-right
+          let sourceHtml = '';
+          if(r.sources && r.sources[idx]){
+            const s = r.sources[idx];
+            if(typeof s === 'object' && s.name && s.name !== '—'){
+              sourceHtml = `<div class="cell-source"><a href="${s.url||'#'}" target="_blank">[${s.name}]</a></div>`;
+            }else if(typeof s === 'string' && s !== '—'){
+              sourceHtml = `<div class="cell-source">[${s}]</div>`;
+            }
+          }
+          html+=`<td class="${cls}">${sourceHtml}<ul class="cell-bullets">${bullets}</ul></td>`;
         });
         row.innerHTML=html;
         tbody.appendChild(row);
@@ -300,7 +332,23 @@ function renderWeeklyReport(items){
     container.innerHTML='<div class="errnote">本周暂无动态。</div>'; return;
   }
 
-  let html='';
+  // Generate strategic insight
+  const finCount = (grouped['融资']||[]).length;
+  const prodCount = (grouped['新品与合作']||[]).length;
+  const newCount = (grouped['新公司']||[]).length;
+  const topCos = [...new Set(weekItems.map(it=>it.company).filter(c=>c&&c!=='其他'&&c!=='行业'))];
+  let insight = `本周共收录 ${weekItems.length} 条动态`;
+  if(finCount) insight += `，其中融资 ${finCount} 起`;
+  if(prodCount) insight += `，新品与合作 ${prodCount} 起`;
+  insight += `。`;
+  if(topCos.length) insight += `头部公司中，${topCos.slice(0,3).join('、')} 动作较为密集。`;
+  const sig = weekItems.find(it=>it.category==='融资'||it.title.includes('IPO'))||weekItems[0];
+  if(sig) insight += `值得关注的信号是：${sig.title}。`;
+  if(finCount>=2) insight += `整体看，赛道融资热度持续，资金向头部集中。`;
+  else if(prodCount>=2) insight += `整体看，产品化节奏加快，各家密集推新品抢窗口。`;
+  else insight += `整体看，本周以信息释放与生态布局为主，节奏相对平稳。`;
+
+  let html=`<div class="week-insight">${insight}</div>`;
   order.forEach(cat=>{
     const arr=grouped[cat]; if(!arr||!arr.length) return;
     html+=`<div class="weekgroup"><h3>${cat}</h3><ul>`+
@@ -323,6 +371,35 @@ async function loadNews(){
     document.getElementById('feedLoading').textContent='动态加载失败，请稍后刷新。';
   }
 }
+
+// ---- download excel ----
+document.getElementById('dlBtn').onclick = async () => {
+  try{
+    const res = await fetch('./data/table.json');
+    const data = await res.json();
+    // Sheet 1: content
+    const ws1Data = [['维度', ...data.companies.map(c => c.name)]];
+    data.groups.forEach(g => {
+      ws1Data.push([g.label]);
+      g.rows.forEach(r => {
+        ws1Data.push([r.label, ...r.cells]);
+      });
+    });
+    // Sheet 2: source URLs
+    const ws2Data = [['维度', ...data.companies.map(c => c.name)]];
+    data.groups.forEach(g => {
+      ws2Data.push([g.label]);
+      g.rows.forEach(r => {
+        const srcs = r.sources ? r.sources.map(s => typeof s==='object' ? (s.url||s.name||'') : (s||'')) : new Array(data.companies.length).fill('');
+        ws2Data.push([r.label, ...srcs]);
+      });
+    });
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(ws1Data), '对比数据');
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(ws2Data), '来源链接');
+    XLSX.writeFile(wb, `具身智能竞争格局_${data.published||new Date().toISOString().slice(0,10)}.xlsx`);
+  }catch(e){ alert('下载失败：'+e.message); }
+};
 
 // ---- init ----
 loadTable();
