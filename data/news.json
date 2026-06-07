@@ -1,0 +1,86 @@
+{
+  "updated": "2026-06-07T12:00:00+08:00",
+  "source": "手动整理",
+  "items": [
+    {
+      "date": "06-07",
+      "company": "OpenAI",
+      "title": "OpenAI 宣布进军机器人领域，计划自研本体与模型",
+      "source_name": "国金证券研报",
+      "category": "新品与合作",
+      "url": "#"
+    },
+    {
+      "date": "06-06",
+      "company": "星海图",
+      "title": "星海图发布新一代具身基础模型 G0.5 及首款双足机器人行客 Kengo",
+      "source_name": "机器之心",
+      "category": "新品与合作",
+      "url": "https://www.jiqizhixin.com"
+    },
+    {
+      "date": "06-04",
+      "company": "银河通用",
+      "title": "银河通用完成 25 亿元新一轮融资，投后估值超 200 亿元",
+      "source_name": "经济参考报",
+      "category": "融资",
+      "url": "http://www.jjckb.cn/20260601/b1b1b4db1f7a4d4e92818b182e0ad7d5/c.html"
+    },
+    {
+      "date": "06-01",
+      "company": "宇树科技",
+      "title": "宇树科技科创板 IPO 正式过会，估值达 420 亿元",
+      "source_name": "新浪财经",
+      "category": "融资",
+      "url": "https://cj.sina.cn/articles/view/2495471725/94bde06d00101idku"
+    },
+    {
+      "date": "06-01",
+      "company": "宇树科技",
+      "title": "宇树携手英伟达推出新一代人形机器人参考设计 H2+",
+      "source_name": "国金证券研报",
+      "category": "新品与合作",
+      "url": "#"
+    },
+    {
+      "date": "05-30",
+      "company": "星海图",
+      "title": "星海图 4 月再获近 20 亿元 B+ 轮融资，估值约 200 亿元",
+      "source_name": "经济参考报",
+      "category": "融资",
+      "url": "http://www.jjckb.cn/20260601/b1b1b4db1f7a4d4e92818b182e0ad7d5/c.html"
+    },
+    {
+      "date": "05-28",
+      "company": "智元机器人",
+      "title": "智元第 10000 台远征 A3 下线，全球市占率 39%",
+      "source_name": "中国经济新闻网",
+      "category": "新品与合作",
+      "url": "https://www.cet.com.cn/itpd/itxw/10387848.shtml"
+    },
+    {
+      "date": "05-25",
+      "company": "星动纪元",
+      "title": "星动纪元 4 月再获超 2 亿美元融资，二季度开启千台级交付",
+      "source_name": "经济参考报",
+      "category": "融资",
+      "url": "http://www.jjckb.cn/20260601/b1b1b4db1f7a4d4e92818b182e0ad7d5/c.html"
+    },
+    {
+      "date": "05-20",
+      "company": "特斯拉",
+      "title": "特斯拉宣布开源 Optimus 手部专利与硬件结构细节",
+      "source_name": "机器之心",
+      "category": "新品与合作",
+      "url": "https://www.jiqizhixin.com/articles/2026-04-22-10"
+    },
+    {
+      "date": "05-15",
+      "company": "Figure",
+      "title": "Figure 公布 BMW 工厂第二阶段进展，试点扩大至多条产线",
+      "source_name": "机器之心",
+      "category": "新品与合作",
+      "url": "https://www.jiqizhixin.com"
+    }
+  ]
+}
