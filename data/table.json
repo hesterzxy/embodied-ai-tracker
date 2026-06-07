@@ -75,6 +75,15 @@
             "自研 FSD 迁移",
             "自研 Helix VLA",
             "自研 π0, 核心能力"
+          ],
+          "sources": [
+            {"name": "公开报道", "url": "#"},
+            {"name": "机器之心 2026-06", "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"},
+            {"name": "公开报道", "url": "#"},
+            {"name": "公开报道", "url": "#"},
+            {"name": "公开报道", "url": "#"},
+            {"name": "公开报道", "url": "#"},
+            {"name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458"}
           ]
         },
         {
@@ -114,20 +123,20 @@
           ],
           "sources": [
             {
-              "name": "公开报道",
-              "url": "#"
+              "name": "澎湃新闻 2025-05",
+              "url": "https://m.thepaper.cn/newsDetail_forward_30891870"
             },
             {
-              "name": "经济参考报 2026-06",
-              "url": "#"
+              "name": "澎湃新闻 2026-04",
+              "url": "http://m.toutiao.com/group/7624038409492759066/"
             },
             {
-              "name": "经济参考报 2026-06",
-              "url": "#"
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "#"
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
             },
             {
               "name": "—",
@@ -138,8 +147,8 @@
               "url": "#"
             },
             {
-              "name": "公开报道",
-              "url": "#"
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458"
             }
           ]
         },
@@ -170,6 +179,36 @@
             "demo → 2026Q2 计划量产",
             "demo → BMW 试点",
             "研究 → 模型授权"
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+            },
+            {
+              "name": "极客公园 2026-06",
+              "url": "http://m.toutiao.com/group/7646701040758161920/"
+            },
+            {
+              "name": "经济参考报 2026-06",
+              "url": "http://m.toutiao.com/group/7646265134007976500/"
+            },
+            {
+              "name": "上海证券报 2026-06",
+              "url": "http://www.cnstock.com/commonDetail/723167"
+            },
+            {
+              "name": "封面新闻 2026-04",
+              "url": "http://m.toutiao.com/group/7633737914161332736/"
+            },
+            {
+              "name": "RobotWale 2026-04",
+              "url": "https://www.robotwale.com/article/figure-ai-figure-01-figure-02-commercial-deployment"
+            },
+            {
+              "name": "公开报道",
+              "url": "#"
+            }
           ]
         },
         {
@@ -214,28 +253,28 @@
           ],
           "sources": [
             {
-              "name": "中国经济新闻网 2026-06",
-              "url": "#"
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
             },
             {
               "name": "—",
               "url": "#"
             },
             {
-              "name": "经济参考报 2026-06",
-              "url": "#"
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
             },
             {
-              "name": "公开报道 2026",
-              "url": "#"
-            },
-            {
-              "name": "—",
-              "url": "#"
+              "name": "上海证券报 2026-06",
+              "url": "http://www.cnstock.com/commonDetail/723167"
             },
             {
               "name": "—",
               "url": "#"
+            },
+            {
+              "name": "RobotWale 2026-04",
+              "url": "https://www.robotwale.com/article/figure-ai-figure-01-figure-02-commercial-deployment"
             },
             {
               "name": "—",
