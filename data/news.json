@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-13T17:19:11.334415+08:00",
+  "updated": "2026-06-13T22:02:25.530150+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -49,6 +49,30 @@
       "source_name": "36氪",
       "category": "新品与合作",
       "url": "https://36kr.com/newsflashes/3851320295166976?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "SpaceX业务呈现“一极盈利、两极亏损”格局",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/newsflashes/3851534097896712?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "湖州超级五电工厂落地，零跑奔赴百万销量制造突围",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/transportation/Qf0Wvm27ZkWJU9M9.html"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "比亚迪摊牌了",
+      "source_name": "钛媒体",
+      "category": "其他",
+      "url": "https://www.tmtpost.com/8023153.html"
     },
     {
       "date": "06-12",
