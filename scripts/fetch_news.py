@@ -27,6 +27,24 @@ RSS_SOURCES = [
     {"name": "甲子光年", "url": "https://www.jazzyear.com/feed"},
     {"name": "智东西", "url": "https://www.zhidx.com/feed"},
     {"name": "36氪", "url": "https://36kr.com/feed"},
+    {"name": "雷峰网", "url": "https://www.leiphone.com/feed"},
+    {"name": "虎嗅网", "url": "https://www.huxiu.com/rss/0.xml"},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml"},
+    {"name": "界面新闻", "url": "https://www.jiemian.com/lists/42.html"},
+    {"name": "创业邦", "url": "https://www.cyzone.cn/feed/"},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
+    {"name": "品玩", "url": "https://www.pingwest.com/feed/"},
+    {"name": "动点科技", "url": "https://techcrunch.cn/feed"},
+    {"name": "AI科技评论", "url": "https://aitechtalk.com/feed"},
+    {"name": "机器人大讲堂", "url": "https://www.robo-report.com/feed"},
+    {"name": "高工机器人", "url": "https://www.gongkong.com/rss/robot.xml"},
+]
+
+# Skip research reports / whitepapers that are not clickable news
+SKIP_KEYWORDS = [
+    "研报", "研究报告", "深度报告", "行业研究", "白皮书",
+    "年度报告", "年度研报", "市场研究", "产业研究",
+    "蓝皮书", "洞察报告", "调研报告", "分析报告",
 ]
 
 
@@ -57,6 +75,9 @@ def parse_rss(raw: bytes):
         link = item.findtext("link", "").strip()
         pub_date = item.findtext("pubDate", item.findtext("dc:date", "")).strip()
         desc = item.findtext("description", "").strip()
+        # Skip research reports
+        if any(sk in title or sk in desc for sk in SKIP_KEYWORDS):
+            continue
         if any(kw in title or kw in desc for kw in KEYWORDS):
             items.append({
                 "title": title,

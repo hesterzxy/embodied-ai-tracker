@@ -1,0 +1,26 @@
+# Trae IDE
+.trae/
+
+# Temporary / debug files
+check*.py
+check*.jq
+check*.txt
+out*.txt
+table_full.json
+
+# Excel files (not needed for the website)
+*.xlsx
+
+# Markdown drafts
+*_带源.md
+
+# Old HTML versions
+embodied_ai_competitor_tracker.html
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
