@@ -66,6 +66,9 @@ table.cmp td .cell-bullets li .b-label{color:var(--ink2);font-weight:600;font-si
 table.cmp td .cell-bullets li .b-detail{color:var(--ink)}
 table.cmp tr:nth-child(even) td{background:rgba(247,247,245,0.35)}
 table.cmp tr.grp td{background:var(--shade)}
+/* --- date timestamps --- */
+table.cmp .row-date{display:inline-block;font-family:var(--mono);font-size:9.5px;color:var(--ink3);background:rgba(200,210,220,0.25);padding:1px 6px;border-radius:2px;margin-left:6px;font-weight:400;letter-spacing:0.5px;vertical-align:middle}
+table.cmp td .cell-date{display:inline-block;font-family:var(--mono);font-size:9px;color:var(--ink3);background:rgba(200,210,220,0.15);padding:0 5px;border-radius:2px;margin-top:4px;letter-spacing:0.3px}
 
 /* ---------- dynamics ---------- */
 .toggle{display:inline-flex;border:1px solid var(--line2);border-radius:2px;overflow:hidden;margin-right:14px}
@@ -94,6 +97,10 @@ table.cmp tr.grp td{background:var(--shade)}
 #srcLegend{font-size:11.5px;color:var(--ink3);line-height:1.8;padding:10px 0 2px;display:none;border-top:1px solid var(--line);margin-top:2px}
 #srcLegend b{color:var(--ink2);font-weight:600;margin-right:4px}
 #srcLegend .src-item{display:inline-block;margin-right:16px;white-space:normal}
+/* pending companies */
+.pending-tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:10px;font-size:11px;font-family:var(--mono);margin-right:6px;margin-top:4px;letter-spacing:0.3px}
+.pending-del{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;margin-left:2px;padding:0 2px;line-height:1}
+.pending-del:hover{color:var(--ink)}
 
 /* add-company inline */
 .addbox{margin:8px 0 0;display:none}
@@ -198,13 +205,50 @@ document.getElementById('nextmon').textContent = '下周一 '+nextMonday();
 const addBtn=document.getElementById('addBtn'), addBox=document.getElementById('addBox'),
       addGo=document.getElementById('addGo'), addInput=document.getElementById('addInput'),
       addNotice=document.getElementById('addNotice');
-addBtn.onclick=()=>{addBox.classList.toggle('show'); if(addBox.classList.contains('show')) addInput.focus();};
+// Pending list (localStorage)
+function getPending(){try{return JSON.parse(localStorage.getItem('pendingCompanies')||'[]');}catch(e){return [];}}
+function setPending(arr){localStorage.setItem('pendingCompanies', JSON.stringify(arr)); renderPending();}
+function renderPending(){
+  const pending = getPending();
+  if(pending.length === 0){
+    addNotice.innerHTML = '';
+    addNotice.classList.remove('show');
+    return;
+  }
+  const list = pending.map(c=>`<span class="pending-tag">${c.name} <button class="pending-del" data-name="${c.name}" title="删除">×</button></span>`).join(' ');
+  addNotice.innerHTML = `<b>待处理</b>：${list}<br><small style="color:var(--ink3)">这些公司将在下次自动刷新时被三角验证并加入对比表。<button class="txtbtn" id="copyPending" style="font-size:11px;padding:0;margin-left:4px">复制列表</button></small>`;
+  addNotice.classList.add('show');
+  document.querySelectorAll('.pending-del').forEach(btn=>{
+    btn.onclick=(e)=>{
+      e.stopPropagation();
+      const name=btn.getAttribute('data-name');
+      setPending(getPending().filter(c=>c.name!==name));
+    };
+  });
+  const cpBtn=document.getElementById('copyPending');
+  if(cpBtn) cpBtn.onclick=(e)=>{
+    e.stopPropagation();
+    const txt=getPending().map(c=>c.name).join('\n');
+    navigator.clipboard&&navigator.clipboard.writeText(txt);
+    cpBtn.textContent='已复制'; setTimeout(()=>cpBtn.textContent='复制列表',1500);
+  };
+}
+addBtn.onclick=()=>{addBox.classList.toggle('show'); if(addBox.classList.contains('show')){addInput.focus(); renderPending();}};
 addGo.onclick=()=>{
-  const name=addInput.value.trim()||'该公司';
-  addNotice.textContent=`已加入「${name}」。该公司各维度数据将在下个发布点(下周一 ${nextMonday()})经人工核实后显示。`;
-  addNotice.classList.add('show'); addInput.value='';
+  const name=addInput.value.trim();
+  if(!name) return;
+  const pending=getPending();
+  if(pending.find(c=>c.name===name)){
+    addNotice.innerHTML = `「${name}」已在待处理列表中。`;
+    addNotice.classList.add('show');
+    return;
+  }
+  pending.push({name: name, added_at: new Date().toISOString().slice(0,10)});
+  setPending(pending);
+  addInput.value='';
 };
 addInput.addEventListener('keydown',e=>{if(e.key==='Enter')addGo.click();});
+renderPending();
 
 // ---- dynamics toggle ----
 const tFeed=document.getElementById('tFeed'), tWeek=document.getElementById('tWeek'),
@@ -272,6 +316,25 @@ async function loadTable(){
       data.companies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><span class="coname">${c.name}</span><span class="coreason">${c.reason}</span></th>`).join('');
     thead.appendChild(tr);
 
+    // Helper: extract YYYY-MM from source name
+    function extractDate(sourceName){
+      const m = sourceName.match(/(\d{4})[-年](\d{1,2})/);
+      if(m){
+        return m[1] + '-' + m[2].padStart(2, '0');
+      }
+      return null;
+    }
+    function latestDateForRow(r){
+      if(!r.sources) return null;
+      let latest = null;
+      r.sources.forEach(s=>{
+        const name = (typeof s==='object'?s.name:s)||'';
+        const d = extractDate(name);
+        if(d && (!latest || d > latest)) latest = d;
+      });
+      return latest;
+    }
+
     const tbody=document.getElementById('cmpBody');
     data.groups.forEach(g=>{
       const grp=document.createElement('tr'); grp.className='grp';
@@ -279,7 +342,10 @@ async function loadTable(){
       tbody.appendChild(grp);
       g.rows.forEach(r=>{
         const row=document.createElement('tr');
-        let html=`<td class="rowdim">${r.label}</td>`;
+        // Extract latest source date for this dimension row
+        const rowDate = latestDateForRow(r);
+        const dateBadge = rowDate ? `<span class="row-date" title="该维度数据更新于 ${rowDate}">${rowDate}</span>` : '';
+        let html=`<td class="rowdim">${r.label}${dateBadge}</td>`;
         r.cells.forEach((cell,idx)=>{
           const cls=data.companies[idx].emphasis?'self':'';
           // Build bullets
@@ -298,8 +364,9 @@ async function loadTable(){
               return `<li><span class="b-detail">${text}</span></li>`;
             }).join('');
           }
-          // Source link top-right (numbered)
+          // Source link top-right (numbered) + date at bottom
           let sourceHtml = '';
+          let cellDate = '';
           if(r.sources && r.sources[idx]){
             const s = r.sources[idx];
             const url=(typeof s==='object'?s.url:s)||'';
@@ -307,9 +374,13 @@ async function loadTable(){
             if(url && url!=='#' && srcMap.has(url)){
               const num=circled(srcMap.get(url).idx);
               sourceHtml = `<div class="cell-source"><a href="${url}" target="_blank" title="${name}">${num}</a></div>`;
+              const d = extractDate(name);
+              if(d && d !== rowDate){
+                cellDate = `<span class="cell-date">${d}</span>`;
+              }
             }
           }
-          html+=`<td class="${cls}">${sourceHtml}<ul class="cell-bullets">${bullets}</ul></td>`;
+          html+=`<td class="${cls}">${sourceHtml}<ul class="cell-bullets">${bullets}</ul>${cellDate}</td>`;
         });
         row.innerHTML=html;
         tbody.appendChild(row);
