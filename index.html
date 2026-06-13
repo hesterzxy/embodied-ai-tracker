@@ -185,7 +185,6 @@ table.cmp td .cell-date{display:inline-block;font-family:var(--mono);font-size:9
   </div>
 
   <div class="foot">
-    <b>数据说明</b>：对比表每周人工审核后发布；动态由公众号 RSS 自动抓取。融资信息引用前请核实。<br>
     <b>数据更新</b>：<span id="dataUpdated">—</span>
   </div>
 
@@ -288,7 +287,7 @@ async function loadTable(){
     // Collect & deduplicate sources across whole table
     const srcMap=new Map(); // url -> {name, idx}
     let srcCounter=0;
-    const circled=n=>String.fromCharCode(0x2460+n); // ①②③...
+    const circled=n=>String(n+1); // 1 2 3...
     function hostName(url){try{const u=new URL(url);return u.hostname.replace(/^www\./,'');}catch(e){return url;}}
     function prettySource(s){
       const url=(typeof s==='object'?s.url:s)||'';
@@ -373,7 +372,7 @@ async function loadTable(){
             const name=(typeof s==='object'?s.name:s)||'';
             if(url && url!=='#' && srcMap.has(url)){
               const num=circled(srcMap.get(url).idx);
-              sourceHtml = `<div class="cell-source"><a href="${url}" target="_blank" title="${name}">${num}</a></div>`;
+              sourceHtml = `<div class="cell-source"><a href="${url}" target="_blank" title="${name}">[${num}]</a></div>`;
               const d = extractDate(name);
               if(d && d !== rowDate){
                 cellDate = `<span class="cell-date">${d}</span>`;
@@ -391,7 +390,7 @@ async function loadTable(){
     if(srcMap.size){
       const legend=document.getElementById('srcLegend');
       const items=[...srcMap.entries()].sort((a,b)=>a[1].idx-b[1].idx);
-      legend.innerHTML='<b>来源</b>：'+items.map(([url,info])=>`${circled(info.idx)} ${info.name}`).join(' · ');
+      legend.innerHTML='<b>来源</b>：'+items.map(([url,info])=>`[${circled(info.idx)}] ${info.name}`).join(' · ');
       legend.style.display='block';
     }
   }catch(e){

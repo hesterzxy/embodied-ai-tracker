@@ -1,7 +1,151 @@
 {
-  "updated": "2026-06-07T12:00:00+08:00",
-  "source": "手动整理",
+  "updated": "2026-06-13T14:39:42.559199+08:00",
+  "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-13",
+      "company": "行业",
+      "title": "“宁王系”，排队 IPO",
+      "source_name": "36氪",
+      "category": "融资",
+      "url": "https://36kr.com/p/3851106394117383?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "突发！Anthropic全球停用Claude 5",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/p/3851015329027336?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "9点1氪｜SpaceX市值破2.1万亿美元，马斯克身家达巴菲特7倍；胖东来回应“员工不值这么多钱”等言论；FIFA联名款labubu世界杯销量暴涨30倍",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/p/3850898430989577?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "魔法原子上交会首秀VLA K02大模型",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/newsflashes/3850998799373319?f=rss"
+    },
+    {
+      "date": "06-13",
+      "company": "其他",
+      "title": "2026北京智源大会开幕 | 从“悟道”到“悟界”，智源研究院推动人工智能、物理世界和生命科学“三体互动”",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/academic/PRkJuKQSDv4Q1le5.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "BEV 杀入具身智能：跨维把机器人数据带上 Scaling 快车道",
+      "source_name": "量子位",
+      "category": "其他",
+      "url": "https://www.qbitai.com/2026/06/434761.html"
+    },
+    {
+      "date": "06-12",
+      "company": "OpenAI",
+      "title": "氪星晚报｜SpaceX确定发行价，募资750亿美元创史上最大IPO；OpenAI CEO奥特曼推迟访韩计划；中央网信办举报中心开设“涉AI应用乱象举报专区”",
+      "source_name": "36氪",
+      "category": "融资",
+      "url": "https://36kr.com/p/3849942472512769?f=rss"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "万台量产之后，机器人企业比拼什么？",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/industrynews/q05jAEnENMMJiEH0.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "中科院物理研究所黄学杰 ：全固态电池掀桌子前，必须做好固液混合电池丨大湾区车展观察",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/transportation/xRrGlFlEHbWMo9SL.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "中科大&智象未来：强模型打底、轻模型精修，重塑视频超分体验丨CVPR 2026",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/ai/qDR8TrUNjdEVUrWa.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "Nature 子刊收录！清华李勇团队用 AI 解码全球气候耦合，ENSO 预测提前期延长至 19 个月",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/ai/Sgux2ZbLaFbXaZxD.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "CVPR 2026 模型适应性研究盘点：从保留旧知识，到适应真实世界",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/ai/9x05Sw5uY0RhgEdO.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "生成预测四大权威榜单第一！开悟世界模型确立具身智能世界模型新标杆",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/ai/G88m8g2T61aivI2F.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "什么样的机器人，是我们所期待的？",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/industrynews/CE76ykduYdOStDkC.html"
+    },
+    {
+      "date": "06-12",
+      "company": "其他",
+      "title": "让AI回归工具：萤石开放平台2.0如何用「双平台」破解IoT落地难题？",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/smarthome/Ib0fWcObeTWu3DGM.html"
+    },
+    {
+      "date": "06-11",
+      "company": "其他",
+      "title": "RoboParty 萝博派对创始人黄一荣登福布斯亚洲 U30 精英榜单",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/industrynews/rOQfGakXOc7Oa8HU.html"
+    },
+    {
+      "date": "06-11",
+      "company": "其他",
+      "title": "独家丨前九号机器人负责人孙春阳创业，布局AI家庭影像赛道",
+      "source_name": "雷峰网",
+      "category": "其他",
+      "url": "https://www.leiphone.com/category/weiwu/fBvk2VTXEKZHfa4X.html"
+    },
+    {
+      "date": "06-11",
+      "company": "其他",
+      "title": "早报｜大疆Pocket4P价格曝光/3999起，影石Luna Ultra正式发布/何小鹏亲自直管机器人业务",
+      "source_name": "爱范儿",
+      "category": "新品与合作",
+      "url": "https://www.ifanr.com/1668618?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "date": "06-07",
       "company": "OpenAI",
@@ -35,22 +179,6 @@
       "url": "https://cj.sina.cn/articles/view/2495471725/94bde06d00101idku"
     },
     {
-      "date": "06-01",
-      "company": "宇树科技",
-      "title": "宇树携手英伟达推出新一代人形机器人参考设计 H2+",
-      "source_name": "国金证券研报",
-      "category": "新品与合作",
-      "url": "#"
-    },
-    {
-      "date": "05-30",
-      "company": "星海图",
-      "title": "星海图 4 月再获近 20 亿元 B+ 轮融资，估值约 200 亿元",
-      "source_name": "经济参考报",
-      "category": "融资",
-      "url": "http://www.jjckb.cn/20260601/b1b1b4db1f7a4d4e92818b182e0ad7d5/c.html"
-    },
-    {
       "date": "05-28",
       "company": "智元机器人",
       "title": "智元第 10000 台远征 A3 下线，全球市占率 39%",
@@ -59,28 +187,12 @@
       "url": "https://www.cet.com.cn/itpd/itxw/10387848.shtml"
     },
     {
-      "date": "05-25",
-      "company": "星动纪元",
-      "title": "星动纪元 4 月再获超 2 亿美元融资，二季度开启千台级交付",
-      "source_name": "经济参考报",
-      "category": "融资",
-      "url": "http://www.jjckb.cn/20260601/b1b1b4db1f7a4d4e92818b182e0ad7d5/c.html"
-    },
-    {
       "date": "05-20",
       "company": "特斯拉",
       "title": "特斯拉宣布开源 Optimus 手部专利与硬件结构细节",
       "source_name": "机器之心",
       "category": "新品与合作",
       "url": "https://www.jiqizhixin.com/articles/2026-04-22-10"
-    },
-    {
-      "date": "05-15",
-      "company": "Figure",
-      "title": "Figure 公布 BMW 工厂第二阶段进展，试点扩大至多条产线",
-      "source_name": "机器之心",
-      "category": "新品与合作",
-      "url": "https://www.jiqizhixin.com"
     }
   ]
 }

@@ -53,8 +53,9 @@ def fetch_rss(url: str, timeout: int = 20):
     try:
         with urlopen(req, timeout=timeout) as resp:
             return resp.read()
-    except URLError as e:
-        print(f"WARN: failed to fetch {url}: {e}")
+    except Exception as e:
+        # Catch all network / SSL / timeout / HTTP errors — don't let one bad source kill the whole run
+        print(f"WARN: failed to fetch {url}: {type(e).__name__}: {e}")
         return None
 
 
@@ -89,17 +90,22 @@ def parse_rss(raw: bytes):
 
 
 def normalize_date(pub_date: str):
-    """Try to parse RSS date to MM-DD format."""
+    """Try to parse RSS date to MM-DD format. Returns (MM-DD, timezone-aware datetime)."""
     formats = [
         "%a, %d %b %Y %H:%M:%S %z",
         "%a, %d %b %Y %H:%M:%S GMT",
+        "%a, %d %b %Y %H:%M:%S +0000",
         "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S",
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d",
     ]
     for fmt in formats:
         try:
             dt = datetime.strptime(pub_date, fmt)
+            # Make timezone-aware: if no tz, assume UTC
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
             return dt.strftime("%m-%d"), dt
         except ValueError:
             continue
@@ -107,8 +113,9 @@ def normalize_date(pub_date: str):
     m = re.search(r'(\d{4})-(\d{2})-(\d{2})', pub_date)
     if m:
         y, mon, d = m.groups()
-        return f"{mon}-{d}", datetime(int(y), int(mon), int(d))
-    now = datetime.now()
+        dt = datetime(int(y), int(mon), int(d), tzinfo=timezone.utc)
+        return f"{mon}-{d}", dt
+    now = datetime.now(timezone.utc)
     return now.strftime("%m-%d"), now
 
 
@@ -167,7 +174,7 @@ def main():
                 continue
             date_str, dt = normalize_date(p["pub_date"])
             # Only keep items from last 14 days to avoid stale news
-            if datetime.now(tz=dt.tzinfo or timezone.utc) - dt > timedelta(days=14):
+            if datetime.now(tz=timezone.utc) - dt > timedelta(days=14):
                 continue
             new_items.append({
                 "date": date_str,

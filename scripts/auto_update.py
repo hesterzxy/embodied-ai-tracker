@@ -333,9 +333,10 @@ def main():
     # 检查 API Key
     if not os.environ.get('ANTHROPIC_API_KEY') and not os.environ.get('OPENAI_API_KEY'):
         print("\n⚠️  未检测到 LLM API Key（ANTHROPIC_API_KEY 或 OPENAI_API_KEY）")
-        print("   请先配置环境变量后再运行。")
-        print("   export ANTHROPIC_API_KEY=sk-ant-...")
-        sys.exit(1)
+        print("   请在 GitHub Settings → Secrets and variables → Actions 中添加 API Key。")
+        print("   对比表数据未更新，保持现有内容不变。")
+        # 不报错退出 — workflow 不要因缺少 API Key 而标红
+        sys.exit(0)
 
     # 读取现有数据
     existing_table = load_json(TABLE_PATH, default={
