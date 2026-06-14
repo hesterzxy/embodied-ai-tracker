@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-14T12:11:44.354780+08:00",
+  "updated": "2026-06-14T17:37:26.905295+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -9,6 +9,22 @@
       "source_name": "36氪",
       "category": "其他",
       "url": "https://36kr.com/p/3851572421432324?f=rss"
+    },
+    {
+      "date": "06-14",
+      "company": "其他",
+      "title": "我国首批自研海洋工程柔性智能焊接机器人投用",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/newsflashes/3852643642053897?f=rss"
+    },
+    {
+      "date": "06-14",
+      "company": "OpenAI",
+      "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
+      "source_name": "36氪",
+      "category": "其他",
+      "url": "https://36kr.com/newsflashes/3852506866865414?f=rss"
     },
     {
       "date": "06-13",
