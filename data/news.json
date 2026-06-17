@@ -1,7 +1,87 @@
 {
-  "updated": "2026-06-17T04:53:25.426549+08:00",
+  "updated": "2026-06-17T18:59:17.963912+08:00",
   "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "风拂阳澄，来半岛解锁夏日限定AI狂欢！",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/p/3857051317359622?f=rss"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
+      "source_name": "36氪",
+      "category": "商业订单",
+      "url": "https://36kr.com/p/3856871787189252?f=rss"
+    },
+    {
+      "date": "06-17",
+      "company": "行业",
+      "title": "「逆矩阵」完成超亿美元融资，创始人：通用世界基座模型窗口期已压至18个月",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/p/3826129009234824?f=rss"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "8点1氪丨连涨3天，SpaceX超越亚马逊跻身全球前五；支付宝启动史上最大改版；微信支付“AI专属卡”最快本周内上线",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/p/3856525981275138?f=rss"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "凯迪股份：公司机器人产品仍处开发阶段，短期内暂无法形成收入",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/newsflashes/3857127292474628?f=rss"
+    },
+    {
+      "date": "06-17",
+      "company": "OpenAI",
+      "title": "OpenAI 被传要终止 IPO？",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "url": "https://www.leiphone.com/category/ai/OOjkRGQUyVp9mtQ4.html"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "刷新权威榜单SOTA！ACE-Ego 解锁“以人为中心”的规模化具身模型训练新范式",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "url": "https://www.leiphone.com/category/ai/Dt3i3KlHCTdZGukZ.html"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "探索Bio AI「o1时刻」：百奥几何的三年微观世界模型演进",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "url": "https://www.leiphone.com/category/aihealth/jAeC3TqxHJc8bGb1.html"
+    },
+    {
+      "date": "06-17",
+      "company": "行业",
+      "title": "DeepSeek完成500亿融资，采用特殊架构保梁文锋控权；被约谈后，山姆总部更换董事长；豪掷20亿元股权！理想重赏三大高管，市值1万亿元可解锁兑现",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "url": "https://www.leiphone.com/category/zaobao/x7smRCp8vFcgtOEU.html"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "机器人养老，离我们不远了？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "url": "https://www.tmtpost.com/8031378.html"
+    },
     {
       "date": "06-16",
       "company": "其他",
