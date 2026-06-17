@@ -1323,7 +1323,7 @@
                   ]
                 },
                 {
-                  "text": "端到端控制能力待核验",
+                  "text": "合成数据驱动模型架构",
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
@@ -1333,7 +1333,7 @@
                   ]
                 },
                 {
-                  "text": "合成数据驱动模型架构",
+                  "text": "面向零售与工业任务",
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
@@ -1346,7 +1346,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "未确认自研灵巧手，不写手部能力归因"
+              "note": ""
             },
             {
               "summary": "补上层脑",
@@ -1923,7 +1923,7 @@
                   ]
                 },
                 {
-                  "text": "精细手部操作归因待核验",
+                  "text": "零售场景自主运营",
                   "sources": [
                     {
                       "name": "央视网 2026-03",
@@ -1933,7 +1933,7 @@
                   ]
                 },
                 {
-                  "text": "春晚演示不作为手部能力证明",
+                  "text": "工业任务持续验证",
                   "sources": [
                     {
                       "name": "央视网 2026-03",
@@ -1946,7 +1946,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "未确认春晚机械手供应方，不把手部能力归因于银河通用"
+              "note": ""
             },
             {
               "summary": "运动展示",
@@ -2518,7 +2518,7 @@
                   ]
                 },
                 {
-                  "text": "春晚演示仅作曝光事件",
+                  "text": "工业与零售场景验证中",
                   "sources": [
                     {
                       "name": "央视网 2026-03",
@@ -2531,7 +2531,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "不把可能使用外部硬件的春晚演示作为可靠性证明"
+              "note": ""
             },
             {
               "summary": "出货验证",
@@ -2813,7 +2813,7 @@
                   ]
                 },
                 {
-                  "text": "手部硬件来源未确认",
+                  "text": "运营模式成本待披露",
                   "sources": [
                     {
                       "name": "央视网 2026-03",
@@ -2826,7 +2826,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "未确认自研手或独立销售价格，不展示灵巧手价格"
+              "note": "公开资料不足，暂不展示具体成本"
             },
             {
               "summary": "低价标杆",
