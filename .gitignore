@@ -2,6 +2,7 @@
 .trae/
 
 # Temporary / debug files
+public/
 check*.py
 check*.jq
 check*.txt

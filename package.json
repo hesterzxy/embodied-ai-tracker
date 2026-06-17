@@ -1,0 +1,11 @@
+{
+  "name": "embodied-ai-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "node scripts/vercel-build.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
