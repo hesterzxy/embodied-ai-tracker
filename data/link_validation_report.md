@@ -1,11 +1,11 @@
 # Link Validation Report
 
-Generated: 2026-06-18T00:15:03+08:00
+Generated: 2026-06-18T00:29:30+08:00
 
 ## Summary
 
 - invalid: 246
-- no_url: 83
+- no_url: 117
 
 ## Details
 
@@ -27,6 +27,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 核心差异化 | no_url (no URL) | 战略归纳 | # | $39B估值 + BMW实机 |
 | matrix | Physical Intelligence | 核心差异化 | no_url (no URL) | 战略归纳 | # | 纯模型路线 |
 | matrix | Physical Intelligence | 核心差异化 | no_url (no URL) | 战略归纳 | # | π0 VLA跨本体 |
+| matrix | 波士顿动力 | 核心差异化 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 核心差异化 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 技术路线 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 人形整机+具身大模型 |
 | matrix | 智元 AgiBot | 技术路线 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 软硬一体 |
 | matrix | 智元 AgiBot | 技术路线 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 完整本体矩阵 |
@@ -48,6 +50,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 技术路线 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 不做本体 |
 | matrix | Physical Intelligence | 技术路线 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 专注通用机器人基础模型 |
 | matrix | Physical Intelligence | 技术路线 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 硬件无关 |
+| matrix | 波士顿动力 | 技术路线 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 技术路线 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 目标场景 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 工业制造/汽车产线 |
 | matrix | 智元 AgiBot | 目标场景 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 商用导览 |
 | matrix | 智元 AgiBot | 目标场景 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 家庭服务(2026年底目标) |
@@ -68,6 +72,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 目标场景 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 制造 |
 | matrix | Physical Intelligence | 目标场景 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 物流 |
 | matrix | Physical Intelligence | 目标场景 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 医疗 |
+| matrix | 波士顿动力 | 目标场景 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 目标场景 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 远征A2双臂工业机 |
 | matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 关节高扭矩参数待官方规格复核 |
 | matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 灵犀X2轻量化版 |
@@ -87,6 +93,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 硬件能力 | invalid (URLError) | TechCrunch 2026-04 | https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/ | 适配工业环境 |
 | matrix | Physical Intelligence | 硬件能力 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 不造硬件 |
 | matrix | Physical Intelligence | 硬件能力 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 适配第三方本体(Unitree/Fourier/AgileX等) |
+| matrix | 波士顿动力 | 硬件能力 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 硬件能力 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 大脑自研 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 自研启元大模型+仿真平台 |
 | matrix | 智元 AgiBot | 大脑自研 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 端到端具身基座模型 |
 | matrix | 智元 AgiBot | 大脑自研 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 自主芯片适配 |
@@ -107,6 +115,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | π0/π0.5/π0.7 VLA路线 |
 | matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | 世界模型与行为-动作模型 |
 | matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | 核心自研能力 |
+| matrix | 波士顿动力 | 大脑自研 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 大脑自研 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 真机+仿真合成 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 自有工厂部署采集 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 数据闭环 |
@@ -126,6 +136,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 数据策略 | no_url (no URL) | 公开报道 | # | 跨7种以上本体聚合数据 |
 | matrix | Physical Intelligence | 数据策略 | no_url (no URL) | 公开报道 | # | 权重开源 |
 | matrix | Physical Intelligence | 数据策略 | no_url (no URL) | 公开报道 | # | 供研究社区使用 |
+| matrix | 波士顿动力 | 数据策略 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 数据策略 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 实测能力 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 工业装配螺丝锁付 |
 | matrix | 智元 AgiBot | 实测能力 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 精度与良率持续提升 |
 | matrix | 智元 AgiBot | 实测能力 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 量产机台可24小时运行 |
@@ -144,6 +156,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 实测能力 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 部署规模与班次数字未稳定披露 |
 | matrix | Physical Intelligence | 实测能力 | invalid (URLError) | arXiv 2026-01 | https://arxiv.org/abs/2601.05678 | 叠衣/插滤芯/装箱/清洁陌生家庭 |
 | matrix | Physical Intelligence | 实测能力 | invalid (URLError) | arXiv 2026-01 | https://arxiv.org/abs/2601.05678 | 研究论文展示泛化能力强 |
+| matrix | 波士顿动力 | 实测能力 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 实测能力 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 官方披露万台下线 |
 | matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 公开报道指向2026年3月节点 |
 | matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 万台级产线持续爬坡 |
@@ -163,6 +177,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 量产进度 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 2026年产能爬坡 |
 | matrix | Physical Intelligence | 量产进度 | no_url (no URL) | 公开报道 | # | 无硬件生产计划 |
 | matrix | Physical Intelligence | 量产进度 | no_url (no URL) | 公开报道 | # | 专注软件模型与授权 |
+| matrix | 波士顿动力 | 量产进度 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 量产进度 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 可靠性 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 量产验证 |
 | matrix | 智元 AgiBot | 可靠性 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 整机良率持续提升 |
 | matrix | 智元 AgiBot | 可靠性 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 工业场景24小时运行测试 |
@@ -184,6 +200,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 可靠性 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 模型层验证 |
 | matrix | Physical Intelligence | 可靠性 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | RECAP自述降低失败率2倍 |
 | matrix | Physical Intelligence | 可靠性 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 翻倍吞吐效率 |
+| matrix | 波士顿动力 | 可靠性 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 可靠性 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 价格/成本 | no_url (no URL) | 公开报道 | # | 未公开终端售价 |
 | matrix | 智元 AgiBot | 价格/成本 | no_url (no URL) | 公开报道 | # | 对标工业机器人价位 |
 | matrix | 智元 AgiBot | 价格/成本 | no_url (no URL) | 公开报道 | # | 预计几十万级 |
@@ -202,6 +220,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 价格/成本 | no_url (no URL) | 公开报道 | # | 早期单价较高 |
 | matrix | Physical Intelligence | 价格/成本 | no_url (no URL) | 公开报道 | # | 模型授权费用 |
 | matrix | Physical Intelligence | 价格/成本 | no_url (no URL) | 公开报道 | # | 不售卖硬件 |
+| matrix | 波士顿动力 | 价格/成本 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 价格/成本 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 真实订单 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 万台级出货 |
 | matrix | 智元 AgiBot | 真实订单 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 比亚迪/蔚来/龙旗科技等产线部署 |
 | matrix | 智元 AgiBot | 真实订单 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 2025出货5168台 |
@@ -221,6 +241,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 真实订单 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 第二客户待公开确认 |
 | matrix | Physical Intelligence | 真实订单 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 无硬件订单 |
 | matrix | Physical Intelligence | 真实订单 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 以模型授权/API/研究合作为主 |
+| matrix | 波士顿动力 | 真实订单 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 真实订单 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 标杆客户 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 比亚迪(持股+客户) |
 | matrix | 智元 AgiBot | 标杆客户 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 蔚来 |
 | matrix | 智元 AgiBot | 标杆客户 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 龙旗科技等制造业龙头 |
@@ -233,17 +255,21 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | 宇树 Unitree | 标杆客户 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 汽车零部件厂 |
 | matrix | 宇树 Unitree | 标杆客户 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 海外科研机构 |
 | matrix | 特斯拉 Optimus | 标杆客户 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 特斯拉各超级工厂内部部署 |
+| matrix | 特斯拉 Optimus | 标杆客户 | no_url (no URL) | 待核验 | # | 暂无可靠公开数据 |
 | matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | BMW为明确标杆客户 |
 | matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | Figure官方披露贡献3万+ X3生产 |
 | matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 机器人数量与交易规模未公开 |
 | matrix | Physical Intelligence | 标杆客户 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 机器人厂商/研究机构合作 |
 | matrix | Physical Intelligence | 标杆客户 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | Stanford/UC Berkeley等学术合作 |
+| matrix | 波士顿动力 | 标杆客户 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 标杆客户 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 商业模式 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 整机销售为主 |
 | matrix | 智元 AgiBot | 商业模式 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 辅以RaaS租赁+生态平台+开源社区 |
 | matrix | 智元 AgiBot | 商业模式 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 目标营收百亿级 |
 | matrix | 星海图 Galaxea | 商业模式 | no_url (no URL) | 极客公园 2026-06（待换稳定源） | # | 软硬件一体整机+开发者平台 |
 | matrix | 星海图 Galaxea | 商业模式 | no_url (no URL) | 极客公园 2026-06（待换稳定源） | # | 模型授权+硬件销售 |
 | matrix | 银河通用 Galbot | 商业模式 | invalid (URLError) | 雪球 2026-01 | https://xueqiu.com/3972348791/283765165 | 软硬一体+场景运营(便利店机器人即服务)+文旅IP运营 |
+| matrix | 银河通用 Galbot | 商业模式 | no_url (no URL) | 待核验 | # | 暂无可靠公开数据 |
 | matrix | 宇树 Unitree | 商业模式 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 硬件销售为主(四足+人形)+参考设计+核心部件外销 |
 | matrix | 宇树 Unitree | 商业模式 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 已规模化盈利 |
 | matrix | 特斯拉 Optimus | 商业模式 | no_url (no URL) | 公开报道 | # | 自产自用先验证 |
@@ -254,6 +280,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 模型API/研究授权/企业合作 |
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 软件层为主 |
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 轻资产 |
+| matrix | 波士顿动力 | 商业模式 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 商业模式 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 邓泰华(CEO，前华为无线总裁) |
 | matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 彭志辉(稚晖君/CTO/前华为) |
 | matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 高继扬：清华、南加州大学背景，曾任职Waymo |
@@ -271,6 +299,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Karol Hausman任CEO，前Google DeepMind |
 | matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Chelsea Finn为斯坦福教授 |
 | matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Sergey Levine为UC Berkeley教授 |
+| matrix | 波士顿动力 | 创始团队 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 创始团队 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 累计12轮融资超50亿元 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 估值约150亿元 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 腾讯/比亚迪等领投 |
@@ -291,6 +321,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Figure | 融资估值 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 顶级VC+产业资本 |
 | matrix | Physical Intelligence | 融资估值 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | B轮$600M投后$5.6B |
 | matrix | Physical Intelligence | 融资估值 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 新一轮$1B融资$11B估值洽谈中(2026-03) |
+| matrix | 波士顿动力 | 融资估值 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 融资估值 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | matrix | 智元 AgiBot | 股东/生态资源 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 腾讯、比亚迪等资本参与 |
 | matrix | 智元 AgiBot | 股东/生态资源 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 比亚迪兼具股东与客户属性 |
 | matrix | 智元 AgiBot | 股东/生态资源 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 制造业客户可形成数据闭环 |
@@ -312,6 +344,8 @@ Generated: 2026-06-18T00:15:03+08:00
 | matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 斯坦福/UC Berkeley学研网络强 |
 | matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | Google DeepMind系经验明显 |
 | matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 依赖机器人厂商间接落地 |
+| matrix | 波士顿动力 | 股东/生态资源 | no_url (no URL) | 待核验 | # | 自动核验暂未完成 |
+| matrix | 波士顿动力 | 股东/生态资源 | no_url (no URL) | 待核验 | # | 等待公开来源补充 |
 | news | 其他 | 商业订单 | invalid (URLError) | 36氪 | https://36kr.com/p/3856871787189252?f=rss | 硬氪专访  /  罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里 |
 | news | 其他 | 行业动态 | invalid (URLError) | 36氪 | https://36kr.com/newsflashes/3857127292474628?f=rss | 凯迪股份：公司机器人产品仍处开发阶段，短期内暂无法形成收入 |
 | news | 其他 | 技术突破 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/aihealth/jAeC3TqxHJc8bGb1.html | 探索Bio AI「o1时刻」：百奥几何的三年微观世界模型演进 |

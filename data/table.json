@@ -1,5 +1,7 @@
 {
-  "published": "2026-06-13",
+  "schema_version": 2,
+  "verification_method": "triangulated_evidence_v1",
+  "published": "2026-06-18",
   "companies": [
     {
       "name": "智元 AgiBot",
@@ -35,6 +37,11 @@
       "name": "Physical Intelligence",
       "reason": "纯模型路线 · π0系列跨本体",
       "emphasis": false
+    },
+    {
+      "name": "波士顿动力",
+      "reason": "资料待核验 · 已进入更新队列",
+      "emphasis": false
     }
   ],
   "groups": [
@@ -68,10 +75,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
             },
             {
               "summary": "VLA抓取",
@@ -97,10 +104,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
             },
             {
               "summary": "仿真数据",
@@ -126,10 +133,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
             },
             {
               "summary": "硬件低价",
@@ -165,10 +172,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号；出货量口径存在公司自报与第三方统计差异",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号；出货量口径存在公司自报与第三方统计差异"
             },
             {
               "summary": "自产场景",
@@ -204,10 +211,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号；FSD相关表述限定为感知栈和算力体系复用",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号；FSD相关表述限定为感知栈和算力体系复用"
             },
             {
               "summary": "海外工厂",
@@ -233,10 +240,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
             },
             {
               "summary": "纯模型层",
@@ -262,10 +269,81 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "战略归纳，不显示引用编号",
               "kind": "synthesis",
-              "updated_recent": false
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -280,7 +358,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -289,7 +368,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -298,14 +378,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "端到端VLA",
@@ -315,7 +397,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -324,7 +407,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -333,14 +417,16 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "仿真驱动",
@@ -350,7 +436,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -359,7 +446,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -368,14 +456,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "运动控制",
@@ -385,7 +475,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -394,7 +485,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -403,14 +495,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "FSD迁移",
@@ -420,7 +514,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus"
+                      "url": "https://www.tesla.com/optimus",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -429,7 +524,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus"
+                      "url": "https://www.tesla.com/optimus",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -438,14 +534,16 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus"
+                      "url": "https://www.tesla.com/optimus",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "Helix自研",
@@ -455,7 +553,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -464,7 +563,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -473,14 +573,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "跨本体模型",
@@ -490,7 +592,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -499,7 +602,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -508,14 +612,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "科创板日报 2026-04（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉官网",
+              "url": "https://www.tesla.com/optimus",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -530,7 +707,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -539,7 +717,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -548,14 +727,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "搬运拣选",
@@ -565,7 +746,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -574,7 +756,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -583,14 +766,16 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "零售工业",
@@ -600,7 +785,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -609,7 +795,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -618,14 +805,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "科研教育",
@@ -635,7 +824,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -644,7 +834,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -653,14 +844,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "自有工厂",
@@ -670,7 +863,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -679,14 +873,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "BMW产线",
@@ -696,7 +892,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -705,7 +902,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -714,14 +912,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "模型赋能",
@@ -731,7 +931,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -740,7 +941,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -749,14 +951,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "极客公园 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         }
@@ -776,7 +1051,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -785,7 +1061,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -794,14 +1071,16 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "512Nm具体数值暂不展示，待官方规格书或双源核验",
-              "updated_recent": false
+              "note": "512Nm具体数值暂不展示，待官方规格书或双源核验"
             },
             {
               "summary": "轮式双臂",
@@ -811,7 +1090,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -820,7 +1100,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -829,14 +1110,16 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "重载双臂",
@@ -846,7 +1129,8 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -855,7 +1139,8 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -864,14 +1149,16 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "四足到人形",
@@ -881,7 +1168,8 @@
                   "sources": [
                     {
                       "name": "宇树官网 2026",
-                      "url": "https://www.unitree.com"
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -890,14 +1178,16 @@
                   "sources": [
                     {
                       "name": "宇树官网 2026",
-                      "url": "https://www.unitree.com"
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "全栈本体",
@@ -907,7 +1197,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -916,7 +1207,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -925,14 +1217,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "硬件规格未充分三角核验，保守展示",
-              "updated_recent": false
+              "note": "硬件规格未充分三角核验，保守展示"
             },
             {
               "summary": "量产本体",
@@ -942,7 +1236,8 @@
                   "sources": [
                     {
                       "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/"
+                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -951,7 +1246,8 @@
                   "sources": [
                     {
                       "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/"
+                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -960,14 +1256,16 @@
                   "sources": [
                     {
                       "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/"
+                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "不造硬件",
@@ -977,7 +1275,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -986,14 +1285,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "机器之心 2026-06",
+              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网 2026",
+              "url": "https://www.unitree.com",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "TechCrunch 2026-04",
+              "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -1008,7 +1380,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1017,7 +1390,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1026,14 +1400,16 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "G0模型",
@@ -1043,7 +1419,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1052,7 +1429,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1061,14 +1439,16 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "银河星脑",
@@ -1078,7 +1458,8 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1087,7 +1468,8 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1096,14 +1478,16 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "补上层脑",
@@ -1113,7 +1497,8 @@
                   "sources": [
                     {
                       "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/"
+                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1122,7 +1507,8 @@
                   "sources": [
                     {
                       "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/"
+                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1131,14 +1517,16 @@
                   "sources": [
                     {
                       "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/"
+                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "FSD复用",
@@ -1148,7 +1536,8 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1157,7 +1546,8 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1166,14 +1556,16 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "驾驶数据与机器人操作数据不同，此处限定为感知栈、算力与工程体系复用",
-              "updated_recent": false
+              "note": "驾驶数据与机器人操作数据不同，此处限定为感知栈、算力与工程体系复用"
             },
             {
               "summary": "Helix模型",
@@ -1183,7 +1575,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1192,14 +1585,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "π0系列",
@@ -1235,9 +1630,81 @@
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "不展示非正式代际写法，避免与π0系列主线混淆",
-              "updated_recent": false
+              "note": "不展示非正式代际写法，避免与π0系列主线混淆"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "科创板日报 2026-04（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "英伟达官网 GR00T",
+              "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉 AI Day",
+              "url": "https://www.tesla.com/ai-day",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "Physical Intelligence π0.5",
+              "url": "https://www.physicalintelligence.company/blog/pi05",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -1252,7 +1719,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2025-10",
-                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7"
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1261,7 +1729,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2025-10",
-                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7"
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1270,14 +1739,16 @@
                   "sources": [
                     {
                       "name": "机器之心 2025-10",
-                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7"
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "真机场景",
@@ -1287,7 +1758,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1296,7 +1768,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1305,14 +1778,16 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "合成主导",
@@ -1322,7 +1797,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165"
+                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1331,7 +1807,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165"
+                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1340,14 +1817,16 @@
                   "sources": [
                     {
                       "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165"
+                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "生态数据",
@@ -1357,7 +1836,8 @@
                   "sources": [
                     {
                       "name": "宇树官网",
-                      "url": "https://www.unitree.com"
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1366,14 +1846,16 @@
                   "sources": [
                     {
                       "name": "宇树官网",
-                      "url": "https://www.unitree.com"
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "工厂数据",
@@ -1383,7 +1865,8 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1392,7 +1875,8 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1401,14 +1885,16 @@
                   "sources": [
                     {
                       "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day"
+                      "url": "https://www.tesla.com/ai-day",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "驾驶数据不直接等同于操作数据",
-              "updated_recent": false
+              "note": "驾驶数据不直接等同于操作数据"
             },
             {
               "summary": "工厂采集",
@@ -1418,7 +1904,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1427,14 +1914,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "跨本体数据",
@@ -1444,7 +1933,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1453,7 +1943,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1462,14 +1953,87 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "机器之心 2025-10",
+              "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+              "evidence": ""
+            },
+            {
+              "name": "极客公园 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "雪球 2026-01",
+              "url": "https://xueqiu.com/3972348791/283765165",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网",
+              "url": "https://www.unitree.com",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉 AI Day",
+              "url": "https://www.tesla.com/ai-day",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -1484,7 +2048,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1493,7 +2058,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1502,14 +2068,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "泛化抓取",
@@ -1519,7 +2087,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1528,7 +2097,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1537,14 +2107,16 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "工厂作业",
@@ -1554,7 +2126,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1563,7 +2136,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1572,14 +2146,16 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "春晚机械手供应方可能涉及外部厂商；不把该手部能力归因于银河通用",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "春晚机械手供应方可能涉及外部厂商；不把该手部能力归因于银河通用"
             },
             {
               "summary": "运动展示",
@@ -1589,7 +2165,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1598,14 +2175,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "仍在内测",
@@ -1615,7 +2194,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1624,14 +2204,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "BMW试点",
@@ -1667,9 +2249,10 @@
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "Figure官方披露班次与产量贡献；BMW未披露机器人数量或交易规模",
-              "updated_recent": false
+              "note": "Figure官方披露班次与产量贡献；BMW未披露机器人数量或交易规模"
             },
             {
               "summary": "论文泛化",
@@ -1679,7 +2262,8 @@
                   "sources": [
                     {
                       "name": "arXiv 2026-01",
-                      "url": "https://arxiv.org/abs/2601.05678"
+                      "url": "https://arxiv.org/abs/2601.05678",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1688,14 +2272,87 @@
                   "sources": [
                     {
                       "name": "arXiv 2026-01",
-                      "url": "https://arxiv.org/abs/2601.05678"
+                      "url": "https://arxiv.org/abs/2601.05678",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "机器之心 2026-06",
+              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "arXiv 2026-01",
+              "url": "https://arxiv.org/abs/2601.05678",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         }
@@ -1715,7 +2372,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1724,7 +2382,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1733,14 +2392,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "具体日期建议以后以官方公告/权威媒体复核",
-              "updated_recent": false
+              "note": "具体日期建议以后以官方公告/权威媒体复核"
             },
             {
               "summary": "小批出货",
@@ -1750,7 +2411,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1759,7 +2421,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1768,14 +2431,16 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "百台运营",
@@ -1785,7 +2450,8 @@
                   "sources": [
                     {
                       "name": "经济参考报 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1794,14 +2460,16 @@
                   "sources": [
                     {
                       "name": "经济参考报 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "口径分歧",
@@ -1811,7 +2479,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1820,7 +2489,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1829,14 +2499,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "宇树官方口径与Omdia第三方统计存在差异；避免直接写人形全球第一",
-              "updated_recent": false
+              "note": "宇树官方口径与Omdia第三方统计存在差异；避免直接写人形全球第一"
             },
             {
               "summary": "2026目标",
@@ -1846,7 +2518,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1855,7 +2528,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1864,14 +2538,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "不写2026年夏，避免过度具体",
-              "updated_recent": false
+              "note": "不写2026年夏，避免过度具体"
             },
             {
               "summary": "BotQ爬坡",
@@ -1881,7 +2557,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1890,7 +2567,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1899,14 +2577,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "软件为主",
@@ -1916,7 +2596,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1925,14 +2606,87 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "极客公园 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考报 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -1947,7 +2701,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1956,7 +2711,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1965,14 +2721,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "耐久测试",
@@ -1982,7 +2740,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -1991,7 +2750,8 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2000,14 +2760,16 @@
                   "sources": [
                     {
                       "name": "机器之心 2026-06",
-                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8"
+                      "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "常态作业",
@@ -2017,7 +2779,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2026,7 +2789,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2035,14 +2799,16 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "避免把可能使用外部灵巧手的春晚演示归因为银河通用能力",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "避免把可能使用外部灵巧手的春晚演示归因为银河通用能力"
             },
             {
               "summary": "出货验证",
@@ -2052,7 +2818,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2061,7 +2828,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2070,14 +2838,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "仍待验证",
@@ -2087,7 +2857,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2096,7 +2867,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2105,14 +2877,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "工厂班次",
@@ -2122,7 +2896,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2131,7 +2906,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2140,14 +2916,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "模型验证",
@@ -2157,7 +2935,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2166,7 +2945,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2175,14 +2955,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "机器之心 2026-06",
+              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -2197,7 +3050,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2206,7 +3060,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2215,14 +3070,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "B端定价",
@@ -2232,7 +3089,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2241,14 +3099,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "手部高价",
@@ -2258,7 +3118,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2267,14 +3128,16 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "低价标杆",
@@ -2284,7 +3147,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2293,7 +3157,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2302,14 +3167,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "目标降本",
@@ -2319,7 +3186,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2328,7 +3196,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2337,14 +3206,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "RaaS待明",
@@ -2354,7 +3225,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2363,7 +3235,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2372,14 +3245,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "软件授权",
@@ -2389,7 +3264,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2398,14 +3274,87 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         }
@@ -2425,7 +3374,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2434,7 +3384,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2443,14 +3394,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "千台订单",
@@ -2460,7 +3413,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2469,7 +3423,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2478,14 +3433,16 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "订单待证",
@@ -2495,7 +3452,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2504,7 +3462,8 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2513,14 +3472,16 @@
                   "sources": [
                     {
                       "name": "央视网 2026-03",
-                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml"
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "自报出货",
@@ -2530,7 +3491,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2539,7 +3501,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2548,14 +3511,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "出货量按口径拆分展示，不直接合并为全球第一",
-              "updated_recent": false
+              "note": "出货量按口径拆分展示，不直接合并为全球第一"
             },
             {
               "summary": "内部部署",
@@ -2565,7 +3530,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2574,14 +3540,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "BMW试点",
@@ -2617,9 +3585,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "不写数百台，避免夸大部署规模",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "不写数百台，避免夸大部署规模"
             },
             {
               "summary": "无硬件单",
@@ -2629,7 +3598,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2638,14 +3608,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "极客公园 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -2660,7 +3703,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2669,7 +3713,8 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2678,14 +3723,16 @@
                   "sources": [
                     {
                       "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html"
+                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "蓝思合作",
@@ -2695,7 +3742,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2704,14 +3752,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "宁德生态",
@@ -2721,7 +3771,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2730,7 +3781,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2739,14 +3791,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "英伟达链",
@@ -2756,7 +3810,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2765,7 +3820,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2774,14 +3830,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "特斯拉内用",
@@ -2791,14 +3849,26 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "暂无可靠公开数据",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "BMW客户",
@@ -2834,9 +3904,10 @@
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "车辆产量贡献为Figure官方口径，避免表述为BMW独立确认",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "车辆产量贡献为Figure官方口径，避免表述为BMW独立确认"
             },
             {
               "summary": "学研合作",
@@ -2846,7 +3917,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2855,14 +3927,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "新华网 2026-03",
+              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉官网",
+              "url": "https://www.tesla.com",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -2877,7 +4022,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2886,7 +4032,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2895,14 +4042,16 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "整机平台",
@@ -2912,7 +4061,8 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2921,14 +4071,16 @@
                   "sources": [
                     {
                       "name": "极客公园 2026-06（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "场景运营",
@@ -2938,14 +4090,26 @@
                   "sources": [
                     {
                       "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165"
+                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "暂无可靠公开数据",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "硬件销售",
@@ -2955,7 +4119,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2964,14 +4129,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "先内用",
@@ -2981,7 +4148,8 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -2990,14 +4158,16 @@
                   "sources": [
                     {
                       "name": "公开报道",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "RaaS订阅",
@@ -3007,7 +4177,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3016,7 +4187,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3025,14 +4197,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验",
-              "updated_recent": false
+              "note": "来源不足或包含预测/传闻，待三角核验"
             },
             {
               "summary": "模型授权",
@@ -3042,7 +4216,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3051,7 +4226,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3060,14 +4236,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "极客公园 2026-06（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "雪球 2026-01",
+              "url": "https://xueqiu.com/3972348791/283765165",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "公开报道",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         }
@@ -3087,7 +4336,8 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3096,14 +4346,16 @@
                   "sources": [
                     {
                       "name": "36氪 2025-04",
-                      "url": "https://36kr.com/p/3261349018468489"
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "Waymo系",
@@ -3113,7 +4365,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3122,14 +4375,16 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "学术+产业",
@@ -3139,7 +4394,8 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3148,14 +4404,16 @@
                   "sources": [
                     {
                       "name": "搜狐 2026-02",
-                      "url": "https://www.sohu.com/a/752346234_121623867"
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "创始人控制",
@@ -3165,7 +4423,8 @@
                   "sources": [
                     {
                       "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html"
+                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3174,7 +4433,8 @@
                   "sources": [
                     {
                       "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html"
+                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3183,14 +4443,16 @@
                   "sources": [
                     {
                       "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html"
+                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "股权采用招股书常见直接持股与表决权口径",
-              "updated_recent": false
+              "note": "股权采用招股书常见直接持股与表决权口径"
             },
             {
               "summary": "内部项目",
@@ -3200,7 +4462,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3209,7 +4472,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3218,14 +4482,16 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "硬件老兵",
@@ -3235,7 +4501,8 @@
                   "sources": [
                     {
                       "name": "Figure AI官网",
-                      "url": "https://www.figure.ai"
+                      "url": "https://www.figure.ai",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3244,14 +4511,16 @@
                   "sources": [
                     {
                       "name": "Figure AI官网",
-                      "url": "https://www.figure.ai"
+                      "url": "https://www.figure.ai",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "学术+谷歌",
@@ -3287,9 +4556,81 @@
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "创始团队按公开身份拆分为斯坦福/伯克利+Google DeepMind系",
-              "updated_recent": false
+              "note": "创始团队按公开身份拆分为斯坦福/伯克利+Google DeepMind系"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "科创板日报 2026-04（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "界面新闻 2025-06",
+              "url": "https://www.jiemian.com/article/10234567.html",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉官网",
+              "url": "https://www.tesla.com",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai",
+              "evidence": ""
+            },
+            {
+              "name": "Wired / PI创始团队",
+              "url": "https://www.wired.com/story/physical-intelligence-ai-robotics-startup",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -3304,7 +4645,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3313,7 +4655,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3322,14 +4665,16 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "200亿估值",
@@ -3339,7 +4684,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3348,7 +4694,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3357,14 +4704,16 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "200亿+",
@@ -3374,7 +4723,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3383,7 +4733,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3392,14 +4743,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "IPO进程",
@@ -3409,7 +4762,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3418,7 +4772,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3427,14 +4782,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "集团内项目",
@@ -3444,7 +4801,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3453,7 +4811,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3462,14 +4821,16 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "$39B估值",
@@ -3479,7 +4840,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3488,7 +4850,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3497,14 +4860,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
             },
             {
               "summary": "$5.6B估值",
@@ -3514,7 +4879,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3523,14 +4889,87 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "",
-              "updated_recent": false
+              "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "雪球 2026-02",
+              "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+              "evidence": ""
+            },
+            {
+              "name": "科创板日报 2026-04（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉官网",
+              "url": "https://www.tesla.com",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         },
@@ -3545,7 +4984,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3554,7 +4994,8 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3563,14 +5004,16 @@
                   "sources": [
                     {
                       "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark"
+                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "蓝思资本",
@@ -3580,7 +5023,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3589,7 +5033,8 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3598,14 +5043,16 @@
                   "sources": [
                     {
                       "name": "科创板日报 2026-04（待换稳定源）",
-                      "url": "#"
+                      "url": "#",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "宁德绑定",
@@ -3615,7 +5062,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3624,7 +5072,8 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3633,14 +5082,16 @@
                   "sources": [
                     {
                       "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz"
+                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "英伟达生态",
@@ -3650,7 +5101,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3659,7 +5111,8 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3668,14 +5121,16 @@
                   "sources": [
                     {
                       "name": "经济参考网 2026-06",
-                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html"
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "特斯拉工厂",
@@ -3685,7 +5140,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3694,7 +5150,8 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3703,14 +5160,16 @@
                   "sources": [
                     {
                       "name": "特斯拉官网",
-                      "url": "https://www.tesla.com"
+                      "url": "https://www.tesla.com",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
-              "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "BMW绑定",
@@ -3720,7 +5179,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3729,7 +5189,8 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3738,14 +5199,16 @@
                   "sources": [
                     {
                       "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2"
+                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "low",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
             },
             {
               "summary": "学研社区",
@@ -3755,7 +5218,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3764,7 +5228,8 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 },
@@ -3773,20 +5238,91 @@
                   "sources": [
                     {
                       "name": "腾讯云 2026-03",
-                      "url": "https://cloud.tencent.com/developer/article/2648458"
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
                     }
                   ]
                 }
               ],
+              "kind": "evidence",
+              "updated_recent": false,
               "confidence": "medium",
-              "note": "生态资源维度聚焦学研、产业伙伴、客户与社区，不等同于融资估值",
-              "updated_recent": false
+              "note": "生态资源维度聚焦学研、产业伙伴、客户与社区，不等同于融资估值"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "自动核验暂未完成",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "未配置自动核验 API Key，先占位待补充"
+            }
+          ],
+          "sources": [
+            {
+              "name": "雪球 2026-02",
+              "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+              "evidence": ""
+            },
+            {
+              "name": "科创板日报 2026-04（待换稳定源）",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "新浪财经 2026-06",
+              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "特斯拉官网",
+              "url": "https://www.tesla.com",
+              "evidence": ""
+            },
+            {
+              "name": "RobotWale 2026",
+              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            },
+            {
+              "name": "待核验",
+              "url": "#",
+              "evidence": ""
             }
           ]
         }
       ]
     }
-  ],
-  "schema_version": 2,
-  "verification_method": "triangulated_evidence_v1"
+  ]
 }

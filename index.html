@@ -293,9 +293,15 @@ const addBtn=document.getElementById('addBtn'), addBox=document.getElementById('
 // Pending list (localStorage)
 function getPending(){try{return JSON.parse(localStorage.getItem('pendingCompanies')||'[]');}catch(e){return [];}}
 function setPending(arr){localStorage.setItem('pendingCompanies', JSON.stringify(arr)); renderPending();}
+function getSubmitted(){try{return JSON.parse(localStorage.getItem('submittedCompanies')||'[]');}catch(e){return [];}}
+function setSubmitted(arr){localStorage.setItem('submittedCompanies', JSON.stringify(arr)); renderPending();}
 function showNotice(html){
   addNotice.innerHTML = html;
   addNotice.classList.add('show');
+}
+function submittedMessage(submitted){
+  const list = submitted.map(c=>`<span class="pending-tag">${esc(c.name)}</span>`).join(' ');
+  return `<b>更新中</b>：${list}<br><small style="color:var(--ink3)">系统会自动核验公开信息，通常约 10 分钟后刷新页面即可查看结果。若暂时未出现，说明还在核验或等待发布。</small>`;
 }
 async function submitCompany(name){
   const res = await fetch('/api/add-company', {
@@ -311,7 +317,13 @@ async function submitCompany(name){
 }
 function renderPending(){
   const pending = getPending();
+  const submitted = getSubmitted();
   renderMatrixState();
+  if(submitted.length){
+    addNotice.innerHTML = submittedMessage(submitted);
+    addNotice.classList.add('show');
+    return;
+  }
   if(pending.length === 0){
     addNotice.innerHTML = '';
     addNotice.classList.remove('show');
@@ -353,6 +365,9 @@ addGo.onclick=async ()=>{
   try{
     const data=await submitCompany(name);
     addInput.value='';
+    const submitted = getSubmitted().filter(c=>c.name!==name);
+    submitted.push({name: data.company_name || name, submitted_at: new Date().toISOString()});
+    setSubmitted(submitted);
     showNotice(`「${esc(data.company_name || name)}」已收到更新请求。系统会自动核验公开信息，通常约 10 分钟后刷新页面即可查看结果。`);
     return;
   }catch(err){
@@ -378,9 +393,11 @@ function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
   const pending=getPending();
+  const submitted=getSubmitted();
   const removed=(()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
   const parts=[];
   if(removed.length) parts.push(`<b>已隐藏</b>：${removed.map(n=>`<button class="co-restore" data-name="${esc(n)}">${esc(n)} ×</button>`).join(' ')}`);
+  if(submitted.length) parts.push(`<b>更新中</b>：${submitted.map(c=>esc(c.name)).join('、')}（约 10 分钟后刷新查看）`);
   if(pending.length) parts.push(`<b>本机暂存</b>：${pending.map(c=>esc(c.name)).join('、')}（尚未进入更新队列）`);
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', parts.length>0);
@@ -448,6 +465,14 @@ function extractDate(sourceName){
 
 function _renderTable(data){
   document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
+  const submitted = getSubmitted();
+  if(submitted.length && data.companies){
+    const names = new Set(data.companies.map(c=>c.name));
+    const remaining = submitted.filter(c=>!names.has(c.name));
+    if(remaining.length !== submitted.length){
+      setSubmitted(remaining);
+    }
+  }
 
   // 读取被删除的公司（localStorage）
   const removed = (()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();

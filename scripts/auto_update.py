@@ -327,6 +327,66 @@ def process_company(company_name, existing_company=None, is_new=False):
     return parsed
 
 
+def build_placeholder_company(company_name, note):
+    """Create a visible low-confidence placeholder when a new company cannot be verified yet."""
+    data = {}
+    for dim in ALL_DIMS:
+        data[dim] = {
+            'summary': '待核验',
+            'kind': 'synthesis' if dim == '核心差异化' else 'evidence',
+            'updated_recent': False,
+            'confidence': 'low',
+            'note': note,
+            'bullets': [
+                {
+                    'text': '自动核验暂未完成',
+                    'sources': [{'name': '待核验', 'url': '#', 'evidence': ''}]
+                },
+                {
+                    'text': '等待公开来源补充',
+                    'sources': [{'name': '待核验', 'url': '#', 'evidence': ''}]
+                }
+            ]
+        }
+    return {
+        'company': company_name,
+        'tagline': '资料待核验 · 已进入更新队列',
+        'data': data,
+        'confidence': 'low',
+        'notes': note
+    }
+
+
+def restore_company_from_table(old_co, idx, old_groups):
+    """Convert one company column from table.json back to company-oriented data."""
+    cd = {
+        'company': old_co['name'],
+        'tagline': old_co.get('reason', ''),
+        'data': {},
+        'confidence': 'unknown',
+        'notes': '数据保留自上次验证'
+    }
+    for group in old_groups:
+        for row in group.get('rows', []):
+            dim = row['label']
+            cell_content = row['cells'][idx] if idx < len(row['cells']) else '暂无公开数据'
+            if isinstance(cell_content, dict) and 'summary' in cell_content:
+                cd['data'][dim] = normalize_cell(dim, cell_content)
+            else:
+                sources = row.get('sources', [])
+                source = sources[idx] if idx < len(sources) else {'name': '公开资料', 'url': '#'}
+                cd['data'][dim] = {
+                    'summary': '待核验',
+                    'confidence': 'low',
+                    'note': '旧格式保留数据，待重新核验',
+                    'bullets': [{
+                        'text': str(cell_content),
+                        'sources': [normalize_source(source)]
+                    }]
+                }
+    return cd
+
+
 def build_table_json(companies_data, published_date=None):
     """把各公司的结构化数据转换为 table.json 格式"""
     if published_date is None:
@@ -440,12 +500,11 @@ def main():
     print("=" * 60)
 
     # 检查 API Key
-    if not os.environ.get('ANTHROPIC_API_KEY') and not os.environ.get('OPENAI_API_KEY'):
+    has_api_key = bool(os.environ.get('ANTHROPIC_API_KEY') or os.environ.get('OPENAI_API_KEY'))
+    if not has_api_key:
         print("\n⚠️  未检测到 LLM API Key（ANTHROPIC_API_KEY 或 OPENAI_API_KEY）")
         print("   请在 GitHub Settings → Secrets and variables → Actions 中添加 API Key。")
-        print("   对比表数据未更新，保持现有内容不变。")
-        # 不报错退出 — workflow 不要因缺少 API Key 而标红
-        sys.exit(0)
+        print("   新增公司会先以低置信度占位进入矩阵，后续配置 API Key 后再补齐。")
 
     # 读取现有数据
     existing_table = load_json(TABLE_PATH, default={
@@ -486,9 +545,18 @@ def main():
 
     for company_name in companies_to_process:
         try:
-            is_new = company_name in pending_companies
             existing_data = extract_existing_company_data(existing_table, company_name)
-            result = process_company(company_name, existing_data, is_new)
+            is_new = company_name in pending_companies or existing_data is None
+            if not has_api_key:
+                if is_new:
+                    result = build_placeholder_company(company_name, '未配置自动核验 API Key，先占位待补充')
+                else:
+                    print(f"\n  → 跳过已有公司: {company_name}（无 API Key，不覆盖现有数据）")
+                    result = None
+            else:
+                result = process_company(company_name, existing_data, is_new)
+                if result is None and is_new:
+                    result = build_placeholder_company(company_name, '自动核验暂未完成，先占位待复核')
             if result:
                 results.append(result)
             else:
@@ -506,49 +574,24 @@ def main():
 
     # 生成新的 table.json（合并模式：保留原有未处理的公司数据）
     if results and not args.dry_run:
-        # 合并：保留原有公司，用新结果替换/添加
-        all_companies_data = []
+        # 合并：保留原有顺序，用新结果替换原列；纯新增公司追加到末尾
         processed_names = {cd['company'] for cd in results}
+        processed_by_name = {cd['company']: cd for cd in results}
 
-        # 先加已处理的新结果
-        all_companies_data.extend(results)
-
-        # 再保留原有的、未被处理的公司
-        # 需要从原有 table.json 中恢复这些公司的数据结构
-        # 注意：原有 table.json 的格式是行列结构，需要转换为按公司组织
+        all_companies_data = []
         old_groups = existing_table.get('groups', [])
         old_companies_list = existing_table.get('companies', [])
 
         for idx, old_co in enumerate(old_companies_list):
-            if old_co['name'] in processed_names:
-                continue  # 已有新数据，跳过
-            # 从原有行列结构中提取这家公司的数据
-            cd = {
-                'company': old_co['name'],
-                'tagline': old_co.get('reason', ''),
-                'data': {},
-                'confidence': 'unknown',
-                'notes': '数据保留自上次验证'
-            }
-            for group in old_groups:
-                for row in group.get('rows', []):
-                    dim = row['label']
-                    cell_content = row['cells'][idx] if idx < len(row['cells']) else '暂无公开数据'
-                    if isinstance(cell_content, dict) and 'summary' in cell_content:
-                        cd['data'][dim] = normalize_cell(dim, cell_content)
-                    else:
-                        sources = row.get('sources', [])
-                        source = sources[idx] if idx < len(sources) else {'name': '公开资料', 'url': '#'}
-                        cd['data'][dim] = {
-                            'summary': '待核验',
-                            'confidence': 'low',
-                            'note': '旧格式保留数据，待重新核验',
-                            'bullets': [{
-                                'text': str(cell_content),
-                                'sources': [normalize_source(source)]
-                            }]
-                        }
-            all_companies_data.append(cd)
+            name = old_co['name']
+            if name in processed_by_name:
+                all_companies_data.append(processed_by_name[name])
+            else:
+                all_companies_data.append(restore_company_from_table(old_co, idx, old_groups))
+
+        for cd in results:
+            if cd['company'] not in existing_companies:
+                all_companies_data.append(cd)
 
         new_table = build_table_json(all_companies_data)
         save_json(TABLE_PATH, new_table)
