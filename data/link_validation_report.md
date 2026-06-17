@@ -1,6 +1,6 @@
 # Link Validation Report
 
-Generated: 2026-06-18T00:44:31+08:00
+Generated: 2026-06-18T00:53:19+08:00
 
 ## Summary
 
@@ -94,8 +94,8 @@ Generated: 2026-06-18T00:44:31+08:00
 | matrix | 星海图 Galaxea | 大脑自研 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 国内首个开箱即用VLA |
 | matrix | 星海图 Galaxea | 大脑自研 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 开源社区活跃 |
 | matrix | 银河通用 Galbot | 大脑自研 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 自研银河星脑 |
-| matrix | 银河通用 Galbot | 大脑自研 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 全身全手端到端 |
-| matrix | 银河通用 Galbot | 大脑自研 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 合成数据驱动的模型架构 |
+| matrix | 银河通用 Galbot | 大脑自研 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 端到端控制能力待核验 |
+| matrix | 银河通用 Galbot | 大脑自研 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 合成数据驱动模型架构 |
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | 运动控制自研 |
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | AI大脑与英伟达GR00T合作 |
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | 补足上层模型能力 |
@@ -133,8 +133,8 @@ Generated: 2026-06-18T00:44:31+08:00
 | matrix | 星海图 Galaxea | 实测能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 复杂场景零样本可用 |
 | matrix | 星海图 Galaxea | 实测能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | G0.5刷新多项基准 |
 | matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 宁德时代工厂全自主作业 |
-| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 公开春晚演示不纳入其手部能力判断 |
-| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 精细操作能力需看自有硬件实测 |
+| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 精细手部操作归因待核验 |
+| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚演示不作为手部能力证明 |
 | matrix | 宇树 Unitree | 实测能力 | no_url (no URL) | 公开报道 | # | 高动态运动展示(秧歌/回旋踢/拳击) |
 | matrix | 宇树 Unitree | 实测能力 | no_url (no URL) | 公开报道 | # | 工业能力正在追赶 |
 | matrix | 特斯拉 Optimus | 实测能力 | no_url (no URL) | 公开报道 | # | 未公开精细操作实机 |
@@ -171,7 +171,7 @@ Generated: 2026-06-18T00:44:31+08:00
 | matrix | 星海图 Galaxea | 可靠性 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 开发者平台适配稳定 |
 | matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 宁德时代常态化作业 |
 | matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 零售运营可观察持续运行 |
-| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚演示仅作曝光事件，不作为可靠性证明 |
+| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚演示仅作曝光事件 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 量产成熟 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 全球出货领先 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | IPO前规模化盈利证明可靠性 |
@@ -189,8 +189,8 @@ Generated: 2026-06-18T00:44:31+08:00
 | matrix | 智元 AgiBot | 价格/成本 | no_url (no URL) | 公开报道 | # | 预计几十万级 |
 | matrix | 星海图 Galaxea | 价格/成本 | no_url (no URL) | 公开报道 | # | 未公开 |
 | matrix | 星海图 Galaxea | 价格/成本 | no_url (no URL) | 公开报道 | # | B端洽谈定价 |
-| matrix | 银河通用 Galbot | 价格/成本 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 未公开 |
-| matrix | 银河通用 Galbot | 价格/成本 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 灵巧手单独销售数十万级 |
+| matrix | 银河通用 Galbot | 价格/成本 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 整机价格未公开 |
+| matrix | 银河通用 Galbot | 价格/成本 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 手部硬件来源未确认 |
 | matrix | 宇树 Unitree | 价格/成本 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | H1约65万 |
 | matrix | 宇树 Unitree | 价格/成本 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | G1约9.9万起 |
 | matrix | 宇树 Unitree | 价格/成本 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | R1约3.99万 |

@@ -11,6 +11,7 @@
 需要配置的环境变量 (任选其一):
   ANTHROPIC_API_KEY   # Claude API Key (推荐)
   OPENAI_API_KEY      # GPT API Key
+  QWEN_API_KEY        # 通义千问/DashScope API Key
 
 输出:
   data/table.json            # 更新后的对比表数据
@@ -103,6 +104,7 @@ def call_llm(prompt, use_anthropic=True):
     """调用 LLM API。优先使用 Anthropic Claude，备选 OpenAI。"""
     anthropic_key = os.environ.get('ANTHROPIC_API_KEY', '')
     openai_key = os.environ.get('OPENAI_API_KEY', '')
+    qwen_key = os.environ.get('QWEN_API_KEY', '')
 
     if anthropic_key:
         try:
@@ -138,6 +140,28 @@ def call_llm(prompt, use_anthropic=True):
             print("  ⚠️  需要安装 openai: pip install openai")
         except Exception as e:
             print(f"  ⚠️  OpenAI API 调用失败: {e}")
+
+    if qwen_key:
+        try:
+            import openai
+            client = openai.OpenAI(
+                api_key=qwen_key,
+                base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",
+            )
+            response = client.chat.completions.create(
+                model="qwen-plus",
+                messages=[
+                    {"role": "system", "content": SYS_PROMPT},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.2,
+                response_format={"type": "json_object"}
+            )
+            return response.choices[0].message.content or ''
+        except ImportError:
+            print("  ⚠️  需要安装 openai: pip install openai")
+        except Exception as e:
+            print(f"  ⚠️  Qwen API 调用失败: {e}")
 
     return None  # 无可用 API Key
 
@@ -500,9 +524,13 @@ def main():
     print("=" * 60)
 
     # 检查 API Key
-    has_api_key = bool(os.environ.get('ANTHROPIC_API_KEY') or os.environ.get('OPENAI_API_KEY'))
+    has_api_key = bool(
+        os.environ.get('ANTHROPIC_API_KEY')
+        or os.environ.get('OPENAI_API_KEY')
+        or os.environ.get('QWEN_API_KEY')
+    )
     if not has_api_key:
-        print("\n⚠️  未检测到 LLM API Key（ANTHROPIC_API_KEY 或 OPENAI_API_KEY）")
+        print("\n⚠️  未检测到 LLM API Key（ANTHROPIC_API_KEY、OPENAI_API_KEY 或 QWEN_API_KEY）")
         print("   请在 GitHub Settings → Secrets and variables → Actions 中添加 API Key。")
         print("   新增公司会先以低置信度占位进入矩阵，后续配置 API Key 后再补齐。")
 
