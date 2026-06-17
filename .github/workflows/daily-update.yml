@@ -14,6 +14,11 @@ on:
           - default
           - only-pending
           - all
+      company_name:
+        description: '新增或刷新单家公司名称'
+        required: false
+        default: ''
+        type: string
 
 permissions:
   contents: write
@@ -37,7 +42,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: |
           MODE="${{ github.event.inputs.mode }}"
-          if [ "$MODE" = "only-pending" ]; then
+          COMPANY="${{ github.event.inputs.company_name }}"
+          if [ -n "$COMPANY" ]; then
+            python scripts/auto_update.py --company "$COMPANY"
+          elif [ "$MODE" = "only-pending" ]; then
             python scripts/auto_update.py --only-pending
           elif [ "$MODE" = "all" ]; then
             python scripts/auto_update.py --all
