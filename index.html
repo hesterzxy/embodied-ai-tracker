@@ -318,7 +318,7 @@ function renderPending(){
     return;
   }
   const list = pending.map(c=>`<span class="pending-tag">${c.name} <button class="pending-del" data-name="${c.name}" title="删除">×</button></span>`).join(' ');
-  addNotice.innerHTML = `<b>本地待处理</b>：${list}<br><small style="color:var(--ink3)">自动提交失败时会暂存在本机；可下载 JSON 后放到 data/pending_companies.json。<button class="txtbtn" id="copyPending" style="font-size:11px;padding:0;margin-left:4px">复制列表</button><button class="txtbtn" id="downloadPending" style="font-size:11px;padding:0;margin-left:8px">下载JSON</button></small>`;
+  addNotice.innerHTML = `<b>暂存在本机</b>：${list}<br><small style="color:var(--ink3)">这次没有成功提交到更新队列，可联系维护者处理。<button class="txtbtn" id="copyPending" style="font-size:11px;padding:0;margin-left:4px">复制列表</button><button class="txtbtn" id="downloadPending" style="font-size:11px;padding:0;margin-left:8px">下载JSON</button></small>`;
   addNotice.classList.add('show');
   document.querySelectorAll('.pending-del').forEach(btn=>{
     btn.onclick=(e)=>{
@@ -353,7 +353,7 @@ addGo.onclick=async ()=>{
   try{
     const data=await submitCompany(name);
     addInput.value='';
-    showNotice(`「${esc(data.company_name || name)}」已提交自动更新。GitHub Actions 完成后刷新页面即可看到结果。`);
+    showNotice(`「${esc(data.company_name || name)}」已收到更新请求。系统会自动核验公开信息，通常约 10 分钟后刷新页面即可查看结果。`);
     return;
   }catch(err){
     console.warn(err);
@@ -363,13 +363,13 @@ addGo.onclick=async ()=>{
   }
   const pending=getPending();
   if(pending.find(c=>c.name===name)){
-    showNotice(`「${esc(name)}」已在本地待处理列表中。`);
+    showNotice(`「${esc(name)}」已暂存在本机待处理列表中。`);
     return;
   }
   pending.push({name: name, added_at: new Date().toISOString().slice(0,10)});
   setPending(pending);
   addInput.value='';
-  showNotice(`自动提交失败，「${esc(name)}」已先保存为本地待处理。部署 Vercel 并配置 GITHUB_TOKEN 后可一键提交。`);
+  showNotice(`「${esc(name)}」这次没有成功提交到更新队列，已先暂存在本机。请联系维护者处理。`);
 };
 addInput.addEventListener('keydown',e=>{if(e.key==='Enter')addGo.click();});
 renderPending();
@@ -381,7 +381,7 @@ function renderMatrixState(){
   const removed=(()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
   const parts=[];
   if(removed.length) parts.push(`<b>已隐藏</b>：${removed.map(n=>`<button class="co-restore" data-name="${esc(n)}">${esc(n)} ×</button>`).join(' ')}`);
-  if(pending.length) parts.push(`<b>本地待新增</b>：${pending.map(c=>esc(c.name)).join('、')}（下载为 pending_companies.json 并放入 data/ 后，下一次自动更新才会处理）`);
+  if(pending.length) parts.push(`<b>本机暂存</b>：${pending.map(c=>esc(c.name)).join('、')}（尚未进入更新队列）`);
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', parts.length>0);
   el.querySelectorAll('.co-restore').forEach(btn=>{
