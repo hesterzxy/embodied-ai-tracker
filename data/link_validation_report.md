@@ -1,11 +1,11 @@
 # Link Validation Report
 
-Generated: 2026-06-17T17:06:13+08:00
+Generated: 2026-06-18T00:15:03+08:00
 
 ## Summary
 
-- invalid: 235
-- no_url: 82
+- invalid: 246
+- no_url: 83
 
 ## Details
 
@@ -18,9 +18,11 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 银河通用 Galbot | 核心差异化 | no_url (no URL) | 战略归纳 | # | 仿真数据见长 |
 | matrix | 银河通用 Galbot | 核心差异化 | no_url (no URL) | 战略归纳 | # | 99%合成数据训练 |
 | matrix | 宇树 Unitree | 核心差异化 | no_url (no URL) | 战略归纳 | # | 硬件成本标杆 |
-| matrix | 宇树 Unitree | 核心差异化 | no_url (no URL) | 战略归纳 | # | 2025人形出货5500+台 |
-| matrix | 特斯拉 Optimus | 核心差异化 | no_url (no URL) | 战略归纳 | # | 全栈天花板 |
-| matrix | 特斯拉 Optimus | 核心差异化 | no_url (no URL) | 战略归纳 | # | FSD迁移 + 自产自用 |
+| matrix | 宇树 Unitree | 核心差异化 | no_url (no URL) | 战略归纳 | # | 人形出货为自报口径 |
+| matrix | 宇树 Unitree | 核心差异化 | no_url (no URL) | 战略归纳 | # | 第三方口径与智元排名有差异 |
+| matrix | 特斯拉 Optimus | 核心差异化 | no_url (no URL) | 战略归纳 | # | 全栈自研体系 |
+| matrix | 特斯拉 Optimus | 核心差异化 | no_url (no URL) | 战略归纳 | # | 自有工厂先验证 |
+| matrix | 特斯拉 Optimus | 核心差异化 | no_url (no URL) | 战略归纳 | # | 复用感知栈/算力体系 |
 | matrix | Figure | 核心差异化 | no_url (no URL) | 战略归纳 | # | 海外创业头牌 |
 | matrix | Figure | 核心差异化 | no_url (no URL) | 战略归纳 | # | $39B估值 + BMW实机 |
 | matrix | Physical Intelligence | 核心差异化 | no_url (no URL) | 战略归纳 | # | 纯模型路线 |
@@ -67,7 +69,7 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | Physical Intelligence | 目标场景 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 物流 |
 | matrix | Physical Intelligence | 目标场景 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 医疗 |
 | matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 远征A2双臂工业机 |
-| matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 关节峰值扭矩512Nm |
+| matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 关节高扭矩参数待官方规格复核 |
 | matrix | 智元 AgiBot | 硬件能力 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 灵犀X2轻量化版 |
 | matrix | 星海图 Galaxea | 硬件能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | R1 Pro/R1 Lite轮式双臂 |
 | matrix | 星海图 Galaxea | 硬件能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | DEXO灵巧手 |
@@ -77,9 +79,9 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 银河通用 Galbot | 硬件能力 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 关节自研 |
 | matrix | 宇树 Unitree | 硬件能力 | invalid (URLError) | 宇树官网 2026 | https://www.unitree.com | H1/H2双足人形+Go2四足 |
 | matrix | 宇树 Unitree | 硬件能力 | invalid (URLError) | 宇树官网 2026 | https://www.unitree.com | 整机自研关节与核心部件 |
-| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | Optimus Gen3 |
-| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | 22自由度手 |
-| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | 50个执行器 |
+| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | Optimus Gen3仍待正式规格 |
+| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | Gen3手部22自由度为常见披露 |
+| matrix | 特斯拉 Optimus | 硬件能力 | no_url (no URL) | 公开报道 | # | 执行器数量口径未稳定，暂不写50个 |
 | matrix | Figure | 硬件能力 | invalid (URLError) | TechCrunch 2026-04 | https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/ | Figure 03量产版 |
 | matrix | Figure | 硬件能力 | invalid (URLError) | TechCrunch 2026-04 | https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/ | 自研发动机与关节 |
 | matrix | Figure | 硬件能力 | invalid (URLError) | TechCrunch 2026-04 | https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/ | 适配工业环境 |
@@ -97,12 +99,14 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | 运动控制自研 |
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | AI大脑与英伟达GR00T合作 |
 | matrix | 宇树 Unitree | 大脑自研 | invalid (URLError) | 英伟达官网 GR00T | https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/ | 补足上层模型能力 |
-| matrix | 特斯拉 Optimus | 大脑自研 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 全自研FSD迁移+Dojo超算+本地推理 |
-| matrix | 特斯拉 Optimus | 大脑自研 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 无外部模型依赖 |
+| matrix | 特斯拉 Optimus | 大脑自研 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 全自研感知/规划体系 |
+| matrix | 特斯拉 Optimus | 大脑自研 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | FSD与Dojo能力可复用 |
+| matrix | 特斯拉 Optimus | 大脑自研 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 不等同于驾驶数据直接迁移为操作数据 |
 | matrix | Figure | 大脑自研 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 自研Helix（脱离OpenAI后全自研） |
 | matrix | Figure | 大脑自研 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | VLA + 世界模型 + 强化学习 |
-| matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | π0/π0.6 VLA + 世界模型 + 行为-动作模型 |
-| matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 核心自研能力 |
+| matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | π0/π0.5/π0.7 VLA路线 |
+| matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | 世界模型与行为-动作模型 |
+| matrix | Physical Intelligence | 大脑自研 | invalid (URLError) | Physical Intelligence π0.5 | https://www.physicalintelligence.company/blog/pi05 | 核心自研能力 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 真机+仿真合成 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 自有工厂部署采集 |
 | matrix | 智元 AgiBot | 数据策略 | invalid (URLError) | 机器之心 2025-10 | https://www.jiqizhixin.com/articles/2025-10-28-7 | 数据闭环 |
@@ -114,9 +118,9 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 银河通用 Galbot | 数据策略 | invalid (URLError) | 雪球 2026-01 | https://xueqiu.com/3972348791/283765165 | 首创虚实融合训练范式 |
 | matrix | 宇树 Unitree | 数据策略 | invalid (URLError) | 宇树官网 | https://www.unitree.com | 硬件产品数据+开发者生态 |
 | matrix | 宇树 Unitree | 数据策略 | invalid (URLError) | 宇树官网 | https://www.unitree.com | 缺乏大规模VLA数据积累 |
-| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 自有工厂部署 |
-| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | FSD迁移数据 |
-| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 特斯拉车队级数据 |
+| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 自有工厂部署采集 |
+| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 复用车端感知与训练体系 |
+| matrix | 特斯拉 Optimus | 数据策略 | invalid (URLError) | 特斯拉 AI Day | https://www.tesla.com/ai-day | 操作数据仍需机器人实机闭环 |
 | matrix | Figure | 数据策略 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BotQ工厂部署采集+BMW实机数据+仿真 |
 | matrix | Figure | 数据策略 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 强化学习在工厂训练 |
 | matrix | Physical Intelligence | 数据策略 | no_url (no URL) | 公开报道 | # | 跨7种以上本体聚合数据 |
@@ -129,29 +133,31 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 星海图 Galaxea | 实测能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 复杂场景零样本可用 |
 | matrix | 星海图 Galaxea | 实测能力 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | G0.5刷新多项基准 |
 | matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 宁德时代工厂全自主作业 |
-| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚盘核桃/拣玻璃碎片演示 |
+| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 公开春晚演示不纳入其手部能力判断 |
+| matrix | 银河通用 Galbot | 实测能力 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 精细操作能力需看自有硬件实测 |
 | matrix | 宇树 Unitree | 实测能力 | no_url (no URL) | 公开报道 | # | 高动态运动展示(秧歌/回旋踢/拳击) |
 | matrix | 宇树 Unitree | 实测能力 | no_url (no URL) | 公开报道 | # | 工业能力正在追赶 |
 | matrix | 特斯拉 Optimus | 实测能力 | no_url (no URL) | 公开报道 | # | 未公开精细操作实机 |
 | matrix | 特斯拉 Optimus | 实测能力 | no_url (no URL) | 公开报道 | # | 主要在工厂内部测试移动与基础搬运 |
-| matrix | Figure | 实测能力 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BMW工厂10小时班次运行 |
-| matrix | Figure | 实测能力 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 钣金/零件装载实际部署 |
+| matrix | Figure | 实测能力 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 进入BMW Spartanburg产线试点 |
+| matrix | Figure | 实测能力 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 公开展示以整机搬运/零件处理为主 |
+| matrix | Figure | 实测能力 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 部署规模与班次数字未稳定披露 |
 | matrix | Physical Intelligence | 实测能力 | invalid (URLError) | arXiv 2026-01 | https://arxiv.org/abs/2601.05678 | 叠衣/插滤芯/装箱/清洁陌生家庭 |
 | matrix | Physical Intelligence | 实测能力 | invalid (URLError) | arXiv 2026-01 | https://arxiv.org/abs/2601.05678 | 研究论文展示泛化能力强 |
-| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 2026年3月第1万台下线 |
-| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 万台级产线运行 |
-| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 持续爬坡 |
+| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 官方披露万台下线 |
+| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 公开报道指向2026年3月节点 |
+| matrix | 智元 AgiBot | 量产进度 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 万台级产线持续爬坡 |
 | matrix | 星海图 Galaxea | 量产进度 | no_url (no URL) | 极客公园 2026-06（待换稳定源） | # | R1系列稳定出货 |
 | matrix | 星海图 Galaxea | 量产进度 | no_url (no URL) | 极客公园 2026-06（待换稳定源） | # | DEXO手小批量 |
 | matrix | 星海图 Galaxea | 量产进度 | no_url (no URL) | 极客公园 2026-06（待换稳定源） | # | Kengo双足在研 |
 | matrix | 银河通用 Galbot | 量产进度 | no_url (no URL) | 经济参考报 2026-06（待换稳定源） | # | 百台级自主运营便利店 |
 | matrix | 银河通用 Galbot | 量产进度 | no_url (no URL) | 经济参考报 2026-06（待换稳定源） | # | 工业重载S1小规模部署 |
-| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 四足全球市占第一 |
-| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 人形2025出货5500+台 |
-| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 产能月1.2万台 |
+| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 四足全球领先 |
+| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 宇树官宣人形2025出货5500+台 |
+| matrix | 宇树 Unitree | 量产进度 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | Omdia口径约4200台、列第二 |
 | matrix | 特斯拉 Optimus | 量产进度 | no_url (no URL) | 公开报道 | # | 研发测试阶段 |
-| matrix | 特斯拉 Optimus | 量产进度 | no_url (no URL) | 公开报道 | # | V3版2026夏目标量产 |
-| matrix | 特斯拉 Optimus | 量产进度 | no_url (no URL) | 公开报道 | # | 时间线多次延后 |
+| matrix | 特斯拉 Optimus | 量产进度 | no_url (no URL) | 公开报道 | # | 公开目标多指向2026年量产 |
+| matrix | 特斯拉 Optimus | 量产进度 | no_url (no URL) | 公开报道 | # | 具体月份未稳定披露 |
 | matrix | Figure | 量产进度 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BotQ工厂年产能1.2万台 |
 | matrix | Figure | 量产进度 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 目标4年10万台 |
 | matrix | Figure | 量产进度 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 2026年产能爬坡 |
@@ -163,9 +169,9 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 星海图 Galaxea | 可靠性 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 倒地10次完好 |
 | matrix | 星海图 Galaxea | 可靠性 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 折弯寿命20万次测试 |
 | matrix | 星海图 Galaxea | 可靠性 | invalid (URLError) | 机器之心 2026-06 | https://www.jiqizhixin.com/articles/2026-06-01-8 | 开发者平台适配稳定 |
-| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 工业级验证 |
 | matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 宁德时代常态化作业 |
-| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚连续运行数小时 |
+| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 零售运营可观察持续运行 |
+| matrix | 银河通用 Galbot | 可靠性 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 春晚演示仅作曝光事件，不作为可靠性证明 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 量产成熟 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 全球出货领先 |
 | matrix | 宇树 Unitree | 可靠性 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | IPO前规模化盈利证明可靠性 |
@@ -205,14 +211,14 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 银河通用 Galbot | 真实订单 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 百台级零售运营 |
 | matrix | 银河通用 Galbot | 真实订单 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 宁德时代千台订单传闻 |
 | matrix | 银河通用 Galbot | 真实订单 | invalid (URLError) | 央视网 2026-03 | http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml | 官方未确认具体数量 |
-| matrix | 宇树 Unitree | 真实订单 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 2025人形5500+台 |
-| matrix | 宇树 Unitree | 真实订单 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 全球市占第一 |
+| matrix | 宇树 Unitree | 真实订单 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 宇树官宣人形2025出货5500+台 |
+| matrix | 宇树 Unitree | 真实订单 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | Omdia口径约4200台、列第二 |
 | matrix | 宇树 Unitree | 真实订单 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 四足销量另算 |
 | matrix | 特斯拉 Optimus | 真实订单 | no_url (no URL) | 公开报道 | # | 内部测试部署 |
 | matrix | 特斯拉 Optimus | 真实订单 | no_url (no URL) | 公开报道 | # | 无公开商业订单数据 |
-| matrix | Figure | 真实订单 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BMW量产线部署 |
-| matrix | Figure | 真实订单 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 合作规模数百台量级 |
-| matrix | Figure | 真实订单 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 第二客户待公开确认 |
+| matrix | Figure | 真实订单 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 已进入BMW量产线试点 |
+| matrix | Figure | 真实订单 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 机器人数量与交易规模未公开 |
+| matrix | Figure | 真实订单 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 第二客户待公开确认 |
 | matrix | Physical Intelligence | 真实订单 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 无硬件订单 |
 | matrix | Physical Intelligence | 真实订单 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 以模型授权/API/研究合作为主 |
 | matrix | 智元 AgiBot | 标杆客户 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 比亚迪(持股+客户) |
@@ -220,15 +226,16 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | 智元 AgiBot | 标杆客户 | invalid (URLError) | 新华网 2026-03 | http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html | 龙旗科技等制造业龙头 |
 | matrix | 星海图 Galaxea | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 蓝思科技(战略合作+B+轮融资方) |
 | matrix | 星海图 Galaxea | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 多家车企合作洽谈中 |
-| matrix | 银河通用 Galbot | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 宁德时代(唯一投资具身+常态作业客户) |
+| matrix | 银河通用 Galbot | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 宁德时代（既投资、又是常态化作业客户） |
 | matrix | 银河通用 Galbot | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 博世 |
 | matrix | 银河通用 Galbot | 标杆客户 | invalid (URLError) | 新浪财经 2026-06 | https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz | 丰田 |
 | matrix | 宇树 Unitree | 标杆客户 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 英伟达(GR00T参考平台) |
 | matrix | 宇树 Unitree | 标杆客户 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 汽车零部件厂 |
 | matrix | 宇树 Unitree | 标杆客户 | invalid (URLError) | 经济参考网 2026-06 | http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html | 海外科研机构 |
 | matrix | 特斯拉 Optimus | 标杆客户 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 特斯拉各超级工厂内部部署 |
-| matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | BMW(支撑3万+车辆生产) |
-| matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 物流客户在谈(可能UPS/亚马逊) |
+| matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | BMW为明确标杆客户 |
+| matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | Figure官方披露贡献3万+ X3生产 |
+| matrix | Figure | 标杆客户 | invalid (URLError) | Figure AI官网 | https://www.figure.ai/news/production-at-bmw | 机器人数量与交易规模未公开 |
 | matrix | Physical Intelligence | 标杆客户 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 机器人厂商/研究机构合作 |
 | matrix | Physical Intelligence | 标杆客户 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | Stanford/UC Berkeley等学术合作 |
 | matrix | 智元 AgiBot | 商业模式 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 整机销售为主 |
@@ -247,23 +254,23 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 模型API/研究授权/企业合作 |
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 软件层为主 |
 | matrix | Physical Intelligence | 商业模式 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 轻资产 |
-| matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 邓泰华(CEO |
-| matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 前华为无线总裁) |
+| matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 邓泰华(CEO，前华为无线总裁) |
 | matrix | 智元 AgiBot | 创始团队 | invalid (URLError) | 36氪 2025-04 | https://36kr.com/p/3261349018468489 | 彭志辉(稚晖君/CTO/前华为) |
-| matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 高继扬(清华+南加州大学 |
-| matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 前Waymo) |
-| matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 赵行(MIT+Waymo+清华) |
+| matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 高继扬：清华、南加州大学背景，曾任职Waymo |
+| matrix | 星海图 Galaxea | 创始团队 | no_url (no URL) | 科创板日报 2026-04（待换稳定源） | # | 赵行：MIT、Waymo、清华背景 |
 | matrix | 银河通用 Galbot | 创始团队 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 王鹤(斯坦福博士+北大助理教授) |
 | matrix | 银河通用 Galbot | 创始团队 | invalid (URLError) | 搜狐 2026-02 | https://www.sohu.com/a/752346234_121623867 | 姚腾洲(北航+ABB) |
-| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 王兴兴(创始人/CEO/CTO |
-| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 90后 |
-| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 持股33.36% |
-| matrix | 特斯拉 Optimus | 创始团队 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 马斯克(直接推动) |
+| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 王兴兴任创始人/CEO/CTO |
+| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 直接持股23.82% |
+| matrix | 宇树 Unitree | 创始团队 | invalid (URLError) | 界面新闻 2025-06 | https://www.jiemian.com/article/10234567.html | 通过AB股控制表决权68.78% |
+| matrix | 特斯拉 Optimus | 创始团队 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 马斯克直接推动 |
 | matrix | 特斯拉 Optimus | 创始团队 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 特斯拉内部团队 |
-| matrix | 特斯拉 Optimus | 创始团队 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | 人形机器人部门独立运营 |
+| matrix | 特斯拉 Optimus | 创始团队 | invalid (URLError) | 特斯拉官网 | https://www.tesla.com | Optimus未独立分拆 |
 | matrix | Figure | 创始团队 | invalid (URLError) | Figure AI官网 | https://www.figure.ai | Brett Adcock创始人 |
 | matrix | Figure | 创始团队 | invalid (URLError) | Figure AI官网 | https://www.figure.ai | 核心团队多为前特斯拉/Boston Dynamics工程师 |
-| matrix | Physical Intelligence | 创始团队 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | Sergey Levine/Chelsea Finn等斯坦福教授+谷歌系团队创立 |
+| matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Karol Hausman任CEO，前Google DeepMind |
+| matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Chelsea Finn为斯坦福教授 |
+| matrix | Physical Intelligence | 创始团队 | invalid (URLError) | Wired / PI创始团队 | https://www.wired.com/story/physical-intelligence-ai-robotics-startup | Sergey Levine为UC Berkeley教授 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 累计12轮融资超50亿元 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 估值约150亿元 |
 | matrix | 智元 AgiBot | 融资估值 | invalid (URLError) | 雪球 2026-02 | https://xueqiu.com/6899105006/358419037?theme=dark | 腾讯/比亚迪等领投 |
@@ -302,9 +309,15 @@ Generated: 2026-06-17T17:06:13+08:00
 | matrix | Figure | 股东/生态资源 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BMW是最明确标杆客户 |
 | matrix | Figure | 股东/生态资源 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | BotQ制造体系服务量产爬坡 |
 | matrix | Figure | 股东/生态资源 | invalid (URLError) | RobotWale 2026 | https://www.robotwale.com/article/figure-ai-industry-analysis-2 | 物流客户仍待公开确认 |
-| matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 斯坦福与谷歌系研究网络强 |
+| matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 斯坦福/UC Berkeley学研网络强 |
+| matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | Google DeepMind系经验明显 |
 | matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 依赖机器人厂商间接落地 |
-| matrix | Physical Intelligence | 股东/生态资源 | invalid (URLError) | 腾讯云 2026-03 | https://cloud.tencent.com/developer/article/2648458 | 开源/研究社区是扩散路径 |
+| news | 其他 | 商业订单 | invalid (URLError) | 36氪 | https://36kr.com/p/3856871787189252?f=rss | 硬氪专访  /  罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里 |
+| news | 其他 | 行业动态 | invalid (URLError) | 36氪 | https://36kr.com/newsflashes/3857127292474628?f=rss | 凯迪股份：公司机器人产品仍处开发阶段，短期内暂无法形成收入 |
+| news | 其他 | 技术突破 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/aihealth/jAeC3TqxHJc8bGb1.html | 探索Bio AI「o1时刻」：百奥几何的三年微观世界模型演进 |
+| news | 其他 | 行业动态 | invalid (URLError) | 钛媒体 | https://www.tmtpost.com/8031378.html | 机器人养老，离我们不远了？ |
+| news | 星海图 | 技术突破 | invalid (URLError) | 量子位 | https://www.qbitai.com/2026/06/436223.html | 星海图创始人高继扬：具身智能三层技术路线，没有捷径可走 |
+| news | 其他 | 产品量产 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html | 理想汽车举办Livis Day软件与具身智能发布会 |
 | news | 其他 | 技术突破 | invalid (URLError) | 36氪 | https://36kr.com/newsflashes/3855231958897923?f=rss | 理想公布马赫VLA能力的进化目标 |
 | news | 其他 | 技术突破 | invalid (URLError) | 36氪 | https://36kr.com/p/3855262364488969?f=rss | 融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面 |
 | news | 其他 | 行业动态 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/weiwu/vFMxYwSaDXdPurDk.html | 外骨骼机器人爆火，海尔为何瞄准3亿老年人市场？ |
@@ -325,6 +338,5 @@ Generated: 2026-06-17T17:06:13+08:00
 | news | 其他 | 技术突破 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/robot/CphF1Mc5RZX5xaWN.html | 对话它石智航丁文超：具身智能，如何迈进「2.0时代」？ /  ICRA 2026 |
 | news | 其他 | 行业动态 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/robot/04blpoyMgJFliCK9.html | 对话速腾聚创杨先声：机器人的通用智能，先从一双「不骗人」的眼睛开始  /  ICRA 2026 |
 | news | 其他 | 产品量产 | invalid (URLError) | 钛媒体 | https://www.tmtpost.com/8029068.html | 均普智能联合博登、上海交大正式发布全球首个面向真实机器人强化学习大规模数据集 |
-| news | 其他 | 行业动态 | invalid (URLError) | 雷峰网 | https://www.leiphone.com/category/private/04blpoyMgJFliCK9.html | 对话速腾聚创杨先声：机器人的通用智能，先从一双「不骗人」的眼睛开始  /  ICRA 2026 |
 | news | 其他 | 行业动态 | invalid (URLError) | 36氪 | https://36kr.com/newsflashes/3852643642053897?f=rss | 我国首批自研海洋工程柔性智能焊接机器人投用 |
 | news | 其他 | 技术突破 | invalid (URLError) | 36氪 | https://36kr.com/newsflashes/3850998799373319?f=rss | 魔法原子上交会首秀VLA K02大模型 |
