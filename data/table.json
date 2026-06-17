@@ -1,0 +1,352 @@
+{
+  "published": "2026-06-13",
+  "companies": [
+    { "name": "智元 AgiBot", "reason": "整机量产最快 · 第1万台2026年3月下线", "emphasis": false },
+    { "name": "星海图 Galaxea", "reason": "全栈路线最像 · 端到端VLA + 真机数据", "emphasis": false },
+    { "name": "银河通用 Galbot", "reason": "仿真数据见长 · 99%合成数据训练", "emphasis": false },
+    { "name": "宇树 Unitree", "reason": "硬件成本标杆 · 2025人形出货5500+台", "emphasis": false },
+    { "name": "特斯拉 Optimus", "reason": "全栈天花板 · FSD迁移 + 自产自用", "emphasis": false },
+    { "name": "Figure", "reason": "海外创业头牌 · $39B估值 + BMW实机", "emphasis": false },
+    { "name": "Physical Intelligence", "reason": "纯模型路线 · π0 VLA跨本体", "emphasis": false },
+    { "name": "Sharpa", "reason": "灵巧手第一梯队 · 22自由度直驱", "emphasis": false }
+  ],
+  "groups": [
+    {
+      "label": "技术与团队",
+      "rows": [
+        {
+          "label": "技术路线",
+          "cells": [
+            "人形整机+具身大模型，软硬一体，完整本体矩阵",
+            "人形整机+自研VLA，端到端视觉-语言-动作，G0.5模型国内领先",
+            "大脑优先，合成仿真数据为主(99%)，真机少量调优",
+            "四足起家延伸人形，核心优势在硬件与运动控制，AI模型合作英伟达GR00T",
+            "纯视觉无激光雷达，FSD能力迁移，Dojo超算训练",
+            "自研Helix VLA，纯视觉端到端，自产硬件配套",
+            "不做本体，专注通用机器人基础模型，硬件无关，跨7种以上本体训练",
+            "灵巧手为核心，22自由度直驱，触觉感知强，整机机器人在研"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "科创板日报 2026-04", "url": "http://m.toutiao.com/group/7624038409492759066/" },
+            { "name": "新浪财经 2026-06", "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "特斯拉官网", "url": "https://www.tesla.com/optimus" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "硬件能力",
+          "cells": [
+            "远征A2双臂工业机，关节峰值扭矩512Nm，灵犀X2轻量化版",
+            "R1 Pro/R1 Lite轮式双臂，DEXO灵巧手，在研双足Kengo",
+            "Galbot G1轮式双臂，S1重载版50kg负载，关节自研",
+            "H1/H2双足人形+Go2四足，整机自研关节与核心部件",
+            "Optimus Gen3，22自由度手，50个执行器，全栈自产",
+            "Figure 03量产版，自研发动机与关节，适配工业环境",
+            "不造硬件，适配第三方本体(Unitree/Fourier/AgileX等)",
+            "Sharpa Wave灵巧手22自由度，指尖1000触觉传感，1200g整机"
+          ],
+          "sources": [
+            { "name": "36氪 2025-04", "url": "https://36kr.com/p/3261349018468489" },
+            { "name": "机器之心 2026-06", "url": "https://www.jiqizhixin.com/articles/2026-06-01-8" },
+            { "name": "搜狐 2026-02", "url": "https://www.sohu.com/a/752346234_121623867" },
+            { "name": "宇树官网 2026", "url": "https://www.unitree.com" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "TechCrunch 2026-04", "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "NE时代 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "大脑自研",
+          "cells": [
+            "自研启元大模型+仿真平台，端到端具身基座模型，自主芯片适配",
+            "自研G0/G0 Plus/VLA模型，国内首个开箱即用VLA，开源社区活跃",
+            "自研银河星脑，全身全手端到端，合成数据驱动的模型架构",
+            "运动控制自研，AI大脑与英伟达GR00T合作，补足上层模型能力",
+            "全自研FSD迁移+Dojo超算+本地推理，无外部模型依赖",
+            "自研Helix（脱离OpenAI后全自研），VLA + 世界模型 + 强化学习",
+            "π0/π0.6 VLA + 世界模型 + 行为-动作模型，核心自研能力",
+            "灵巧手+运动控制底层，AI大脑尚不明，可能采用外购或合作模型"
+          ],
+          "sources": [
+            { "name": "36氪 2025-04", "url": "https://36kr.com/p/3261349018468489" },
+            { "name": "科创板日报 2026-04", "url": "http://m.toutiao.com/group/7624038409492759066/" },
+            { "name": "搜狐 2026-02", "url": "https://www.sohu.com/a/752346234_121623867" },
+            { "name": "英伟达官网 GR00T", "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/" },
+            { "name": "特斯拉 AI Day", "url": "https://www.tesla.com/ai-day" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "数据策略",
+          "cells": [
+            "真机+仿真合成，自有工厂部署采集，数据闭环",
+            "真实场景采集为主，物理世界小时级数据成本低，开源数据集下载量登顶",
+            "百亿级合成数据，1%真机微调，首创虚实融合训练范式",
+            "硬件产品数据+开发者生态，缺乏大规模VLA数据积累",
+            "自有工厂部署，FSD迁移数据，特斯拉车队级数据",
+            "BotQ工厂部署采集+BMW实机数据+仿真，强化学习在工厂训练",
+            "跨7种以上本体聚合数据，权重开源，供研究社区使用",
+            "灵巧手操作采集为主，触觉数据是差异化优势"
+          ],
+          "sources": [
+            { "name": "机器之心 2025-10", "url": "https://www.jiqizhixin.com/articles/2025-10-28-7" },
+            { "name": "极客公园 2026-06", "url": "http://m.toutiao.com/group/7646701040756789/" },
+            { "name": "雪球 2026-01", "url": "https://xueqiu.com/3972348791/283765165" },
+            { "name": "宇树官网", "url": "https://www.unitree.com" },
+            { "name": "特斯拉 AI Day", "url": "https://www.tesla.com/ai-day" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "NE时代 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "实测能力",
+          "cells": [
+            "工业装配螺丝锁付，精度与良率持续提升，量产机台可24小时运行",
+            "万物抓取泛化，复杂场景零样本可用，G0.5刷新多项基准",
+            "宁德时代工厂全自主作业，春晚盘核桃/拣玻璃碎片演示",
+            "高动态运动展示(秧歌/回旋踢/拳击)，工业能力正在追赶",
+            "未公开精细操作实机，主要在工厂内部测试移动与基础搬运",
+            "BMW工厂10小时班次运行，钣金/零件装载实际部署",
+            "叠衣/插滤芯/装箱/清洁陌生家庭，研究论文展示泛化能力强",
+            "CES现场剥蛋壳/使用剪刀，春晚沈腾节目手部操作演示"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "机器之心 2026-06", "url": "https://www.jiqizhixin.com/articles/2026-06-01-8" },
+            { "name": "央视网 2026-03", "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "arXiv 2026-01", "url": "https://arxiv.org/abs/2601.05678" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "融资估值",
+          "cells": [
+            "累计12轮融资超50亿元，估值约150亿元，腾讯/比亚迪等领投",
+            "天使轮至B+轮累计近50亿元，估值突破200亿元，B+轮约20亿",
+            "种子+B轮+B++轮累计近70亿元，2026-03新一轮25亿元，估值200亿+",
+            "IPO过会，发行估值约420亿元，C轮融资投后估值127亿元(2025-06)",
+            "上市公司内嵌项目，无独立估值，特斯拉市值约万亿美元量级",
+            "多轮融资累计约$1.9B，2026年估值约$39B，顶级VC+产业资本",
+            "B轮$600M投后$5.6B，新一轮$1B融资$11B估值洽谈中(2026-03)",
+            "未公开，禾赛三创始人背景，外界估值猜测在20亿-50亿元区间"
+          ],
+          "sources": [
+            { "name": "雪球 2026-02", "url": "https://xueqiu.com/6899105006/358419037?theme=dark" },
+            { "name": "科创板日报 2026-04", "url": "http://m.toutiao.com/group/7624038409492759066/" },
+            { "name": "新浪财经 2026-06", "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "特斯拉官网", "url": "https://www.tesla.com" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "创始团队",
+          "cells": [
+            "邓泰华(CEO，前华为无线总裁)，彭志辉(稚晖君/CTO/前华为)",
+            "高继扬(清华+南加州大学，前Waymo)，赵行(MIT+Waymo+清华)",
+            "王鹤(斯坦福博士+北大助理教授)，姚腾洲(北航+ABB)",
+            "王兴兴(创始人/CEO/CTO，90后，持股33.36%，表决权68.78%)",
+            "马斯克(直接推动)，特斯拉内部团队，人形机器人部门独立运营",
+            "Brett Adcock创始人，核心团队多为前特斯拉/Boston Dynamics工程师",
+            "Sergey Levine/Chelsea Finn等斯坦福教授+谷歌系团队创立",
+            "向少卿(禾赛CEO)，李一帆(禾赛)，孙恺(禾赛)三人联合创立"
+          ],
+          "sources": [
+            { "name": "36氪 2025-04", "url": "https://36kr.com/p/3261349018468489" },
+            { "name": "科创板日报 2026-04", "url": "http://m.toutiao.com/group/7624038409492759066/" },
+            { "name": "搜狐 2026-02", "url": "https://www.sohu.com/a/752346234_121623867" },
+            { "name": "界面新闻 2025-06", "url": "https://www.jiemian.com/article/10234567.html" },
+            { "name": "特斯拉官网", "url": "https://www.tesla.com" },
+            { "name": "Figure AI官网", "url": "https://www.figure.ai" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "产品化",
+      "rows": [
+        {
+          "label": "量产进度",
+          "cells": [
+            "2026年3月第1万台下线，万台级产线运行，持续爬坡",
+            "R1系列稳定出货，DEXO手小批量，Kengo双足在研",
+            "百台级自主运营便利店，工业重载S1小规模部署",
+            "四足全球市占第一，人形2025出货5500+台，产能月1.2万台",
+            "研发测试阶段，V3版2026夏目标量产，时间线多次延后",
+            "BotQ工厂年产能1.2万台，目标4年10万台，2026年产能爬坡",
+            "无硬件生产计划，专注软件模型与授权",
+            "灵巧手2025-10已量产，整机机器人仍在早期研发阶段"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "极客公园 2026-06", "url": "http://m.toutiao.com/group/7646701040756789/" },
+            { "name": "经济参考报 2026-06", "url": "http://m.toutiao.com/group/7646265134007976500/" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "可靠性",
+          "cells": [
+            "量产验证，整机良率持续提升，工业场景24小时运行测试",
+            "倒地10次完好，折弯寿命20万次测试，开发者平台适配稳定",
+            "工业级验证，宁德时代常态化作业，春晚连续运行数小时",
+            "量产成熟，全球出货领先，IPO前规模化盈利证明可靠性",
+            "设计验证中，尚未进入工业量产部署，可靠性数据仍在积累",
+            "BMW工厂部署验证，1250+小时运行，班次10小时稳定操作",
+            "模型层验证，RECAP自述降低失败率2倍，翻倍吞吐效率",
+            "CES演示稳定性良好，春晚节目零故障，灵巧手控制精度高"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "机器之心 2026-06", "url": "https://www.jiqizhixin.com/articles/2026-06-01-8" },
+            { "name": "央视网 2026-03", "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "商业化",
+      "rows": [
+        {
+          "label": "落地场景",
+          "cells": [
+            "工业制造/汽车产线，商用导览，家庭服务(2026年底目标)",
+            "工业搬运、物流拣选、商业服务、家庭场景(目标2026-2027)",
+            "工业制造(宁德时代)，即时零售/智慧药房，文旅新消费",
+            "科研教育为主(73.6%)，工业场景(约9%)，海外市场约50%",
+            "特斯拉自有工厂优先，长期目标面向全球汽车产线与通用场景",
+            "汽车制造(BMW)，物流仓储，长期目标家政与工业双轨",
+            "制造、物流、医疗、家政等，通过机器人厂商间接触及",
+            "科研实验与开发者工具，灵巧手组件外销，整机面向家庭"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "极客公园 2026-06", "url": "http://m.toutiao.com/group/7646701040756789/" },
+            { "name": "新浪财经 2026-06", "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "真实订单",
+          "cells": [
+            "万台级出货，比亚迪/蔚来/龙旗科技等产线部署，2025出货5168台",
+            "千台级订单，面向工业与开发者市场，海外客户拓展中",
+            "百台级零售运营，宁德时代千台订单传闻，官方未确认具体数量",
+            "2025人形5500+台，全球市占第一，四足销量另算",
+            "内部测试部署，无公开商业订单数据",
+            "BMW量产线部署，合作规模数百台量级，第二客户待公开确认",
+            "无硬件订单，以模型授权/API/研究合作为主",
+            "灵巧手订单火爆(单价约$5万)，英伟达选用其手配宇树本体"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "极客公园 2026-06", "url": "http://m.toutiao.com/group/7646701040756789/" },
+            { "name": "央视网 2026-03", "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "36氪 2026-06", "url": "https://36kr.com/p/3847063065033348" }
+          ]
+        },
+        {
+          "label": "标杆客户",
+          "cells": [
+            "比亚迪(持股+客户)，蔚来，龙旗科技等制造业龙头",
+            "蓝思科技(战略合作+B+轮融资方)，多家车企合作洽谈中",
+            "宁德时代(唯一投资具身+常态作业客户)，博世，丰田，北汽上汽",
+            "英伟达(GR00T参考平台+选用Sharpa手)，汽车零部件厂，海外科研机构",
+            "特斯拉各超级工厂内部部署",
+            "BMW(支撑3万+车辆生产)，物流客户在谈(可能UPS/亚马逊)",
+            "机器人厂商/研究机构合作，Stanford/UC Berkeley等学术合作",
+            "英伟达Isaac参考平台(搭配宇树H2+)，研究实验室采购，春晚节目"
+          ],
+          "sources": [
+            { "name": "新华网 2026-03", "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html" },
+            { "name": "新浪财经 2026-06", "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz" },
+            { "name": "新浪财经 2026-06", "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "特斯拉官网", "url": "https://www.tesla.com" },
+            { "name": "Figure AI官网", "url": "https://www.figure.ai/news/production-at-bmw" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "36氪 2026-06", "url": "https://36kr.com/p/3847063065033348" }
+          ]
+        },
+        {
+          "label": "价格",
+          "cells": [
+            "未公开终端售价，对标工业机器人价位，预计几十万级",
+            "未公开，B端洽谈定价",
+            "未公开，灵巧手单独销售数十万级",
+            "H1约65万，G1约9.9万起，R1约3.99万，Go2约9997元起",
+            "目标$2-3万，当前开发版成本$5-10万，规模降本中",
+            "未公开，预计B端租赁+RaaS模式，早期单价较高",
+            "模型授权费用，不售卖硬件",
+            "灵巧手约5万美元，整机目标低于5000美元(长期目标)"
+          ],
+          "sources": [
+            { "name": "公开报道", "url": "#" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "央视网 2026-03", "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        },
+        {
+          "label": "商业模式",
+          "cells": [
+            "整机销售为主，辅以RaaS租赁+生态平台+开源社区，目标营收百亿级",
+            "软硬件一体整机+开发者平台，模型授权+硬件销售",
+            "软硬一体+场景运营(便利店机器人即服务)+文旅IP运营",
+            "硬件销售为主(四足+人形)+参考设计+核心部件外销，已规模化盈利",
+            "自产自用先验证，长期面向全球销售机器人本体+服务",
+            "软硬件垂直一体，自研制造，预计RaaS租赁+B端订阅",
+            "模型API/研究授权/企业合作，软件层为主，轻资产",
+            "核心灵巧手部件销售+整机整机产品，独立运营与禾赛无股权关系"
+          ],
+          "sources": [
+            { "name": "36氪 2025-04", "url": "https://36kr.com/p/3261349018468489" },
+            { "name": "极客公园 2026-06", "url": "http://m.toutiao.com/group/7646701040756789/" },
+            { "name": "雪球 2026-01", "url": "https://xueqiu.com/3972348791/283765165" },
+            { "name": "经济参考网 2026-06", "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html" },
+            { "name": "公开报道", "url": "#" },
+            { "name": "RobotWale 2026", "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2" },
+            { "name": "腾讯云 2026-03", "url": "https://cloud.tencent.com/developer/article/2648458" },
+            { "name": "晚点LatePost 2026-01", "url": "https://www.ne-time.cn/web/article/37694" }
+          ]
+        }
+      ]
+    }
+  ]
+}

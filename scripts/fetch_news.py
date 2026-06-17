@@ -1,0 +1,281 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Fetch robot/embodied-AI news from RSS feeds and update data/news.json.
+Run by GitHub Actions every 4–6 hours.
+"""
+import json
+import os
+import re
+import xml.etree.ElementTree as ET
+from datetime import datetime, timezone, timedelta
+from urllib.request import Request, urlopen
+from urllib.error import URLError
+
+DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
+
+# Keywords to filter robot/embodied AI news
+KEYWORDS = [
+    "机器人", "人形", "具身智能", "embodied", "robot", "humanoid",
+    "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
+    "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T"
+]
+
+RSS_SOURCES = [
+    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
+    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
+    {"name": "甲子光年", "url": "https://www.jazzyear.com/feed"},
+    {"name": "智东西", "url": "https://www.zhidx.com/feed"},
+    {"name": "36氪", "url": "https://36kr.com/feed"},
+    {"name": "雷峰网", "url": "https://www.leiphone.com/feed"},
+    {"name": "虎嗅网", "url": "https://www.huxiu.com/rss/0.xml"},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml"},
+    {"name": "界面新闻", "url": "https://www.jiemian.com/lists/42.html"},
+    {"name": "创业邦", "url": "https://www.cyzone.cn/feed/"},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
+    {"name": "品玩", "url": "https://www.pingwest.com/feed/"},
+    {"name": "动点科技", "url": "https://techcrunch.cn/feed"},
+    {"name": "AI科技评论", "url": "https://aitechtalk.com/feed"},
+    {"name": "机器人大讲堂", "url": "https://www.robo-report.com/feed"},
+    {"name": "高工机器人", "url": "https://www.gongkong.com/rss/robot.xml"},
+]
+
+# Skip research reports / whitepapers that are not clickable news
+SKIP_KEYWORDS = [
+    "研报", "研究报告", "深度报告", "行业研究", "白皮书",
+    "年度报告", "年度研报", "市场研究", "产业研究",
+    "蓝皮书", "洞察报告", "调研报告", "分析报告",
+]
+
+
+def fetch_rss(url: str, timeout: int = 20):
+    req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        with urlopen(req, timeout=timeout) as resp:
+            return resp.read()
+    except Exception as e:
+        # Catch all network / SSL / timeout / HTTP errors — don't let one bad source kill the whole run
+        print(f"WARN: failed to fetch {url}: {type(e).__name__}: {e}")
+        return None
+
+
+def parse_rss(raw: bytes):
+    items = []
+    try:
+        root = ET.fromstring(raw)
+    except ET.ParseError as e:
+        print(f"WARN: RSS parse error: {e}")
+        return items
+
+    channel = root.find("channel")
+    if channel is None:
+        channel = root
+
+    for item in channel.findall("item"):
+        title = item.findtext("title", "").strip()
+        link = item.findtext("link", "").strip()
+        pub_date = item.findtext("pubDate", item.findtext("dc:date", "")).strip()
+        desc = item.findtext("description", "").strip()
+        # Skip research reports
+        if any(sk in title or sk in desc for sk in SKIP_KEYWORDS):
+            continue
+        if any(kw in title or kw in desc for kw in KEYWORDS):
+            items.append({
+                "title": title,
+                "url": link,
+                "pub_date": pub_date,
+                "description": desc,
+            })
+    return items
+
+
+def normalize_date(pub_date: str):
+    """Try to parse RSS date to MM-DD format. Returns (MM-DD, timezone-aware datetime)."""
+    formats = [
+        "%a, %d %b %Y %H:%M:%S %z",
+        "%a, %d %b %Y %H:%M:%S GMT",
+        "%a, %d %b %Y %H:%M:%S +0000",
+        "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%d %H:%M:%S",
+        "%Y-%m-%d",
+    ]
+    for fmt in formats:
+        try:
+            dt = datetime.strptime(pub_date, fmt)
+            # Make timezone-aware: if no tz, assume UTC
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            return dt.strftime("%m-%d"), dt
+        except ValueError:
+            continue
+    # Fallback: regex extract date
+    m = re.search(r'(\d{4})-(\d{2})-(\d{2})', pub_date)
+    if m:
+        y, mon, d = m.groups()
+        dt = datetime(int(y), int(mon), int(d), tzinfo=timezone.utc)
+        return f"{mon}-{d}", dt
+    now = datetime.now(timezone.utc)
+    return now.strftime("%m-%d"), now
+
+
+def extract_company(title: str):
+    companies = [
+        ("智元", "智元机器人"), ("宇树", "宇树科技"), ("银河通用", "银河通用"),
+        ("星海图", "星海图"), ("星动纪元", "星动纪元"), ("Figure", "Figure"),
+        ("特斯拉", "特斯拉"), ("Optimus", "特斯拉"), ("OpenAI", "OpenAI"),
+        ("Physical Intelligence", "Physical Intelligence"), ("优必选", "优必选"),
+        ("云深处", "云深处"), ("众擎", "众擎机器人"), ("千寻智能", "千寻智能"),
+    ]
+    for kw, name in companies:
+        if kw in title:
+            return name
+    if any(k in title for k in ["融资", "IPO", "上市"]):
+        return "行业"
+    return "其他"
+
+
+def is_relevant(title: str) -> bool:
+    """判断新闻是否与具身智能相关，不相关的直接过滤掉"""
+    t = title.lower()
+    # 不相关关键词（泛行业新闻、商业诉讼、金融市场等）：直接过滤
+    irrelevant_kw = [
+        "食品", "餐饮", "山崎", "奶粉", "糖", "烘焙", "美妆", "服装", "零售", "超市",
+        "房价", "房产", "楼市", "物业", "家居", "建材", "酒店", "旅游", "航空", "邮轮",
+        "钢铁", "煤炭", "石油", "能源", "电力", "电网", "银行", "保险", "证券", "券商",
+        "基金", "股票", "A股", "美股", "港股", "原油", "黄金", "期货", "币圈",
+        "诉讼", "索赔", "法院", "判决", "罚款", "违约", "破产", "清算", "重组", "退市",
+        "政治", "政策", "人事", "选举", "总统", "总理", "外交", "会谈", "出访",
+        "教育", "培训", "学校", "高考", "考研", "留学", "学院",
+        "医疗", "医院", "医药", "药品", "疫苗", "医生", "健康", "病例", "感染",
+        "疫情", "病毒", "新冠", "流感", "传染病",
+        "游戏", "电影", "音乐", "综艺", "剧集", "明星", "演员", "歌手",
+        "奥运", "体育", "足球", "篮球", "比赛", "赛事",
+        "天气", "气候", "台风", "地震", "洪水", "灾害",
+        "汽车销量", "车市", "4S店", "燃油车", "经销商",
+        "高考人数", "考研人数", "就业", "毕业生",
+        "外卖", "快递", "物流（非工业/机器人）",
+        "超市", "便利店", "零售店",
+        "家居建材", "装修", "装饰",
+        "价格战", "折扣", "降价", "促销",
+        "房地产", "房价", "楼市",
+        "通胀", "加息", "降息", "央行", "美联储",
+        "经济数据", "GDP", "CPI", "PPI", "PMI",
+        "海关", "进出口", "贸易", "关税",
+        "地震", "山体滑坡", "泥石流", "灾害",
+        "爆炸", "火灾", "事故",
+        "食品安全", "食品添加剂",
+        "价格", "涨价", "降价", "定价",
+        "招聘", "裁员", "失业",
+    ]
+    for kw in irrelevant_kw:
+        if kw in t:
+            return False
+
+    # 必须包含至少一个相关关键词（具身智能/机器人/大模型/AI）
+    relevant_kw = [
+        "机器人", "具身", "人形", "四足", "机械臂", "工业机器人", "服务机器人",
+        "vla", "大模型", "ai", "人工智能", "自动驾驶", "自动驾驶", "智能汽车",
+        "llm", "模型", "开源", "感知", "规划", "控制",
+        "芯片", "gpu", "算力", "算力",
+        "小米", "特斯拉", "智元", "宇树", "优必选", "云深处", "银河通用",
+        "理想", "小鹏", "蔚来", "比亚迪", "车端",
+        "openai", "figure", "physical intelligence",
+        "deepseek", "月之暗面", "kimi", "智谱", "百川", "阿里", "腾讯", "百度",
+        "机器人创业", "机器人公司", "融资", "IPO", "上市",
+    ]
+    return any(k in t for k in relevant_kw)
+
+
+def categorize(title: str):
+    t = title.lower()
+    # 1) 资本动态：融资、IPO、并购、估值、投资
+    if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "轮"]):
+        if "合作" in t and not any(k in t for k in ["融资", "投资", "收购", "并购"]):
+            return "产品量产"
+        return "资本动态"
+    # 2) 产品量产：新品、发布、量产、交付
+    if any(k in t for k in ["发布", "推出", "亮相", "量产", "出货", "交付", "新品", "首台", "下线"]):
+        return "产品量产"
+    # 3) 商业订单：签约、订单、合同、落地
+    if any(k in t for k in ["签约", "订单", "合同", "落地", "商业化", "采购", "中标", "部署"]):
+        return "商业订单"
+    # 4) 技术突破：大模型、VLA、算法、开源
+    if any(k in t for k in ["大模型", "vla", "模型", "开源", "算法", "论文", "架构", "突破", "技术", "感知", "具身"]):
+        return "技术突破"
+    # 5) 行业动态：泛行业新闻（仍需相关）
+    return "行业动态"
+
+
+def load_existing():
+    if os.path.exists(DATA_PATH):
+        with open(DATA_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return {"items": []}
+
+
+def save_data(data):
+    os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
+    with open(DATA_PATH, "w", encoding="utf-8") as f:
+        json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def main():
+    existing = load_existing()
+    existing_urls = {it.get("url", "") for it in existing.get("items", [])}
+    new_items = []
+
+    for src in RSS_SOURCES:
+        raw = fetch_rss(src["url"])
+        if not raw:
+            continue
+        parsed = parse_rss(raw)
+        for p in parsed:
+            if p["url"] in existing_urls:
+                continue
+            # 严格筛选：只保留具身智能相关的新闻
+            if not is_relevant(p["title"]):
+                continue
+            date_str, dt = normalize_date(p["pub_date"])
+            # Only keep items from last 14 days to avoid stale news
+            if datetime.now(tz=timezone.utc) - dt > timedelta(days=14):
+                continue
+            new_items.append({
+                "date": date_str,
+                "company": extract_company(p["title"]),
+                "title": p["title"],
+                "source_name": src["name"],
+                "category": categorize(p["title"]),
+                "url": p["url"],
+            })
+
+    all_items = existing.get("items", []) + new_items
+    # Deduplicate by URL
+    seen = set()
+    deduped = []
+    for it in all_items:
+        if it["url"] and it["url"] in seen:
+            continue
+        seen.add(it["url"])
+        # 对已有新闻也应用过滤，并重新分类
+        if not is_relevant(it.get("title", "")):
+            continue
+        it["category"] = categorize(it.get("title", ""))
+        deduped.append(it)
+
+    # Sort by date desc
+    deduped.sort(key=lambda x: x.get("date", ""), reverse=True)
+    # Keep last 50
+    deduped = deduped[:50]
+
+    data = {
+        "updated": datetime.now(timezone(timedelta(hours=8))).isoformat(),
+        "source": "RSS自动抓取",
+        "items": deduped,
+    }
+    save_data(data)
+    print(f"Updated {DATA_PATH}: {len(new_items)} new, {len(deduped)} total.")
+
+
+if __name__ == "__main__":
+    main()
