@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T18:59:17.963912+08:00",
+  "updated": "2026-06-17T21:03:07.887552+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -93,30 +93,6 @@
     {
       "date": "06-16",
       "company": "其他",
-      "title": "江湖已变，旧梦未改，吴甘沙的自动驾驶十年",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/transportation/1esMB4Ogf5Qg0Xg9.html"
-    },
-    {
-      "date": "06-16",
-      "company": "行业",
-      "title": "手机厂商即将杀入云台相机市场！大疆回应：欢迎良性竞争；腾讯参投林俊旸AI公司2000万美元；燧原科技IPO过会，GPU四小龙齐聚资本市场",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "url": "https://www.leiphone.com/category/zaobao/0CjtuLA0scX0iZQc.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "早报｜AI版支付宝启动内测/小红书世界杯直播在线人数创新高/3799元，大疆Pocket 4P发布",
-      "source_name": "爱范儿",
-      "category": "产品量产",
-      "url": "https://www.ifanr.com/1669019?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
       "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
       "source_name": "36氪",
       "category": "技术突破",
@@ -129,14 +105,6 @@
       "source_name": "雷峰网",
       "category": "行业动态",
       "url": "https://www.leiphone.com/category/weiwu/vFMxYwSaDXdPurDk.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "不到40元，深圳公司把大模型塞进毛绒玩具",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "url": "https://www.leiphone.com/category/chips/NZxwhQZCCQGDF8Gi.html"
     },
     {
       "date": "06-16",
@@ -169,22 +137,6 @@
       "source_name": "量子位",
       "category": "技术突破",
       "url": "https://www.qbitai.com/2026/06/436073.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "超百万现金激励，TRAE AI创造力大赛正式启动",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/industrynews/8apNrrdq14vz5adL.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "硬氪专访 | 智源研究院院长王仲远：VLA不会死，但世界模型是未来",
-      "source_name": "36氪",
-      "category": "技术突破",
-      "url": "https://36kr.com/p/3853016586359817?f=rss"
     },
     {
       "date": "06-15",
@@ -269,22 +221,6 @@
     {
       "date": "06-15",
       "company": "其他",
-      "title": "网件反咬TP-Link：「美国公司」是骗局，本质仍是中国企业；乌克兰使用AI无人机自主猎杀俄士兵；山姆客服回应极速达买到临期商品",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/zaobao/z1REYcEDmooLjV3S.html"
-    },
-    {
-      "date": "06-15",
-      "company": "行业",
-      "title": "氪星晚报 ｜我国成功发射吉星高分07C04星等8颗卫星；小红书或已准备好本月在香港提交IPO申请；智谱：公司已推出最新一代旗舰模型GLM-5.2",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "url": "https://36kr.com/p/3854486447510535?f=rss"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
       "title": "对话它石智航丁文超：具身智能，如何迈进「2.0时代」？| ICRA 2026",
       "source_name": "雷峰网",
       "category": "技术突破",
@@ -307,14 +243,6 @@
       "url": "https://www.tmtpost.com/8029068.html"
     },
     {
-      "date": "06-15",
-      "company": "其他",
-      "title": "对话速腾聚创杨先声：机器人的通用智能，先从一双「不骗人」的眼睛开始 | ICRA 2026",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/private/04blpoyMgJFliCK9.html"
-    },
-    {
       "date": "06-14",
       "company": "其他",
       "title": "我国首批自研海洋工程柔性智能焊接机器人投用",
@@ -323,44 +251,12 @@
       "url": "https://36kr.com/newsflashes/3852643642053897?f=rss"
     },
     {
-      "date": "06-14",
-      "company": "OpenAI",
-      "title": "加拿大母亲起诉奥特曼与OpenAI，指控ChatGPT诱导女儿自杀",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3852506866865414?f=rss"
-    },
-    {
       "date": "06-13",
       "company": "其他",
       "title": "魔法原子上交会首秀VLA K02大模型",
       "source_name": "36氪",
       "category": "技术突破",
       "url": "https://36kr.com/newsflashes/3850998799373319?f=rss"
-    },
-    {
-      "date": "06-13",
-      "company": "其他",
-      "title": "2026北京智源大会开幕 | 从“悟道”到“悟界”，智源研究院推动人工智能、物理世界和生命科学“三体互动”",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/academic/PRkJuKQSDv4Q1le5.html"
-    },
-    {
-      "date": "06-13",
-      "company": "其他",
-      "title": "科大讯飞发布星火多模态大模型X2-VL",
-      "source_name": "36氪",
-      "category": "产品量产",
-      "url": "https://36kr.com/newsflashes/3851320295166976?f=rss"
-    },
-    {
-      "date": "06-13",
-      "company": "其他",
-      "title": "比亚迪摊牌了",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "url": "https://www.tmtpost.com/8023153.html"
     }
   ]
 }

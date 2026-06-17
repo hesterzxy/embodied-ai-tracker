@@ -45,6 +45,17 @@ SKIP_KEYWORDS = [
     "研报", "研究报告", "深度报告", "行业研究", "白皮书",
     "年度报告", "年度研报", "市场研究", "产业研究",
     "蓝皮书", "洞察报告", "调研报告", "分析报告",
+    "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻",
+    "一周融资", "投融资周报", "IPO周报",
+]
+
+DIRECT_SIGNAL_KEYWORDS = [
+    "具身智能", "人形机器人", "四足机器人", "机器人", "灵巧手", "机械臂",
+    "VLA", "视觉语言动作", "世界模型", "运动控制", "本体", "关节",
+    "量产", "下线", "交付", "订单", "部署", "签约", "中标",
+    "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure",
+    "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎",
+    "千寻智能", "大晓机器人", "傅利叶", "逐际动力",
 ]
 
 
@@ -138,6 +149,16 @@ def extract_company(title: str):
 def is_relevant(title: str) -> bool:
     """判断新闻是否与具身智能相关，不相关的直接过滤掉"""
     t = title.lower()
+    raw = title
+    # 综合资讯通常只夹带一个 AI/融资关键词，无法支撑赛道跟踪，直接过滤。
+    roundup_markers = [
+        "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻", "一文看懂",
+        "本周", "一周", "汇总", "盘点", "合集",
+    ]
+    if any(k in raw for k in roundup_markers):
+        # 只有标题主体直接指向具身/机器人时才保留。
+        if not any(k in raw for k in DIRECT_SIGNAL_KEYWORDS[:24]):
+            return False
     # 不相关关键词（泛行业新闻、商业诉讼、金融市场等）：直接过滤
     irrelevant_kw = [
         "食品", "餐饮", "山崎", "奶粉", "糖", "烘焙", "美妆", "服装", "零售", "超市",
@@ -153,6 +174,7 @@ def is_relevant(title: str) -> bool:
         "奥运", "体育", "足球", "篮球", "比赛", "赛事",
         "天气", "气候", "台风", "地震", "洪水", "灾害",
         "汽车销量", "车市", "4S店", "燃油车", "经销商",
+        "手机厂商", "云台相机", "相机市场", "影像生意", "大疆", "影石",
         "高考人数", "考研人数", "就业", "毕业生",
         "外卖", "快递", "物流（非工业/机器人）",
         "超市", "便利店", "零售店",
@@ -184,7 +206,14 @@ def is_relevant(title: str) -> bool:
         "deepseek", "月之暗面", "kimi", "智谱", "百川", "阿里", "腾讯", "百度",
         "机器人创业", "机器人公司", "融资", "IPO", "上市",
     ]
-    return any(k in t for k in relevant_kw)
+    # 对泛 AI/汽车/融资新闻加一道直接信号门槛，避免把无关综合新闻带进页面。
+    has_relevant = any(k in t for k in relevant_kw)
+    has_direct = any(k.lower() in t for k in DIRECT_SIGNAL_KEYWORDS)
+    if any(k in t for k in ["自动驾驶", "智能汽车", "车端", "理想", "小鹏", "蔚来", "比亚迪"]):
+        return has_relevant and has_direct
+    if any(k in t for k in ["ai", "人工智能", "融资", "ipo", "上市", "模型", "大模型"]):
+        return has_relevant and has_direct
+    return has_relevant
 
 
 def categorize(title: str):
@@ -220,6 +249,10 @@ def save_data(data):
         json.dump(data, f, ensure_ascii=False, indent=2)
 
 
+def norm_title(title: str) -> str:
+    return re.sub(r"\s+", "", title or "").lower()
+
+
 def main():
     existing = load_existing()
     existing_urls = {it.get("url", "") for it in existing.get("items", [])}
@@ -250,13 +283,19 @@ def main():
             })
 
     all_items = existing.get("items", []) + new_items
-    # Deduplicate by URL
-    seen = set()
+    # Deduplicate by URL and normalized title. Some publishers expose the same
+    # article under multiple category URLs.
+    seen_urls = set()
+    seen_titles = set()
     deduped = []
     for it in all_items:
-        if it["url"] and it["url"] in seen:
+        title_key = norm_title(it.get("title", ""))
+        if it["url"] and it["url"] in seen_urls:
             continue
-        seen.add(it["url"])
+        if title_key and title_key in seen_titles:
+            continue
+        seen_urls.add(it["url"])
+        seen_titles.add(title_key)
         # 对已有新闻也应用过滤，并重新分类
         if not is_relevant(it.get("title", "")):
             continue

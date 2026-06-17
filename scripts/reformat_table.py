@@ -3,7 +3,7 @@ import json
 with open('data/table.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
-# 1. Remove Sharpa (first company)
+# 1. Remove the first company from an older table export
 data['companies'] = data['companies'][1:]
 
 # 2. For each row, remove first cell and first source
@@ -24,4 +24,4 @@ for g in data['groups']:
 with open('data/table.json', 'w', encoding='utf-8') as f:
     json.dump(data, f, ensure_ascii=False, indent=2)
 
-print('Reformatted table.json: removed Sharpa, adjusted cells & sources.')
+print('Reformatted table.json: removed first company, adjusted cells & sources.')
