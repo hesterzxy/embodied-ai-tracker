@@ -4246,8 +4246,18 @@
               "note": "融资/估值数字需替换为可打开的稳定公开来源后再展示"
             },
             {
-              "summary": "估值待证",
+              "summary": "200亿+估值",
               "bullets": [
+                {
+                  "text": "估值突破200亿元人民币",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
                 {
                   "text": "2026年初完成股改",
                   "sources": [
@@ -4259,17 +4269,7 @@
                   ]
                 },
                 {
-                  "text": "融资估值未见稳定公开链接",
-                  "sources": [
-                    {
-                      "name": "量子位 2026-06",
-                      "url": "https://www.qbitai.com/2026/06/436223.html",
-                      "evidence": ""
-                    }
-                  ]
-                },
-                {
-                  "text": "暂不展示具体估值数字",
+                  "text": "融资节奏进入产业化阶段",
                   "sources": [
                     {
                       "name": "量子位 2026-06",
@@ -4281,8 +4281,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "未找到可打开且稳定支撑估值数字的公开来源"
+              "confidence": "medium",
+              "note": "估值为公开报道口径，后续建议补充更直接的融资公告/权威媒体链接"
             },
             {
               "summary": "200亿+估值",
