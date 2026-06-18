@@ -21,6 +21,7 @@ REPORT_PATH = ROOT / "data" / "link_validation_report.md"
 
 UNSTABLE_DOMAINS = {"m.toutiao.com", "toutiao.com", "xueqiu.com"}
 OK_STATUS = {200, 201, 202, 204, 301, 302, 303, 307, 308}
+NOT_FOUND_MARKERS = ("页面没有找到", "page not found", "404 not found")
 
 
 def iter_sources():
@@ -63,9 +64,12 @@ def check_url(url, timeout):
     else:
         unstable = False
     try:
-        req = Request(url, method="HEAD", headers={"User-Agent": "Mozilla/5.0"})
+        req = Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0"})
         with urlopen(req, timeout=timeout, context=ssl.create_default_context()) as resp:
             status = getattr(resp, "status", 200)
+            sample = resp.read(4096).decode("utf-8", "ignore").lower()
+            if any(marker in sample for marker in NOT_FOUND_MARKERS):
+                return "invalid", "not found page"
     except HTTPError as e:
         status = e.code
     except (URLError, TimeoutError, socket.timeout) as e:
@@ -88,8 +92,14 @@ def main():
 
     rows = []
     invalid_count = 0
+    checked_urls = {}
     for src in iter_sources():
-        status, detail = check_url(src["url"], args.timeout)
+        url = src["url"]
+        if url in checked_urls:
+            status, detail = checked_urls[url]
+        else:
+            status, detail = check_url(url, args.timeout)
+            checked_urls[url] = (status, detail)
         if status in {"invalid", "invalid_url", "blocked"}:
             invalid_count += 1
         rows.append({**src, "status": status, "detail": detail})
