@@ -86,6 +86,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
 .toggle button.on{background:var(--accent);color:#fff}
 .toggle button:hover:not(.on){background:var(--shade);color:var(--ink)}
 .dynhead{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:6px 0 18px}
+.range-note{font-size:12px;color:var(--ink3);margin:-8px 0 14px;line-height:1.6}
 
 .feed{border-top:1px solid var(--line2)}
 .item{display:grid;grid-template-columns:88px 1fr;gap:18px;padding:16px 4px;border-bottom:1px solid var(--line);transition:background .15s,color .15s}
@@ -185,6 +186,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
   </div>
 
   <!-- 最新动态 -->
+  <div id="feedNote" class="range-note">最新动态展示滚动 7 天内抓取到的相关信息。</div>
   <div id="viewFeed" class="feed">
     <div class="errnote" id="feedLoading">正在加载最新动态…</div>
   </div>
@@ -192,6 +194,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
   <!-- 本周周报 -->
   <div id="viewWeek" class="hide">
     <div class="weekrange" id="weekRange">本周汇总生成中…</div>
+    <div class="range-note">本周周报按自然周统计，范围为本周一到本周日。</div>
     <div id="weekGroups"></div>
   </div>
 </div>
@@ -290,10 +293,12 @@ function renderMatrixState(){
 
 // ---- dynamics toggle ----
 const tFeed=document.getElementById('tFeed'), tWeek=document.getElementById('tWeek'),
-      vFeed=document.getElementById('viewFeed'), vWeek=document.getElementById('viewWeek');
+      vFeed=document.getElementById('viewFeed'), vWeek=document.getElementById('viewWeek'),
+      feedNote=document.getElementById('feedNote');
 function show(week){
   tWeek.classList.toggle('on',week); tFeed.classList.toggle('on',!week);
   vWeek.classList.toggle('hide',!week); vFeed.classList.toggle('hide',week);
+  feedNote.classList.toggle('hide',week);
 }
 tFeed.onclick=()=>show(false); tWeek.onclick=()=>show(true);
 
@@ -463,17 +468,34 @@ function getThisWeekRange(){
   const now=new Date();
   const day=now.getDay(); // 0 Sun .. 6 Sat
   const mon=new Date(now); mon.setDate(now.getDate()-((day+6)%7));
+  const sun=new Date(mon); sun.setDate(mon.getDate()+6);
   const fmt=d=>`${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
-  return {start:fmt(mon), end:fmt(now), startObj:mon, endObj:now};
+  return {start:fmt(mon), end:fmt(sun), startObj:mon, endObj:sun};
+}
+
+function getRollingRange(days=7){
+  const now=new Date();
+  const start=new Date(now);
+  start.setDate(now.getDate()-(days-1));
+  const fmt=d=>`${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  return {start:fmt(start), end:fmt(now), startObj:start, endObj:now};
+}
+
+function withinRange(dateStr, startStr, endStr){
+  if(!dateStr) return false;
+  return dateStr>=startStr && dateStr<=endStr;
 }
 
 function renderFeed(items){
   const container=document.getElementById('viewFeed');
-  if(!items||!items.length){
+  const range=getRollingRange(7);
+  const visible=(items||[]).filter(it=>withinRange(it.date, range.start, range.end));
+  document.getElementById('feedNote').textContent=`最新动态展示滚动 7 天内抓取到的相关信息（${range.start} — ${range.end}）。`;
+  if(!visible.length){
     container.innerHTML='<div class="errnote">暂无最新动态。</div>'; return;
   }
   const read=new Set(getReadNews());
-  container.innerHTML=items.map(it=>`
+  container.innerHTML=visible.map(it=>`
     <div class="item ${read.has(it.url)?'read':''}" data-url="${esc(it.url||'')}">
       <div class="date">${esc(it.date)}</div>
       <div>
@@ -498,8 +520,7 @@ function renderWeeklyReport(items){
   document.getElementById('weekRange').textContent=`本周 · ${startStr} — ${endStr}`;
 
   const weekItems=items.filter(it=>{
-    if(!it.date) return false;
-    return it.date>=startStr && it.date<=endStr;
+    return withinRange(it.date, startStr, endStr);
   });
 
   const order=['技术突破','产品量产','商业订单','资本动态','行业动态'];

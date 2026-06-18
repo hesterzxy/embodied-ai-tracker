@@ -102,6 +102,15 @@ def parse_rss(raw: bytes):
 
 def normalize_date(pub_date: str):
     """Try to parse RSS date to MM-DD format. Returns (MM-DD, timezone-aware datetime)."""
+    mmdd = re.fullmatch(r"(\d{2})-(\d{2})", pub_date or "")
+    if mmdd:
+        now = datetime.now(timezone.utc)
+        mon, day = map(int, mmdd.groups())
+        dt = datetime(now.year, mon, day, tzinfo=timezone.utc)
+        if dt - now > timedelta(days=1):
+            dt = datetime(now.year - 1, mon, day, tzinfo=timezone.utc)
+        return dt.strftime("%m-%d"), dt
+
     formats = [
         "%a, %d %b %Y %H:%M:%S %z",
         "%a, %d %b %Y %H:%M:%S GMT",
@@ -270,8 +279,8 @@ def main():
             if not is_relevant(p["title"]):
                 continue
             date_str, dt = normalize_date(p["pub_date"])
-            # Only keep items from last 14 days to avoid stale news
-            if datetime.now(tz=timezone.utc) - dt > timedelta(days=14):
+            # Keep the feed aligned with the front-end rolling 7-day window.
+            if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
                 continue
             new_items.append({
                 "date": date_str,
@@ -299,6 +308,10 @@ def main():
         # 对已有新闻也应用过滤，并重新分类
         if not is_relevant(it.get("title", "")):
             continue
+        date_str, dt = normalize_date(it.get("date", ""))
+        if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
+            continue
+        it["date"] = date_str
         it["category"] = categorize(it.get("title", ""))
         deduped.append(it)
 
