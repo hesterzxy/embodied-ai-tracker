@@ -1,7 +1,23 @@
 {
-  "updated": "2026-06-18T11:11:56.972683+08:00",
+  "updated": "2026-06-18T22:03:19.047967+08:00",
   "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "庭院机器人大乱斗：为何关键一仗在草坪？",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "url": "https://www.leiphone.com/category/robot/NCDqDsxS5AgjJxV6.html"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "擎仓机器人30天极速部署欧莱雅产线，轻量化VLA范式突破",
+      "source_name": "钛媒体",
+      "category": "商业订单",
+      "url": "https://www.tmtpost.com/8033573.html"
+    },
     {
       "date": "06-17",
       "company": "其他",
