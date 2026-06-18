@@ -319,7 +319,7 @@
           ]
         },
         {
-          "label": "技术路线",
+          "label": "技术选择",
           "cells": [
             {
               "summary": "整机+大脑",
@@ -406,8 +406,8 @@
                   "text": "大脑优先",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -416,8 +416,8 @@
                   "text": "合成仿真数据为主(99%)",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -426,8 +426,8 @@
                   "text": "真机少量调优",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -484,8 +484,8 @@
                   "text": "纯视觉无激光雷达",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -494,8 +494,8 @@
                   "text": "FSD能力迁移",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -504,8 +504,8 @@
                   "text": "Dojo超算训练",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com/optimus",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -514,7 +514,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "Helix自研",
@@ -523,8 +523,8 @@
                   "text": "自研Helix VLA",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
                       "evidence": ""
                     }
                   ]
@@ -533,8 +533,8 @@
                   "text": "纯视觉端到端",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
                       "evidence": ""
                     }
                   ]
@@ -543,8 +543,8 @@
                   "text": "自产硬件配套",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
                       "evidence": ""
                     }
                   ]
@@ -602,13 +602,13 @@
               "evidence": ""
             },
             {
-              "name": "科创板日报 2026-04（待换稳定源）",
-              "url": "#",
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -617,13 +617,13 @@
               "evidence": ""
             },
             {
-              "name": "特斯拉官网",
-              "url": "https://www.tesla.com/optimus",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 Helix",
+              "url": "https://www.figure.ai/news/helix",
               "evidence": ""
             },
             {
@@ -721,8 +721,8 @@
                   "text": "工业制造(宁德时代)",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -731,8 +731,8 @@
                   "text": "即时零售/智慧药房",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -741,8 +741,8 @@
                   "text": "文旅新消费",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -799,8 +799,8 @@
                   "text": "特斯拉自有工厂优先",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -809,8 +809,8 @@
                   "text": "长期目标面向全球汽车产线与通用场景",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -818,8 +818,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "BMW产线",
@@ -828,28 +828,28 @@
                   "text": "汽车制造(BMW)",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "物流仓储",
+                  "text": "家庭/物流等场景演示",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/helix",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "长期目标家政与工业双轨",
+                  "text": "长期扩展多场景通用劳动力",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
@@ -857,8 +857,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": ""
             },
             {
               "summary": "模型赋能",
@@ -907,13 +907,13 @@
               "evidence": ""
             },
             {
-              "name": "极客公园 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -922,13 +922,13 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
               "evidence": ""
             },
             {
@@ -1099,8 +1099,8 @@
                   "text": "Optimus Gen3仍待正式规格",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -1109,8 +1109,8 @@
                   "text": "Gen3手部22自由度为常见披露",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -1119,8 +1119,8 @@
                   "text": "执行器数量口径未稳定，暂不写50个",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -1129,17 +1129,17 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "硬件规格未充分三角核验，保守展示"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
-              "summary": "量产本体",
+              "summary": "Figure 03",
               "bullets": [
                 {
                   "text": "Figure 03量产版",
                   "sources": [
                     {
-                      "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
                       "evidence": ""
                     }
                   ]
@@ -1148,8 +1148,8 @@
                   "text": "自研发动机与关节",
                   "sources": [
                     {
-                      "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
                       "evidence": ""
                     }
                   ]
@@ -1158,8 +1158,8 @@
                   "text": "适配工业环境",
                   "sources": [
                     {
-                      "name": "TechCrunch 2026-04",
-                      "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
                       "evidence": ""
                     }
                   ]
@@ -1207,8 +1207,8 @@
               "evidence": ""
             },
             {
-              "name": "机器之心 2026-06",
-              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
@@ -1222,13 +1222,13 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
               "evidence": ""
             },
             {
-              "name": "TechCrunch 2026-04",
-              "url": "https://techcrunch.com/2026/04/10/figure-ai-unveils-figure-02-robot/",
+              "name": "Figure 官网 Figure 03",
+              "url": "https://www.figure.ai/news/introducing-figure-03",
               "evidence": ""
             },
             {
@@ -1365,8 +1365,8 @@
                   "text": "运动控制自研",
                   "sources": [
                     {
-                      "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
                       "evidence": ""
                     }
                   ]
@@ -1375,8 +1375,8 @@
                   "text": "AI大脑与英伟达GR00T合作",
                   "sources": [
                     {
-                      "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "name": "NVIDIA Isaac GR00T",
+                      "url": "https://developer.nvidia.com/isaac/gr00t",
                       "evidence": ""
                     }
                   ]
@@ -1385,8 +1385,8 @@
                   "text": "补足上层模型能力",
                   "sources": [
                     {
-                      "name": "英伟达官网 GR00T",
-                      "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+                      "name": "NVIDIA Isaac GR00T",
+                      "url": "https://developer.nvidia.com/isaac/gr00t",
                       "evidence": ""
                     }
                   ]
@@ -1395,7 +1395,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "GR00T为生态合作/开发平台，不等同于宇树自研大脑完全成熟"
             },
             {
               "summary": "FSD复用",
@@ -1404,8 +1404,8 @@
                   "text": "全自研感知/规划体系",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1414,8 +1414,8 @@
                   "text": "FSD与Dojo能力可复用",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1424,8 +1424,8 @@
                   "text": "不等同于驾驶数据直接迁移为操作数据",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1434,7 +1434,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "驾驶数据与机器人操作数据不同，此处限定为感知栈、算力与工程体系复用"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "Helix模型",
@@ -1443,8 +1443,8 @@
                   "text": "自研Helix（脱离OpenAI后全自研）",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
                       "evidence": ""
                     }
                   ]
@@ -1453,8 +1453,8 @@
                   "text": "VLA + 世界模型 + 强化学习",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
                       "evidence": ""
                     }
                   ]
@@ -1512,8 +1512,8 @@
               "evidence": ""
             },
             {
-              "name": "科创板日报 2026-04（待换稳定源）",
-              "url": "#",
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
             },
             {
@@ -1522,18 +1522,18 @@
               "evidence": ""
             },
             {
-              "name": "英伟达官网 GR00T",
-              "url": "https://www.nvidia.com/zh-cn/ai-enterprise/gr00t/",
+              "name": "宇树官网 G1",
+              "url": "https://www.unitree.com/g1",
               "evidence": ""
             },
             {
-              "name": "特斯拉 AI Day",
-              "url": "https://www.tesla.com/ai-day",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 Helix",
+              "url": "https://www.figure.ai/news/helix",
               "evidence": ""
             },
             {
@@ -1631,8 +1631,8 @@
                   "text": "百亿级合成数据",
                   "sources": [
                     {
-                      "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -1641,8 +1641,8 @@
                   "text": "1%真机微调",
                   "sources": [
                     {
-                      "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -1651,8 +1651,8 @@
                   "text": "首创虚实融合训练范式",
                   "sources": [
                     {
-                      "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -1660,8 +1660,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": ""
+              "confidence": "low",
+              "note": "合成数据比例需继续寻找稳定公开来源复核"
             },
             {
               "summary": "生态数据",
@@ -1699,8 +1699,8 @@
                   "text": "自有工厂部署采集",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1709,8 +1709,8 @@
                   "text": "复用车端感知与训练体系",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1719,8 +1719,8 @@
                   "text": "操作数据仍需机器人实机闭环",
                   "sources": [
                     {
-                      "name": "特斯拉 AI Day",
-                      "url": "https://www.tesla.com/ai-day",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -1729,7 +1729,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "驾驶数据不直接等同于操作数据"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "工厂采集",
@@ -1738,8 +1738,8 @@
                   "text": "BotQ工厂部署采集+BMW实机数据+仿真",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BotQ",
+                      "url": "https://www.figure.ai/news/botq",
                       "evidence": ""
                     }
                   ]
@@ -1748,8 +1748,8 @@
                   "text": "强化学习在工厂训练",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
@@ -1767,8 +1767,8 @@
                   "text": "跨7种以上本体聚合数据",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -1777,8 +1777,8 @@
                   "text": "权重开源",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -1787,8 +1787,8 @@
                   "text": "供研究社区使用",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -1796,8 +1796,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1807,13 +1807,13 @@
               "evidence": ""
             },
             {
-              "name": "极客公园 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "雪球 2026-01",
-              "url": "https://xueqiu.com/3972348791/283765165",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -1822,18 +1822,18 @@
               "evidence": ""
             },
             {
-              "name": "特斯拉 AI Day",
-              "url": "https://www.tesla.com/ai-day",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 BotQ",
+              "url": "https://www.figure.ai/news/botq",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
               "evidence": ""
             }
           ]
@@ -1965,8 +1965,8 @@
                   "text": "高动态运动展示(秧歌/回旋踢/拳击)",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
                       "evidence": ""
                     }
                   ]
@@ -1975,8 +1975,8 @@
                   "text": "工业能力正在追赶",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
                       "evidence": ""
                     }
                   ]
@@ -1984,8 +1984,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": ""
             },
             {
               "summary": "仍在内测",
@@ -1994,8 +1994,8 @@
                   "text": "未公开精细操作实机",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -2004,8 +2004,8 @@
                   "text": "主要在工厂内部测试移动与基础搬运",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -2014,7 +2014,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "BMW试点",
@@ -2092,8 +2092,8 @@
               "evidence": ""
             },
             {
-              "name": "机器之心 2026-06",
-              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
             },
             {
@@ -2102,13 +2102,13 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "宇树官网 G1",
+              "url": "https://www.unitree.com/g1",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
@@ -2216,8 +2216,8 @@
                   "text": "百台级自主运营便利店",
                   "sources": [
                     {
-                      "name": "经济参考报 2026-06（待换稳定源）",
-                      "url": "#",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -2226,8 +2226,8 @@
                   "text": "工业重载S1小规模部署",
                   "sources": [
                     {
-                      "name": "经济参考报 2026-06（待换稳定源）",
-                      "url": "#",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -2236,7 +2236,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "公开部署规模仍需继续用稳定来源复核"
             },
             {
               "summary": "口径分歧",
@@ -2284,8 +2284,8 @@
                   "text": "研发测试阶段",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2294,8 +2294,8 @@
                   "text": "公开目标多指向2026年量产",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2304,8 +2304,8 @@
                   "text": "具体月份未稳定披露",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2313,38 +2313,38 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "不写2026年夏，避免过度具体"
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
-              "summary": "BotQ爬坡",
+              "summary": "F03爬坡",
               "bullets": [
                 {
-                  "text": "BotQ工厂年产能1.2万台",
+                  "text": "Figure 03量产爬坡",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "目标4年10万台",
+                  "text": "BotQ制造体系承接量产",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "2026年产能爬坡",
+                  "text": "具体年度交付量待公开",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
                       "evidence": ""
                     }
                   ]
@@ -2352,8 +2352,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": ""
             },
             {
               "summary": "软件为主",
@@ -2362,8 +2362,8 @@
                   "text": "无硬件生产计划",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -2372,8 +2372,8 @@
                   "text": "专注软件模型与授权",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -2381,8 +2381,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": "公司定位偏模型层，不展示硬件量产计划"
             }
           ],
           "sources": [
@@ -2392,13 +2392,13 @@
               "evidence": ""
             },
             {
-              "name": "极客公园 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "经济参考报 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -2407,18 +2407,18 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网量产计划",
+              "url": "https://www.figure.ai/news/ramping-figure-03-production",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
               "evidence": ""
             }
           ]
@@ -2589,8 +2589,8 @@
                   "text": "设计验证中",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -2599,8 +2599,8 @@
                   "text": "尚未进入工业量产部署",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -2609,8 +2609,8 @@
                   "text": "可靠性数据仍在积累",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -2619,37 +2619,37 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
-              "summary": "工厂班次",
+              "summary": "BMW验证",
               "bullets": [
                 {
                   "text": "BMW工厂部署验证",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "1250+小时运行",
+                  "text": "产线操作持续迭代",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "班次10小时稳定操作",
+                  "text": "可靠性数字以官方披露为准",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
@@ -2707,8 +2707,8 @@
               "evidence": ""
             },
             {
-              "name": "机器之心 2026-06",
-              "url": "https://www.jiqizhixin.com/articles/2026-06-01-8",
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
             },
             {
@@ -2722,13 +2722,13 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
               "evidence": ""
             },
             {
@@ -2748,8 +2748,8 @@
                   "text": "未公开终端售价",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -2758,8 +2758,8 @@
                   "text": "对标工业机器人价位",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -2768,8 +2768,8 @@
                   "text": "预计几十万级",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -2778,7 +2778,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "公开来源未披露稳定终端售价，暂不写具体价格"
             },
             {
               "summary": "成本披露",
@@ -2894,8 +2894,8 @@
                   "text": "目标$2-3万",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2904,8 +2904,8 @@
                   "text": "当前开发版成本$5-10万",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2914,8 +2914,8 @@
                   "text": "规模降本中",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
                       "evidence": ""
                     }
                   ]
@@ -2924,37 +2924,37 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
-              "summary": "RaaS待明",
+              "summary": "模式待明",
               "bullets": [
                 {
-                  "text": "未公开",
+                  "text": "价格未公开",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "预计B端租赁+RaaS模式",
+                  "text": "商业化路径仍在扩展",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "早期单价较高",
+                  "text": "早期成本仍需观察",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
@@ -2963,7 +2963,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "公开来源未披露单价/租赁价格"
             },
             {
               "summary": "软件授权",
@@ -2972,8 +2972,8 @@
                   "text": "模型授权费用",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -2982,8 +2982,8 @@
                   "text": "不售卖硬件",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
                       "evidence": ""
                     }
                   ]
@@ -2992,18 +2992,18 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "模型授权/商业化价格未公开"
             }
           ],
           "sources": [
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "智元官网",
+              "url": "https://agibot.com",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
@@ -3017,18 +3017,18 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Figure 官网 Project Go-Big",
+              "url": "https://www.figure.ai/news/project-go-big",
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
               "evidence": ""
             }
           ]
@@ -3204,8 +3204,8 @@
                   "text": "内部测试部署",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3214,8 +3214,8 @@
                   "text": "无公开商业订单数据",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3224,7 +3224,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "BMW试点",
@@ -3302,8 +3302,8 @@
               "evidence": ""
             },
             {
-              "name": "极客公园 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
@@ -3317,8 +3317,8 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
@@ -3421,8 +3421,8 @@
                   "text": "宁德时代（既投资、又是常态化作业客户）",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -3431,8 +3431,8 @@
                   "text": "博世",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -3441,8 +3441,8 @@
                   "text": "丰田",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -3499,8 +3499,8 @@
                   "text": "特斯拉各超级工厂内部部署",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3509,8 +3509,8 @@
                   "text": "暂无可靠公开数据",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3519,7 +3519,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
               "summary": "BMW客户",
@@ -3597,13 +3597,13 @@
               "evidence": ""
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -3612,8 +3612,8 @@
               "evidence": ""
             },
             {
-              "name": "特斯拉官网",
-              "url": "https://www.tesla.com",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
@@ -3713,21 +3713,21 @@
               "summary": "场景运营",
               "bullets": [
                 {
-                  "text": "软硬一体+场景运营(便利店机器人即服务)+文旅IP运营",
+                  "text": "软硬件结合服务场景",
                   "sources": [
                     {
-                      "name": "雪球 2026-01",
-                      "url": "https://xueqiu.com/3972348791/283765165",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "暂无可靠公开数据",
+                  "text": "零售/文旅/工业场景运营",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -3736,7 +3736,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "具体商业模式拆分待稳定公开来源确认"
             },
             {
               "summary": "硬件销售",
@@ -3774,8 +3774,8 @@
                   "text": "自产自用先验证",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3784,8 +3784,8 @@
                   "text": "长期面向全球销售机器人本体+服务",
                   "sources": [
                     {
-                      "name": "公开报道",
-                      "url": "#",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -3794,37 +3794,37 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
             },
             {
-              "summary": "RaaS订阅",
+              "summary": "垂直一体",
               "bullets": [
                 {
                   "text": "软硬件垂直一体",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "自研制造",
+                  "text": "自研制造承接量产",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "预计RaaS租赁+B端订阅",
+                  "text": "先从企业场景落地",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
@@ -3832,8 +3832,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "来源不足或包含预测/传闻，待三角核验"
+              "confidence": "medium",
+              "note": ""
             },
             {
               "summary": "模型授权",
@@ -3882,13 +3882,13 @@
               "evidence": ""
             },
             {
-              "name": "极客公园 2026-06（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "雪球 2026-01",
-              "url": "https://xueqiu.com/3972348791/283765165",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -3897,13 +3897,13 @@
               "evidence": ""
             },
             {
-              "name": "公开报道",
-              "url": "#",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 Project Go-Big",
+              "url": "https://www.figure.ai/news/project-go-big",
               "evidence": ""
             },
             {
@@ -4025,8 +4025,8 @@
                   "text": "王兴兴任创始人/CEO/CTO",
                   "sources": [
                     {
-                      "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
                       "evidence": ""
                     }
                   ]
@@ -4035,8 +4035,8 @@
                   "text": "直接持股23.82%",
                   "sources": [
                     {
-                      "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
                       "evidence": ""
                     }
                   ]
@@ -4045,8 +4045,8 @@
                   "text": "通过AB股控制表决权68.78%",
                   "sources": [
                     {
-                      "name": "界面新闻 2025-06",
-                      "url": "https://www.jiemian.com/article/10234567.html",
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
                       "evidence": ""
                     }
                   ]
@@ -4055,7 +4055,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "股权采用招股书常见直接持股与表决权口径"
+              "note": "持股/表决权口径仍建议以后用招股书或监管文件复核"
             },
             {
               "summary": "内部项目",
@@ -4064,8 +4064,8 @@
                   "text": "马斯克直接推动",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4074,8 +4074,8 @@
                   "text": "特斯拉内部团队",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4084,8 +4084,8 @@
                   "text": "Optimus未独立分拆",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4094,7 +4094,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "采用可打开公开来源；Optimus未独立分拆，融资估值不单独展示"
             },
             {
               "summary": "硬件老兵",
@@ -4172,8 +4172,8 @@
               "evidence": ""
             },
             {
-              "name": "科创板日报 2026-04（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
@@ -4182,13 +4182,13 @@
               "evidence": ""
             },
             {
-              "name": "界面新闻 2025-06",
-              "url": "https://www.jiemian.com/article/10234567.html",
+              "name": "宇树官网",
+              "url": "https://www.unitree.com/cn/about",
               "evidence": ""
             },
             {
-              "name": "特斯拉官网",
-              "url": "https://www.tesla.com",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
@@ -4213,8 +4213,8 @@
                   "text": "累计12轮融资超50亿元",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4223,8 +4223,8 @@
                   "text": "估值约150亿元",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4233,8 +4233,8 @@
                   "text": "腾讯/比亚迪等领投",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4242,8 +4242,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": ""
+              "confidence": "low",
+              "note": "融资/估值数字需替换为可打开的稳定公开来源后再展示"
             },
             {
               "summary": "估值待证",
@@ -4285,43 +4285,43 @@
               "note": "未找到可打开且稳定支撑估值数字的公开来源"
             },
             {
-              "summary": "200亿+",
+              "summary": "200亿+估值",
               "bullets": [
                 {
-                  "text": "种子+B轮+B++轮累计近70亿元",
+                  "text": "累计融资近70亿元",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "2026-03新一轮25亿元",
+                  "text": "2026年新一轮约25亿元",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "估值200亿+",
+                  "text": "估值约200亿+",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 }
               ],
-              "kind": "evidence",
+              "kind": "synthesis",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": ""
+              "confidence": "low",
+              "note": "融资/估值为公开报道口径；当前未挂稳定可打开链接，需后续补充"
             },
             {
               "summary": "IPO进程",
@@ -4366,40 +4366,40 @@
               "summary": "集团内项目",
               "bullets": [
                 {
-                  "text": "上市公司内嵌项目",
+                  "text": "上市公司内部项目",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "无独立估值",
+                  "text": "无独立融资估值",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "特斯拉市值约万亿美元量级",
+                  "text": "特斯拉整体市值万亿美元量级",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
                       "evidence": ""
                     }
                   ]
                 }
               ],
-              "kind": "evidence",
+              "kind": "synthesis",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "Optimus未独立融资/分拆；市值为特斯拉整体公司口径，随市场波动"
             },
             {
               "summary": "$39B估值",
@@ -4408,8 +4408,8 @@
                   "text": "多轮融资累计约$1.9B",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
                       "evidence": ""
                     }
                   ]
@@ -4418,8 +4418,8 @@
                   "text": "2026年估值约$39B",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
                       "evidence": ""
                     }
                   ]
@@ -4428,8 +4428,8 @@
                   "text": "顶级VC+产业资本",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
                       "evidence": ""
                     }
                   ]
@@ -4438,7 +4438,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": ""
+              "note": "以公司 C 轮公告口径为准"
             },
             {
               "summary": "$5.6B估值",
@@ -4472,18 +4472,18 @@
           ],
           "sources": [
             {
-              "name": "雪球 2026-02",
-              "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+              "name": "智元官网",
+              "url": "https://agibot.com",
               "evidence": ""
             },
             {
-              "name": "科创板日报 2026-04（待换稳定源）",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "证据不足，不展示引用",
               "url": "#",
-              "evidence": ""
-            },
-            {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
               "evidence": ""
             },
             {
@@ -4492,13 +4492,13 @@
               "evidence": ""
             },
             {
-              "name": "特斯拉官网",
-              "url": "https://www.tesla.com",
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 C 轮融资",
+              "url": "https://www.figure.ai/news/series-c",
               "evidence": ""
             },
             {
@@ -4518,8 +4518,8 @@
                   "text": "腾讯、比亚迪等资本参与",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4528,8 +4528,8 @@
                   "text": "比亚迪兼具股东与客户属性",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4538,8 +4538,8 @@
                   "text": "制造业客户可形成数据闭环",
                   "sources": [
                     {
-                      "name": "雪球 2026-02",
-                      "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
                       "evidence": ""
                     }
                   ]
@@ -4547,8 +4547,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+              "confidence": "low",
+              "note": "股东/客户细节需替换为可打开的稳定公开来源后再展示"
             },
             {
               "summary": "开发者生态",
@@ -4596,8 +4596,8 @@
                   "text": "宁德时代同时具投资与场景价值",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -4606,8 +4606,8 @@
                   "text": "与博世、丰田、北汽上汽等建立合作",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -4616,8 +4616,8 @@
                   "text": "零售与工业场景可提供运营数据",
                   "sources": [
                     {
-                      "name": "新浪财经 2026-06",
-                      "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
                       "evidence": ""
                     }
                   ]
@@ -4626,7 +4626,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+              "note": ""
             },
             {
               "summary": "英伟达生态",
@@ -4674,8 +4674,8 @@
                   "text": "依托特斯拉工厂与供应链",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4684,8 +4684,8 @@
                   "text": "FSD、Dojo与制造体系可复用",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4694,8 +4694,8 @@
                   "text": "外部客户尚未公开",
                   "sources": [
                     {
-                      "name": "特斯拉官网",
-                      "url": "https://www.tesla.com",
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
                       "evidence": ""
                     }
                   ]
@@ -4704,17 +4704,17 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+              "note": "采用可打开公开来源；Optimus未独立分拆，融资估值不单独展示"
             },
             {
               "summary": "BMW绑定",
               "bullets": [
                 {
-                  "text": "BMW是最明确标杆客户",
+                  "text": "BMW是明确产线客户",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
                       "evidence": ""
                     }
                   ]
@@ -4723,18 +4723,18 @@
                   "text": "BotQ制造体系服务量产爬坡",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
                       "evidence": ""
                     }
                   ]
                 },
                 {
-                  "text": "物流客户仍待公开确认",
+                  "text": "房地产/企业场景继续拓展",
                   "sources": [
                     {
-                      "name": "RobotWale 2026",
-                      "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
                       "evidence": ""
                     }
                   ]
@@ -4742,8 +4742,8 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+              "confidence": "medium",
+              "note": ""
             },
             {
               "summary": "学研社区",
@@ -4787,18 +4787,18 @@
           ],
           "sources": [
             {
-              "name": "雪球 2026-02",
-              "url": "https://xueqiu.com/6899105006/358419037?theme=dark",
+              "name": "智元官网",
+              "url": "https://agibot.com",
               "evidence": ""
             },
             {
-              "name": "科创板日报 2026-04（待换稳定源）",
-              "url": "#",
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
             },
             {
-              "name": "新浪财经 2026-06",
-              "url": "https://finance.sina.com.cn/wm/2026-06-09/doc-iniauvau3214015.shtml?finpagefr=ttzz",
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
               "evidence": ""
             },
             {
@@ -4807,13 +4807,13 @@
               "evidence": ""
             },
             {
-              "name": "特斯拉官网",
-              "url": "https://www.tesla.com",
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
               "evidence": ""
             },
             {
-              "name": "RobotWale 2026",
-              "url": "https://www.robotwale.com/article/figure-ai-industry-analysis-2",
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
               "evidence": ""
             },
             {

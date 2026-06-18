@@ -65,6 +65,7 @@ jobs:
             echo "无数据变化"
           else
             git commit -m "auto: 每日数据更新 $(date -u +%Y-%m-%d)"
+            git pull --rebase origin main
             git push
             echo "✓ 已更新"
           fi

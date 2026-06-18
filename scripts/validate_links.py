@@ -29,6 +29,8 @@ def iter_sources():
     for group in table.get("groups", []):
         for row in group.get("rows", []):
             for company, cell in zip(table.get("companies", []), row.get("cells", [])):
+                if isinstance(cell, dict) and cell.get("kind") == "synthesis":
+                    continue
                 for bullet in cell.get("bullets", []):
                     for src in bullet.get("sources", []):
                         url = src.get("url", "#") if isinstance(src, dict) else str(src)
@@ -63,19 +65,25 @@ def check_url(url, timeout):
         unstable = True
     else:
         unstable = False
-    try:
-        req = Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0"})
-        with urlopen(req, timeout=timeout, context=ssl.create_default_context()) as resp:
-            status = getattr(resp, "status", 200)
-            sample = resp.read(4096).decode("utf-8", "ignore").lower()
-            if any(marker in sample for marker in NOT_FOUND_MARKERS):
-                return "invalid", "not found page"
-    except HTTPError as e:
-        status = e.code
-    except (URLError, TimeoutError, socket.timeout) as e:
-        return "invalid", type(e).__name__
-    except Exception as e:
-        return "invalid", type(e).__name__
+    last_error = None
+    for _ in range(2):
+        try:
+            req = Request(url, method="GET", headers={"User-Agent": "Mozilla/5.0"})
+            with urlopen(req, timeout=timeout, context=ssl.create_default_context()) as resp:
+                status = getattr(resp, "status", 200)
+                sample = resp.read(4096).decode("utf-8", "ignore").lower()
+                if any(marker in sample for marker in NOT_FOUND_MARKERS):
+                    return "invalid", "not found page"
+                break
+        except HTTPError as e:
+            status = e.code
+            break
+        except (URLError, TimeoutError, socket.timeout) as e:
+            last_error = e
+        except Exception as e:
+            last_error = e
+    else:
+        return "invalid", type(last_error).__name__
 
     if status in OK_STATUS:
         return ("unstable" if unstable else "ok"), f"HTTP {status}"
