@@ -284,10 +284,19 @@ function cellSources(cell, fallback){
 localStorage.removeItem('pendingCompanies');
 localStorage.removeItem('submittedCompanies');
 
+function getRemovedCompanies(){
+  try{
+    const parsed=JSON.parse(localStorage.getItem('removedCompanies')||'[]');
+    if(Array.isArray(parsed)) return parsed;
+  }catch(e){}
+  localStorage.removeItem('removedCompanies');
+  return [];
+}
+
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const removed=(()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
+  const removed=getRemovedCompanies();
   const parts=[];
   if(removed.length) parts.push(`<b>已隐藏</b>：${removed.map(n=>`<button class="co-restore" data-name="${esc(n)}">${esc(n)} ×</button>`).join(' ')}`);
   el.innerHTML=parts.join('　');
@@ -296,7 +305,7 @@ function renderMatrixState(){
     btn.onclick=(e)=>{
       e.stopPropagation();
       const name=btn.getAttribute('data-name');
-      const cur=JSON.parse(localStorage.getItem('removedCompanies')||'[]').filter(n=>n!==name);
+      const cur=getRemovedCompanies().filter(n=>n!==name);
       localStorage.setItem('removedCompanies',JSON.stringify(cur));
       renderMatrixState();
       renderTable();
@@ -327,7 +336,12 @@ async function loadTable(){
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data=await res.json();
     window.__tableData = data;
-    _renderTable(data);
+    try{
+      _renderTable(data);
+    }catch(renderError){
+      localStorage.removeItem('removedCompanies');
+      _renderTable(data);
+    }
   }catch(e){
     console.error(e);
     document.getElementById('cmpBody').innerHTML='<tr><td colspan="9" class="errnote">对比表数据加载失败，请稍后刷新。</td></tr>';
@@ -358,7 +372,7 @@ function _renderTable(data){
   document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
 
   // 读取被删除的公司（localStorage）
-  const removed = (()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
+  const removed = getRemovedCompanies();
   // 计算 keep 掩码
   const orig = data.companies || [];
   const keep = orig.map(c=>!removed.includes(c.name));
@@ -409,7 +423,7 @@ function _renderTable(data){
     btn.onclick=(e)=>{
       e.stopPropagation();
       const name=btn.getAttribute('data-name');
-      const rem=JSON.parse(localStorage.getItem('removedCompanies')||'[]');
+      const rem=getRemovedCompanies();
       if(!rem.includes(name)){rem.push(name);localStorage.setItem('removedCompanies',JSON.stringify(rem));}
       renderMatrixState();
       renderTable();
