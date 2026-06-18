@@ -356,14 +356,6 @@ function extractDate(sourceName){
 
 function _renderTable(data){
   document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
-  const submitted = getSubmitted();
-  if(submitted.length && data.companies){
-    const names = new Set(data.companies.map(c=>c.name));
-    const remaining = submitted.filter(c=>!names.has(c.name));
-    if(remaining.length !== submitted.length){
-      setSubmitted(remaining);
-    }
-  }
 
   // 读取被删除的公司（localStorage）
   const removed = (()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
