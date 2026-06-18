@@ -186,7 +186,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
   </div>
 
   <!-- 最新动态 -->
-  <div id="feedNote" class="range-note">滚动取 7 天内容。</div>
+  <div id="feedNote" class="range-note">滚动提取近七天具身智能领域新闻热点。</div>
   <div id="viewFeed" class="feed">
     <div class="errnote" id="feedLoading">正在加载最新动态…</div>
   </div>
@@ -489,7 +489,7 @@ function renderFeed(items){
   const container=document.getElementById('viewFeed');
   const range=getRollingRange(7);
   const visible=(items||[]).filter(it=>withinRange(it.date, range.start, range.end));
-  document.getElementById('feedNote').textContent=`滚动取 7 天内容（${range.start}到${range.end}）。`;
+  document.getElementById('feedNote').textContent=`滚动提取近七天具身智能领域新闻热点（${range.start}到${range.end}）。`;
   if(!visible.length){
     container.innerHTML='<div class="errnote">暂无最新动态。</div>'; return;
   }
