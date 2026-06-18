@@ -46,8 +46,6 @@ table.cmp thead th{position:sticky;top:0;background:var(--paper);z-index:20;bord
 table.cmp .colco{min-width:120px;position:sticky;top:0;vertical-align:top}
 table.cmp .coname{display:block;font-family:var(--sans);font-size:13px;font-weight:700;letter-spacing:0;color:var(--ink);line-height:1.25;padding-right:14px}
 table.cmp .coreason{display:block;font-family:var(--sans);font-size:10.5px;color:var(--ink3);font-weight:400;margin-top:4px;line-height:1.45}
-table.cmp .co-del{position:absolute;top:2px;right:4px;width:18px;height:18px;border:none;background:transparent;color:var(--ink4);font-size:14px;line-height:1;cursor:pointer;border-radius:2px;font-family:var(--mono)}
-table.cmp .co-del:hover{background:rgba(255,80,80,0.1);color:#c00}
 table.cmp .rowdim, table.cmp thead .corner{position:sticky;left:0;background:var(--paper);z-index:5;min-width:112px;max-width:124px;border-right:1px solid var(--line2);font-weight:650;color:var(--ink2);font-size:12px;white-space:normal;box-shadow:1px 0 0 var(--line2)}
 table.cmp thead .corner{z-index:30;background:var(--paper)}
 table.cmp tr.grp td{background:var(--shade);font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink2);padding:8px 12px;border-bottom:1px solid var(--line2);font-weight:600}
@@ -135,8 +133,6 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
 
 .hide{display:none}
 .errnote{color:var(--ink3);font-size:12.5px;padding:12px 0;font-family:var(--mono)}
-.co-restore{background:var(--paper);border:1px solid var(--line2);color:var(--ink2);font-size:11.5px;padding:3px 8px;margin-right:4px;cursor:pointer;border-radius:2px;font-family:var(--mono)}
-.co-restore:hover{background:rgba(0,0,0,0.04);color:var(--ink);border-color:var(--ink2)}
 @media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
 </style>
 </head>
@@ -283,34 +279,13 @@ function cellSources(cell, fallback){
 // Add-company flow is intentionally disabled for the delivery build.
 localStorage.removeItem('pendingCompanies');
 localStorage.removeItem('submittedCompanies');
-
-function getRemovedCompanies(){
-  try{
-    const parsed=JSON.parse(localStorage.getItem('removedCompanies')||'[]');
-    if(Array.isArray(parsed)) return parsed;
-  }catch(e){}
-  localStorage.removeItem('removedCompanies');
-  return [];
-}
+localStorage.removeItem('removedCompanies');
 
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const removed=getRemovedCompanies();
-  const parts=[];
-  if(removed.length) parts.push(`<b>已隐藏</b>：${removed.map(n=>`<button class="co-restore" data-name="${esc(n)}">${esc(n)} ×</button>`).join(' ')}`);
-  el.innerHTML=parts.join('　');
-  el.classList.toggle('show', parts.length>0);
-  el.querySelectorAll('.co-restore').forEach(btn=>{
-    btn.onclick=(e)=>{
-      e.stopPropagation();
-      const name=btn.getAttribute('data-name');
-      const cur=getRemovedCompanies().filter(n=>n!==name);
-      localStorage.setItem('removedCompanies',JSON.stringify(cur));
-      renderMatrixState();
-      renderTable();
-    };
-  });
+  el.innerHTML='';
+  el.classList.remove('show');
 }
 
 // ---- dynamics toggle ----
@@ -339,12 +314,12 @@ async function loadTable(){
     try{
       _renderTable(data);
     }catch(renderError){
-      localStorage.removeItem('removedCompanies');
-      _renderTable(data);
+      console.error(renderError);
+      renderSimpleTable(data);
     }
   }catch(e){
     console.error(e);
-    document.getElementById('cmpBody').innerHTML='<tr><td colspan="9" class="errnote">对比表数据加载失败，请稍后刷新。</td></tr>';
+    document.getElementById('cmpBody').innerHTML='<tr><td colspan="9" class="errnote">数据暂时无法加载，请稍后刷新。</td></tr>';
   }
 }
 
@@ -371,21 +346,9 @@ function extractDate(sourceName){
 function _renderTable(data){
   document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
 
-  // 读取被删除的公司（localStorage）
-  const removed = getRemovedCompanies();
-  // 计算 keep 掩码
   const orig = data.companies || [];
-  const keep = orig.map(c=>!removed.includes(c.name));
-  // 过滤 companies、cells、sources
-  const visibleCompanies = orig.filter((_,i)=>keep[i]);
-  const filteredGroups = data.groups.map(g=>({
-    ...g,
-    rows: g.rows.map(r=>({
-      ...r,
-      cells: r.cells ? r.cells.filter((_,i)=>keep[i]) : [],
-      sources: r.sources ? r.sources.filter((_,i)=>keep[i]) : []
-    }))
-  }));
+  const visibleCompanies = orig;
+  const filteredGroups = data.groups || [];
 
   // Collect & deduplicate sources across whole table
   const srcMap=new Map();
@@ -417,18 +380,8 @@ function _renderTable(data){
   const companyPct = n ? ((100 - 10) / n) : 90;
   colgroup.innerHTML = `<col style="width:10%">` + visibleCompanies.map(()=>`<col style="width:${companyPct}%">`).join('');
   tr.innerHTML=`<th class="corner rowdim">维度</th>`+
-    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><button class="co-del" data-name="${c.name}" title="隐藏此列">×</button><span class="coname">${c.name}</span><span class="coreason">${c.reason}</span></th>`).join('');
+    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><span class="coname">${c.name}</span><span class="coreason">${c.reason}</span></th>`).join('');
   thead.appendChild(tr);
-  thead.querySelectorAll('.co-del').forEach(btn=>{
-    btn.onclick=(e)=>{
-      e.stopPropagation();
-      const name=btn.getAttribute('data-name');
-      const rem=getRemovedCompanies();
-      if(!rem.includes(name)){rem.push(name);localStorage.setItem('removedCompanies',JSON.stringify(rem));}
-      renderMatrixState();
-      renderTable();
-    };
-  });
 
   const tbody=document.getElementById('cmpBody');
   tbody.innerHTML='';
@@ -473,6 +426,35 @@ function _renderTable(data){
     legend.style.display='block';
   }
   // 显示恢复被隐藏公司
+  renderMatrixState();
+}
+
+function renderSimpleTable(data){
+  document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
+  const companies=data.companies||[];
+  const thead=document.getElementById('cmpHead');
+  const tbody=document.getElementById('cmpBody');
+  const colgroup=document.getElementById('cmpCols');
+  document.getElementById('srcLegend').style.display='none';
+  colgroup.innerHTML=`<col style="width:10%">`+companies.map(()=>`<col>`).join('');
+  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  tbody.innerHTML='';
+  (data.groups||[]).forEach(g=>{
+    const grp=document.createElement('tr');
+    grp.className='grp';
+    grp.innerHTML=`<td class="rowdim">${esc(g.label)}</td><td colspan="${companies.length}"></td>`;
+    tbody.appendChild(grp);
+    (g.rows||[]).forEach(r=>{
+      const cells=(r.cells||[]).map(cell=>{
+        const n=normalizeCell(cell);
+        const bullets=(n.bullets||[]).slice(0,3).map(b=>`<li>${esc(b.text||b)}</li>`).join('');
+        return `<td><div class="cell-summary">${esc(n.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
+      }).join('');
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td class="rowdim">${esc(r.label)}</td>${cells}`;
+      tbody.appendChild(tr);
+    });
+  });
   renderMatrixState();
 }
 
