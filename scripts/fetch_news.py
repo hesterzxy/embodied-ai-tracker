@@ -18,7 +18,8 @@ DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 KEYWORDS = [
     "机器人", "人形", "具身智能", "embodied", "robot", "humanoid",
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
-    "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T"
+    "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T",
+    "具身大脑", "具身模型", "魔法原子", "机器人落地",
 ]
 
 RSS_SOURCES = [
@@ -51,10 +52,10 @@ SKIP_KEYWORDS = [
 
 DIRECT_SIGNAL_KEYWORDS = [
     "具身智能", "人形机器人", "四足机器人", "机器人", "灵巧手", "机械臂",
-    "VLA", "视觉语言动作", "世界模型", "运动控制", "本体", "关节",
+    "具身大脑", "具身模型", "VLA", "视觉语言动作", "世界模型", "运动控制", "本体", "关节",
     "量产", "下线", "交付", "订单", "部署", "签约", "中标",
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure",
-    "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎",
+    "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎", "魔法原子",
     "千寻智能", "大晓机器人", "傅利叶", "逐际动力",
 ]
 
@@ -169,6 +170,9 @@ def is_relevant(title: str) -> bool:
         if not any(k in raw for k in DIRECT_SIGNAL_KEYWORDS[:24]):
             return False
     # 不相关关键词（泛行业新闻、商业诉讼、金融市场等）：直接过滤
+    protected_phrases = [
+        "安行能源",
+    ]
     irrelevant_kw = [
         "食品", "餐饮", "山崎", "奶粉", "糖", "烘焙", "美妆", "服装", "零售", "超市",
         "房价", "房产", "楼市", "物业", "家居", "建材", "酒店", "旅游", "航空", "邮轮",
@@ -200,7 +204,7 @@ def is_relevant(title: str) -> bool:
         "招聘", "裁员", "失业",
     ]
     for kw in irrelevant_kw:
-        if kw in t:
+        if kw in t and not any(p in raw for p in protected_phrases):
             return False
 
     # 必须包含至少一个相关关键词（具身智能/机器人/大模型/AI）

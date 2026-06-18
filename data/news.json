@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T22:16:48.647243+08:00",
+  "updated": "2026-06-18T22:32:58.693132+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -17,6 +17,22 @@
       "source_name": "钛媒体",
       "category": "商业订单",
       "url": "https://www.tmtpost.com/8033573.html"
+    },
+    {
+      "date": "06-18",
+      "company": "行业",
+      "title": "红杉、阿里押注过的具身大脑公司再融资，上交等投资数亿元｜硬氪首发",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/p/3856708724315400?f=rss"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "魔法原子携手安行能源、憬驰智能，加速机器人落地“最后一公里”",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "url": "https://www.leiphone.com/category/industrynews/Xih4xedfgY6q1A21.html"
     },
     {
       "date": "06-17",
