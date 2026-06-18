@@ -162,15 +162,9 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
       <div class="secnum">01 — 对比</div>
       <div class="sectitle">竞争格局对比</div>
     </div>
-    <button class="txtbtn" id="addBtn">+ 添加公司</button>
     <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
   <div id="matrixState" class="matrix-state"></div>
-  <div class="addbox" id="addBox">
-    <input id="addInput" type="text" placeholder="输入要追踪的公司名…">
-    <button class="go" id="addGo">添加</button>
-    <div class="notice" id="addNotice"></div>
-  </div>
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
       <colgroup id="cmpCols"></colgroup>
@@ -286,119 +280,16 @@ function cellSources(cell, fallback){
   });
 }
 
-// ---- add company flow ----
-const addBtn=document.getElementById('addBtn'), addBox=document.getElementById('addBox'),
-      addGo=document.getElementById('addGo'), addInput=document.getElementById('addInput'),
-      addNotice=document.getElementById('addNotice');
-// Pending list (localStorage)
-function getPending(){try{return JSON.parse(localStorage.getItem('pendingCompanies')||'[]');}catch(e){return [];}}
-function setPending(arr){localStorage.setItem('pendingCompanies', JSON.stringify(arr)); renderPending();}
-function getSubmitted(){try{return JSON.parse(localStorage.getItem('submittedCompanies')||'[]');}catch(e){return [];}}
-function setSubmitted(arr){localStorage.setItem('submittedCompanies', JSON.stringify(arr)); renderPending();}
-function showNotice(html){
-  addNotice.innerHTML = html;
-  addNotice.classList.add('show');
-}
-function submittedMessage(submitted){
-  const list = submitted.map(c=>`<span class="pending-tag">${esc(c.name)}</span>`).join(' ');
-  return `<b>更新中</b>：${list}<br><small style="color:var(--ink3)">系统会自动核验公开信息，通常约 10 分钟后刷新页面即可查看结果。若暂时未出现，说明还在核验或等待发布。</small>`;
-}
-async function submitCompany(name){
-  const res = await fetch('/api/add-company', {
-    method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({company_name: name})
-  });
-  const data = await res.json().catch(()=>({}));
-  if(!res.ok || !data.ok){
-    throw new Error(data.error || '提交失败');
-  }
-  return data;
-}
-function renderPending(){
-  const pending = getPending();
-  const submitted = getSubmitted();
-  renderMatrixState();
-  if(submitted.length){
-    addNotice.innerHTML = submittedMessage(submitted);
-    addNotice.classList.add('show');
-    return;
-  }
-  if(pending.length === 0){
-    addNotice.innerHTML = '';
-    addNotice.classList.remove('show');
-    return;
-  }
-  const list = pending.map(c=>`<span class="pending-tag">${c.name} <button class="pending-del" data-name="${c.name}" title="删除">×</button></span>`).join(' ');
-  addNotice.innerHTML = `<b>暂存在本机</b>：${list}<br><small style="color:var(--ink3)">这次没有成功提交到更新队列，可联系维护者处理。<button class="txtbtn" id="copyPending" style="font-size:11px;padding:0;margin-left:4px">复制列表</button><button class="txtbtn" id="downloadPending" style="font-size:11px;padding:0;margin-left:8px">下载JSON</button></small>`;
-  addNotice.classList.add('show');
-  document.querySelectorAll('.pending-del').forEach(btn=>{
-    btn.onclick=(e)=>{
-      e.stopPropagation();
-      const name=btn.getAttribute('data-name');
-      setPending(getPending().filter(c=>c.name!==name));
-    };
-  });
-  const cpBtn=document.getElementById('copyPending');
-  if(cpBtn) cpBtn.onclick=(e)=>{
-    e.stopPropagation();
-    const txt=getPending().map(c=>c.name).join('\n');
-    navigator.clipboard&&navigator.clipboard.writeText(txt);
-    cpBtn.textContent='已复制'; setTimeout(()=>cpBtn.textContent='复制列表',1500);
-  };
-  const dlBtn=document.getElementById('downloadPending');
-  if(dlBtn) dlBtn.onclick=(e)=>{
-    e.stopPropagation();
-    const blob=new Blob([JSON.stringify(getPending(), null, 2)], {type:'application/json'});
-    const url=URL.createObjectURL(blob);
-    const a=document.createElement('a');
-    a.href=url; a.download='pending_companies.json'; a.click();
-    URL.revokeObjectURL(url);
-  };
-}
-addBtn.onclick=()=>{addBox.classList.toggle('show'); if(addBox.classList.contains('show')){addInput.focus(); renderPending();}};
-addGo.onclick=async ()=>{
-  const name=addInput.value.trim();
-  if(!name) return;
-  addGo.disabled=true;
-  addGo.textContent='提交中';
-  try{
-    const data=await submitCompany(name);
-    addInput.value='';
-    const submitted = getSubmitted().filter(c=>c.name!==name);
-    submitted.push({name: data.company_name || name, submitted_at: new Date().toISOString()});
-    setSubmitted(submitted);
-    showNotice(`「${esc(data.company_name || name)}」已收到更新请求。系统会自动核验公开信息，通常约 10 分钟后刷新页面即可查看结果。`);
-    return;
-  }catch(err){
-    console.warn(err);
-  }finally{
-    addGo.disabled=false;
-    addGo.textContent='添加';
-  }
-  const pending=getPending();
-  if(pending.find(c=>c.name===name)){
-    showNotice(`「${esc(name)}」已暂存在本机待处理列表中。`);
-    return;
-  }
-  pending.push({name: name, added_at: new Date().toISOString().slice(0,10)});
-  setPending(pending);
-  addInput.value='';
-  showNotice(`「${esc(name)}」这次没有成功提交到更新队列，已先暂存在本机。请联系维护者处理。`);
-};
-addInput.addEventListener('keydown',e=>{if(e.key==='Enter')addGo.click();});
-renderPending();
+// Add-company flow is intentionally disabled for the delivery build.
+localStorage.removeItem('pendingCompanies');
+localStorage.removeItem('submittedCompanies');
 
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const pending=getPending();
-  const submitted=getSubmitted();
   const removed=(()=>{try{return JSON.parse(localStorage.getItem('removedCompanies')||'[]');}catch(e){return [];}})();
   const parts=[];
   if(removed.length) parts.push(`<b>已隐藏</b>：${removed.map(n=>`<button class="co-restore" data-name="${esc(n)}">${esc(n)} ×</button>`).join(' ')}`);
-  if(submitted.length) parts.push(`<b>更新中</b>：${submitted.map(c=>esc(c.name)).join('、')}（约 10 分钟后刷新查看）`);
-  if(pending.length) parts.push(`<b>本机暂存</b>：${pending.map(c=>esc(c.name)).join('、')}（尚未进入更新队列）`);
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', parts.length>0);
   el.querySelectorAll('.co-restore').forEach(btn=>{
