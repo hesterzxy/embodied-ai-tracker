@@ -1,7 +1,15 @@
 {
-  "updated": "2026-06-19T04:28:20.349404+08:00",
+  "updated": "2026-06-19T12:24:13.561502+08:00",
   "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-19",
+      "company": "特斯拉",
+      "title": "瑞典呼吁禁止特斯拉FSD在欧盟范围内落地，除非其禁用超速功能",
+      "source_name": "36氪",
+      "category": "商业订单",
+      "url": "https://36kr.com/newsflashes/3859404287480835?f=rss"
+    },
     {
       "date": "06-18",
       "company": "其他",
