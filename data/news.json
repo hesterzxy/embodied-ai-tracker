@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T12:24:13.561502+08:00",
+  "updated": "2026-06-19T18:28:27.646728+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -9,6 +9,22 @@
       "source_name": "36氪",
       "category": "商业订单",
       "url": "https://36kr.com/newsflashes/3859404287480835?f=rss"
+    },
+    {
+      "date": "06-19",
+      "company": "其他",
+      "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
+      "source_name": "量子位",
+      "category": "行业动态",
+      "url": "https://www.qbitai.com/2026/06/436813.html"
+    },
+    {
+      "date": "06-19",
+      "company": "行业",
+      "title": "硬氪首发|moody前高管搭档大疆骨干入局陪伴机器人，锦秋领投，融资数千万",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/p/3859926114161665?f=rss"
     },
     {
       "date": "06-18",
