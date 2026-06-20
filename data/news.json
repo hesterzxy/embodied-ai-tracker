@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T16:59:11.662580+08:00",
+  "updated": "2026-06-20T22:06:57.801806+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -9,6 +9,14 @@
       "source_name": "钛媒体",
       "category": "商业订单",
       "url": "https://www.tmtpost.com/8034572.html"
+    },
+    {
+      "date": "06-20",
+      "company": "其他",
+      "title": "英伟达开始搞机器人自己研究机器人那套了…",
+      "source_name": "量子位",
+      "category": "行业动态",
+      "url": "https://www.qbitai.com/2026/06/437041.html"
     },
     {
       "date": "06-19",
