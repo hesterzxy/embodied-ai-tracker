@@ -1,7 +1,15 @@
 {
-  "updated": "2026-06-21T03:28:30.749539+08:00",
+  "updated": "2026-06-21T12:19:36.957958+08:00",
   "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-21",
+      "company": "特斯拉",
+      "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/newsflashes/3862280121865219?f=rss"
+    },
     {
       "date": "06-20",
       "company": "其他",
@@ -281,14 +289,6 @@
       "source_name": "钛媒体",
       "category": "产品量产",
       "url": "https://www.tmtpost.com/8029068.html"
-    },
-    {
-      "date": "06-14",
-      "company": "其他",
-      "title": "我国首批自研海洋工程柔性智能焊接机器人投用",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3852643642053897?f=rss"
     }
   ]
 }
