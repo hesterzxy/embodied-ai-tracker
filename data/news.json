@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T12:19:36.957958+08:00",
+  "updated": "2026-06-21T17:52:39.164722+08:00",
   "source": "RSS自动抓取",
   "items": [
     {
@@ -9,6 +9,14 @@
       "source_name": "36氪",
       "category": "行业动态",
       "url": "https://36kr.com/newsflashes/3862280121865219?f=rss"
+    },
+    {
+      "date": "06-21",
+      "company": "其他",
+      "title": "具身智能最火这一年，她让AI赛车飙上天门山，让机器人乒乓打进奥运会",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "url": "https://www.tmtpost.com/8035242.html"
     },
     {
       "date": "06-20",
