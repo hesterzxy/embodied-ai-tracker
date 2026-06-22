@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T14:56:52.147026+08:00",
+  "updated": "2026-06-22T19:56:55.179156+08:00",
   "source": "RSS自动抓取",
   "source_count": 11,
   "source_stats": [
@@ -14,9 +14,9 @@
     {
       "name": "36氪",
       "fetched": true,
-      "entries": 30,
-      "candidates": 4,
-      "relevant": 1,
+      "entries": 29,
+      "candidates": 6,
+      "relevant": 0,
       "new": 0
     },
     {
@@ -24,16 +24,16 @@
       "fetched": true,
       "entries": 18,
       "candidates": 8,
-      "relevant": 4,
-      "new": 0
+      "relevant": 5,
+      "new": 1
     },
     {
       "name": "钛媒体",
       "fetched": true,
-      "entries": 19,
-      "candidates": 0,
-      "relevant": 0,
-      "new": 0
+      "entries": 16,
+      "candidates": 1,
+      "relevant": 1,
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -63,9 +63,9 @@
       "name": "Robotics & Automation News",
       "fetched": true,
       "entries": 15,
-      "candidates": 6,
-      "relevant": 5,
-      "new": 0
+      "candidates": 9,
+      "relevant": 7,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -89,7 +89,7 @@
       "entries": 75,
       "candidates": 69,
       "relevant": 63,
-      "new": 1
+      "new": 0
     }
   ],
   "items": [
@@ -124,6 +124,54 @@
       "source_name": "雷峰网",
       "category": "行业动态",
       "url": "https://www.leiphone.com/category/transportation/pb4PRACFvXFd32lY.html"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "超越 SONIC ！人形机器人通用小脑迎来 GPT 时刻",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "url": "https://www.leiphone.com/category/ai/lzqSU7xisToFg45M.html"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "科沃斯集团618双品牌全渠道领跑：以技术驱动霸榜，“八界”开源迈向具身智能时代",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "url": "https://www.tmtpost.com/8036208.html"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "专访Digid公司尼尔斯·克讷与克里斯蒂安·克赖尔：纳米级传感器有望解决机器人触觉感知难题（Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge）",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-digids-nils-konne-and-christian-kreil-nanoscale-sensors-could-help-solve-robotics-tactile-sensing-challenge/102702/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "采访Clearpath Robotics联合创始人Ryan Gariepy：“加拿大大多数行业自动化程度不足（Interview with Clearpath Robotics co-founder Ryan Gariepy: ‘Most industries in Canada are under-automated’）",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-clearpath-robotics-co-founder-ryan-gariepy-most-industries-in-canada-are-under-automated/102695/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "专访Sharpa公司Alicia Veneziani：“灵巧操作是打造实用人形机器人的关键（Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’）",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "观点：机器人领导者不可忽视的AI基础设施风险（Opinion: The AI infrastructure risk robotics leaders can’t afford to ignore）",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/opinion-the-ai-infrastructure-risk-robotics-leaders-cant-afford-to-ignore/102678/"
     },
     {
       "date": "06-21",
@@ -444,54 +492,6 @@
       "source_name": "雷峰网",
       "category": "行业动态",
       "url": "https://www.leiphone.com/category/weiwu/vFMxYwSaDXdPurDk.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "独家｜北大董豪：「仅停留在数据层面的Scaling Law，教不出通用机器人」",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/ai/ABnmB3o4JHMsiCmW.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "国内首个！具身数采「黑箱」正式开源，具身数据昂贵的时代结束了",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "url": "https://www.leiphone.com/category/ai/VzC236xZ6HQob91z.html"
-    },
-    {
-      "date": "06-16",
-      "company": "宇树科技",
-      "title": "宇树科技补短板：合作英伟达，花20亿搞研发",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "url": "https://www.tmtpost.com/8029722.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "一个模型控制手脚腰身！机器人终于学会全身协同干精细活了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "url": "https://www.qbitai.com/2026/06/436073.html"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "川崎机器人将在Automate首发RL030N物理AI平台（Kawasaki Robotics to debut RL030N physical AI platform at Automate）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "Genesis AI发布Eno通用机器人（Genesis AI launches Eno general-purpose robot）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/"
     }
   ]
 }
