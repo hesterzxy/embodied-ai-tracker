@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T01:04:58.460193+08:00",
+  "updated": "2026-06-23T04:49:33.391037+08:00",
   "source": "RSS自动抓取",
   "source_count": 11,
   "source_stats": [
@@ -48,7 +48,7 @@
       "fetched": true,
       "entries": 15,
       "candidates": 15,
-      "relevant": 11,
+      "relevant": 12,
       "new": 2
     },
     {
@@ -65,7 +65,7 @@
       "entries": 15,
       "candidates": 9,
       "relevant": 7,
-      "new": 1
+      "new": 0
     },
     {
       "name": "NVIDIA Robotics",
@@ -196,6 +196,22 @@
       "source_name": "Robotics & Automation News",
       "category": "行业动态",
       "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-olo-robotics-coo-eleanor-tang-smith-making-robot-programming-accessible-to-everyone/102712/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "Intrinsic 如何消除机器人手动编程（How Intrinsic eliminates manual robot coding）",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "Bear Robotics 收购 Kinisi Robotics 以增强其物理 AI 能力（Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities）",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/"
     },
     {
       "date": "06-21",
@@ -476,22 +492,6 @@
       "source_name": "Robotics & Automation News",
       "category": "技术突破",
       "url": "https://roboticsandautomationnews.com/2026/06/17/from-backflips-to-folding-laundry-how-x-square-robot-is-building-the-missing-brain-for-embodied-ai/102607/"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "赢得马拉松的人形机器人的秘密（The Secret to Marathon-Winning Humanoid Robots）",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "新研究让机器人能够规划更优路线（New research enables a robot to chart a better course）",
-      "source_name": "RoboHub",
-      "category": "技术突破",
-      "url": "https://robohub.org/new-research-enables-a-robot-to-chart-a-better-course/"
     }
   ]
 }
