@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T19:56:55.179156+08:00",
+  "updated": "2026-06-23T01:04:58.460193+08:00",
   "source": "RSS自动抓取",
   "source_count": 11,
   "source_stats": [
@@ -15,25 +15,25 @@
       "name": "36氪",
       "fetched": true,
       "entries": 29,
-      "candidates": 6,
+      "candidates": 7,
       "relevant": 0,
       "new": 0
     },
     {
       "name": "雷峰网",
       "fetched": true,
-      "entries": 18,
+      "entries": 17,
       "candidates": 8,
       "relevant": 5,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
       "fetched": true,
-      "entries": 16,
-      "candidates": 1,
-      "relevant": 1,
-      "new": 1
+      "entries": 15,
+      "candidates": 0,
+      "relevant": 0,
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -49,7 +49,7 @@
       "entries": 15,
       "candidates": 15,
       "relevant": 11,
-      "new": 0
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -65,7 +65,7 @@
       "entries": 15,
       "candidates": 9,
       "relevant": 7,
-      "new": 4
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -172,6 +172,30 @@
       "source_name": "Robotics & Automation News",
       "category": "行业动态",
       "url": "https://roboticsandautomationnews.com/2026/06/22/opinion-the-ai-infrastructure-risk-robotics-leaders-cant-afford-to-ignore/102678/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "NVIDIA发布Halos：面向机器人的全栈安全系统（NVIDIA releases Halos, a full-stack safety system for robotics）",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "Cobot公司Proxie Gen 2机器人新增自动任务处理与移动操控功能（Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation）",
+      "source_name": "The Robot Report",
+      "category": "技术突破",
+      "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "专访Olo Robotics首席运营官埃莉诺·唐-史密斯：让机器人编程人人可及（Interview with Olo Robotics COO Eleanor Tang-Smith: Making robot programming accessible to everyone）",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-olo-robotics-coo-eleanor-tang-smith-making-robot-programming-accessible-to-everyone/102712/"
     },
     {
       "date": "06-21",
@@ -468,30 +492,6 @@
       "source_name": "RoboHub",
       "category": "技术突破",
       "url": "https://robohub.org/new-research-enables-a-robot-to-chart-a-better-course/"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "理想公布马赫VLA能力的进化目标",
-      "source_name": "36氪",
-      "category": "技术突破",
-      "url": "https://36kr.com/newsflashes/3855231958897923?f=rss"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "融了数亿美金的「大晓机器人」，其创始人揭开了具身行业的割裂一面",
-      "source_name": "36氪",
-      "category": "技术突破",
-      "url": "https://36kr.com/p/3855262364488969?f=rss"
-    },
-    {
-      "date": "06-16",
-      "company": "其他",
-      "title": "外骨骼机器人爆火，海尔为何瞄准3亿老年人市场？",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/weiwu/vFMxYwSaDXdPurDk.html"
     }
   ]
 }
