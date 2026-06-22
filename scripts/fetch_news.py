@@ -10,7 +10,6 @@ import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from urllib.request import Request, urlopen
-from urllib.error import URLError
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 
@@ -20,25 +19,23 @@ KEYWORDS = [
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
     "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T",
     "具身大脑", "具身模型", "机器人落地",
+    "robotics", "manipulation", "dexterous", "dexterity", "gripper",
+    "robot arm", "robot hand", "robot learning", "robot foundation model",
+    "warehouse robot", "industrial robot", "autonomous mobile robot",
 ]
 
 RSS_SOURCES = [
-    {"name": "机器之心", "url": "https://www.jiqizhixin.com/rss"},
     {"name": "量子位", "url": "https://www.qbitai.com/feed"},
-    {"name": "甲子光年", "url": "https://www.jazzyear.com/feed"},
-    {"name": "智东西", "url": "https://www.zhidx.com/feed"},
     {"name": "36氪", "url": "https://36kr.com/feed"},
     {"name": "雷峰网", "url": "https://www.leiphone.com/feed"},
-    {"name": "虎嗅网", "url": "https://www.huxiu.com/rss/0.xml"},
     {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml"},
-    {"name": "界面新闻", "url": "https://www.jiemian.com/lists/42.html"},
-    {"name": "创业邦", "url": "https://www.cyzone.cn/feed/"},
     {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
-    {"name": "品玩", "url": "https://www.pingwest.com/feed/"},
-    {"name": "动点科技", "url": "https://techcrunch.cn/feed"},
-    {"name": "AI科技评论", "url": "https://aitechtalk.com/feed"},
-    {"name": "机器人大讲堂", "url": "https://www.robo-report.com/feed"},
-    {"name": "高工机器人", "url": "https://www.gongkong.com/rss/robot.xml"},
+    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/"},
+    {"name": "TechCrunch Robotics", "url": "https://techcrunch.com/category/robotics/feed/"},
+    {"name": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/feed/"},
+    {"name": "NVIDIA Robotics", "url": "https://blogs.nvidia.com/blog/category/robotics/feed/"},
+    {"name": "IEEE Spectrum Robotics", "url": "https://spectrum.ieee.org/rss/robotics/fulltext"},
+    {"name": "RoboHub", "url": "https://robohub.org/feed/"},
 ]
 
 # Skip research reports / whitepapers that are not clickable news
@@ -57,6 +54,23 @@ DIRECT_SIGNAL_KEYWORDS = [
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure",
     "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎",
     "千寻智能", "大晓机器人", "傅利叶", "逐际动力",
+    "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
+    "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
+    "embodied ai", "embodied intelligence", "robot learning",
+    "robot foundation model", "vla", "groot", "warehouse robot",
+    "industrial robot", "autonomous mobile robot", "figure ai",
+    "tesla bot", "optimus", "physical intelligence",
+]
+
+TEXT_FIELDS = [
+    "title", "description", "summary",
+    "{http://purl.org/rss/1.0/modules/content/}encoded",
+]
+
+DATE_FIELDS = [
+    "pubDate", "published", "updated", "date",
+    "{http://purl.org/dc/elements/1.1/}date",
+    "{http://purl.org/dc/terms/}issued",
 ]
 
 
@@ -71,6 +85,48 @@ def fetch_rss(url: str, timeout: int = 20):
         return None
 
 
+def strip_html(text: str) -> str:
+    text = re.sub(r"<[^>]+>", " ", text or "")
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def find_text(node, fields) -> str:
+    for field in fields:
+        val = node.findtext(field)
+        if val:
+            return strip_html(val)
+    for child in node:
+        local = child.tag.rsplit("}", 1)[-1]
+        if local in fields and child.text:
+            return strip_html(child.text)
+    return ""
+
+
+def find_link(node) -> str:
+    link = node.findtext("link", "")
+    if link:
+        return link.strip()
+    for child in node:
+        local = child.tag.rsplit("}", 1)[-1]
+        if local != "link":
+            continue
+        href = child.attrib.get("href", "").strip()
+        rel = child.attrib.get("rel", "alternate")
+        if href and rel == "alternate":
+            return href
+        if href and not link:
+            link = href
+    return link.strip()
+
+
+def iter_feed_entries(root):
+    channel = root.find("channel")
+    if channel is not None:
+        yield from channel.findall("item")
+    yield from root.findall("item")
+    yield from root.findall("{http://www.w3.org/2005/Atom}entry")
+
+
 def parse_rss(raw: bytes):
     items = []
     try:
@@ -79,25 +135,20 @@ def parse_rss(raw: bytes):
         print(f"WARN: RSS parse error: {e}")
         return items
 
-    channel = root.find("channel")
-    if channel is None:
-        channel = root
-
-    for item in channel.findall("item"):
-        title = item.findtext("title", "").strip()
-        link = item.findtext("link", "").strip()
-        pub_date = item.findtext("pubDate", item.findtext("dc:date", "")).strip()
-        desc = item.findtext("description", "").strip()
+    for item in iter_feed_entries(root):
+        title = find_text(item, ["title"])
+        link = find_link(item)
+        pub_date = find_text(item, DATE_FIELDS)
+        desc = find_text(item, TEXT_FIELDS[1:])
         # Skip research reports
         if any(sk in title or sk in desc for sk in SKIP_KEYWORDS):
             continue
-        if any(kw in title or kw in desc for kw in KEYWORDS):
-            items.append({
-                "title": title,
-                "url": link,
-                "pub_date": pub_date,
-                "description": desc,
-            })
+        items.append({
+            "title": title,
+            "url": link,
+            "pub_date": pub_date,
+            "description": desc,
+        })
     return items
 
 
@@ -117,7 +168,9 @@ def normalize_date(pub_date: str):
         "%a, %d %b %Y %H:%M:%S GMT",
         "%a, %d %b %Y %H:%M:%S +0000",
         "%Y-%m-%dT%H:%M:%S%z",
+        "%Y-%m-%dT%H:%M:%S.%f%z",
         "%Y-%m-%dT%H:%M:%S",
+        "%Y-%m-%dT%H:%M:%S.%f",
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d",
     ]
@@ -216,6 +269,11 @@ def is_relevant(title: str) -> bool:
         "openai", "figure", "physical intelligence",
         "deepseek", "月之暗面", "kimi", "智谱", "百川", "阿里", "腾讯", "百度",
         "机器人创业", "机器人公司", "融资", "IPO", "上市",
+        "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
+        "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
+        "embodied ai", "embodied intelligence", "robot learning",
+        "warehouse robot", "industrial robot", "autonomous mobile robot",
+        "figure ai", "tesla bot", "optimus", "groot", "nvidia",
     ]
     # 对泛 AI/汽车/融资新闻加一道直接信号门槛，避免把无关综合新闻带进页面。
     has_relevant = any(k in t for k in relevant_kw)
@@ -230,18 +288,18 @@ def is_relevant(title: str) -> bool:
 def categorize(title: str):
     t = title.lower()
     # 1) 资本动态：融资、IPO、并购、估值、投资
-    if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "轮"]):
+    if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "轮", "funding", "raises", "raised", "acquires", "acquisition"]):
         if "合作" in t and not any(k in t for k in ["融资", "投资", "收购", "并购"]):
             return "产品量产"
         return "资本动态"
     # 2) 产品量产：新品、发布、量产、交付
-    if any(k in t for k in ["发布", "推出", "亮相", "量产", "出货", "交付", "新品", "首台", "下线"]):
+    if any(k in t for k in ["发布", "推出", "亮相", "量产", "出货", "交付", "新品", "首台", "下线", "launch", "unveil", "release", "rollout", "ship"]):
         return "产品量产"
     # 3) 商业订单：签约、订单、合同、落地
-    if any(k in t for k in ["签约", "订单", "合同", "落地", "商业化", "采购", "中标", "部署"]):
+    if any(k in t for k in ["签约", "订单", "合同", "落地", "商业化", "采购", "中标", "部署", "deploy", "deployment", "customer", "contract", "partnership", "pilot"]):
         return "商业订单"
     # 4) 技术突破：大模型、VLA、算法、开源
-    if any(k in t for k in ["大模型", "vla", "模型", "开源", "算法", "论文", "架构", "突破", "技术", "感知", "具身"]):
+    if any(k in t for k in ["大模型", "vla", "模型", "开源", "算法", "论文", "架构", "突破", "技术", "感知", "具身", "model", "open-source", "research", "paper", "learning", "manipulation"]):
         return "技术突破"
     # 5) 行业动态：泛行业新闻（仍需相关）
     return "行业动态"
@@ -264,21 +322,41 @@ def norm_title(title: str) -> str:
     return re.sub(r"\s+", "", title or "").lower()
 
 
+def title_fingerprint(title: str) -> str:
+    text = (title or "").lower()
+    text = re.sub(r"https?://\S+", "", text)
+    text = re.sub(r"[「」“”‘’'\"｜|:：,，.。!！?？()（）\[\]【】<>《》\-_/]", " ", text)
+    text = re.sub(r"\b(exclusive|first|breaking|report|报道|首发|独家|硬氪首发)\b", " ", text)
+    text = re.sub(r"\b\d+(\.\d+)?\s*(million|billion|万元|亿元|美元|元|usd|rmb)\b", " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return "".join(text.split())[:80]
+
+
 def main():
     existing = load_existing()
     existing_urls = {it.get("url", "") for it in existing.get("items", [])}
     new_items = []
+    source_stats = []
 
     for src in RSS_SOURCES:
         raw = fetch_rss(src["url"])
         if not raw:
+            source_stats.append({"name": src["name"], "fetched": False, "entries": 0, "candidates": 0, "relevant": 0, "new": 0})
             continue
         parsed = parse_rss(raw)
+        candidates = 0
+        relevant = 0
+        added = 0
         for p in parsed:
-            if p["url"] in existing_urls:
+            haystack = f"{p.get('title', '')} {p.get('description', '')}".lower()
+            if not any(kw.lower() in haystack for kw in KEYWORDS):
                 continue
+            candidates += 1
             # 严格筛选：只保留具身智能相关的新闻
             if not is_relevant(p["title"]):
+                continue
+            relevant += 1
+            if p["url"] in existing_urls:
                 continue
             date_str, dt = normalize_date(p["pub_date"])
             # Keep the feed aligned with the front-end rolling 7-day window.
@@ -292,21 +370,36 @@ def main():
                 "category": categorize(p["title"]),
                 "url": p["url"],
             })
+            added += 1
+        source_stats.append({
+            "name": src["name"],
+            "fetched": True,
+            "entries": len(parsed),
+            "candidates": candidates,
+            "relevant": relevant,
+            "new": added,
+        })
+        print(f"SOURCE {src['name']}: entries={len(parsed)} candidates={candidates} relevant={relevant} new={added}")
 
     all_items = existing.get("items", []) + new_items
     # Deduplicate by URL and normalized title. Some publishers expose the same
     # article under multiple category URLs.
     seen_urls = set()
     seen_titles = set()
+    seen_fingerprints = set()
     deduped = []
     for it in all_items:
         title_key = norm_title(it.get("title", ""))
+        fp = title_fingerprint(it.get("title", ""))
         if it["url"] and it["url"] in seen_urls:
             continue
         if title_key and title_key in seen_titles:
             continue
+        if fp and fp in seen_fingerprints:
+            continue
         seen_urls.add(it["url"])
         seen_titles.add(title_key)
+        seen_fingerprints.add(fp)
         # 对已有新闻也应用过滤，并重新分类
         if not is_relevant(it.get("title", "")):
             continue
@@ -325,6 +418,8 @@ def main():
     data = {
         "updated": datetime.now(timezone(timedelta(hours=8))).isoformat(),
         "source": "RSS自动抓取",
+        "source_count": len(RSS_SOURCES),
+        "source_stats": source_stats,
         "items": deduped,
     }
     save_data(data)

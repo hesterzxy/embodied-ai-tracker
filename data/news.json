@@ -1,6 +1,97 @@
 {
-  "updated": "2026-06-22T12:21:14.320814+08:00",
+  "updated": "2026-06-22T14:24:55.156797+08:00",
   "source": "RSS自动抓取",
+  "source_count": 11,
+  "source_stats": [
+    {
+      "name": "量子位",
+      "fetched": true,
+      "entries": 10,
+      "candidates": 2,
+      "relevant": 1,
+      "new": 0
+    },
+    {
+      "name": "36氪",
+      "fetched": true,
+      "entries": 28,
+      "candidates": 3,
+      "relevant": 1,
+      "new": 0
+    },
+    {
+      "name": "雷峰网",
+      "fetched": true,
+      "entries": 18,
+      "candidates": 7,
+      "relevant": 3,
+      "new": 0
+    },
+    {
+      "name": "钛媒体",
+      "fetched": true,
+      "entries": 19,
+      "candidates": 0,
+      "relevant": 0,
+      "new": 0
+    },
+    {
+      "name": "爱范儿",
+      "fetched": true,
+      "entries": 16,
+      "candidates": 0,
+      "relevant": 0,
+      "new": 0
+    },
+    {
+      "name": "The Robot Report",
+      "fetched": true,
+      "entries": 15,
+      "candidates": 15,
+      "relevant": 11,
+      "new": 0
+    },
+    {
+      "name": "TechCrunch Robotics",
+      "fetched": true,
+      "entries": 20,
+      "candidates": 6,
+      "relevant": 4,
+      "new": 0
+    },
+    {
+      "name": "Robotics & Automation News",
+      "fetched": true,
+      "entries": 15,
+      "candidates": 6,
+      "relevant": 5,
+      "new": 0
+    },
+    {
+      "name": "NVIDIA Robotics",
+      "fetched": true,
+      "entries": 18,
+      "candidates": 11,
+      "relevant": 7,
+      "new": 0
+    },
+    {
+      "name": "IEEE Spectrum Robotics",
+      "fetched": true,
+      "entries": 30,
+      "candidates": 30,
+      "relevant": 27,
+      "new": 0
+    },
+    {
+      "name": "RoboHub",
+      "fetched": true,
+      "entries": 75,
+      "candidates": 69,
+      "relevant": 63,
+      "new": 1
+    }
+  ],
   "items": [
     {
       "date": "06-22",
@@ -27,6 +118,14 @@
       "url": "https://www.tmtpost.com/8035604.html"
     },
     {
+      "date": "06-22",
+      "company": "其他",
+      "title": "Robotaxi匍匐前进十年：烧掉千亿后，终于要赚钱了？",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "url": "https://www.leiphone.com/category/transportation/pb4PRACFvXFd32lY.html"
+    },
+    {
       "date": "06-21",
       "company": "特斯拉",
       "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
@@ -43,6 +142,14 @@
       "url": "https://www.tmtpost.com/8035242.html"
     },
     {
+      "date": "06-21",
+      "company": "其他",
+      "title": "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/"
+    },
+    {
       "date": "06-20",
       "company": "其他",
       "title": "千亿热钱砸不出具身智能的答案： Demo 困在展厅，工厂等不来订单",
@@ -57,6 +164,22 @@
       "source_name": "量子位",
       "category": "行业动态",
       "url": "https://www.qbitai.com/2026/06/437041.html"
+    },
+    {
+      "date": "06-20",
+      "company": "其他",
+      "title": "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/"
+    },
+    {
+      "date": "06-20",
+      "company": "其他",
+      "title": "Is Robotic Surgery Worth Traveling Abroad for? – Patient Guide",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/20/is-robotic-surgery-worth-traveling-abroad-for-patient-guide/102667/"
     },
     {
       "date": "06-19",
@@ -81,6 +204,38 @@
       "source_name": "36氪",
       "category": "资本动态",
       "url": "https://36kr.com/p/3859926114161665?f=rss"
+    },
+    {
+      "date": "06-19",
+      "company": "其他",
+      "title": "U.S. robotics industry saw double-digit growth in 2025, says IFR",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/"
+    },
+    {
+      "date": "06-19",
+      "company": "其他",
+      "title": "Video Friday: Do Robots Even Need Legs?",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot"
+    },
+    {
+      "date": "06-19",
+      "company": "其他",
+      "title": "What Amazon’s Astro Taught Me About Giving Robots a Soul",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "url": "https://spectrum.ieee.org/amazon-astro-robot-sound"
+    },
+    {
+      "date": "06-19",
+      "company": "其他",
+      "title": "Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura",
+      "source_name": "RoboHub",
+      "category": "行业动态",
+      "url": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/"
     },
     {
       "date": "06-18",
@@ -121,6 +276,54 @@
       "source_name": "雷峰网",
       "category": "行业动态",
       "url": "https://www.leiphone.com/category/transportation/8YqmG5gzTCDsi2cQ.html"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "RealSense unveils AI-native D585 Pro depth camera for robots",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "Kinova launches KIMA medical robotic arm",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "Microbot Medical to expand veteran access to robotic surgery with LIBERTY",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "Richtech Robotics launches livestream for ADAM AI-powered humanoid",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "Why Reliable Backup Power is Becoming Essential for Modern Robotics Systems",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/18/why-reliable-backup-power-is-becoming-essential-for-modern-robotics-systems-2/102654/"
+    },
+    {
+      "date": "06-18",
+      "company": "其他",
+      "title": "Massachusetts awards $2 million to six local robotics companies",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/18/massachusetts-awards-2-million-to-six-local-robotics-companies/102643/"
     },
     {
       "date": "06-17",
@@ -169,6 +372,54 @@
       "source_name": "雷峰网",
       "category": "产品量产",
       "url": "https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "Evaluating humanoids for surface finishing applications",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1",
+      "source_name": "The Robot Report",
+      "category": "商业订单",
+      "url": "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "Genesis AI launches first general-purpose humanoid robot",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "url": "https://roboticsandautomationnews.com/2026/06/17/genesis-ai-launches-first-general-purpose-humanoid-robot/102623/"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "From backflips to folding laundry: How X Square Robot is building the missing ‘brain’ for embodied AI",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "url": "https://roboticsandautomationnews.com/2026/06/17/from-backflips-to-folding-laundry-how-x-square-robot-is-building-the-missing-brain-for-embodied-ai/102607/"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "The Secret to Marathon-Winning Humanoid Robots",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
+    },
+    {
+      "date": "06-17",
+      "company": "其他",
+      "title": "New research enables a robot to chart a better course",
+      "source_name": "RoboHub",
+      "category": "技术突破",
+      "url": "https://robohub.org/new-research-enables-a-robot-to-chart-a-better-course/"
     },
     {
       "date": "06-16",
@@ -225,6 +476,22 @@
       "source_name": "量子位",
       "category": "技术突破",
       "url": "https://www.qbitai.com/2026/06/436073.html"
+    },
+    {
+      "date": "06-16",
+      "company": "其他",
+      "title": "Kawasaki Robotics to debut RL030N physical AI platform at Automate",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/kawasaki-robotics-debut-rl030n-physical-ai-platform-automate/"
+    },
+    {
+      "date": "06-16",
+      "company": "其他",
+      "title": "Genesis AI launches Eno general-purpose robot",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/genesis-ai-launches-eno-general-purpose-robot/"
     }
   ]
 }
