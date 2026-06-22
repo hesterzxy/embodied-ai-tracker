@@ -9,9 +9,16 @@ import os
 import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
+from typing import Optional
 from urllib.request import Request, urlopen
+from urllib.error import URLError
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
+QWEN_API_URL = os.getenv(
+    "QWEN_API_URL",
+    "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+)
+QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
 
 # Keywords to filter robot/embodied AI news
 KEYWORDS = [
@@ -83,6 +90,89 @@ def fetch_rss(url: str, timeout: int = 20):
         # Catch all network / SSL / timeout / HTTP errors — don't let one bad source kill the whole run
         print(f"WARN: failed to fetch {url}: {type(e).__name__}: {e}")
         return None
+
+
+def is_english_title(title: str) -> bool:
+    return bool(re.search(r"[A-Za-z]", title or "")) and not bool(re.search(r"[\u4e00-\u9fff]", title or ""))
+
+
+def has_original_title(title: str) -> bool:
+    return bool(re.search(r"（[^（）]*[A-Za-z][^（）]*）$", title or ""))
+
+
+def translate_title_with_qwen(title: str) -> Optional[str]:
+    api_key = os.getenv("QWEN_API_KEY")
+    if not api_key:
+        return None
+    payload = {
+        "model": QWEN_MODEL,
+        "messages": [
+            {
+                "role": "system",
+                "content": (
+                    "Translate robotics and embodied-AI news titles into concise Simplified Chinese. "
+                    "Preserve company/product names. Return only the translated title."
+                ),
+            },
+            {"role": "user", "content": title},
+        ],
+        "temperature": 0.1,
+        "max_tokens": 120,
+    }
+    req = Request(
+        QWEN_API_URL,
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "embodied-ai-tracker/1.0",
+        },
+    )
+    try:
+        with urlopen(req, timeout=20) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        translated = data["choices"][0]["message"]["content"].strip()
+        translated = translated.strip("\"'“”")
+        return translated or None
+    except (KeyError, ValueError, URLError, TimeoutError, OSError) as e:
+        print(f"WARN: failed to translate title with Qwen: {type(e).__name__}: {e}")
+        return None
+
+
+def local_title_translation(title: str) -> Optional[str]:
+    known = {
+        "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026": "Güdel将在Automate 2026展示具备垂直与水平运动能力的机器人打磨方案",
+        "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics": "GrayMatter Robotics称国防制造准备度取决于自主表面精加工能力",
+        "Is Robotic Surgery Worth Traveling Abroad for? – Patient Guide": "机器人手术是否值得出国接受？患者指南",
+        "U.S. robotics industry saw double-digit growth in 2025, says IFR": "IFR称美国机器人行业在2025年实现两位数增长",
+        "Video Friday: Do Robots Even Need Legs?": "视频星期五：机器人真的需要腿吗？",
+        "What Amazon’s Astro Taught Me About Giving Robots a Soul": "亚马逊Astro让我理解如何赋予机器人“灵魂”",
+        "Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura": "Robot Talk第161期：Allison Okamura谈协作式触觉系统",
+        "RealSense unveils AI-native D585 Pro depth camera for robots": "RealSense发布面向机器人的AI原生D585 Pro深度相机",
+        "Kinova launches KIMA medical robotic arm": "Kinova发布KIMA医疗机械臂",
+        "Microbot Medical to expand veteran access to robotic surgery with LIBERTY": "Microbot Medical将通过LIBERTY扩大退伍军人使用机器人手术的机会",
+        "Richtech Robotics launches livestream for ADAM AI-powered humanoid": "Richtech Robotics为ADAM AI人形机器人推出直播",
+        "Why Reliable Backup Power is Becoming Essential for Modern Robotics Systems": "为什么可靠备用电源正成为现代机器人系统的必需品",
+        "Massachusetts awards $2 million to six local robotics companies": "马萨诸塞州向六家本地机器人公司授予200万美元资金",
+        "Evaluating humanoids for surface finishing applications": "评估人形机器人在表面精加工场景中的应用",
+        "Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1": "Autonomique在加拿大一级供应商部署半人形机器人和AI",
+        "Genesis AI launches first general-purpose humanoid robot": "Genesis AI发布首款通用人形机器人",
+        "From backflips to folding laundry: How X Square Robot is building the missing ‘brain’ for embodied AI": "从后空翻到叠衣服：X Square Robot如何打造具身AI缺失的“大脑”",
+        "The Secret to Marathon-Winning Humanoid Robots": "赢得马拉松的人形机器人的秘密",
+        "New research enables a robot to chart a better course": "新研究让机器人能够规划更优路线",
+        "Kawasaki Robotics to debut RL030N physical AI platform at Automate": "川崎机器人将在Automate首发RL030N物理AI平台",
+        "Genesis AI launches Eno general-purpose robot": "Genesis AI发布Eno通用机器人",
+    }
+    return known.get(title)
+
+
+def display_title(title: str) -> str:
+    if not is_english_title(title) or has_original_title(title):
+        return title
+    translated = local_title_translation(title) or translate_title_with_qwen(title)
+    if not translated:
+        return title
+    return f"{translated}（{title}）"
 
 
 def strip_html(text: str) -> str:
@@ -365,7 +455,7 @@ def main():
             new_items.append({
                 "date": date_str,
                 "company": extract_company(p["title"]),
-                "title": p["title"],
+                "title": display_title(p["title"]),
                 "source_name": src["name"],
                 "category": categorize(p["title"]),
                 "url": p["url"],
@@ -407,6 +497,7 @@ def main():
         if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
             continue
         it["date"] = date_str
+        it["title"] = display_title(it.get("title", ""))
         it["category"] = categorize(it.get("title", ""))
         deduped.append(it)
 

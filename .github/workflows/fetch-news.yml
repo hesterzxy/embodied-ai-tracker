@@ -19,6 +19,8 @@ jobs:
         with:
           python-version: '3.11'
       - run: python scripts/fetch_news.py
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
