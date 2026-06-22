@@ -1,7 +1,31 @@
 {
-  "updated": "2026-06-22T03:44:01.528517+08:00",
+  "updated": "2026-06-22T12:21:14.320814+08:00",
   "source": "RSS自动抓取",
   "items": [
+    {
+      "date": "06-22",
+      "company": "行业",
+      "title": "36氪首发｜红杉中国、Brizan Ventures领投，AI厨房机器人品牌「栗上LISSOME」完成数千万元A轮融资",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/p/3863779663320069?f=rss"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "北京经开区智能制造与机器人基金登记成立，出资额50.01亿",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/newsflashes/3863800795763716?f=rss"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "500亿人形机器人“第一股”，盈利焦虑何解？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "url": "https://www.tmtpost.com/8035604.html"
+    },
     {
       "date": "06-21",
       "company": "特斯拉",
@@ -201,102 +225,6 @@
       "source_name": "量子位",
       "category": "技术突破",
       "url": "https://www.qbitai.com/2026/06/436073.html"
-    },
-    {
-      "date": "06-15",
-      "company": "行业",
-      "title": "硬氪首发 | 海洋具身智能公司「世航智能」拿下创纪录10亿融资，朱啸虎押注",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "url": "https://36kr.com/p/3853011900142848?f=rss"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "智平方发布类脑式具身智能系统NeuroVLA",
-      "source_name": "36氪",
-      "category": "产品量产",
-      "url": "https://36kr.com/newsflashes/3853849264657416?f=rss"
-    },
-    {
-      "date": "06-15",
-      "company": "行业",
-      "title": "首发丨家庭柔性机器人公司「SoulX」获高瓴投资，首款「拥抱机器人」年内上市",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "url": "https://www.leiphone.com/category/weiwu/NmG4PGKLNQreYKmk.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "从ICRA到CVPR，机器人圈最近到底在聊什么？｜北京·周三晚",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "url": "https://www.qbitai.com/2026/06/435841.html"
-    },
-    {
-      "date": "06-15",
-      "company": "宇树科技",
-      "title": "宇树机器人要登珠峰了！",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "url": "https://www.qbitai.com/2026/06/435817.html"
-    },
-    {
-      "date": "06-15",
-      "company": "行业",
-      "title": "89年哈工程校友，拿下全球海洋机器人领域最大单轮融资",
-      "source_name": "量子位",
-      "category": "资本动态",
-      "url": "https://www.qbitai.com/2026/06/435804.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "刚成立一年就拿下车厂订单，这家清华系公司把具身智能送进真实产线",
-      "source_name": "量子位",
-      "category": "商业订单",
-      "url": "https://www.qbitai.com/2026/06/435574.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "小雨智造与地瓜机器人正式宣布达成战略合作",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3854300006913289?f=rss"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "魔法原子上交会首秀VLA K02大模型，完成具身智能从“执行”到“理解”的能力跃迁",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "url": "https://www.leiphone.com/category/industrynews/id1HKgC0ahWZduWb.html"
-    },
-    {
-      "date": "06-15",
-      "company": "行业",
-      "title": "世航智能完成超 10 亿元 A 轮融资，创全球海洋机器人单轮融资纪录",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "url": "https://www.leiphone.com/category/robot/FufjKCluRRyP0ye4.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "对话它石智航丁文超：具身智能，如何迈进「2.0时代」？| ICRA 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "url": "https://www.leiphone.com/category/robot/CphF1Mc5RZX5xaWN.html"
-    },
-    {
-      "date": "06-15",
-      "company": "其他",
-      "title": "均普智能联合博登、上海交大正式发布全球首个面向真实机器人强化学习大规模数据集",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "url": "https://www.tmtpost.com/8029068.html"
     }
   ]
 }
