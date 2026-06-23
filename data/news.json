@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T11:38:30.465222+08:00",
+  "updated": "2026-06-23T13:46:59.657769+08:00",
   "source": "RSS自动抓取",
   "source_count": 11,
   "source_stats": [
@@ -7,38 +7,38 @@
       "name": "量子位",
       "fetched": true,
       "entries": 10,
-      "candidates": 2,
-      "relevant": 1,
-      "new": 0
+      "candidates": 3,
+      "relevant": 2,
+      "new": 1
     },
     {
       "name": "36氪",
       "fetched": true,
       "entries": 28,
-      "candidates": 6,
-      "relevant": 0,
-      "new": 0
+      "candidates": 7,
+      "relevant": 4,
+      "new": 4
     },
     {
       "name": "雷峰网",
       "fetched": true,
       "entries": 17,
-      "candidates": 8,
-      "relevant": 5,
-      "new": 0
+      "candidates": 7,
+      "relevant": 4,
+      "new": 1
     },
     {
       "name": "钛媒体",
       "fetched": true,
-      "entries": 19,
-      "candidates": 1,
-      "relevant": 1,
-      "new": 1
+      "entries": 20,
+      "candidates": 0,
+      "relevant": 0,
+      "new": 0
     },
     {
       "name": "爱范儿",
       "fetched": true,
-      "entries": 15,
+      "entries": 16,
       "candidates": 0,
       "relevant": 0,
       "new": 0
@@ -100,6 +100,38 @@
       "source_name": "钛媒体",
       "category": "行业动态",
       "url": "https://www.tmtpost.com/8037156.html"
+    },
+    {
+      "date": "06-23",
+      "company": "行业",
+      "title": "刚注册就成独角兽，具身创企昆仑行90天融资数十亿元｜36氪独家",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/p/3865188719121668?f=rss"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "36氪首发 | 龚虹嘉、陆奇、海外资本下注，北大团队用肌电腕带做新一代数采终端",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/p/3865125383443463?f=rss"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "巨人网络产业投资“光轮智能”",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "url": "https://36kr.com/newsflashes/3865256688932100?f=rss"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "成立不到90天的超级创企昆仑行，刷新具身最快独角兽",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "url": "https://www.leiphone.com/category/industrynews/piPbBllVn6chKHBz.html"
     },
     {
       "date": "06-22",
@@ -220,6 +252,22 @@
       "source_name": "The Robot Report",
       "category": "资本动态",
       "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "url": "https://www.qbitai.com/2026/06/437235.html"
+    },
+    {
+      "date": "06-22",
+      "company": "其他",
+      "title": "映界科技：一支00后团队的空间智能“赌注” | 水下项目",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/p/3864071269569540?f=rss"
     },
     {
       "date": "06-21",
@@ -444,54 +492,6 @@
       "source_name": "雷峰网",
       "category": "技术突破",
       "url": "https://www.leiphone.com/category/aihealth/jAeC3TqxHJc8bGb1.html"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "机器人养老，离我们不远了？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "url": "https://www.tmtpost.com/8031378.html"
-    },
-    {
-      "date": "06-17",
-      "company": "星海图",
-      "title": "星海图创始人高继扬：具身智能三层技术路线，没有捷径可走",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "url": "https://www.qbitai.com/2026/06/436223.html"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "理想汽车举办Livis Day软件与具身智能发布会",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "url": "https://www.leiphone.com/category/transportation/iKKAYzqzrW0294JG.html"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "评估人形机器人在表面精加工场景中的应用（Evaluating humanoids for surface finishing applications）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "Autonomique在加拿大一级供应商部署半人形机器人和AI（Autonomique deploys semi-humanoid robots and AI at Canadian Tier 1）",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "url": "https://www.therobotreport.com/autonomique-deploys-semi-humanoid-robots-canadian-tier-1/"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "Genesis AI发布首款通用人形机器人（Genesis AI launches first general-purpose humanoid robot）",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "url": "https://roboticsandautomationnews.com/2026/06/17/genesis-ai-launches-first-general-purpose-humanoid-robot/102623/"
     }
   ]
 }

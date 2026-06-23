@@ -26,6 +26,8 @@ KEYWORDS = [
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
     "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T",
     "具身大脑", "具身模型", "机器人落地",
+    "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
+    "昆仑行", "光轮智能", "端到端机器人",
     "robotics", "manipulation", "dexterous", "dexterity", "gripper",
     "robot arm", "robot hand", "robot learning", "robot foundation model",
     "warehouse robot", "industrial robot", "autonomous mobile robot",
@@ -51,7 +53,7 @@ SKIP_KEYWORDS = [
     "年度报告", "年度研报", "市场研究", "产业研究",
     "蓝皮书", "洞察报告", "调研报告", "分析报告",
     "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻",
-    "一周融资", "投融资周报", "IPO周报",
+    "一周融资", "投融资周报", "IPO周报", "芭芭农场",
 ]
 
 DIRECT_SIGNAL_KEYWORDS = [
@@ -61,6 +63,8 @@ DIRECT_SIGNAL_KEYWORDS = [
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure",
     "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎",
     "千寻智能", "大晓机器人", "傅利叶", "逐际动力",
+    "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
+    "昆仑行", "光轮智能", "端到端机器人",
     "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
     "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
     "embodied ai", "embodied intelligence", "robot learning",
@@ -231,6 +235,8 @@ def parse_rss(raw: bytes):
         pub_date = find_text(item, DATE_FIELDS)
         desc = find_text(item, TEXT_FIELDS[1:])
         # Skip research reports
+        if "/zaobao/" in link or "/morning/" in link:
+            continue
         if any(sk in title or sk in desc for sk in SKIP_KEYWORDS):
             continue
         items.append({
@@ -310,9 +316,7 @@ def is_relevant(title: str) -> bool:
         "本周", "一周", "汇总", "盘点", "合集",
     ]
     if any(k in raw for k in roundup_markers):
-        # 只有标题主体直接指向具身/机器人时才保留。
-        if not any(k in raw for k in DIRECT_SIGNAL_KEYWORDS[:24]):
-            return False
+        return False
     # 不相关关键词（泛行业新闻、商业诉讼、金融市场等）：直接过滤
     irrelevant_kw = [
         "食品", "餐饮", "山崎", "奶粉", "糖", "烘焙", "美妆", "服装", "零售", "超市",
@@ -343,6 +347,7 @@ def is_relevant(title: str) -> bool:
         "食品安全", "食品添加剂",
         "价格", "涨价", "降价", "定价",
         "招聘", "裁员", "失业",
+        "芭芭农场",
     ]
     for kw in irrelevant_kw:
         if kw in t and not has_direct_signal:
@@ -359,6 +364,8 @@ def is_relevant(title: str) -> bool:
         "openai", "figure", "physical intelligence",
         "deepseek", "月之暗面", "kimi", "智谱", "百川", "阿里", "腾讯", "百度",
         "机器人创业", "机器人公司", "融资", "IPO", "上市",
+        "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
+        "昆仑行", "光轮智能", "端到端机器人",
         "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
         "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
         "embodied ai", "embodied intelligence", "robot learning",
