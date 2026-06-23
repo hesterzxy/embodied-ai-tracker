@@ -1,106 +1,190 @@
 {
-  "updated": "2026-06-23T13:46:59.657769+08:00",
+  "updated": "2026-06-23T15:28:36.650255+08:00",
   "source": "RSS自动抓取",
-  "source_count": 11,
+  "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
+      "type": "rss",
       "fetched": true,
       "entries": 10,
       "candidates": 3,
-      "relevant": 2,
+      "core": 1,
+      "periphery": 0,
       "new": 1
     },
     {
       "name": "36氪",
+      "type": "rss",
       "fetched": true,
       "entries": 28,
-      "candidates": 7,
-      "relevant": 4,
+      "candidates": 10,
+      "core": 5,
+      "periphery": 0,
       "new": 4
     },
     {
       "name": "雷峰网",
+      "type": "rss",
       "fetched": true,
       "entries": 17,
-      "candidates": 7,
-      "relevant": 4,
-      "new": 1
+      "candidates": 10,
+      "core": 5,
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "钛媒体",
+      "type": "rss",
       "fetched": true,
       "entries": 20,
-      "candidates": 0,
-      "relevant": 0,
+      "candidates": 2,
+      "core": 0,
+      "periphery": 0,
       "new": 0
     },
     {
       "name": "爱范儿",
+      "type": "rss",
       "fetched": true,
       "entries": 16,
+      "candidates": 1,
+      "core": 1,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "InfoQ",
+      "type": "rss",
+      "fetched": true,
+      "entries": 20,
+      "candidates": 1,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "IT之家",
+      "type": "rss",
+      "fetched": true,
+      "entries": 58,
+      "candidates": 15,
+      "core": 1,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "中国机器人网",
+      "type": "html",
+      "fetched": true,
+      "entries": 80,
+      "candidates": 69,
+      "core": 24,
+      "periphery": 2,
+      "new": 5
+    },
+    {
+      "name": "甲子光年",
+      "type": "html",
+      "fetched": true,
+      "entries": 30,
+      "candidates": 2,
+      "core": 2,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "新战略移动机器人",
+      "type": "html",
+      "fetched": true,
+      "entries": 0,
       "candidates": 0,
-      "relevant": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "中国工控网机器人",
+      "type": "html",
+      "fetched": true,
+      "entries": 24,
+      "candidates": 22,
+      "core": 10,
+      "periphery": 3,
+      "new": 0
+    },
+    {
+      "name": "电子发烧友机器人",
+      "type": "html",
+      "fetched": true,
+      "entries": 1,
+      "candidates": 1,
+      "core": 1,
+      "periphery": 0,
       "new": 0
     },
     {
       "name": "The Robot Report",
+      "type": "rss",
       "fetched": true,
       "entries": 15,
       "candidates": 15,
-      "relevant": 12,
-      "new": 0
+      "core": 6,
+      "periphery": 5,
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
+      "type": "rss",
       "fetched": true,
       "entries": 20,
-      "candidates": 6,
-      "relevant": 4,
+      "candidates": 7,
+      "core": 3,
+      "periphery": 2,
       "new": 0
     },
     {
       "name": "Robotics & Automation News",
+      "type": "rss",
       "fetched": true,
       "entries": 15,
       "candidates": 9,
-      "relevant": 7,
-      "new": 0
+      "core": 4,
+      "periphery": 3,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
+      "type": "rss",
       "fetched": true,
       "entries": 18,
-      "candidates": 11,
-      "relevant": 7,
+      "candidates": 14,
+      "core": 9,
+      "periphery": 2,
       "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
+      "type": "rss",
       "fetched": true,
       "entries": 30,
       "candidates": 30,
-      "relevant": 27,
-      "new": 1
+      "core": 27,
+      "periphery": 2,
+      "new": 2
     },
     {
       "name": "RoboHub",
+      "type": "rss",
       "fetched": true,
       "entries": 75,
-      "candidates": 69,
-      "relevant": 63,
+      "candidates": 70,
+      "core": 20,
+      "periphery": 11,
       "new": 1
     }
   ],
   "items": [
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "机器人流量反超人类，AI不睡觉不花钱，广告位还卖给谁？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "url": "https://www.tmtpost.com/8037156.html"
-    },
     {
       "date": "06-23",
       "company": "行业",
@@ -108,14 +192,6 @@
       "source_name": "36氪",
       "category": "资本动态",
       "url": "https://36kr.com/p/3865188719121668?f=rss"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "36氪首发 | 龚虹嘉、陆奇、海外资本下注，北大团队用肌电腕带做新一代数采终端",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/p/3865125383443463?f=rss"
     },
     {
       "date": "06-23",
@@ -128,42 +204,242 @@
     {
       "date": "06-23",
       "company": "其他",
-      "title": "成立不到90天的超级创企昆仑行，刷新具身最快独角兽",
-      "source_name": "雷峰网",
+      "title": "对话蔚来高级副总裁任少卿：一个世界模型，如何适配两套芯片、四个平台和十几款车？",
+      "source_name": "爱范儿",
       "category": "技术突破",
-      "url": "https://www.leiphone.com/category/industrynews/piPbBllVn6chKHBz.html"
+      "url": "https://www.ifanr.com/1669670?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "date": "06-22",
-      "company": "行业",
-      "title": "36氪首发｜红杉中国、Brizan Ventures领投，AI厨房机器人品牌「栗上LISSOME」完成数千万元A轮融资",
-      "source_name": "36氪",
+      "date": "06-23",
+      "company": "特斯拉",
+      "title": "“全球最先进机器人”：特斯拉推进 Optimus 3 量产，供应链开始备货",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "url": "https://www.ithome.com/0/967/375.htm"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "赛力斯人形机器人首次公开亮相，在超级工厂造问界",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "url": "https://www.robot-china.com/news/202606/23/95943.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "具身智能下半场，开普勒走出人形机器人产业整合新路径",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "url": "https://www.robot-china.com/news/202606/09/95844.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "斩获机器人界“诺贝尔奖”，卧安机器人家庭具身智能路线获产业验证",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "url": "https://www.robot-china.com/news/202606/09/95843.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "第10000台下线！刷新量产速度纪录，国产具身智能机器人走向“真交付”",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "url": "https://www.robot-china.com/news/202606/01/95796.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "LimX Luna 发布：定义新一代交互型全尺寸人形机器人",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "url": "https://www.robot-china.com/news/202605/26/95753.html"
+    },
+    {
+      "date": "06-23",
+      "company": "宇树科技",
+      "title": "加速！宇树IPO将于6月1日上会",
+      "source_name": "中国机器人网",
       "category": "资本动态",
-      "url": "https://36kr.com/p/3863779663320069?f=rss"
+      "url": "https://www.robot-china.com/news/202605/26/95745.html"
     },
     {
-      "date": "06-22",
+      "date": "06-23",
       "company": "其他",
-      "title": "北京经开区智能制造与机器人基金登记成立，出资额50.01亿",
-      "source_name": "36氪",
+      "title": "人力成本直降40%！方寸1㎡，国产协作机器人引爆产线效率革命",
+      "source_name": "中国机器人网",
       "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3863800795763716?f=rss"
+      "url": "https://www.robot-china.com/news/202605/25/95733.html"
     },
     {
-      "date": "06-22",
+      "date": "06-23",
       "company": "其他",
-      "title": "500亿人形机器人“第一股”，盈利焦虑何解？",
-      "source_name": "钛媒体",
+      "title": "力控驱动 Physical AI 时代：思灵机器人 Agile Robots 以 Diana 与 Franka 重塑机器人与现实世界的交互方式",
+      "source_name": "中国机器人网",
       "category": "行业动态",
-      "url": "https://www.tmtpost.com/8035604.html"
+      "url": "https://www.robot-china.com/news/202605/25/95732.html"
     },
     {
-      "date": "06-22",
+      "date": "06-23",
       "company": "其他",
-      "title": "Robotaxi匍匐前进十年：烧掉千亿后，终于要赚钱了？",
-      "source_name": "雷峰网",
+      "title": "机器人浪潮：兰宝编码器夯实智能制造精密底座",
+      "source_name": "中国机器人网",
+      "category": "泛具身产业链",
+      "url": "https://www.robot-china.com/news/202606/22/95942.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "机器人如何“越用越聪明”？星凡智能探索片上自学习 AI 芯片技术路径",
+      "source_name": "中国机器人网",
+      "category": "泛具身产业链",
+      "url": "https://www.robot-china.com/news/202606/22/95941.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "具身智能全域通信联合实验室在京成立，中国联通北京市分公司为赛事、产业双赋能！",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "url": "https://www.robot-china.com/news/202606/22/95935.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "定价揭晓！科沃斯首款开源机器人「八界」正式开售，全栈开放开启具身智能共创时代",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "url": "https://www.robot-china.com/news/202606/18/95933.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "人形机器人关节钛部件",
+      "source_name": "中国机器人网",
       "category": "行业动态",
-      "url": "https://www.leiphone.com/category/transportation/pb4PRACFvXFd32lY.html"
+      "url": "https://www.robot-china.com/news/202603/19/95243.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "丰年资本独家投资自主移动机器人领导者「Syrius炬星」",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "url": "https://www.robot-china.com/news/202207/20/72502.html"
+    },
+    {
+      "date": "06-23",
+      "company": "行业",
+      "title": "自主移动机器人「Syrius炬星」数千万元融资，丰年资本独投",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "url": "https://www.robot-china.com/news/202207/19/72445.html"
+    },
+    {
+      "date": "06-23",
+      "company": "行业",
+      "title": "「摩玛机器人」获千万级融资 专注复合移动机器人产业化应用",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "url": "https://www.robot-china.com/news/202207/12/72228.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "对谈5位CEO/投资人：人形机器人犹如登月计划",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "url": "https://www.robot-china.com/news/202210/09/74315.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "机器人激光熔覆实战篇：国产机器人离线编程软件iRobotCAM, 实现叶片的激光熔覆盖编程与仿真",
+      "source_name": "中国工控网机器人",
+      "category": "泛具身产业链",
+      "url": "https://www.gongkong.com/news/202606/450676.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "藦卡机器人受邀出席全省机器人和具身智能产业高质量发展推进会议",
+      "source_name": "中国工控网机器人",
+      "category": "技术突破",
+      "url": "https://www.gongkong.com/news/202606/450555.html"
+    },
+    {
+      "date": "06-23",
+      "company": "宇树科技",
+      "title": "宇树科技冲刺科创板：全球四足机器人出货量第一，年毛利率超60%",
+      "source_name": "中国工控网机器人",
+      "category": "产品量产",
+      "url": "https://www.gongkong.com/news/202605/450192.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "动领新程 驱拓万象 | 安川运动控制·驱动控制事业部2026年代理商大会圆满举行",
+      "source_name": "中国工控网机器人",
+      "category": "行业动态",
+      "url": "https://www.gongkong.com/news/202605/450096.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "ABB机器人推出高速PoWa™协作机器人系列新型号",
+      "source_name": "中国工控网机器人",
+      "category": "产品量产",
+      "url": "http://www.gongkong.com/news/202604/449649.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "35+款创新力作，触摸创新，不止迭代 | 一图看懂海康机器人新品及解决方案发布会",
+      "source_name": "中国工控网机器人",
+      "category": "产品量产",
+      "url": "http://www.gongkong.com/news/202604/449626.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "微源半导体高性能芯片方案在华为憨憨AI智能陪伴机器人中的应用",
+      "source_name": "电子发烧友机器人",
+      "category": "泛具身产业链",
+      "url": "https://www.elecfans.com/d/8001847.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "英伟达正式发布Halos for Robotics",
+      "source_name": "电子发烧友机器人",
+      "category": "产品量产",
+      "url": "https://www.elecfans.com/d/8001720.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "一个“超级大脑”能带给ROS机器人怎样的提升？",
+      "source_name": "电子发烧友机器人",
+      "category": "泛具身产业链",
+      "url": "https://www.elecfans.com/d/8001821.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "复合机器人落地失败常见原因，自动化避坑指",
+      "source_name": "电子发烧友机器人",
+      "category": "商业订单",
+      "url": "https://www.elecfans.com/d/8000866.html"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "LanderPi复合型机器人，SLAM导航+AI大模型+3D视觉的组合拳能有多炸裂？",
+      "source_name": "电子发烧友机器人",
+      "category": "泛具身产业链",
+      "url": "https://www.elecfans.com/d/8000642.html"
     },
     {
       "date": "06-22",
@@ -176,71 +452,7 @@
     {
       "date": "06-22",
       "company": "其他",
-      "title": "科沃斯集团618双品牌全渠道领跑：以技术驱动霸榜，“八界”开源迈向具身智能时代",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "url": "https://www.tmtpost.com/8036208.html"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "专访Digid公司尼尔斯·克讷与克里斯蒂安·克赖尔：纳米级传感器有望解决机器人触觉感知难题（Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge）",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-digids-nils-konne-and-christian-kreil-nanoscale-sensors-could-help-solve-robotics-tactile-sensing-challenge/102702/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "采访Clearpath Robotics联合创始人Ryan Gariepy：“加拿大大多数行业自动化程度不足（Interview with Clearpath Robotics co-founder Ryan Gariepy: ‘Most industries in Canada are under-automated’）",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-clearpath-robotics-co-founder-ryan-gariepy-most-industries-in-canada-are-under-automated/102695/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "专访Sharpa公司Alicia Veneziani：“灵巧操作是打造实用人形机器人的关键（Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’）",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "观点：机器人领导者不可忽视的AI基础设施风险（Opinion: The AI infrastructure risk robotics leaders can’t afford to ignore）",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/opinion-the-ai-infrastructure-risk-robotics-leaders-cant-afford-to-ignore/102678/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "NVIDIA发布Halos：面向机器人的全栈安全系统（NVIDIA releases Halos, a full-stack safety system for robotics）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Cobot公司Proxie Gen 2机器人新增自动任务处理与移动操控功能（Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation）",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "专访Olo Robotics首席运营官埃莉诺·唐-史密斯：让机器人编程人人可及（Interview with Olo Robotics COO Eleanor Tang-Smith: Making robot programming accessible to everyone）",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-olo-robotics-coo-eleanor-tang-smith-making-robot-programming-accessible-to-everyone/102712/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Intrinsic 如何消除机器人手动编程（How Intrinsic eliminates manual robot coding）",
+      "title": "Intrinsic如何消除机器人手动编程（How Intrinsic eliminates manual robot coding）",
       "source_name": "The Robot Report",
       "category": "行业动态",
       "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
@@ -248,7 +460,7 @@
     {
       "date": "06-22",
       "company": "其他",
-      "title": "Bear Robotics 收购 Kinisi Robotics 以增强其物理 AI 能力（Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities）",
+      "title": "Bear Robotics收购Kinisi Robotics以增强物理AI能力（Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities）",
       "source_name": "The Robot Report",
       "category": "资本动态",
       "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/"
@@ -256,177 +468,49 @@
     {
       "date": "06-22",
       "company": "其他",
-      "title": "入选ECCV 2026！清华开源空间模型打败Gemini：真正的空间智能是在世界变化中持续学习",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "url": "https://www.qbitai.com/2026/06/437235.html"
+      "title": "NVIDIA发布面向机器人的全栈安全系统Halos（NVIDIA releases Halos, a full-stack safety system for robotics）",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
     },
     {
       "date": "06-22",
       "company": "其他",
-      "title": "映界科技：一支00后团队的空间智能“赌注” | 水下项目",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/p/3864071269569540?f=rss"
-    },
-    {
-      "date": "06-21",
-      "company": "特斯拉",
-      "title": "报道：特斯拉加速推进人工智能与机器人战略，申请注册 “Amazing Abundance” 商标",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3862280121865219?f=rss"
-    },
-    {
-      "date": "06-21",
-      "company": "其他",
-      "title": "具身智能最火这一年，她让AI赛车飙上天门山，让机器人乒乓打进奥运会",
-      "source_name": "钛媒体",
+      "title": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力（Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation）",
+      "source_name": "The Robot Report",
       "category": "技术突破",
-      "url": "https://www.tmtpost.com/8035242.html"
+      "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/"
     },
     {
-      "date": "06-21",
+      "date": "06-22",
       "company": "其他",
-      "title": "Güdel将在Automate 2026展示具备垂直与水平运动能力的机器人打磨方案（Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/gudel-to-showcase-grinding-beyond-stationary-robots-integrated-vertical-horizontal-motion-automate/"
-    },
-    {
-      "date": "06-20",
-      "company": "其他",
-      "title": "千亿热钱砸不出具身智能的答案： Demo 困在展厅，工厂等不来订单",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "url": "https://www.tmtpost.com/8034572.html"
-    },
-    {
-      "date": "06-20",
-      "company": "其他",
-      "title": "英伟达开始搞机器人自己研究机器人那套了…",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "url": "https://www.qbitai.com/2026/06/437041.html"
-    },
-    {
-      "date": "06-20",
-      "company": "其他",
-      "title": "GrayMatter Robotics称国防制造准备度取决于自主表面精加工能力（Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/defense-manufacturing-readiness-hinges-autonomous-surface-prep-says-graymatter/"
-    },
-    {
-      "date": "06-20",
-      "company": "其他",
-      "title": "机器人手术是否值得出国接受？患者指南（Is Robotic Surgery Worth Traveling Abroad for? – Patient Guide）",
+      "title": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题（Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge）",
       "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/20/is-robotic-surgery-worth-traveling-abroad-for-patient-guide/102667/"
+      "category": "泛具身产业链",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-digids-nils-konne-and-christian-kreil-nanoscale-sensors-could-help-solve-robotics-tactile-sensing-challenge/102702/"
     },
     {
-      "date": "06-19",
-      "company": "特斯拉",
-      "title": "瑞典呼吁禁止特斯拉FSD在欧盟范围内落地，除非其禁用超速功能",
-      "source_name": "36氪",
-      "category": "商业订单",
-      "url": "https://36kr.com/newsflashes/3859404287480835?f=rss"
-    },
-    {
-      "date": "06-19",
+      "date": "06-22",
       "company": "其他",
-      "title": "全球首个人形机器人通用小脑来了！全球最大规模2万小时人类动作数据，实现零样本泛化",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "url": "https://www.qbitai.com/2026/06/436813.html"
-    },
-    {
-      "date": "06-19",
-      "company": "行业",
-      "title": "硬氪首发|moody前高管搭档大疆骨干入局陪伴机器人，锦秋领投，融资数千万",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "url": "https://36kr.com/p/3859926114161665?f=rss"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "IFR称美国机器人行业在2025年实现两位数增长（U.S. robotics industry saw double-digit growth in 2025, says IFR）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/u-s-robotics-industry-saw-double-digit-growth-in-2025-says-ifr/"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "视频星期五：机器人真的需要腿吗？（Video Friday: Do Robots Even Need Legs?）",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "url": "https://spectrum.ieee.org/video-friday-agentic-ai-robot"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "亚马逊Astro让我理解如何赋予机器人“灵魂”（What Amazon’s Astro Taught Me About Giving Robots a Soul）",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "url": "https://spectrum.ieee.org/amazon-astro-robot-sound"
+      "title": "专访Sharpa的Alicia Veneziani：灵巧操作是实用人形机器人的关键（Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’）",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
     },
     {
       "date": "06-19",
       "company": "其他",
       "title": "Robot Talk第161期：Allison Okamura谈协作式触觉系统（Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura）",
       "source_name": "RoboHub",
-      "category": "行业动态",
+      "category": "泛具身产业链",
       "url": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "庭院机器人大乱斗：为何关键一仗在草坪？",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/robot/NCDqDsxS5AgjJxV6.html"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "擎仓机器人30天极速部署欧莱雅产线，轻量化VLA范式突破",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "url": "https://www.tmtpost.com/8033573.html"
-    },
-    {
-      "date": "06-18",
-      "company": "行业",
-      "title": "红杉、阿里押注过的具身大脑公司再融资，上交等投资数亿元｜硬氪首发",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "url": "https://36kr.com/p/3856708724315400?f=rss"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "魔法原子携手安行能源、憬驰智能，加速机器人落地“最后一公里”",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "url": "https://www.leiphone.com/category/industrynews/Xih4xedfgY6q1A21.html"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "最先自研芯片的朱江明，有什么理由劝大家“别造了”？",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/transportation/8YqmG5gzTCDsi2cQ.html"
     },
     {
       "date": "06-18",
       "company": "其他",
       "title": "RealSense发布面向机器人的AI原生D585 Pro深度相机（RealSense unveils AI-native D585 Pro depth camera for robots）",
       "source_name": "The Robot Report",
-      "category": "产品量产",
+      "category": "泛具身产业链",
       "url": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/"
     },
     {
@@ -440,58 +524,26 @@
     {
       "date": "06-18",
       "company": "其他",
-      "title": "Microbot Medical将通过LIBERTY扩大退伍军人使用机器人手术的机会（Microbot Medical to expand veteran access to robotic surgery with LIBERTY）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/microbot-medical-expands-veteran-access-robotic-surgery-liberty/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
       "title": "Richtech Robotics为ADAM AI人形机器人推出直播（Richtech Robotics launches livestream for ADAM AI-powered humanoid）",
       "source_name": "The Robot Report",
       "category": "产品量产",
       "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/"
     },
     {
-      "date": "06-18",
+      "date": "06-17",
       "company": "其他",
-      "title": "为什么可靠备用电源正成为现代机器人系统的必需品（Why Reliable Backup Power is Becoming Essential for Modern Robotics Systems）",
-      "source_name": "Robotics & Automation News",
+      "title": "评估人形机器人在表面精加工场景中的应用（Evaluating humanoids for surface finishing applications）",
+      "source_name": "The Robot Report",
       "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/18/why-reliable-backup-power-is-becoming-essential-for-modern-robotics-systems-2/102654/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "马萨诸塞州向六家本地机器人公司授予200万美元资金（Massachusetts awards $2 million to six local robotics companies）",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "url": "https://roboticsandautomationnews.com/2026/06/18/massachusetts-awards-2-million-to-six-local-robotics-companies/102643/"
+      "url": "https://www.therobotreport.com/evaluating-humanoids-for-surface-finishing-applications/"
     },
     {
       "date": "06-17",
       "company": "其他",
-      "title": "硬氪专访 | 罗剑岚：机器人真正的Scaling Law，发生在真实部署闭环里",
-      "source_name": "36氪",
-      "category": "商业订单",
-      "url": "https://36kr.com/p/3856871787189252?f=rss"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "凯迪股份：公司机器人产品仍处开发阶段，短期内暂无法形成收入",
-      "source_name": "36氪",
+      "title": "赢得马拉松的人形机器人的秘密（The Secret to Marathon-Winning Humanoid Robots）",
+      "source_name": "IEEE Spectrum Robotics",
       "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3857127292474628?f=rss"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "探索Bio AI「o1时刻」：百奥几何的三年微观世界模型演进",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "url": "https://www.leiphone.com/category/aihealth/jAeC3TqxHJc8bGb1.html"
+      "url": "https://spectrum.ieee.org/china-humanoid-robot-marathon"
     }
   ]
 }

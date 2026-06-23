@@ -8,8 +8,11 @@ import json
 import os
 import re
 import xml.etree.ElementTree as ET
+import ssl
+from html import unescape
 from datetime import datetime, timezone, timedelta
 from typing import Optional
+from urllib.parse import urljoin
 from urllib.request import Request, urlopen
 from urllib.error import URLError
 
@@ -20,31 +23,72 @@ QWEN_API_URL = os.getenv(
 )
 QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
 
-# Keywords to filter robot/embodied AI news
-KEYWORDS = [
-    "机器人", "人形", "具身智能", "embodied", "robot", "humanoid",
-    "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
-    "特斯拉", "Physical Intelligence", "灵巧手", "VLA", "GR00T",
-    "具身大脑", "具身模型", "机器人落地",
-    "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
-    "昆仑行", "光轮智能", "端到端机器人",
-    "robotics", "manipulation", "dexterous", "dexterity", "gripper",
-    "robot arm", "robot hand", "robot learning", "robot foundation model",
-    "warehouse robot", "industrial robot", "autonomous mobile robot",
+CORE_TERMS = [
+    "具身智能", "具身ai", "具身模型", "具身大脑", "具身创企", "具身创业",
+    "人形机器人", "双足机器人", "四足机器人", "通用机器人", "Physical AI",
+    "VLA", "视觉语言动作", "世界模型", "机器人基础模型", "端到端机器人",
+    "灵巧手", "机器人手", "机械臂", "移动操作", "全身控制", "运动控制",
+    "机器人学习", "模仿学习", "强化学习", "泛化操作",
+    "embodied ai", "embodied intelligence", "physical ai", "humanoid",
+    "humanoid robot", "general-purpose robot", "robot foundation model",
+    "robot learning", "dexterous", "dexterity", "manipulation", "mobile manipulation",
+    "robot hand", "robot arm", "gripper", "quadruped", "vla", "groot",
 ]
 
-RSS_SOURCES = [
-    {"name": "量子位", "url": "https://www.qbitai.com/feed"},
-    {"name": "36氪", "url": "https://36kr.com/feed"},
-    {"name": "雷峰网", "url": "https://www.leiphone.com/feed"},
-    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml"},
-    {"name": "爱范儿", "url": "https://www.ifanr.com/feed"},
-    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/"},
-    {"name": "TechCrunch Robotics", "url": "https://techcrunch.com/category/robotics/feed/"},
-    {"name": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/feed/"},
-    {"name": "NVIDIA Robotics", "url": "https://blogs.nvidia.com/blog/category/robotics/feed/"},
-    {"name": "IEEE Spectrum Robotics", "url": "https://spectrum.ieee.org/rss/robotics/fulltext"},
-    {"name": "RoboHub", "url": "https://robohub.org/feed/"},
+PERIPHERY_TERMS = [
+    "泛具身", "空间智能", "空间模型", "空间感知", "数采", "数据采集",
+    "具身数据", "机器人数据", "仿真", "合成数据", "数字孪生",
+    "触觉", "力控", "力传感", "传感器", "激光雷达", "深度相机", "3D视觉",
+    "肌电", "肌电腕带", "编码器", "减速器", "关节", "执行器", "伺服",
+    "电机", "控制器", "芯片", "边缘计算", "机器人操作系统", "ROS",
+    "tactile", "haptic", "force control", "sensor", "depth camera", "lidar",
+    "encoder", "actuator", "servo", "simulation", "synthetic data",
+    "spatial intelligence", "robot data", "robotics data", "teleoperation",
+]
+
+COMPANY_TERMS = [
+    "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
+    "特斯拉", "Physical Intelligence", "优必选", "云深处", "众擎",
+    "千寻智能", "大晓机器人", "傅利叶", "逐际动力", "昆仑行", "光轮智能",
+    "Genesis AI", "Bear Robotics", "Intrinsic",
+]
+
+ACTION_TERMS = [
+    "融资", "投资", "估值", "IPO", "上市", "并购", "收购", "发布", "推出",
+    "开源", "量产", "下线", "交付", "订单", "部署", "签约", "中标",
+    "落地", "商业化", "合作", "客户", "试点", "产线", "工厂",
+    "funding", "raises", "raised", "investment", "ipo", "acquires", "acquisition",
+    "launch", "release", "unveil", "open-source", "deploy", "deployment",
+    "contract", "customer", "pilot", "partnership", "factory", "warehouse",
+]
+
+BROAD_ROBOT_TERMS = [
+    "机器人", "工业机器人", "协作机器人", "移动机器人", "服务机器人", "AMR", "AGV",
+    "robot", "robotics", "industrial robot", "collaborative robot",
+    "warehouse robot", "autonomous mobile robot",
+]
+
+KEYWORDS = CORE_TERMS + PERIPHERY_TERMS + COMPANY_TERMS + BROAD_ROBOT_TERMS
+
+SOURCES = [
+    {"name": "量子位", "url": "https://www.qbitai.com/feed", "type": "rss"},
+    {"name": "36氪", "url": "https://36kr.com/feed", "type": "rss"},
+    {"name": "雷峰网", "url": "https://www.leiphone.com/feed", "type": "rss"},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "type": "rss"},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "type": "rss"},
+    {"name": "InfoQ", "url": "https://www.infoq.cn/feed", "type": "rss"},
+    {"name": "IT之家", "url": "https://www.ithome.com/rss/", "type": "rss", "strict": True},
+    {"name": "中国机器人网", "url": "https://www.robot-china.com/news/", "type": "html"},
+    {"name": "甲子光年", "url": "https://www.jazzyear.com", "type": "html"},
+    {"name": "新战略移动机器人", "url": "https://www.xzlrobot.com/", "type": "html", "allow_patterns": [r"/news-"]},
+    {"name": "中国工控网机器人", "url": "https://www.gongkong.com/robot/", "type": "html", "allow_patterns": [r"/news/2026"]},
+    {"name": "电子发烧友机器人", "url": "https://www.elecfans.com/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/", "type": "html", "allow_patterns": [r"/d/\d+\.html"]},
+    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "type": "rss"},
+    {"name": "TechCrunch Robotics", "url": "https://techcrunch.com/category/robotics/feed/", "type": "rss"},
+    {"name": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/feed/", "type": "rss"},
+    {"name": "NVIDIA Robotics", "url": "https://blogs.nvidia.com/blog/category/robotics/feed/", "type": "rss"},
+    {"name": "IEEE Spectrum Robotics", "url": "https://spectrum.ieee.org/rss/robotics/fulltext", "type": "rss"},
+    {"name": "RoboHub", "url": "https://robohub.org/feed/", "type": "rss"},
 ]
 
 # Skip research reports / whitepapers that are not clickable news
@@ -54,23 +98,6 @@ SKIP_KEYWORDS = [
     "蓝皮书", "洞察报告", "调研报告", "分析报告",
     "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻",
     "一周融资", "投融资周报", "IPO周报", "芭芭农场",
-]
-
-DIRECT_SIGNAL_KEYWORDS = [
-    "具身智能", "人形机器人", "四足机器人", "机器人", "灵巧手", "机械臂",
-    "具身大脑", "具身模型", "VLA", "视觉语言动作", "世界模型", "运动控制", "本体", "关节",
-    "量产", "下线", "交付", "订单", "部署", "签约", "中标",
-    "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure",
-    "Optimus", "Physical Intelligence", "优必选", "云深处", "众擎",
-    "千寻智能", "大晓机器人", "傅利叶", "逐际动力",
-    "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
-    "昆仑行", "光轮智能", "端到端机器人",
-    "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
-    "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
-    "embodied ai", "embodied intelligence", "robot learning",
-    "robot foundation model", "vla", "groot", "warehouse robot",
-    "industrial robot", "autonomous mobile robot", "figure ai",
-    "tesla bot", "optimus", "physical intelligence",
 ]
 
 TEXT_FIELDS = [
@@ -88,7 +115,7 @@ DATE_FIELDS = [
 def fetch_rss(url: str, timeout: int = 20):
     req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
     try:
-        with urlopen(req, timeout=timeout) as resp:
+        with urlopen(req, timeout=timeout, context=ssl._create_unverified_context()) as resp:
             return resp.read()
     except Exception as e:
         # Catch all network / SSL / timeout / HTTP errors — don't let one bad source kill the whole run
@@ -166,6 +193,12 @@ def local_title_translation(title: str) -> Optional[str]:
         "New research enables a robot to chart a better course": "新研究让机器人能够规划更优路线",
         "Kawasaki Robotics to debut RL030N physical AI platform at Automate": "川崎机器人将在Automate首发RL030N物理AI平台",
         "Genesis AI launches Eno general-purpose robot": "Genesis AI发布Eno通用机器人",
+        "How Intrinsic eliminates manual robot coding": "Intrinsic如何消除机器人手动编程",
+        "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities": "Bear Robotics收购Kinisi Robotics以增强物理AI能力",
+        "NVIDIA releases Halos, a full-stack safety system for robotics": "NVIDIA发布面向机器人的全栈安全系统Halos",
+        "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力",
+        "Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题",
+        "Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’": "专访Sharpa的Alicia Veneziani：灵巧操作是实用人形机器人的关键",
     }
     return known.get(title)
 
@@ -181,7 +214,12 @@ def display_title(title: str) -> str:
 
 def strip_html(text: str) -> str:
     text = re.sub(r"<[^>]+>", " ", text or "")
-    return re.sub(r"\s+", " ", text).strip()
+    return re.sub(r"\s+", " ", unescape(text)).strip()
+
+
+def contains_any(text: str, terms) -> bool:
+    low = (text or "").lower()
+    return any(term.lower() in low for term in terms)
 
 
 def find_text(node, fields) -> str:
@@ -248,6 +286,46 @@ def parse_rss(raw: bytes):
     return items
 
 
+def parse_html_listing(raw: bytes, base_url: str, allow_patterns=None):
+    html = raw.decode("utf-8", "ignore")
+    items = []
+    seen = set()
+    for m in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html, re.I | re.S):
+        href = unescape(m.group(1)).strip()
+        title = strip_html(m.group(2))
+        if len(title) < 8:
+            continue
+        if href.startswith(("javascript:", "#", "mailto:")):
+            continue
+        url = urljoin(base_url, href)
+        if allow_patterns and not any(re.search(pat, url) for pat in allow_patterns):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        context = strip_html(html[max(0, m.start() - 180):m.end() + 180])
+        pub_date = ""
+        dm = re.search(r"(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})", context)
+        if not dm:
+            dm = re.search(r"/(20\d{2})(\d{2})/(\d{1,2})/", url)
+        if not dm:
+            dm = re.search(r"/(20\d{2})(\d{2})/", url)
+        if dm:
+            groups = dm.groups()
+            y, mon = groups[0], groups[1]
+            day = groups[2] if len(groups) > 2 else "01"
+            pub_date = f"{y}-{int(mon):02d}-{int(day):02d}"
+        if not pub_date:
+            continue
+        items.append({
+            "title": title,
+            "url": url,
+            "pub_date": pub_date,
+            "description": context,
+        })
+    return items[:80]
+
+
 def normalize_date(pub_date: str):
     """Try to parse RSS date to MM-DD format. Returns (MM-DD, timezone-aware datetime)."""
     mmdd = re.fullmatch(r"(\d{2})-(\d{2})", pub_date or "")
@@ -305,18 +383,15 @@ def extract_company(title: str):
     return "其他"
 
 
-def is_relevant(title: str) -> bool:
-    """判断新闻是否与具身智能相关，不相关的直接过滤掉"""
-    t = title.lower()
-    raw = title
-    has_direct_signal = any(k.lower() in t for k in DIRECT_SIGNAL_KEYWORDS)
-    # 综合资讯通常只夹带一个 AI/融资关键词，无法支撑赛道跟踪，直接过滤。
+def excluded_by_noise(title: str, text: str) -> bool:
+    t = (text or title or "").lower()
+    raw = title or ""
     roundup_markers = [
         "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻", "一文看懂",
         "本周", "一周", "汇总", "盘点", "合集",
     ]
     if any(k in raw for k in roundup_markers):
-        return False
+        return True
     # 不相关关键词（泛行业新闻、商业诉讼、金融市场等）：直接过滤
     irrelevant_kw = [
         "食品", "餐饮", "山崎", "奶粉", "糖", "烘焙", "美妆", "服装", "零售", "超市",
@@ -346,44 +421,79 @@ def is_relevant(title: str) -> bool:
         "爆炸", "火灾", "事故",
         "食品安全", "食品添加剂",
         "价格", "涨价", "降价", "定价",
-        "招聘", "裁员", "失业",
+        "招聘", "裁员", "失业", "周报", "活动", "大会", "沙龙", "参会", "展会",
+        "a i芯片", "ai芯片", "算力", "储能", "a idc", "aidc",
         "芭芭农场",
     ]
+    has_signal = contains_any(text, CORE_TERMS + PERIPHERY_TERMS + COMPANY_TERMS)
     for kw in irrelevant_kw:
-        if kw in t and not has_direct_signal:
-            return False
+        if kw in t and not has_signal:
+            return True
+    return False
 
-    # 必须包含至少一个相关关键词（具身智能/机器人/大模型/AI）
-    relevant_kw = [
-        "机器人", "具身", "人形", "四足", "机械臂", "工业机器人", "服务机器人",
-        "vla", "大模型", "ai", "人工智能", "自动驾驶", "自动驾驶", "智能汽车",
-        "llm", "模型", "开源", "感知", "规划", "控制",
-        "芯片", "gpu", "算力", "算力",
-        "小米", "特斯拉", "智元", "宇树", "优必选", "云深处", "银河通用",
-        "理想", "小鹏", "蔚来", "比亚迪", "车端",
-        "openai", "figure", "physical intelligence",
-        "deepseek", "月之暗面", "kimi", "智谱", "百川", "阿里", "腾讯", "百度",
-        "机器人创业", "机器人公司", "融资", "IPO", "上市",
-        "具身创企", "具身创业", "空间智能", "数采", "数据采集", "肌电腕带",
-        "昆仑行", "光轮智能", "端到端机器人",
-        "robotics", "humanoid robot", "humanoid", "robot", "robot arm",
-        "robot hand", "dexterous", "manipulation", "gripper", "quadruped",
-        "embodied ai", "embodied intelligence", "robot learning",
-        "warehouse robot", "industrial robot", "autonomous mobile robot",
-        "figure ai", "tesla bot", "optimus", "groot", "nvidia",
-    ]
-    # 对泛 AI/汽车/融资新闻加一道直接信号门槛，避免把无关综合新闻带进页面。
-    has_relevant = any(k in t for k in relevant_kw)
-    has_direct = has_direct_signal
-    if any(k in t for k in ["自动驾驶", "智能汽车", "车端", "理想", "小鹏", "蔚来", "比亚迪"]):
-        return has_relevant and has_direct
-    if any(k in t for k in ["ai", "人工智能", "融资", "ipo", "上市", "模型", "大模型"]):
-        return has_relevant and has_direct
-    return has_relevant
+
+def relevance_level(title: str, description: str = "") -> Optional[str]:
+    text = f"{title or ''} {description or ''}"
+    if excluded_by_noise(title, text):
+        return None
+
+    has_core = contains_any(text, CORE_TERMS)
+    has_periphery = contains_any(text, PERIPHERY_TERMS)
+    has_company = contains_any(text, COMPANY_TERMS)
+    has_action = contains_any(text, ACTION_TERMS)
+    has_broad_robot = contains_any(text, BROAD_ROBOT_TERMS)
+
+    if has_core:
+        return "核心具身"
+    if has_company and (has_action or has_broad_robot or has_periphery):
+        return "核心具身"
+    if has_periphery and (has_broad_robot or has_core or contains_any(text, ["具身", "人形", "机械臂", "灵巧手", "robotics", "robot"])):
+        return "泛具身产业链"
+    if has_broad_robot and has_action:
+        return "核心具身"
+    return None
+
+
+def passes_source_gate(src, title: str, description: str, level: str) -> bool:
+    if not src.get("strict"):
+        return True
+    text = f"{title or ''} {description or ''}"
+    return level == "核心具身" and (
+        contains_any(text, CORE_TERMS)
+        or contains_any(text, COMPANY_TERMS)
+        or contains_any(text, ["人形机器人", "具身智能", "Optimus", "Physical AI"])
+    )
+
+
+def allowed_existing_item(item) -> bool:
+    source = item.get("source_name", "")
+    url = item.get("url", "")
+    title = item.get("title", "")
+    if any(x in title for x in ["1970-01-01", "参会须知", "生态沙龙", "场景应用拓展大会"]):
+        return False
+    if re.search(r"^\d+(\.\d+)?w\s+\d{1,2}:\d{2}", title):
+        return False
+    if source == "新战略移动机器人" and "/act-" in url:
+        return False
+    if source == "中国工控网机器人":
+        if any(x in url for x in ["/select/", "/product/", "/company/"]):
+            return False
+        if "/news/2026" not in url:
+            return False
+    if source == "电子发烧友机器人" and "/v/" in url:
+        return False
+    return True
+
+
+def is_relevant(title: str) -> bool:
+    return relevance_level(title) is not None
 
 
 def categorize(title: str):
     t = title.lower()
+    level = relevance_level(title)
+    if level == "泛具身产业链":
+        return "泛具身产业链"
     # 1) 资本动态：融资、IPO、并购、估值、投资
     if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "轮", "funding", "raises", "raised", "acquires", "acquisition"]):
         if "合作" in t and not any(k in t for k in ["融资", "投资", "收购", "并购"]):
@@ -435,24 +545,30 @@ def main():
     new_items = []
     source_stats = []
 
-    for src in RSS_SOURCES:
+    for src in SOURCES:
         raw = fetch_rss(src["url"])
         if not raw:
-            source_stats.append({"name": src["name"], "fetched": False, "entries": 0, "candidates": 0, "relevant": 0, "new": 0})
+            source_stats.append({"name": src["name"], "type": src["type"], "fetched": False, "entries": 0, "candidates": 0, "core": 0, "periphery": 0, "new": 0})
             continue
-        parsed = parse_rss(raw)
+        parsed = parse_html_listing(raw, src["url"], src.get("allow_patterns")) if src.get("type") == "html" else parse_rss(raw)
         candidates = 0
-        relevant = 0
+        core = 0
+        periphery = 0
         added = 0
         for p in parsed:
             haystack = f"{p.get('title', '')} {p.get('description', '')}".lower()
             if not any(kw.lower() in haystack for kw in KEYWORDS):
                 continue
             candidates += 1
-            # 严格筛选：只保留具身智能相关的新闻
-            if not is_relevant(p["title"]):
+            level = relevance_level(p["title"], p.get("description", ""))
+            if not level:
                 continue
-            relevant += 1
+            if not passes_source_gate(src, p["title"], p.get("description", ""), level):
+                continue
+            if level == "泛具身产业链":
+                periphery += 1
+            else:
+                core += 1
             if p["url"] in existing_urls:
                 continue
             date_str, dt = normalize_date(p["pub_date"])
@@ -464,19 +580,21 @@ def main():
                 "company": extract_company(p["title"]),
                 "title": display_title(p["title"]),
                 "source_name": src["name"],
-                "category": categorize(p["title"]),
+                "category": "泛具身产业链" if level == "泛具身产业链" else categorize(p["title"]),
                 "url": p["url"],
             })
             added += 1
         source_stats.append({
             "name": src["name"],
+            "type": src["type"],
             "fetched": True,
             "entries": len(parsed),
             "candidates": candidates,
-            "relevant": relevant,
+            "core": core,
+            "periphery": periphery,
             "new": added,
         })
-        print(f"SOURCE {src['name']}: entries={len(parsed)} candidates={candidates} relevant={relevant} new={added}")
+        print(f"SOURCE {src['name']}: entries={len(parsed)} candidates={candidates} core={core} periphery={periphery} new={added}")
 
     all_items = existing.get("items", []) + new_items
     # Deduplicate by URL and normalized title. Some publishers expose the same
@@ -486,6 +604,8 @@ def main():
     seen_fingerprints = set()
     deduped = []
     for it in all_items:
+        if not allowed_existing_item(it):
+            continue
         title_key = norm_title(it.get("title", ""))
         fp = title_fingerprint(it.get("title", ""))
         if it["url"] and it["url"] in seen_urls:
@@ -498,14 +618,15 @@ def main():
         seen_titles.add(title_key)
         seen_fingerprints.add(fp)
         # 对已有新闻也应用过滤，并重新分类
-        if not is_relevant(it.get("title", "")):
+        level = relevance_level(it.get("title", ""))
+        if not level:
             continue
         date_str, dt = normalize_date(it.get("date", ""))
         if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
             continue
         it["date"] = date_str
         it["title"] = display_title(it.get("title", ""))
-        it["category"] = categorize(it.get("title", ""))
+        it["category"] = "泛具身产业链" if level == "泛具身产业链" else categorize(it.get("title", ""))
         deduped.append(it)
 
     # Sort by date desc
@@ -516,7 +637,7 @@ def main():
     data = {
         "updated": datetime.now(timezone(timedelta(hours=8))).isoformat(),
         "source": "RSS自动抓取",
-        "source_count": len(RSS_SOURCES),
+        "source_count": len(SOURCES),
         "source_stats": source_stats,
         "items": deduped,
     }
