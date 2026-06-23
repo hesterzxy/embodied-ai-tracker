@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T22:52:00.693125+08:00",
+  "updated": "2026-06-24T04:08:34.221175+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -21,17 +21,17 @@
       "candidates": 11,
       "core": 8,
       "periphery": 0,
-      "new": 8
+      "new": 6
     },
     {
       "name": "雷峰网",
       "type": "rss",
       "fetched": true,
       "entries": 18,
-      "candidates": 10,
-      "core": 5,
+      "candidates": 11,
+      "core": 6,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "钛媒体",
@@ -41,7 +41,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -67,8 +67,8 @@
       "name": "IT之家",
       "type": "rss",
       "fetched": true,
-      "entries": 55,
-      "candidates": 17,
+      "entries": 56,
+      "candidates": 18,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -171,7 +171,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 2
+      "new": 3
     },
     {
       "name": "RoboHub",
