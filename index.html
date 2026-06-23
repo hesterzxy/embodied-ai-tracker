@@ -500,7 +500,7 @@ function renderFeed(items){
       <div>
         <div class="cat">${esc(it.category||'行业动态')}</div>
         <div class="ttl">${it.url&&it.url!=='#'?`<a href="${esc(it.url)}" target="_blank">${esc(it.title)}</a>`:esc(it.title)}</div>
-        <div class="src">${it.company && it.company !== '其他' ? esc(it.company)+' · ' : ''}${esc(it.source_name||'')}</div>
+        <div class="src">${esc(it.source_name||'')}</div>
       </div>
     </div>
   `).join('');
