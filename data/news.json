@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T04:49:33.391037+08:00",
+  "updated": "2026-06-23T11:38:30.465222+08:00",
   "source": "RSS自动抓取",
   "source_count": 11,
   "source_stats": [
@@ -14,8 +14,8 @@
     {
       "name": "36氪",
       "fetched": true,
-      "entries": 29,
-      "candidates": 7,
+      "entries": 28,
+      "candidates": 6,
       "relevant": 0,
       "new": 0
     },
@@ -30,15 +30,15 @@
     {
       "name": "钛媒体",
       "fetched": true,
-      "entries": 15,
-      "candidates": 0,
-      "relevant": 0,
-      "new": 0
+      "entries": 19,
+      "candidates": 1,
+      "relevant": 1,
+      "new": 1
     },
     {
       "name": "爱范儿",
       "fetched": true,
-      "entries": 16,
+      "entries": 15,
       "candidates": 0,
       "relevant": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "entries": 15,
       "candidates": 15,
       "relevant": 12,
-      "new": 2
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -81,7 +81,7 @@
       "entries": 30,
       "candidates": 30,
       "relevant": 27,
-      "new": 0
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -89,10 +89,18 @@
       "entries": 75,
       "candidates": 69,
       "relevant": 63,
-      "new": 0
+      "new": 1
     }
   ],
   "items": [
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "机器人流量反超人类，AI不睡觉不花钱，广告位还卖给谁？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "url": "https://www.tmtpost.com/8037156.html"
+    },
     {
       "date": "06-22",
       "company": "行业",
@@ -484,14 +492,6 @@
       "source_name": "Robotics & Automation News",
       "category": "产品量产",
       "url": "https://roboticsandautomationnews.com/2026/06/17/genesis-ai-launches-first-general-purpose-humanoid-robot/102623/"
-    },
-    {
-      "date": "06-17",
-      "company": "其他",
-      "title": "从后空翻到叠衣服：X Square Robot如何打造具身AI缺失的“大脑”（From backflips to folding laundry: How X Square Robot is building the missing ‘brain’ for embodied AI）",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "url": "https://roboticsandautomationnews.com/2026/06/17/from-backflips-to-folding-laundry-how-x-square-robot-is-building-the-missing-brain-for-embodied-ai/102607/"
     }
   ]
 }
