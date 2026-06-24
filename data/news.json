@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T04:08:34.221175+08:00",
+  "updated": "2026-06-24T11:40:40.847479+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -17,11 +17,11 @@
       "name": "36氪",
       "type": "rss",
       "fetched": true,
-      "entries": 28,
+      "entries": 29,
       "candidates": 11,
-      "core": 8,
-      "periphery": 0,
-      "new": 6
+      "core": 5,
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "雷峰网",
@@ -37,17 +37,17 @@
       "name": "钛媒体",
       "type": "rss",
       "fetched": true,
-      "entries": 19,
-      "candidates": 3,
-      "core": 2,
+      "entries": 18,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
       "type": "rss",
       "fetched": true,
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -67,11 +67,11 @@
       "name": "IT之家",
       "type": "rss",
       "fetched": true,
-      "entries": 56,
-      "candidates": 18,
-      "core": 1,
+      "entries": 57,
+      "candidates": 19,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -107,8 +107,8 @@
       "name": "中国工控网机器人",
       "type": "html",
       "fetched": true,
-      "entries": 24,
-      "candidates": 22,
+      "entries": 23,
+      "candidates": 21,
       "core": 10,
       "periphery": 3,
       "new": 0
@@ -129,9 +129,9 @@
       "fetched": true,
       "entries": 15,
       "candidates": 15,
-      "core": 6,
-      "periphery": 5,
-      "new": 3
+      "core": 8,
+      "periphery": 4,
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -185,6 +185,30 @@
     }
   ],
   "items": [
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "软银首席执行官孙正义：我们的机器人实体人工智能工厂已开始投产机器人",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/newsflashes/3866570257831175?f=rss"
+    },
+    {
+      "date": "06-24",
+      "company": "行业",
+      "title": "机器人融资暴增，但没一分钱投给“普通人”",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "url": "https://www.tmtpost.com/8038498.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "深入探讨ARM的物理AI与机器人战略：专访德鲁·亨利（Deep dive into ARM’s physical AI and robotics strategies with Drew Henry）",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/deep-dive-into-arms-physical-ai-and-robotics-strategies-with-drew-henry/"
+    },
     {
       "date": "06-23",
       "company": "行业",
@@ -490,6 +514,22 @@
       "url": "https://www.therobotreport.com/why-physical-ai-2-0-needs-reality-check/"
     },
     {
+      "date": "06-23",
+      "company": "其他",
+      "title": "ExRobotics 推出通过 UL 认证的危险环境巡检机器人（ExRobotics launches UL-certified inspection robot for hazardous environments）",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化（Vention collaborates with FANUC and Universal Robots on software-defined automation）",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
+    },
+    {
       "date": "06-22",
       "company": "其他",
       "title": "超越 SONIC ！人形机器人通用小脑迎来 GPT 时刻",
@@ -544,46 +584,6 @@
       "source_name": "Robotics & Automation News",
       "category": "技术突破",
       "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "Robot Talk第161期：Allison Okamura谈协作式触觉系统（Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura）",
-      "source_name": "RoboHub",
-      "category": "泛具身产业链",
-      "url": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "Elmo发布面向工业应用的新款运动控制器和伺服驱动器（Elmo releases new motion controller and servo drives for industrial applications）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/elmo-releases-new-motion-controller-servo-drives-industrial-applications/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "RealSense发布面向机器人的AI原生D585 Pro深度相机（RealSense unveils AI-native D585 Pro depth camera for robots）",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "url": "https://www.therobotreport.com/realsense-unveils-ai-native-d585-pro-depth-camera-for-robots/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "Kinova发布KIMA医疗机械臂（Kinova launches KIMA medical robotic arm）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/kinova-launches-kima-medical-robotic-arm/"
-    },
-    {
-      "date": "06-18",
-      "company": "其他",
-      "title": "Richtech Robotics为ADAM AI人形机器人推出直播（Richtech Robotics launches livestream for ADAM AI-powered humanoid）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/richtech-robotics-launches-livestream-adam-ai-powered-humanoid/"
     }
   ]
 }
