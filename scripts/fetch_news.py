@@ -25,7 +25,8 @@ QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
 
 CORE_TERMS = [
     "具身智能", "具身ai", "具身模型", "具身大脑", "具身创企", "具身创业",
-    "人形机器人", "双足机器人", "四足机器人", "通用机器人", "Physical AI",
+    "人形机器人", "双足机器人", "四足机器人", "通用机器人", "物理 AI",
+    "物理人工智能", "实体人工智能", "Physical AI",
     "VLA", "视觉语言动作", "世界模型", "机器人基础模型", "端到端机器人",
     "灵巧手", "机器人手", "机械臂", "移动操作", "全身控制", "运动控制",
     "机器人学习", "模仿学习", "强化学习", "泛化操作",
@@ -72,18 +73,17 @@ KEYWORDS = CORE_TERMS + PERIPHERY_TERMS + COMPANY_TERMS + BROAD_ROBOT_TERMS
 
 SOURCES = [
     {"name": "量子位", "url": "https://www.qbitai.com/feed", "type": "rss"},
-    {"name": "36氪", "url": "https://36kr.com/feed", "type": "rss"},
-    {"name": "雷峰网", "url": "https://www.leiphone.com/feed", "type": "rss"},
-    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "type": "rss"},
-    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "type": "rss"},
-    {"name": "InfoQ", "url": "https://www.infoq.cn/feed", "type": "rss"},
+    {"name": "36氪", "url": "https://36kr.com/feed", "type": "rss", "strict": True},
+    {"name": "雷峰网", "url": "https://www.leiphone.com/feed", "type": "rss", "strict": True},
+    {"name": "钛媒体", "url": "https://www.tmtpost.com/rss.xml", "type": "rss", "strict": True},
+    {"name": "爱范儿", "url": "https://www.ifanr.com/feed", "type": "rss", "strict": True},
+    {"name": "InfoQ", "url": "https://www.infoq.cn/feed", "type": "rss", "strict": True},
     {"name": "IT之家", "url": "https://www.ithome.com/rss/", "type": "rss", "strict": True},
     {"name": "中国机器人网", "url": "https://www.robot-china.com/news/", "type": "html"},
     {"name": "甲子光年", "url": "https://www.jazzyear.com", "type": "html"},
     {"name": "新战略移动机器人", "url": "https://www.xzlrobot.com/", "type": "html", "allow_patterns": [r"/news-"]},
     {"name": "中国工控网机器人", "url": "https://www.gongkong.com/robot/", "type": "html", "allow_patterns": [r"/news/2026"]},
-    {"name": "电子发烧友机器人", "url": "https://www.elecfans.com/tags/%E6%9C%BA%E5%99%A8%E4%BA%BA/", "type": "html", "allow_patterns": [r"/d/\d+\.html"]},
-    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "type": "rss"},
+    {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "type": "rss", "title_robot_signal": True},
     {"name": "TechCrunch Robotics", "url": "https://techcrunch.com/category/robotics/feed/", "type": "rss"},
     {"name": "Robotics & Automation News", "url": "https://roboticsandautomationnews.com/feed/", "type": "rss"},
     {"name": "NVIDIA Robotics", "url": "https://blogs.nvidia.com/blog/category/robotics/feed/", "type": "rss"},
@@ -104,6 +104,7 @@ LOW_INFO_COMMENTARY_PATTERNS = [
     r"常见原因",
     r"避坑",
     r"避坑指南",
+    r"圆桌对话",
     r"融资暴增",
     r"没一分钱投给",
     r"普通人",
@@ -113,6 +114,22 @@ LOW_INFO_COMMENTARY_PATTERNS = [
     r"能有多",
     r"\bdeep dive into\b",
     r"\bwhy\b.*\bneeds? a reality check\b",
+]
+
+TITLE_NOISE_PATTERNS = [
+    r"3d\s*生成",
+    r"hyper3d",
+    r"小鹏gx",
+    r"agenticos",
+    r"车机",
+    r"语音交互",
+    r"移动终端",
+    r"手机",
+    r"apparel supply chains",
+    r"fabrics",
+    r"financial markets",
+    r"supplier impersonation",
+    r"cybersecurity",
 ]
 
 TEXT_FIELDS = [
@@ -403,6 +420,8 @@ def excluded_by_noise(title: str, text: str) -> bool:
     raw = title or ""
     if any(re.search(pattern, raw, re.IGNORECASE) for pattern in LOW_INFO_COMMENTARY_PATTERNS):
         return True
+    if any(re.search(pattern, raw, re.IGNORECASE) for pattern in TITLE_NOISE_PATTERNS):
+        return True
     roundup_markers = [
         "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻", "一文看懂",
         "本周", "一周", "汇总", "盘点", "合集",
@@ -472,13 +491,18 @@ def relevance_level(title: str, description: str = "") -> Optional[str]:
 
 
 def passes_source_gate(src, title: str, description: str, level: str) -> bool:
+    title_text = title or ""
+    if src.get("title_robot_signal") and not contains_any(
+        title_text,
+        ["robot", "robotics", "humanoid", "manipulation", "automation", "sensor", "机器人", "人形", "机械臂", "具身"],
+    ):
+        return False
     if not src.get("strict"):
         return True
-    text = f"{title or ''} {description or ''}"
     return level == "核心具身" and (
-        contains_any(text, CORE_TERMS)
-        or contains_any(text, COMPANY_TERMS)
-        or contains_any(text, ["人形机器人", "具身智能", "Optimus", "Physical AI"])
+        contains_any(title_text, CORE_TERMS)
+        or contains_any(title_text, COMPANY_TERMS)
+        or contains_any(title_text, ["机器人", "具身智能", "Optimus", "Physical AI", "robot", "robotics", "humanoid"])
     )
 
 
@@ -497,8 +521,6 @@ def allowed_existing_item(item) -> bool:
             return False
         if "/news/2026" not in url:
             return False
-    if source == "电子发烧友机器人" and "/v/" in url:
-        return False
     return True
 
 

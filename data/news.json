@@ -1,7 +1,7 @@
 {
   "updated": "2026-06-24T17:33:14.959075+08:00",
   "source": "RSS自动抓取",
-  "source_count": 18,
+  "source_count": 17,
   "source_stats": [
     {
       "name": "量子位",
@@ -114,16 +114,6 @@
       "new": 0
     },
     {
-      "name": "电子发烧友机器人",
-      "type": "html",
-      "fetched": true,
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
-    },
-    {
       "name": "The Robot Report",
       "type": "rss",
       "fetched": true,
@@ -208,14 +198,6 @@
       "source_name": "钛媒体",
       "category": "技术突破",
       "url": "https://www.tmtpost.com/8038367.html"
-    },
-    {
-      "date": "06-24",
-      "company": "特斯拉",
-      "title": "特斯拉本土化语音交互升级进入落地阶段，车机将 OTA 接入豆包大模型",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "url": "https://www.ithome.com/0/967/989.htm"
     },
     {
       "date": "06-23",
@@ -435,30 +417,6 @@
     },
     {
       "date": "06-23",
-      "company": "其他",
-      "title": "微源半导体高性能芯片方案在华为憨憨AI智能陪伴机器人中的应用",
-      "source_name": "电子发烧友机器人",
-      "category": "泛具身产业链",
-      "url": "https://www.elecfans.com/d/8001847.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "英伟达正式发布Halos for Robotics",
-      "source_name": "电子发烧友机器人",
-      "category": "产品量产",
-      "url": "https://www.elecfans.com/d/8001720.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "一个“超级大脑”能带给ROS机器人怎样的提升？",
-      "source_name": "电子发烧友机器人",
-      "category": "泛具身产业链",
-      "url": "https://www.elecfans.com/d/8001821.html"
-    },
-    {
-      "date": "06-23",
       "company": "宇树科技",
       "title": "宇树科技与 GMO AIR 达成合作，G1 人形机器人等产品将登陆日本市场",
       "source_name": "IT之家",
@@ -568,14 +526,6 @@
       "source_name": "Robotics & Automation News",
       "category": "技术突破",
       "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "Elmo发布面向工业应用的新款运动控制器和伺服驱动器（Elmo releases new motion controller and servo drives for industrial applications）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/elmo-releases-new-motion-controller-servo-drives-industrial-applications/"
     },
     {
       "date": "06-19",

@@ -535,71 +535,47 @@ function renderWeeklyReport(items){
     container.innerHTML='<div class="errnote">本周暂无动态。</div>'; return;
   }
 
-  function topEntities(arr){
-    const titles=arr.map(it=>it.title||'').join(' ');
-    const patterns=['宇树','智元','星海图','银河通用','Figure','Optimus','Physical Intelligence','魔法原子','智平方','大晓机器人','世航智能','SoulX','小雨智造','均普智能','速腾聚创','智源研究院'];
-    return patterns.filter(p=>titles.includes(p)).slice(0,5);
-  }
-  function topicSignals(arr){
-    const titles=arr.map(it=>it.title||'').join(' ');
-    const signals=[];
-    if(/VLA|NeuroVLA|世界模型|Scaling Law|模型|全身协同/.test(titles)) signals.push('VLA/世界模型');
-    if(/数据|数采|数据集|开源/.test(titles)) signals.push('数据采集与数据集');
-    if(/融资|投资|A 轮|高瓴|朱啸虎/.test(titles)) signals.push('融资');
-    if(/订单|产线|投用|焊接|合作/.test(titles)) signals.push('产线/订单');
-    if(/家庭|海洋|外骨骼|珠峰/.test(titles)) signals.push('新场景');
-    return signals;
-  }
   function buildWeekInsight(arr){
-    const titles=arr.map(it=>it.title||'').join(' ');
+    const trendDefs=[
+      {
+        label:'模型与数据',
+        pattern:/VLA|世界模型|具身智能数据|数据需求|数采|数据集|基础模型|Physical AI|机器人数据/i,
+        event:/发布|推出|开源|探索|合作|收购|acquires|launch|release|open-source|data/i
+      },
+      {
+        label:'资本与产业链',
+        pattern:/融资|募资|投资|估值|上市|并购|收购|产业投资|funding|raises|acquires|acquisition/i,
+        event:/融资|募资|投资|估值|并购|收购|产业化|完成|raises|raised|acquires/i
+      },
+      {
+        label:'产品与部署',
+        pattern:/发布|推出|亮相|量产|交付|投产|订单|合作|部署|巡检|产线|launch|unveil|deploy|deployment|certified|collaborates/i,
+        event:/发布|推出|亮相|量产|交付|投产|订单|合作|部署|认证|launch|unveil|deploy|certified|collaborates/i
+      },
+      {
+        label:'供应链与感知',
+        pattern:/传感器|触觉|激光雷达|深度相机|机械臂|关节|执行器|芯片|力控|tactile|sensor|depth camera|robotic arm/i,
+        event:/发布|推出|应用|合作|解决|launch|unveil|help solve|application/i
+      }
+    ];
+    function shortTitle(title){
+      const clean=(title||'').replace(/（[^（）]+）$/,'').trim();
+      return clean.length>32 ? clean.slice(0,31)+'…' : clean;
+    }
+    function evidenceLine(items){
+      const picked=items.slice(0,2).map(it=>`《${shortTitle(it.title)}》`);
+      const sources=[...new Set(items.slice(0,3).map(it=>it.source_name).filter(Boolean))];
+      return `${picked.join('、')}（${sources.join('、')}）`;
+    }
     const bullets=[];
-    const matched = pattern => arr.filter(it=>pattern.test(it.title||'')).slice(0,4);
-    function summarizeEvidence(items, type){
-      if(!items.length) return '';
-      const names=topEntities(items).slice(0,3);
-      const text=items.map(it=>it.title||'').join(' ');
-      if(type==='model'){
-        const details=[];
-        if(/数采|数据集|开源/.test(text)) details.push('数采工具/数据集');
-        if(/NeuroVLA|K02|VLA/.test(text)) details.push('VLA产品化');
-        if(/世界模型|Scaling Law/.test(text)) details.push('世界模型路线讨论');
-        return `${names.length?names.join('、')+'等':''}${details.join('、') || '模型能力'}出现进展`;
-      }
-      if(type==='capital'){
-        const scenes=[];
-        if(/海洋/.test(text)) scenes.push('海洋机器人');
-        if(/家庭|柔性|拥抱/.test(text)) scenes.push('家庭/柔性机器人');
-        if(/10亿|高瓴|朱啸虎/.test(text)) scenes.push('头部资金参与');
-        return `${scenes.join('、') || '垂直具身场景'}获得资本验证`;
-      }
-      if(type==='commercial'){
-        const details=[];
-        if(/车厂|产线/.test(text)) details.push('车厂/产线订单');
-        if(/焊接/.test(text)) details.push('焊接作业投用');
-        if(/合作/.test(text)) details.push('产业链合作');
-        return `${details.join('、') || 'B端场景'}出现落地信号`;
-      }
-      if(type==='actors'){
-        return `${names.join('、') || '多家公司'}在模型、场景和生态侧密集释放动态`;
-      }
-      return items[0].title || '';
-    }
-    function push(label, ev, implication){
-      if(!ev.length) return;
-      bullets.push({label, text:`${ev}。${implication}`});
-    }
-    if(/数据|数采|数据集|开源/.test(titles) && /VLA|NeuroVLA|世界模型|模型/.test(titles)){
-      push('模型能力进入数据验证阶段', summarizeEvidence(matched(/数据|数采|数据集|开源|VLA|NeuroVLA|世界模型/), 'model'), '竞争焦点从“发布模型概念”转向“能否拿到可复用训练数据”。');
-    }else if(/VLA|NeuroVLA|世界模型|模型/.test(titles)){
-      push('VLA继续产品化', summarizeEvidence(matched(/VLA|NeuroVLA|世界模型|模型/), 'model'), '后续要看这些能力是否进入可交付产品，而不是停留在发布会表述。');
-    }else if(/数据|数采|数据集|开源/.test(titles)){
-      push('数据成为瓶颈', summarizeEvidence(matched(/数据|数采|数据集|开源/), 'model'), '具身数据供给正在成为模型泛化的前置条件。');
-    }
-    push('资本转向可定义场景', summarizeEvidence(matched(/融资|投资|A 轮|高瓴|朱啸虎|海洋|家庭|柔性/), 'capital'), '资金正在寻找比通用人形更早形成商业闭环的细分场景。');
-    push('工业场景继续提供先验需求', summarizeEvidence(matched(/产线|订单|投用|合作|焊接|车厂/), 'commercial'), '这一类需求更容易定义任务、衡量ROI，也更适合短期验证交付能力。');
-    push('活跃主体需要继续跟踪', summarizeEvidence(matched(/宇树|魔法原子|智平方|小雨智造|均普智能|速腾聚创|世航智能|SoulX/), 'actors'), '后续重点看客户披露、部署规模和复购，而不是单次发布热度。');
+    trendDefs.forEach(def=>{
+      const hits=arr.filter(it=>def.pattern.test(it.title||'') && def.event.test(it.title||''));
+      if(hits.length<1) return;
+      const text=evidenceLine(hits);
+      bullets.push({label:def.label, text:`${text}。这是由本周新闻标题直接归纳的信号，需继续看后续是否有客户、规模或数据指标披露。`});
+    });
     if(!bullets.length){
-      bullets.push({label:'本周无明确拐点', text:'动态较分散；建议继续观察真实订单、数据闭环和量产交付。'});
+      bullets.push({label:'本周无明确趋势', text:'当前新闻更适合逐条阅读，暂不强行归纳模型、资本或商业化结论。'});
     }
     return `<ul>${bullets.slice(0,3).map(b=>`<li><b>${esc(b.label)}：</b>${esc(b.text)}</li>`).join('')}</ul>`;
   }
