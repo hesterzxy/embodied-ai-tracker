@@ -7,8 +7,10 @@ Run by GitHub Actions every 4–6 hours.
 import json
 import os
 import re
+import sys
 import xml.etree.ElementTree as ET
 import ssl
+import time
 from html import unescape
 from datetime import datetime, timezone, timedelta
 from typing import Optional
@@ -17,6 +19,7 @@ from urllib.request import Request, urlopen
 from urllib.error import URLError
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
+TRANSLATION_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "title_translations.json")
 QWEN_API_URL = os.getenv(
     "QWEN_API_URL",
     "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
@@ -155,15 +158,23 @@ DATE_FIELDS = [
 ]
 
 
-def fetch_rss(url: str, timeout: int = 20):
+def fetch_rss_once(url: str, timeout: int = 20):
     req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
-    try:
-        with urlopen(req, timeout=timeout, context=ssl._create_unverified_context()) as resp:
-            return resp.read()
-    except Exception as e:
-        # Catch all network / SSL / timeout / HTTP errors — don't let one bad source kill the whole run
-        print(f"WARN: failed to fetch {url}: {type(e).__name__}: {e}")
-        return None
+    with urlopen(req, timeout=timeout, context=ssl._create_unverified_context()) as resp:
+        return resp.read()
+
+
+def fetch_rss(url: str, timeout: int = 20, attempts: int = 3):
+    last_error = ""
+    for attempt in range(1, attempts + 1):
+        try:
+            return fetch_rss_once(url, timeout=timeout), attempt, ""
+        except Exception as e:
+            last_error = f"{type(e).__name__}: {e}"
+            print(f"WARN: failed to fetch {url} attempt {attempt}/{attempts}: {last_error}")
+            if attempt < attempts:
+                time.sleep(min(2 ** attempt, 10))
+    return None, attempts, last_error
 
 
 def is_english_title(title: str) -> bool:
@@ -171,7 +182,14 @@ def is_english_title(title: str) -> bool:
 
 
 def has_original_title(title: str) -> bool:
-    return bool(re.search(r"（[^（）]*[A-Za-z][^（）]*）$", title or ""))
+    return bool(re.search(r"(?:（[^（）]*[A-Za-z][^（）]*）|\([^()]*[A-Za-z][^()]*\))$", title or ""))
+
+
+def normalize_original_title_format(title: str) -> str:
+    m = re.match(r"^(.*?)（([^（）]*[A-Za-z][^（）]*)）$", title or "")
+    if not m:
+        return title
+    return f"{m.group(1).strip()} ({m.group(2).strip()})"
 
 
 def translate_title_with_qwen(title: str) -> Optional[str]:
@@ -247,13 +265,38 @@ def local_title_translation(title: str) -> Optional[str]:
     return known.get(title)
 
 
-def display_title(title: str) -> str:
+def load_translation_cache():
+    if os.path.exists(TRANSLATION_CACHE_PATH):
+        with open(TRANSLATION_CACHE_PATH, "r", encoding="utf-8") as f:
+            try:
+                data = json.load(f)
+                return data if isinstance(data, dict) else {}
+            except json.JSONDecodeError:
+                return {}
+    return {}
+
+
+def save_translation_cache(cache):
+    os.makedirs(os.path.dirname(TRANSLATION_CACHE_PATH), exist_ok=True)
+    with open(TRANSLATION_CACHE_PATH, "w", encoding="utf-8") as f:
+        json.dump(dict(sorted(cache.items())), f, ensure_ascii=False, indent=2)
+        f.write("\n")
+
+
+def display_title(title: str, translation_cache=None) -> str:
+    title = normalize_original_title_format(title)
     if not is_english_title(title) or has_original_title(title):
         return title
-    translated = local_title_translation(title) or translate_title_with_qwen(title)
+    translated = None
+    if translation_cache is not None:
+        translated = translation_cache.get(title)
+    if not translated:
+        translated = local_title_translation(title) or translate_title_with_qwen(title)
+        if translated and translation_cache is not None:
+            translation_cache[title] = translated
     if not translated:
         return title
-    return f"{translated}（{title}）"
+    return f"{translated} ({title})"
 
 
 def strip_html(text: str) -> str:
@@ -610,16 +653,46 @@ def title_fingerprint(title: str) -> str:
 
 def main():
     existing = load_existing()
+    translation_cache = load_translation_cache()
     existing_urls = {it.get("url", "") for it in existing.get("items", [])}
     new_items = []
     source_stats = []
 
     for src in SOURCES:
-        raw = fetch_rss(src["url"])
+        raw, attempts, error = fetch_rss(src["url"], attempts=src.get("attempts", 3))
         if not raw:
-            source_stats.append({"name": src["name"], "type": src["type"], "fetched": False, "entries": 0, "candidates": 0, "core": 0, "periphery": 0, "new": 0})
+            source_stats.append({
+                "name": src["name"],
+                "type": src["type"],
+                "fetched": False,
+                "attempts": attempts,
+                "error": error,
+                "entries": 0,
+                "candidates": 0,
+                "core": 0,
+                "periphery": 0,
+                "new": 0,
+            })
             continue
-        parsed = parse_html_listing(raw, src["url"], src.get("allow_patterns")) if src.get("type") == "html" else parse_rss(raw)
+        try:
+            parsed = parse_html_listing(raw, src["url"], src.get("allow_patterns")) if src.get("type") == "html" else parse_rss(raw)
+        except Exception as e:
+            error = f"{type(e).__name__}: {e}"
+            print(f"WARN: failed to parse {src['name']}: {error}")
+            source_stats.append({
+                "name": src["name"],
+                "type": src["type"],
+                "fetched": True,
+                "parsed": False,
+                "attempts": attempts,
+                "error": error,
+                "entries": 0,
+                "candidates": 0,
+                "core": 0,
+                "periphery": 0,
+                "new": 0,
+            })
+            continue
         candidates = 0
         core = 0
         periphery = 0
@@ -647,7 +720,7 @@ def main():
             new_items.append({
                 "date": date_str,
                 "company": extract_company(p["title"]),
-                "title": display_title(p["title"]),
+                "title": display_title(p["title"], translation_cache),
                 "source_name": src["name"],
                 "category": "泛具身产业链" if level == "泛具身产业链" else categorize(p["title"]),
                 "url": p["url"],
@@ -657,6 +730,9 @@ def main():
             "name": src["name"],
             "type": src["type"],
             "fetched": True,
+            "parsed": True,
+            "attempts": attempts,
+            "error": "",
             "entries": len(parsed),
             "candidates": candidates,
             "core": core,
@@ -694,7 +770,7 @@ def main():
         if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
             continue
         it["date"] = date_str
-        it["title"] = display_title(it.get("title", ""))
+        it["title"] = display_title(it.get("title", ""), translation_cache)
         it["category"] = "泛具身产业链" if level == "泛具身产业链" else categorize(it.get("title", ""))
         deduped.append(it)
 
@@ -711,8 +787,27 @@ def main():
         "items": deduped,
     }
     save_data(data)
+    save_translation_cache(translation_cache)
     print(f"Updated {DATA_PATH}: {len(new_items)} new, {len(deduped)} total.")
 
 
+def probe_sources():
+    for src in SOURCES:
+        raw, attempts, error = fetch_rss(src["url"], attempts=src.get("attempts", 3))
+        if not raw:
+            print(f"PROBE {src['name']}: fetched=false attempts={attempts} error={error}")
+            continue
+        try:
+            parsed = parse_html_listing(raw, src["url"], src.get("allow_patterns")) if src.get("type") == "html" else parse_rss(raw)
+            print(f"PROBE {src['name']}: fetched=true attempts={attempts} entries={len(parsed)}")
+            for p in parsed[:3]:
+                print(f"  - {p.get('pub_date', '')} {p.get('title', '')}")
+        except Exception as e:
+            print(f"PROBE {src['name']}: fetched=true parsed=false attempts={attempts} error={type(e).__name__}: {e}")
+
+
 if __name__ == "__main__":
-    main()
+    if "--probe" in sys.argv:
+        probe_sources()
+    else:
+        main()
