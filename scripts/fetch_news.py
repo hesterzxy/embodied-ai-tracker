@@ -100,6 +100,21 @@ SKIP_KEYWORDS = [
     "一周融资", "投融资周报", "IPO周报", "芭芭农场",
 ]
 
+LOW_INFO_COMMENTARY_PATTERNS = [
+    r"常见原因",
+    r"避坑",
+    r"避坑指南",
+    r"融资暴增",
+    r"没一分钱投给",
+    r"普通人",
+    r"值不值得",
+    r"值得.*吗",
+    r"有多炸裂",
+    r"能有多",
+    r"\bdeep dive into\b",
+    r"\bwhy\b.*\bneeds? a reality check\b",
+]
+
 TEXT_FIELDS = [
     "title", "description", "summary",
     "{http://purl.org/rss/1.0/modules/content/}encoded",
@@ -386,6 +401,8 @@ def extract_company(title: str):
 def excluded_by_noise(title: str, text: str) -> bool:
     t = (text or title or "").lower()
     raw = title or ""
+    if any(re.search(pattern, raw, re.IGNORECASE) for pattern in LOW_INFO_COMMENTARY_PATTERNS):
+        return True
     roundup_markers = [
         "早报", "晨报", "晚报", "8点1氪", "钛晨报", "今日要闻", "一文看懂",
         "本周", "一周", "汇总", "盘点", "合集",
