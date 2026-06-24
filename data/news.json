@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T21:02:35.958913+08:00",
+  "updated": "2026-06-24T22:33:31.767700+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -21,23 +21,23 @@
       "candidates": 9,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
       "type": "rss",
       "fetched": true,
-      "entries": 18,
+      "entries": 19,
       "candidates": 9,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
       "type": "rss",
       "fetched": true,
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -71,17 +71,17 @@
       "candidates": 20,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": true,
-      "entries": 80,
-      "candidates": 76,
-      "core": 35,
-      "periphery": 2,
-      "new": 10
+      "fetched": false,
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "甲子光年",
@@ -99,9 +99,9 @@
       "fetched": true,
       "entries": 22,
       "candidates": 22,
-      "core": 10,
+      "core": 7,
       "periphery": 0,
-      "new": 9
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -129,7 +129,7 @@
       "fetched": true,
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 7,
       "periphery": 2,
       "new": 2
     },
@@ -151,7 +151,7 @@
       "candidates": 11,
       "core": 4,
       "periphery": 3,
-      "new": 5
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -181,7 +181,7 @@
       "candidates": 70,
       "core": 20,
       "periphery": 11,
-      "new": 0
+      "new": 1
     }
   ],
   "items": [
@@ -264,6 +264,22 @@
       "source_name": "The Robot Report",
       "category": "产品量产",
       "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "京东与魔法原子达成战略合作 共拓具身智能产业化新范式",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "url": "https://www.leiphone.com/category/industrynews/xqROkc70MtjJFKJ4.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "人形机器人制造商Agility Robotics将通过SPAC合并上市（Humanoid maker Agility Robotics to go public through SPAC merger）",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"
     },
     {
       "date": "06-23",
@@ -568,14 +584,6 @@
       "source_name": "The Robot Report",
       "category": "产品量产",
       "url": "https://www.therobotreport.com/nvidia-releases-halos-a-full-stack-safety-system-for-robotics/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力（Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation）",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/"
     }
   ]
 }
