@@ -81,6 +81,7 @@ SOURCES = [
     {"name": "IT之家", "url": "https://www.ithome.com/rss/", "type": "rss", "strict": True},
     {"name": "中国机器人网", "url": "https://www.robot-china.com/news/", "type": "html"},
     {"name": "甲子光年", "url": "https://www.jazzyear.com", "type": "html"},
+    {"name": "OFweek机器人", "url": "https://robot.ofweek.com/CATList-8321200-8100-robot.html", "type": "html", "allow_patterns": [r"robot\.ofweek\.com/20\d{2}-\d{2}/ART-"], "event_required": True},
     {"name": "新战略移动机器人", "url": "https://www.xzlrobot.com/", "type": "html", "allow_patterns": [r"/news-"]},
     {"name": "中国工控网机器人", "url": "https://www.gongkong.com/robot/", "type": "html", "allow_patterns": [r"/news/2026"]},
     {"name": "The Robot Report", "url": "https://www.therobotreport.com/feed/", "type": "rss", "title_robot_signal": True},
@@ -105,6 +106,17 @@ LOW_INFO_COMMENTARY_PATTERNS = [
     r"避坑",
     r"避坑指南",
     r"圆桌对话",
+    r"全图谱",
+    r"图谱",
+    r"内卷",
+    r"出局\??",
+    r"出路",
+    r"泡沫",
+    r"狂欢",
+    r"经济账",
+    r"合理吗",
+    r"提振股价吗",
+    r"信赖吗",
     r"融资暴增",
     r"没一分钱投给",
     r"普通人",
@@ -119,7 +131,6 @@ LOW_INFO_COMMENTARY_PATTERNS = [
 TITLE_NOISE_PATTERNS = [
     r"3d\s*生成",
     r"hyper3d",
-    r"小鹏gx",
     r"agenticos",
     r"车机",
     r"语音交互",
@@ -231,6 +242,7 @@ def local_title_translation(title: str) -> Optional[str]:
         "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力",
         "Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题",
         "Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’": "专访Sharpa的Alicia Veneziani：灵巧操作是实用人形机器人的关键",
+        "Mantis Robotics launches dual-arm, fenceless robot": "Mantis Robotics发布双臂无围栏机器人",
     }
     return known.get(title)
 
@@ -319,7 +331,15 @@ def parse_rss(raw: bytes):
 
 
 def parse_html_listing(raw: bytes, base_url: str, allow_patterns=None):
-    html = raw.decode("utf-8", "ignore")
+    html = None
+    for encoding in ("utf-8", "gb18030", "gbk"):
+        try:
+            html = raw.decode(encoding)
+            break
+        except UnicodeDecodeError:
+            continue
+    if html is None:
+        html = raw.decode("utf-8", "ignore")
     items = []
     seen = set()
     for m in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html, re.I | re.S):
@@ -335,7 +355,7 @@ def parse_html_listing(raw: bytes, base_url: str, allow_patterns=None):
         if url in seen:
             continue
         seen.add(url)
-        context = strip_html(html[max(0, m.start() - 180):m.end() + 180])
+        context = strip_html(html[max(0, m.start() - 320):m.end() + 900])
         pub_date = ""
         dm = re.search(r"(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})", context)
         if not dm:
@@ -492,6 +512,16 @@ def relevance_level(title: str, description: str = "") -> Optional[str]:
 
 def passes_source_gate(src, title: str, description: str, level: str) -> bool:
     title_text = title or ""
+    if src.get("event_required") and not contains_any(
+        title_text,
+        [
+            "融资", "投资", "IPO", "上市", "并购", "收购", "发布", "推出",
+            "亮相", "量产", "交付", "订单", "签约", "合作", "投产",
+            "Optimus", "优必选", "宇树", "智元", "星海图", "赛力斯",
+            "云深处", "世航智能", "李开复", "极智嘉",
+        ],
+    ):
+        return False
     if src.get("title_robot_signal") and not contains_any(
         title_text,
         ["robot", "robotics", "humanoid", "manipulation", "automation", "sensor", "机器人", "人形", "机械臂", "具身"],

@@ -1,7 +1,7 @@
 {
-  "updated": "2026-06-24T17:33:14.959075+08:00",
+  "updated": "2026-06-24T21:02:35.958913+08:00",
   "source": "RSS自动抓取",
-  "source_count": 17,
+  "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
@@ -9,45 +9,45 @@
       "fetched": true,
       "entries": 10,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
       "type": "rss",
       "fetched": true,
-      "entries": 29,
-      "candidates": 10,
-      "core": 5,
-      "periphery": 2,
-      "new": 7
+      "entries": 27,
+      "candidates": 9,
+      "core": 1,
+      "periphery": 0,
+      "new": 1
     },
     {
       "name": "雷峰网",
       "type": "rss",
       "fetched": true,
-      "entries": 19,
-      "candidates": 10,
-      "core": 6,
-      "periphery": 1,
-      "new": 7
-    },
-    {
-      "name": "钛媒体",
-      "type": "rss",
-      "fetched": true,
       "entries": 18,
-      "candidates": 3,
+      "candidates": 9,
       "core": 2,
       "periphery": 0,
       "new": 2
     },
     {
-      "name": "爱范儿",
+      "name": "钛媒体",
       "type": "rss",
       "fetched": true,
       "entries": 16,
+      "candidates": 2,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
+    },
+    {
+      "name": "爱范儿",
+      "type": "rss",
+      "fetched": true,
+      "entries": 17,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -67,31 +67,41 @@
       "name": "IT之家",
       "type": "rss",
       "fetched": true,
-      "entries": 59,
-      "candidates": 21,
-      "core": 3,
+      "entries": 60,
+      "candidates": 20,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": false,
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "entries": 80,
+      "candidates": 76,
+      "core": 35,
+      "periphery": 2,
+      "new": 10
     },
     {
       "name": "甲子光年",
       "type": "html",
       "fetched": true,
       "entries": 31,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 4,
+      "core": 4,
       "periphery": 0,
       "new": 0
+    },
+    {
+      "name": "OFweek机器人",
+      "type": "html",
+      "fetched": true,
+      "entries": 22,
+      "candidates": 22,
+      "core": 10,
+      "periphery": 0,
+      "new": 9
     },
     {
       "name": "新战略移动机器人",
@@ -108,9 +118,9 @@
       "type": "html",
       "fetched": true,
       "entries": 23,
-      "candidates": 21,
-      "core": 10,
-      "periphery": 3,
+      "candidates": 22,
+      "core": 8,
+      "periphery": 4,
       "new": 0
     },
     {
@@ -120,8 +130,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 6,
-      "periphery": 4,
-      "new": 4
+      "periphery": 2,
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -140,8 +150,8 @@
       "entries": 15,
       "candidates": 11,
       "core": 4,
-      "periphery": 5,
-      "new": 7
+      "periphery": 3,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -161,7 +171,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -171,7 +181,7 @@
       "candidates": 70,
       "core": 20,
       "periphery": 11,
-      "new": 2
+      "new": 0
     }
   ],
   "items": [
@@ -186,18 +196,74 @@
     {
       "date": "06-24",
       "company": "其他",
-      "title": "人形机器人量产元年：万台下线、数亿库存与算不平的经济账",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "url": "https://www.tmtpost.com/8039221.html"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
       "title": "具身智能芯片，先卷疯了",
       "source_name": "钛媒体",
       "category": "技术突破",
       "url": "https://www.tmtpost.com/8038367.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "1小时真机RL微调成功率破95%！HIL-ResRL：即插即用的VLA“外挂”神器",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "url": "https://www.qbitai.com/2026/06/438166.html"
+    },
+    {
+      "date": "06-24",
+      "company": "宇树科技",
+      "title": "宇树R1人形机器人降价至2.99万元起",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "url": "https://36kr.com/newsflashes/3867114597848067?f=rss"
+    },
+    {
+      "date": "06-24",
+      "company": "行业",
+      "title": "独家丨清研精准完成数亿元 B3 轮融资，目标打造物理 AI 数据基础设施",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "url": "https://www.leiphone.com/category/industrynews/ATSs1siQdN2RCpgn.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "首款搭载宁德时代电池的重载人形机器人上岗",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "url": "https://www.ithome.com/0/968/169.htm"
+    },
+    {
+      "date": "06-24",
+      "company": "宇树科技",
+      "title": "直降 1 万元：宇树科技宣布 R1 机器人 2.99 万元起现货开售",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "url": "https://www.ithome.com/0/968/145.htm"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "矩阵超智亮相大连夏季达沃斯，成全场唯一人形机器人服务商，MATRIX-3 化身 AI 咖啡师服务全球嘉宾",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "url": "https://www.robot-china.com/news/202606/24/95960.html"
+    },
+    {
+      "date": "06-24",
+      "company": "特斯拉",
+      "title": "特斯拉Optimus量产落地! 三花、拓普领衔出圈，人形机器人复刻电车超级风口",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "url": "https://robot.ofweek.com/2026-06/ART-898890-8460-30691892.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "Mantis Robotics发布双臂无围栏机器人（Mantis Robotics launches dual-arm, fenceless robot）",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/"
     },
     {
       "date": "06-23",
@@ -510,30 +576,6 @@
       "source_name": "The Robot Report",
       "category": "技术突破",
       "url": "https://www.therobotreport.com/cobots-proxie-gen-2-robot-adds-autotasking-mobile-manipulation/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题（Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge）",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-digids-nils-konne-and-christian-kreil-nanoscale-sensors-could-help-solve-robotics-tactile-sensing-challenge/102702/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "专访Sharpa的Alicia Veneziani：灵巧操作是实用人形机器人的关键（Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’）",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "url": "https://roboticsandautomationnews.com/2026/06/22/interview-with-sharpas-alicia-veneziani-dexterous-manipulation-is-the-key-to-useful-humanoid-robots/102683/"
-    },
-    {
-      "date": "06-19",
-      "company": "其他",
-      "title": "Robot Talk第161期：Allison Okamura谈协作式触觉系统（Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura）",
-      "source_name": "RoboHub",
-      "category": "泛具身产业链",
-      "url": "https://robohub.org/robot-talk-episode-161-collaborative-haptic-systems-with-allison-okamura/"
     }
   ]
 }
