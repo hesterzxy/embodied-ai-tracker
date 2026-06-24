@@ -536,46 +536,57 @@ function renderWeeklyReport(items){
   }
 
   function buildWeekInsight(arr){
-    const trendDefs=[
-      {
-        label:'模型与数据',
-        pattern:/VLA|世界模型|具身智能数据|数据需求|数采|数据集|基础模型|Physical AI|机器人数据/i,
-        event:/发布|推出|开源|探索|合作|收购|acquires|launch|release|open-source|data/i
-      },
-      {
-        label:'资本与产业链',
-        pattern:/融资|募资|投资|估值|上市|并购|收购|产业投资|funding|raises|acquires|acquisition/i,
-        event:/融资|募资|投资|估值|并购|收购|产业化|完成|raises|raised|acquires/i
-      },
-      {
-        label:'产品与部署',
-        pattern:/发布|推出|亮相|量产|交付|投产|订单|合作|部署|巡检|产线|launch|unveil|deploy|deployment|certified|collaborates/i,
-        event:/发布|推出|亮相|量产|交付|投产|订单|合作|部署|认证|launch|unveil|deploy|certified|collaborates/i
-      },
-      {
-        label:'供应链与感知',
-        pattern:/传感器|触觉|激光雷达|深度相机|机械臂|关节|执行器|芯片|力控|tactile|sensor|depth camera|robotic arm/i,
-        event:/发布|推出|应用|合作|解决|launch|unveil|help solve|application/i
-      }
-    ];
     function shortTitle(title){
-      const clean=(title||'').replace(/（[^（）]+）$/,'').trim();
-      return clean.length>32 ? clean.slice(0,31)+'…' : clean;
+      const clean=(title||'').replace(/\s*\([^()]*[A-Za-z][^()]*\)$/,'').trim();
+      return clean.length>24 ? clean.slice(0,23)+'…' : clean;
     }
-    function evidenceLine(items){
-      const picked=items.slice(0,2).map(it=>`《${shortTitle(it.title)}》`);
-      const sources=[...new Set(items.slice(0,3).map(it=>it.source_name).filter(Boolean))];
-      return `${picked.join('、')}（${sources.join('、')}）`;
+    function has(pattern){
+      return arr.filter(it=>pattern.test(it.title||''));
     }
+    function pick(items, limit=3){
+      const seen=new Set();
+      return items.filter(it=>{
+        const key=shortTitle(it.title);
+        if(seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      }).slice(0,limit);
+    }
+    function cite(items){
+      return pick(items,3).map(it=>`《${shortTitle(it.title)}》`).join('、');
+    }
+    const priceDelivery=has(/降价|2\.99|R1|10000台|第10000台|量产|下线|真交付|Optimus|供应链开始备货|Mantis|双臂|无围栏|首款搭载宁德时代电池|上岗/i);
+    const modelData=has(/真机RL|VLA|世界模型|物理 AI 数据|数据基础设施|数据需求|Physical AI|机器人手动编程|Proxie Gen 2|自动任务|移动操作|片上自学习/i);
+    const capitalScene=has(/融资|投资|IPO|募资|独角兽|收购|产业投资|数亿元|数十亿元|千万级|Bear Robotics|Kinisi|Syrius|摩玛|昆仑行|清研精准/i);
+    const supplyChain=has(/芯片|关节|编码器|减速器|传感器|触觉|激光|离线编程|电池|三花|拓普|镁合金|高导热|高强韧|国产大脑/i);
+
     const bullets=[];
-    trendDefs.forEach(def=>{
-      const hits=arr.filter(it=>def.pattern.test(it.title||'') && def.event.test(it.title||''));
-      if(hits.length<1) return;
-      const text=evidenceLine(hits);
-      bullets.push({label:def.label, text:`${text}。这是由本周新闻标题直接归纳的信号，需继续看后续是否有客户、规模或数据指标披露。`});
-    });
+    if(priceDelivery.length>=2){
+      bullets.push({
+        label:'硬件进入价格和交付验证期',
+        text:`本周最清晰的变化不是又多了几个演示，而是价格、量产和真实上岗同时出现：${cite(priceDelivery)}。这意味着竞争焦点开始从“能不能做出来”转向“能不能以可接受成本持续交付”，低价会倒逼供应链和渠道能力，单次发布会的含金量反而下降。`
+      });
+    }
+    if(modelData.length>=2){
+      bullets.push({
+        label:'模型叙事开始落到数据和任务闭环',
+        text:`${cite(modelData)}指向同一件事：具身智能的瓶颈正在从大模型概念转向真机数据、任务微调、编程自动化和移动操作闭环。后续更值得跟的是成功率、可迁移任务数和数据采集成本，而不是单纯的“世界模型/VLA”表述。`
+      });
+    }
+    if(capitalScene.length>=2){
+      bullets.push({
+        label:'资本更偏向可定义场景和基础设施',
+        text:`${cite(capitalScene)}显示资金仍在进场，但更青睐能说清楚用途的方向：数据基础设施、移动机器人、材料/部件、收购补能力。相比泛泛投“通用人形”，这些标的更容易用客户、订单和复购验证。`
+      });
+    }
+    if(bullets.length<3 && supplyChain.length>=2){
+      bullets.push({
+        label:'供应链正在从概念受益转向性能约束',
+        text:`${cite(supplyChain)}说明上游机会不只是“机器人概念股”，而是围绕算力芯片、关节材料、传感/控制和工艺软件解决具体瓶颈。谁能进入量产 BOM 或形成标准方案，才是真正的产业链信号。`
+      });
+    }
     if(!bullets.length){
-      bullets.push({label:'本周无明确趋势', text:'当前新闻更适合逐条阅读，暂不强行归纳模型、资本或商业化结论。'});
+      bullets.push({label:'本周无强结论', text:'新闻较分散，暂时不足以支撑明确趋势判断；更适合逐条看具体公司、客户和产品指标。'});
     }
     return `<ul>${bullets.slice(0,3).map(b=>`<li><b>${esc(b.label)}：</b>${esc(b.text)}</li>`).join('')}</ul>`;
   }
