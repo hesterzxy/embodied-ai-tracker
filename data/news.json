@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T03:47:59.124619+08:00",
+  "updated": "2026-06-25T11:39:54.858348+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -8,40 +8,40 @@
       "type": "rss",
       "fetched": true,
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
       "type": "rss",
       "fetched": true,
-      "entries": 27,
-      "candidates": 9,
+      "entries": 28,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
       "type": "rss",
       "fetched": true,
       "entries": 19,
-      "candidates": 9,
-      "core": 2,
+      "candidates": 10,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
       "type": "rss",
       "fetched": true,
-      "entries": 17,
+      "entries": 20,
       "candidates": 2,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -71,7 +71,7 @@
       "candidates": 22,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -101,7 +101,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 6
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -131,7 +131,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -141,7 +141,7 @@
       "candidates": 8,
       "core": 4,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -185,6 +185,38 @@
     }
   ],
   "items": [
+    {
+      "date": "06-25",
+      "company": "其他",
+      "title": "瑞为技术通过港交所聆讯，冲刺港股“视觉具身智能第一股”",
+      "source_name": "36氪",
+      "category": "技术突破",
+      "url": "https://36kr.com/newsflashes/3868021691929861?f=rss"
+    },
+    {
+      "date": "06-25",
+      "company": "其他",
+      "title": "世界模型不是错了，是太早被卖贵了",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "url": "https://www.tmtpost.com/8039925.html"
+    },
+    {
+      "date": "06-25",
+      "company": "智元机器人",
+      "title": "智元总裁彭志辉：资本不再只为机器人 Demo 买单了，必须在真实场景落地商业价值",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "url": "https://www.ithome.com/0/968/259.htm"
+    },
+    {
+      "date": "06-25",
+      "company": "行业",
+      "title": "拟募资不超14亿！又一上市公司加码机器人精密部件等项目",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30691943.html"
+    },
     {
       "date": "06-24",
       "company": "其他",
@@ -288,6 +320,22 @@
       "source_name": "TechCrunch Robotics",
       "category": "资本动态",
       "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
+    },
+    {
+      "date": "06-24",
+      "company": "行业",
+      "title": "世界模型混战，Momenta率先冲刺IPO",
+      "source_name": "量子位",
+      "category": "资本动态",
+      "url": "https://www.qbitai.com/2026/06/438179.html"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "物理AI的船票，藏在世界模型里",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "url": "https://www.leiphone.com/category/transportation/G2qSdvIbBYQ13ERf.html"
     },
     {
       "date": "06-23",
@@ -536,54 +584,6 @@
       "source_name": "钛媒体",
       "category": "技术突破",
       "url": "https://www.tmtpost.com/8036568.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "2026年，“AI新贵们”集体押注世界模型",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "url": "https://www.tmtpost.com/8037833.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "ExRobotics 推出通过 UL 认证的危险环境巡检机器人（ExRobotics launches UL-certified inspection robot for hazardous environments）",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化（Vention collaborates with FANUC and Universal Robots on software-defined automation）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "超越 SONIC ！人形机器人通用小脑迎来 GPT 时刻",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "url": "https://www.leiphone.com/category/ai/lzqSU7xisToFg45M.html"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Intrinsic如何消除机器人手动编程（How Intrinsic eliminates manual robot coding）",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Bear Robotics收购Kinisi Robotics以增强物理AI能力（Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities）",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/"
     }
   ]
 }
