@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T22:36:19.882520+08:00",
+  "updated": "2026-06-26T04:02:16.027171+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -38,10 +38,10 @@
       "type": "rss",
       "fetched": true,
       "entries": 20,
-      "candidates": 4,
+      "candidates": 5,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -67,11 +67,11 @@
       "name": "IT之家",
       "type": "rss",
       "fetched": true,
-      "entries": 59,
-      "candidates": 23,
+      "entries": 58,
+      "candidates": 24,
       "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -126,12 +126,12 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": false,
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "entries": 15,
+      "candidates": 15,
+      "core": 7,
+      "periphery": 2,
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -148,10 +148,10 @@
       "type": "rss",
       "fetched": true,
       "entries": 15,
-      "candidates": 9,
-      "core": 2,
-      "periphery": 3,
-      "new": 5
+      "candidates": 8,
+      "core": 1,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -280,6 +280,30 @@
       "source_name": "IT之家",
       "category": "产品量产",
       "url": "https://www.ithome.com/0/968/662.htm"
+    },
+    {
+      "date": "06-25",
+      "company": "其他",
+      "title": "2025 年我国具身智能市场规模约 9150 亿元，预计今年将冲上万亿",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "url": "https://www.ithome.com/0/968/702.htm"
+    },
+    {
+      "date": "06-25",
+      "company": "其他",
+      "title": "Robust.AI 为第三代 Carter 移动机器人选用 Aptiv PULSE 传感器（Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot）",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/"
+    },
+    {
+      "date": "06-25",
+      "company": "其他",
+      "title": "ARM研究所将RoboticsCareer.org扩展至物理AI领域（ARM Institute expands RoboticsCareer.org into physical AI）",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
     },
     {
       "date": "06-24",
@@ -560,30 +584,6 @@
       "source_name": "中国机器人网",
       "category": "资本动态",
       "url": "https://www.robot-china.com/news/202207/12/72228.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "对谈5位CEO/投资人：人形机器人犹如登月计划",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "url": "https://www.robot-china.com/news/202210/09/74315.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "机器人激光熔覆实战篇：国产机器人离线编程软件iRobotCAM, 实现叶片的激光熔覆盖编程与仿真",
-      "source_name": "中国工控网机器人",
-      "category": "泛具身产业链",
-      "url": "https://www.gongkong.com/news/202606/450676.html"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "藦卡机器人受邀出席全省机器人和具身智能产业高质量发展推进会议",
-      "source_name": "中国工控网机器人",
-      "category": "技术突破",
-      "url": "https://www.gongkong.com/news/202606/450555.html"
     }
   ]
 }
