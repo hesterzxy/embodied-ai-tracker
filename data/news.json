@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T04:02:16.027171+08:00",
+  "updated": "2026-06-26T11:48:40.770075+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -8,8 +8,8 @@
       "type": "rss",
       "fetched": true,
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -17,8 +17,8 @@
       "name": "36氪",
       "type": "rss",
       "fetched": true,
-      "entries": 29,
-      "candidates": 7,
+      "entries": 28,
+      "candidates": 4,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -37,17 +37,17 @@
       "name": "钛媒体",
       "type": "rss",
       "fetched": true,
-      "entries": 20,
-      "candidates": 5,
-      "core": 2,
+      "entries": 19,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
       "type": "rss",
       "fetched": true,
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -67,11 +67,11 @@
       "name": "IT之家",
       "type": "rss",
       "fetched": true,
-      "entries": 58,
-      "candidates": 24,
-      "core": 5,
+      "entries": 57,
+      "candidates": 15,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -100,8 +100,8 @@
       "entries": 22,
       "candidates": 22,
       "core": 6,
-      "periphery": 0,
-      "new": 2
+      "periphery": 1,
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -117,9 +117,9 @@
       "name": "中国工控网机器人",
       "type": "html",
       "fetched": true,
-      "entries": 23,
-      "candidates": 22,
-      "core": 7,
+      "entries": 21,
+      "candidates": 20,
+      "core": 6,
       "periphery": 4,
       "new": 0
     },
@@ -130,8 +130,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 7,
-      "periphery": 2,
-      "new": 7
+      "periphery": 1,
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -185,6 +185,22 @@
     }
   ],
   "items": [
+    {
+      "date": "06-26",
+      "company": "行业",
+      "title": "科创丨全球首个海洋具身大模型诞生，10亿刷新海洋机器人融资纪录",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "url": "https://robot.ofweek.com/2026-06/ART-898890-8420-30692103.html"
+    },
+    {
+      "date": "06-26",
+      "company": "行业",
+      "title": "四川机器人减速器零部件制造商，通过北交所上市辅导验收！",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30692111.html"
+    },
     {
       "date": "06-25",
       "company": "其他",
@@ -568,22 +584,6 @@
       "source_name": "中国机器人网",
       "category": "资本动态",
       "url": "https://www.robot-china.com/news/202207/20/72502.html"
-    },
-    {
-      "date": "06-23",
-      "company": "行业",
-      "title": "自主移动机器人「Syrius炬星」数千万元融资，丰年资本独投",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "url": "https://www.robot-china.com/news/202207/19/72445.html"
-    },
-    {
-      "date": "06-23",
-      "company": "行业",
-      "title": "「摩玛机器人」获千万级融资 专注复合移动机器人产业化应用",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "url": "https://www.robot-china.com/news/202207/12/72228.html"
     }
   ]
 }
