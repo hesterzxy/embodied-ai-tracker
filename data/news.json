@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T14:26:47.339873+08:00",
+  "updated": "2026-06-26T17:31:00.196457+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 10,
-      "core": 3,
+      "candidates": 4,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 9,
-      "core": 3,
+      "candidates": 12,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 0,
-      "core": 0,
+      "entries": 18,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 17,
+      "entries": 59,
+      "candidates": 18,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -97,15 +97,14 @@
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 80,
-      "candidates": 76,
-      "core": 42,
-      "periphery": 1,
-      "new": 11
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "甲子光年",
@@ -114,9 +113,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 31,
-      "candidates": 4,
-      "core": 4,
+      "entries": 30,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
       "new": 0
     },
@@ -129,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 6,
+      "core": 7,
       "periphery": 1,
-      "new": 0
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -339,6 +338,15 @@
       "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30692111.html"
     },
     {
+      "date": "06-26",
+      "company": "优必选",
+      "title": "陪伴类机器人卖了5000台，优必选能松口气了？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个高自由度运动关节。上线10天预订量逼近4000台，到6月21日累计超过5000台。 一个可供对照的数字是：2025年全年，优必选全尺寸具身智能人形机器人总共卖了1079台。一款C端产品不到三周的预定量，是去年B端全年销量的近五倍。 优必选方面透…",
+      "url": "https://www.tmtpost.com/8042348.html"
+    },
+    {
       "date": "06-25",
       "company": "其他",
       "title": "GAIR Paper 105｜离线强化学习新突破——ROMI：破解对抗式模型学习「过保守、训不稳」深层困局｜ICLR 2026",
@@ -526,6 +534,15 @@
       "category": "资本动态",
       "summary": "Agility Robotics will merge with Churchill Capital Corp XI, raising $620 million to advance Digit v5 and fulfill growing customer orders. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"
+    },
+    {
+      "date": "06-24",
+      "company": "其他",
+      "title": "敏捷机器人公司计划通过SPAC上市，交易估值25亿美元 (Agility Robotics plans to go public via SPAC in a $2.5B deal)",
+      "source_name": "TechCrunch Robotics",
+      "category": "资本动态",
+      "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
+      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
     },
     {
       "date": "06-23",
