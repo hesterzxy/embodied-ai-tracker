@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T17:31:00.196457+08:00",
+  "updated": "2026-06-26T22:28:15.859182+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,7 +23,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
+      "entries": 27,
       "candidates": 4,
       "core": 1,
       "periphery": 0,
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 12,
-      "core": 2,
+      "candidates": 15,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
-      "core": 2,
+      "entries": 16,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -75,7 +75,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 20,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
-      "core": 2,
+      "entries": 60,
+      "candidates": 22,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -182,7 +182,7 @@
       "candidates": 8,
       "core": 4,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -192,7 +192,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
+      "candidates": 9,
       "core": 1,
       "periphery": 1,
       "new": 2
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 2
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -232,9 +232,9 @@
       "error": "",
       "entries": 75,
       "candidates": 70,
-      "core": 20,
+      "core": 19,
       "periphery": 11,
-      "new": 1
+      "new": 0
     }
   ],
   "items": [
@@ -345,6 +345,24 @@
       "category": "行业动态",
       "summary": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个高自由度运动关节。上线10天预订量逼近4000台，到6月21日累计超过5000台。 一个可供对照的数字是：2025年全年，优必选全尺寸具身智能人形机器人总共卖了1079台。一款C端产品不到三周的预定量，是去年B端全年销量的近五倍。 优必选方面透…",
       "url": "https://www.tmtpost.com/8042348.html"
+    },
+    {
+      "date": "06-26",
+      "company": "其他",
+      "title": "对话超维传感李炎辉：为什么那么多具身智能公司，都来抢着做「触觉」？",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "当视觉缺席具身智能“最后一厘米”，触觉就成了最大的需求。 作者丨 高景辉 编辑丨 林觉民 刚见到超维传感创始人李炎辉时，他递给了我一瓶水，本以为只是用来喝的，没想到这成了他重要的“演示道具”。 没错，在与雷峰网这次对话过程中，他几乎用一瓶普通的矿泉水解释了机器人灵巧操作所需要的触觉信息——捏住它靠「法向力」，提起它靠「切向力」，倒过来要感知「姿态」，大力把水…",
+      "url": "https://www.leiphone.com/category/robot/Q6XEzSSNN50X3wwt.html"
+    },
+    {
+      "date": "06-26",
+      "company": "优必选",
+      "title": "优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。 官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。 Cruzr Y1 搭…",
+      "url": "https://www.ithome.com/0/969/219.htm"
     },
     {
       "date": "06-25",
