@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T22:28:15.859182+08:00",
+  "updated": "2026-06-27T03:51:30.863998+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 15,
+      "candidates": 14,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -90,9 +90,9 @@
       "error": "",
       "entries": 60,
       "candidates": 22,
-      "core": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 6,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 1,
-      "periphery": 1,
-      "new": 2
+      "candidates": 11,
+      "core": 6,
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "RoboHub",
@@ -363,6 +363,24 @@
       "category": "资本动态",
       "summary": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。 官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。 Cruzr Y1 搭…",
       "url": "https://www.ithome.com/0/969/219.htm"
+    },
+    {
+      "date": "06-26",
+      "company": "其他",
+      "title": "Flexiv 推出新型“自适应机器人”用于工业自动化 (Flexiv launches new ‘adaptive robots’ for industrial automation)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Flexiv has launched two new adaptive robots designed to bring greater tactile sensing and physical AI capabilities to industrial automation. The company unveiled its new Enlight ro…",
+      "url": "https://roboticsandautomationnews.com/2026/06/26/flexiv-launches-new-adaptive-robots-for-industrial-automation/102857/"
+    },
+    {
+      "date": "06-26",
+      "company": "其他",
+      "title": "ABB机器人公司与Psyonic利用人类生成的数据提升机器人灵巧性 (ABB Robotics and Psyonic use human-generated data to advance robotic dexterity)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Dexterity remains a major challenge for industry; improved handling can reduce engineering time by up to 30% ABB Robotics is collaborating with California bionics company, Psyonic,…",
+      "url": "https://roboticsandautomationnews.com/2026/06/26/abb-robotics-and-psyonic-use-human-generated-data-to-advance-robotic-dexterity/102851/"
     },
     {
       "date": "06-25",
@@ -669,15 +687,6 @@
       "category": "行业动态",
       "summary": "Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming. The post appeared first on The Robot Rep…",
       "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Bear Robotics收购Kinisi Robotics以增强物理AI能力 (Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Kinisi's KR1 humanoid robot, its Bristol-based engineering team, and its physical AI capabilities will be integrated into Bear Robotics. The post appeared first on The Robot Report…",
-      "url": "https://www.therobotreport.com/bear-robotics-acquires-kinisi-robotics-to-boost-its-physical-ai-capabilities/"
     }
   ]
 }
