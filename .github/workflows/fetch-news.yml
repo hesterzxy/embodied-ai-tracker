@@ -28,6 +28,9 @@ jobs:
           done
         env:
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          QWEN_KEY: ${{ secrets.QWEN_KEY }}
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
@@ -40,6 +43,6 @@ jobs:
             echo "无新闻变化"
           else
             git commit -m "auto: update news $(date -u +%Y-%m-%d-%H:%M)"
-            git pull --rebase origin main
+            git pull --rebase origin "${GITHUB_REF_NAME}"
             git push
           fi

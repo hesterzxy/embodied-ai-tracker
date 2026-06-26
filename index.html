@@ -541,7 +541,7 @@ function renderWeeklyReport(items){
       return clean.length>24 ? clean.slice(0,23)+'…' : clean;
     }
     function has(pattern){
-      return arr.filter(it=>pattern.test(it.title||''));
+      return arr.filter(it=>pattern.test(`${it.title||''} ${it.summary||''}`));
     }
     function pick(items, limit=3){
       const seen=new Set();
@@ -555,34 +555,47 @@ function renderWeeklyReport(items){
     function cite(items){
       return pick(items,3).map(it=>`《${shortTitle(it.title)}》`).join('、');
     }
+    function context(items){
+      return pick(items,2).map(it=>{
+        const summary=(it.summary||'').replace(/\s+/g,'').slice(0,54);
+        return summary ? `《${shortTitle(it.title)}》提到${summary}` : `《${shortTitle(it.title)}》`;
+      }).join('；');
+    }
     const priceDelivery=has(/降价|2\.99|R1|10000台|第10000台|量产|下线|真交付|Optimus|供应链开始备货|Mantis|双臂|无围栏|首款搭载宁德时代电池|上岗/i);
-    const modelData=has(/真机RL|VLA|世界模型|物理 AI 数据|数据基础设施|数据需求|Physical AI|机器人手动编程|Proxie Gen 2|自动任务|移动操作|片上自学习/i);
+    const modelData=has(/真机RL|VLA|世界模型|物理 AI 数据|数据基础设施|数据需求|Physical AI|机器人手动编程|Proxie Gen 2|自动任务|移动操作|片上自学习|成功率|微调|数据采集/i);
     const capitalScene=has(/融资|投资|IPO|募资|独角兽|收购|产业投资|数亿元|数十亿元|千万级|Bear Robotics|Kinisi|Syrius|摩玛|昆仑行|清研精准/i);
+    const sceneDeploy=has(/工厂|产线|达沃斯|咖啡师|巡检|危险环境|重载|上岗|日本市场|GMO AIR|合作|PoC|试点|部署|客户|场景/i);
     const supplyChain=has(/芯片|关节|编码器|减速器|传感器|触觉|激光|离线编程|电池|三花|拓普|镁合金|高导热|高强韧|国产大脑/i);
 
     const bullets=[];
-    if(priceDelivery.length>=2){
+    if(sceneDeploy.length>=2){
       bullets.push({
-        label:'硬件进入价格和交付验证期',
-        text:`本周最清晰的变化不是又多了几个演示，而是价格、量产和真实上岗同时出现：${cite(priceDelivery)}。这意味着竞争焦点开始从“能不能做出来”转向“能不能以可接受成本持续交付”，低价会倒逼供应链和渠道能力，单次发布会的含金量反而下降。`
+        label:'落地场景正在从展台走向可验证任务',
+        text:`机器人厂家正在尝试更具体的落地场景：${context(sceneDeploy)}。这些场景的价值在于任务边界清楚，能看服务时长、故障率、人工替代比例和客户续用，而不是只看一次性演示效果。`
       });
     }
     if(modelData.length>=2){
       bullets.push({
-        label:'模型叙事开始落到数据和任务闭环',
-        text:`${cite(modelData)}指向同一件事：具身智能的瓶颈正在从大模型概念转向真机数据、任务微调、编程自动化和移动操作闭环。后续更值得跟的是成功率、可迁移任务数和数据采集成本，而不是单纯的“世界模型/VLA”表述。`
+        label:'模型竞争开始看真机数据和任务成功率',
+        text:`${context(modelData)}。这说明“具身大脑”的判断标准正在变得更硬：不是模型名字更大，而是能否在真实机器人上用更少数据完成微调、迁移到新任务，并稳定复现成功率。`
       });
     }
     if(capitalScene.length>=2){
       bullets.push({
-        label:'资本更偏向可定义场景和基础设施',
-        text:`${cite(capitalScene)}显示资金仍在进场，但更青睐能说清楚用途的方向：数据基础设施、移动机器人、材料/部件、收购补能力。相比泛泛投“通用人形”，这些标的更容易用客户、订单和复购验证。`
+        label:'资本仍热，但更偏向基础设施和明确场景',
+        text:`${context(capitalScene)}。资金没有只追“通用人形”叙事，而是在寻找数据基础设施、移动机器人、材料部件和收购补能力这类可验收标的；后续关键是融资后能否转化成客户和复购。`
+      });
+    }
+    if(bullets.length<3 && priceDelivery.length>=2){
+      bullets.push({
+        label:'硬件竞争进入价格与交付约束',
+        text:`${context(priceDelivery)}。价格下探和量产备货会迫使企业证明成本、良率、售后和渠道能力，单次发布会的重要性下降，持续交付能力会更快拉开差距。`
       });
     }
     if(bullets.length<3 && supplyChain.length>=2){
       bullets.push({
-        label:'供应链正在从概念受益转向性能约束',
-        text:`${cite(supplyChain)}说明上游机会不只是“机器人概念股”，而是围绕算力芯片、关节材料、传感/控制和工艺软件解决具体瓶颈。谁能进入量产 BOM 或形成标准方案，才是真正的产业链信号。`
+        label:'供应链机会开始绑定具体性能瓶颈',
+        text:`${context(supplyChain)}。上游机会不只是“机器人概念”，而是围绕芯片、关节、传感、控制和工艺软件解决真实瓶颈；能进入量产 BOM 或形成标准方案才算有效信号。`
       });
     }
     if(!bullets.length){

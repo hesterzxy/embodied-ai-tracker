@@ -193,8 +193,14 @@ def normalize_original_title_format(title: str) -> str:
 
 
 def translate_title_with_qwen(title: str) -> Optional[str]:
-    api_key = os.getenv("QWEN_API_KEY")
+    api_key = (
+        os.getenv("QWEN_API_KEY")
+        or os.getenv("DASHSCOPE_API_KEY")
+        or os.getenv("QWEN_KEY")
+        or os.getenv("ALIYUN_API_KEY")
+    )
     if not api_key:
+        print("WARN: Qwen title translation skipped: no QWEN_API_KEY/DASHSCOPE_API_KEY/QWEN_KEY/ALIYUN_API_KEY")
         return None
     payload = {
         "model": QWEN_MODEL,
@@ -233,6 +239,7 @@ def translate_title_with_qwen(title: str) -> Optional[str]:
 
 def local_title_translation(title: str) -> Optional[str]:
     known = {
+        "ARM Institute expands RoboticsCareer.org into physical AI": "ARM Institute将RoboticsCareer.org扩展至物理AI领域",
         "Güdel to show grinding beyond stationary robots with vertical, horizontal motion at Automate 2026": "Güdel将在Automate 2026展示具备垂直与水平运动能力的机器人打磨方案",
         "Defense manufacturing readiness hinges on autonomous finishing, says GrayMatter Robotics": "GrayMatter Robotics称国防制造准备度取决于自主表面精加工能力",
         "Is Robotic Surgery Worth Traveling Abroad for? – Patient Guide": "机器人手术是否值得出国接受？患者指南",
@@ -255,11 +262,13 @@ def local_title_translation(title: str) -> Optional[str]:
         "Kawasaki Robotics to debut RL030N physical AI platform at Automate": "川崎机器人将在Automate首发RL030N物理AI平台",
         "Genesis AI launches Eno general-purpose robot": "Genesis AI发布Eno通用机器人",
         "How Intrinsic eliminates manual robot coding": "Intrinsic如何消除机器人手动编程",
+        "Humanoid maker Agility Robotics to go public through SPAC merger": "人形机器人公司Agility Robotics将通过SPAC合并上市",
         "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities": "Bear Robotics收购Kinisi Robotics以增强物理AI能力",
         "NVIDIA releases Halos, a full-stack safety system for robotics": "NVIDIA发布面向机器人的全栈安全系统Halos",
         "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力",
         "Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题",
         "Interview with Sharpa’s Alicia Veneziani: ‘Dexterous manipulation is the key to useful humanoid robots’": "专访Sharpa的Alicia Veneziani：灵巧操作是实用人形机器人的关键",
+        "Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot": "Robust.AI为第三代Carter移动机器人选择Aptiv PULSE传感器",
         "Mantis Robotics launches dual-arm, fenceless robot": "Mantis Robotics发布双臂无围栏机器人",
     }
     return known.get(title)
@@ -300,8 +309,19 @@ def display_title(title: str, translation_cache=None) -> str:
 
 
 def strip_html(text: str) -> str:
-    text = re.sub(r"<[^>]+>", " ", text or "")
-    return re.sub(r"\s+", " ", unescape(text)).strip()
+    text = unescape(text or "")
+    text = re.sub(r"<[^>]+>", " ", text)
+    text = re.sub(r"\b[a-zA-Z]{1,12}>", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def decode_html(raw: bytes) -> str:
+    for encoding in ("utf-8", "gb18030", "gbk"):
+        try:
+            return raw.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return raw.decode("utf-8", "ignore")
 
 
 def contains_any(text: str, terms) -> bool:
@@ -373,16 +393,23 @@ def parse_rss(raw: bytes):
     return items
 
 
+def date_from_url(url: str) -> str:
+    if not url:
+        return ""
+    patterns = [
+        r"/(20\d{2})(\d{2})/(\d{1,2})(?:/|\.|$)",
+        r"/(20\d{2})[-/](\d{1,2})[-/](\d{1,2})(?:/|\.|-|_|$)",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, url)
+        if m:
+            y, mon, day = m.groups()
+            return f"{y}-{int(mon):02d}-{int(day):02d}"
+    return ""
+
+
 def parse_html_listing(raw: bytes, base_url: str, allow_patterns=None):
-    html = None
-    for encoding in ("utf-8", "gb18030", "gbk"):
-        try:
-            html = raw.decode(encoding)
-            break
-        except UnicodeDecodeError:
-            continue
-    if html is None:
-        html = raw.decode("utf-8", "ignore")
+    html = decode_html(raw)
     items = []
     seen = set()
     for m in re.finditer(r"<a\b[^>]*href=[\"']([^\"']+)[\"'][^>]*>(.*?)</a>", html, re.I | re.S):
@@ -398,14 +425,13 @@ def parse_html_listing(raw: bytes, base_url: str, allow_patterns=None):
         if url in seen:
             continue
         seen.add(url)
+        url_date = date_from_url(url)
         context = strip_html(html[max(0, m.start() - 320):m.end() + 900])
         pub_date = ""
-        dm = re.search(r"(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})", context)
-        if not dm:
-            dm = re.search(r"/(20\d{2})(\d{2})/(\d{1,2})/", url)
-        if not dm:
-            dm = re.search(r"/(20\d{2})(\d{2})/", url)
-        if dm:
+        dm = None if url_date else re.search(r"(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})", context)
+        if url_date:
+            pub_date = url_date
+        elif dm:
             groups = dm.groups()
             y, mon = groups[0], groups[1]
             day = groups[2] if len(groups) > 2 else "01"
@@ -651,10 +677,78 @@ def title_fingerprint(title: str) -> str:
     return "".join(text.split())[:80]
 
 
+def summarize_news_text(title: str, description: str = "") -> str:
+    text = strip_html(description or "")
+    title_clean = strip_html(title or "")
+    if title_clean:
+        text = text.replace(title_clean, " ")
+    text = re.sub(r"(评论|阅读原文|点击查看|当前位置：|来源：|作者：|编辑：)", " ", text)
+    text = re.sub(r"\b(20\d{2})[-/年](\d{1,2})[-/月](\d{1,2})(?:\s+\d{1,2}:\d{2})?\b", " ", text)
+    text = re.sub(r"\s+", " ", text).strip(" |，。-")
+    if not text:
+        return ""
+    return text[:180].rstrip("，。；;、 ") + ("…" if len(text) > 180 else "")
+
+
+def summary_needs_article(summary: str) -> bool:
+    if not summary or len(summary) < 25:
+        return True
+    noisy = [
+        "javascript", "dslide", "#content", "上一篇", "下一篇", "相关新闻",
+        "当前位置", "target=", "title=", "点击查看", "免责声明",
+    ]
+    if any(k.lower() in summary.lower() for k in noisy):
+        return True
+    if re.search(r"\b[a-zA-Z]{1,12}>", summary):
+        return True
+    if len(re.findall(r"\b\d{2}-\d{2}\b", summary)) >= 3:
+        return True
+    return False
+
+
+def extract_article_text(raw: bytes) -> str:
+    html = decode_html(raw)
+    meta_patterns = [
+        r'<meta[^>]+name=["\']description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+property=["\']og:description["\'][^>]+content=["\']([^"\']+)["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']description["\']',
+        r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:description["\']',
+    ]
+    for pattern in meta_patterns:
+        m = re.search(pattern, html, re.I | re.S)
+        if m:
+            text = strip_html(m.group(1))
+            if len(text) >= 25:
+                return text
+
+    cleaned = re.sub(r"<(script|style|nav|footer|header)\b.*?</\1>", " ", html, flags=re.I | re.S)
+    paragraphs = []
+    for m in re.finditer(r"<p\b[^>]*>(.*?)</p>", cleaned, re.I | re.S):
+        text = strip_html(m.group(1))
+        if len(text) < 24:
+            continue
+        if any(k in text for k in ["相关阅读", "上一篇", "下一篇", "免责声明", "扫码", "公众号"]):
+            continue
+        paragraphs.append(text)
+        if len(" ".join(paragraphs)) > 420:
+            break
+    return " ".join(paragraphs)
+
+
+def fetch_article_summary(url: str, title: str) -> str:
+    if not url or url == "#":
+        return ""
+    raw, _, _ = fetch_rss(url, timeout=12, attempts=2)
+    if not raw:
+        return ""
+    return summarize_news_text(title, extract_article_text(raw))
+
+
 def main():
     existing = load_existing()
     translation_cache = load_translation_cache()
     existing_urls = {it.get("url", "") for it in existing.get("items", [])}
+    existing_by_url = {it.get("url", ""): it for it in existing.get("items", []) if it.get("url")}
     new_items = []
     source_stats = []
 
@@ -711,7 +805,19 @@ def main():
                 periphery += 1
             else:
                 core += 1
+            summary = summarize_news_text(p["title"], p.get("description", ""))
+            if summary_needs_article(summary):
+                article_summary = fetch_article_summary(p["url"], p["title"])
+                if article_summary:
+                    summary = article_summary
             if p["url"] in existing_urls:
+                existing_item = existing_by_url.get(p["url"])
+                if (
+                    existing_item is not None
+                    and summary
+                    and (not existing_item.get("summary") or summary_needs_article(existing_item.get("summary", "")))
+                ):
+                    existing_item["summary"] = summary
                 continue
             date_str, dt = normalize_date(p["pub_date"])
             # Keep the feed aligned with the front-end rolling 7-day window.
@@ -723,6 +829,7 @@ def main():
                 "title": display_title(p["title"], translation_cache),
                 "source_name": src["name"],
                 "category": "泛具身产业链" if level == "泛具身产业链" else categorize(p["title"]),
+                "summary": summary,
                 "url": p["url"],
             })
             added += 1
@@ -766,11 +873,16 @@ def main():
         level = relevance_level(it.get("title", ""))
         if not level:
             continue
-        date_str, dt = normalize_date(it.get("date", ""))
+        date_str, dt = normalize_date(date_from_url(it.get("url", "")) or it.get("date", ""))
         if datetime.now(tz=timezone.utc) - dt > timedelta(days=7):
             continue
         it["date"] = date_str
         it["title"] = display_title(it.get("title", ""), translation_cache)
+        it["summary"] = summarize_news_text(it.get("title", ""), it.get("summary", ""))
+        if summary_needs_article(it.get("summary", "")):
+            article_summary = fetch_article_summary(it.get("url", ""), it.get("title", ""))
+            if article_summary:
+                it["summary"] = article_summary
         it["category"] = "泛具身产业链" if level == "泛具身产业链" else categorize(it.get("title", ""))
         deduped.append(it)
 
