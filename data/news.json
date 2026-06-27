@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T21:46:47.536734+08:00",
+  "updated": "2026-06-28T03:23:54.060834+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -27,7 +27,7 @@
       "candidates": 12,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 14,
+      "entries": 18,
+      "candidates": 15,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 19,
+      "candidates": 21,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -215,7 +215,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 30,
       "candidates": 30,
