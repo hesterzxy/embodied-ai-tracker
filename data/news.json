@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T03:51:30.863998+08:00",
+  "updated": "2026-06-27T11:34:42.442541+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 4,
+      "entries": 28,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 19,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 22,
-      "core": 1,
+      "entries": 59,
+      "candidates": 20,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 6,
+      "candidates": 12,
+      "core": 7,
       "periphery": 0,
-      "new": 6
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 0
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -238,6 +238,15 @@
     }
   ],
   "items": [
+    {
+      "date": "06-27",
+      "company": "其他",
+      "title": "京东在欧洲推出机器人维修服务，“救护车”上门服务覆盖英国、德国、法国等地",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 6 月 27 日消息，京东今天宣布在欧洲推出 JoyRobocare 机器人维修服务，并在英国贝德福德、德国杜伊斯堡等地建立了机器人维修中心，“机器人救护车”上门服务可覆盖英国、德国、法国、荷兰等多个国家主要城市。 IT之家从“京东黑板报”公众号了解到， JoyRobocare 在欧洲主要针对具身智能机器人、四足机器人提供上门送货、调试配置和使用辅…",
+      "url": "https://www.ithome.com/0/969/325.htm"
+    },
     {
       "date": "06-26",
       "company": "其他",
@@ -381,6 +390,24 @@
       "category": "行业动态",
       "summary": "Dexterity remains a major challenge for industry; improved handling can reduce engineering time by up to 30% ABB Robotics is collaborating with California bionics company, Psyonic,…",
       "url": "https://roboticsandautomationnews.com/2026/06/26/abb-robotics-and-psyonic-use-human-generated-data-to-advance-robotic-dexterity/102851/"
+    },
+    {
+      "date": "06-26",
+      "company": "其他",
+      "title": "市场监管总局：加快智能体、具身智能等前沿技术领域标准制定速度",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 6 月 27 日消息，据央视新闻 6 月 25 日报道，市场监管总局正会同相关部门，加快智能体等前沿技术领域标准制定速度，动态完善适配产业发展的人工智能国家标准矩阵。 报道称，目前正在抓紧制定的国家标准，除智能体外，还有 具身智能、世界模型、本体模型 等前沿技术标准，算力基础设施、高质量数据集、仿真测试平台、深度学习编译器、开源模型平台等底座类标准…",
+      "url": "https://www.ithome.com/0/969/276.htm"
+    },
+    {
+      "date": "06-26",
+      "company": "其他",
+      "title": "川崎机器人在Automate 2026展会展示8轴物理AI机器人及智能自动化技术 (Kawasaki Robotics showcases 8-axis Physical AI robot and intelligent automation technologies at Automate 2026)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Kawasaki Robotics showcased a range of advanced automation technologies at Automate 2026 in Chicago, demonstrating how robotics, AI, machine learning, vision systems, and real-time…",
+      "url": "https://roboticsandautomationnews.com/2026/06/26/kawasaki-robotics-showcases-8-axis-physical-ai-robot-and-intelligent-automation-technologies-at-automate-2026/102869/"
     },
     {
       "date": "06-25",
@@ -660,33 +687,6 @@
       "category": "泛具身产业链",
       "url": "https://www.robot-china.com/news/202606/22/95941.html",
       "summary": "随着人工智能加速进入机器人、工业设备和更多物理场景，AI 芯片的能力边界也在发生变化。过去，许多智能系统主要遵循“云端离线训练、设备本地推理”的模式：模型在云端完成训练，部署到设备后负责执行推理任务。但在具身智能等真实场景中，这一模式正在面临新的挑战。机器人所处的环境并不是静态的，任务需求也会不断变化。对于长期运行在家庭、园区、商服、工业协作等场景中的机器人…"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "具身智能全域通信联合实验室在京成立，中国联通北京市分公司为赛事、产业双赋能！",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "url": "https://www.robot-china.com/news/202606/22/95935.html",
-      "summary": "近日，北京市人民政府新闻办公室召开第二届世界人形机器人运动会第二次新闻发布会，正式宣布成立具身智能全域通信联合实验室。作为首届世界人形机器人运动会全球战略合作伙伴及2026北京亦庄半程马拉松暨人形机器人半程马拉松官方独家通信合作伙伴，中国联通北京市分公司积极践行“人工智能+”行动，深耕具身智能赛道，筑牢数字科创底座。在北京市委、市政府的领导下，在赛事组委会的…"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "世航智能、丽天智能和史河科技：不做人形机器人，它们如何拿到订单？",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "中国的机器人，已经开始接管那些最苦、最累、最危险的活了。 当整个行业都在讨论人形机器人时，另一批长得完全不像人的机器人，已经悄悄进入海底、沙漠和高空。 6月15日，海洋具身智能公司世航智能宣布完成A轮",
-      "url": "https://robot.ofweek.com/2026-06/ART-898890-8420-30691451.html"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "Intrinsic如何消除机器人手动编程 (How Intrinsic eliminates manual robot coding)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Alphabet’s Intrinsic has debuted its AI-powered \"Intelligence Cell\" to simplify factory automation and eliminate complex robot programming. The post appeared first on The Robot Rep…",
-      "url": "https://www.therobotreport.com/how-intrinsic-eliminates-manual-robot-coding/"
     }
   ]
 }
