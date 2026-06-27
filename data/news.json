@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T11:34:42.442541+08:00",
+  "updated": "2026-06-27T16:38:38.320111+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 8,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 17,
       "candidates": 14,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 20,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 20,
-      "core": 2,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -195,7 +195,7 @@
       "candidates": 12,
       "core": 7,
       "periphery": 0,
-      "new": 5
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
