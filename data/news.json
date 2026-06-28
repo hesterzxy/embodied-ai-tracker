@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T11:57:19.921223+08:00",
+  "updated": "2026-06-28T16:54:46.928511+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
+      "entries": 28,
       "candidates": 7,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "雷峰网",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 21,
-      "core": 4,
+      "candidates": 23,
+      "core": 3,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -255,6 +255,33 @@
       "category": "技术突破",
       "summary": "IT之家 6 月 28 日消息，有消息称，特斯拉已私下联系欧洲部分精选客户，向其发出专属购车邀约，可入手 Model S 签名典藏版（Model S Signature Edition），收藏这款汽车史上的绝版藏品。 此事经由 Facebook 德国特斯拉车友社群成员克里斯蒂安 · 达拉波扎爆料传开，他晒出了当地销售顾问发来的购车邀约详情。特斯拉资讯媒体 D…",
       "url": "https://www.ithome.com/0/969/539.htm"
+    },
+    {
+      "date": "06-28",
+      "company": "智元机器人",
+      "title": "智元第15000台通用具身机器人正式量产下线",
+      "source_name": "36氪",
+      "category": "产品量产",
+      "summary": "6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。 智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青表示，15000台量产下线印证了智元规模化量产到达新高度，也标志着中国人形机器人产业迈上了大规模真实场景应用。量产不是目的，只是一个过程，通过规模化量产让机器人在各行各业快速部署，在真实物理世界交互过程中去获取数据，通过数据飞轮让产品变得…",
+      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss"
+    },
+    {
+      "date": "06-28",
+      "company": "其他",
+      "title": "法拉第未来推出“全美首款工业级轮臂机器人”Faber，同步推出全新 Futurist 机器人系列",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 6 月 28 日消息，法拉第未来宣布于 6 月 23 日在芝加哥 Automate 机器人与自动化展会上发布“全美首款工业级轮臂机器人 Faber”，并预告 FF EAI 机器人工业生态战略，称“六大系列全形态 FF EAI 机器人世界正式集齐”、“全明星机器人天团形成完整产品矩阵”。 据法拉第未来介绍，Faber 轮臂机器人系列分为 Faber…",
+      "url": "https://www.ithome.com/0/969/663.htm"
+    },
+    {
+      "date": "06-28",
+      "company": "智元机器人",
+      "title": "智元第 15000 台通用具身机器人精灵 G2 量产下线",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 6 月 28 日消息，据界面新闻报道，智元今日宣布第 15000 台通用具身机器人精灵 G2 正式量产下线。 智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青表示，15000 台量产下线印证了智元规模化量产到达新高度，也标志着中国人形机器人产业迈上了大规模真实场景应用。姚卯青表示， 量产不是目的，只是一个过程 ，通过规模化量产让机器人在各行各业快…",
+      "url": "https://www.ithome.com/0/969/636.htm"
     },
     {
       "date": "06-27",
@@ -660,33 +687,6 @@
       "category": "技术突破",
       "url": "https://www.ifanr.com/1669670?utm_source=rss&utm_medium=rss&utm_campaign=",
       "summary": "把一头大象分别塞进十几个冰箱。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上"
-    },
-    {
-      "date": "06-23",
-      "company": "特斯拉",
-      "title": "“全球最先进机器人”：特斯拉推进 Optimus 3 量产，供应链开始备货",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "url": "https://www.ithome.com/0/967/375.htm",
-      "summary": "经济日报昨日（6 月 22 日）发布博文，报道称特斯拉已开始和盟立自动化（Mirle Automation）、亚洲光学（Asia Optical）等公司合作，正推进人形机器人 Optimus 3 量产"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "赛力斯人形机器人首次公开亮相，在超级工厂造问界",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "url": "https://www.robot-china.com/news/202606/23/95943.html",
-      "summary": "近日，赛力斯旗下人形机器人“小赛”首次公开亮相，和鸿蒙智行问界M9品牌大使黄渤一起亮相重庆两江超级工厂。赛力斯人形机器人“小赛”充当此次活动的向导。这款“小赛”机器人具备视觉识别能力，并且能够主动打招呼、进行语音互动等。据赛力斯集团董事、副总裁康波介绍，亮相的人形机器人已在超级工厂内开展内部试用，主要承担客户接待、展厅引导及部分辅助质检任务。公开信息显示，重…"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "ExRobotics 推出通过 UL 认证的危险环境巡检机器人 (ExRobotics launches UL-certified inspection robot for hazardous environments)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "ExRobotics says its ExR-2.5 inspection robot is certified for safe operations in explosive environments in North America. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/"
     }
   ]
 }
