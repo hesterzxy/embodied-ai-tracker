@@ -54,7 +54,7 @@ COMPANY_TERMS = [
     "智元", "宇树", "银河通用", "星海图", "星动纪元", "Figure", "Optimus",
     "特斯拉", "Physical Intelligence", "优必选", "云深处", "众擎",
     "千寻智能", "大晓机器人", "傅利叶", "逐际动力", "昆仑行", "光轮智能",
-    "Genesis AI", "Bear Robotics", "Intrinsic",
+    "Genesis AI", "Bear Robotics", "Intrinsic", "AGIBOT",
 ]
 
 ACTION_TERMS = [
@@ -73,6 +73,17 @@ BROAD_ROBOT_TERMS = [
 ]
 
 KEYWORDS = CORE_TERMS + PERIPHERY_TERMS + COMPANY_TERMS + BROAD_ROBOT_TERMS
+
+AUTOMOTIVE_NOISE_TERMS = [
+    "model s", "model 3", "model y", "model x", "cybertruck", "签名典藏版",
+    "购车", "车主", "车型", "新车", "汽车", "电动车", "交付预期", "交付量",
+    "销量", "续航", "充电", "超充", "方向盘", "座舱", "驾驶", "售价",
+    "款车", "智驾", "自动驾驶", "辅助驾驶",
+]
+
+ROBOT_SIGNAL_TERMS = BROAD_ROBOT_TERMS + [
+    "Optimus", "机器人", "人形", "机械臂", "灵巧手", "轮臂", "具身", "embodied",
+]
 
 SOURCES = [
     {"name": "量子位", "url": "https://www.qbitai.com/feed", "type": "rss"},
@@ -135,6 +146,10 @@ TITLE_NOISE_PATTERNS = [
     r"3d\s*生成",
     r"hyper3d",
     r"agenticos",
+    r"机械臂支架",
+    r"显示器",
+    r"电竞",
+    r"\b\d+k\s+\d+hz\b",
     r"车机",
     r"语音交互",
     r"移动终端",
@@ -264,6 +279,7 @@ def local_title_translation(title: str) -> Optional[str]:
         "How Intrinsic eliminates manual robot coding": "Intrinsic如何消除机器人手动编程",
         "Humanoid maker Agility Robotics to go public through SPAC merger": "人形机器人公司Agility Robotics将通过SPAC合并上市",
         "Bear Robotics acquires Kinisi Robotics to boost its physical AI capabilities": "Bear Robotics收购Kinisi Robotics以增强物理AI能力",
+        "AGIBOT produces 15,000th robot, marking a milestone in embodied AI deployment": "智元第15000台机器人下线，标志具身AI部署进入新阶段",
         "NVIDIA releases Halos, a full-stack safety system for robotics": "NVIDIA发布面向机器人的全栈安全系统Halos",
         "Cobot’s Proxie Gen 2 robot adds autotasking, mobile manipulation": "Cobot的Proxie Gen 2机器人新增自动任务处理和移动操作能力",
         "Interview with Digid’s Nils Könne and Christian Kreil: Nanoscale sensors could help solve robotics’ tactile sensing challenge": "专访Digid的Nils Könne与Christian Kreil：纳米级传感器或可解决机器人触觉感知难题",
@@ -490,14 +506,17 @@ def normalize_date(pub_date: str):
 
 def extract_company(title: str):
     companies = [
-        ("智元", "智元机器人"), ("宇树", "宇树科技"), ("银河通用", "银河通用"),
+        ("智元", "智元机器人"), ("AGIBOT", "智元机器人"), ("Agibot", "智元机器人"),
+        ("宇树", "宇树科技"), ("银河通用", "银河通用"), ("法拉第未来", "法拉第未来"),
         ("星海图", "星海图"), ("星动纪元", "星动纪元"), ("Figure", "Figure"),
+        ("Agility Robotics", "Agility Robotics"), ("Agility", "Agility Robotics"),
+        ("Faraday Future", "法拉第未来"),
         ("特斯拉", "特斯拉"), ("Optimus", "特斯拉"), ("OpenAI", "OpenAI"),
         ("Physical Intelligence", "Physical Intelligence"), ("优必选", "优必选"),
         ("云深处", "云深处"), ("众擎", "众擎机器人"), ("千寻智能", "千寻智能"),
     ]
     for kw, name in companies:
-        if kw in title:
+        if kw in title or kw.lower() in (title or "").lower():
             return name
     if any(k in title for k in ["融资", "IPO", "上市"]):
         return "行业"
@@ -507,6 +526,9 @@ def extract_company(title: str):
 def excluded_by_noise(title: str, text: str) -> bool:
     t = (text or title or "").lower()
     raw = title or ""
+    title_low = raw.lower()
+    if contains_any(title_low, AUTOMOTIVE_NOISE_TERMS) and not contains_any(title_low, ROBOT_SIGNAL_TERMS):
+        return True
     if any(re.search(pattern, raw, re.IGNORECASE) for pattern in LOW_INFO_COMMENTARY_PATTERNS):
         return True
     if any(re.search(pattern, raw, re.IGNORECASE) for pattern in TITLE_NOISE_PATTERNS):
@@ -633,12 +655,13 @@ def categorize(title: str):
     if level == "泛具身产业链":
         return "泛具身产业链"
     # 1) 资本动态：融资、IPO、并购、估值、投资
-    if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "轮", "funding", "raises", "raised", "acquires", "acquisition"]):
+    capital_round = re.search(r"(天使|种子|pre[-\s]?[abc]|[abcde]\+?|战略|新一|上一|本)轮(融资|投资)?", t, re.I)
+    if any(k in t for k in ["融资", "ipo", "上市", "估值", "募资", "并购", "收购", "投资", "funding", "raises", "raised", "acquires", "acquisition"]) or capital_round:
         if "合作" in t and not any(k in t for k in ["融资", "投资", "收购", "并购"]):
             return "产品量产"
         return "资本动态"
     # 2) 产品量产：新品、发布、量产、交付
-    if any(k in t for k in ["发布", "推出", "亮相", "量产", "出货", "交付", "新品", "首台", "下线", "launch", "unveil", "release", "rollout", "ship"]):
+    if any(k in t for k in ["发布", "推出", "亮相", "量产", "出货", "交付", "新品", "首台", "下线", "launch", "unveil", "release", "rollout", "ship", "produces", "production", "milestone"]):
         return "产品量产"
     # 3) 商业订单：签约、订单、合同、落地
     if any(k in t for k in ["签约", "订单", "合同", "落地", "商业化", "采购", "中标", "部署", "deploy", "deployment", "customer", "contract", "partnership", "pilot"]):
@@ -675,6 +698,59 @@ def title_fingerprint(title: str) -> str:
     text = re.sub(r"\b\d+(\.\d+)?\s*(million|billion|万元|亿元|美元|元|usd|rmb)\b", " ", text)
     text = re.sub(r"\s+", " ", text).strip()
     return "".join(text.split())[:80]
+
+
+def event_fingerprint(item) -> str:
+    title = item.get("title", "")
+    if not title:
+        return ""
+    text = normalize_original_title_format(title).lower()
+    text = re.sub(r"\s*\([^()]*[a-z][^()]*\)\s*$", " ", text)
+    text = re.sub(r"[「」“”‘’'\"｜|:：,，.。!！?？()（）\[\]【】<>《》\-_/]", " ", text)
+    text = re.sub(r"\b(gen|generation|series|edition|robot|robotics)\b", " ", text)
+    text = re.sub(r"(正式|宣布|今日|近日|消息|通用|具身|机器人|系列|全新|首款|美国|全美|工业级)", " ", text)
+    text = re.sub(r"(精灵\s*g2|g2|futurist)", " ", text, flags=re.I)
+    text = re.sub(r"\s+", "", text)
+
+    company = extract_company(title)
+    if company == "其他":
+        company = ""
+    action = ""
+    if re.search(r"量产|下线|交付|发布|推出|亮相|投用|上市|融资|收购|并购|合作|签约|produces?|production|milestone", title, re.I):
+        actions = re.findall(r"量产|下线|交付|发布|推出|亮相|投用|上市|融资|收购|并购|合作|签约|produces?|production|milestone", title, re.I)
+        action = "".join(dict.fromkeys(actions))
+    normalized_title = title.replace(",", "")
+    nums = re.sub(r"\s+", "", "".join(re.findall(r"\d+(?:\.\d+)?\s*(?:万?台|万元|亿元|亿美元|万美元|万|亿|%|家)", normalized_title)))
+    money_amounts = re.findall(r"\d+(?:\.\d+)?\s*(?:万元|亿元|亿美元|万美元|万|亿|元)", normalized_title)
+    final_price = ""
+    if money_amounts:
+        final_price = re.sub(r"\s+", "", money_amounts[-1])
+        if final_price.endswith("万") and not final_price.endswith("万元"):
+            final_price += "元"
+    robot_count = re.search(r"\b(\d+(?:\.\d+)?)(?:st|nd|rd|th)?\s+robot\b", normalized_title, re.I)
+    if robot_count and not nums:
+        nums = robot_count.group(1) + "台"
+    product_match = re.search(r"(unitree\s*)?r1|精灵\s*g2|galbot\s*s1|cruzr\s*y1|faber|digit\s*v5|mantis|exr\s*[-.]?\s*2\.5", title, re.I)
+    product = re.sub(r"\s+", "", product_match.group(0).lower()) if product_match else ""
+    production_event = bool(nums and re.search(r"量产|下线|交付|produces?|production|milestone", title, re.I))
+    if company and production_event:
+        return f"{company}|{nums}|production"
+    price_event = bool(nums and re.search(r"降价|降到|下调|起售|售价|现货|开售|price|pricing", title, re.I))
+    if company and price_event:
+        return f"{company}|{product}|{final_price or nums}|price"
+    capital_event = bool(nums and re.search(r"融资|募资|投资|上市|收购|并购|ipo|spac|funding|raises|raised|acquires|acquisition", title, re.I))
+    if company and re.search(r"ipo|spac|上市", title, re.I):
+        return f"{company}|{product}|public-market|capital"
+    if company and capital_event:
+        return f"{company}|{product}|{nums}|capital"
+    partnership_event = bool(company and product and re.search(r"合作|签约|部署|投用|上岗|partnership|collaborates|deploy", title, re.I))
+    if partnership_event:
+        return f"{company}|{product}|partnership"
+    core = re.sub(r"(第|台|量产|下线|正式|通用|具身|机器人|精灵|系列|全新|首款|工业级|美国|全美)", "", text)
+    core = core[:36]
+    if not (company or nums or action):
+        return ""
+    return f"{item.get('date','')}|{company}|{nums}|{action}|{core}"
 
 
 def summarize_news_text(title: str, description: str = "") -> str:
@@ -854,21 +930,27 @@ def main():
     seen_urls = set()
     seen_titles = set()
     seen_fingerprints = set()
+    seen_events = set()
     deduped = []
     for it in all_items:
         if not allowed_existing_item(it):
             continue
         title_key = norm_title(it.get("title", ""))
         fp = title_fingerprint(it.get("title", ""))
+        event_fp = event_fingerprint(it)
         if it["url"] and it["url"] in seen_urls:
             continue
         if title_key and title_key in seen_titles:
             continue
         if fp and fp in seen_fingerprints:
             continue
+        if event_fp and event_fp in seen_events:
+            continue
         seen_urls.add(it["url"])
         seen_titles.add(title_key)
         seen_fingerprints.add(fp)
+        if event_fp:
+            seen_events.add(event_fp)
         # 对已有新闻也应用过滤，并重新分类
         level = relevance_level(it.get("title", ""))
         if not level:
@@ -878,6 +960,7 @@ def main():
             continue
         it["date"] = date_str
         it["title"] = display_title(it.get("title", ""), translation_cache)
+        it["company"] = extract_company(it.get("title", ""))
         it["summary"] = summarize_news_text(it.get("title", ""), it.get("summary", ""))
         if summary_needs_article(it.get("summary", "")):
             article_summary = fetch_article_summary(it.get("url", ""), it.get("title", ""))

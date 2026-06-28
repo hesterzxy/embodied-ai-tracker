@@ -536,66 +536,105 @@ function renderWeeklyReport(items){
   }
 
   function buildWeekInsight(arr){
-    function shortTitle(title){
-      const clean=(title||'').replace(/\s*\([^()]*[A-Za-z][^()]*\)$/,'').trim();
-      return clean.length>24 ? clean.slice(0,23)+'…' : clean;
+    function textOf(it){
+      return `${it.title||''} ${it.summary||''}`;
     }
-    function has(pattern){
-      return arr.filter(it=>pattern.test(`${it.title||''} ${it.summary||''}`));
+    function hasAny(text, words){
+      return words.some(w=>text.toLowerCase().includes(String(w).toLowerCase()));
     }
-    function pick(items, limit=3){
+    function cleanFact(it){
+      let s=(it.summary||'').replace(/\s+/g,' ').trim();
+      if(!s) return '';
+      s=s.replace(/^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*/,'');
+      s=s.replace(/^据[^，,。]{2,16}[，,]\s*/,'');
+      s=s.replace(/#.*$/,'').replace(/The post appeared first on .*$/i,'');
+      s=s.replace(/。.*$/,'。');
+      if(s.length>72) s=s.slice(0,71)+'…';
+      return s.replace(/[；;，,、\s]+$/,'');
+    }
+    function score(items, include, exclude=[]){
+      return items.map(it=>{
+        const text=textOf(it);
+        let n=0;
+        include.forEach(group=>{ if(hasAny(text, group.words)) n+=group.weight; });
+        exclude.forEach(pattern=>{ if(pattern.test(text)) n-=6; });
+        if(it.summary && it.summary.length>40) n+=1;
+        return {it,n};
+      }).filter(x=>x.n>0).sort((a,b)=>b.n-a.n).map(x=>x.it);
+    }
+    function pick(items, limit=2){
       const seen=new Set();
       return items.filter(it=>{
-        const key=shortTitle(it.title);
+        const key=(it.company||'')+'|'+(it.url||it.title||'').replace(/\?.*$/,'');
         if(seen.has(key)) return false;
         seen.add(key);
         return true;
       }).slice(0,limit);
     }
-    function cite(items){
-      return pick(items,3).map(it=>`《${shortTitle(it.title)}》`).join('、');
+    function facts(items){
+      return pick(items,2).map(cleanFact).filter(Boolean).join('；');
     }
-    function context(items){
-      return pick(items,2).map(it=>{
-        const summary=(it.summary||'').replace(/\s+/g,'').slice(0,54);
-        return summary ? `《${shortTitle(it.title)}》提到${summary}` : `《${shortTitle(it.title)}》`;
-      }).join('；');
+    function useful(items){
+      return pick(items.filter(it=>cleanFact(it)),2);
     }
-    const priceDelivery=has(/降价|2\.99|R1|10000台|第10000台|量产|下线|真交付|Optimus|供应链开始备货|Mantis|双臂|无围栏|首款搭载宁德时代电池|上岗/i);
-    const modelData=has(/真机RL|VLA|世界模型|物理 AI 数据|数据基础设施|数据需求|Physical AI|机器人手动编程|Proxie Gen 2|自动任务|移动操作|片上自学习|成功率|微调|数据采集/i);
-    const capitalScene=has(/融资|投资|IPO|募资|独角兽|收购|产业投资|数亿元|数十亿元|千万级|Bear Robotics|Kinisi|Syrius|摩玛|昆仑行|清研精准/i);
-    const sceneDeploy=has(/工厂|产线|达沃斯|咖啡师|巡检|危险环境|重载|上岗|日本市场|GMO AIR|合作|PoC|试点|部署|客户|场景/i);
-    const supplyChain=has(/芯片|关节|编码器|减速器|传感器|触觉|激光|离线编程|电池|三花|拓普|镁合金|高导热|高强韧|国产大脑/i);
+    const autoNoise=[/Model\s+[S3XY]/i,/交付预期|购车|车型|车主|签名典藏版|销量/];
+    const sceneDeploy=score(arr, [
+      {words:['工厂','产线','供应链','维修服务','巡检','危险环境','咖啡','门店','客户','订单','部署','试用','真实场景','规模化部署'], weight:3},
+      {words:['量产','下线','交付','合作','签约','投用','上岗'], weight:2},
+      {words:['机器人','人形','具身','机械臂','轮臂'], weight:1},
+    ], autoNoise);
+    const modelData=score(arr, [
+      {words:['世界模型','VLA','具身大脑','数据','数采','数据飞轮','真机','微调','成功率','触觉','感知','强化学习'], weight:3},
+      {words:['模型','合规备案','基础设施','评测','人类生成的数据'], weight:2},
+    ], autoNoise);
+    const priceDelivery=score(arr, [
+      {words:['量产','下线','第15000台','15000台','交付','发布','推出','首秀','产品矩阵'], weight:3},
+      {words:['规模化','部署','成本','良率','供应链'], weight:2},
+    ], autoNoise);
+    const capitalScene=score(arr, [
+      {words:['融资','投资','IPO','募资','并购','收购','估值','独角兽','战略投资'], weight:3},
+      {words:['场景','客户','订单','数据基础设施','物理AI'], weight:1},
+    ], autoNoise);
+    const supplyChain=score(arr, [
+      {words:['芯片','关节','编码器','减速器','传感器','触觉','激光','电池','材料','BOM','供应链'], weight:3},
+      {words:['控制','力控','执行器','伺服','数据采集'], weight:2},
+    ], autoNoise);
 
     const bullets=[];
-    if(sceneDeploy.length>=2){
+    const sceneFacts=useful(sceneDeploy);
+    const modelFacts=useful(modelData);
+    const capitalFacts=useful(capitalScene);
+    const priceFacts=useful(priceDelivery);
+    const supplyFacts=useful(supplyChain);
+
+    if(sceneFacts.length>=2){
       bullets.push({
-        label:'落地场景正在从展台走向可验证任务',
-        text:`机器人厂家正在尝试更具体的落地场景：${context(sceneDeploy)}。这些场景的价值在于任务边界清楚，能看服务时长、故障率、人工替代比例和客户续用，而不是只看一次性演示效果。`
+        label:'落地验证集中在工厂、维修、巡检等可验收任务',
+        text:`本周最有支撑的落地信号来自边界清楚的作业任务：${facts(sceneFacts)}。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。`
       });
     }
-    if(modelData.length>=2){
+    if(modelFacts.length>=2){
       bullets.push({
-        label:'模型竞争开始看真机数据和任务成功率',
-        text:`${context(modelData)}。这说明“具身大脑”的判断标准正在变得更硬：不是模型名字更大，而是能否在真实机器人上用更少数据完成微调、迁移到新任务，并稳定复现成功率。`
+        label:'模型叙事正在落到真实数据和任务闭环',
+        text:`技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力：${facts(modelFacts)}。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。`
       });
     }
-    if(capitalScene.length>=2){
+    if(capitalFacts.length>=2){
       bullets.push({
-        label:'资本仍热，但更偏向基础设施和明确场景',
-        text:`${context(capitalScene)}。资金没有只追“通用人形”叙事，而是在寻找数据基础设施、移动机器人、材料部件和收购补能力这类可验收标的；后续关键是融资后能否转化成客户和复购。`
+        label:'资本更看重可定义场景和能力补齐',
+        text:`融资和并购信号需要和用途一起看：${facts(capitalFacts)}。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。`
       });
     }
-    if(bullets.length<3 && priceDelivery.length>=2){
+    if(bullets.length<3 && priceFacts.length>=2){
       bullets.push({
-        label:'硬件竞争进入价格与交付约束',
-        text:`${context(priceDelivery)}。价格下探和量产备货会迫使企业证明成本、良率、售后和渠道能力，单次发布会的重要性下降，持续交付能力会更快拉开差距。`
+        label:'量产数字开始成为能力验证的一部分',
+        text:`产品侧的重点从“发布了什么”转向“能否持续制造和部署”：${facts(priceFacts)}。量产规模只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。`
       });
     }
-    if(bullets.length<3 && supplyChain.length>=2){
+    if(bullets.length<3 && supplyFacts.length>=2){
       bullets.push({
-        label:'供应链机会开始绑定具体性能瓶颈',
-        text:`${context(supplyChain)}。上游机会不只是“机器人概念”，而是围绕芯片、关节、传感、控制和工艺软件解决真实瓶颈；能进入量产 BOM 或形成标准方案才算有效信号。`
+        label:'供应链机会要绑定具体性能瓶颈',
+        text:`上游动态的判断标准应落到部件解决什么问题：${facts(supplyFacts)}。能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。`
       });
     }
     if(!bullets.length){

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T16:54:46.928511+08:00",
+  "updated": "2026-06-28T19:28:31.230428+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 7,
-      "core": 2,
+      "candidates": 6,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 20,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,22 +89,23 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 23,
+      "candidates": 21,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 80,
+      "candidates": 79,
+      "core": 42,
+      "periphery": 1,
+      "new": 11
     },
     {
       "name": "甲子光年",
@@ -130,7 +131,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -167,7 +168,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 8,
       "periphery": 1,
       "new": 3
     },
@@ -182,7 +183,7 @@
       "candidates": 8,
       "core": 4,
       "periphery": 2,
-      "new": 0
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -240,24 +241,6 @@
   "items": [
     {
       "date": "06-28",
-      "company": "特斯拉",
-      "title": "特斯拉公布 2026 年二季度分析师交付预期：超 40.6 万辆，环比增 12%",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 6 月 28 日消息，特斯拉公布了 2026 年第二季度官方交付预期均值。特斯拉投资者关系团队整合 21 位分析师的交付量预测数据，算出市场一致预期值，在下周正式财报数据发布前向投资者公示。 该交付预期均值并非特斯拉官方实际交付数据，仅为分析师预测结果，仅供参考、不宜完全采信。华尔街机构预测本季度特斯拉交付新车 406024 辆，其中 Model…",
-      "url": "https://www.ithome.com/0/969/547.htm"
-    },
-    {
-      "date": "06-28",
-      "company": "特斯拉",
-      "title": "特斯拉 Model S 签名典藏版登陆欧洲：限量 20 台，仅限受邀客户购买",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 6 月 28 日消息，有消息称，特斯拉已私下联系欧洲部分精选客户，向其发出专属购车邀约，可入手 Model S 签名典藏版（Model S Signature Edition），收藏这款汽车史上的绝版藏品。 此事经由 Facebook 德国特斯拉车友社群成员克里斯蒂安 · 达拉波扎爆料传开，他晒出了当地销售顾问发来的购车邀约详情。特斯拉资讯媒体 D…",
-      "url": "https://www.ithome.com/0/969/539.htm"
-    },
-    {
-      "date": "06-28",
       "company": "智元机器人",
       "title": "智元第15000台通用具身机器人正式量产下线",
       "source_name": "36氪",
@@ -267,21 +250,12 @@
     },
     {
       "date": "06-28",
-      "company": "其他",
+      "company": "法拉第未来",
       "title": "法拉第未来推出“全美首款工业级轮臂机器人”Faber，同步推出全新 Futurist 机器人系列",
       "source_name": "IT之家",
-      "category": "资本动态",
+      "category": "产品量产",
       "summary": "IT之家 6 月 28 日消息，法拉第未来宣布于 6 月 23 日在芝加哥 Automate 机器人与自动化展会上发布“全美首款工业级轮臂机器人 Faber”，并预告 FF EAI 机器人工业生态战略，称“六大系列全形态 FF EAI 机器人世界正式集齐”、“全明星机器人天团形成完整产品矩阵”。 据法拉第未来介绍，Faber 轮臂机器人系列分为 Faber…",
       "url": "https://www.ithome.com/0/969/663.htm"
-    },
-    {
-      "date": "06-28",
-      "company": "智元机器人",
-      "title": "智元第 15000 台通用具身机器人精灵 G2 量产下线",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 6 月 28 日消息，据界面新闻报道，智元今日宣布第 15000 台通用具身机器人精灵 G2 正式量产下线。 智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青表示，15000 台量产下线印证了智元规模化量产到达新高度，也标志着中国人形机器人产业迈上了大规模真实场景应用。姚卯青表示， 量产不是目的，只是一个过程 ，通过规模化量产让机器人在各行各业快…",
-      "url": "https://www.ithome.com/0/969/636.htm"
     },
     {
       "date": "06-27",
@@ -423,7 +397,7 @@
       "company": "优必选",
       "title": "优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀",
       "source_name": "IT之家",
-      "category": "资本动态",
+      "category": "产品量产",
       "summary": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。 官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。 Cruzr Y1 搭…",
       "url": "https://www.ithome.com/0/969/219.htm"
     },
@@ -528,15 +502,6 @@
     },
     {
       "date": "06-25",
-      "company": "行业",
-      "title": "拟募资不超14亿！又一上市公司加码机器人精密部件等项目",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "6月23日晚间，汽车轮毂轴承单元领军企业兆丰股份发布公告称，拟向不特定对象发行可转换公司债券预案。 公告称，该公司拟发行总额不超过14亿元（含本数），扣除发行费用后用于具身智能机器人和汽车智驾高端精密",
-      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30691943.html"
-    },
-    {
-      "date": "06-25",
       "company": "其他",
       "title": "Robust.AI为第三代Carter移动机器人选择Aptiv PULSE传感器 (Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot)",
       "source_name": "The Robot Report",
@@ -582,15 +547,6 @@
     },
     {
       "date": "06-24",
-      "company": "宇树科技",
-      "title": "宇树R1人形机器人降价至2.99万元起",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3867114597848067?f=rss",
-      "summary": "宇树科技宣布旗下双足人形机器人Unitree R1官方售价由3.99万元下调至2.99万元起，并即日起开放现货销售。该机器人重25千克，配备26个高精度关节，支持语音与图像多模态大模型交互，具备开发与定制能力。（财联社）"
-    },
-    {
-      "date": "06-24",
       "company": "行业",
       "title": "独家丨清研精准完成数亿元 B3 轮融资，目标打造物理 AI 数据基础设施",
       "source_name": "雷峰网",
@@ -606,15 +562,6 @@
       "category": "行业动态",
       "url": "https://www.ithome.com/0/968/169.htm",
       "summary": "宁德时代官方今日宣布，其与银河通用机器人正式签署全球战略合作协议。这次合作的焦点，是银河通用研发的重载人形机器人 Galbot S1，它是全球首款搭载宁德时代电池的具身智能常态化运营机器人。#宁德时代# #人形机器人#"
-    },
-    {
-      "date": "06-24",
-      "company": "宇树科技",
-      "title": "直降 1 万元：宇树科技宣布 R1 机器人 2.99 万元起现货开售",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "url": "https://www.ithome.com/0/968/145.htm",
-      "summary": "宇树科技宣布其双足人形机器人 R1 起售价从 3.99 万元降至 2.99 万元，并开启现货发售。该机器人重 25 公斤，拥有 26 个关节，集成了语音和图像多模态大模型，支持用户自行开发与定制。#人形机器人##科技前沿#"
     },
     {
       "date": "06-24",
@@ -645,21 +592,12 @@
     },
     {
       "date": "06-24",
-      "company": "其他",
+      "company": "Agility Robotics",
       "title": "人形机器人公司Agility Robotics将通过SPAC合并上市 (Humanoid maker Agility Robotics to go public through SPAC merger)",
       "source_name": "The Robot Report",
       "category": "资本动态",
       "summary": "Agility Robotics will merge with Churchill Capital Corp XI, raising $620 million to advance Digit v5 and fulfill growing customer orders. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "敏捷机器人公司计划通过SPAC上市，交易估值25亿美元 (Agility Robotics plans to go public via SPAC in a $2.5B deal)",
-      "source_name": "TechCrunch Robotics",
-      "category": "资本动态",
-      "summary": "Agility Robotics, the humanoid robotics startup that spun out of Oregon State University in 2015, expects to generate $620 million in proceeds.",
-      "url": "https://techcrunch.com/2026/06/24/agility-robotics-plans-to-go-public-via-spac-in-a-2-5b-deal/"
     },
     {
       "date": "06-23",
@@ -682,11 +620,20 @@
     {
       "date": "06-23",
       "company": "其他",
-      "title": "对话蔚来高级副总裁任少卿：一个世界模型，如何适配两套芯片、四个平台和十几款车？",
-      "source_name": "爱范儿",
-      "category": "技术突破",
-      "url": "https://www.ifanr.com/1669670?utm_source=rss&utm_medium=rss&utm_campaign=",
-      "summary": "把一头大象分别塞进十几个冰箱。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上"
+      "title": "ExRobotics 推出通过 UL 认证的危险环境巡检机器人 (ExRobotics launches UL-certified inspection robot for hazardous environments)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "ExRobotics says its ExR-2.5 inspection robot is certified for safe operations in explosive environments in North America. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/"
+    },
+    {
+      "date": "06-23",
+      "company": "其他",
+      "title": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化 (Vention collaborates with FANUC and Universal Robots on software-defined automation)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Vention is working with partners to make design and deployment of industrial and collaborative robots easier for manufacturers. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
     }
   ]
 }
