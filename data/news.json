@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T03:23:54.060834+08:00",
+  "updated": "2026-06-28T11:57:19.921223+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 12,
-      "core": 2,
+      "entries": 27,
+      "candidates": 7,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
+      "entries": 19,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
+      "entries": 59,
       "candidates": 21,
-      "core": 2,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -215,7 +215,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 30,
       "candidates": 30,
@@ -238,6 +238,24 @@
     }
   ],
   "items": [
+    {
+      "date": "06-28",
+      "company": "特斯拉",
+      "title": "特斯拉公布 2026 年二季度分析师交付预期：超 40.6 万辆，环比增 12%",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 6 月 28 日消息，特斯拉公布了 2026 年第二季度官方交付预期均值。特斯拉投资者关系团队整合 21 位分析师的交付量预测数据，算出市场一致预期值，在下周正式财报数据发布前向投资者公示。 该交付预期均值并非特斯拉官方实际交付数据，仅为分析师预测结果，仅供参考、不宜完全采信。华尔街机构预测本季度特斯拉交付新车 406024 辆，其中 Model…",
+      "url": "https://www.ithome.com/0/969/547.htm"
+    },
+    {
+      "date": "06-28",
+      "company": "特斯拉",
+      "title": "特斯拉 Model S 签名典藏版登陆欧洲：限量 20 台，仅限受邀客户购买",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 6 月 28 日消息，有消息称，特斯拉已私下联系欧洲部分精选客户，向其发出专属购车邀约，可入手 Model S 签名典藏版（Model S Signature Edition），收藏这款汽车史上的绝版藏品。 此事经由 Facebook 德国特斯拉车友社群成员克里斯蒂安 · 达拉波扎爆料传开，他晒出了当地销售顾问发来的购车邀约详情。特斯拉资讯媒体 D…",
+      "url": "https://www.ithome.com/0/969/539.htm"
+    },
     {
       "date": "06-27",
       "company": "其他",
@@ -669,24 +687,6 @@
       "category": "产品量产",
       "summary": "ExRobotics says its ExR-2.5 inspection robot is certified for safe operations in explosive environments in North America. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/"
-    },
-    {
-      "date": "06-23",
-      "company": "其他",
-      "title": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化 (Vention collaborates with FANUC and Universal Robots on software-defined automation)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Vention is working with partners to make design and deployment of industrial and collaborative robots easier for manufacturers. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/"
-    },
-    {
-      "date": "06-22",
-      "company": "其他",
-      "title": "机器人浪潮：兰宝编码器夯实智能制造精密底座",
-      "source_name": "中国机器人网",
-      "category": "泛具身产业链",
-      "url": "https://www.robot-china.com/news/202606/22/95942.html",
-      "summary": "在工业4.0与智能制造的浪潮下，工业机器人的疆域正不断扩张。其应用场景已从传统的焊接、搬运，延伸至3C电子精密装配、半导体晶圆传输、医疗手术器械操作，乃至人形机器人等高端领域。然而，无论应用场景如何演变，机械臂运动控制的逻辑基石始终未变：想要“动得准”，必先“测得准”。这正是位置反馈传感体系作为“物理标尺”不可替代的原因——它是连接数字指令与物理动作的核心枢…"
     }
   ]
 }
