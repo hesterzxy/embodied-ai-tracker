@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T19:28:31.230428+08:00",
+  "updated": "2026-06-28T21:49:51.238137+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 21,
+      "candidates": 18,
       "core": 3,
       "periphery": 0,
       "new": 2
@@ -97,15 +97,14 @@
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 80,
-      "candidates": 79,
-      "core": 42,
-      "periphery": 1,
-      "new": 11
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "甲子光年",
