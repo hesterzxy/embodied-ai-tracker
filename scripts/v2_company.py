@@ -7,7 +7,10 @@ Otherwise it keeps the company as a pending candidate.
 """
 import argparse
 import json
+import os
 import re
+from urllib.error import URLError, HTTPError
+from urllib.request import Request, urlopen
 from pathlib import Path
 
 
@@ -143,6 +146,75 @@ def source_from_item(item):
         "url": item.get("url", ""),
         "evidence": evidence,
     }
+
+
+def normalize_chat_url(url):
+    url = (url or "").strip().rstrip("/")
+    if not url:
+        return ""
+    if url.endswith("/v1"):
+        return url + "/chat/completions"
+    if not url.endswith("/chat/completions"):
+        return url + "/v1/chat/completions"
+    return url
+
+
+def llm_config():
+    aicodewith_key = os.getenv("AICODEWITH_API_KEY") or ""
+    if aicodewith_key:
+        return {
+            "api_key": aicodewith_key,
+            "api_url": normalize_chat_url(os.getenv("OPENAI_BASE_URL") or os.getenv("AICODEWITH_BASE_URL") or ""),
+            "model": os.getenv("AICODEWITH_MODEL") or os.getenv("OPENAI_MODEL") or "",
+        }
+    qwen_key = (
+        os.getenv("QWEN_API_KEY")
+        or os.getenv("DASHSCOPE_API_KEY")
+        or os.getenv("QWEN_KEY")
+        or os.getenv("ALIYUN_API_KEY")
+        or ""
+    )
+    if qwen_key:
+        return {
+            "api_key": qwen_key,
+            "api_url": normalize_chat_url(os.getenv("QWEN_API_URL") or "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"),
+            "model": os.getenv("QWEN_MODEL") or "qwen-plus",
+        }
+    return {"api_key": "", "api_url": "", "model": ""}
+
+
+def call_llm_json(system_prompt, user_prompt, max_tokens=7000):
+    cfg = llm_config()
+    if not cfg["api_key"] or not cfg["api_url"] or not cfg["model"]:
+        print("V2 LLM skipped: missing API key, base URL, or model")
+        return None
+    payload = {
+        "model": cfg["model"],
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {"role": "user", "content": user_prompt},
+        ],
+        "temperature": 0.1,
+        "max_tokens": max_tokens,
+        "response_format": {"type": "json_object"},
+    }
+    req = Request(
+        cfg["api_url"],
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {cfg['api_key']}",
+            "Content-Type": "application/json",
+            "User-Agent": "embodied-ai-tracker-v2",
+        },
+    )
+    try:
+        with urlopen(req, timeout=80) as resp:
+            data = json.loads(resp.read().decode("utf-8"))
+        content = data["choices"][0]["message"]["content"]
+        return json.loads(content)
+    except (HTTPError, URLError, TimeoutError, OSError, KeyError, ValueError, json.JSONDecodeError) as exc:
+        print(f"V2 LLM failed: {type(exc).__name__}: {exc}")
+        return None
 
 
 def make_cell(summary, bullets, sources=None, kind="evidence", confidence="medium", updated_recent=False, note=""):
@@ -366,63 +438,164 @@ def build_tashi_profile(company_name, hits):
 
 
 def build_generic_profile(company_name, hits):
-    if len(hits) < 2:
-        return None
+    return build_llm_profile(company_name, hits)
 
-    sources = [source_from_item(item) for item in hits[:3]]
-    headlines = [item.get("title", "") for item in hits[:3] if item.get("title")]
-    source_names = {item.get("source_name") for item in hits if item.get("source_name")}
-    urls = {item.get("url") for item in hits if item.get("url")}
-    if len(source_names) < 2 or len(urls) < 2:
-        return None
 
-    categories = [item.get("category", "") for item in hits if item.get("category")]
-    reason_bits = []
-    if categories:
-        reason_bits.append(categories[0])
-    if headlines:
-        reason_bits.append(headlines[0][:18])
+def evidence_pack(company_name, hits, limit=12):
+    rows = []
+    for idx, item in enumerate(hits[:limit], 1):
+        rows.append({
+            "id": idx,
+            "date": item.get("date", ""),
+            "source_name": item.get("source_name", ""),
+            "category": item.get("category", ""),
+            "title": item.get("title", ""),
+            "summary": item.get("summary", ""),
+            "url": item.get("url", ""),
+        })
+    return rows
 
-    cells = {label: unknown_cell(company_name, label) for label in ROW_LABELS}
-    cells["核心差异化"] = make_cell(
-        "新闻待研判",
-        [(title[:38], [sources[idx]]) for idx, title in enumerate(headlines[:3])],
-        sources,
-        kind="synthesis",
-        confidence="low",
-        note="V2已找到相关新闻，但尚未形成稳定竞对判断。",
+
+def llm_system_prompt():
+    return (
+        "你是严谨的具身智能产业研究分析师。你的任务是基于给定证据，生成竞对矩阵的一列。"
+        "只能使用输入证据，不允许编造、外推或引用输入之外的来源。"
+        "如果证据不足，返回 can_publish=false。"
+        "不要输出 markdown，只输出严格 JSON。"
     )
 
-    category_to_rows = {
-        "资本": ["融资估值"],
-        "融资": ["融资估值"],
-        "商业": ["真实订单", "标杆客户", "商业模式"],
-        "订单": ["真实订单", "标杆客户"],
-        "量产": ["量产进度", "实测能力"],
-        "产品": ["技术选择", "目标场景"],
-        "技术": ["技术选择", "大脑自研", "数据策略"],
-    }
-    for item, source in zip(hits[:3], sources):
-        text = item_text(item)
-        for key, labels in category_to_rows.items():
-            if key not in text:
-                continue
-            for label in labels:
-                cells[label] = make_cell(
-                    "待研判",
-                    [
-                        (item.get("title", "")[:38], [source]),
-                        ("需补充第二来源后再给出强判断", [source]),
-                    ],
-                    [source],
-                    confidence="low",
-                    note="单条新闻信号，仅作为V2候选研究起点。",
-                )
 
+def llm_user_prompt(company_name, hits):
+    return f"""请基于下列公开新闻证据，为「{company_name}」生成 V2 竞对矩阵新增列。
+
+维度必须覆盖以下 16 个：
+{json.dumps(ROW_LABELS, ensure_ascii=False)}
+
+证据：
+{json.dumps(evidence_pack(company_name, hits), ensure_ascii=False, indent=2)}
+
+质量要求：
+1. 只有当证据足以形成可比竞对判断时，can_publish 才能为 true；否则 false。
+2. 禁止使用“待研判”“新闻待研判”“资料待补充”“暂无公开数据”作为正式列 summary。
+3. summary 不超过 10 个汉字，必须具体到这家公司，例如“BMW产线”“千台集群”“手部组件”，不要写“技术领先/场景明确/行业动态”。
+4. 每个非 synthesis 维度必须有 2-3 条 bullet；每条 bullet 必须绑定输入证据中的 URL。
+5. 不能用同一条新闻硬撑所有维度。没有证据的维度可以 summary="待核验"，confidence="low"，但如果待核验维度超过 6 个，can_publish=false。
+6. updated_recent 只有在该格对应近 30 天重大动作时为 true，例如融资、订单、量产、发布、部署、重大论文/产品节点；普通背景信息和路线归纳必须 false。
+7. 蓝色高亮不能超过 3 个维度。
+8. 如果只有单一信源或单一事件，原则上 can_publish=false，除非该事件本身足够重大且公司已有清晰公开定位。
+
+输出 JSON 格式：
+{{
+  "can_publish": true,
+  "company": "{company_name}",
+  "reason": "一句话标签，用 · 分隔，最多 24 字",
+  "notes": "简短质量说明",
+  "cells": {{
+    "核心差异化": {{
+      "summary": "10字内",
+      "kind": "synthesis",
+      "updated_recent": false,
+      "confidence": "high|medium|low",
+      "note": "",
+      "bullets": [
+        {{"text":"事实或判断", "sources":[{{"name":"来源名 日期", "url":"输入证据URL", "evidence":"短证据"}}]}}
+      ]
+    }}
+  }}
+}}"""
+
+
+def normalize_llm_source(src, allowed_urls):
+    if not isinstance(src, dict):
+        return None
+    url = src.get("url") or ""
+    if url not in allowed_urls:
+        return None
     return {
-        "reason": " · ".join(reason_bits) if reason_bits else "V2 新闻待研判",
-        "cells": cells,
+        "name": str(src.get("name") or "公开来源")[:40],
+        "url": url,
+        "evidence": str(src.get("evidence") or "")[:120],
     }
+
+
+def normalize_llm_cell(label, raw, allowed_urls):
+    if not isinstance(raw, dict):
+        return None
+    summary = str(raw.get("summary") or "").strip()[:10]
+    if not summary or summary in {"待研判", "新闻待研判", "资料待补充"}:
+        return None
+    bullets = []
+    for bullet in raw.get("bullets") or []:
+        if not isinstance(bullet, dict):
+            continue
+        text = str(bullet.get("text") or "").strip()[:80]
+        sources = [normalize_llm_source(src, allowed_urls) for src in (bullet.get("sources") or [])]
+        sources = [src for src in sources if src]
+        if text and (sources or label == "核心差异化"):
+            bullets.append({"text": text, "sources": sources or [{"name": "战略归纳", "url": "#", "evidence": ""}]})
+    if len(bullets) < 2 and summary != "待核验":
+        return None
+    confidence = raw.get("confidence") if raw.get("confidence") in {"high", "medium", "low"} else "low"
+    return {
+        "summary": summary,
+        "bullets": bullets[:3] if bullets else [{"text": "暂无可靠公开数据", "sources": [{"name": "待核验", "url": "#", "evidence": ""}]}],
+        "kind": "synthesis" if label == "核心差异化" else "evidence",
+        "updated_recent": raw.get("updated_recent") is True,
+        "confidence": confidence,
+        "note": str(raw.get("note") or "")[:120],
+    }
+
+
+def validate_llm_profile(profile, company_name, hits):
+    if not isinstance(profile, dict) or profile.get("can_publish") is not True:
+        return None
+    allowed_urls = {item.get("url") for item in hits if item.get("url")}
+    source_names = {item.get("source_name") for item in hits if item.get("source_name")}
+    if len(allowed_urls) < 2:
+        return None
+    if len(source_names) < 2:
+        return None
+    raw_cells = profile.get("cells")
+    if not isinstance(raw_cells, dict):
+        return None
+    cells = {}
+    recent_count = 0
+    pending_count = 0
+    concrete_count = 0
+    used_urls = set()
+    url_use_count = {}
+    for label in ROW_LABELS:
+        cell = normalize_llm_cell(label, raw_cells.get(label), allowed_urls)
+        if not cell:
+            cell = unknown_cell(company_name, label)
+        if cell["summary"] == "待核验":
+            pending_count += 1
+        else:
+            concrete_count += 1
+        if cell.get("updated_recent"):
+            recent_count += 1
+        for bullet in cell.get("bullets", []):
+            for src in bullet.get("sources", []):
+                if src.get("url") and src.get("url") != "#":
+                    used_urls.add(src["url"])
+                    url_use_count[src["url"]] = url_use_count.get(src["url"], 0) + 1
+        cells[label] = cell
+    if pending_count > 6 or concrete_count < 8 or len(used_urls) < 2:
+        return None
+    if url_use_count and max(url_use_count.values()) > 10:
+        return None
+    if recent_count > 3:
+        for label in ROW_LABELS:
+            cells[label]["updated_recent"] = False
+    reason = str(profile.get("reason") or profile.get("notes") or "V2 API生成").strip()[:40]
+    return {"reason": reason, "cells": cells}
+
+
+def build_llm_profile(company_name, hits):
+    if len(hits) < 2:
+        return None
+    profile = call_llm_json(llm_system_prompt(), llm_user_prompt(company_name, hits))
+    return validate_llm_profile(profile, company_name, hits)
 
 
 def build_research_profile(company_name):

@@ -15,10 +15,11 @@ When deployed on Vercel, the add-company control also posts to `/api/add-company
 which dispatches the `V2 Company Management` GitHub Actions workflow. Persistent
 add/remove operations update only `v2/data/table.json`.
 
-On add, the workflow first checks `data/news.json`. If there are usable recent
-signals for the company, V2 writes a conservative first-pass research column with
-source-backed cells. If not, the company remains a pending candidate until more
-public evidence is available.
+On add, the workflow first gathers company-specific evidence, then asks the
+configured LLM API to draft a structured matrix column. V2 only writes that
+column if it passes validation: enough source-backed cells, no `待研判` filler,
+bounded recent highlights, and multiple usable URLs. If validation fails, the
+company remains a pending candidate instead of publishing low-quality analysis.
 
 The add workflow also runs `scripts/v2_research_news.py` first. That script does
 a company-specific fetch against the existing robotics news sources and stores

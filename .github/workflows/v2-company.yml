@@ -32,6 +32,17 @@ jobs:
         with:
           python-version: "3.11"
       - name: Update V2 matrix
+        env:
+          AICODEWITH_API_KEY: ${{ secrets.AICODEWITH_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          AICODEWITH_BASE_URL: ${{ secrets.AICODEWITH_BASE_URL }}
+          AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          QWEN_KEY: ${{ secrets.QWEN_KEY }}
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          QWEN_MODEL: ${{ secrets.QWEN_MODEL }}
         run: |
           if [ "${{ github.event.inputs.action }}" = "remove" ]; then
             python scripts/v2_company.py --remove "${{ github.event.inputs.company_name }}"
