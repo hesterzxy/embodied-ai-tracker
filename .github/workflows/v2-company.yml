@@ -1,0 +1,52 @@
+name: V2 Company Management
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: Add or remove a company from V2
+        required: true
+        default: add
+        type: choice
+        options:
+          - add
+          - remove
+      company_name:
+        description: Company name
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repo-writes
+  cancel-in-progress: false
+
+jobs:
+  update-v2-company:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Update V2 matrix
+        run: |
+          if [ "${{ github.event.inputs.action }}" = "remove" ]; then
+            python scripts/v2_company.py --remove "${{ github.event.inputs.company_name }}"
+          else
+            python scripts/v2_company.py --add "${{ github.event.inputs.company_name }}"
+          fi
+      - name: Commit V2 data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v2/data/table.json
+          if git diff --cached --quiet; then
+            echo "No V2 company changes"
+          else
+            git commit -m "v2: update company ${{ github.event.inputs.company_name }}"
+            git pull --rebase origin main
+            git push
+          fi

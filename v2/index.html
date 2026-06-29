@@ -119,6 +119,19 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
+.v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end}
+.company-picks{display:flex;flex-wrap:wrap;gap:6px}
+.company-pick{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);border-radius:3px;padding:4px 8px;font-size:12px;color:var(--ink2);background:var(--paper);cursor:pointer;user-select:none}
+.company-pick input{margin:0}
+.company-pick.off{color:var(--ink4);background:var(--muted)}
+.v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
+.v2-actions input{font-family:var(--sans);font-size:12.5px;padding:7px 9px;border:1px solid var(--line2);width:190px;background:var(--paper);border-radius:2px}
+.v2-actions input:focus{outline:none;border-color:var(--accent)}
+.v2-actions button{font-family:var(--mono);font-size:11.5px;letter-spacing:.2px;padding:7px 10px;border:1px solid var(--line2);background:var(--paper);color:var(--ink2);cursor:pointer;border-radius:2px}
+.v2-actions button.primary{border-color:var(--accent);background:var(--accent);color:#fff}
+.v2-actions button:hover{border-color:var(--accent);color:var(--accent)}
+.v2-actions button.primary:hover{color:#fff;background:var(--accent-strong)}
+.v2-note{grid-column:1/-1;font-size:12px;color:var(--ink3);line-height:1.7}
 /* pending companies */
 .pending-tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:10px;font-size:11px;font-family:var(--mono);margin-right:6px;margin-top:4px;letter-spacing:0.3px}
 .pending-del{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;margin-left:2px;padding:0 2px;line-height:1}
@@ -135,7 +148,7 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 
 .hide{display:none}
 .errnote{color:var(--ink3);font-size:12.5px;padding:12px 0;font-family:var(--mono)}
-@media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
+@media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}.v2-tools{grid-template-columns:1fr}.v2-actions{justify-content:flex-start}.v2-actions input{width:100%}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
 </style>
 </head>
 <body>
@@ -163,6 +176,15 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
     <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
   <div id="matrixState" class="matrix-state"></div>
+  <div class="v2-tools" aria-label="V2 公司管理">
+    <div class="company-picks" id="companyPicks"></div>
+    <div class="v2-actions">
+      <button id="showAllBtn">全部显示</button>
+      <input id="newCompanyInput" type="text" placeholder="新增公司名称">
+      <button class="primary" id="addCompanyBtn">加入 V2</button>
+    </div>
+    <div class="v2-note" id="v2Note">V2 工作区：这里的公司显示和新增候选只影响 /v2/ 入口，原首页不变。</div>
+  </div>
   <div class="matrix-legend"><b>xxx</b>：近30天内新增公开信息</div>
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
@@ -280,16 +302,82 @@ function cellSources(cell, fallback){
   });
 }
 
-// Add-company flow is intentionally disabled for the delivery build.
-localStorage.removeItem('pendingCompanies');
-localStorage.removeItem('submittedCompanies');
-localStorage.removeItem('removedCompanies');
+const V2_HIDDEN_KEY='v2HiddenCompanies';
+const V2_ADDED_KEY='v2AddedCompanies';
+function readList(key){
+  try{
+    const arr=JSON.parse(localStorage.getItem(key)||'[]');
+    return Array.isArray(arr) ? arr.filter(Boolean) : [];
+  }catch(e){
+    return [];
+  }
+}
+function writeList(key, arr){
+  localStorage.setItem(key, JSON.stringify([...new Set(arr.filter(Boolean))]));
+}
+function makePendingCell(companyName, dim){
+  return {
+    summary:'待核验',
+    bullets:[
+      {text:`${companyName}已加入V2待评估`, sources:[{name:'V2手动添加', url:'#', evidence:'用户在V2工作区添加'}]},
+      {text:'等待公开信息核验入库', sources:[{name:'待核验', url:'#', evidence:''}]}
+    ],
+    kind: dim === '核心差异化' ? 'synthesis' : 'evidence',
+    updated_recent:false,
+    confidence:'low',
+    note:'V2手动候选，尚未写入长期核验数据。'
+  };
+}
+function applyV2LocalCompanies(data){
+  const clone=JSON.parse(JSON.stringify(data || {}));
+  clone.companies=Array.isArray(clone.companies) ? clone.companies : [];
+  clone.groups=Array.isArray(clone.groups) ? clone.groups : [];
+  const existing=new Set(clone.companies.map(c=>c.name));
+  readList(V2_ADDED_KEY).forEach(name=>{
+    if(!name || existing.has(name)) return;
+    existing.add(name);
+    clone.companies.push({name, reason:'V2 待评估', emphasis:false, pending:true});
+    clone.groups.forEach(group=>{
+      (group.rows||[]).forEach(row=>{
+        if(!Array.isArray(row.cells)) row.cells=[];
+        row.cells.push(makePendingCell(name, row.label));
+      });
+    });
+  });
+  return clone;
+}
 
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  el.innerHTML='';
-  el.classList.remove('show');
+  const hidden=readList(V2_HIDDEN_KEY);
+  const added=readList(V2_ADDED_KEY);
+  const parts=[];
+  if(hidden.length) parts.push(`<b>已隐藏</b> ${hidden.map(esc).join('、')}`);
+  if(added.length) parts.push(`<b>V2候选</b> ${added.map(esc).join('、')}`);
+  el.innerHTML=parts.join('　');
+  el.classList.toggle('show', Boolean(parts.length));
+}
+
+function renderCompanyPicks(data){
+  const el=document.getElementById('companyPicks');
+  if(!el) return;
+  const hidden=new Set(readList(V2_HIDDEN_KEY));
+  const companies=(data.companies||[]);
+  el.innerHTML=companies.map(c=>{
+    const name=c.name||'';
+    const off=hidden.has(name);
+    return `<label class="company-pick ${off?'off':''}"><input type="checkbox" ${off?'':'checked'} data-company="${esc(name)}">${esc(name)}</label>`;
+  }).join('');
+  el.querySelectorAll('input[data-company]').forEach(input=>{
+    input.addEventListener('change',()=>{
+      const name=input.getAttribute('data-company');
+      const next=new Set(readList(V2_HIDDEN_KEY));
+      if(input.checked) next.delete(name); else next.add(name);
+      writeList(V2_HIDDEN_KEY, [...next]);
+      renderTable();
+    });
+  });
 }
 
 // ---- dynamics toggle ----
@@ -306,7 +394,8 @@ tFeed.onclick=()=>show(false); tWeek.onclick=()=>show(true);
 // ---- render table from JSON ----
 function renderTable(){
   // (renderTable will be defined below using global data)
-  if(window.__tableData){
+  if(window.__baseTableData){
+    window.__tableData = applyV2LocalCompanies(window.__baseTableData);
     _renderTable(window.__tableData);
   }
 }
@@ -316,12 +405,13 @@ async function loadTable(){
     const res=await fetch(`./data/table.json?v=${Date.now()}`, {cache:'no-store'});
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data=await res.json();
-    window.__tableData = data;
+    window.__baseTableData = data;
+    window.__tableData = applyV2LocalCompanies(data);
     try{
-      _renderTable(data);
+      _renderTable(window.__tableData);
     }catch(renderError){
       console.error(renderError);
-      renderSimpleTable(data);
+      renderSimpleTable(window.__tableData);
     }
   }catch(e){
     console.error(e);
@@ -350,18 +440,21 @@ function extractDate(sourceName){
 }
 
 function _renderTable(data){
-  document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
-
+  const hidden=new Set(readList(V2_HIDDEN_KEY));
   const orig = data.companies || [];
-  const visibleCompanies = orig;
+  const visibleIndexes = orig.map((c,i)=>hidden.has(c.name) ? -1 : i).filter(i=>i>=0);
+  const visibleCompanies = visibleIndexes.map(i=>orig[i]);
+  document.getElementById('cocount').textContent = visibleCompanies.length || '—';
   const filteredGroups = data.groups || [];
+  renderCompanyPicks(data);
 
   // Collect & deduplicate sources across whole table
   const srcMap=new Map();
   let srcCounter=0;
   filteredGroups.forEach(g=>{
     g.rows.forEach(r=>{
-      r.cells.forEach((cell, idx)=>{
+      visibleIndexes.forEach(idx=>{
+        const cell=(r.cells||[])[idx];
         cellSources(cell, r.sources ? r.sources[idx] : null).forEach(s=>{
           if(!s) return;
           const url=(typeof s==='object'?s.url:s)||'';
@@ -398,12 +491,13 @@ function _renderTable(data){
     g.rows.forEach(r=>{
       const row=document.createElement('tr');
       let html=`<td class="rowdim">${r.label}</td>`;
-      r.cells.forEach((cell,idx)=>{
+      visibleIndexes.forEach((sourceIdx,visibleIdx)=>{
+        const cell=(r.cells||[])[sourceIdx];
         const normalized = normalizeCell(cell);
-        const cls=[visibleCompanies[idx].emphasis?'self':'', normalized.confidence==='low' && normalized.kind!=='synthesis'?'lowconf':''].filter(Boolean).join(' ');
+        const cls=[visibleCompanies[visibleIdx].emphasis?'self':'', normalized.confidence==='low' && normalized.kind!=='synthesis'?'lowconf':''].filter(Boolean).join(' ');
         const bullets = normalized.bullets.slice(0,3).map(b=>`<li>${esc(b.text || b)}</li>`).join('');
         let cellRecent = normalized.updated_recent ? ' recent' : '';
-        const sources = cellSources(cell, r.sources ? r.sources[idx] : null);
+        const sources = cellSources(cell, r.sources ? r.sources[sourceIdx] : null);
         // 来源编号
         let sourceHtml = '';
         if(sources.length){
@@ -436,8 +530,12 @@ function _renderTable(data){
 }
 
 function renderSimpleTable(data){
-  document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
-  const companies=data.companies||[];
+  const hidden=new Set(readList(V2_HIDDEN_KEY));
+  const allCompanies=data.companies||[];
+  const visibleIndexes=allCompanies.map((c,i)=>hidden.has(c.name) ? -1 : i).filter(i=>i>=0);
+  const companies=visibleIndexes.map(i=>allCompanies[i]);
+  document.getElementById('cocount').textContent = companies.length || '—';
+  renderCompanyPicks(data);
   const thead=document.getElementById('cmpHead');
   const tbody=document.getElementById('cmpBody');
   const colgroup=document.getElementById('cmpCols');
@@ -451,7 +549,7 @@ function renderSimpleTable(data){
     grp.innerHTML=`<td class="rowdim">${esc(g.label)}</td><td colspan="${companies.length}"></td>`;
     tbody.appendChild(grp);
     (g.rows||[]).forEach(r=>{
-      const cells=(r.cells||[]).map(cell=>{
+      const cells=visibleIndexes.map(idx=>(r.cells||[])[idx]).map(cell=>{
         const n=normalizeCell(cell);
         const bullets=(n.bullets||[]).slice(0,3).map(b=>`<li>${esc(b.text||b)}</li>`).join('');
         return `<td><div class="cell-summary">${esc(n.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
@@ -463,6 +561,28 @@ function renderSimpleTable(data){
   });
   renderMatrixState();
 }
+
+document.getElementById('showAllBtn').onclick=()=>{
+  writeList(V2_HIDDEN_KEY, []);
+  renderTable();
+};
+document.getElementById('addCompanyBtn').onclick=()=>{
+  const input=document.getElementById('newCompanyInput');
+  const name=(input.value||'').trim();
+  if(!name) return;
+  const existing=new Set([...(window.__tableData?.companies||[]).map(c=>c.name), ...readList(V2_ADDED_KEY)]);
+  if(!existing.has(name)){
+    writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), name]);
+  }
+  const hidden=new Set(readList(V2_HIDDEN_KEY));
+  hidden.delete(name);
+  writeList(V2_HIDDEN_KEY, [...hidden]);
+  input.value='';
+  renderTable();
+};
+document.getElementById('newCompanyInput').addEventListener('keydown', event=>{
+  if(event.key==='Enter') document.getElementById('addCompanyBtn').click();
+});
 
 // ---- render feed & weekly report ----
 function getThisWeekRange(){
