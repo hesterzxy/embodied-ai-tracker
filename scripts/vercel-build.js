@@ -3,7 +3,7 @@ const path = require('path');
 
 const root = path.resolve(__dirname, '..');
 const outDir = path.join(root, 'public');
-const entries = ['index.html', 'data', path.join('scripts', 'xlsx.full.min.js')];
+const entries = ['index.html', 'data', 'v2', path.join('scripts', 'xlsx.full.min.js')];
 
 function copyEntry(relativePath) {
   const source = path.join(root, relativePath);

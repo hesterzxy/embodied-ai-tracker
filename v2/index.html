@@ -1,0 +1,781 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="具身智能赛道竞争格局 V2 工作区">
+<title>具身智能竞争格局追踪 V2</title>
+<style>
+:root{
+  --ink:#1a1d23; --ink2:#4a4f59; --ink3:#7a8190; --ink4:#b1b6c0;
+  --line:#e6e8ec; --line2:#cfd3d9; --paper:#ffffff; --bg:#f2efe8;
+  --shade:#f8f7f2; --accent:#1940d9; --accent-soft:#eef1fb; --accent-strong:#0d2aa0;
+  --muted:#f5f5f3;
+  --sans:"Inter","Helvetica Neue",Arial,"PingFang SC","Noto Sans CJK SC","Microsoft YaHei",sans-serif;
+  --mono:ui-monospace,"SF Mono","Cascadia Code","Roboto Mono",Menlo,Consolas,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:14px;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{min-height:100vh}
+.sheet{max-width:1400px;margin:28px auto;background:var(--paper);padding:46px 52px 40px;box-shadow:0 1px 2px rgba(0,0,0,.04)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;color:var(--accent-strong)}
+
+.kicker{font-family:var(--mono);font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--ink3)}
+h1{font-family:var(--sans);font-weight:650;font-size:32px;line-height:1.18;margin:6px 0 0;letter-spacing:0}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:20px;flex-wrap:wrap}
+.dek{font-size:13.5px;color:var(--ink2);max-width:620px;margin-top:8px;line-height:1.7}
+.meta{font-family:var(--mono);font-size:11.5px;color:var(--ink3);text-align:right;line-height:1.9;white-space:nowrap}
+.meta b{color:var(--ink2);font-weight:600}
+.toprule{height:3px;background:var(--ink);margin:18px 0 0}
+.thinrule{height:1px;background:var(--line2);margin:0}
+
+.sechead{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:40px 0 4px}
+.secnum{font-family:var(--mono);font-size:11px;letter-spacing:2px;color:var(--accent);text-transform:uppercase}
+.sectitle{font-family:var(--sans);font-size:22px;font-weight:650;margin:2px 0 0}
+.secnote{font-size:12.5px;color:var(--ink3);margin:4px 0 16px}
+.txtbtn{font-family:var(--mono);font-size:12px;letter-spacing:.5px;color:var(--accent);background:none;border:none;cursor:pointer;padding:4px 0}
+.txtbtn:hover{text-decoration:underline}
+
+/* ---------- comparison table ---------- */
+.tablewrap{overflow:auto;border:1px solid var(--line2);border-radius:3px;background:var(--paper);max-height:78vh}
+table.cmp{border-collapse:separate;border-spacing:0;width:100%;min-width:960px;font-size:12.5px;table-layout:fixed}
+table.cmp th,table.cmp td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+table.cmp thead{position:sticky;top:0;z-index:20}
+table.cmp thead th{position:sticky;top:0;background:var(--paper);z-index:20;border-bottom:1px solid var(--line2);vertical-align:top;padding:10px 12px;box-shadow:0 1px 0 var(--line2);height:72px}
+table.cmp .colco{min-width:120px;position:sticky;top:0;vertical-align:top}
+table.cmp .coname{display:block;font-family:var(--sans);font-size:13px;font-weight:700;letter-spacing:0;color:var(--ink);line-height:1.25;padding-right:14px}
+table.cmp .coreason{display:block;font-family:var(--sans);font-size:10.5px;color:var(--ink3);font-weight:400;margin-top:4px;line-height:1.45}
+table.cmp .rowdim, table.cmp thead .corner{position:sticky;left:0;background:var(--paper);z-index:5;min-width:112px;max-width:124px;border-right:1px solid var(--line2);font-weight:650;color:var(--ink2);font-size:12px;white-space:normal;box-shadow:1px 0 0 var(--line2)}
+table.cmp thead .corner{z-index:30;background:var(--paper)}
+table.cmp tr.grp td{background:var(--shade);font-family:var(--mono);font-size:10px;letter-spacing:1.5px;text-transform:uppercase;color:var(--ink2);padding:8px 12px;border-bottom:1px solid var(--line2);font-weight:600}
+table.cmp tr.grp td:first-child{border-right:1px solid var(--line2)}
+table.cmp tr.grp .rowdim{background:var(--shade);z-index:6}
+table.cmp thead th.self{border-bottom:2px solid var(--accent)}
+table.cmp td.self,table.cmp th.self{background:var(--accent-soft)}
+table.cmp td.self{border-right:1px solid var(--line2)}
+table.cmp td .src{display:block;font-size:10.5px;color:var(--ink4);margin-top:3px}
+table.cmp td.dash{color:var(--ink4)}
+table.cmp td{position:relative;padding:10px 12px 10px 12px}
+table.cmp td .cell-source{position:absolute;top:3px;right:6px;font-size:9.5px;color:var(--accent);font-family:var(--mono);font-weight:500;opacity:.85}
+table.cmp td .cell-source a{color:var(--accent);text-decoration:none}
+table.cmp td .cell-source a:hover{text-decoration:underline;opacity:1}
+table.cmp td .cell-summary{display:block;font-family:var(--sans);font-size:13px;font-weight:700;color:var(--ink);letter-spacing:0;margin:0 24px 5px 0;line-height:1.35}
+table.cmp td .cell-bullets{list-style:none;margin:0;padding:0}
+table.cmp td .cell-bullets li{position:relative;padding-left:10px;margin:3px 0;font-size:12px;line-height:1.5;color:var(--ink);font-family:var(--sans)}
+table.cmp td .cell-bullets li::before{content:'·';position:absolute;left:1px;top:0;color:var(--ink4);font-size:14px;line-height:1.35}
+table.cmp td.lowconf{background:var(--muted);color:var(--ink3)}
+table.cmp td.lowconf{background:inherit;color:inherit}
+table.cmp tr:nth-child(even) td.lowconf{background:rgba(247,247,245,0.35)}
+table.cmp td.lowconf .cell-summary, table.cmp td.lowconf .cell-bullets li{color:var(--ink)}
+table.cmp td.lowconf .cell-source a{color:var(--accent)}
+table.cmp tr:nth-child(even) td{background:rgba(247,247,245,0.35)}
+table.cmp tr.grp td{background:var(--shade)}
+table.cmp tr:nth-child(even) .rowdim{background:#faf9f5}
+table.cmp tr:not(.grp):hover td{background:var(--shade)}
+table.cmp tr:not(.grp):hover .rowdim{background:var(--shade)}
+table.cmp td.recent .cell-summary,
+table.cmp td.recent .cell-bullets li{color:var(--accent)}
+table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
+
+
+/* ---------- dynamics ---------- */
+.toggle{display:inline-flex;border:1px solid var(--line2);border-radius:2px;overflow:hidden;margin-right:14px}
+.toggle button{font-family:var(--mono);font-size:12px;letter-spacing:.5px;padding:7px 16px;border:none;background:var(--paper);color:var(--ink2);cursor:pointer;transition:background .15s,color .15s}
+.toggle button.on{background:var(--accent);color:#fff}
+.toggle button:hover:not(.on){background:var(--shade);color:var(--ink)}
+.dynhead{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:6px 0 18px}
+.range-note{font-family:var(--sans);font-size:12.5px;color:var(--ink3);margin:-4px 0 16px;line-height:1.8;letter-spacing:0}
+
+.feed{border-top:1px solid var(--line2)}
+.item{display:grid;grid-template-columns:88px 1fr;gap:18px;padding:16px 4px;border-bottom:1px solid var(--line);transition:background .15s,color .15s}
+.item:hover{background:var(--shade);border-radius:2px}
+.item .date{font-family:var(--mono);font-size:11.5px;color:var(--ink3);padding-top:2px;font-weight:500}
+.item .cat{display:inline-block;font-size:11.5px;color:var(--accent);font-family:var(--mono);letter-spacing:.2px;font-weight:600;margin-bottom:3px}
+.item .ttl{font-size:14.5px;color:var(--ink);margin:0 0 4px;line-height:1.5}
+.item .src{font-size:11.5px;color:var(--ink3)}
+.item.read .ttl a{color:#5b3f8c}
+.item.read .cat{color:#5b3f8c}
+
+.weekgroup{border-top:1px solid var(--line2);padding-top:4px}
+.weekgroup h3{font-family:var(--mono);font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--accent);margin:18px 0 2px}
+.weekgroup .week-summary{font-size:12.5px;color:var(--ink2);margin:4px 0 10px;line-height:1.65;font-family:var(--sans)}
+.weekgroup ul{list-style:none;margin:0 0 4px;padding:0}
+.weekgroup li{padding:9px 0;border-bottom:1px solid var(--line);font-size:13.5px;display:grid;grid-template-columns:80px 1fr;gap:16px}
+.weekgroup li .d{font-family:var(--mono);font-size:11px;color:var(--ink3)}
+.weekrange{font-family:var(--mono);font-size:12px;color:var(--ink3)}
+.week-insight{font-size:13.5px;color:var(--ink2);background:var(--shade);padding:16px 18px;margin:0 0 16px;line-height:1.75;border-left:3px solid var(--accent);border-radius:0 3px 3px 0}
+.week-insight ul{list-style:none;margin:0;padding:0}
+.week-insight li{position:relative;padding-left:12px;margin:5px 0}
+.week-insight li::before{content:'·';position:absolute;left:0;top:0;color:var(--accent)}
+.week-insight b{color:var(--ink);font-weight:650}
+
+/* source legend */
+#srcLegend{font-size:11.5px;color:var(--ink3);line-height:1.8;padding:10px 0 2px;display:none;border-top:1px solid var(--line);margin-top:10px}
+#srcLegend b{color:var(--ink2);font-weight:600;margin-right:4px}
+#srcLegend .src-item{display:inline-block;margin-right:16px;white-space:normal}
+.matrix-legend{font-size:12px;color:var(--ink3);line-height:1.8;margin:4px 0 12px}
+.matrix-legend b{color:var(--accent);font-weight:650}
+.matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
+.matrix-state.show{display:block}
+.matrix-state b{color:var(--ink2);font-weight:650}
+/* pending companies */
+.pending-tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:10px;font-size:11px;font-family:var(--mono);margin-right:6px;margin-top:4px;letter-spacing:0.3px}
+.pending-del{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;margin-left:2px;padding:0 2px;line-height:1}
+.pending-del:hover{color:var(--ink)}
+
+/* add-company inline */
+.addbox{margin:8px 0 0;display:none}
+.addbox.show{display:block}
+.addbox input{font-family:var(--sans);font-size:13px;padding:7px 10px;border:1px solid var(--line2);width:220px;background:var(--paper);border-radius:2px}
+.addbox input:focus{outline:none;border-color:var(--accent)}
+.addbox .go{font-family:var(--mono);font-size:12px;padding:7px 14px;border:1px solid var(--accent);background:var(--accent);color:#fff;cursor:pointer;margin-left:6px;border-radius:2px}
+.notice{margin-top:10px;font-size:12.5px;color:var(--ink2);background:var(--accent-soft);border-left:3px solid var(--accent);padding:9px 12px;display:none;border-radius:0 3px 3px 0}
+.notice.show{display:block}
+
+.hide{display:none}
+.errnote{color:var(--ink3);font-size:12.5px;padding:12px 0;font-family:var(--mono)}
+@media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
+</style>
+</head>
+<body>
+<div class="sheet">
+
+  <!-- ===== masthead ===== -->
+  <div class="kicker">Embodied-AI Competitive Landscape · V2 Workspace</div>
+  <div class="masthead">
+    <div>
+      <h1>具身智能赛道 · 竞争格局 V2</h1>
+    </div>
+    <div class="meta">
+      动态更新 <b id="pubdate">—</b><br>
+      收录公司 <b id="cocount">—</b> 家
+    </div>
+  </div>
+  <div class="toprule"></div>
+
+  <!-- ===== SECTION 1 — comparison table ===== -->
+  <div class="sechead">
+    <div>
+      <div class="secnum">01 — 对比</div>
+      <div class="sectitle">竞争格局对比</div>
+    </div>
+    <button class="txtbtn" id="dlBtn">下载 Excel</button>
+  </div>
+  <div id="matrixState" class="matrix-state"></div>
+  <div class="matrix-legend"><b>xxx</b>：近30天内新增公开信息</div>
+  <div class="tablewrap">
+    <table class="cmp" id="cmpTable">
+      <colgroup id="cmpCols"></colgroup>
+      <thead id="cmpHead"></thead>
+      <tbody id="cmpBody"></tbody>
+    </table>
+  </div>
+  <div id="srcLegend" style="margin-top:10px;font-size:12px;color:var(--ink3);line-height:1.8;display:none"></div>
+
+  <!-- ===== SECTION 2 — dynamics ===== -->
+  <div class="sechead">
+    <div>
+      <div class="secnum">02 — 动态</div>
+      <div class="sectitle">赛道动态</div>
+    </div>
+  </div>
+  <div class="dynhead">
+    <div class="toggle">
+      <button id="tFeed" class="on">最新动态</button>
+      <button id="tWeek">本周周报</button>
+    </div>
+  </div>
+
+  <!-- 最新动态 -->
+  <div id="feedNote" class="range-note">滚动提取近7天具身智能领域新闻热点</div>
+  <div id="viewFeed" class="feed">
+    <div class="errnote" id="feedLoading">正在加载最新动态…</div>
+  </div>
+
+  <!-- 本周周报 -->
+  <div id="viewWeek" class="hide">
+    <div class="weekrange" id="weekRange">本周汇总生成中…</div>
+    <div id="weekGroups"></div>
+  </div>
+</div>
+
+<script src="../scripts/xlsx.full.min.js"></script>
+<script>
+// ---- helpers ----
+function isRecent(dateStr){
+  if(!dateStr) return false;
+  const now=new Date();
+  const parts=dateStr.split('-').map(Number);
+  let target;
+  if(parts.length===3){
+    target=new Date(parts[0], parts[1]-1, parts[2]);
+  }else if(parts.length===2 && parts[0] > 1900){
+    target=new Date(parts[0], parts[1]-1, 1);
+  }else if(parts.length===2){
+    target=new Date(now.getFullYear(), parts[0]-1, parts[1]);
+  }else{
+    return false;
+  }
+  const diff=(now-target)/(1000*60*60*24);
+  return diff>=0 && diff<=30;
+}
+function esc(s){
+  return String(s ?? '').replace(/[&<>"']/g, ch => ({
+    '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;'
+  }[ch]));
+}
+function formatDateTime(s){
+  if(!s) return '—';
+  return String(s).replace('T',' ').substring(0,16);
+}
+function getReadNews(){try{return JSON.parse(localStorage.getItem('readNews')||'[]');}catch(e){return [];}}
+function markRead(url){
+  if(!url || url==='#') return;
+  const read=getReadNews();
+  if(!read.includes(url)){
+    read.push(url);
+    localStorage.setItem('readNews', JSON.stringify(read.slice(-300)));
+  }
+}
+function normalizeCell(cell){
+  if(cell && typeof cell === 'object' && 'summary' in cell){
+    return {
+      summary: cell.summary || '待核验',
+      bullets: Array.isArray(cell.bullets) ? cell.bullets : [],
+      confidence: cell.confidence || 'medium',
+      kind: cell.kind || 'evidence',
+      updated_recent: cell.updated_recent === true,
+      note: cell.note || ''
+    };
+  }
+  const text=String(cell ?? '暂无公开数据');
+  const parts=text.split(/[,，、;；]/).filter(s=>s.trim()).map(s=>s.trim());
+  return {
+    summary: parts[0] ? parts[0].slice(0,10) : '待核验',
+    bullets: (parts.length>1 ? parts.slice(1,4) : [text]).map(t=>({text:t, sources:[]})),
+    confidence: /暂无|未公开|传闻|可能|预计|目标/.test(text) ? 'low' : 'medium',
+    kind: 'evidence',
+    updated_recent: false,
+    note: ''
+  };
+}
+function cellSources(cell, fallback){
+  if(cell && typeof cell === 'object' && cell.kind === 'synthesis') return [];
+  const out=[];
+  const norm=normalizeCell(cell);
+  norm.bullets.forEach(b=>{
+    if(b && Array.isArray(b.sources)) b.sources.forEach(s=>out.push(s));
+  });
+  if(!out.length && fallback) out.push(fallback);
+  const seen=new Set();
+  return out.filter(s=>{
+    if(!s) return false;
+    const url=(typeof s==='object'?s.url:s)||'';
+    const name=(typeof s==='object'?s.name:s)||'';
+    const key=url || name;
+    if(!key || key==='#' || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
+// Add-company flow is intentionally disabled for the delivery build.
+localStorage.removeItem('pendingCompanies');
+localStorage.removeItem('submittedCompanies');
+localStorage.removeItem('removedCompanies');
+
+function renderMatrixState(){
+  const el=document.getElementById('matrixState');
+  if(!el) return;
+  el.innerHTML='';
+  el.classList.remove('show');
+}
+
+// ---- dynamics toggle ----
+const tFeed=document.getElementById('tFeed'), tWeek=document.getElementById('tWeek'),
+      vFeed=document.getElementById('viewFeed'), vWeek=document.getElementById('viewWeek'),
+      feedNote=document.getElementById('feedNote');
+function show(week){
+  tWeek.classList.toggle('on',week); tFeed.classList.toggle('on',!week);
+  vWeek.classList.toggle('hide',!week); vFeed.classList.toggle('hide',week);
+  feedNote.classList.toggle('hide',week);
+}
+tFeed.onclick=()=>show(false); tWeek.onclick=()=>show(true);
+
+// ---- render table from JSON ----
+function renderTable(){
+  // (renderTable will be defined below using global data)
+  if(window.__tableData){
+    _renderTable(window.__tableData);
+  }
+}
+
+async function loadTable(){
+  try{
+    const res=await fetch(`./data/table.json?v=${Date.now()}`, {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    window.__tableData = data;
+    try{
+      _renderTable(data);
+    }catch(renderError){
+      console.error(renderError);
+      renderSimpleTable(data);
+    }
+  }catch(e){
+    console.error(e);
+    document.getElementById('cmpBody').innerHTML='<tr><td colspan="9" class="errnote">数据暂时无法加载，请稍后刷新。</td></tr>';
+  }
+}
+
+const circled=n=>String(n+1);
+function hostName(url){try{const u=new URL(url);return u.hostname.replace(/^www\./,'');}catch(e){return url;}}
+function prettySource(s){
+  const url=(typeof s==='object'?s.url:s)||'';
+  const name=(typeof s==='object'?s.name:s)||'';
+  if(typeof s==='object' && s.name) return s.name;
+  return hostName(url);
+}
+function extractDate(sourceName){
+  const full = sourceName.match(/(\d{4})[-年](\d{1,2})[-月](\d{1,2})/);
+  if(full){
+    return full[1] + '-' + full[2].padStart(2, '0') + '-' + full[3].padStart(2, '0');
+  }
+  const m = sourceName.match(/(\d{4})[-年](\d{1,2})/);
+  if(m){
+    return m[1] + '-' + m[2].padStart(2, '0');
+  }
+  return null;
+}
+
+function _renderTable(data){
+  document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
+
+  const orig = data.companies || [];
+  const visibleCompanies = orig;
+  const filteredGroups = data.groups || [];
+
+  // Collect & deduplicate sources across whole table
+  const srcMap=new Map();
+  let srcCounter=0;
+  filteredGroups.forEach(g=>{
+    g.rows.forEach(r=>{
+      r.cells.forEach((cell, idx)=>{
+        cellSources(cell, r.sources ? r.sources[idx] : null).forEach(s=>{
+          if(!s) return;
+          const url=(typeof s==='object'?s.url:s)||'';
+          if(url && url!=='#' && !srcMap.has(url)){
+            srcMap.set(url,{name:prettySource(s), idx:srcCounter++});
+          }
+        });
+      });
+    });
+  });
+
+  const thead=document.getElementById('cmpHead');
+  thead.innerHTML='';
+  const colgroup=document.getElementById('cmpCols');
+  colgroup.innerHTML='';
+  const table=document.getElementById('cmpTable');
+  const tr=document.createElement('tr');
+  // 动态计算每列宽度：rowdim 占约 8%，其余列均匀分布
+  const n = visibleCompanies.length;
+  const dimWidth = 112;
+  table.style.minWidth = `${Math.max(760, dimWidth + Math.max(n,1) * 150)}px`;
+  const companyPct = n ? ((100 - 10) / n) : 90;
+  colgroup.innerHTML = `<col style="width:10%">` + visibleCompanies.map(()=>`<col style="width:${companyPct}%">`).join('');
+  tr.innerHTML=`<th class="corner rowdim">维度</th>`+
+    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><span class="coname">${c.name}</span><span class="coreason">${c.reason}</span></th>`).join('');
+  thead.appendChild(tr);
+
+  const tbody=document.getElementById('cmpBody');
+  tbody.innerHTML='';
+  filteredGroups.forEach(g=>{
+    const grp=document.createElement('tr'); grp.className='grp';
+    grp.innerHTML=`<td class="rowdim">${g.label}</td><td colspan="${visibleCompanies.length}"></td>`;
+    tbody.appendChild(grp);
+    g.rows.forEach(r=>{
+      const row=document.createElement('tr');
+      let html=`<td class="rowdim">${r.label}</td>`;
+      r.cells.forEach((cell,idx)=>{
+        const normalized = normalizeCell(cell);
+        const cls=[visibleCompanies[idx].emphasis?'self':'', normalized.confidence==='low' && normalized.kind!=='synthesis'?'lowconf':''].filter(Boolean).join(' ');
+        const bullets = normalized.bullets.slice(0,3).map(b=>`<li>${esc(b.text || b)}</li>`).join('');
+        let cellRecent = normalized.updated_recent ? ' recent' : '';
+        const sources = cellSources(cell, r.sources ? r.sources[idx] : null);
+        // 来源编号
+        let sourceHtml = '';
+        if(sources.length){
+          const s = sources[0];
+          const url=(typeof s==='object'?s.url:s)||'';
+          if(url && url!=='#' && srcMap.has(url)){
+            const nums=sources.filter(x=>{
+              const u=(typeof x==='object'?x.url:x)||'';
+              return u && srcMap.has(u);
+            }).map(x=>`<a href="${esc((typeof x==='object'?x.url:x)||'')}" target="_blank" title="${esc((typeof x==='object'?x.name:x)||'')}">[${circled(srcMap.get((typeof x==='object'?x.url:x)||'').idx)}]</a>`).join('');
+            sourceHtml = `<div class="cell-source">${nums}</div>`;
+          }
+        }
+        html+=`<td class="${cls}${cellRecent}" title="${esc(normalized.note || '')}">${sourceHtml}<div class="cell-summary">${esc(normalized.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
+      });
+      row.innerHTML=html;
+      tbody.appendChild(row);
+    });
+  });
+
+  // Render source legend
+  if(srcMap.size){
+    const legend=document.getElementById('srcLegend');
+    const items=[...srcMap.entries()].sort((a,b)=>a[1].idx-b[1].idx);
+    legend.innerHTML='<b>来源</b>：'+items.map(([url,info])=>`[${circled(info.idx)}] ${info.name}`).join(' · ');
+    legend.style.display='block';
+  }
+  // 显示恢复被隐藏公司
+  renderMatrixState();
+}
+
+function renderSimpleTable(data){
+  document.getElementById('cocount').textContent = data.companies ? data.companies.length : '—';
+  const companies=data.companies||[];
+  const thead=document.getElementById('cmpHead');
+  const tbody=document.getElementById('cmpBody');
+  const colgroup=document.getElementById('cmpCols');
+  document.getElementById('srcLegend').style.display='none';
+  colgroup.innerHTML=`<col style="width:10%">`+companies.map(()=>`<col>`).join('');
+  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  tbody.innerHTML='';
+  (data.groups||[]).forEach(g=>{
+    const grp=document.createElement('tr');
+    grp.className='grp';
+    grp.innerHTML=`<td class="rowdim">${esc(g.label)}</td><td colspan="${companies.length}"></td>`;
+    tbody.appendChild(grp);
+    (g.rows||[]).forEach(r=>{
+      const cells=(r.cells||[]).map(cell=>{
+        const n=normalizeCell(cell);
+        const bullets=(n.bullets||[]).slice(0,3).map(b=>`<li>${esc(b.text||b)}</li>`).join('');
+        return `<td><div class="cell-summary">${esc(n.summary)}</div><ul class="cell-bullets">${bullets}</ul></td>`;
+      }).join('');
+      const tr=document.createElement('tr');
+      tr.innerHTML=`<td class="rowdim">${esc(r.label)}</td>${cells}`;
+      tbody.appendChild(tr);
+    });
+  });
+  renderMatrixState();
+}
+
+// ---- render feed & weekly report ----
+function getThisWeekRange(){
+  const now=new Date();
+  const day=now.getDay(); // 0 Sun .. 6 Sat
+  const mon=new Date(now); mon.setDate(now.getDate()-((day+6)%7));
+  const sun=new Date(mon); sun.setDate(mon.getDate()+6);
+  const fmt=d=>`${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  return {start:fmt(mon), end:fmt(sun), startObj:mon, endObj:sun};
+}
+
+function getRollingRange(days=7){
+  const now=new Date();
+  const start=new Date(now);
+  start.setDate(now.getDate()-(days-1));
+  const fmt=d=>`${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  return {start:fmt(start), end:fmt(now), startObj:start, endObj:now};
+}
+
+function withinRange(dateStr, startStr, endStr){
+  if(!dateStr) return false;
+  return dateStr>=startStr && dateStr<=endStr;
+}
+
+function renderFeed(items){
+  const container=document.getElementById('viewFeed');
+  const range=getRollingRange(7);
+  const visible=(items||[]).filter(it=>withinRange(it.date, range.start, range.end));
+  document.getElementById('feedNote').textContent=`滚动提取近7天具身智能领域新闻热点（${range.start}到${range.end}）`;
+  if(!visible.length){
+    container.innerHTML='<div class="errnote">暂无最新动态。</div>'; return;
+  }
+  const read=new Set(getReadNews());
+  container.innerHTML=visible.map(it=>`
+    <div class="item ${read.has(it.url)?'read':''}" data-url="${esc(it.url||'')}">
+      <div class="date">${esc(it.date)}</div>
+      <div>
+        <div class="cat">${esc(it.category||'行业动态')}</div>
+        <div class="ttl">${it.url&&it.url!=='#'?`<a href="${esc(it.url)}" target="_blank">${esc(it.title)}</a>`:esc(it.title)}</div>
+        <div class="src">${esc(it.source_name||'')}</div>
+      </div>
+    </div>
+  `).join('');
+  container.querySelectorAll('.item a').forEach(a=>{
+    a.addEventListener('click',()=>{
+      markRead(a.href);
+      const item=a.closest('.item');
+      if(item) item.classList.add('read');
+    });
+  });
+}
+
+function renderWeeklyReport(items){
+  const range=getThisWeekRange();
+  const startStr=range.start; const endStr=range.end;
+  document.getElementById('weekRange').textContent=`汇总本周热点新闻（周一到周日，${startStr}到${endStr}）`;
+
+  const weekItems=items.filter(it=>{
+    return withinRange(it.date, startStr, endStr);
+  });
+
+  const order=['技术突破','产品量产','商业订单','资本动态','行业动态'];
+  const grouped={};
+  weekItems.forEach(it=>{
+    const cat=it.category||'行业动态';
+    if(!grouped[cat]) grouped[cat]=[];
+    grouped[cat].push(it);
+  });
+
+  const container=document.getElementById('weekGroups');
+  if(!weekItems.length){
+    container.innerHTML='<div class="errnote">本周暂无动态。</div>'; return;
+  }
+
+  function buildWeekInsight(arr){
+    function textOf(it){
+      return `${it.title||''} ${it.summary||''}`;
+    }
+    function hasAny(text, words){
+      return words.some(w=>text.toLowerCase().includes(String(w).toLowerCase()));
+    }
+    function cleanFact(it){
+      let s=(it.summary||'').replace(/\s+/g,' ').trim();
+      if(!s) return '';
+      s=s.replace(/^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*/,'');
+      s=s.replace(/^据[^，,。]{2,16}[，,]\s*/,'');
+      s=s.replace(/#.*$/,'').replace(/The post appeared first on .*$/i,'');
+      s=s.replace(/。.*$/,'。');
+      if(s.length>72) s=s.slice(0,71)+'…';
+      return s.replace(/[；;，,、\s]+$/,'');
+    }
+    function score(items, include, exclude=[]){
+      return items.map(it=>{
+        const text=textOf(it);
+        let n=0;
+        include.forEach(group=>{ if(hasAny(text, group.words)) n+=group.weight; });
+        exclude.forEach(pattern=>{ if(pattern.test(text)) n-=6; });
+        if(it.summary && it.summary.length>40) n+=1;
+        return {it,n};
+      }).filter(x=>x.n>0).sort((a,b)=>b.n-a.n).map(x=>x.it);
+    }
+    function pick(items, limit=2){
+      const seen=new Set();
+      return items.filter(it=>{
+        const key=(it.company||'')+'|'+(it.url||it.title||'').replace(/\?.*$/,'');
+        if(seen.has(key)) return false;
+        seen.add(key);
+        return true;
+      }).slice(0,limit);
+    }
+    function facts(items){
+      return pick(items,2).map(cleanFact).filter(Boolean).join('；');
+    }
+    function useful(items){
+      return pick(items.filter(it=>cleanFact(it)),2);
+    }
+    const autoNoise=[/Model\s+[S3XY]/i,/交付预期|购车|车型|车主|签名典藏版|销量/];
+    const sceneDeploy=score(arr, [
+      {words:['工厂','产线','供应链','维修服务','巡检','危险环境','咖啡','门店','客户','订单','部署','试用','真实场景','规模化部署'], weight:3},
+      {words:['量产','下线','交付','合作','签约','投用','上岗'], weight:2},
+      {words:['机器人','人形','具身','机械臂','轮臂'], weight:1},
+    ], autoNoise);
+    const modelData=score(arr, [
+      {words:['世界模型','VLA','具身大脑','数据','数采','数据飞轮','真机','微调','成功率','触觉','感知','强化学习'], weight:3},
+      {words:['模型','合规备案','基础设施','评测','人类生成的数据'], weight:2},
+    ], autoNoise);
+    const priceDelivery=score(arr, [
+      {words:['量产','下线','第15000台','15000台','交付','发布','推出','首秀','产品矩阵'], weight:3},
+      {words:['规模化','部署','成本','良率','供应链'], weight:2},
+    ], autoNoise);
+    const capitalScene=score(arr, [
+      {words:['融资','投资','IPO','募资','并购','收购','估值','独角兽','战略投资'], weight:3},
+      {words:['场景','客户','订单','数据基础设施','物理AI'], weight:1},
+    ], autoNoise);
+    const supplyChain=score(arr, [
+      {words:['芯片','关节','编码器','减速器','传感器','触觉','激光','电池','材料','BOM','供应链'], weight:3},
+      {words:['控制','力控','执行器','伺服','数据采集'], weight:2},
+    ], autoNoise);
+
+    const bullets=[];
+    const sceneFacts=useful(sceneDeploy);
+    const modelFacts=useful(modelData);
+    const capitalFacts=useful(capitalScene);
+    const priceFacts=useful(priceDelivery);
+    const supplyFacts=useful(supplyChain);
+
+    if(sceneFacts.length>=2){
+      bullets.push({
+        label:'落地验证集中在工厂、维修、巡检等可验收任务',
+        text:`本周最有支撑的落地信号来自边界清楚的作业任务，${facts(sceneFacts)}。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。`
+      });
+    }
+    if(modelFacts.length>=2){
+      bullets.push({
+        label:'模型叙事正在落到真实数据和任务闭环',
+        text:`技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，${facts(modelFacts)}。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。`
+      });
+    }
+    if(capitalFacts.length>=2){
+      bullets.push({
+        label:'资本更看重可定义场景和能力补齐',
+        text:`融资和并购信号需要和用途一起看，${facts(capitalFacts)}。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。`
+      });
+    }
+    if(bullets.length<3 && priceFacts.length>=2){
+      bullets.push({
+        label:'量产数字开始成为能力验证的一部分',
+        text:`产品侧的重点从“发布了什么”转向“能否持续制造和部署”，${facts(priceFacts)}。量产规模只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。`
+      });
+    }
+    if(bullets.length<3 && supplyFacts.length>=2){
+      bullets.push({
+        label:'供应链机会要绑定具体性能瓶颈',
+        text:`上游动态的判断标准应落到部件解决什么问题，${facts(supplyFacts)}。能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。`
+      });
+    }
+    if(!bullets.length){
+      bullets.push({label:'本周无强结论', text:'新闻较分散，暂时不足以支撑明确趋势判断；更适合逐条看具体公司、客户和产品指标。'});
+    }
+    return `<ul>${bullets.slice(0,3).map(b=>`<li><b>${esc(b.label)}：</b>${esc(b.text)}</li>`).join('')}</ul>`;
+  }
+
+  let html = `<div class="week-insight">${buildWeekInsight(weekItems)}</div>`;
+
+  // 从新闻标题提取关键实体和趋势，生成具体 summary
+  function extractTrend(arr, cat){
+    if(!arr || !arr.length) return '';
+    // 收集所有标题
+    const titles = arr.map(it=>it.title || '').join(' ');
+    // 提取公司/产品名（简单规则：中文2-8字的公司名/产品名）
+    const coPattern = /([\u4e00-\u9fa5]{2,8}(?:机器人|智能|科技|VLA|模型|大模型|具身))/g;
+    const matches = titles.match(coPattern) || [];
+    const cos = [...new Set(matches)].slice(0, 3);
+    const cosStr = cos.length ? cos.join('、') : '';
+    // 按分类生成更具体的描述
+    switch(cat){
+      case '技术突破':
+        if(/数据|数采|数据集/.test(titles) && /VLA|vla|NeuroVLA|世界模型/.test(titles)) return `技术侧的核心变化是“模型能力”和“数据供给”开始一起推进，后续谁能低成本拿到高质量真机数据会更关键。`;
+        if(/VLA|vla|视觉语言|NeuroVLA|世界模型/.test(titles)) return `VLA/世界模型仍是技术主线，但判断标准应从发布概念转向能否支撑复杂任务泛化。`;
+        return `技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。`;
+      case '产品量产':
+        if(/发布|亮相|NeuroVLA|K02/.test(titles)) return `产品侧以模型系统和能力首秀为主，重点仍是证明“理解到执行”的闭环。`;
+        if(/投用|量产|交付|下线/.test(titles)) return `产品侧出现真实投用信号，机器人开始从展会展示进入细分作业场景。`;
+        return `产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。`;
+      case '商业订单':
+        if(/车厂订单|产线|合作|投用/.test(titles)) return `商业化信号集中在工业产线与机器人供应链合作，真实客户验证比消费端更先出现。`;
+        return `商业化动态数量不多，优先关注是否有明确客户、订单规模和部署场景。`;
+      case '资本动态':
+        if(/海洋|家庭|柔性/.test(titles)) return `融资信号开始外溢到海洋、家庭柔性机器人等垂直场景，资本在寻找人形之外的落地路径。`;
+        return `资本动态继续围绕具身智能早期标的，重点看融资后是否绑定真实场景。`;
+      case '行业动态':
+        return `行业讨论的重点不是“是否看好具身智能”，而是数据、感知、执行和场景验证哪一环会成为下一阶段瓶颈。`;
+      default:
+        return `本周 ${arr.length} 条相关动态。`;
+    }
+  }
+
+  order.forEach(cat=>{
+    const arr=grouped[cat]; if(!arr||!arr.length) return;
+    const summary = extractTrend(arr, cat);
+    html += `<div class="weekgroup"><h3>${cat}</h3>` +
+      `<p class="week-summary">${summary}</p>` +
+      `<ul>` + arr.map(it=>`<li><span class="d">${esc(it.date)}</span>` +
+        (it.url&&it.url!=='#' ? `<a href="${esc(it.url)}" target="_blank">${esc(it.title)}</a>` : esc(it.title)) + `</li>`).join('') +
+      `</ul></div>`;
+  });
+  container.innerHTML=html;
+  container.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>markRead(a.href)));
+}
+
+function renderGeneratedWeeklyReport(report){
+  const container=document.getElementById('weekGroups');
+  if(!report || !Array.isArray(report.insights) || !report.insights.length){
+    return false;
+  }
+  const startStr=report.start||''; const endStr=report.end||'';
+  document.getElementById('weekRange').textContent =
+    `汇总本周热点新闻（周一到周日，${startStr}到${endStr}）`;
+
+  let html = `<div class="week-insight"><ul>` +
+    report.insights.slice(0,3).map(item=>{
+      const label=item.label||'本周观察';
+      const text=item.text||'';
+      return `<li><b>${esc(label)}：</b>${esc(text)}</li>`;
+    }).join('') +
+    `</ul></div>`;
+
+  (report.groups||[]).forEach(group=>{
+    const items=Array.isArray(group.items) ? group.items : [];
+    if(!items.length) return;
+    html += `<div class="weekgroup"><h3>${esc(group.category||'行业动态')}</h3>` +
+      `<p class="week-summary">${esc(group.summary||'本周相关动态。')}</p>` +
+      `<ul>` + items.map(it=>`<li><span class="d">${esc(it.date||'')}</span>` +
+        (it.url&&it.url!=='#' ? `<a href="${esc(it.url)}" target="_blank">${esc(it.title||'')}</a>` : esc(it.title||'')) + `</li>`).join('') +
+      `</ul></div>`;
+  });
+  container.innerHTML=html;
+  container.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>markRead(a.href)));
+  return true;
+}
+
+async function loadNews(){
+  try{
+    const res=await fetch(`../data/news.json?v=${Date.now()}`, {cache:'no-store'});
+    if(!res.ok) throw new Error('HTTP '+res.status);
+    const data=await res.json();
+    document.getElementById('pubdate').textContent = formatDateTime(data.updated);
+    renderFeed(data.items);
+    if(!renderGeneratedWeeklyReport(data.weekly_report)){
+      renderWeeklyReport(data.items);
+    }
+  }catch(e){
+    console.error(e);
+    document.getElementById('feedLoading').textContent='动态加载失败，请稍后刷新。';
+  }
+}
+
+// ---- download excel ----
+document.getElementById('dlBtn').onclick = async () => {
+  try{
+    const res = await fetch('./data/table.json');
+    const data = await res.json();
+    // Sheet 1: content
+    const ws1Data = [['维度', ...data.companies.map(c => c.name)]];
+    data.groups.forEach(g => {
+      ws1Data.push([g.label]);
+      g.rows.forEach(r => {
+        ws1Data.push([r.label, ...r.cells.map(c => {
+          const n=normalizeCell(c);
+          const bullets=n.bullets.map(b=>`- ${b.text || b}`).join('\n');
+          return `${n.summary}\n${bullets}`;
+        })]);
+      });
+    });
+    // Sheet 2: source URLs
+    const ws2Data = [['维度', ...data.companies.map(c => c.name)]];
+    data.groups.forEach(g => {
+      ws2Data.push([g.label]);
+      g.rows.forEach(r => {
+        const srcs = r.cells.map((cell, idx) => cellSources(cell, r.sources ? r.sources[idx] : null).map(s => typeof s==='object' ? (s.url||s.name||'') : (s||'')).join('\n'));
+        ws2Data.push([r.label, ...srcs]);
+      });
+    });
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(ws1Data), '对比数据');
+    XLSX.utils.book_append_sheet(wb, XLSX.utils.aoa_to_sheet(ws2Data), '来源链接');
+    XLSX.writeFile(wb, `具身智能竞争格局_${data.published||new Date().toISOString().slice(0,10)}.xlsx`);
+  }catch(e){ alert('下载失败：'+e.message); }
+};
+
+// ---- init ----
+loadTable();
+loadNews();
+</script>
+</body>
+</html>

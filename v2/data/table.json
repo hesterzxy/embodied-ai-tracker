@@ -1,0 +1,4675 @@
+{
+  "schema_version": 2,
+  "verification_method": "triangulated_evidence_v1",
+  "published": "2026-06-18",
+  "companies": [
+    {
+      "name": "智元 AgiBot",
+      "reason": "公开披露量产规模领先 · 第15000台2026年6月下线",
+      "emphasis": false
+    },
+    {
+      "name": "星海图 Galaxea",
+      "reason": "真机数据路线 · G0/G0.5 VLA",
+      "emphasis": false
+    },
+    {
+      "name": "银河通用 Galbot",
+      "reason": "仿真数据见长 · 99%合成数据训练",
+      "emphasis": false
+    },
+    {
+      "name": "宇树 Unitree",
+      "reason": "硬件成本标杆 · 人形出货口径需区分",
+      "emphasis": false
+    },
+    {
+      "name": "特斯拉 Optimus",
+      "reason": "全栈天花板 · 感知/算力体系复用",
+      "emphasis": false
+    },
+    {
+      "name": "Figure",
+      "reason": "海外创业头牌 · $39B估值 + BMW实机",
+      "emphasis": false
+    },
+    {
+      "name": "Physical Intelligence",
+      "reason": "纯模型路线 · π0系列跨本体",
+      "emphasis": false
+    }
+  ],
+  "groups": [
+    {
+      "label": "战略定位",
+      "rows": [
+        {
+          "label": "核心差异化",
+          "cells": [
+            {
+              "summary": "量产规模",
+              "bullets": [
+                {
+                  "text": "公开披露量产规模领先",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "第15000台2026年6月下线",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": "15000台为明确披露节点；“领先”为公开披露口径下的竞争判断，仍需持续对比同口径出货。"
+            },
+            {
+              "summary": "真机数据",
+              "bullets": [
+                {
+                  "text": "真实数据资产优先",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "G0/G0.5 VLA路线",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "R1平台先落地",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "仿真数据",
+              "bullets": [
+                {
+                  "text": "仿真数据见长",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "99%合成数据训练",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
+            },
+            {
+              "summary": "硬件低价",
+              "bullets": [
+                {
+                  "text": "硬件成本标杆",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "人形出货为自报口径",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "第三方口径与智元排名有差异",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号；出货量口径存在公司自报与第三方统计差异"
+            },
+            {
+              "summary": "自产场景",
+              "bullets": [
+                {
+                  "text": "全栈自研体系",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自有工厂先验证",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "复用感知栈/算力体系",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号；FSD相关表述限定为感知栈和算力体系复用"
+            },
+            {
+              "summary": "海外工厂",
+              "bullets": [
+                {
+                  "text": "海外创业头牌",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "$39B估值 + BMW实机",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
+            },
+            {
+              "summary": "纯模型层",
+              "bullets": [
+                {
+                  "text": "纯模型路线",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "π0 VLA跨本体",
+                  "sources": [
+                    {
+                      "name": "战略归纳",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "战略归纳，不显示引用编号"
+            }
+          ],
+          "sources": [
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "战略归纳",
+              "url": "#",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "技术选择",
+          "cells": [
+            {
+              "summary": "整机+大脑",
+              "bullets": [
+                {
+                  "text": "人形整机+具身大模型"
+                },
+                {
+                  "text": "软硬一体"
+                },
+                {
+                  "text": "完整本体矩阵"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "G0路线",
+              "bullets": [
+                {
+                  "text": "G0双系统VLA框架",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "G0.5统一VLA生成框架",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "视觉语言动作连续生成",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "仿真驱动",
+              "bullets": [
+                {
+                  "text": "大脑优先",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "合成仿真数据为主(99%)",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "真机少量调优",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "运动控制",
+              "bullets": [
+                {
+                  "text": "四足起家延伸人形",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "核心优势在硬件与运动控制",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "AI模型合作英伟达GR00T",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "FSD迁移",
+              "bullets": [
+                {
+                  "text": "纯视觉无激光雷达",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "FSD能力迁移",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Dojo超算训练",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "Helix自研",
+              "bullets": [
+                {
+                  "text": "自研Helix VLA",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "纯视觉端到端",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自产硬件配套",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "跨本体模型",
+              "bullets": [
+                {
+                  "text": "不做本体",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "专注通用机器人基础模型",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "硬件无关",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 Helix",
+              "url": "https://www.figure.ai/news/helix",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "目标场景",
+          "cells": [
+            {
+              "summary": "工业优先",
+              "bullets": [
+                {
+                  "text": "工业制造/汽车产线"
+                },
+                {
+                  "text": "商用导览"
+                },
+                {
+                  "text": "家庭服务(2026年底目标)"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "双臂优先",
+              "bullets": [
+                {
+                  "text": "R1 Lite/Pro优先落地",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "A1Z单臂平台同步推进",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Kengo双足仍在早期",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "零售工业",
+              "bullets": [
+                {
+                  "text": "工业制造(宁德时代)",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "即时零售/智慧药房",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "文旅新消费",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "科研教育",
+              "bullets": [
+                {
+                  "text": "科研教育为主(73.6%)",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "工业场景(约9%)",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "海外市场约50%",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "自有工厂",
+              "bullets": [
+                {
+                  "text": "特斯拉自有工厂优先",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "长期目标面向全球汽车产线与通用场景",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "BMW产线",
+              "bullets": [
+                {
+                  "text": "汽车制造(BMW)",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "家庭/物流等场景演示",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/helix",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "长期扩展多场景通用劳动力",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "模型赋能",
+              "bullets": [
+                {
+                  "text": "制造",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "物流",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "医疗",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "技术能力",
+      "rows": [
+        {
+          "label": "硬件能力",
+          "cells": [
+            {
+              "summary": "双臂工业",
+              "bullets": [
+                {
+                  "text": "远征A2双臂工业机",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "关节高扭矩参数待官方规格复核",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "灵犀X2轻量化版",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "512Nm具体数值暂不展示，待官方规格书或双源核验"
+            },
+            {
+              "summary": "轮式双臂",
+              "bullets": [
+                {
+                  "text": "R1 Lite/Pro轮式双臂",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "A1Z单臂平台发布",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Kengo双足人形亮相",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "重载双臂",
+              "bullets": [
+                {
+                  "text": "Galbot G1轮式双臂",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "S1重载版50kg负载",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "关节自研",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "四足到人形",
+              "bullets": [
+                {
+                  "text": "H1/H2双足人形+Go2四足",
+                  "sources": [
+                    {
+                      "name": "宇树官网 2026",
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "整机自研关节与核心部件",
+                  "sources": [
+                    {
+                      "name": "宇树官网 2026",
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "全栈本体",
+              "bullets": [
+                {
+                  "text": "Optimus Gen3仍待正式规格",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Gen3手部22自由度为常见披露",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "执行器数量口径未稳定，暂不写50个",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "Figure 03",
+              "bullets": [
+                {
+                  "text": "Figure 03量产版",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自研发动机与关节",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "适配工业环境",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Figure 03",
+                      "url": "https://www.figure.ai/news/introducing-figure-03",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "不造硬件",
+              "bullets": [
+                {
+                  "text": "不造硬件",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "适配第三方本体(Unitree/Fourier/AgileX等)",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网 2026",
+              "url": "https://www.unitree.com",
+              "evidence": ""
+            },
+            {
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 Figure 03",
+              "url": "https://www.figure.ai/news/introducing-figure-03",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "大脑自研",
+          "cells": [
+            {
+              "summary": "启元模型",
+              "bullets": [
+                {
+                  "text": "自研启元大模型+仿真平台",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "端到端具身基座模型",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自主芯片适配",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "G0模型",
+              "bullets": [
+                {
+                  "text": "G0双系统VLA模型",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "G0.5模型宣布开源",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "VLM规划+VLA执行",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "银河星脑",
+              "bullets": [
+                {
+                  "text": "自研银河星脑",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "合成数据驱动模型架构",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "面向零售与工业任务",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "补上层脑",
+              "bullets": [
+                {
+                  "text": "运动控制自研",
+                  "sources": [
+                    {
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "AI大脑与英伟达GR00T合作",
+                  "sources": [
+                    {
+                      "name": "NVIDIA Isaac GR00T",
+                      "url": "https://developer.nvidia.com/isaac/gr00t",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "补足上层模型能力",
+                  "sources": [
+                    {
+                      "name": "NVIDIA Isaac GR00T",
+                      "url": "https://developer.nvidia.com/isaac/gr00t",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "GR00T为生态合作/开发平台，不等同于宇树自研大脑完全成熟"
+            },
+            {
+              "summary": "FSD复用",
+              "bullets": [
+                {
+                  "text": "全自研感知/规划体系",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "FSD与Dojo能力可复用",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "不等同于驾驶数据直接迁移为操作数据",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "Helix模型",
+              "bullets": [
+                {
+                  "text": "自研Helix（脱离OpenAI后全自研）",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "VLA + 世界模型 + 强化学习",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Helix",
+                      "url": "https://www.figure.ai/news/helix",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "π0系列",
+              "bullets": [
+                {
+                  "text": "π0/π0.5/π0.7 VLA路线",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence π0.5",
+                      "url": "https://www.physicalintelligence.company/blog/pi05",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "世界模型与行为-动作模型",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence π0.5",
+                      "url": "https://www.physicalintelligence.company/blog/pi05",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "核心自研能力",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence π0.5",
+                      "url": "https://www.physicalintelligence.company/blog/pi05",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "不展示非正式代际写法，避免与π0系列主线混淆"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网 G1",
+              "url": "https://www.unitree.com/g1",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 Helix",
+              "url": "https://www.figure.ai/news/helix",
+              "evidence": ""
+            },
+            {
+              "name": "Physical Intelligence π0.5",
+              "url": "https://www.physicalintelligence.company/blog/pi05",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "数据策略",
+          "cells": [
+            {
+              "summary": "工厂闭环",
+              "bullets": [
+                {
+                  "text": "真机+仿真合成",
+                  "sources": [
+                    {
+                      "name": "机器之心 2025-10",
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自有工厂部署采集",
+                  "sources": [
+                    {
+                      "name": "机器之心 2025-10",
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "数据闭环",
+                  "sources": [
+                    {
+                      "name": "机器之心 2025-10",
+                      "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "真实数据",
+              "bullets": [
+                {
+                  "text": "100万小时真实数据计划",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "真实工作生活环境数据集",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "对合成数据更谨慎",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "合成主导",
+              "bullets": [
+                {
+                  "text": "百亿级合成数据",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "1%真机微调",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "首创虚实融合训练范式",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "合成数据比例需继续寻找稳定公开来源复核"
+            },
+            {
+              "summary": "生态数据",
+              "bullets": [
+                {
+                  "text": "硬件产品数据+开发者生态",
+                  "sources": [
+                    {
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "缺乏大规模VLA数据积累",
+                  "sources": [
+                    {
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "工厂数据",
+              "bullets": [
+                {
+                  "text": "自有工厂部署采集",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "复用车端感知与训练体系",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "操作数据仍需机器人实机闭环",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "工厂采集",
+              "bullets": [
+                {
+                  "text": "BotQ工厂部署采集+BMW实机数据+仿真",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BotQ",
+                      "url": "https://www.figure.ai/news/botq",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "强化学习在工厂训练",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "跨本体数据",
+              "bullets": [
+                {
+                  "text": "跨7种以上本体聚合数据",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "权重开源",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "供研究社区使用",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "机器之心 2025-10",
+              "url": "https://www.jiqizhixin.com/articles/2025-10-28-7",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网",
+              "url": "https://www.unitree.com",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 BotQ",
+              "url": "https://www.figure.ai/news/botq",
+              "evidence": ""
+            },
+            {
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "实测能力",
+          "cells": [
+            {
+              "summary": "螺丝锁付",
+              "bullets": [
+                {
+                  "text": "工业装配螺丝锁付"
+                },
+                {
+                  "text": "精度与良率持续提升"
+                },
+                {
+                  "text": "量产机台可24小时运行"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "论文基准",
+              "bullets": [
+                {
+                  "text": "桌面操作基准验证",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "少样本学习基准验证",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "长程移动操作验证",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "工厂作业",
+              "bullets": [
+                {
+                  "text": "宁德时代工厂全自主作业",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "零售场景自主运营",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "工业任务持续验证",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "运动展示",
+              "bullets": [
+                {
+                  "text": "高动态运动展示(秧歌/回旋踢/拳击)",
+                  "sources": [
+                    {
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "工业能力正在追赶",
+                  "sources": [
+                    {
+                      "name": "宇树官网 G1",
+                      "url": "https://www.unitree.com/g1",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "仍在内测",
+              "bullets": [
+                {
+                  "text": "未公开精细操作实机",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "主要在工厂内部测试移动与基础搬运",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "BMW试点",
+              "bullets": [
+                {
+                  "text": "进入BMW Spartanburg产线试点",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "公开展示以整机搬运/零件处理为主",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "部署规模与班次数字未稳定披露",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "Figure官方披露班次与产量贡献；BMW未披露机器人数量或交易规模"
+            },
+            {
+              "summary": "论文泛化",
+              "bullets": [
+                {
+                  "text": "叠衣/插滤芯/装箱/清洁陌生家庭",
+                  "sources": [
+                    {
+                      "name": "arXiv 2026-01",
+                      "url": "https://arxiv.org/abs/2601.05678",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "研究论文展示泛化能力强",
+                  "sources": [
+                    {
+                      "name": "arXiv 2026-01",
+                      "url": "https://arxiv.org/abs/2601.05678",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网 G1",
+              "url": "https://www.unitree.com/g1",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "arXiv 2026-01",
+              "url": "https://arxiv.org/abs/2601.05678",
+              "evidence": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "产品化进展",
+      "rows": [
+        {
+          "label": "量产进度",
+          "cells": [
+            {
+              "summary": "15000台下线",
+              "bullets": [
+                {
+                  "text": "6月第15000台精灵G2下线",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06",
+                      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
+                    }
+                  ]
+                },
+                {
+                  "text": "15000台节点后继续爬坡",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06",
+                      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
+                    }
+                  ]
+                },
+                {
+                  "text": "量产进度继续构成领先项",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06",
+                      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "high",
+              "note": "6月新增第15000台下线节点。"
+            },
+            {
+              "summary": "平台推进",
+              "bullets": [
+                {
+                  "text": "R1 Lite/Pro先落地",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "A1Z为新发布平台",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Kengo仍处早期阶段",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "百台运营",
+              "bullets": [
+                {
+                  "text": "百台级自主运营便利店",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "工业重载S1小规模部署",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "公开部署规模仍需继续用稳定来源复核"
+            },
+            {
+              "summary": "口径分歧",
+              "bullets": [
+                {
+                  "text": "四足全球领先",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "宇树官宣人形2025出货5500+台",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Omdia口径约4200台、列第二",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "宇树官方口径与Omdia第三方统计存在差异；避免直接写人形全球第一"
+            },
+            {
+              "summary": "2026目标",
+              "bullets": [
+                {
+                  "text": "研发测试阶段",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "公开目标多指向2026年量产",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "具体月份未稳定披露",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "F03爬坡",
+              "bullets": [
+                {
+                  "text": "Figure 03量产爬坡",
+                  "sources": [
+                    {
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "BotQ制造体系承接量产",
+                  "sources": [
+                    {
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "具体年度交付量待公开",
+                  "sources": [
+                    {
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "软件为主",
+              "bullets": [
+                {
+                  "text": "无硬件生产计划",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "专注软件模型与授权",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "公司定位偏模型层，不展示硬件量产计划"
+            }
+          ],
+          "sources": [
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网量产计划",
+              "url": "https://www.figure.ai/news/ramping-figure-03-production",
+              "evidence": ""
+            },
+            {
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "可靠性",
+          "cells": [
+            {
+              "summary": "产线验证",
+              "bullets": [
+                {
+                  "text": "量产验证"
+                },
+                {
+                  "text": "整机良率持续提升"
+                },
+                {
+                  "text": "工业场景24小时运行测试"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "验证早期",
+              "bullets": [
+                {
+                  "text": "论文基准覆盖多任务",
+                  "sources": [
+                    {
+                      "name": "arXiv 2025-08",
+                      "url": "https://arxiv.org/abs/2509.00576",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "开发者大会扩大验证面",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "产线级可靠性待公开",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "产业化可靠性仍待公开客户数据验证"
+            },
+            {
+              "summary": "常态作业",
+              "bullets": [
+                {
+                  "text": "宁德时代常态化作业",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "零售运营可观察持续运行",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "工业与零售场景验证中",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "出货验证",
+              "bullets": [
+                {
+                  "text": "量产成熟",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "全球出货领先",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "IPO前规模化盈利证明可靠性",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "仍待验证",
+              "bullets": [
+                {
+                  "text": "设计验证中",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "尚未进入工业量产部署",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "可靠性数据仍在积累",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "BMW验证",
+              "bullets": [
+                {
+                  "text": "BMW工厂部署验证",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "产线操作持续迭代",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "可靠性数字以官方披露为准",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "模型验证",
+              "bullets": [
+                {
+                  "text": "模型层验证",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "RECAP自述降低失败率2倍",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "翻倍吞吐效率",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "arXiv 2025-08",
+              "url": "https://arxiv.org/abs/2509.00576",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "价格/成本",
+          "cells": [
+            {
+              "summary": "售价未明",
+              "bullets": [
+                {
+                  "text": "未公开终端售价",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "对标工业机器人价位",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "预计几十万级",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "公开来源未披露稳定终端售价，暂不写具体价格"
+            },
+            {
+              "summary": "成本披露",
+              "bullets": [
+                {
+                  "text": "产品价格未公开",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "百万小时数据成本1亿-2亿元",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "智能总成本含数据算力研发",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "产品售价未公开，成本信息主要来自数据投入口径"
+            },
+            {
+              "summary": "成本未明",
+              "bullets": [
+                {
+                  "text": "整机价格未公开",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "运营模式成本待披露",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "公开资料不足，暂不展示具体成本"
+            },
+            {
+              "summary": "低价标杆",
+              "bullets": [
+                {
+                  "text": "H1约65万",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "G1约9.9万起",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "R1约3.99万",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "目标降本",
+              "bullets": [
+                {
+                  "text": "目标$2-3万",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "当前开发版成本$5-10万",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "规模降本中",
+                  "sources": [
+                    {
+                      "name": "Not a Tesla App 2026",
+                      "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "模式待明",
+              "bullets": [
+                {
+                  "text": "价格未公开",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "商业化路径仍在扩展",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "早期成本仍需观察",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "公开来源未披露单价/租赁价格"
+            },
+            {
+              "summary": "软件授权",
+              "bullets": [
+                {
+                  "text": "模型授权费用",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "不售卖硬件",
+                  "sources": [
+                    {
+                      "name": "Physical Intelligence 官网",
+                      "url": "https://www.physicalintelligence.company/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "模型授权/商业化价格未公开"
+            }
+          ],
+          "sources": [
+            {
+              "name": "智元官网",
+              "url": "https://agibot.com",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 Project Go-Big",
+              "url": "https://www.figure.ai/news/project-go-big",
+              "evidence": ""
+            },
+            {
+              "name": "Physical Intelligence 官网",
+              "url": "https://www.physicalintelligence.company/",
+              "evidence": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "商业化验证",
+      "rows": [
+        {
+          "label": "真实订单",
+          "cells": [
+            {
+              "summary": "规模部署",
+              "bullets": [
+                {
+                  "text": "第15000台下线",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06",
+                      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
+                    }
+                  ]
+                },
+                {
+                  "text": "比亚迪/蔚来/龙旗科技等产线部署"
+                },
+                {
+                  "text": "2025出货5168台"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "首客学研",
+              "bullets": [
+                {
+                  "text": "R1首批客户含斯坦福李飞飞实验室",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "潜在客户仍在接触中",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "订单规模未公开",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "公开链接未披露订单数量"
+            },
+            {
+              "summary": "订单待证",
+              "bullets": [
+                {
+                  "text": "百台级零售运营",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "宁德时代千台订单传闻",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "官方未确认具体数量",
+                  "sources": [
+                    {
+                      "name": "央视网 2026-03",
+                      "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "自报出货",
+              "bullets": [
+                {
+                  "text": "宇树官宣人形2025出货5500+台",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Omdia口径约4200台、列第二",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "四足销量另算",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "出货量按口径拆分展示，不直接合并为全球第一"
+            },
+            {
+              "summary": "内部部署",
+              "bullets": [
+                {
+                  "text": "内部测试部署",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "无公开商业订单数据",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "BMW试点",
+              "bullets": [
+                {
+                  "text": "已进入BMW量产线试点",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "机器人数量与交易规模未公开",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "第二客户待公开确认",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "不写数百台，避免夸大部署规模"
+            },
+            {
+              "summary": "无硬件单",
+              "bullets": [
+                {
+                  "text": "无硬件订单",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "以模型授权/API/研究合作为主",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "央视网 2026-03",
+              "url": "http://big5.cctv.com/gate/big5/1118.cctv.cn/2026/03/10/ARTIlnvRQ1INxIjxB7RTz0mO260310.shtml",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "标杆客户",
+          "cells": [
+            {
+              "summary": "比亚迪链",
+              "bullets": [
+                {
+                  "text": "比亚迪(持股+客户)"
+                },
+                {
+                  "text": "蔚来"
+                },
+                {
+                  "text": "龙旗科技等制造业龙头"
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "斯坦福首客",
+              "bullets": [
+                {
+                  "text": "斯坦福李飞飞实验室为早期客户",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "全球开发者大会聚合伙伴",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "产业链上下游参与生态",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "宁德生态",
+              "bullets": [
+                {
+                  "text": "宁德时代（既投资、又是常态化作业客户）",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "博世",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "丰田",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "英伟达链",
+              "bullets": [
+                {
+                  "text": "英伟达(GR00T参考平台)",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "汽车零部件厂",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "海外科研机构",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "特斯拉内用",
+              "bullets": [
+                {
+                  "text": "特斯拉各超级工厂内部部署",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "暂无可靠公开数据",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "BMW客户",
+              "bullets": [
+                {
+                  "text": "BMW为明确标杆客户",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Figure官方披露贡献3万+ X3生产",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "机器人数量与交易规模未公开",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "车辆产量贡献为Figure官方口径，避免表述为BMW独立确认"
+            },
+            {
+              "summary": "学研合作",
+              "bullets": [
+                {
+                  "text": "机器人厂商/研究机构合作",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Stanford/UC Berkeley等学术合作",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "商业模式",
+          "cells": [
+            {
+              "summary": "整机+RaaS",
+              "bullets": [
+                {
+                  "text": "整机销售为主",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "辅以RaaS租赁+生态平台+开源社区",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "目标营收百亿级",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "来源不足或包含预测/传闻，待三角核验"
+            },
+            {
+              "summary": "开放生态",
+              "bullets": [
+                {
+                  "text": "开放技术工具接口",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "开发者与企业共用能力",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "商业模式三段式演进",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "场景运营",
+              "bullets": [
+                {
+                  "text": "软硬件结合服务场景",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "零售/文旅/工业场景运营",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "具体商业模式拆分待稳定公开来源确认"
+            },
+            {
+              "summary": "硬件销售",
+              "bullets": [
+                {
+                  "text": "硬件销售为主(四足+人形)+参考设计+核心部件外销",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "已规模化盈利",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "先内用",
+              "bullets": [
+                {
+                  "text": "自产自用先验证",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "长期面向全球销售机器人本体+服务",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；具体机器人规格、价格、订单仍待特斯拉正式披露"
+            },
+            {
+              "summary": "垂直一体",
+              "bullets": [
+                {
+                  "text": "软硬件垂直一体",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "自研制造承接量产",
+                  "sources": [
+                    {
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "先从企业场景落地",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "模型授权",
+              "bullets": [
+                {
+                  "text": "模型API/研究授权/企业合作",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "软件层为主",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "轻资产",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 Project Go-Big",
+              "url": "https://www.figure.ai/news/project-go-big",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "组织与资本",
+      "rows": [
+        {
+          "label": "创始团队",
+          "cells": [
+            {
+              "summary": "华为背景",
+              "bullets": [
+                {
+                  "text": "邓泰华(CEO，前华为无线总裁)",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "彭志辉(稚晖君/CTO/前华为)",
+                  "sources": [
+                    {
+                      "name": "36氪 2025-04",
+                      "url": "https://36kr.com/p/3261349018468489",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "高赵双核",
+              "bullets": [
+                {
+                  "text": "高继扬任创始人兼CEO",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "赵行任联合创始人CTO",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "团队强调数据模型本体闭环",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "学术+产业",
+              "bullets": [
+                {
+                  "text": "王鹤(斯坦福博士+北大助理教授)",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "姚腾洲(北航+ABB)",
+                  "sources": [
+                    {
+                      "name": "搜狐 2026-02",
+                      "url": "https://www.sohu.com/a/752346234_121623867",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "创始人控制",
+              "bullets": [
+                {
+                  "text": "王兴兴任创始人/CEO/CTO",
+                  "sources": [
+                    {
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "直接持股23.82%",
+                  "sources": [
+                    {
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "通过AB股控制表决权68.78%",
+                  "sources": [
+                    {
+                      "name": "宇树官网",
+                      "url": "https://www.unitree.com/cn/about",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "持股/表决权口径仍建议以后用招股书或监管文件复核"
+            },
+            {
+              "summary": "内部项目",
+              "bullets": [
+                {
+                  "text": "马斯克直接推动",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "特斯拉内部团队",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Optimus未独立分拆",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "采用可打开公开来源；Optimus未独立分拆，融资估值不单独展示"
+            },
+            {
+              "summary": "硬件老兵",
+              "bullets": [
+                {
+                  "text": "Brett Adcock创始人",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "核心团队多为前特斯拉/Boston Dynamics工程师",
+                  "sources": [
+                    {
+                      "name": "Figure AI官网",
+                      "url": "https://www.figure.ai",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "学术+谷歌",
+              "bullets": [
+                {
+                  "text": "Karol Hausman任CEO，前Google DeepMind",
+                  "sources": [
+                    {
+                      "name": "Wired / PI创始团队",
+                      "url": "https://www.wired.com/story/physical-intelligence-ai-robotics-startup",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Chelsea Finn为斯坦福教授",
+                  "sources": [
+                    {
+                      "name": "Wired / PI创始团队",
+                      "url": "https://www.wired.com/story/physical-intelligence-ai-robotics-startup",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Sergey Levine为UC Berkeley教授",
+                  "sources": [
+                    {
+                      "name": "Wired / PI创始团队",
+                      "url": "https://www.wired.com/story/physical-intelligence-ai-robotics-startup",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "创始团队按公开身份拆分为斯坦福/伯克利+Google DeepMind系"
+            }
+          ],
+          "sources": [
+            {
+              "name": "36氪 2025-04",
+              "url": "https://36kr.com/p/3261349018468489",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "搜狐 2026-02",
+              "url": "https://www.sohu.com/a/752346234_121623867",
+              "evidence": ""
+            },
+            {
+              "name": "宇树官网",
+              "url": "https://www.unitree.com/cn/about",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure AI官网",
+              "url": "https://www.figure.ai",
+              "evidence": ""
+            },
+            {
+              "name": "Wired / PI创始团队",
+              "url": "https://www.wired.com/story/physical-intelligence-ai-robotics-startup",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "融资估值",
+          "cells": [
+            {
+              "summary": "150亿估值",
+              "bullets": [
+                {
+                  "text": "累计12轮融资超50亿元",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "估值约150亿元",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "腾讯/比亚迪等领投",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "融资/估值数字需替换为可打开的稳定公开来源后再展示"
+            },
+            {
+              "summary": "200亿+估值",
+              "bullets": [
+                {
+                  "text": "估值突破200亿元人民币",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "2026年初完成股改",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "融资节奏进入产业化阶段",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "估值为公开报道口径，后续建议补充更直接的融资公告/权威媒体链接"
+            },
+            {
+              "summary": "200亿+估值",
+              "bullets": [
+                {
+                  "text": "累计融资近70亿元",
+                  "sources": [
+                    {
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "2026年新一轮约25亿元",
+                  "sources": [
+                    {
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "估值约200亿+",
+                  "sources": [
+                    {
+                      "name": "公开报道口径，待补稳定链接",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "融资/估值为公开报道口径；当前未挂稳定可打开链接，需后续补充"
+            },
+            {
+              "summary": "IPO进程",
+              "bullets": [
+                {
+                  "text": "IPO过会",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "发行估值约420亿元",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "C轮融资投后估值127亿元(2025-06)",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "集团内项目",
+              "bullets": [
+                {
+                  "text": "上市公司内部项目",
+                  "sources": [
+                    {
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "无独立融资估值",
+                  "sources": [
+                    {
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "特斯拉整体市值万亿美元量级",
+                  "sources": [
+                    {
+                      "name": "公司整体市值口径，不展示引用",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "Optimus未独立融资/分拆；市值为特斯拉整体公司口径，随市场波动"
+            },
+            {
+              "summary": "$39B估值",
+              "bullets": [
+                {
+                  "text": "多轮融资累计约$1.9B",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "2026年估值约$39B",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "顶级VC+产业资本",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 C 轮融资",
+                      "url": "https://www.figure.ai/news/series-c",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "以公司 C 轮公告口径为准"
+            },
+            {
+              "summary": "$5.6B估值",
+              "bullets": [
+                {
+                  "text": "B轮$600M投后$5.6B",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "新一轮$1B融资$11B估值洽谈中(2026-03)",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            }
+          ],
+          "sources": [
+            {
+              "name": "智元官网",
+              "url": "https://agibot.com",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "证据不足，不展示引用",
+              "url": "#",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Not a Tesla App 2026",
+              "url": "https://www.notateslaapp.com/news/2768/tesla-optimus-gen-3-production-elon-musk-2026",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 C 轮融资",
+              "url": "https://www.figure.ai/news/series-c",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        },
+        {
+          "label": "股东/生态资源",
+          "cells": [
+            {
+              "summary": "腾讯比亚迪",
+              "bullets": [
+                {
+                  "text": "腾讯、比亚迪等资本参与",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "比亚迪兼具股东与客户属性",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "制造业客户可形成数据闭环",
+                  "sources": [
+                    {
+                      "name": "智元官网",
+                      "url": "https://agibot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "股东/客户细节需替换为可打开的稳定公开来源后再展示"
+            },
+            {
+              "summary": "开发者生态",
+              "bullets": [
+                {
+                  "text": "Galaxea WDC聚合开发者",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "学术与产业伙伴参会",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "开放共享生态是明确方向",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06",
+                      "url": "https://www.qbitai.com/2026/06/436223.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "宁德绑定",
+              "bullets": [
+                {
+                  "text": "宁德时代同时具投资与场景价值",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "与博世、丰田、北汽上汽等建立合作",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "零售与工业场景可提供运营数据",
+                  "sources": [
+                    {
+                      "name": "银河通用官网",
+                      "url": "https://galbot.com",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "英伟达生态",
+              "bullets": [
+                {
+                  "text": "英伟达GR00T生态合作",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "海外科研与开发者基础强",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "硬件平台具参考设计价值",
+                  "sources": [
+                    {
+                      "name": "经济参考网 2026-06",
+                      "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "生态资源维度聚焦股东、产业伙伴、客户与社区，不等同于融资估值"
+            },
+            {
+              "summary": "特斯拉工厂",
+              "bullets": [
+                {
+                  "text": "依托特斯拉工厂与供应链",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "FSD、Dojo与制造体系可复用",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "外部客户尚未公开",
+                  "sources": [
+                    {
+                      "name": "Electrek Tesla Optimus",
+                      "url": "https://electrek.co/guides/tesla-optimus/",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "采用可打开公开来源；Optimus未独立分拆，融资估值不单独展示"
+            },
+            {
+              "summary": "BMW绑定",
+              "bullets": [
+                {
+                  "text": "BMW是明确产线客户",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 BMW 产线",
+                      "url": "https://www.figure.ai/news/production-at-bmw",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "BotQ制造体系服务量产爬坡",
+                  "sources": [
+                    {
+                      "name": "Figure 官网量产计划",
+                      "url": "https://www.figure.ai/news/ramping-figure-03-production",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "房地产/企业场景继续拓展",
+                  "sources": [
+                    {
+                      "name": "Figure 官网 Project Go-Big",
+                      "url": "https://www.figure.ai/news/project-go-big",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "学研社区",
+              "bullets": [
+                {
+                  "text": "斯坦福/UC Berkeley学研网络强",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "Google DeepMind系经验明显",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "依赖机器人厂商间接落地",
+                  "sources": [
+                    {
+                      "name": "腾讯云 2026-03",
+                      "url": "https://cloud.tencent.com/developer/article/2648458",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "medium",
+              "note": "生态资源维度聚焦学研、产业伙伴、客户与社区，不等同于融资估值"
+            }
+          ],
+          "sources": [
+            {
+              "name": "智元官网",
+              "url": "https://agibot.com",
+              "evidence": ""
+            },
+            {
+              "name": "量子位 2026-06",
+              "url": "https://www.qbitai.com/2026/06/436223.html",
+              "evidence": ""
+            },
+            {
+              "name": "银河通用官网",
+              "url": "https://galbot.com",
+              "evidence": ""
+            },
+            {
+              "name": "经济参考网 2026-06",
+              "url": "http://www.jjckb.cn/20260604/656852a6036e46788efdb2e9696fc9b0/c.html",
+              "evidence": ""
+            },
+            {
+              "name": "Electrek Tesla Optimus",
+              "url": "https://electrek.co/guides/tesla-optimus/",
+              "evidence": ""
+            },
+            {
+              "name": "Figure 官网 BMW 产线",
+              "url": "https://www.figure.ai/news/production-at-bmw",
+              "evidence": ""
+            },
+            {
+              "name": "腾讯云 2026-03",
+              "url": "https://cloud.tencent.com/developer/article/2648458",
+              "evidence": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
