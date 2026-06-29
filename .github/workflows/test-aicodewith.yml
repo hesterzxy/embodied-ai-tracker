@@ -1,0 +1,72 @@
+name: Test AI Code With
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check secrets
+        run: |
+          test -n "$AICODEWITH_API_KEY"
+          test -n "$OPENAI_BASE_URL"
+          test -n "$AICODEWITH_MODEL"
+          echo "Required secrets are present."
+        env:
+          AICODEWITH_API_KEY: ${{ secrets.AICODEWITH_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
+
+      - name: Call chat completions
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+          import urllib.error
+
+          api_key = os.environ["AICODEWITH_API_KEY"]
+          base_url = os.environ["OPENAI_BASE_URL"].rstrip("/")
+          model = os.environ["AICODEWITH_MODEL"]
+          url = base_url
+          if url.endswith("/v1"):
+              url += "/chat/completions"
+          elif not url.endswith("/chat/completions"):
+              url += "/v1/chat/completions"
+
+          payload = {
+              "model": model,
+              "messages": [
+                  {"role": "system", "content": "You are a concise API test assistant."},
+                  {"role": "user", "content": "Reply with exactly: aicodewith-ok"},
+              ],
+              "temperature": 0,
+              "max_tokens": 20,
+          }
+          req = urllib.request.Request(
+              url,
+              data=json.dumps(payload).encode("utf-8"),
+              headers={
+                  "Authorization": f"Bearer {api_key}",
+                  "Content-Type": "application/json",
+                  "User-Agent": "embodied-ai-tracker-test/1.0",
+              },
+          )
+          try:
+              with urllib.request.urlopen(req, timeout=60) as resp:
+                  body = json.loads(resp.read().decode("utf-8"))
+          except urllib.error.HTTPError as exc:
+              error_body = exc.read().decode("utf-8", errors="replace")
+              raise SystemExit(f"HTTP {exc.code}: {error_body[:1000]}")
+
+          content = body["choices"][0]["message"]["content"].strip()
+          print("model:", model)
+          print("reply:", content)
+          if "aicodewith-ok" not in content.lower():
+              raise SystemExit("Unexpected model reply.")
+          PY
+        env:
+          AICODEWITH_API_KEY: ${{ secrets.AICODEWITH_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
