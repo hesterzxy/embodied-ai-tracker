@@ -14,3 +14,8 @@ The browser UI supports temporary local add/hide controls for quick comparison.
 When deployed on Vercel, the add-company control also posts to `/api/add-company`,
 which dispatches the `V2 Company Management` GitHub Actions workflow. Persistent
 add/remove operations update only `v2/data/table.json`.
+
+On add, the workflow first checks `data/news.json`. If there are usable recent
+signals for the company, V2 writes a conservative first-pass research column with
+source-backed cells. If not, the company remains a pending candidate until more
+public evidence is available.

@@ -37,6 +37,11 @@
       "name": "Physical Intelligence",
       "reason": "纯模型路线 · π0系列跨本体",
       "emphasis": false
+    },
+    {
+      "name": "它石智航",
+      "reason": "工业集群落地 · TacForeSight接触预测",
+      "emphasis": false
     }
   ],
   "groups": [
@@ -278,6 +283,50 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "战略归纳，不显示引用编号"
+            },
+            {
+              "summary": "工业集群+触觉预测",
+              "bullets": [
+                {
+                  "text": "嘉定千台级工业具身机器人集群",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "TacForeSight强化接触预判",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "精细操作与规模部署同时推进",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    },
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": "基于两条近期公开新闻归纳，具体交付节奏仍需继续跟踪。"
             }
           ],
           "sources": [
@@ -572,6 +621,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "接触预测",
+              "bullets": [
+                {
+                  "text": "TacForeSight用于预测接触变化",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "面向真实接触操作任务",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "联合高校与研究机构发布",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -849,6 +937,45 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "工业精操",
+              "bullets": [
+                {
+                  "text": "工业具身机器人集群部署",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "擦拭、插接、拧紧等接触任务",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "以上海嘉定为核心产业场景",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
               "confidence": "medium",
               "note": ""
             }
@@ -1146,6 +1273,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "本体待核验",
+              "bullets": [
+                {
+                  "text": "公开新闻强调工业具身机器人集群",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "具体本体形态与规格未披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "自由度、负载和成本参数待核验",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "新闻确认部署方向，但未披露可比硬件规格。"
             }
           ],
           "sources": [
@@ -1451,6 +1617,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "不展示非正式代际写法，避免与π0系列主线混淆"
+            },
+            {
+              "summary": "TacForeSight",
+              "bullets": [
+                {
+                  "text": "牵头发布TacForeSight",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "聚焦接触前状态预测",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "用于提升精细操作能力",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1746,6 +1951,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "接触数据",
+              "bullets": [
+                {
+                  "text": "围绕真实接触操作建模",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "擦拭、插接、拧紧任务可形成评测闭环",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "训练数据规模与采集方式未公开",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "low",
+              "note": "方向明确，但数据规模、来源和闭环频率仍待公开。"
             }
           ],
           "sources": [
@@ -2008,6 +2252,45 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "精细接触",
+              "bullets": [
+                {
+                  "text": "覆盖擦拭、插接、拧紧等任务",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "目标是破解精细操作难题",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "连续作业指标待披露",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
               "confidence": "medium",
               "note": ""
             }
@@ -2305,6 +2588,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "公司定位偏模型层，不展示硬件量产计划"
+            },
+            {
+              "summary": "集群落地",
+              "bullets": [
+                {
+                  "text": "推动千台级工业具身智能机器人集群",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "计划在嘉定推进规模化部署",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "具体交付节奏仍待公开",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -2594,6 +2916,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待验证",
+              "bullets": [
+                {
+                  "text": "规模部署计划已披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "连续运行和故障率指标未披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "需跟踪后续验收数据",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "low",
+              "note": "可靠性需要真实运行周期数据，目前只能确认部署计划。"
             }
           ],
           "sources": [
@@ -2884,6 +3245,45 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "模型授权/商业化价格未公开"
+            },
+            {
+              "summary": "待披露",
+              "bullets": [
+                {
+                  "text": "公开新闻未披露单机价格",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "项目金额未披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "成本竞争力暂无法横向对比",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": ""
             }
           ],
           "sources": [
@@ -3170,6 +3570,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "嘉定合作",
+              "bullets": [
+                {
+                  "text": "嘉定与上海它石未来机器人签署合作",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "目标千台级工业机器人集群落地",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "订单金额和最终交付数待公开",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -3437,6 +3876,45 @@
               ],
               "kind": "evidence",
               "updated_recent": false,
+              "confidence": "medium",
+              "note": ""
+            },
+            {
+              "summary": "嘉定场景",
+              "bullets": [
+                {
+                  "text": "上海嘉定为明确落地场景",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "依托当地智造生态推进",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "终端客户名单待披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
               "confidence": "medium",
               "note": ""
             }
@@ -3719,6 +4197,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "场景部署",
+              "bullets": [
+                {
+                  "text": "围绕工业集群部署推进",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "商业模式可能更接近项目落地",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                },
+                {
+                  "text": "收费结构和复购机制未披露",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "low",
+              "note": "只确认落地方向，不推断收入确认方式。"
             }
           ],
           "sources": [
@@ -4009,6 +4526,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "创始团队按公开身份拆分为斯坦福/伯克利+Google DeepMind系"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "它石智航该维度公开信息不足",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待新增公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
             }
           ],
           "sources": [
@@ -4314,6 +4860,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "它石智航该维度公开信息不足",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                },
+                {
+                  "text": "等待新增公开来源补充",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
             }
           ],
           "sources": [
@@ -4629,6 +5204,45 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "生态资源维度聚焦学研、产业伙伴、客户与社区，不等同于融资估值"
+            },
+            {
+              "summary": "产学合作",
+              "bullets": [
+                {
+                  "text": "联合新加坡国立大学等机构",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "合作方包括上海交大、中科院自动化所、复旦",
+                  "sources": [
+                    {
+                      "name": "量子位 2026-06-26",
+                      "url": "https://www.qbitai.com/2026/06/438701.html",
+                      "evidence": "06-26，让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "嘉定产业生态提供落地资源",
+                  "sources": [
+                    {
+                      "name": "中国机器人网 2026-06-29",
+                      "url": "https://www.robot-china.com/news/202606/29/95980.html",
+                      "evidence": "06-29，上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地。"
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
