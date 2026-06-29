@@ -27,6 +27,9 @@ jobs:
             sleep $((attempt * 20))
           done
         env:
+          AICODEWITH_API_KEY: ${{ secrets.AICODEWITH_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
           QWEN_KEY: ${{ secrets.QWEN_KEY }}

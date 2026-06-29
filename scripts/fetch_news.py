@@ -20,11 +20,7 @@ from urllib.error import URLError
 
 DATA_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "news.json")
 TRANSLATION_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "title_translations.json")
-QWEN_API_URL = os.getenv(
-    "QWEN_API_URL",
-    "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
-)
-QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
+DEFAULT_QWEN_API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 REPORT_CATEGORIES = ["技术突破", "产品量产", "商业订单", "资本动态", "行业动态", "泛具身产业链"]
 
 CORE_TERMS = [
@@ -208,31 +204,61 @@ def normalize_original_title_format(title: str) -> str:
     return f"{m.group(1).strip()} ({m.group(2).strip()})"
 
 
-def get_qwen_api_key() -> str:
-    return (
+def normalize_chat_url(url: str) -> str:
+    url = (url or "").strip().rstrip("/")
+    if not url:
+        return ""
+    if url.endswith("/v1"):
+        return url + "/chat/completions"
+    if not url.endswith("/chat/completions"):
+        return url + "/v1/chat/completions"
+    return url
+
+
+def get_llm_config():
+    aicodewith_key = os.getenv("AICODEWITH_API_KEY") or ""
+    if aicodewith_key:
+        return {
+            "provider": "AI Code With",
+            "api_key": aicodewith_key,
+            "api_url": normalize_chat_url(os.getenv("OPENAI_BASE_URL") or os.getenv("AICODEWITH_BASE_URL") or ""),
+            "model": os.getenv("AICODEWITH_MODEL") or os.getenv("OPENAI_MODEL") or "",
+        }
+    qwen_key = (
         os.getenv("QWEN_API_KEY")
         or os.getenv("DASHSCOPE_API_KEY")
         or os.getenv("QWEN_KEY")
         or os.getenv("ALIYUN_API_KEY")
         or ""
     )
+    return {
+        "provider": "Qwen",
+        "api_key": qwen_key,
+        "api_url": normalize_chat_url(os.getenv("QWEN_API_URL") or DEFAULT_QWEN_API_URL),
+        "model": os.getenv("QWEN_MODEL") or "qwen-plus",
+    }
+
+
+def get_qwen_api_key() -> str:
+    return get_llm_config()["api_key"]
 
 
 def qwen_chat(messages, temperature: float = 0.1, max_tokens: int = 120) -> Optional[str]:
-    api_key = get_qwen_api_key()
-    if not api_key:
+    llm = get_llm_config()
+    if not llm["api_key"] or not llm["api_url"] or not llm["model"]:
+        print(f"WARN: {llm['provider']} chat skipped: missing api key, api url, or model")
         return None
     payload = {
-        "model": QWEN_MODEL,
+        "model": llm["model"],
         "messages": messages,
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
     req = Request(
-        QWEN_API_URL,
+        llm["api_url"],
         data=json.dumps(payload).encode("utf-8"),
         headers={
-            "Authorization": f"Bearer {api_key}",
+            "Authorization": f"Bearer {llm['api_key']}",
             "Content-Type": "application/json",
             "User-Agent": "embodied-ai-tracker/1.0",
         },
@@ -243,7 +269,7 @@ def qwen_chat(messages, temperature: float = 0.1, max_tokens: int = 120) -> Opti
         content = data["choices"][0]["message"]["content"].strip()
         return content or None
     except (KeyError, ValueError, URLError, TimeoutError, OSError) as e:
-        print(f"WARN: Qwen chat failed: {type(e).__name__}: {e}")
+        print(f"WARN: {llm['provider']} chat failed: {type(e).__name__}: {e}")
         return None
 
 
@@ -252,7 +278,7 @@ def translate_title_with_qwen(title: str) -> Optional[str]:
         get_qwen_api_key()
     )
     if not api_key:
-        print("WARN: Qwen title translation skipped: no QWEN_API_KEY/DASHSCOPE_API_KEY/QWEN_KEY/ALIYUN_API_KEY")
+        print("WARN: title translation skipped: no AICODEWITH_API_KEY/QWEN_API_KEY/DASHSCOPE_API_KEY/QWEN_KEY/ALIYUN_API_KEY")
         return None
     translated = qwen_chat(
         [
@@ -883,6 +909,33 @@ def in_week(item, start: datetime, end: datetime) -> bool:
     return bool(dt and start.date() <= dt.date() <= end.date())
 
 
+def trim_report_sentence(text: str, limit: int = 120) -> str:
+    text = re.sub(r"\s+", " ", text or "").strip()
+    had_ellipsis = "…" in text
+    text = text.replace("…", "")
+    if not had_ellipsis and len(text) <= limit:
+        return text
+    parts = [part.strip() for part in re.split(r"(?<=[，,；;])", text) if part.strip()]
+    if len(parts) >= 2:
+        kept = ""
+        for idx, part in enumerate(parts):
+            if had_ellipsis and idx == len(parts) - 1:
+                break
+            if "…" in part and len(kept) >= 36:
+                break
+            if len(kept + part) > limit:
+                break
+            kept += part
+        kept = kept.rstrip("，,；;、 ")
+        if len(kept) >= 36:
+            return kept
+    clauses = [part.strip() for part in re.split(r"[，,；;]", text) if part.strip()]
+    clauses = [part for part in clauses if "…" not in part] or clauses
+    if clauses:
+        return min(clauses, key=lambda part: abs(min(len(part), limit) - min(len(text), limit)))[:limit].rstrip("，,；;、 ")
+    return text[:limit].rstrip("，,；;、 ")
+
+
 def clean_report_fact(item) -> str:
     text = re.sub(r"\s+", " ", item.get("summary", "") or "").strip()
     if not text:
@@ -917,8 +970,7 @@ def clean_report_fact(item) -> str:
                 score += 1
             ranked.append((score, -idx, sentence))
         text = max(ranked, key=lambda row: row[:2])[2] if ranked else sentences[0]
-    if len(text) > 96:
-        text = text[:95] + "…"
+    text = trim_report_sentence(text, 120)
     return text.rstrip("。；;，,、 ") + "。"
 
 
