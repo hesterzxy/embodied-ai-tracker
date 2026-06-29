@@ -320,6 +320,7 @@ function cellSources(cell, fallback){
 
 const V2_HIDDEN_KEY='v2HiddenCompanies';
 const V2_ADDED_KEY='v2AddedCompanies';
+const V2_REMOVED_KEY='v2RemovedPendingCompanies';
 function readList(key){
   try{
     const arr=JSON.parse(localStorage.getItem(key)||'[]');
@@ -334,8 +335,12 @@ function writeList(key, arr){
 function pendingNames(data){
   return (data?.companies||[]).filter(c=>c && c.pending === true).map(c=>c.name).filter(Boolean);
 }
+function sameCompanyName(a,b){
+  return String(canonicalInputName(a)||'').replace(/\s+/g,'').toLowerCase()===String(canonicalInputName(b)||'').replace(/\s+/g,'').toLowerCase();
+}
 function syncLocalCandidates(data){
-  const persisted=new Set(pendingNames(data));
+  const removed=readList(V2_REMOVED_KEY);
+  const persisted=new Set(pendingNames(data).filter(name=>!removed.some(item=>sameCompanyName(item,name))));
   const local=readList(V2_ADDED_KEY);
   const baseNames=new Set((data?.companies||[]).map(c=>c.name));
   const merged=[...new Set([...persisted, ...local.filter(name=>!baseNames.has(name))])];
@@ -360,6 +365,21 @@ function applyV2LocalCompanies(data){
   const clone=JSON.parse(JSON.stringify(data || {}));
   clone.companies=Array.isArray(clone.companies) ? clone.companies : [];
   clone.groups=Array.isArray(clone.groups) ? clone.groups : [];
+  const removed=readList(V2_REMOVED_KEY);
+  const removeIndexes=[];
+  clone.companies.forEach((company,idx)=>{
+    if(company?.pending === true && removed.some(name=>sameCompanyName(name, company.name))){
+      removeIndexes.push(idx);
+    }
+  });
+  removeIndexes.reverse().forEach(idx=>{
+    clone.companies.splice(idx,1);
+    clone.groups.forEach(group=>{
+      (group.rows||[]).forEach(row=>{
+        if(Array.isArray(row.cells) && idx < row.cells.length) row.cells.splice(idx,1);
+      });
+    });
+  });
   const existing=new Set(clone.companies.map(c=>c.name));
   readList(V2_ADDED_KEY).forEach(name=>{
     if(!name || existing.has(name)) return;
@@ -379,7 +399,8 @@ function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
   const persisted=new Set(pendingNames(window.__tableData));
-  const added=readList(V2_ADDED_KEY).filter(name=>persisted.has(name) || !(window.__baseTableData?.companies||[]).some(c=>c.name===name && c.pending !== true));
+  const removed=readList(V2_REMOVED_KEY);
+  const added=readList(V2_ADDED_KEY).filter(name=>!removed.some(item=>sameCompanyName(item,name)) && (persisted.has(name) || !(window.__baseTableData?.companies||[]).some(c=>sameCompanyName(c.name,name) && c.pending !== true)));
   const parts=[];
   if(added.length){
     const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button class="iconbtn" data-remove-candidate="${esc(name)}" title="移除候选" aria-label="移除候选"><span class="xicon"></span></button></span>`).join('');
@@ -396,14 +417,17 @@ function renderMatrixState(){
 }
 
 function removeCandidateCompany(name){
-  writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>item!==name));
-  writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
-  renderTable();
   const persisted=(window.__baseTableData?.companies||[]).some(c=>c.name===name && c.pending === true);
+  writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>!sameCompanyName(item,name)));
+  writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>!sameCompanyName(item,name)));
   if(persisted){
-    setV2SubmitState(`<b>${esc(name)}</b> 已从当前对比移除，正在同步数据。`);
+    writeList(V2_REMOVED_KEY, [...readList(V2_REMOVED_KEY), name]);
+  }
+  renderTable();
+  if(persisted){
+    setV2SubmitState(`<b>${esc(name)}</b> 已从当前页面移除，正在提交云端删除请求。`);
     submitV2Company(name, 'remove')
-      .then(()=>setV2SubmitState(`<b>${esc(name)}</b> 删除已同步；页面数据刷新通常需要几分钟。`))
+      .then(()=>setV2SubmitState(`<b>${esc(name)}</b> 删除请求已提交；云端数据完成后会保持移除。`))
       .catch(()=>setV2SubmitState(`<b>${esc(name)}</b> 已从当前浏览器移除；云端同步稍后再试。`));
   }
 }
@@ -454,6 +478,7 @@ async function waitForV2Company(companyName, attempts=18){
     const company=findCompany(window.__baseTableData, canonical);
     if(!company) continue;
     writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>canonicalInputName(item)!==canonical));
+    writeList(V2_REMOVED_KEY, readList(V2_REMOVED_KEY).filter(item=>!sameCompanyName(item,canonical)));
     renderTable();
     if(company.pending === true){
       setV2SubmitState(`<b>${esc(canonical)}</b> 已进入 V2 候选；后台暂未找到足够公开证据，后续有新消息可再次提交更新。`);
@@ -720,6 +745,7 @@ document.getElementById('addCompanyBtn').onclick=async ()=>{
   if(!existing.has(finalName) || matched?.pending === true){
     writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), finalName]);
   }
+  writeList(V2_REMOVED_KEY, readList(V2_REMOVED_KEY).filter(item=>!sameCompanyName(item,finalName)));
   const hidden=new Set(readList(V2_HIDDEN_KEY));
   hidden.delete(finalName);
   writeList(V2_HIDDEN_KEY, [...hidden]);

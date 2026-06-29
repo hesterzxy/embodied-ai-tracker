@@ -232,7 +232,6 @@ def build_tashi_profile(company_name, hits):
                 ("联合高校与研究机构发布", [tac_source]),
             ],
             [tac_source],
-            updated_recent=True,
         ),
         "目标场景": make_cell(
             "工业精操",
@@ -242,7 +241,6 @@ def build_tashi_profile(company_name, hits):
                 ("以上海嘉定为核心产业场景", [order_source]),
             ],
             both_sources,
-            updated_recent=True,
         ),
         "硬件能力": make_cell(
             "本体待核验",
@@ -264,7 +262,6 @@ def build_tashi_profile(company_name, hits):
                 ("用于提升精细操作能力", [tac_source]),
             ],
             [tac_source],
-            updated_recent=True,
         ),
         "数据策略": make_cell(
             "接触数据",
@@ -285,7 +282,6 @@ def build_tashi_profile(company_name, hits):
                 ("连续作业指标待披露", [tac_source]),
             ],
             [tac_source],
-            updated_recent=True,
         ),
         "量产进度": make_cell(
             "集群落地",
@@ -339,7 +335,6 @@ def build_tashi_profile(company_name, hits):
             ],
             [order_source],
             confidence="medium",
-            updated_recent=True,
         ),
         "商业模式": make_cell(
             "场景部署",
@@ -361,7 +356,6 @@ def build_tashi_profile(company_name, hits):
                 ("嘉定产业生态提供落地资源", [order_source]),
             ],
             both_sources,
-            updated_recent=True,
         ),
     })
 
