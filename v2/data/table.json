@@ -37,6 +37,12 @@
       "name": "Physical Intelligence",
       "reason": "纯模型路线 · π0系列跨本体",
       "emphasis": false
+    },
+    {
+      "name": "sharpa",
+      "reason": "V2 待评估",
+      "emphasis": false,
+      "pending": true
     }
   ],
   "groups": [
@@ -278,6 +284,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "战略归纳，不显示引用编号"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -572,6 +607,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -851,6 +915,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1146,6 +1239,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1451,6 +1573,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "不展示非正式代际写法，避免与π0系列主线混淆"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1746,6 +1897,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2010,6 +2190,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2305,6 +2514,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "公司定位偏模型层，不展示硬件量产计划"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2594,6 +2832,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2884,6 +3151,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "模型授权/商业化价格未公开"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3170,6 +3466,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3439,6 +3764,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3719,6 +4073,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4009,6 +4392,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "创始团队按公开身份拆分为斯坦福/伯克利+Google DeepMind系"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4314,6 +4726,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4629,6 +5070,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "生态资源维度聚焦学研、产业伙伴、客户与社区，不等同于融资估值"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "sharpa已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
