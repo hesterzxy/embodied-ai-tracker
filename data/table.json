@@ -5,7 +5,7 @@
   "companies": [
     {
       "name": "智元 AgiBot",
-      "reason": "整机量产最快 · 第15000台2026年6月下线",
+      "reason": "公开披露量产规模领先 · 第15000台2026年6月下线",
       "emphasis": false
     },
     {
@@ -47,10 +47,10 @@
           "label": "核心差异化",
           "cells": [
             {
-              "summary": "量产速度",
+              "summary": "量产规模",
               "bullets": [
                 {
-                  "text": "整机量产最快",
+                  "text": "公开披露量产规模领先",
                   "sources": [
                     {
                       "name": "战略归纳",
@@ -72,8 +72,8 @@
               ],
               "kind": "synthesis",
               "updated_recent": true,
-              "confidence": "high",
-              "note": "战略归纳，不显示引用编号"
+              "confidence": "medium",
+              "note": "15000台为明确披露节点；“领先”为公开披露口径下的竞争判断，仍需持续对比同口径出货。"
             },
             {
               "summary": "真机数据",
@@ -2135,37 +2135,37 @@
               "summary": "15000台下线",
               "bullets": [
                 {
-                  "text": "2026年6月第15000台通用具身机器人精灵G2下线",
+                  "text": "6月第15000台精灵G2下线",
                   "sources": [
                     {
                       "name": "36氪 2026-06",
                       "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
-                      "evidence": "6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。"
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
                     }
                   ]
                 },
                 {
-                  "text": "2026年3月已公开披露第1万台下线，量产节奏继续爬坡",
+                  "text": "万台节点后继续爬坡",
                   "sources": [
                     {
                       "name": "新华网 2026-03",
                       "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
+                      "evidence": "2026年3月公开披露第1万台下线。"
                     },
                     {
                       "name": "36氪 2026-06",
                       "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
-                      "evidence": "6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。"
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
                     }
                   ]
                 },
                 {
-                  "text": "公司将量产与真实场景部署、数据飞轮连接，量产进度已成为竞争格局中的核心领先项",
+                  "text": "量产进度继续构成领先项",
                   "sources": [
                     {
                       "name": "36氪 2026-06",
                       "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
-                      "evidence": "6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。"
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
                     }
                   ]
                 }
@@ -2173,7 +2173,7 @@
               "kind": "evidence",
               "updated_recent": true,
               "confidence": "high",
-              "note": "6月新增第15000台下线节点，较3月万台节点继续前进。"
+              "note": "6月新增第15000台下线节点。"
             },
             {
               "summary": "平台推进",

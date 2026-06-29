@@ -74,10 +74,9 @@ table.cmp tr.grp td{background:var(--shade)}
 table.cmp tr:nth-child(even) .rowdim{background:#faf9f5}
 table.cmp tr:not(.grp):hover td{background:var(--shade)}
 table.cmp tr:not(.grp):hover .rowdim{background:var(--shade)}
-table.cmp td.recent{background:rgba(220,235,255,0.55)}
-table.cmp tr:nth-child(even) td.recent{background:rgba(220,235,255,0.62)}
-table.cmp td.lowconf.recent{background:rgba(226,233,241,0.8)}
-table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65),var(--accent-soft))}
+table.cmp td.recent .cell-summary,
+table.cmp td.recent .cell-bullets li{color:var(--accent)}
+table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 
 
 /* ---------- dynamics ---------- */
@@ -115,6 +114,8 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
 #srcLegend{font-size:11.5px;color:var(--ink3);line-height:1.8;padding:10px 0 2px;display:none;border-top:1px solid var(--line);margin-top:10px}
 #srcLegend b{color:var(--ink2);font-weight:600;margin-right:4px}
 #srcLegend .src-item{display:inline-block;margin-right:16px;white-space:normal}
+.matrix-legend{font-size:12px;color:var(--ink3);line-height:1.8;margin:4px 0 12px}
+.matrix-legend b{color:var(--accent);font-weight:650}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
@@ -141,7 +142,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
 <div class="sheet">
 
   <!-- ===== masthead ===== -->
-  <div class="kicker">竞争格局追踪 · Embodied-AI Competitive Landscape</div>
+  <div class="kicker">Embodied-AI Competitive Landscape</div>
   <div class="masthead">
     <div>
       <h1>具身智能赛道 · 竞争格局</h1>
@@ -162,6 +163,7 @@ table.cmp td.self.recent{background:linear-gradient(180deg,rgba(220,235,255,0.65
     <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
   <div id="matrixState" class="matrix-state"></div>
+  <div class="matrix-legend"><b>蓝色文字</b>表示近30天内有新增公开信息，并已改变该格事实或判断。</div>
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
       <colgroup id="cmpCols"></colgroup>
