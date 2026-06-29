@@ -21,13 +21,6 @@ COMPANY_ALIASES = {
     "智元 AgiBot": ["智元", "智元机器人", "AGIBOT", "AgiBot"],
 }
 
-AGIBOT_10K_SOURCE = {
-    "name": "新华网 2026-03",
-    "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-    "evidence": "2026年3月公开披露第1万台下线。",
-}
-
-
 def parse_mmdd(date_str: str):
     now = datetime.now(timezone(timedelta(hours=8)))
     m = re.search(r"(\d{1,2})-(\d{1,2})", date_str or "")
@@ -126,7 +119,7 @@ def update_agibot_production(table, news_items):
             "summary": f"{count_text}下线",
             "bullets": [
                 {"text": f"{month}月第{count_text}精灵G2下线", "sources": [source]},
-                {"text": "万台节点后继续爬坡", "sources": [AGIBOT_10K_SOURCE, source]},
+                {"text": f"{count_text}节点后继续爬坡", "sources": [source]},
                 {"text": "量产进度继续构成领先项", "sources": [source]},
             ],
             "kind": "evidence",

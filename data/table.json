@@ -325,34 +325,13 @@
               "summary": "整机+大脑",
               "bullets": [
                 {
-                  "text": "人形整机+具身大模型",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "人形整机+具身大模型"
                 },
                 {
-                  "text": "软硬一体",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "软硬一体"
                 },
                 {
-                  "text": "完整本体矩阵",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "完整本体矩阵"
                 }
               ],
               "kind": "evidence",
@@ -597,11 +576,6 @@
           ],
           "sources": [
             {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
-            {
               "name": "arXiv 2025-08",
               "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
@@ -640,34 +614,13 @@
               "summary": "工业优先",
               "bullets": [
                 {
-                  "text": "工业制造/汽车产线",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "工业制造/汽车产线"
                 },
                 {
-                  "text": "商用导览",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "商用导览"
                 },
                 {
-                  "text": "家庭服务(2026年底目标)",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "家庭服务(2026年底目标)"
                 }
               ],
               "kind": "evidence",
@@ -901,11 +854,6 @@
             }
           ],
           "sources": [
-            {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
             {
               "name": "量子位 2026-06",
               "url": "https://www.qbitai.com/2026/06/436223.html",
@@ -1845,34 +1793,13 @@
               "summary": "螺丝锁付",
               "bullets": [
                 {
-                  "text": "工业装配螺丝锁付",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "工业装配螺丝锁付"
                 },
                 {
-                  "text": "精度与良率持续提升",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "精度与良率持续提升"
                 },
                 {
-                  "text": "量产机台可24小时运行",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "量产机台可24小时运行"
                 }
               ],
               "kind": "evidence",
@@ -2087,11 +2014,6 @@
           ],
           "sources": [
             {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
-            {
               "name": "arXiv 2025-08",
               "url": "https://arxiv.org/abs/2509.00576",
               "evidence": ""
@@ -2145,13 +2067,8 @@
                   ]
                 },
                 {
-                  "text": "万台节点后继续爬坡",
+                  "text": "15000台节点后继续爬坡",
                   "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": "2026年3月公开披露第1万台下线。"
-                    },
                     {
                       "name": "36氪 2026-06",
                       "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
@@ -2392,11 +2309,6 @@
           ],
           "sources": [
             {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
-            {
               "name": "量子位 2026-06",
               "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
@@ -2435,34 +2347,13 @@
               "summary": "产线验证",
               "bullets": [
                 {
-                  "text": "量产验证",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "量产验证"
                 },
                 {
-                  "text": "整机良率持续提升",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "整机良率持续提升"
                 },
                 {
-                  "text": "工业场景24小时运行测试",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "工业场景24小时运行测试"
                 }
               ],
               "kind": "evidence",
@@ -2706,11 +2597,6 @@
             }
           ],
           "sources": [
-            {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
             {
               "name": "arXiv 2025-08",
               "url": "https://arxiv.org/abs/2509.00576",
@@ -3047,37 +2933,23 @@
           "label": "真实订单",
           "cells": [
             {
-              "summary": "万台出货",
+              "summary": "规模部署",
               "bullets": [
                 {
-                  "text": "万台级出货",
+                  "text": "第15000台下线",
                   "sources": [
                     {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
+                      "name": "36氪 2026-06",
+                      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
+                      "evidence": "06-28，智元第15000台通用具身机器人正式量产下线。"
                     }
                   ]
                 },
                 {
-                  "text": "比亚迪/蔚来/龙旗科技等产线部署",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "比亚迪/蔚来/龙旗科技等产线部署"
                 },
                 {
-                  "text": "2025出货5168台",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "2025出货5168台"
                 }
               ],
               "kind": "evidence",
@@ -3302,11 +3174,6 @@
           ],
           "sources": [
             {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
-            {
               "name": "量子位 2026-06",
               "url": "https://www.qbitai.com/2026/06/436223.html",
               "evidence": ""
@@ -3345,34 +3212,13 @@
               "summary": "比亚迪链",
               "bullets": [
                 {
-                  "text": "比亚迪(持股+客户)",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "比亚迪(持股+客户)"
                 },
                 {
-                  "text": "蔚来",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "蔚来"
                 },
                 {
-                  "text": "龙旗科技等制造业龙头",
-                  "sources": [
-                    {
-                      "name": "新华网 2026-03",
-                      "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-                      "evidence": ""
-                    }
-                  ]
+                  "text": "龙旗科技等制造业龙头"
                 }
               ],
               "kind": "evidence",
@@ -3596,11 +3442,6 @@
             }
           ],
           "sources": [
-            {
-              "name": "新华网 2026-03",
-              "url": "http://www.xinhuanet.com/tech/20260331/23a39fa4e119491ead407567743b8815/c.html",
-              "evidence": ""
-            },
             {
               "name": "量子位 2026-06",
               "url": "https://www.qbitai.com/2026/06/436223.html",
