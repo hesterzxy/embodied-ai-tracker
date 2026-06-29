@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T13:49:06.084709+08:00",
+  "updated": "2026-06-29T15:39:48.008280+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -24,8 +24,8 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 13,
-      "core": 2,
+      "candidates": 12,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 29,
+      "entries": 58,
+      "candidates": 24,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -97,15 +97,14 @@
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 80,
-      "candidates": 79,
-      "core": 42,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 13
+      "new": 0
     },
     {
       "name": "甲子光年",
@@ -129,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 8,
       "periphery": 1,
-      "new": 4
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -149,14 +148,13 @@
     {
       "name": "中国工控网机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 20,
-      "candidates": 19,
-      "core": 6,
-      "periphery": 3,
+      "fetched": false,
+      "attempts": 3,
+      "error": "TimeoutError: The read operation timed out",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
       "new": 0
     },
     {
@@ -193,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
+      "candidates": 13,
       "core": 7,
-      "periphery": 0,
-      "new": 4
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,29 +239,25 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-06-29T13:52:50.559932+08:00",
-    "mode": "local",
+    "generated_at": "2026-06-29T15:40:02.581739+08:00",
+    "mode": "qwen",
     "item_count": 4,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，本次合作，双方将依托嘉定深厚智造生态，推动落地全国首个千台级工业具身智能机器人集群和规模化部署，并以嘉定为核心产业…。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.robot-china.com/news/202606/29/95980.html"
-        ]
+        "label": "工业场景成为规模化验证主线",
+        "text": "上海嘉定与它石智航合作推进全国首个千台级工业具身智能机器人集群和规模化部署，说明本周落地证据集中在具备智造生态和可组织验收的工业场景，这对行业重要，因为规模部署比单机展示更能检验稳定性、运维和交付能力。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，本轮资金将主要用于全身人形基础模型研发、多模态全身动作数据采集、人才团队扩充…。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://36kr.com/p/3868055841641476?f=rss"
-        ]
+        "label": "早期资本押注基础模型与数据能力",
+        "text": "港大教授李弘扬创业项目完成数亿元种子轮融资，资金将用于全身人形基础模型研发、多模态全身动作数据采集和团队扩充，说明资本仍在支持底层能力补齐，这对行业重要，因为全身动作数据和模型能力会影响后续泛化与场景迁移。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "上海嘉定与它石智航达成合作，拟依托当地智造生态推动全国首个千台级工业具身智能机器人集群落地，商业化验证开始向工业集群部署推进。",
         "items": [
           {
             "date": "06-29",
@@ -276,7 +270,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "港大教授李弘扬创办的通用全身具身大脑项目获真格、高榕、IDG、五源等数亿元种子轮融资，资金投向模型研发、动作数据采集和团队扩充。",
         "items": [
           {
             "date": "06-29",
@@ -289,7 +283,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "飞阔科技联合人形机器人场景应用联盟举办首届集成商百人大会，韩国公布芯片、物理人工智能和人工智能数据中心重大项目计划。",
         "items": [
           {
             "date": "06-29",
