@@ -691,6 +691,39 @@ function renderWeeklyReport(items){
   container.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>markRead(a.href)));
 }
 
+function renderGeneratedWeeklyReport(report){
+  const container=document.getElementById('weekGroups');
+  if(!report || !Array.isArray(report.insights) || !report.insights.length){
+    return false;
+  }
+  const startStr=report.start||''; const endStr=report.end||'';
+  const count=Number(report.item_count||0);
+  const mode=report.mode==='qwen' ? 'Qwen编辑' : '规则编辑';
+  document.getElementById('weekRange').textContent =
+    `汇总最近完整新闻周（周一到周日，${startStr}到${endStr}，${count}条，${mode}）`;
+
+  let html = `<div class="week-insight"><ul>` +
+    report.insights.slice(0,3).map(item=>{
+      const label=item.label||'本周观察';
+      const text=item.text||'';
+      return `<li><b>${esc(label)}：</b>${esc(text)}</li>`;
+    }).join('') +
+    `</ul></div>`;
+
+  (report.groups||[]).forEach(group=>{
+    const items=Array.isArray(group.items) ? group.items : [];
+    if(!items.length) return;
+    html += `<div class="weekgroup"><h3>${esc(group.category||'行业动态')}</h3>` +
+      `<p class="week-summary">${esc(group.summary||'本周相关动态。')}</p>` +
+      `<ul>` + items.map(it=>`<li><span class="d">${esc(it.date||'')}</span>` +
+        (it.url&&it.url!=='#' ? `<a href="${esc(it.url)}" target="_blank">${esc(it.title||'')}</a>` : esc(it.title||'')) + `</li>`).join('') +
+      `</ul></div>`;
+  });
+  container.innerHTML=html;
+  container.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>markRead(a.href)));
+  return true;
+}
+
 async function loadNews(){
   try{
     const res=await fetch(`./data/news.json?v=${Date.now()}`, {cache:'no-store'});
@@ -698,7 +731,9 @@ async function loadNews(){
     const data=await res.json();
     document.getElementById('pubdate').textContent = formatDateTime(data.updated);
     renderFeed(data.items);
-    renderWeeklyReport(data.items);
+    if(!renderGeneratedWeeklyReport(data.weekly_report)){
+      renderWeeklyReport(data.items);
+    }
   }catch(e){
     console.error(e);
     document.getElementById('feedLoading').textContent='动态加载失败，请稍后刷新。';

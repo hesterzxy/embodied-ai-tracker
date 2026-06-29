@@ -25,6 +25,8 @@ QWEN_API_URL = os.getenv(
     "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
 )
 QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
+REPORT_CATEGORIES = ["技术突破", "产品量产", "商业订单", "资本动态", "行业动态", "泛具身产业链"]
+MIN_WEEKLY_REPORT_ITEMS = 8
 
 CORE_TERMS = [
     "具身智能", "具身ai", "具身模型", "具身大脑", "具身创企", "具身创业",
@@ -207,30 +209,25 @@ def normalize_original_title_format(title: str) -> str:
     return f"{m.group(1).strip()} ({m.group(2).strip()})"
 
 
-def translate_title_with_qwen(title: str) -> Optional[str]:
-    api_key = (
+def get_qwen_api_key() -> str:
+    return (
         os.getenv("QWEN_API_KEY")
         or os.getenv("DASHSCOPE_API_KEY")
         or os.getenv("QWEN_KEY")
         or os.getenv("ALIYUN_API_KEY")
+        or ""
     )
+
+
+def qwen_chat(messages, temperature: float = 0.1, max_tokens: int = 120) -> Optional[str]:
+    api_key = get_qwen_api_key()
     if not api_key:
-        print("WARN: Qwen title translation skipped: no QWEN_API_KEY/DASHSCOPE_API_KEY/QWEN_KEY/ALIYUN_API_KEY")
         return None
     payload = {
         "model": QWEN_MODEL,
-        "messages": [
-            {
-                "role": "system",
-                "content": (
-                    "Translate robotics and embodied-AI news titles into concise Simplified Chinese. "
-                    "Preserve company/product names. Return only the translated title."
-                ),
-            },
-            {"role": "user", "content": title},
-        ],
-        "temperature": 0.1,
-        "max_tokens": 120,
+        "messages": messages,
+        "temperature": temperature,
+        "max_tokens": max_tokens,
     }
     req = Request(
         QWEN_API_URL,
@@ -242,14 +239,41 @@ def translate_title_with_qwen(title: str) -> Optional[str]:
         },
     )
     try:
-        with urlopen(req, timeout=20) as resp:
+        with urlopen(req, timeout=40) as resp:
             data = json.loads(resp.read().decode("utf-8"))
-        translated = data["choices"][0]["message"]["content"].strip()
+        content = data["choices"][0]["message"]["content"].strip()
+        return content or None
+    except (KeyError, ValueError, URLError, TimeoutError, OSError) as e:
+        print(f"WARN: Qwen chat failed: {type(e).__name__}: {e}")
+        return None
+
+
+def translate_title_with_qwen(title: str) -> Optional[str]:
+    api_key = (
+        get_qwen_api_key()
+    )
+    if not api_key:
+        print("WARN: Qwen title translation skipped: no QWEN_API_KEY/DASHSCOPE_API_KEY/QWEN_KEY/ALIYUN_API_KEY")
+        return None
+    translated = qwen_chat(
+        [
+            {
+                "role": "system",
+                "content": (
+                    "Translate robotics and embodied-AI news titles into concise Simplified Chinese. "
+                    "Preserve company/product names. Return only the translated title."
+                ),
+            },
+            {"role": "user", "content": title},
+        ],
+        temperature=0.1,
+        max_tokens=120,
+    )
+    if translated:
         translated = translated.strip("\"'“”")
         return translated or None
-    except (KeyError, ValueError, URLError, TimeoutError, OSError) as e:
-        print(f"WARN: failed to translate title with Qwen: {type(e).__name__}: {e}")
-        return None
+    print("WARN: failed to translate title with Qwen")
+    return None
 
 
 def local_title_translation(title: str) -> Optional[str]:
@@ -820,6 +844,396 @@ def fetch_article_summary(url: str, title: str) -> str:
     return summarize_news_text(title, extract_article_text(raw))
 
 
+def parse_mmdd(date_str: str, now: Optional[datetime] = None) -> Optional[datetime]:
+    if not date_str:
+        return None
+    now = now or datetime.now(timezone(timedelta(hours=8)))
+    m = re.search(r"(\d{1,2})-(\d{1,2})", date_str)
+    if not m:
+        return None
+    month, day = int(m.group(1)), int(m.group(2))
+    try:
+        dt = datetime(now.year, month, day, tzinfo=now.tzinfo)
+    except ValueError:
+        return None
+    if dt - now > timedelta(days=180):
+        dt = datetime(now.year - 1, month, day, tzinfo=now.tzinfo)
+    elif now - dt > timedelta(days=180):
+        dt = datetime(now.year + 1, month, day, tzinfo=now.tzinfo)
+    return dt
+
+
+def fmt_mmdd(dt: datetime) -> str:
+    return dt.strftime("%m-%d")
+
+
+def current_week_range(now: Optional[datetime] = None):
+    now = now or datetime.now(timezone(timedelta(hours=8)))
+    start = now - timedelta(days=now.weekday())
+    end = start + timedelta(days=6)
+    return start, end
+
+
+def latest_news_week_range(items):
+    now = datetime.now(timezone(timedelta(hours=8)))
+    dated = [parse_mmdd(it.get("date", ""), now) for it in items]
+    dated = [dt for dt in dated if dt]
+    if not dated:
+        return current_week_range(now)
+    week_counts = {}
+    for dt in dated:
+        start = dt - timedelta(days=dt.weekday())
+        key = start.date().isoformat()
+        week_counts[key] = week_counts.get(key, 0) + 1
+    candidates = []
+    for key, count in week_counts.items():
+        start_date = datetime.fromisoformat(key).replace(tzinfo=now.tzinfo)
+        candidates.append((start_date, count))
+    complete_enough = [row for row in candidates if row[1] >= MIN_WEEKLY_REPORT_ITEMS]
+    if complete_enough:
+        start = max(complete_enough, key=lambda row: row[0])[0]
+    else:
+        start = max(candidates, key=lambda row: (row[1], row[0]))[0]
+    return start, start + timedelta(days=6)
+
+
+def in_week(item, start: datetime, end: datetime) -> bool:
+    dt = parse_mmdd(item.get("date", ""), start)
+    return bool(dt and start.date() <= dt.date() <= end.date())
+
+
+def clean_report_fact(item) -> str:
+    text = re.sub(r"\s+", " ", item.get("summary", "") or "").strip()
+    if not text:
+        return ""
+    text = re.sub(r"^(作者|文|编辑|撰文)[｜|][^。]{1,80}", "", text).strip()
+    text = re.sub(r"^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*", "", text)
+    text = re.sub(r"^据[^，,。]{2,16}[，,]\s*", "", text)
+    text = re.sub(r"#.*$", "", text)
+    text = re.sub(r"The post appeared first on .*$", "", text, flags=re.I)
+    sentences = [s.strip() for s in re.split(r"(?<=[。.!?！？])\s*", text) if s.strip()]
+    signal_terms = [
+        "宣布", "完成", "发布", "推出", "签约", "合作", "量产", "下线", "交付",
+        "融资", "投资", "备案", "订单", "部署", "投用", "上岗", "成功率",
+        "触觉", "数据", "世界模型", "VLA", "工厂", "产线", "巡检", "维修",
+    ]
+    if sentences:
+        text = next((s for s in sentences if contains_word(s, signal_terms)), sentences[0])
+    if len(text) > 96:
+        text = text[:95] + "…"
+    return text.rstrip("。；;，,、 ") + "。"
+
+
+def contains_word(text: str, words) -> bool:
+    low = (text or "").lower()
+    return any(str(word).lower() in low for word in words)
+
+
+def score_report_items(items, includes, excludes=None, category_filter=None):
+    excludes = excludes or []
+    scored = []
+    for item in items:
+        if category_filter and not category_filter(item):
+            continue
+        text = f"{item.get('title','')} {item.get('summary','')}"
+        score = 0
+        for group in includes:
+            if contains_word(text, group["words"]):
+                score += group["weight"]
+        for pattern in excludes:
+            if re.search(pattern, text, re.I):
+                score -= 8
+        if clean_report_fact(item):
+            score += 1
+        if score > 0:
+            scored.append((score, item))
+    scored.sort(key=lambda x: x[0], reverse=True)
+    return [item for _, item in scored]
+
+
+def pick_report_items(items, limit=3):
+    picked = []
+    seen = set()
+    for item in items:
+        if not clean_report_fact(item):
+            continue
+        event_key = event_fingerprint(item) or title_fingerprint(item.get("title", ""))
+        key = event_key or f"{item.get('company','')}|{item.get('url') or item.get('title')}"
+        if key in seen:
+            continue
+        seen.add(key)
+        picked.append(item)
+        if len(picked) >= limit:
+            break
+    return picked
+
+
+def evidence_line(item) -> str:
+    company = item.get("company") or "其他"
+    title = normalize_original_title_format(item.get("title", ""))
+    fact = clean_report_fact(item)
+    return f"{item.get('date')}｜{item.get('category')}｜{company}｜{title}｜{fact}"
+
+
+def build_report_evidence(items):
+    auto_noise = [r"Model\s+[S3XY]", r"交付预期|购车|车型|车主|签名典藏版|销量"]
+    themes = [
+        {
+            "key": "scene",
+            "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+            "category_filter": lambda it: it.get("category") in {"产品量产", "商业订单", "技术突破", "行业动态"},
+            "includes": [
+                {"words": ["工厂", "产线", "维修服务", "巡检", "危险环境", "咖啡", "门店", "客户", "订单", "部署", "真实场景", "规模化部署"], "weight": 4},
+                {"words": ["量产", "下线", "交付", "合作", "签约", "投用", "上岗", "发布"], "weight": 2},
+                {"words": ["机器人", "人形", "具身", "机械臂", "轮臂"], "weight": 1},
+            ],
+        },
+        {
+            "key": "model",
+            "label": "模型叙事正在落到真实数据和任务闭环",
+            "category_filter": lambda it: it.get("category") in {"技术突破", "资本动态", "行业动态"},
+            "includes": [
+                {"words": ["世界模型", "VLA", "具身大脑", "数据", "数采", "数据飞轮", "真机", "微调", "成功率", "触觉", "感知", "强化学习"], "weight": 4},
+                {"words": ["模型", "合规备案", "基础设施", "评测", "人类生成的数据"], "weight": 2},
+            ],
+        },
+        {
+            "key": "capital",
+            "label": "资本更看重可定义场景和能力补齐",
+            "category_filter": lambda it: it.get("category") == "资本动态",
+            "includes": [
+                {"words": ["融资", "投资", "IPO", "募资", "并购", "收购", "估值", "独角兽", "战略投资", "SPAC"], "weight": 4},
+                {"words": ["场景", "客户", "订单", "数据基础设施", "物理AI", "世界模型"], "weight": 2},
+            ],
+        },
+        {
+            "key": "production",
+            "label": "量产和价格开始成为能力验证的一部分",
+            "category_filter": lambda it: it.get("category") in {"产品量产", "行业动态"},
+            "includes": [
+                {"words": ["量产", "下线", "第15000台", "15000台", "交付", "发布", "推出", "首秀", "产品矩阵", "降价", "2.99万"], "weight": 4},
+                {"words": ["规模化", "部署", "成本", "良率", "供应链"], "weight": 2},
+            ],
+        },
+        {
+            "key": "supply",
+            "label": "供应链机会要绑定具体性能瓶颈",
+            "category_filter": lambda it: it.get("category") in {"泛具身产业链", "技术突破", "行业动态", "资本动态"},
+            "includes": [
+                {"words": ["芯片", "关节", "编码器", "减速器", "传感器", "触觉", "激光", "电池", "材料", "BOM", "供应链"], "weight": 4},
+                {"words": ["控制", "力控", "执行器", "伺服", "数据采集"], "weight": 2},
+            ],
+        },
+    ]
+    evidence = []
+    for theme in themes:
+        scored = score_report_items(
+            items,
+            theme["includes"],
+            excludes=auto_noise,
+            category_filter=theme.get("category_filter"),
+        )
+        picked = pick_report_items(scored, 3)
+        if len(picked) >= 2:
+            evidence.append({
+                "key": theme["key"],
+                "label": theme["label"],
+                "items": picked,
+            })
+    return evidence
+
+
+def local_weekly_insights(evidence):
+    templates = {
+        "scene": (
+            "本周最有支撑的落地信号来自边界清楚的作业任务：{facts}。"
+            "这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。"
+        ),
+        "model": (
+            "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力：{facts}。"
+            "如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。"
+        ),
+        "capital": (
+            "融资和并购信号需要和用途一起看：{facts}。"
+            "真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。"
+        ),
+        "production": (
+            "产品侧的重点从“发布了什么”转向“能否持续制造和部署”：{facts}。"
+            "量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。"
+        ),
+        "supply": (
+            "上游动态的判断标准应落到部件解决什么问题：{facts}。"
+            "能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。"
+        ),
+    }
+    insights = []
+    for theme in evidence:
+        fact_parts = [
+            clean_report_fact(item).rstrip("。！？；; ")
+            for item in theme["items"][:2]
+            if clean_report_fact(item)
+        ]
+        facts = "；".join(fact_parts)
+        if not facts:
+            continue
+        insights.append({
+            "label": theme["label"],
+            "text": templates[theme["key"]].format(facts=facts),
+            "evidence_urls": [item.get("url", "") for item in theme["items"][:3]],
+        })
+        if len(insights) >= 3:
+            break
+    if not insights:
+        insights.append({
+            "label": "本周无强结论",
+            "text": "新闻较分散，暂时不足以支撑明确趋势判断；更适合逐条看具体公司、客户和产品指标。",
+            "evidence_urls": [],
+        })
+    return insights
+
+
+def parse_qwen_report(content: str):
+    if not content:
+        return None
+    text = content.strip()
+    text = re.sub(r"^```(?:json)?\s*", "", text)
+    text = re.sub(r"\s*```$", "", text)
+    m = re.search(r"\{.*\}", text, re.S)
+    if m:
+        text = m.group(0)
+    try:
+        data = json.loads(text)
+    except json.JSONDecodeError as e:
+        print(f"WARN: failed to parse Qwen weekly report JSON: {e}")
+        return None
+    insights = data.get("insights")
+    if not isinstance(insights, list) or not insights:
+        return None
+    cleaned = []
+    for item in insights[:3]:
+        label = str(item.get("label", "")).strip()
+        text = str(item.get("text", "")).strip()
+        if label and text and "《" not in text:
+            cleaned.append({"label": label[:36], "text": text[:260], "evidence_urls": []})
+    if not cleaned:
+        return None
+    category_summaries = data.get("category_summaries") if isinstance(data.get("category_summaries"), dict) else {}
+    return {"insights": cleaned, "category_summaries": category_summaries}
+
+
+def generate_qwen_weekly_report(items, evidence):
+    if not get_qwen_api_key() or len(items) < 4:
+        return None
+    evidence_text = []
+    for theme in evidence[:5]:
+        evidence_text.append(f"主题：{theme['label']}")
+        for item in theme["items"][:3]:
+            evidence_text.append(f"- {evidence_line(item)}")
+    category_lines = []
+    for cat in REPORT_CATEGORIES:
+        cat_items = [it for it in items if it.get("category") == cat]
+        if not cat_items:
+            continue
+        category_lines.append(f"{cat}：")
+        for item in cat_items[:8]:
+            category_lines.append(f"- {evidence_line(item)}")
+    prompt = (
+        "请基于以下具身智能周度新闻证据，生成高质量中文周报摘要。\n"
+        "要求：\n"
+        "1. 输出严格 JSON，不要 Markdown。\n"
+        "2. insights 只写 3 条，每条必须是“观点 + 关键事实 + 为什么重要”。\n"
+        "3. 不要堆标题，不要出现《》引用标题，不要空泛套话。\n"
+        "4. 只使用证据里的事实；证据不足就降低结论强度。\n"
+        "5. category_summaries 为各分类写一句 50-90 字总结。\n"
+        "JSON 格式：{\"insights\":[{\"label\":\"\",\"text\":\"\"}],\"category_summaries\":{\"技术突破\":\"\",\"产品量产\":\"\",\"商业订单\":\"\",\"资本动态\":\"\",\"行业动态\":\"\",\"泛具身产业链\":\"\"}}\n\n"
+        "优先证据：\n" + "\n".join(evidence_text) + "\n\n"
+        "分类新闻：\n" + "\n".join(category_lines)
+    )
+    content = qwen_chat(
+        [
+            {
+                "role": "system",
+                "content": "你是具身智能产业分析编辑，擅长从新闻事实中提炼具体、克制、可验证的周度趋势。",
+            },
+            {"role": "user", "content": prompt},
+        ],
+        temperature=0.2,
+        max_tokens=1200,
+    )
+    return parse_qwen_report(content or "")
+
+
+def fallback_category_summary(category: str, items) -> str:
+    titles = " ".join(item.get("title", "") for item in items)
+    if category == "技术突破":
+        if re.search(r"世界模型|VLA|触觉|真机|数据|评测", titles, re.I):
+            return "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。"
+        return "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。"
+    if category == "产品量产":
+        if re.search(r"量产|下线|交付|维修|巡检|产线|首秀", titles):
+            return "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。"
+        return "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。"
+    if category == "商业订单":
+        return "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。"
+    if category == "资本动态":
+        return "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。"
+    if category == "行业动态":
+        return "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。"
+    if category == "泛具身产业链":
+        return "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。"
+    return f"本周 {category} 共 {len(items)} 条相关动态。"
+
+
+def build_weekly_report(items):
+    if not items:
+        return {}
+    start, end = latest_news_week_range(items)
+    week_items = [item for item in items if in_week(item, start, end)]
+    if not week_items:
+        return {}
+    evidence = build_report_evidence(week_items)
+    qwen_report = generate_qwen_weekly_report(week_items, evidence)
+    insights = local_weekly_insights(evidence)
+    category_summaries = {}
+    mode = "local"
+    if qwen_report:
+        insights = qwen_report["insights"]
+        category_summaries = {
+            cat: str(text).strip()
+            for cat, text in qwen_report.get("category_summaries", {}).items()
+            if str(text).strip()
+        }
+        mode = "qwen"
+    groups = []
+    for cat in REPORT_CATEGORIES:
+        cat_items = [item for item in week_items if item.get("category") == cat]
+        if not cat_items:
+            continue
+        groups.append({
+            "category": cat,
+            "summary": category_summaries.get(cat) or fallback_category_summary(cat, cat_items),
+            "items": [
+                {
+                    "date": item.get("date", ""),
+                    "title": item.get("title", ""),
+                    "url": item.get("url", ""),
+                    "company": item.get("company", ""),
+                    "source_name": item.get("source_name", ""),
+                }
+                for item in cat_items
+            ],
+        })
+    return {
+        "start": fmt_mmdd(start),
+        "end": fmt_mmdd(end),
+        "generated_at": datetime.now(timezone(timedelta(hours=8))).isoformat(),
+        "mode": mode,
+        "item_count": len(week_items),
+        "insights": insights,
+        "groups": groups,
+    }
+
+
 def main():
     existing = load_existing()
     translation_cache = load_translation_cache()
@@ -979,6 +1393,7 @@ def main():
         "source": "RSS自动抓取",
         "source_count": len(SOURCES),
         "source_stats": source_stats,
+        "weekly_report": build_weekly_report(deduped),
         "items": deduped,
     }
     save_data(data)
