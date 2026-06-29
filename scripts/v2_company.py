@@ -366,11 +366,16 @@ def build_tashi_profile(company_name, hits):
 
 
 def build_generic_profile(company_name, hits):
-    if not hits:
+    if len(hits) < 2:
         return None
 
     sources = [source_from_item(item) for item in hits[:3]]
     headlines = [item.get("title", "") for item in hits[:3] if item.get("title")]
+    source_names = {item.get("source_name") for item in hits if item.get("source_name")}
+    urls = {item.get("url") for item in hits if item.get("url")}
+    if len(source_names) < 2 or len(urls) < 2:
+        return None
+
     categories = [item.get("category", "") for item in hits if item.get("category")]
     reason_bits = []
     if categories:
@@ -385,7 +390,6 @@ def build_generic_profile(company_name, hits):
         sources,
         kind="synthesis",
         confidence="low",
-        updated_recent=True,
         note="V2已找到相关新闻，但尚未形成稳定竞对判断。",
     )
 
@@ -412,7 +416,6 @@ def build_generic_profile(company_name, hits):
                     ],
                     [source],
                     confidence="low",
-                    updated_recent=True,
                     note="单条新闻信号，仅作为V2候选研究起点。",
                 )
 
