@@ -610,31 +610,31 @@ function renderWeeklyReport(items){
     if(sceneFacts.length>=2){
       bullets.push({
         label:'落地验证集中在工厂、维修、巡检等可验收任务',
-        text:`本周最有支撑的落地信号来自边界清楚的作业任务：${facts(sceneFacts)}。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。`
+        text:`本周最有支撑的落地信号来自边界清楚的作业任务，${facts(sceneFacts)}。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。`
       });
     }
     if(modelFacts.length>=2){
       bullets.push({
         label:'模型叙事正在落到真实数据和任务闭环',
-        text:`技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力：${facts(modelFacts)}。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。`
+        text:`技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，${facts(modelFacts)}。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。`
       });
     }
     if(capitalFacts.length>=2){
       bullets.push({
         label:'资本更看重可定义场景和能力补齐',
-        text:`融资和并购信号需要和用途一起看：${facts(capitalFacts)}。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。`
+        text:`融资和并购信号需要和用途一起看，${facts(capitalFacts)}。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。`
       });
     }
     if(bullets.length<3 && priceFacts.length>=2){
       bullets.push({
         label:'量产数字开始成为能力验证的一部分',
-        text:`产品侧的重点从“发布了什么”转向“能否持续制造和部署”：${facts(priceFacts)}。量产规模只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。`
+        text:`产品侧的重点从“发布了什么”转向“能否持续制造和部署”，${facts(priceFacts)}。量产规模只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。`
       });
     }
     if(bullets.length<3 && supplyFacts.length>=2){
       bullets.push({
         label:'供应链机会要绑定具体性能瓶颈',
-        text:`上游动态的判断标准应落到部件解决什么问题：${facts(supplyFacts)}。能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。`
+        text:`上游动态的判断标准应落到部件解决什么问题，${facts(supplyFacts)}。能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。`
       });
     }
     if(!bullets.length){
@@ -700,7 +700,7 @@ function renderGeneratedWeeklyReport(report){
   const count=Number(report.item_count||0);
   const mode=report.mode==='qwen' ? 'Qwen编辑' : '规则编辑';
   document.getElementById('weekRange').textContent =
-    `汇总最近完整新闻周（周一到周日，${startStr}到${endStr}，${count}条，${mode}）`;
+    `汇总本周热点新闻（周一到周日，${startStr}到${endStr}，${count}条，${mode}）`;
 
   let html = `<div class="week-insight"><ul>` +
     report.insights.slice(0,3).map(item=>{

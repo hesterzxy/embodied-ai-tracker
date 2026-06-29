@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T13:36:02.143494+08:00",
+  "updated": "2026-06-29T13:49:06.084709+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 30,
+      "candidates": 29,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -239,222 +239,36 @@
     }
   ],
   "weekly_report": {
-    "start": "06-22",
-    "end": "06-28",
-    "generated_at": "2026-06-29T13:36:02.157510+08:00",
+    "start": "06-29",
+    "end": "07-05",
+    "generated_at": "2026-06-29T13:52:50.559932+08:00",
     "mode": "local",
-    "item_count": 44,
+    "item_count": 4,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务：6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线；2026年6月25日，华勤技术与正行创新在上海正式签约战略合作。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，本次合作，双方将依托嘉定深厚智造生态，推动落地全国首个千台级工业具身智能机器人集群和规模化部署，并以嘉定为核心产业…。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
-          "https://36kr.com/newsflashes/3872498969252864?f=rss",
-          "https://www.qbitai.com/2026/06/438741.html",
-          "https://www.robot-china.com/news/202606/26/95971.html"
-        ]
-      },
-      {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力：6月26日，北京人形机器人创新中心慧思开物平台的双大脑模型天鹕（Pelican-VL）和我悟（WoW）同步完成北京市网信办最新一批生成式人工智能服务备案；半年后，基点对质疑声的回应，是数千万元的在手订单。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://36kr.com/newsflashes/3871213411128577?f=rss",
-          "https://36kr.com/p/3869445453305090?f=rss",
-          "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html"
+          "https://www.robot-china.com/news/202606/29/95980.html"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看：6月26日，通用具身智能机器人公司无界动力宣布完成超 2 亿美元天使轮融资；清研精准试图构建“一套底座，一个大脑，百个垂类场景”的物理AI数据飞轮。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，本轮资金将主要用于全身人形基础模型研发、多模态全身动作数据采集、人才团队扩充…。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html",
-          "https://www.leiphone.com/category/industrynews/ATSs1siQdN2RCpgn.html",
-          "https://36kr.com/newsflashes/3865256688932100?f=rss"
+          "https://36kr.com/p/3868055841641476?f=rss"
         ]
       }
     ],
     "groups": [
       {
-        "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
-        "items": [
-          {
-            "date": "06-27",
-            "title": "具身世界模型“我悟”通过合规备案",
-            "url": "https://36kr.com/newsflashes/3871213411128577?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "06-26",
-            "title": "华勤技术与正行创新达成战略合作，加速机器人“走进工厂、走上产线”",
-            "url": "https://www.qbitai.com/2026/06/438741.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "06-26",
-            "title": "戴宗宏和他的「工业世界模型」：一人两周，干完百人级定制化“累活”",
-            "url": "https://36kr.com/p/3869445453305090?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "06-26",
-            "title": "获人民日报头版聚焦，具身智能新标杆「本末科技」做对了什么？",
-            "url": "https://www.robot-china.com/news/202606/26/95972.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-26",
-            "title": "对话超维传感李炎辉：为什么那么多具身智能公司，都来抢着做「触觉」？",
-            "url": "https://www.leiphone.com/category/robot/Q6XEzSSNN50X3wwt.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "06-26",
-            "title": "市场监管总局：加快智能体、具身智能等前沿技术领域标准制定速度",
-            "url": "https://www.ithome.com/0/969/276.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "06-26",
-            "title": "川崎机器人在Automate 2026展会展示8轴物理AI机器人及智能自动化技术 (Kawasaki Robotics showcases 8-axis Physical AI robot and intelligent automation technologies at Automate 2026)",
-            "url": "https://roboticsandautomationnews.com/2026/06/26/kawasaki-robotics-showcases-8-axis-physical-ai-robot-and-intelligent-automation-technologies-at-automate-2026/102869/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "06-25",
-            "title": "GAIR Paper 105｜离线强化学习新突破——ROMI：破解对抗式模型学习「过保守、训不稳」深层困局｜ICLR 2026",
-            "url": "https://www.leiphone.com/category/private/wq3t2DJ8GSWtIl9w.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "06-25",
-            "title": "万拿机器人入选36氪\"2026最具价值成长企业100\" 跻身具身智能成长标杆企业",
-            "url": "https://www.robot-china.com/news/202606/25/95966.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-25",
-            "title": "飞捷科思打造全新一代物理世界模型 Fysiverse，实现从“视觉生成”到“物理推演”的飞跃",
-            "url": "https://www.robot-china.com/news/202606/25/95965.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-25",
-            "title": "全球第一！鹿明产业具身大脑Prime R0登顶全球权威具身评测榜单",
-            "url": "https://www.robot-china.com/news/202606/25/95963.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-24",
-            "title": "具身智能芯片，先卷疯了",
-            "url": "https://www.tmtpost.com/8038367.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "06-24",
-            "title": "1小时真机RL微调成功率破95%！HIL-ResRL：即插即用的VLA“外挂”神器",
-            "url": "https://www.qbitai.com/2026/06/438166.html",
-            "company": "其他",
-            "source_name": "量子位"
-          }
-        ]
-      },
-      {
-        "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
-        "items": [
-          {
-            "date": "06-28",
-            "title": "智元第15000台通用具身机器人正式量产下线",
-            "url": "https://36kr.com/newsflashes/3872498969252864?f=rss",
-            "company": "智元机器人",
-            "source_name": "36氪"
-          },
-          {
-            "date": "06-28",
-            "title": "法拉第未来推出“全美首款工业级轮臂机器人”Faber，同步推出全新 Futurist 机器人系列",
-            "url": "https://www.ithome.com/0/969/663.htm",
-            "company": "法拉第未来",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "06-27",
-            "title": "京东在欧洲推出机器人维修服务，“救护车”上门服务覆盖英国、德国、法国等地",
-            "url": "https://www.ithome.com/0/969/325.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "06-26",
-            "title": "让机器人学会“预判接触”：它石智航牵头四大顶尖机构发布TacForeSight，破解精细操作难题",
-            "url": "https://www.qbitai.com/2026/06/438701.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "06-26",
-            "title": "优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀",
-            "url": "https://www.ithome.com/0/969/219.htm",
-            "company": "优必选",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "06-26",
-            "title": "Flexiv 推出新型“自适应机器人”用于工业自动化 (Flexiv launches new ‘adaptive robots’ for industrial automation)",
-            "url": "https://roboticsandautomationnews.com/2026/06/26/flexiv-launches-new-adaptive-robots-for-industrial-automation/102857/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "06-24",
-            "title": "矩阵超智亮相大连夏季达沃斯，成全场唯一人形机器人服务商，MATRIX-3 化身 AI 咖啡师服务全球嘉宾",
-            "url": "https://www.robot-china.com/news/202606/24/95960.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-24",
-            "title": "特斯拉Optimus量产落地! 三花、拓普领衔出圈，人形机器人复刻电车超级风口",
-            "url": "https://robot.ofweek.com/2026-06/ART-898890-8460-30691892.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-24",
-            "title": "Mantis Robotics发布双臂无围栏机器人 (Mantis Robotics launches dual-arm, fenceless robot)",
-            "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "06-23",
-            "title": "ExRobotics 推出通过 UL 认证的危险环境巡检机器人 (ExRobotics launches UL-certified inspection robot for hazardous environments)",
-            "url": "https://www.therobotreport.com/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-environments/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          }
-        ]
-      },
-      {
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
-            "date": "06-26",
-            "title": "格力也做咖啡机器人，CMO朱磊称无心插柳柳成荫，已收获很多订单",
-            "url": "https://www.robot-china.com/news/202606/26/95973.html",
+            "date": "06-29",
+            "title": "上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地",
+            "url": "https://www.robot-china.com/news/202606/29/95980.html",
             "company": "其他",
             "source_name": "中国机器人网"
           }
@@ -465,52 +279,10 @@
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
-            "date": "06-26",
-            "title": "无界动力完成超2亿美元天使轮融资，加速具身通用大脑与世界模型开发",
-            "url": "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html",
+            "date": "06-29",
+            "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
+            "url": "https://36kr.com/p/3868055841641476?f=rss",
             "company": "行业",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "06-26",
-            "title": "科创丨全球首个海洋具身大模型诞生，10亿刷新海洋机器人融资纪录",
-            "url": "https://robot.ofweek.com/2026-06/ART-898890-8420-30692103.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-25",
-            "title": "光轮智能融资提速: 机器人行业开始给“学习系统”买单了",
-            "url": "https://robot.ofweek.com/2026-06/ART-8321203-12005-30692065.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-24",
-            "title": "独家丨清研精准完成数亿元 B3 轮融资，目标打造物理 AI 数据基础设施",
-            "url": "https://www.leiphone.com/category/industrynews/ATSs1siQdN2RCpgn.html",
-            "company": "行业",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "06-24",
-            "title": "人形机器人公司Agility Robotics将通过SPAC合并上市 (Humanoid maker Agility Robotics to go public through SPAC merger)",
-            "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/",
-            "company": "Agility Robotics",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "06-23",
-            "title": "刚注册就成独角兽，具身创企昆仑行90天融资数十亿元｜36氪独家",
-            "url": "https://36kr.com/p/3865188719121668?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "06-23",
-            "title": "巨人网络产业投资“光轮智能”",
-            "url": "https://36kr.com/newsflashes/3865256688932100?f=rss",
-            "company": "其他",
             "source_name": "36氪"
           }
         ]
@@ -520,101 +292,18 @@
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
-            "date": "06-26",
-            "title": "智元机器人等入股飞阔科技",
-            "url": "https://36kr.com/newsflashes/3869479741216005?f=rss",
-            "company": "智元机器人",
-            "source_name": "36氪"
-          },
-          {
-            "date": "06-26",
-            "title": "人形机器人首次登顶6200米以上高峰，超8成相关专利申请于近五年",
-            "url": "https://www.robot-china.com/news/202606/26/95974.html",
+            "date": "06-29",
+            "title": "飞阔科技联合人形机器人场景应用联盟，共同举办首届集成商百人大会",
+            "url": "https://www.robot-china.com/news/202606/29/95987.html",
             "company": "其他",
             "source_name": "中国机器人网"
           },
           {
-            "date": "06-26",
-            "title": "我国拟制定标准，推动人形机器人走进变电站、家电制造等更多场景",
-            "url": "https://www.robot-china.com/news/202606/26/95971.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-26",
-            "title": "陪伴类机器人卖了5000台，优必选能松口气了？",
-            "url": "https://www.tmtpost.com/8042348.html",
-            "company": "优必选",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "06-26",
-            "title": "ABB机器人公司与Psyonic利用人类生成的数据提升机器人灵巧性 (ABB Robotics and Psyonic use human-generated data to advance robotic dexterity)",
-            "url": "https://roboticsandautomationnews.com/2026/06/26/abb-robotics-and-psyonic-use-human-generated-data-to-advance-robotic-dexterity/102851/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "06-25",
-            "title": "非夕科技与敏卓机电、图南科技签署战略合作协议，共推自适应机器人赋能机电制造场景",
-            "url": "https://www.robot-china.com/news/202606/25/95967.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-25",
-            "title": "宇树R1降到2.99万，人形机器人价格战开始",
-            "url": "https://robot.ofweek.com/2026-06/ART-8321201-8420-30692062.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-25",
-            "title": "ARM Institute将RoboticsCareer.org扩展至物理AI领域 (ARM Institute expands RoboticsCareer.org into physical AI)",
-            "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "06-24",
-            "title": "软银首席执行官孙正义：我们的机器人实体人工智能工厂已开始投产机器人",
-            "url": "https://36kr.com/newsflashes/3866570257831175?f=rss",
+            "date": "06-29",
+            "title": "韩国宣布在芯片、物理人工智能和人工智能数据中心方面的重大项目计划",
+            "url": "https://36kr.com/newsflashes/3873799609570564?f=rss",
             "company": "其他",
             "source_name": "36氪"
-          },
-          {
-            "date": "06-24",
-            "title": "首款搭载宁德时代电池的重载人形机器人上岗",
-            "url": "https://www.ithome.com/0/968/169.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "06-23",
-            "title": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化 (Vention collaborates with FANUC and Universal Robots on software-defined automation)",
-            "url": "https://www.therobotreport.com/vention-collaborates-with-fanuc-universal-robots-software-defined-automation/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
-        "items": [
-          {
-            "date": "06-26",
-            "title": "四川机器人减速器零部件制造商，通过北交所上市辅导验收！",
-            "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30692111.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-25",
-            "title": "Robust.AI为第三代Carter移动机器人选择Aptiv PULSE传感器 (Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot)",
-            "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       }

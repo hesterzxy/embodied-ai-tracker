@@ -26,7 +26,6 @@ QWEN_API_URL = os.getenv(
 )
 QWEN_MODEL = os.getenv("QWEN_MODEL", "qwen-plus")
 REPORT_CATEGORIES = ["技术突破", "产品量产", "商业订单", "资本动态", "行业动态", "泛具身产业链"]
-MIN_WEEKLY_REPORT_ITEMS = 8
 
 CORE_TERMS = [
     "具身智能", "具身ai", "具身模型", "具身大脑", "具身创企", "具身创业",
@@ -876,25 +875,7 @@ def current_week_range(now: Optional[datetime] = None):
 
 def latest_news_week_range(items):
     now = datetime.now(timezone(timedelta(hours=8)))
-    dated = [parse_mmdd(it.get("date", ""), now) for it in items]
-    dated = [dt for dt in dated if dt]
-    if not dated:
-        return current_week_range(now)
-    week_counts = {}
-    for dt in dated:
-        start = dt - timedelta(days=dt.weekday())
-        key = start.date().isoformat()
-        week_counts[key] = week_counts.get(key, 0) + 1
-    candidates = []
-    for key, count in week_counts.items():
-        start_date = datetime.fromisoformat(key).replace(tzinfo=now.tzinfo)
-        candidates.append((start_date, count))
-    complete_enough = [row for row in candidates if row[1] >= MIN_WEEKLY_REPORT_ITEMS]
-    if complete_enough:
-        start = max(complete_enough, key=lambda row: row[0])[0]
-    else:
-        start = max(candidates, key=lambda row: (row[1], row[0]))[0]
-    return start, start + timedelta(days=6)
+    return current_week_range(now)
 
 
 def in_week(item, start: datetime, end: datetime) -> bool:
@@ -906,7 +887,10 @@ def clean_report_fact(item) -> str:
     text = re.sub(r"\s+", " ", item.get("summary", "") or "").strip()
     if not text:
         return ""
-    text = re.sub(r"^(作者|文|编辑|撰文)[｜|][^。]{1,80}", "", text).strip()
+    text = re.sub(r"^作者[｜|][^\s。！？]{1,16}\s*", "", text).strip()
+    text = re.sub(r"^编辑[｜|][^\s。！？]{1,16}\s*", "", text).strip()
+    text = re.sub(r"^(文|撰文)[｜|][^\s。！？]{1,16}\s*", "", text).strip()
+    text = re.sub(r"^(硬氪独家|36氪|记者)?获悉[，,]\s*", "", text).strip()
     text = re.sub(r"^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*", "", text)
     text = re.sub(r"^据[^，,。]{2,16}[，,]\s*", "", text)
     text = re.sub(r"#.*$", "", text)
@@ -917,11 +901,53 @@ def clean_report_fact(item) -> str:
         "融资", "投资", "备案", "订单", "部署", "投用", "上岗", "成功率",
         "触觉", "数据", "世界模型", "VLA", "工厂", "产线", "巡检", "维修",
     ]
+    priority_terms = [
+        "千台", "规模化部署", "落地全国首个", "本轮资金", "将主要用于",
+        "完成数亿元", "完成超", "数据采集", "基础模型", "客户订单",
+        "真实场景", "成功率", "量产下线",
+    ]
     if sentences:
-        text = next((s for s in sentences if contains_word(s, signal_terms)), sentences[0])
+        ranked = []
+        for idx, sentence in enumerate(sentences):
+            score = 0
+            score += sum(4 for term in priority_terms if str(term).lower() in sentence.lower())
+            if contains_word(sentence, signal_terms):
+                score += 2
+            if re.search(r"\d", sentence):
+                score += 1
+            ranked.append((score, -idx, sentence))
+        text = max(ranked, key=lambda row: row[:2])[2] if ranked else sentences[0]
     if len(text) > 96:
         text = text[:95] + "…"
     return text.rstrip("。；;，,、 ") + "。"
+
+
+def report_fact_strength(item) -> int:
+    title = item.get("title", "") or ""
+    summary = item.get("summary", "") or ""
+    text = f"{title} {summary}"
+    fact = clean_report_fact(item)
+    if not fact or len(fact) < 18:
+        return 0
+    weak_summary_patterns = [
+        r"^（?财联社）?$",
+        r"^（?新浪财经）?$",
+        r"它们能走、能跑、能对话",
+        r"机器越来越[“\"]?像人",
+        r"为什么大多数机器人",
+    ]
+    if any(re.search(pattern, summary.strip(), re.I) for pattern in weak_summary_patterns):
+        return 0
+    strength = 0
+    if re.search(r"\d", text):
+        strength += 1
+    if contains_word(text, ["完成", "宣布", "签署", "签约", "合作", "落地", "部署", "量产", "下线", "交付", "投用", "上岗", "发布", "推出"]):
+        strength += 1
+    if contains_word(text, ["融资", "投资", "收购", "并购", "上市", "SPAC", "订单", "客户", "工厂", "产线", "千台", "规模化", "数据采集", "基础模型"]):
+        strength += 1
+    if item.get("category") == "行业动态" and strength < 3:
+        return 0
+    return strength
 
 
 def contains_word(text: str, words) -> bool:
@@ -936,6 +962,9 @@ def score_report_items(items, includes, excludes=None, category_filter=None):
         if category_filter and not category_filter(item):
             continue
         text = f"{item.get('title','')} {item.get('summary','')}"
+        fact_strength = report_fact_strength(item)
+        if fact_strength <= 0:
+            continue
         score = 0
         for group in includes:
             if contains_word(text, group["words"]):
@@ -943,8 +972,7 @@ def score_report_items(items, includes, excludes=None, category_filter=None):
         for pattern in excludes:
             if re.search(pattern, text, re.I):
                 score -= 8
-        if clean_report_fact(item):
-            score += 1
+        score += fact_strength
         if score > 0:
             scored.append((score, item))
     scored.sort(key=lambda x: x[0], reverse=True)
@@ -991,7 +1019,7 @@ def build_report_evidence(items):
         {
             "key": "model",
             "label": "模型叙事正在落到真实数据和任务闭环",
-            "category_filter": lambda it: it.get("category") in {"技术突破", "资本动态", "行业动态"},
+            "category_filter": lambda it: it.get("category") in {"技术突破", "行业动态"},
             "includes": [
                 {"words": ["世界模型", "VLA", "具身大脑", "数据", "数采", "数据飞轮", "真机", "微调", "成功率", "触觉", "感知", "强化学习"], "weight": 4},
                 {"words": ["模型", "合规备案", "基础设施", "评测", "人类生成的数据"], "weight": 2},
@@ -1034,7 +1062,7 @@ def build_report_evidence(items):
             category_filter=theme.get("category_filter"),
         )
         picked = pick_report_items(scored, 3)
-        if len(picked) >= 2:
+        if picked:
             evidence.append({
                 "key": theme["key"],
                 "label": theme["label"],
@@ -1043,30 +1071,31 @@ def build_report_evidence(items):
     return evidence
 
 
-def local_weekly_insights(evidence):
+def local_weekly_insights(evidence, item_count=0):
     templates = {
         "scene": (
-            "本周最有支撑的落地信号来自边界清楚的作业任务：{facts}。"
+            "本周最有支撑的落地信号来自边界清楚的作业任务，{facts}。"
             "这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。"
         ),
         "model": (
-            "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力：{facts}。"
+            "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，{facts}。"
             "如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。"
         ),
         "capital": (
-            "融资和并购信号需要和用途一起看：{facts}。"
+            "融资和并购信号需要和用途一起看，{facts}。"
             "真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。"
         ),
         "production": (
-            "产品侧的重点从“发布了什么”转向“能否持续制造和部署”：{facts}。"
+            "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，{facts}。"
             "量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。"
         ),
         "supply": (
-            "上游动态的判断标准应落到部件解决什么问题：{facts}。"
+            "上游动态的判断标准应落到部件解决什么问题，{facts}。"
             "能提升感知、力控、运动控制或量产一致性的环节，才更可能进入真实 BOM。"
         ),
     }
     insights = []
+    max_insights = 3 if item_count >= 8 else 2 if item_count >= 2 else 1
     for theme in evidence:
         fact_parts = [
             clean_report_fact(item).rstrip("。！？；; ")
@@ -1081,7 +1110,7 @@ def local_weekly_insights(evidence):
             "text": templates[theme["key"]].format(facts=facts),
             "evidence_urls": [item.get("url", "") for item in theme["items"][:3]],
         })
-        if len(insights) >= 3:
+        if len(insights) >= max_insights:
             break
     if not insights:
         insights.append({
@@ -1113,6 +1142,7 @@ def parse_qwen_report(content: str):
     for item in insights[:3]:
         label = str(item.get("label", "")).strip()
         text = str(item.get("text", "")).strip()
+        text = re.sub(r"[：:]\s*", "，", text)
         if label and text and "《" not in text:
             cleaned.append({"label": label[:36], "text": text[:260], "evidence_urls": []})
     if not cleaned:
@@ -1122,7 +1152,7 @@ def parse_qwen_report(content: str):
 
 
 def generate_qwen_weekly_report(items, evidence):
-    if not get_qwen_api_key() or len(items) < 4:
+    if not get_qwen_api_key() or len(items) < 2:
         return None
     evidence_text = []
     for theme in evidence[:5]:
@@ -1141,10 +1171,11 @@ def generate_qwen_weekly_report(items, evidence):
         "请基于以下具身智能周度新闻证据，生成高质量中文周报摘要。\n"
         "要求：\n"
         "1. 输出严格 JSON，不要 Markdown。\n"
-        "2. insights 只写 3 条，每条必须是“观点 + 关键事实 + 为什么重要”。\n"
-        "3. 不要堆标题，不要出现《》引用标题，不要空泛套话。\n"
-        "4. 只使用证据里的事实；证据不足就降低结论强度。\n"
-        "5. category_summaries 为各分类写一句 50-90 字总结。\n"
+        "2. insights 写 1-3 条，每条必须是“观点 + 关键事实 + 为什么重要”；证据少时只写 1-2 条，不要硬凑。\n"
+        "3. label 是观点短句，text 是一段完整概括；text 里不要再使用冒号。\n"
+        "4. 不要堆标题，不要出现《》引用标题，不要空泛套话。\n"
+        "5. 只使用证据里的事实；证据不足就降低结论强度。\n"
+        "6. category_summaries 为各分类写一句 50-90 字总结。\n"
         "JSON 格式：{\"insights\":[{\"label\":\"\",\"text\":\"\"}],\"category_summaries\":{\"技术突破\":\"\",\"产品量产\":\"\",\"商业订单\":\"\",\"资本动态\":\"\",\"行业动态\":\"\",\"泛具身产业链\":\"\"}}\n\n"
         "优先证据：\n" + "\n".join(evidence_text) + "\n\n"
         "分类新闻：\n" + "\n".join(category_lines)
@@ -1193,7 +1224,7 @@ def build_weekly_report(items):
         return {}
     evidence = build_report_evidence(week_items)
     qwen_report = generate_qwen_weekly_report(week_items, evidence)
-    insights = local_weekly_insights(evidence)
+    insights = local_weekly_insights(evidence, len(week_items))
     category_summaries = {}
     mode = "local"
     if qwen_report:
