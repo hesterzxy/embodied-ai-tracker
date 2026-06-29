@@ -1,0 +1,26 @@
+name: Compare LLM Reports
+
+on:
+  workflow_dispatch:
+
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Compare Qwen and AI Code With
+        run: python scripts/compare_llm_reports.py
+        env:
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
+          DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
+          QWEN_KEY: ${{ secrets.QWEN_KEY }}
+          ALIYUN_API_KEY: ${{ secrets.ALIYUN_API_KEY }}
+          QWEN_MODEL: ${{ secrets.QWEN_MODEL }}
+          AICODEWITH_API_KEY: ${{ secrets.AICODEWITH_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          AICODEWITH_BASE_URL: ${{ secrets.AICODEWITH_BASE_URL }}
+          AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
