@@ -118,11 +118,11 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .matrix-legend b{color:var(--accent);font-weight:650}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:0;display:none}
 .matrix-state.show{display:block}
-.matrix-state b{color:var(--ink3);font-weight:500}
+.matrix-state b{display:inline-block;min-width:28px;color:var(--ink3);font-weight:500}
 .v2-submit-state{font-size:12px;color:var(--ink3);line-height:1.7;margin:-4px 0 10px;display:none}
 .v2-submit-state.show{display:block}
 .v2-submit-state b{color:var(--ink2);font-weight:650}
-.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 5px 3px 7px}
+.candidate-chip{display:inline-flex;align-items:center;gap:6px;min-height:26px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 5px 3px 8px}
 .iconbtn{position:relative;display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink4);cursor:pointer;padding:0}
 .iconbtn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
 .iconbtn .xicon{position:relative;display:block;width:9px;height:9px}
@@ -132,7 +132,7 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .restorebtn{border:none;background:transparent;color:var(--ink3);font-size:12px;line-height:1;cursor:pointer;padding:0 2px}
 .restorebtn:hover{color:var(--accent);text-decoration:underline}
 .v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
-.v2-status{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-height:28px}
+.v2-status{display:flex;align-items:center;gap:10px;flex-wrap:wrap;min-height:28px}
 .v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .v2-actions input{font-family:var(--sans);font-size:12.5px;padding:7px 9px;border:1px solid var(--line2);width:190px;background:var(--paper);border-radius:2px}
 .v2-actions input:focus{outline:none;border-color:var(--accent)}
@@ -140,9 +140,9 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .v2-actions button.primary{border-color:var(--accent);background:var(--accent);color:#fff}
 .v2-actions button:hover{border-color:var(--accent);color:var(--accent)}
 .v2-actions button.primary:hover{color:#fff;background:var(--accent-strong)}
-.hidden-companies{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--ink3);line-height:1.7}
-.hidden-companies b{color:var(--ink3);font-weight:500}
-.hidden-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 5px 3px 7px;font-size:12px}
+.hidden-companies{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--ink3);line-height:1.8}
+.hidden-companies b{display:inline-block;min-width:28px;color:var(--ink3);font-weight:500}
+.hidden-chip{display:inline-flex;align-items:center;gap:6px;min-height:26px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 8px;font-size:12px}
 .hidden-chip:hover{border-color:var(--accent);color:var(--accent)}
 .hide-company{position:absolute;top:6px;right:6px;opacity:.62}
 .hide-company:hover{opacity:1}
@@ -401,10 +401,10 @@ function removeCandidateCompany(name){
   renderTable();
   const persisted=(window.__baseTableData?.companies||[]).some(c=>c.name===name && c.pending === true);
   if(persisted){
-    setV2SubmitState(`<b>${esc(name)}</b> 正在提交后台删除。`);
+    setV2SubmitState(`<b>${esc(name)}</b> 已从当前对比移除，正在同步数据。`);
     submitV2Company(name, 'remove')
-      .then(()=>setV2SubmitState(`<b>${esc(name)}</b> 已提交后台删除；数据刷新通常需要几分钟。`))
-      .catch(()=>setV2SubmitState(`<b>${esc(name)}</b> 已从当前浏览器移除；后台删除未完成，请稍后再试。`));
+      .then(()=>setV2SubmitState(`<b>${esc(name)}</b> 删除已同步；页面数据刷新通常需要几分钟。`))
+      .catch(()=>setV2SubmitState(`<b>${esc(name)}</b> 已从当前浏览器移除；云端同步稍后再试。`));
   }
 }
 
