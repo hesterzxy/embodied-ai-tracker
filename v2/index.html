@@ -429,6 +429,42 @@ async function submitV2Company(companyName, action='add'){
   return data;
 }
 
+const V2_ALIAS_MAP={
+  'tashizhihang':'它石智航',
+  'tashizhihangrobotics':'它石智航',
+  'tashizhihangrobot':'它石智航',
+  'tashi':'它石智航',
+  'tacforesight':'它石智航',
+  '它石未来机器人':'它石智航',
+  '上海它石未来机器人':'它石智航'
+};
+function canonicalInputName(name){
+  const compact=String(name||'').replace(/\s+/g,'').toLowerCase();
+  return V2_ALIAS_MAP[compact] || name;
+}
+function findCompany(data, name){
+  const wanted=String(canonicalInputName(name)||'').replace(/\s+/g,'').toLowerCase();
+  return (data?.companies||[]).find(c=>String(c.name||'').replace(/\s+/g,'').toLowerCase()===wanted);
+}
+async function waitForV2Company(companyName, attempts=18){
+  const canonical=canonicalInputName(companyName);
+  for(let i=0;i<attempts;i++){
+    await new Promise(resolve=>setTimeout(resolve, i<3 ? 15000 : 25000));
+    await loadTable();
+    const company=findCompany(window.__baseTableData, canonical);
+    if(!company) continue;
+    writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>canonicalInputName(item)!==canonical));
+    renderTable();
+    if(company.pending === true){
+      setV2SubmitState(`<b>${esc(canonical)}</b> 已进入 V2 候选；后台暂未找到足够公开证据，后续有新消息可再次提交更新。`);
+    }else{
+      setV2SubmitState(`<b>${esc(canonical)}</b> 已写入 V2 数据。`);
+    }
+    return;
+  }
+  setV2SubmitState(`<b>${esc(canonical)}</b> 已提交后台；如果页面暂未变化，稍后刷新即可看到 GitHub Actions 写入结果。`);
+}
+
 function renderHiddenCompanies(data){
   const el=document.getElementById('hiddenCompanies');
   if(!el) return;
@@ -679,7 +715,7 @@ document.getElementById('addCompanyBtn').onclick=async ()=>{
   const normalizeName=value=>String(value||'').replace(/\s+/g,'').toLowerCase();
   const companies=(window.__tableData?.companies||[]);
   const matched=companies.find(c=>normalizeName(c.name)===normalizeName(name));
-  const finalName=matched ? matched.name : name;
+  const finalName=matched ? matched.name : canonicalInputName(name);
   const existing=new Set([...companies.map(c=>c.name), ...readList(V2_ADDED_KEY)]);
   if(!existing.has(finalName) || matched?.pending === true){
     writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), finalName]);
@@ -689,10 +725,11 @@ document.getElementById('addCompanyBtn').onclick=async ()=>{
   writeList(V2_HIDDEN_KEY, [...hidden]);
   input.value='';
   renderTable();
-  setV2SubmitState(`<b>${esc(finalName)}</b> 已加入当前对比，正在尝试提交后台入库。`);
+  setV2SubmitState(`<b>${esc(finalName)}</b> 已加入当前对比，正在提交后台定向检索。`);
   try{
     await submitV2Company(finalName, 'add');
-    setV2SubmitState(`<b>${esc(finalName)}</b> 已提交后台入库；GitHub Actions 完成后会写入 V2 数据，通常需要几分钟。`);
+    setV2SubmitState(`<b>${esc(finalName)}</b> 已提交；后台会先检索公开消息，再写入 V2 数据，通常需要几分钟。`);
+    waitForV2Company(finalName);
   }catch(error){
     setV2SubmitState(`<b>${esc(finalName)}</b> 已加入当前浏览器预览；后台提交未完成，可能是 Vercel API 尚未部署或未配置密钥。`);
   }

@@ -14,6 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 TABLE_PATH = ROOT / "v2" / "data" / "table.json"
 NEWS_PATH = ROOT / "data" / "news.json"
+V2_RESEARCH_PATH = ROOT / "v2" / "data" / "research_news.json"
 
 COMPANY_ALIASES = {
     "它石智航": ["它石智航", "它石未来机器人", "上海它石未来机器人", "tashizhihang", "tashi zhihang", "TacForeSight"],
@@ -48,11 +49,57 @@ def save_table(table):
     TABLE_PATH.write_text(json.dumps(table, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def remove_v2_research_company(company_name):
+    if not V2_RESEARCH_PATH.exists():
+        return False
+    try:
+        data = json.loads(V2_RESEARCH_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return False
+    companies = data.get("companies")
+    if not isinstance(companies, dict) or company_name not in companies:
+        return False
+    del companies[company_name]
+    data["updated"] = data.get("updated") or ""
+    V2_RESEARCH_PATH.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return True
+
+
 def load_news_items():
-    if not NEWS_PATH.exists():
+    items = []
+    if NEWS_PATH.exists():
+        data = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
+        if isinstance(data, dict):
+            items.extend(data.get("items", []))
+    items.extend(load_v2_research_items())
+    return dedupe_news_items(items)
+
+
+def load_v2_research_items():
+    if not V2_RESEARCH_PATH.exists():
         return []
-    data = json.loads(NEWS_PATH.read_text(encoding="utf-8"))
-    return data.get("items", []) if isinstance(data, dict) else []
+    try:
+        data = json.loads(V2_RESEARCH_PATH.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+    out = []
+    for payload in (data.get("companies") or {}).values():
+        if isinstance(payload, dict):
+            out.extend(payload.get("items") or [])
+    return out
+
+
+def dedupe_news_items(items):
+    out = []
+    seen = set()
+    for item in items:
+        url = item.get("url") or ""
+        key = url or norm(item.get("title", ""))
+        if not key or key in seen:
+            continue
+        seen.add(key)
+        out.append(item)
+    return out
 
 
 def norm(value):
@@ -450,10 +497,11 @@ def add_company(table, company_name):
 
 def remove_company(table, company_name):
     company_name = canonical_company_name(company_name)
+    removed_research = remove_v2_research_company(company_name)
     companies = table.get("companies", [])
     idx = next((i for i, company in enumerate(companies) if company.get("name") == company_name), -1)
     if idx < 0:
-        return False
+        return removed_research
     del companies[idx]
     for group in table.get("groups", []):
         for row in group.get("rows", []):
