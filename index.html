@@ -697,11 +697,8 @@ function renderGeneratedWeeklyReport(report){
     return false;
   }
   const startStr=report.start||''; const endStr=report.end||'';
-  const count=Number(report.item_count||0);
-  const modeMap={qwen:'Qwen编辑', aicodewith:'AI Code With编辑', local:'规则编辑'};
-  const mode=modeMap[report.mode] || '规则编辑';
   document.getElementById('weekRange').textContent =
-    `汇总本周热点新闻（周一到周日，${startStr}到${endStr}，${count}条，${mode}）`;
+    `汇总本周热点新闻（周一到周日，${startStr}到${endStr}）`;
 
   let html = `<div class="week-insight"><ul>` +
     report.insights.slice(0,3).map(item=>{
