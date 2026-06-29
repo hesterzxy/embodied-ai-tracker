@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T19:03:21.989686+08:00",
+  "updated": "2026-06-29T23:51:40.288186+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -24,20 +24,19 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 9,
-      "core": 1,
+      "candidates": 14,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 19,
-      "candidates": 9,
+      "fetched": false,
+      "attempts": 3,
+      "error": "TimeoutError: The read operation timed out",
+      "entries": 0,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,8 +48,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
+      "entries": 18,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -63,10 +62,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 1,
-      "core": 0,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -79,7 +78,7 @@
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +88,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 17,
-      "core": 1,
+      "candidates": 15,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +129,7 @@
       "candidates": 22,
       "core": 5,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +168,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 3
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,10 +178,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 8,
-      "core": 4,
+      "candidates": 9,
+      "core": 5,
       "periphery": 2,
-      "new": 1
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -192,7 +191,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
+      "candidates": 13,
       "core": 7,
       "periphery": 1,
       "new": 5
@@ -240,30 +239,43 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-06-29T19:03:37.421297+08:00",
+    "generated_at": "2026-06-29T23:51:58.572233+08:00",
     "mode": "aicodewith",
-    "item_count": 9,
+    "item_count": 12,
     "insights": [
       {
-        "label": "可验收场景成为落地重心",
-        "text": "本周落地验证集中在工业生产等任务边界清晰的场景，上海嘉定与它石智航计划推动千台级工业具身智能机器人集群部署，智元精灵 G2 在平板量产质检工段直播作业 64828 件且成功率达 99.99%，工厂质检、集群部署等可统计任务正在成为检验具身智能能力的主要抓手。",
+        "label": "落地验证转向可验收工段",
+        "text": "本周具身智能落地证据集中在工业场景，上海嘉定与它石智航推进千台级工业机器人集群，智元精灵 G2 在真实平板量产质检工段直播作业 64828 件、成功率 99.99%，可计件、可统计、可复核的任务正在成为能力验证的主要口径。",
         "evidence_urls": []
       },
       {
-        "label": "资本继续押注基础模型能力",
-        "text": "资本动态主要围绕世界模型和通用全身具身大脑展开，无界动力在数亿美元融资后发布 MWA 隐空间世界模型，Sand.ai 获超亿美元融资并聚焦视频生成路径，李弘扬团队获数亿种子轮用于全身人形基础模型、多模态动作数据和团队扩充，资金更偏向补齐感知、动作与长时序推理能力。",
+        "label": "资本押注模型与数据闭环",
+        "text": "港大教授李弘扬团队获数亿种子轮用于全身人形基础模型和多模态动作数据采集，无界动力发布隐空间世界模型 MWA，Sand.ai 获超亿美元融资并聚焦视频路径，机器人手公司融资 1100 万美元并强调训练数据，资金更偏向补齐模型、数据和灵巧操作短板。",
         "evidence_urls": []
       },
       {
-        "label": "量产数据开始参与能力证明",
-        "text": "智元精灵 G2 披露连续 6 天真实产线直播数据，覆盖平板量产质检工段并完成 64828 件作业，成功率 99.99%，单纯演示之外的连续作业量、成功率和工段覆盖正在成为外界评估机器人可用性的更具体依据。",
+        "label": "早期业务仍需规模化收入验证",
+        "text": "宏微科技提示 AIDC、人形机器人等新兴业务仍处于前期拓展、技术研发或小批量试点阶段，营收占比较小且尚未形成规模化利润贡献，具身智能相关概念在资本和场景热度之外，仍需要订单、量产和财务贡献持续交叉验证。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
+        "category": "技术突破",
+        "summary": "宏微科技公告显示，人形机器人相关布局仍处前期拓展、研发或小批量试点，营收占比和利润贡献有限，技术叙事暂未转化为确定业绩。",
+        "items": [
+          {
+            "date": "06-29",
+            "title": "宏微科技：目前公司布局的AIDC、人形机器人新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段",
+            "url": "https://36kr.com/newsflashes/3874215653659649?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          }
+        ]
+      },
+      {
         "category": "产品量产",
-        "summary": "智元精灵 G2 在平板量产质检工段进行真实产线直播，6 月 23 日至 28 日作业 64828 件，成功率 99.99%，量产场景数据披露更具体。",
+        "summary": "智元精灵 G2 在平板量产质检工段完成 64828 件直播作业并披露 99.99% 成功率，量产现场数据成为产品能力展示的重要依据。",
         "items": [
           {
             "date": "06-29",
@@ -276,7 +288,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "上海嘉定与它石智航合作，计划依托当地智造生态推动全国首个千台级工业具身智能机器人集群落地，工业场景规模化部署成为核心看点。",
+        "summary": "上海嘉定与它石智航合作推进千台级工业具身智能机器人集群和规模化部署，地方智造生态开始承接更大规模工业落地项目。",
         "items": [
           {
             "date": "06-29",
@@ -289,7 +301,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本热度集中在基础模型和世界模型方向，李弘扬团队获数亿种子轮，Sand.ai 获超亿美元融资，无界动力融资后发布 MWA，智平方估值达 200 亿。",
+        "summary": "资本集中流向全身具身大脑、世界模型、视频生成路径和机器人手训练数据等方向，融资叙事围绕模型能力、数据采集和关键操作环节展开。",
         "items": [
           {
             "date": "06-29",
@@ -318,12 +330,19 @@
             "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "06-29",
+            "title": "机器人手公司就特斯拉商业机密诉讼达成和解，并宣布融资1100万美元 (Robot hand company settles Tesla trade secret suit and announces $11M raise)",
+            "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
+            "company": "特斯拉",
+            "source_name": "TechCrunch Robotics"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业活动与政策信号并行，飞阔科技参与举办集成商百人大会，韩国提出芯片、物理人工智能和 AI 数据中心项目，物理 AI 平台化讨论升温。",
+        "summary": "行业活动围绕人形机器人集成商、物理 AI 平台、韩国相关项目计划和机器狗巡逻应用展开，场景组织与政策讨论同步升温。",
         "items": [
           {
             "date": "06-29",
@@ -345,6 +364,13 @@
             "url": "https://www.infoq.cn/article/sMq6bwGfrp5vRsc22hZj?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "06-29",
+            "title": "大晓机器人的赛博机器狗，开始在上海和天津「打全工」了",
+            "url": "https://www.ifanr.com/1670434?utm_source=rss&utm_medium=rss&utm_campaign=",
+            "company": "其他",
+            "source_name": "爱范儿"
           }
         ]
       }
@@ -431,6 +457,33 @@
       "category": "资本动态",
       "summary": "今日，无界动力正式发布全球首个“长时序双向物理因果链”隐空间世界模型——MWA? 具身通用大脑，同时在由斯坦福大学等顶尖机构联合发起的具身智能权威榜单 RoboCasa GR1 TableTop 中刷",
       "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html"
+    },
+    {
+      "date": "06-29",
+      "company": "其他",
+      "title": "宏微科技：目前公司布局的AIDC、人形机器人新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段",
+      "source_name": "36氪",
+      "category": "技术突破",
+      "summary": "36氪获悉，宏微科技发布股票交易风险提示公告，目前公司布局的AIDC、人形机器人、核聚变等新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段，相关业务营收占公司整体营业收入比重较小，尚未形成规模化营收及利润贡献，对公司当期经营业绩的提振作用有限，短期内无法成为公司核心盈利增长点，上述新兴领域未来收入及盈利兑现存在较大不确定性",
+      "url": "https://36kr.com/newsflashes/3874215653659649?f=rss"
+    },
+    {
+      "date": "06-29",
+      "company": "其他",
+      "title": "大晓机器人的赛博机器狗，开始在上海和天津「打全工」了",
+      "source_name": "爱范儿",
+      "category": "行业动态",
+      "summary": "不会被骨头勾走的巡逻犬。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
+      "url": "https://www.ifanr.com/1670434?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "date": "06-29",
+      "company": "特斯拉",
+      "title": "机器人手公司就特斯拉商业机密诉讼达成和解，并宣布融资1100万美元 (Robot hand company settles Tesla trade secret suit and announces $11M raise)",
+      "source_name": "TechCrunch Robotics",
+      "category": "资本动态",
+      "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
+      "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
     },
     {
       "date": "06-28",
@@ -773,33 +826,6 @@
       "category": "产品量产",
       "url": "https://robot.ofweek.com/2026-06/ART-898890-8460-30691892.html",
       "summary": "资本市场最顶级的产业行情，从来不是题材炒作的脉冲，而是技术成熟、成本下探、场景落地、订单兑现四重共振的长期趋势。 过去两年，人形机器人一直是A股最割裂的赛道之一。一边是AI概念热度居高不下，一边是市场"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "Mantis Robotics发布双臂无围栏机器人 (Mantis Robotics launches dual-arm, fenceless robot)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "url": "https://www.therobotreport.com/mantis-robotics-launches-dual-arm-fenceless-robot/",
-      "summary": "Mantis said the robot allows for new flexibility in how to configure automation in complex, real-world environments. The post appeared first on The Robot Report ."
-    },
-    {
-      "date": "06-24",
-      "company": "Agility Robotics",
-      "title": "人形机器人公司Agility Robotics将通过SPAC合并上市 (Humanoid maker Agility Robotics to go public through SPAC merger)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Agility Robotics will merge with Churchill Capital Corp XI, raising $620 million to advance Digit v5 and fulfill growing customer orders. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/humanoid-maker-agility-robotics-go-public-through-spac-merger/"
-    },
-    {
-      "date": "06-23",
-      "company": "行业",
-      "title": "刚注册就成独角兽，具身创企昆仑行90天融资数十亿元｜36氪独家",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "url": "https://36kr.com/p/3865188719121668?f=rss",
-      "summary": "离开阿里云一年多以后，前阿里集团副总裁、阿里云中国区总裁任庚，以昆仑行创始人的身份，再次切入AI的战场。这次他锚定的领域，是AI的落地终端——机器人。 36氪获悉，昆仑行机器人注册不到90天，已接连完成了3轮融资，累计融资规模为数十亿元。3轮融资后，公司估值已超十亿美元，成为具身行业独角兽。 这样的节奏显然刷新了具身智能行业的独角兽速度。 公司此前发布的信息…"
     }
   ]
 }
