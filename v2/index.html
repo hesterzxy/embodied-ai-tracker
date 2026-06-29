@@ -116,16 +116,23 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 #srcLegend .src-item{display:inline-block;margin-right:16px;white-space:normal}
 .matrix-legend{font-size:12px;color:var(--ink3);line-height:1.8;margin:4px 0 12px}
 .matrix-legend b{color:var(--accent);font-weight:650}
-.matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
+.matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:0;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
 .v2-submit-state{font-size:12px;color:var(--ink3);line-height:1.7;margin:-4px 0 10px;display:none}
 .v2-submit-state.show{display:block}
 .v2-submit-state b{color:var(--ink2);font-weight:650}
-.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);background:var(--paper);color:var(--ink2);border-radius:3px;padding:2px 5px 2px 7px;margin-left:5px}
-.iconbtn{display:inline-grid;place-items:center;width:18px;height:18px;border:1px solid var(--line2);border-radius:50%;background:var(--paper);color:var(--ink3);cursor:pointer;font-size:13px;line-height:1;padding:0}
+.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 5px 3px 7px}
+.iconbtn{position:relative;display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink4);cursor:pointer;padding:0}
 .iconbtn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
+.iconbtn .xicon,.iconbtn .restoreicon{position:relative;display:block;width:9px;height:9px}
+.iconbtn .xicon::before,.iconbtn .xicon::after{content:'';position:absolute;left:4px;top:0;width:1.2px;height:9px;background:currentColor;border-radius:1px}
+.iconbtn .xicon::before{transform:rotate(45deg)}
+.iconbtn .xicon::after{transform:rotate(-45deg)}
+.iconbtn .restoreicon{border:1.2px solid currentColor;border-right-color:transparent;border-bottom-color:transparent;border-radius:50%;transform:rotate(-42deg)}
+.iconbtn .restoreicon::after{content:'';position:absolute;left:-2px;top:4px;width:4px;height:4px;border-left:1.2px solid currentColor;border-top:1.2px solid currentColor;transform:rotate(-18deg);border-radius:.5px}
 .v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.v2-status{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-height:28px}
 .v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .v2-actions input{font-family:var(--sans);font-size:12.5px;padding:7px 9px;border:1px solid var(--line2);width:190px;background:var(--paper);border-radius:2px}
 .v2-actions input:focus{outline:none;border-color:var(--accent)}
@@ -134,9 +141,10 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .v2-actions button:hover{border-color:var(--accent);color:var(--accent)}
 .v2-actions button.primary:hover{color:#fff;background:var(--accent-strong)}
 .hidden-companies{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--ink3);line-height:1.7}
-.hidden-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 5px 3px 7px;font-size:12px}
+.hidden-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 5px 3px 7px;font-size:12px}
 .hidden-chip:hover{border-color:var(--accent);color:var(--accent)}
-.hide-company{position:absolute;top:6px;right:6px}
+.hide-company{position:absolute;top:6px;right:6px;opacity:.62}
+.hide-company:hover{opacity:1}
 /* pending companies */
 .pending-tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:10px;font-size:11px;font-family:var(--mono);margin-right:6px;margin-top:4px;letter-spacing:0.3px}
 .pending-del{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;margin-left:2px;padding:0 2px;line-height:1}
@@ -180,9 +188,11 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
     </div>
     <button class="txtbtn" id="dlBtn">下载 Excel</button>
   </div>
-  <div id="matrixState" class="matrix-state"></div>
   <div class="v2-tools" aria-label="V2 公司管理">
-    <div class="hidden-companies" id="hiddenCompanies"></div>
+    <div class="v2-status">
+      <div id="matrixState" class="matrix-state"></div>
+      <div class="hidden-companies" id="hiddenCompanies"></div>
+    </div>
     <div class="v2-actions">
       <button id="showAllBtn">全部显示</button>
       <input id="newCompanyInput" type="text" placeholder="新增公司名称">
@@ -358,8 +368,8 @@ function renderMatrixState(){
   const added=readList(V2_ADDED_KEY);
   const parts=[];
   if(added.length){
-    const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button class="iconbtn" data-remove-candidate="${esc(name)}" title="移除候选" aria-label="移除候选">⊗</button></span>`).join('');
-    parts.push(`<b>候选公司</b>${chips} 仅用于当前浏览器预览；长期入库需要后台核验并写入 V2 数据。`);
+    const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button class="iconbtn" data-remove-candidate="${esc(name)}" title="移除候选" aria-label="移除候选"><span class="xicon"></span></button></span>`).join('');
+    parts.push(`<b>候选</b> ${chips}`);
   }
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', Boolean(parts.length));
@@ -405,13 +415,13 @@ function renderHiddenCompanies(data){
   const hidden=readList(V2_HIDDEN_KEY).filter(name=>allNames.has(name));
   writeList(V2_HIDDEN_KEY, hidden);
   if(!hidden.length){
-    el.innerHTML='点公司名右上角 × 可从当前对比中隐藏。';
+    el.innerHTML=readList(V2_ADDED_KEY).length ? '' : '点列头右上角可隐藏公司。';
     return;
   }
   const added=new Set(readList(V2_ADDED_KEY));
-  el.innerHTML='已隐藏：'+hidden.map(name=>{
+  el.innerHTML='<b>隐藏</b> '+hidden.map(name=>{
     const action=added.has(name) ? 'delete' : 'restore';
-    const icon=action==='delete' ? '⊗' : '↶';
+    const icon=action==='delete' ? '<span class="xicon"></span>' : '<span class="restoreicon"></span>';
     const label=action==='delete' ? '删除候选' : '恢复显示';
     return `<span class="hidden-chip">${esc(name)} <button class="iconbtn" data-company="${esc(name)}" data-action="${action}" title="${label}" aria-label="${label}">${icon}</button></span>`;
   }).join('');
@@ -527,7 +537,7 @@ function _renderTable(data){
   const companyPct = n ? ((100 - 10) / n) : 90;
   colgroup.innerHTML = `<col style="width:10%">` + visibleCompanies.map(()=>`<col style="width:${companyPct}%">`).join('');
   tr.innerHTML=`<th class="corner rowdim">维度</th>`+
-    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏">⊗</button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('');
+    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('');
   thead.appendChild(tr);
   thead.querySelectorAll('.hide-company').forEach(btn=>{
     btn.addEventListener('click',event=>{
@@ -597,7 +607,7 @@ function renderSimpleTable(data){
   const colgroup=document.getElementById('cmpCols');
   document.getElementById('srcLegend').style.display='none';
   colgroup.innerHTML=`<col style="width:10%">`+companies.map(()=>`<col>`).join('');
-  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏">⊗</button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
   thead.querySelectorAll('.hide-company').forEach(btn=>{
     btn.addEventListener('click',event=>{
       event.stopPropagation();
