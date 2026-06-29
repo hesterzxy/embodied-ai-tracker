@@ -119,11 +119,7 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
-.v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end}
-.company-picks{display:flex;flex-wrap:wrap;gap:6px}
-.company-pick{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);border-radius:3px;padding:4px 8px;font-size:12px;color:var(--ink2);background:var(--paper);cursor:pointer;user-select:none}
-.company-pick input{margin:0}
-.company-pick.off{color:var(--ink4);background:var(--muted)}
+.v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .v2-actions input{font-family:var(--sans);font-size:12.5px;padding:7px 9px;border:1px solid var(--line2);width:190px;background:var(--paper);border-radius:2px}
 .v2-actions input:focus{outline:none;border-color:var(--accent)}
@@ -131,7 +127,11 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .v2-actions button.primary{border-color:var(--accent);background:var(--accent);color:#fff}
 .v2-actions button:hover{border-color:var(--accent);color:var(--accent)}
 .v2-actions button.primary:hover{color:#fff;background:var(--accent-strong)}
-.v2-note{grid-column:1/-1;font-size:12px;color:var(--ink3);line-height:1.7}
+.hidden-companies{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--ink3);line-height:1.7}
+.hidden-chip{display:inline-flex;align-items:center;gap:5px;border:1px solid var(--line2);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 7px;font-size:12px;cursor:pointer}
+.hidden-chip:hover{border-color:var(--accent);color:var(--accent)}
+.hide-company{position:absolute;top:6px;right:6px;border:none;background:transparent;color:var(--ink4);font-size:15px;line-height:1;cursor:pointer;padding:2px 4px;border-radius:2px}
+.hide-company:hover{background:var(--accent-soft);color:var(--accent)}
 /* pending companies */
 .pending-tag{display:inline-block;background:var(--accent-soft);color:var(--accent);padding:2px 10px;border-radius:10px;font-size:11px;font-family:var(--mono);margin-right:6px;margin-top:4px;letter-spacing:0.3px}
 .pending-del{background:none;border:none;color:var(--accent);cursor:pointer;font-size:12px;margin-left:2px;padding:0 2px;line-height:1}
@@ -148,7 +148,7 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 
 .hide{display:none}
 .errnote{color:var(--ink3);font-size:12.5px;padding:12px 0;font-family:var(--mono)}
-@media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}.v2-tools{grid-template-columns:1fr}.v2-actions{justify-content:flex-start}.v2-actions input{width:100%}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
+@media(max-width:720px){.sheet{padding:26px 16px}.meta{text-align:left}.v2-actions{justify-content:flex-start}.v2-actions input{width:100%}table.cmp{min-width:960px;font-size:12px}.item{grid-template-columns:64px 1fr;gap:12px}}
 </style>
 </head>
 <body>
@@ -177,13 +177,12 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
   </div>
   <div id="matrixState" class="matrix-state"></div>
   <div class="v2-tools" aria-label="V2 公司管理">
-    <div class="company-picks" id="companyPicks"></div>
+    <div class="hidden-companies" id="hiddenCompanies"></div>
     <div class="v2-actions">
       <button id="showAllBtn">全部显示</button>
       <input id="newCompanyInput" type="text" placeholder="新增公司名称">
-      <button class="primary" id="addCompanyBtn">加入 V2</button>
+      <button class="primary" id="addCompanyBtn">添加公司</button>
     </div>
-    <div class="v2-note" id="v2Note">V2 工作区：这里的公司显示和新增候选只影响 /v2/ 入口，原首页不变。</div>
   </div>
   <div class="matrix-legend"><b>xxx</b>：近30天内新增公开信息</div>
   <div class="tablewrap">
@@ -350,31 +349,28 @@ function applyV2LocalCompanies(data){
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const hidden=readList(V2_HIDDEN_KEY);
   const added=readList(V2_ADDED_KEY);
   const parts=[];
-  if(hidden.length) parts.push(`<b>已隐藏</b> ${hidden.map(esc).join('、')}`);
-  if(added.length) parts.push(`<b>V2候选</b> ${added.map(esc).join('、')}`);
+  if(added.length) parts.push(`<b>候选公司</b> ${added.map(esc).join('、')}：已加入当前对比，等待长期核验入库。`);
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', Boolean(parts.length));
 }
 
-function renderCompanyPicks(data){
-  const el=document.getElementById('companyPicks');
+function renderHiddenCompanies(data){
+  const el=document.getElementById('hiddenCompanies');
   if(!el) return;
-  const hidden=new Set(readList(V2_HIDDEN_KEY));
-  const companies=(data.companies||[]);
-  el.innerHTML=companies.map(c=>{
-    const name=c.name||'';
-    const off=hidden.has(name);
-    return `<label class="company-pick ${off?'off':''}"><input type="checkbox" ${off?'':'checked'} data-company="${esc(name)}">${esc(name)}</label>`;
-  }).join('');
-  el.querySelectorAll('input[data-company]').forEach(input=>{
-    input.addEventListener('change',()=>{
-      const name=input.getAttribute('data-company');
-      const next=new Set(readList(V2_HIDDEN_KEY));
-      if(input.checked) next.delete(name); else next.add(name);
-      writeList(V2_HIDDEN_KEY, [...next]);
+  const allNames=new Set((data.companies||[]).map(c=>c.name));
+  const hidden=readList(V2_HIDDEN_KEY).filter(name=>allNames.has(name));
+  writeList(V2_HIDDEN_KEY, hidden);
+  if(!hidden.length){
+    el.innerHTML='点公司名右上角 × 可从当前对比中隐藏。';
+    return;
+  }
+  el.innerHTML='已隐藏：'+hidden.map(name=>`<button class="hidden-chip" data-company="${esc(name)}">${esc(name)} <span>恢复</span></button>`).join('');
+  el.querySelectorAll('button[data-company]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const name=btn.getAttribute('data-company');
+      writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
       renderTable();
     });
   });
@@ -446,7 +442,7 @@ function _renderTable(data){
   const visibleCompanies = visibleIndexes.map(i=>orig[i]);
   document.getElementById('cocount').textContent = visibleCompanies.length || '—';
   const filteredGroups = data.groups || [];
-  renderCompanyPicks(data);
+  renderHiddenCompanies(data);
 
   // Collect & deduplicate sources across whole table
   const srcMap=new Map();
@@ -479,8 +475,16 @@ function _renderTable(data){
   const companyPct = n ? ((100 - 10) / n) : 90;
   colgroup.innerHTML = `<col style="width:10%">` + visibleCompanies.map(()=>`<col style="width:${companyPct}%">`).join('');
   tr.innerHTML=`<th class="corner rowdim">维度</th>`+
-    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><span class="coname">${c.name}</span><span class="coreason">${c.reason}</span></th>`).join('');
+    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><button class="hide-company" data-company="${esc(c.name)}" title="从当前对比中隐藏">×</button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('');
   thead.appendChild(tr);
+  thead.querySelectorAll('.hide-company').forEach(btn=>{
+    btn.addEventListener('click',event=>{
+      event.stopPropagation();
+      const name=btn.getAttribute('data-company');
+      writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
+      renderTable();
+    });
+  });
 
   const tbody=document.getElementById('cmpBody');
   tbody.innerHTML='';
@@ -535,13 +539,21 @@ function renderSimpleTable(data){
   const visibleIndexes=allCompanies.map((c,i)=>hidden.has(c.name) ? -1 : i).filter(i=>i>=0);
   const companies=visibleIndexes.map(i=>allCompanies[i]);
   document.getElementById('cocount').textContent = companies.length || '—';
-  renderCompanyPicks(data);
+  renderHiddenCompanies(data);
   const thead=document.getElementById('cmpHead');
   const tbody=document.getElementById('cmpBody');
   const colgroup=document.getElementById('cmpCols');
   document.getElementById('srcLegend').style.display='none';
   colgroup.innerHTML=`<col style="width:10%">`+companies.map(()=>`<col>`).join('');
-  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><button class="hide-company" data-company="${esc(c.name)}" title="从当前对比中隐藏">×</button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  thead.querySelectorAll('.hide-company').forEach(btn=>{
+    btn.addEventListener('click',event=>{
+      event.stopPropagation();
+      const name=btn.getAttribute('data-company');
+      writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
+      renderTable();
+    });
+  });
   tbody.innerHTML='';
   (data.groups||[]).forEach(g=>{
     const grp=document.createElement('tr');
