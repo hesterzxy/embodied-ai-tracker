@@ -118,19 +118,19 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .matrix-legend b{color:var(--accent);font-weight:650}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:0;display:none}
 .matrix-state.show{display:block}
-.matrix-state b{color:var(--ink2);font-weight:650}
+.matrix-state b{color:var(--ink3);font-weight:500}
 .v2-submit-state{font-size:12px;color:var(--ink3);line-height:1.7;margin:-4px 0 10px;display:none}
 .v2-submit-state.show{display:block}
 .v2-submit-state b{color:var(--ink2);font-weight:650}
-.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 5px 3px 7px}
+.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 5px 3px 7px}
 .iconbtn{position:relative;display:inline-grid;place-items:center;width:16px;height:16px;border:1px solid var(--line);border-radius:50%;background:var(--paper);color:var(--ink4);cursor:pointer;padding:0}
 .iconbtn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-soft)}
-.iconbtn .xicon,.iconbtn .restoreicon{position:relative;display:block;width:9px;height:9px}
+.iconbtn .xicon{position:relative;display:block;width:9px;height:9px}
 .iconbtn .xicon::before,.iconbtn .xicon::after{content:'';position:absolute;left:4px;top:0;width:1.2px;height:9px;background:currentColor;border-radius:1px}
 .iconbtn .xicon::before{transform:rotate(45deg)}
 .iconbtn .xicon::after{transform:rotate(-45deg)}
-.iconbtn .restoreicon{border:1.2px solid currentColor;border-right-color:transparent;border-bottom-color:transparent;border-radius:50%;transform:rotate(-42deg)}
-.iconbtn .restoreicon::after{content:'';position:absolute;left:-2px;top:4px;width:4px;height:4px;border-left:1.2px solid currentColor;border-top:1.2px solid currentColor;transform:rotate(-18deg);border-radius:.5px}
+.restorebtn{border:none;background:transparent;color:var(--ink3);font-size:12px;line-height:1;cursor:pointer;padding:0 2px}
+.restorebtn:hover{color:var(--accent);text-decoration:underline}
 .v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .v2-status{display:flex;align-items:center;gap:8px;flex-wrap:wrap;min-height:28px}
 .v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
@@ -141,7 +141,8 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .v2-actions button:hover{border-color:var(--accent);color:var(--accent)}
 .v2-actions button.primary:hover{color:#fff;background:var(--accent-strong)}
 .hidden-companies{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px;color:var(--ink3);line-height:1.7}
-.hidden-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink2);border-radius:3px;padding:3px 5px 3px 7px;font-size:12px}
+.hidden-companies b{color:var(--ink3);font-weight:500}
+.hidden-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--paper);color:var(--ink3);border-radius:3px;padding:3px 5px 3px 7px;font-size:12px}
 .hidden-chip:hover{border-color:var(--accent);color:var(--accent)}
 .hide-company{position:absolute;top:6px;right:6px;opacity:.62}
 .hide-company:hover{opacity:1}
@@ -330,6 +331,18 @@ function readList(key){
 function writeList(key, arr){
   localStorage.setItem(key, JSON.stringify([...new Set(arr.filter(Boolean))]));
 }
+function pendingNames(data){
+  return (data?.companies||[]).filter(c=>c && c.pending === true).map(c=>c.name).filter(Boolean);
+}
+function syncLocalCandidates(data){
+  const persisted=new Set(pendingNames(data));
+  const local=readList(V2_ADDED_KEY);
+  const baseNames=new Set((data?.companies||[]).map(c=>c.name));
+  const merged=[...new Set([...persisted, ...local.filter(name=>!baseNames.has(name))])];
+  writeList(V2_ADDED_KEY, merged);
+  writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(name=>!persisted.has(name)));
+  return merged;
+}
 function makePendingCell(companyName, dim){
   return {
     summary:'待核验',
@@ -365,7 +378,8 @@ function applyV2LocalCompanies(data){
 function renderMatrixState(){
   const el=document.getElementById('matrixState');
   if(!el) return;
-  const added=readList(V2_ADDED_KEY);
+  const persisted=new Set(pendingNames(window.__tableData));
+  const added=readList(V2_ADDED_KEY).filter(name=>persisted.has(name) || !(window.__baseTableData?.companies||[]).some(c=>c.name===name && c.pending !== true));
   const parts=[];
   if(added.length){
     const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button class="iconbtn" data-remove-candidate="${esc(name)}" title="移除候选" aria-label="移除候选"><span class="xicon"></span></button></span>`).join('');
@@ -385,6 +399,13 @@ function removeCandidateCompany(name){
   writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>item!==name));
   writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
   renderTable();
+  const persisted=(window.__baseTableData?.companies||[]).some(c=>c.name===name && c.pending === true);
+  if(persisted){
+    setV2SubmitState(`<b>${esc(name)}</b> 正在提交后台删除。`);
+    submitV2Company(name, 'remove')
+      .then(()=>setV2SubmitState(`<b>${esc(name)}</b> 已提交后台删除；数据刷新通常需要几分钟。`))
+      .catch(()=>setV2SubmitState(`<b>${esc(name)}</b> 已从当前浏览器移除；后台删除未完成，请稍后再试。`));
+  }
 }
 
 function setV2SubmitState(html){
@@ -411,29 +432,24 @@ async function submitV2Company(companyName, action='add'){
 function renderHiddenCompanies(data){
   const el=document.getElementById('hiddenCompanies');
   if(!el) return;
-  const allNames=new Set((data.companies||[]).map(c=>c.name));
+  const pending=new Set(pendingNames(data));
+  const allNames=new Set((data.companies||[]).filter(c=>!pending.has(c.name)).map(c=>c.name));
   const hidden=readList(V2_HIDDEN_KEY).filter(name=>allNames.has(name));
   writeList(V2_HIDDEN_KEY, hidden);
   if(!hidden.length){
     el.innerHTML=readList(V2_ADDED_KEY).length ? '' : '点列头右上角可隐藏公司。';
     return;
   }
-  const added=new Set(readList(V2_ADDED_KEY));
   el.innerHTML='<b>隐藏</b> '+hidden.map(name=>{
-    const action=added.has(name) ? 'delete' : 'restore';
-    const icon=action==='delete' ? '<span class="xicon"></span>' : '<span class="restoreicon"></span>';
-    const label=action==='delete' ? '删除候选' : '恢复显示';
-    return `<span class="hidden-chip">${esc(name)} <button class="iconbtn" data-company="${esc(name)}" data-action="${action}" title="${label}" aria-label="${label}">${icon}</button></span>`;
+    const action='restore';
+    const icon='<button class="restorebtn" data-company="'+esc(name)+'" data-action="restore" title="恢复显示" aria-label="恢复显示">恢复</button>';
+    return `<span class="hidden-chip">${esc(name)} ${icon}</span>`;
   }).join('');
   el.querySelectorAll('button[data-company]').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const name=btn.getAttribute('data-company');
-      if(btn.getAttribute('data-action')==='delete'){
-        removeCandidateCompany(name);
-      }else{
-        writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
-        renderTable();
-      }
+      writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
+      renderTable();
     });
   });
 }
@@ -453,6 +469,7 @@ tFeed.onclick=()=>show(false); tWeek.onclick=()=>show(true);
 function renderTable(){
   // (renderTable will be defined below using global data)
   if(window.__baseTableData){
+    syncLocalCandidates(window.__baseTableData);
     window.__tableData = applyV2LocalCompanies(window.__baseTableData);
     _renderTable(window.__tableData);
   }
@@ -464,6 +481,7 @@ async function loadTable(){
     if(!res.ok) throw new Error('HTTP '+res.status);
     const data=await res.json();
     window.__baseTableData = data;
+    syncLocalCandidates(data);
     window.__tableData = applyV2LocalCompanies(data);
     try{
       _renderTable(window.__tableData);
@@ -500,7 +518,7 @@ function extractDate(sourceName){
 function _renderTable(data){
   const hidden=new Set(readList(V2_HIDDEN_KEY));
   const orig = data.companies || [];
-  const visibleIndexes = orig.map((c,i)=>hidden.has(c.name) ? -1 : i).filter(i=>i>=0);
+  const visibleIndexes = orig.map((c,i)=>hidden.has(c.name) && c.pending !== true ? -1 : i).filter(i=>i>=0);
   const visibleCompanies = visibleIndexes.map(i=>orig[i]);
   document.getElementById('cocount').textContent = visibleCompanies.length || '—';
   const filteredGroups = data.groups || [];
@@ -537,14 +555,21 @@ function _renderTable(data){
   const companyPct = n ? ((100 - 10) / n) : 90;
   colgroup.innerHTML = `<col style="width:10%">` + visibleCompanies.map(()=>`<col style="width:${companyPct}%">`).join('');
   tr.innerHTML=`<th class="corner rowdim">维度</th>`+
-    visibleCompanies.map((c,i)=>`<th class="colco ${c.emphasis?'self':''}"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('');
+    visibleCompanies.map((c,i)=>{
+      const label=c.pending === true ? '移除候选' : '从当前对比中隐藏';
+      return `<th class="colco ${c.emphasis?'self':''}"><button class="hide-company iconbtn" data-company="${esc(c.name)}" data-pending="${c.pending===true?'true':'false'}" title="${label}" aria-label="${label}"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`;
+    }).join('');
   thead.appendChild(tr);
   thead.querySelectorAll('.hide-company').forEach(btn=>{
     btn.addEventListener('click',event=>{
       event.stopPropagation();
       const name=btn.getAttribute('data-company');
-      writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
-      renderTable();
+      if(btn.getAttribute('data-pending')==='true'){
+        removeCandidateCompany(name);
+      }else{
+        writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
+        renderTable();
+      }
     });
   });
 
@@ -598,7 +623,7 @@ function _renderTable(data){
 function renderSimpleTable(data){
   const hidden=new Set(readList(V2_HIDDEN_KEY));
   const allCompanies=data.companies||[];
-  const visibleIndexes=allCompanies.map((c,i)=>hidden.has(c.name) ? -1 : i).filter(i=>i>=0);
+  const visibleIndexes=allCompanies.map((c,i)=>hidden.has(c.name) && c.pending !== true ? -1 : i).filter(i=>i>=0);
   const companies=visibleIndexes.map(i=>allCompanies[i]);
   document.getElementById('cocount').textContent = companies.length || '—';
   renderHiddenCompanies(data);
@@ -607,13 +632,20 @@ function renderSimpleTable(data){
   const colgroup=document.getElementById('cmpCols');
   document.getElementById('srcLegend').style.display='none';
   colgroup.innerHTML=`<col style="width:10%">`+companies.map(()=>`<col>`).join('');
-  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>`<th class="colco"><button class="hide-company iconbtn" data-company="${esc(c.name)}" title="从当前对比中隐藏" aria-label="从当前对比中隐藏"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`).join('')}</tr>`;
+  thead.innerHTML=`<tr><th class="corner rowdim">维度</th>${companies.map(c=>{
+    const label=c.pending === true ? '移除候选' : '从当前对比中隐藏';
+    return `<th class="colco"><button class="hide-company iconbtn" data-company="${esc(c.name)}" data-pending="${c.pending===true?'true':'false'}" title="${label}" aria-label="${label}"><span class="xicon"></span></button><span class="coname">${esc(c.name)}</span><span class="coreason">${esc(c.reason||'')}</span></th>`;
+  }).join('')}</tr>`;
   thead.querySelectorAll('.hide-company').forEach(btn=>{
     btn.addEventListener('click',event=>{
       event.stopPropagation();
       const name=btn.getAttribute('data-company');
-      writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
-      renderTable();
+      if(btn.getAttribute('data-pending')==='true'){
+        removeCandidateCompany(name);
+      }else{
+        writeList(V2_HIDDEN_KEY, [...readList(V2_HIDDEN_KEY), name]);
+        renderTable();
+      }
     });
   });
   tbody.innerHTML='';
@@ -649,7 +681,7 @@ document.getElementById('addCompanyBtn').onclick=async ()=>{
   const matched=companies.find(c=>normalizeName(c.name)===normalizeName(name));
   const finalName=matched ? matched.name : name;
   const existing=new Set([...companies.map(c=>c.name), ...readList(V2_ADDED_KEY)]);
-  if(!existing.has(finalName)){
+  if(!existing.has(finalName) || matched?.pending === true){
     writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), finalName]);
   }
   const hidden=new Set(readList(V2_HIDDEN_KEY));
