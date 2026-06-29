@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T03:22:49.969346+08:00",
+  "updated": "2026-06-29T12:02:33.752035+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 6,
+      "entries": 29,
+      "candidates": 13,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
+      "entries": 18,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 0,
+      "entries": 16,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 15,
-      "core": 3,
+      "candidates": 28,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 1,
-      "new": 3
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -238,6 +238,15 @@
     }
   ],
   "items": [
+    {
+      "date": "06-29",
+      "company": "行业",
+      "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪独家获悉，通用全身具身大脑���司「源策未来Archon Robotics」近日完成数亿元种子轮融资，本轮投资方包括真格基金、高榕创投、IDG资本、五源资本等头部美元基金，以及戈壁创投与香港大学联名基金、奇绩创投、上海创智学院等。光源资本担任独家财务顾问。 本轮资金将主要用于全身人形基础模型研发、多模态全身动作数据采集、人才团队…",
+      "url": "https://36kr.com/p/3868055841641476?f=rss"
+    },
     {
       "date": "06-28",
       "company": "智元机器人",
