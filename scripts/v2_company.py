@@ -98,7 +98,7 @@ def source_from_item(item):
     }
 
 
-def make_cell(summary, bullets, sources=None, kind="evidence", confidence="medium", updated_recent=True, note=""):
+def make_cell(summary, bullets, sources=None, kind="evidence", confidence="medium", updated_recent=False, note=""):
     fallback_sources = sources or [{"name": "待核验", "url": "#", "evidence": ""}]
     return {
         "summary": summary,
@@ -185,6 +185,7 @@ def build_tashi_profile(company_name, hits):
                 ("联合高校与研究机构发布", [tac_source]),
             ],
             [tac_source],
+            updated_recent=True,
         ),
         "目标场景": make_cell(
             "工业精操",
@@ -194,6 +195,7 @@ def build_tashi_profile(company_name, hits):
                 ("以上海嘉定为核心产业场景", [order_source]),
             ],
             both_sources,
+            updated_recent=True,
         ),
         "硬件能力": make_cell(
             "本体待核验",
@@ -215,6 +217,7 @@ def build_tashi_profile(company_name, hits):
                 ("用于提升精细操作能力", [tac_source]),
             ],
             [tac_source],
+            updated_recent=True,
         ),
         "数据策略": make_cell(
             "接触数据",
@@ -235,6 +238,7 @@ def build_tashi_profile(company_name, hits):
                 ("连续作业指标待披露", [tac_source]),
             ],
             [tac_source],
+            updated_recent=True,
         ),
         "量产进度": make_cell(
             "集群落地",
@@ -244,6 +248,7 @@ def build_tashi_profile(company_name, hits):
                 ("具体交付节奏仍待公开", [order_source]),
             ],
             [order_source],
+            updated_recent=True,
         ),
         "可靠性": make_cell(
             "待验证",
@@ -254,6 +259,7 @@ def build_tashi_profile(company_name, hits):
             ],
             [order_source],
             confidence="low",
+            updated_recent=False,
             note="可靠性需要真实运行周期数据，目前只能确认部署计划。",
         ),
         "价格/成本": make_cell(
@@ -275,6 +281,7 @@ def build_tashi_profile(company_name, hits):
                 ("订单金额和最终交付数待公开", [order_source]),
             ],
             [order_source],
+            updated_recent=True,
         ),
         "标杆客户": make_cell(
             "嘉定场景",
@@ -285,6 +292,7 @@ def build_tashi_profile(company_name, hits):
             ],
             [order_source],
             confidence="medium",
+            updated_recent=True,
         ),
         "商业模式": make_cell(
             "场景部署",
@@ -295,6 +303,7 @@ def build_tashi_profile(company_name, hits):
             ],
             [order_source],
             confidence="low",
+            updated_recent=False,
             note="只确认落地方向，不推断收入确认方式。",
         ),
         "股东/生态资源": make_cell(
@@ -305,6 +314,7 @@ def build_tashi_profile(company_name, hits):
                 ("嘉定产业生态提供落地资源", [order_source]),
             ],
             both_sources,
+            updated_recent=True,
         ),
     })
 
@@ -334,6 +344,7 @@ def build_generic_profile(company_name, hits):
         sources,
         kind="synthesis",
         confidence="low",
+        updated_recent=True,
         note="V2已找到相关新闻，但尚未形成稳定竞对判断。",
     )
 
@@ -360,6 +371,7 @@ def build_generic_profile(company_name, hits):
                     ],
                     [source],
                     confidence="low",
+                    updated_recent=True,
                     note="单条新闻信号，仅作为V2候选研究起点。",
                 )
 

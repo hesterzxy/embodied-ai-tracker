@@ -330,7 +330,7 @@
                 }
               ],
               "kind": "synthesis",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "medium",
               "note": "基于两条近期公开新闻归纳，具体交付节奏仍需继续跟踪。"
             },
@@ -2138,7 +2138,7 @@
                 }
               ],
               "kind": "evidence",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "low",
               "note": "方向明确，但数据规模、来源和闭环频率仍待公开。"
             },
@@ -3190,7 +3190,7 @@
                 }
               ],
               "kind": "evidence",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "low",
               "note": "可靠性需要真实运行周期数据，目前只能确认部署计划。"
             },
@@ -4587,7 +4587,7 @@
                 }
               ],
               "kind": "evidence",
-              "updated_recent": true,
+              "updated_recent": false,
               "confidence": "low",
               "note": "只确认落地方向，不推断收入确认方式。"
             },
