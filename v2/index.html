@@ -119,6 +119,12 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
 .matrix-state{font-size:12px;color:var(--ink3);line-height:1.8;margin:6px 0 10px;display:none}
 .matrix-state.show{display:block}
 .matrix-state b{color:var(--ink2);font-weight:650}
+.v2-submit-state{font-size:12px;color:var(--ink3);line-height:1.7;margin:-4px 0 10px;display:none}
+.v2-submit-state.show{display:block}
+.v2-submit-state b{color:var(--ink2);font-weight:650}
+.candidate-chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line2);background:var(--paper);color:var(--ink2);border-radius:3px;padding:2px 7px;margin-left:5px}
+.candidate-chip button{border:none;background:transparent;color:var(--accent);cursor:pointer;font-family:var(--mono);font-size:11px;padding:0}
+.candidate-chip button:hover{text-decoration:underline}
 .v2-tools{border-top:1px solid var(--line2);border-bottom:1px solid var(--line);padding:10px 0 12px;margin:10px 0 12px;display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap}
 .v2-actions{display:flex;gap:8px;align-items:center;justify-content:flex-end;flex-wrap:wrap}
 .v2-actions input{font-family:var(--sans);font-size:12.5px;padding:7px 9px;border:1px solid var(--line2);width:190px;background:var(--paper);border-radius:2px}
@@ -184,6 +190,7 @@ table.cmp td.recent .cell-bullets li::before{color:var(--accent)}
       <button class="primary" id="addCompanyBtn">添加公司</button>
     </div>
   </div>
+  <div id="v2SubmitState" class="v2-submit-state"></div>
   <div class="matrix-legend"><b>xxx</b>：近30天内新增公开信息</div>
   <div class="tablewrap">
     <table class="cmp" id="cmpTable">
@@ -351,9 +358,45 @@ function renderMatrixState(){
   if(!el) return;
   const added=readList(V2_ADDED_KEY);
   const parts=[];
-  if(added.length) parts.push(`<b>候选公司</b> ${added.map(esc).join('、')}：已加入当前对比，等待长期核验入库。`);
+  if(added.length){
+    const chips=added.map(name=>`<span class="candidate-chip">${esc(name)} <button data-remove-candidate="${esc(name)}">移除</button></span>`).join('');
+    parts.push(`<b>候选公司</b>${chips} 仅用于当前浏览器预览；长期入库需要后台核验并写入 V2 数据。`);
+  }
   el.innerHTML=parts.join('　');
   el.classList.toggle('show', Boolean(parts.length));
+  el.querySelectorAll('[data-remove-candidate]').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      const name=btn.getAttribute('data-remove-candidate');
+      removeCandidateCompany(name);
+    });
+  });
+}
+
+function removeCandidateCompany(name){
+  writeList(V2_ADDED_KEY, readList(V2_ADDED_KEY).filter(item=>item!==name));
+  writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
+  renderTable();
+}
+
+function setV2SubmitState(html){
+  const el=document.getElementById('v2SubmitState');
+  if(!el) return;
+  el.innerHTML=html || '';
+  el.classList.toggle('show', Boolean(html));
+}
+
+async function submitV2Company(companyName, action='add'){
+  const res=await fetch('/api/add-company', {
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({company_name:companyName, action})
+  });
+  let data={};
+  try{ data=await res.json(); }catch(e){}
+  if(!res.ok || data.ok === false){
+    throw new Error(data.error || data.detail || `HTTP ${res.status}`);
+  }
+  return data;
 }
 
 function renderHiddenCompanies(data){
@@ -366,12 +409,20 @@ function renderHiddenCompanies(data){
     el.innerHTML='点公司名右上角 × 可从当前对比中隐藏。';
     return;
   }
-  el.innerHTML='已隐藏：'+hidden.map(name=>`<button class="hidden-chip" data-company="${esc(name)}">${esc(name)} <span>恢复</span></button>`).join('');
+  const added=new Set(readList(V2_ADDED_KEY));
+  el.innerHTML='已隐藏：'+hidden.map(name=>{
+    const action=added.has(name) ? '删除' : '恢复';
+    return `<button class="hidden-chip" data-company="${esc(name)}" data-action="${action}">${esc(name)} <span>${action}</span></button>`;
+  }).join('');
   el.querySelectorAll('button[data-company]').forEach(btn=>{
     btn.addEventListener('click',()=>{
       const name=btn.getAttribute('data-company');
-      writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
-      renderTable();
+      if(btn.getAttribute('data-action')==='删除'){
+        removeCandidateCompany(name);
+      }else{
+        writeList(V2_HIDDEN_KEY, readList(V2_HIDDEN_KEY).filter(item=>item!==name));
+        renderTable();
+      }
     });
   });
 }
@@ -578,19 +629,30 @@ document.getElementById('showAllBtn').onclick=()=>{
   writeList(V2_HIDDEN_KEY, []);
   renderTable();
 };
-document.getElementById('addCompanyBtn').onclick=()=>{
+document.getElementById('addCompanyBtn').onclick=async ()=>{
   const input=document.getElementById('newCompanyInput');
   const name=(input.value||'').trim();
   if(!name) return;
-  const existing=new Set([...(window.__tableData?.companies||[]).map(c=>c.name), ...readList(V2_ADDED_KEY)]);
-  if(!existing.has(name)){
-    writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), name]);
+  const normalizeName=value=>String(value||'').replace(/\s+/g,'').toLowerCase();
+  const companies=(window.__tableData?.companies||[]);
+  const matched=companies.find(c=>normalizeName(c.name)===normalizeName(name));
+  const finalName=matched ? matched.name : name;
+  const existing=new Set([...companies.map(c=>c.name), ...readList(V2_ADDED_KEY)]);
+  if(!existing.has(finalName)){
+    writeList(V2_ADDED_KEY, [...readList(V2_ADDED_KEY), finalName]);
   }
   const hidden=new Set(readList(V2_HIDDEN_KEY));
-  hidden.delete(name);
+  hidden.delete(finalName);
   writeList(V2_HIDDEN_KEY, [...hidden]);
   input.value='';
   renderTable();
+  setV2SubmitState(`<b>${esc(finalName)}</b> 已加入当前对比，正在尝试提交后台入库。`);
+  try{
+    await submitV2Company(finalName, 'add');
+    setV2SubmitState(`<b>${esc(finalName)}</b> 已提交后台入库；GitHub Actions 完成后会写入 V2 数据，通常需要几分钟。`);
+  }catch(error){
+    setV2SubmitState(`<b>${esc(finalName)}</b> 已加入当前浏览器预览；后台提交未完成，可能是 Vercel API 尚未部署或未配置密钥。`);
+  }
 };
 document.getElementById('newCompanyInput').addEventListener('keydown', event=>{
   if(event.key==='Enter') document.getElementById('addCompanyBtn').click();

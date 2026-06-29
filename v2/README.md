@@ -11,5 +11,6 @@ Implementation rule: V2 features that change the company list should write only 
 `v2/data/table.json` unless explicitly promoted back to V1.
 
 The browser UI supports temporary local add/hide controls for quick comparison.
-Persistent add/remove operations are handled by the `V2 Company Management`
-GitHub Actions workflow, which updates only `v2/data/table.json`.
+When deployed on Vercel, the add-company control also posts to `/api/add-company`,
+which dispatches the `V2 Company Management` GitHub Actions workflow. Persistent
+add/remove operations update only `v2/data/table.json`.

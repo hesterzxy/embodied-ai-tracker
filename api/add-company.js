@@ -1,6 +1,6 @@
 const DEFAULT_OWNER = 'hesterzxy';
 const DEFAULT_REPO = 'embodied-ai-tracker';
-const DEFAULT_WORKFLOW = 'daily-update.yml';
+const DEFAULT_WORKFLOW = 'v2-company.yml';
 const DEFAULT_REF = 'main';
 
 function json(res, status, body) {
@@ -35,6 +35,7 @@ module.exports = async function handler(req, res) {
   }
 
   const companyName = String(body?.company_name || '').trim();
+  const action = body?.action === 'remove' ? 'remove' : 'add';
   if (!companyName) {
     return json(res, 400, { ok: false, error: 'Missing company_name' });
   }
@@ -60,7 +61,7 @@ module.exports = async function handler(req, res) {
     body: JSON.stringify({
       ref,
       inputs: {
-        mode: 'default',
+        action,
         company_name: companyName,
       },
     }),
@@ -77,7 +78,8 @@ module.exports = async function handler(req, res) {
 
   return json(res, 200, {
     ok: true,
-    message: 'Submitted to GitHub Actions',
+    message: 'Submitted to V2 GitHub Actions',
+    action,
     company_name: companyName,
   });
 };
