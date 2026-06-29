@@ -219,7 +219,7 @@ def get_llm_config():
     aicodewith_key = os.getenv("AICODEWITH_API_KEY") or ""
     if aicodewith_key:
         return {
-            "provider": "AI Code With",
+            "provider": "aicodewith",
             "api_key": aicodewith_key,
             "api_url": normalize_chat_url(os.getenv("OPENAI_BASE_URL") or os.getenv("AICODEWITH_BASE_URL") or ""),
             "model": os.getenv("AICODEWITH_MODEL") or os.getenv("OPENAI_MODEL") or "",
@@ -232,7 +232,7 @@ def get_llm_config():
         or ""
     )
     return {
-        "provider": "Qwen",
+        "provider": "qwen",
         "api_key": qwen_key,
         "api_url": normalize_chat_url(os.getenv("QWEN_API_URL") or DEFAULT_QWEN_API_URL),
         "model": os.getenv("QWEN_MODEL") or "qwen-plus",
@@ -1286,7 +1286,7 @@ def build_weekly_report(items):
             for cat, text in qwen_report.get("category_summaries", {}).items()
             if str(text).strip()
         }
-        mode = "qwen"
+        mode = get_llm_config()["provider"]
     groups = []
     for cat in REPORT_CATEGORIES:
         cat_items = [item for item in week_items if item.get("category") == cat]

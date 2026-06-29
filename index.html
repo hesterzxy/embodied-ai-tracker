@@ -698,7 +698,8 @@ function renderGeneratedWeeklyReport(report){
   }
   const startStr=report.start||''; const endStr=report.end||'';
   const count=Number(report.item_count||0);
-  const mode=report.mode==='qwen' ? 'Qwen编辑' : '规则编辑';
+  const modeMap={qwen:'Qwen编辑', aicodewith:'AI Code With编辑', local:'规则编辑'};
+  const mode=modeMap[report.mode] || '规则编辑';
   document.getElementById('weekRange').textContent =
     `汇总本周热点新闻（周一到周日，${startStr}到${endStr}，${count}条，${mode}）`;
 
