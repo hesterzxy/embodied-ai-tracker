@@ -614,6 +614,27 @@ def find_company_index(table, company_name):
     return -1
 
 
+def is_low_quality_column(table, company_idx):
+    bad_summaries = {"待研判", "新闻待研判", "资料待补充"}
+    bad_count = 0
+    low_count = 0
+    recent_bad = 0
+    for group in table.get("groups", []):
+        for row in group.get("rows", []):
+            cells = row.get("cells", [])
+            cell = cells[company_idx] if company_idx < len(cells) else {}
+            if not isinstance(cell, dict):
+                continue
+            summary = cell.get("summary")
+            if summary in bad_summaries:
+                bad_count += 1
+                if cell.get("updated_recent"):
+                    recent_bad += 1
+            if cell.get("confidence") == "low":
+                low_count += 1
+    return bad_count > 0 or recent_bad > 0 or low_count >= 14
+
+
 def cells_by_label(profile):
     return profile.get("cells", {}) if profile else {}
 
@@ -640,17 +661,22 @@ def add_company(table, company_name):
     companies = table.setdefault("companies", [])
     idx = find_company_index(table, company_name)
     if idx >= 0:
-        if not profile:
-            return False
-        company = companies[idx]
-        company.update({
-            "name": company_name,
-            "reason": profile["reason"],
-            "emphasis": company.get("emphasis", False),
-        })
-        company.pop("pending", None)
-        write_company_cells(table, idx, company_name, profile)
-        return True
+        if is_low_quality_column(table, idx):
+            remove_company(table, company_name)
+            idx = -1
+            companies = table.setdefault("companies", [])
+        else:
+            if not profile:
+                return False
+            company = companies[idx]
+            company.update({
+                "name": company_name,
+                "reason": profile["reason"],
+                "emphasis": company.get("emphasis", False),
+            })
+            company.pop("pending", None)
+            write_company_cells(table, idx, company_name, profile)
+            return True
 
     if not profile:
         companies.append({"name": company_name, "reason": "V2 待评估", "emphasis": False, "pending": True})
