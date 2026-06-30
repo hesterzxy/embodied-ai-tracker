@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T17:39:45.072973+08:00",
+  "updated": "2026-06-30T22:22:48.882812+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 10,
-      "core": 5,
+      "entries": 27,
+      "candidates": 8,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 9,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 15,
-      "core": 2,
+      "entries": 60,
+      "candidates": 21,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -168,8 +168,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 8,
-      "periphery": 1,
-      "new": 5
+      "periphery": 2,
+      "new": 8
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 13,
       "core": 9,
       "periphery": 0,
-      "new": 6
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,42 +240,38 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-06-30T17:40:25.606416+08:00",
-    "mode": "local",
-    "item_count": 26,
+    "generated_at": "2026-06-30T22:23:07.971848+08:00",
+    "mode": "aicodewith",
+    "item_count": 30,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，本次合作，双方将依托嘉定深厚智造生态，推动落地全国首个千台级工业具身智能机器人集群和规模化部署；智元今日宣布，6 月 23 日至 28 日，智元精灵 G2 机器人开启“平板量产质检工段全覆盖”真实产线直播， 机器人作业成功率 99.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.robot-china.com/news/202606/29/95980.html",
-          "https://www.ithome.com/0/970/008.htm",
-          "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
-        ]
+        "label": "落地验证转向可验收工位",
+        "text": "本周具身智能落地更集中在工厂、质检和产线协作等可量化任务，嘉定与它石智航推动千台级工业机器人集群，智元精灵G2在平板量产质检工段直播作业64828件且成功率99.99%，短期商业化评价正在从演示能力转向稳定作业和规模部署。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，你从桌上端起一杯水，大脑用了 不到一秒 ，同时完成三件事： 估算杯子的重量，预判水面晃动的幅度，顺便绕开了旁边那个玻璃杯；宏微科技发布股票交易风险提示公告，目前公司布局的AIDC、人形机器人、核聚变等新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段，相关业务营收占公司整体营业收入比重较小，尚未形成规模化营收及利润贡献，对公司当期经营业绩的提振作用有限。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/06/439891.html",
-          "https://36kr.com/newsflashes/3874215653659649?f=rss"
-        ]
+        "label": "世界模型叙事绑定数据闭环",
+        "text": "无界动力发布隐空间世界模型，纽娲机器人融资5000万元做世界通行模型，优必选称工业机器人已批量落地海内外车企和制造工厂并积累真机数据，模型能力的可信度正在更多依赖真实任务、运动数据和部署反馈。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，今日，无界动力正式发布全球首个“长时序双向物理因果链”隐空间世界模型——MWA?；ai 是一家视频生成模型和产品公司，成立于2024年1月。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
-          "https://36kr.com/p/3873965241931014?f=rss",
-          "https://36kr.com/p/3875059110221064?f=rss"
-        ]
+        "label": "资本偏向能力补齐型资产",
+        "text": "本周融资集中在世界模型、全身具身大脑、工业机器人和关键部件方向，Sand.ai获超亿美元融资，李弘扬团队获数亿种子轮，视比特完成亿元级融资，资金更愿意投向可定义场景、数据采集和运动控制等短板环节。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧一边推进隐空间世界模型、仿真和部署能力，英伟达在华招聘覆盖具身智能等方向，另一边宏微科技提示相关业务仍处前期拓展和小批量试点。",
         "items": [
+          {
+            "date": "06-30",
+            "title": "英伟达在华启动机器人人才招聘，聚焦具身智能等四大方向",
+            "url": "https://www.ithome.com/0/970/732.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "06-29",
             "title": "宏微科技：目前公司布局的AIDC、人形机器人新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段",
@@ -294,7 +290,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产话题从目标发布转向真实工况和价格验证，智元披露质检工段连续作业数据，优必选发布11.98万元至99万元U1系列，工业喷涂协作机器人也进入细分场景。",
         "items": [
           {
             "date": "06-30",
@@ -328,7 +324,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "订单端以工业场景为主，嘉定与它石智航推进千台级工业具身智能机器人集群，宝马在测试上一代后部署Figure 03，产线验证仍是最清晰入口。",
         "items": [
           {
             "date": "06-29",
@@ -348,7 +344,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本动态密集，纽娲、视比特、李弘扬团队、Sand.ai和无界动力等获得融资或发布模型，资金流向世界模型、全身智能、工业应用和关键零部件。",
         "items": [
           {
             "date": "06-30",
@@ -424,7 +420,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业动态显示企业在家庭陪伴、工业落地和机构扩张间并行推进，优必选称工业机器人已成营收支柱，众擎在深圳设新公司，应用联盟也推动集成商交流。",
         "items": [
           {
             "date": "06-30",
@@ -453,6 +449,27 @@
             "url": "https://www.ithome.com/0/970/584.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "06-30",
+            "title": "物理 AI 演进之路：从受控环境走向现实世界",
+            "url": "https://www.infoq.cn/article/erU6ZuSI5qowMlIGSr8i?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "06-30",
+            "title": "优必选 CEO 周剑：陪伴机器人最能带来生态，目前一半精力在家庭场景",
+            "url": "https://www.ithome.com/0/970/723.htm",
+            "company": "优必选",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "06-30",
+            "title": "morph 的柔性机器人单元将物理 AI 嵌入硬件 (Soft, robotic cells from morph embed physical AI into hardware)",
+            "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "06-29",
@@ -585,6 +602,42 @@
       "category": "产品量产",
       "summary": "Hirebotics, a provider of collaborative robot solutions for metal fabrication, has announced the first explosion-proof cobot solution built using its no-code Beacon platform and th…",
       "url": "https://roboticsandautomationnews.com/2026/06/30/hirebotics-launches-no-code-explosion-proof-collaborative-robot-for-industrial-painting/102933/"
+    },
+    {
+      "date": "06-30",
+      "company": "其他",
+      "title": "物理 AI 演进之路：从受控环境走向现实世界",
+      "source_name": "InfoQ",
+      "category": "行业动态",
+      "summary": "物理人工智能 (AI) 正推动机器从可预测的受控环境走向复杂多变的现实世界",
+      "url": "https://www.infoq.cn/article/erU6ZuSI5qowMlIGSr8i?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "06-30",
+      "company": "其他",
+      "title": "英伟达在华启动机器人人才招聘，聚焦具身智能等四大方向",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 6 月 30 日消息，据《每日经济新闻》从英伟达处获悉，全球 AI 芯片巨头英伟达（NVIDIA）近日在中国启动大规模机器人人才招聘计划，围绕具身智能、仿真、部署及解决方案架构四大核心方向开放多个岗位，覆盖北京、上海、深圳三地。 据报道，本次招聘中，具身智能团队岗位数量最多，共开放 6 个职位。该团队发展方向为研发下一代通用机器人系统，重点聚焦灵巧…",
+      "url": "https://www.ithome.com/0/970/732.htm"
+    },
+    {
+      "date": "06-30",
+      "company": "优必选",
+      "title": "优必选 CEO 周剑：陪伴机器人最能带来生态，目前一半精力在家庭场景",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 6 月 30 日消息，据新浪科技今天报道，优必选科技创始人兼 CEO 周剑在媒体沟通会中透露，目前公司已确立了工业、商用、家庭 机器人三线并行布局，现阶段将一半精力深耕工业、商用市场，另一半精力则投向家庭陪伴机器人赛道。 周剑表示，工业机器人已成为公司营收支柱，批量落地海内外车企、制造工厂，持续积累整机运动、多场景真机数据，为机器人硬件、运控技术打…",
+      "url": "https://www.ithome.com/0/970/723.htm"
+    },
+    {
+      "date": "06-30",
+      "company": "其他",
+      "title": "morph 的柔性机器人单元将物理 AI 嵌入硬件 (Soft, robotic cells from morph embed physical AI into hardware)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "morph launched a physically intelligent soft robotics platform that designs and manufactures what it calls “soft robotic cells.” The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/"
     },
     {
       "date": "06-29",
@@ -900,42 +953,6 @@
       "category": "行业动态",
       "summary": "Dexterity remains a major challenge for industry; improved handling can reduce engineering time by up to 30% ABB Robotics is collaborating with California bionics company, Psyonic,…",
       "url": "https://roboticsandautomationnews.com/2026/06/26/abb-robotics-and-psyonic-use-human-generated-data-to-advance-robotic-dexterity/102851/"
-    },
-    {
-      "date": "06-26",
-      "company": "其他",
-      "title": "市场监管总局：加快智能体、具身智能等前沿技术领域标准制定速度",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 6 月 27 日消息，据央视新闻 6 月 25 日报道，市场监管总局正会同相关部门，加快智能体等前沿技术领域标准制定速度，动态完善适配产业发展的人工智能国家标准矩阵。 报道称，目前正在抓紧制定的国家标准，除智能体外，还有 具身智能、世界模型、本体模型 等前沿技术标准，算力基础设施、高质量数据集、仿真测试平台、深度学习编译器、开源模型平台等底座类标准…",
-      "url": "https://www.ithome.com/0/969/276.htm"
-    },
-    {
-      "date": "06-26",
-      "company": "其他",
-      "title": "川崎机器人在Automate 2026展会展示8轴物理AI机器人及智能自动化技术 (Kawasaki Robotics showcases 8-axis Physical AI robot and intelligent automation technologies at Automate 2026)",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "summary": "Kawasaki Robotics showcased a range of advanced automation technologies at Automate 2026 in Chicago, demonstrating how robotics, AI, machine learning, vision systems, and real-time…",
-      "url": "https://roboticsandautomationnews.com/2026/06/26/kawasaki-robotics-showcases-8-axis-physical-ai-robot-and-intelligent-automation-technologies-at-automate-2026/102869/"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "GAIR Paper 105｜离线强化学习新突破——ROMI：破解对抗式模型学习「过保守、训不稳」深层困局｜ICLR 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "ROMI：离线强化学习新突破，探索对抗式模型学习范式全新实现路径，破解保守性难控与训练不稳的深层困局。 作者丨 乔钟健 离线强化学习（offline RL）的目标，是在不与环境继续交互的前提下，仅依赖已有数据集学习策略。相比无模型（model-free）方法， 基于模型的离线强化学习（model-based offline RL） 会额外训练一个环境动力学模…",
-      "url": "https://www.leiphone.com/category/private/wq3t2DJ8GSWtIl9w.html"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "非夕科技与敏卓机电、图南科技签署战略合作协议，共推自适应机器人赋能机电制造场景",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "6月22日，非夕科技（Flexiv）与广东敏卓机电股份有限公司（以下简称“敏卓机电”） 、广东图南机器人科技有限公司（以下简称“图南科技”）在广东佛山正式签署战略合作协议。非夕科技工业副总裁陈仙勇、敏卓机电海外具身智能销售中心总经理杨子烨代表双方签约。非夕科技联合创始人兼CEO王世全、敏卓机电董事长兼总经理邱意想、图南科技董事长兼总经理郭志明、顺德区人民政府…",
-      "url": "https://www.robot-china.com/news/202606/25/95967.html"
     }
   ]
 }
