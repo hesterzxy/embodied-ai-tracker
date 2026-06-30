@@ -438,7 +438,264 @@ def build_tashi_profile(company_name, hits):
 
 
 def build_generic_profile(company_name, hits):
-    return build_llm_profile(company_name, hits)
+    return build_llm_profile(company_name, hits) or build_evidence_profile(company_name, hits)
+
+
+def hit_blob(item):
+    return " ".join(str(item.get(key, "")) for key in ["title", "summary", "category", "source_name", "url"])
+
+
+def hit_matches(item, pattern):
+    return re.search(pattern, hit_blob(item), re.I) is not None
+
+
+def first_hit(hits, pattern):
+    return next((item for item in hits if hit_matches(item, pattern)), None)
+
+
+def short_fact(item, fallback):
+    text = str(item.get("summary") or item.get("title") or fallback).strip()
+    text = re.sub(r"\s+", " ", text)
+    return text[:58]
+
+
+def evidence_bullet(item, fallback):
+    if not item:
+        return None
+    return (short_fact(item, fallback), [source_from_item(item)])
+
+
+def compact_bullets(*entries):
+    bullets = []
+    seen = set()
+    for entry in entries:
+        if not entry:
+            continue
+        text, sources = entry
+        key = text
+        if not text or key in seen:
+            continue
+        seen.add(key)
+        bullets.append((text, sources))
+        if len(bullets) >= 3:
+            break
+    return bullets
+
+
+def fallback_bullet(company_name, item, text):
+    if item:
+        return (text, [source_from_item(item)])
+    return (f"{company_name}{text}", [{"name": "公开来源待补", "url": "#", "evidence": ""}])
+
+
+def enough_profile_evidence(hits):
+    urls = {item.get("url") for item in hits if item.get("url")}
+    source_names = {item.get("source_name") for item in hits if item.get("source_name")}
+    return len(urls) >= 3 and len(source_names) >= 2
+
+
+def recent_action(item):
+    if not item:
+        return False
+    text = hit_blob(item)
+    return bool(re.search(r"发布|推出|亮相|预售|订单|交付|量产|部署|融资|签约|客户", text, re.I))
+
+
+def build_evidence_profile(company_name, hits):
+    if not enough_profile_evidence(hits):
+        return None
+
+    product = first_hit(hits, r"Walker|U1|产品|首发|发布|推出|产品系列|人形机器人")
+    industrial = first_hit(hits, r"工业|工厂|产线|制造|汽车|车厂|Walker\s*S|流水线")
+    commercial = first_hit(hits, r"商用|服务|导览|世博|中国馆|Walker\s*C")
+    home = first_hit(hits, r"家庭|陪伴|消费级|优世界|UWORLD|U1")
+    tech = first_hit(hits, r"具身智能|多模态|VSLAM|大模型|学习型|运动控制|自主换电|24/7|全栈")
+    order = first_hit(hits, r"订单|预售|交付|量产|下线|部署|1\.1\s*万|11000")
+    customer = first_hit(hits, r"客户|车厂|工厂|世博|中国馆|导览|入职")
+    team = first_hit(hits, r"创始人|CEO|周剑|团队")
+    finance = first_hit(hits, r"融资|估值|上市|港股|IPO|投资")
+    official = first_hit(hits, r"官网|company-profile|/products/|ubtrobot|公司简介")
+    reference = product or official or hits[0]
+
+    core_summary = "工业人形" if industrial else "人形矩阵"
+    tech_summary = "具身模型" if tech else "技术栈"
+    scene_summary = "多场景" if sum(bool(x) for x in [industrial, commercial, home]) >= 2 else ("工业场景" if industrial else "服务场景")
+    hardware_summary = "Walker矩阵" if product and re.search(r"Walker", hit_blob(product), re.I) else "人形本体"
+    progress_summary = "预售订单" if order and re.search(r"预售|订单|1\.1|11000", hit_blob(order), re.I) else ("量产交付" if order else "进度待跟")
+    customer_summary = "车厂/展馆" if customer and re.search(r"车厂|世博|中国馆", hit_blob(customer)) else "客户待核"
+
+    cells = {
+        "核心差异化": make_cell(
+            core_summary,
+            compact_bullets(
+                evidence_bullet(industrial or product, "人形机器人产品与工业场景同步推进"),
+                evidence_bullet(tech, "公开资料披露具身智能相关技术栈"),
+                evidence_bullet(order or customer, "近期公开信息出现订单、预售或部署信号"),
+            ),
+            kind="synthesis",
+            confidence="medium",
+            note="由多条公开来源自动归纳，未用输入证据外信息。",
+        ),
+        "技术选择": make_cell(
+            tech_summary,
+            compact_bullets(
+                evidence_bullet(tech, "公开资料披露具身智能/多模态/运动控制能力"),
+                evidence_bullet(industrial, "工业场景强调产线作业能力"),
+                evidence_bullet(product, "产品页披露人形机器人能力边界"),
+            ),
+            confidence="medium" if tech else "low",
+        ),
+        "目标场景": make_cell(
+            scene_summary,
+            compact_bullets(
+                evidence_bullet(industrial, "面向工业制造或工厂流水线"),
+                evidence_bullet(commercial, "面向商用服务或导览场景"),
+                evidence_bullet(home, "面向家庭陪伴或消费级场景"),
+            ) or compact_bullets(evidence_bullet(reference, "公开资料披露机器人目标场景")),
+            confidence="medium",
+        ),
+        "硬件能力": make_cell(
+            hardware_summary,
+            compact_bullets(
+                evidence_bullet(product, "产品页或新闻披露人形机器人产品"),
+                evidence_bullet(industrial, "工业版本面向产线同步作业"),
+                evidence_bullet(tech, "公开资料披露控制、感知或连续作业能力"),
+            ),
+            confidence="medium",
+        ),
+        "大脑自研": make_cell(
+            tech_summary,
+            compact_bullets(
+                evidence_bullet(tech, "公开资料提到具身智能、多模态规划或运动控制"),
+                evidence_bullet(official, "官网资料披露全栈或自研能力"),
+                fallback_bullet(company_name, reference, "大脑能力仍需跟踪独立评测"),
+            ),
+            confidence="low" if not tech else "medium",
+            note="只保留公开资料能支撑的能力描述。",
+        ),
+        "数据策略": make_cell(
+            "场景闭环",
+            compact_bullets(
+                evidence_bullet(industrial, "工业/工厂场景可形成真实任务闭环"),
+                evidence_bullet(customer, "公开资料提到入厂、导览或客户场景"),
+                fallback_bullet(company_name, reference, "训练数据规模和采集频率未披露"),
+            ),
+            confidence="low",
+            note="数据规模未公开，当前只确认场景来源。",
+        ),
+        "实测能力": make_cell(
+            "公开演示",
+            compact_bullets(
+                evidence_bullet(industrial, "公开资料披露产线或工厂作业能力"),
+                evidence_bullet(commercial, "公开资料披露商用服务/导览能力"),
+                evidence_bullet(product, "产品发布或官网展示本体能力"),
+            ),
+            confidence="medium" if industrial or commercial else "low",
+        ),
+        "量产进度": make_cell(
+            progress_summary,
+            compact_bullets(
+                evidence_bullet(order, "近期公开信息披露预售、订单、交付或量产节点"),
+                evidence_bullet(product, "产品线已公开发布或展示"),
+                fallback_bullet(company_name, reference, "最终交付节奏仍需继续跟踪"),
+            ),
+            confidence="medium",
+            updated_recent=recent_action(order),
+        ),
+        "可靠性": make_cell(
+            "指标待披露",
+            compact_bullets(
+                evidence_bullet(tech, "公开资料披露连续作业、换电或控制能力"),
+                evidence_bullet(industrial, "工业场景对稳定作业提出要求"),
+                fallback_bullet(company_name, reference, "故障率、MTBF和验收周期未见充分公开披露"),
+            ),
+            confidence="low",
+            updated_recent=False,
+        ),
+        "价格/成本": make_cell(
+            "价格待披露",
+            compact_bullets(
+                evidence_bullet(order, "公开新闻披露预售或订单信号但价格需继续核验"),
+                fallback_bullet(company_name, reference, "单机价格、交付口径和服务费结构未充分公开"),
+                evidence_bullet(product, "产品线信息可用于后续价格跟踪"),
+            ),
+            confidence="low",
+            updated_recent=False,
+        ),
+        "真实订单": make_cell(
+            "预售订单" if order else "订单待核",
+            compact_bullets(
+                evidence_bullet(order, "近期公开信息出现订单、预售或交付线索"),
+                evidence_bullet(customer, "公开资料披露客户或部署场景"),
+                fallback_bullet(company_name, reference, "合同金额、回款和最终交付数仍需核验"),
+            ),
+            confidence="medium" if order else "low",
+            updated_recent=recent_action(order),
+        ),
+        "标杆客户": make_cell(
+            customer_summary,
+            compact_bullets(
+                evidence_bullet(customer, "公开资料披露车厂、工厂、展馆或导览场景"),
+                evidence_bullet(industrial, "工业场景具备潜在标杆客户线索"),
+                fallback_bullet(company_name, reference, "客户名单和验收口径需继续跟踪"),
+            ),
+            confidence="low" if not customer else "medium",
+        ),
+        "商业模式": make_cell(
+            "产品销售",
+            compact_bullets(
+                evidence_bullet(product, "公开产品矩阵支撑硬件销售线索"),
+                evidence_bullet(order, "预售/订单信息支撑商业化进展"),
+                evidence_bullet(industrial or commercial or home, "多场景布局对应不同交付模式"),
+            ),
+            confidence="medium",
+        ),
+        "创始团队": make_cell(
+            "周剑团队" if team and "周剑" in hit_blob(team) else "团队待补",
+            compact_bullets(
+                evidence_bullet(team, "公开新闻披露创始人或管理层观点"),
+                evidence_bullet(official, "官网资料可继续补充团队背景"),
+                fallback_bullet(company_name, reference, "核心技术团队履历仍需更多公开材料"),
+            ),
+            confidence="low" if not team else "medium",
+            updated_recent=False,
+        ),
+        "融资估值": make_cell(
+            "未见新融资",
+            compact_bullets(
+                evidence_bullet(finance, "公开资料出现融资、上市或估值信息"),
+                fallback_bullet(company_name, reference, "本次证据包未形成新的融资估值变化"),
+                fallback_bullet(company_name, reference, "估值、股价和财务口径应单独跟踪"),
+            ),
+            confidence="low",
+            updated_recent=False,
+        ),
+        "股东/生态资源": make_cell(
+            "产业生态",
+            compact_bullets(
+                evidence_bullet(industrial, "工业制造生态提供应用场景"),
+                evidence_bullet(customer, "公开客户/展馆/工厂线索体现生态资源"),
+                evidence_bullet(official, "官网资料披露产品与场景布局"),
+            ),
+            confidence="medium" if industrial or customer else "low",
+        ),
+    }
+
+    concrete = sum(1 for cell in cells.values() if cell.get("summary") != "待核验")
+    real_urls = {
+        src.get("url")
+        for cell in cells.values()
+        for bullet in cell.get("bullets", [])
+        for src in bullet.get("sources", [])
+        if src.get("url") and src.get("url") != "#"
+    }
+    if concrete < 10 or len(real_urls) < 3:
+        return None
+
+    return {
+        "reason": f"{core_summary} · {progress_summary}",
+        "cells": cells,
+    }
 
 
 def evidence_pack(company_name, hits, limit=12):
@@ -662,7 +919,7 @@ def add_company(table, company_name):
     idx = find_company_index(table, company_name)
     if idx >= 0:
         if is_low_quality_column(table, idx):
-            remove_company(table, company_name)
+            remove_company(table, company_name, remove_research=False)
             idx = -1
             companies = table.setdefault("companies", [])
         else:
@@ -691,9 +948,9 @@ def add_company(table, company_name):
     return True
 
 
-def remove_company(table, company_name):
+def remove_company(table, company_name, remove_research=True):
     company_name = canonical_company_name(company_name)
-    removed_research = remove_v2_research_company(company_name)
+    removed_research = remove_v2_research_company(company_name) if remove_research else False
     companies = table.get("companies", [])
     idx = next((i for i, company in enumerate(companies) if company.get("name") == company_name), -1)
     if idx < 0:

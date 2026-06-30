@@ -45,9 +45,8 @@
     },
     {
       "name": "优必选",
-      "reason": "V2 待评估",
-      "emphasis": false,
-      "pending": true
+      "reason": "工业人形 · 预售订单",
+      "emphasis": false
     }
   ],
   "groups": [
@@ -335,33 +334,33 @@
               "note": "基于两条近期公开新闻归纳，具体交付节奏仍需继续跟踪。"
             },
             {
-              "summary": "待核验",
+              "summary": "工业人形",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "synthesis",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": "由多条公开来源自动归纳，未用输入证据外信息。"
             }
           ],
           "sources": [
@@ -697,33 +696,33 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "具身模型",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1044,33 +1043,43 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "多场景",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1407,33 +1416,33 @@
               "note": "新闻确认部署方向，但未披露可比硬件规格。"
             },
             {
-              "summary": "待核验",
+              "summary": "人形本体",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1780,33 +1789,43 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "具身模型",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "大脑能力仍需跟踪独立评测",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": "只保留公开资料能支撑的能力描述。"
             }
           ],
           "sources": [
@@ -2143,25 +2162,35 @@
               "note": "方向明确，但数据规模、来源和闭环频率仍待公开。"
             },
             {
-              "summary": "待核验",
+              "summary": "场景闭环",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "训练数据规模和采集频率未披露",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
@@ -2169,7 +2198,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": "数据规模未公开，当前只确认场景来源。"
             }
           ],
           "sources": [
@@ -2475,33 +2504,43 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "公开演示",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -2838,33 +2877,33 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "预售订单",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "最终交付节奏仍需继续跟踪",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -3195,25 +3234,35 @@
               "note": "可靠性需要真实运行周期数据，目前只能确认部署计划。"
             },
             {
-              "summary": "待核验",
+              "summary": "指标待披露",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
+                  "text": "故障率、MTBF和验收周期未见充分公开披露",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
@@ -3221,7 +3270,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -3553,25 +3602,25 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "价格待披露",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "单机价格、交付口径和服务费结构未充分公开",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
@@ -3579,7 +3628,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -3907,33 +3956,43 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "预售订单",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "合同金额、回款和最终交付数仍需核验",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "updated_recent": true,
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -4244,33 +4303,43 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "车厂/展馆",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
+                  "text": "客户名单和验收口径需继续跟踪",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -4592,33 +4661,33 @@
               "note": "只确认落地方向，不推断收入确认方式。"
             },
             {
-              "summary": "待核验",
+              "summary": "产品销售",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -4940,33 +5009,43 @@
               "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
             },
             {
-              "summary": "待核验",
+              "summary": "周剑团队",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "6 月 30 日下午消息，优必选 2026 年度全球发布会上，优必选科技创始人、CEO 周剑分享中指出，“伴随机器人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-30",
+                      "url": "https://www.ithome.com/0/970/532.htm",
+                      "evidence": "06-30，优必选创始人周剑：机器人将替代手机，成为 AI 最核心的交互终端。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
+                    }
+                  ]
+                },
+                {
+                  "text": "核心技术团队履历仍需更多公开材料",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -5303,25 +5382,25 @@
               "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
             },
             {
-              "summary": "待核验",
+              "summary": "未见新融资",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "本次证据包未形成新的融资估值变化",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "估值、股价和财务口径应单独跟踪",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "钛媒体 2026-06-26",
+                      "url": "https://www.tmtpost.com/8042348.html",
+                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
                 }
@@ -5329,7 +5408,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -5686,33 +5765,33 @@
               "note": ""
             },
             {
-              "summary": "待核验",
+              "summary": "产业生态",
               "bullets": [
                 {
-                  "text": "优必选已加入V2待评估",
+                  "text": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
+                      "evidence": "06-30，公司简介。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
