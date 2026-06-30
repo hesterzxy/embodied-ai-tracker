@@ -67,6 +67,25 @@ ROW_STYLE_DEFAULTS = {
 
 WEAK_SUMMARIES = {"待研判", "新闻待研判", "资料待补充", "暂无公开数据"}
 
+EVIDENCE_ROUTES = {
+    "核心差异化": ["industrial", "product", "order", "tech"],
+    "技术选择": ["tech", "brain"],
+    "目标场景": ["industrial", "commercial", "home"],
+    "硬件能力": ["hardware", "product", "industrial"],
+    "大脑自研": ["brain", "tech"],
+    "数据策略": ["data", "industrial", "customer"],
+    "实测能力": ["test", "industrial", "commercial"],
+    "量产进度": ["order", "product"],
+    "可靠性": ["reliability", "test", "industrial"],
+    "价格/成本": ["price", "order", "product"],
+    "真实订单": ["order", "customer"],
+    "标杆客户": ["customer", "industrial", "commercial"],
+    "商业模式": ["business", "order", "product", "home", "industrial"],
+    "创始团队": ["team"],
+    "融资估值": ["finance"],
+    "股东/生态资源": ["ecosystem"],
+}
+
 
 def load_table():
     return json.loads(TABLE_PATH.read_text(encoding="utf-8"))
@@ -536,6 +555,44 @@ def first_hit(hits, pattern):
     return next((item for item in hits if hit_matches(item, pattern)), None)
 
 
+def evidence_tags(item):
+    text = hit_blob(item)
+    tags = set()
+    checks = [
+        ("order", r"订单|预售|交付|量产|下线|部署|1\.1\s*万|11000|签约"),
+        ("product", r"U1|Walker|Cruzr|产品|发布|推出|首发|亮相|人形机器人"),
+        ("hardware", r"自由度|本体|关节|换电|连续作业|轮式|双臂|负载|电池"),
+        ("industrial", r"工业|工厂|产线|制造|汽车|车厂|流水线|Walker\s*S"),
+        ("commercial", r"商用|服务|导览|世博|中国馆|Walker\s*C"),
+        ("home", r"家庭|陪伴|消费级|优世界|UWORLD|U1"),
+        ("brain", r"大模型|具身智能|多模态|VSLAM|运动控制|规划|学习型|全栈"),
+        ("tech", r"具身智能|多模态|VSLAM|学习型|运动控制|全栈|大模型"),
+        ("data", r"数据|采集|闭环|训练|实训"),
+        ("test", r"实测|演示|首秀|入职|导览|产线|工厂|任务"),
+        ("reliability", r"可靠|故障|MTBF|连续作业|24/7|稳定|验收"),
+        ("price", r"价格|售价|万元|成本|拍卖|租赁"),
+        ("customer", r"客户|车厂|工厂|世博|中国馆|导览|入职|OPPO|比亚迪|蔚来"),
+        ("business", r"预售|订单|产品线|销售|商业化|消费级|工业版|商用版"),
+        ("team", r"创始人|CEO|周剑|团队|管理层"),
+        ("finance", r"融资|估值|港股|IPO|市值|[ABCD]\+?轮|天使轮|种子轮|战略投资"),
+        ("ecosystem", r"股东|投资方|战略合作|生态伙伴|合作伙伴|供应链合作|产业联盟"),
+        ("official", r"官网|company-profile|/products/|ubtrobot|公司简介"),
+    ]
+    for tag, pattern in checks:
+        if re.search(pattern, text, re.I):
+            tags.add(tag)
+    return tags
+
+
+def route_hits(hits):
+    routed = {tag: [] for tags in EVIDENCE_ROUTES.values() for tag in tags}
+    for item in hits:
+        tags = evidence_tags(item)
+        for tag in tags:
+            routed.setdefault(tag, []).append(item)
+    return routed
+
+
 def best_hit(hits, pattern, boosts):
     candidates = [item for item in hits if hit_matches(item, pattern)]
     if not candidates:
@@ -550,10 +607,107 @@ def best_hit(hits, pattern, boosts):
     return max(candidates, key=score)
 
 
-def short_fact(item, fallback):
+def best_routed_hit(routed, tag, boosts=None):
+    rows = routed.get(tag) or []
+    if not rows:
+        return None
+    if not boosts:
+        return rows[0]
+    def score(item):
+        text = hit_blob(item)
+        total = sum(weight for pattern, weight in boosts if re.search(pattern, text, re.I))
+        if item.get("date") == "06-30":
+            total += 1
+        return total
+    return max(rows, key=score)
+
+
+def routed_bullet(routed, tag, fallback="", boosts=None):
+    return evidence_bullet(best_routed_hit(routed, tag, boosts), fallback, tag)
+
+
+def row_bullets(row_label, routed, *tag_specs):
+    allowed = set(EVIDENCE_ROUTES.get(row_label, []))
+    entries = []
+    for spec in tag_specs:
+        if isinstance(spec, tuple) and len(spec) > 1 and isinstance(spec[1], list):
+            entries.append(spec)
+            continue
+        if isinstance(spec, str):
+            tag, fallback, boosts = spec, "", None
+        else:
+            tag = spec[0]
+            fallback = spec[1] if len(spec) > 1 else ""
+            boosts = spec[2] if len(spec) > 2 else None
+        if tag not in allowed:
+            continue
+        entries.append(routed_bullet(routed, tag, fallback, boosts))
+    return compact_bullets(*entries)
+
+
+def short_fact(item, fallback, route=""):
     text = hit_blob(item)
     title = str(item.get("title") or "")
     url = str(item.get("url") or "")
+    route_patterns = {
+        "order": [
+            (r"1\.1\s*万|1.1万|11000|超\s*1\.1\s*万", "1.1万预售订单"),
+            (r"5000\s*台|5000台", "5000台消费预售"),
+            (r"预售|订单", "预售订单"),
+            (r"交付|量产|部署", "交付进度待验"),
+        ],
+        "price": [
+            (r"11\.98|16\.98|88\s*万|99\s*万|99万|价格|售价", "11.98-99万元"),
+            (r"拍卖", "拍卖渠道"),
+        ],
+        "hardware": [
+            (r"88个自由度|88\s*个", "88自由度U1"),
+            (r"Walker\s*S2", "Walker S2工业版"),
+            (r"Walker\s*S1", "Walker S1入厂"),
+            (r"Walker\s*S\b", "Walker S工业版"),
+            (r"Cruzr\s*Y1", "Cruzr Y1轮式人形"),
+            (r"自主换电|24/7|连续作业", "自主换电/连续作业"),
+        ],
+        "brain": [
+            (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
+            (r"具身智能交互大模型|具身智能", "具身智能模型"),
+            (r"全栈|全栈式", "全栈技术能力"),
+        ],
+        "tech": [
+            (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
+            (r"具身智能交互大模型|具身智能", "具身智能模型"),
+            (r"全栈|全栈式", "全栈技术能力"),
+        ],
+        "industrial": [
+            (r"Walker\s*S2", "Walker S2工业版"),
+            (r"Walker\s*S1", "Walker S1入厂"),
+            (r"Walker\s*S\b", "Walker S工业版"),
+            (r"汽车|车厂|工厂|产线|工业制造", "工业/车厂场景"),
+            (r"Cruzr\s*Y1", "Cruzr Y1供应链首秀"),
+        ],
+        "commercial": [
+            (r"Walker\s*C1?", "Walker C商用版"),
+            (r"世博|中国馆|导览", "世博导览场景"),
+        ],
+        "home": [
+            (r"U1|优世界|UWORLD", "U1消费级人形"),
+            (r"家庭|陪伴|消费级", "家庭陪伴场景"),
+        ],
+        "team": [(r"创始人|CEO|周剑", "周剑创始团队")],
+        "customer": [
+            (r"OPPO", "OPPO供应链展"),
+            (r"车厂|工厂|入职", "车厂/工厂场景"),
+            (r"世博|中国馆|导览", "世博导览场景"),
+        ],
+        "business": [
+            (r"1\.1\s*万|1.1万|11000|预售|订单", "消费级预售"),
+            (r"工业|Walker\s*S", "工业项目交付"),
+            (r"U1|优世界", "消费级硬件销售"),
+        ],
+    }
+    for pattern, label in route_patterns.get(route, []):
+        if re.search(pattern, text, re.I):
+            return label
     patterns = [
         (r"1\.1\s*万|1.1万|11000|超\s*1\.1\s*万", "1.1万预售订单"),
         (r"88个自由度|88\s*个", "88自由度U1"),
@@ -582,10 +736,10 @@ def short_fact(item, fallback):
     return concise_text(fallback or title, limit=BULLET_MAX_CHARS)
 
 
-def evidence_bullet(item, fallback):
+def evidence_bullet(item, fallback, route=""):
     if not item:
         return None
-    return (short_fact(item, fallback), [source_from_item(item)])
+    return (short_fact(item, fallback, route=route), [source_from_item(item)])
 
 
 def compact_bullets(*entries):
@@ -627,6 +781,7 @@ def recent_action(item):
 def build_evidence_profile(company_name, hits):
     if not enough_profile_evidence(hits):
         return None
+    routed = route_hits(hits)
 
     product = best_hit(hits, r"1\.1\s*万|1.1万|11000|U1|Walker|产品|首发|发布|推出|产品系列|人形机器人", [
         (r"1\.1\s*万|1.1万|11000|订单", 5),
@@ -655,24 +810,31 @@ def build_evidence_profile(company_name, hits):
     ])
     customer = first_hit(hits, r"客户|车厂|工厂|世博|中国馆|导览|入职")
     team = first_hit(hits, r"创始人|CEO|周剑|团队")
-    finance = first_hit(hits, r"融资|估值|上市|港股|IPO|投资")
+    finance = first_hit(hits, r"融资|估值|港股|IPO|市值|[ABCD]\+?轮|天使轮|种子轮|战略投资")
     official = first_hit(hits, r"官网|company-profile|/products/|ubtrobot|公司简介")
     reference = product or official or hits[0]
 
-    core_summary = "工业人形" if industrial else "人形矩阵"
-    tech_summary = "具身模型" if tech else "技术栈"
+    has_industrial = bool(routed.get("industrial"))
+    has_home = bool(routed.get("home"))
+    has_commercial = bool(routed.get("commercial"))
+    core_summary = "工业+消费双线" if has_industrial and has_home else ("工业人形" if has_industrial else "人形矩阵")
+    tech_summary = "模型待验" if not routed.get("brain") else "具身模型"
     scene_summary = "多场景" if sum(bool(x) for x in [industrial, commercial, home]) >= 2 else ("工业场景" if industrial else "服务场景")
     hardware_summary = "Walker矩阵" if product and re.search(r"Walker", hit_blob(product), re.I) else "人形本体"
     progress_summary = "预售订单" if order and re.search(r"预售|订单|1\.1|11000", hit_blob(order), re.I) else ("量产交付" if order else "进度待跟")
     customer_summary = "车厂/展馆" if customer and re.search(r"车厂|世博|中国馆", hit_blob(customer)) else "客户待核"
+    order_summary = "消费预售" if order and re.search(r"预售|1\.1|11000", hit_blob(order), re.I) else ("真实订单" if order else "订单待核")
 
     cells = {
         "核心差异化": make_cell(
             core_summary,
-            compact_bullets(
-                evidence_bullet(industrial or product, "人形机器人产品与工业场景同步推进"),
-                evidence_bullet(tech, "公开资料披露具身智能相关技术栈"),
-                evidence_bullet(order or customer, "近期公开信息出现订单、预售或部署信号"),
+            row_bullets(
+                "核心差异化",
+                routed,
+                ("industrial", "工业人形产品线"),
+                ("product", "人形机器人产品矩阵"),
+                ("order", "商业化订单信号", [(r"1\.1\s*万|1.1万|11000", 12), (r"订单|预售", 4)]),
+                ("tech", "具身技术能力"),
             ),
             kind="synthesis",
             confidence="medium",
@@ -680,65 +842,79 @@ def build_evidence_profile(company_name, hits):
         ),
         "技术选择": make_cell(
             tech_summary,
-            compact_bullets(
-                evidence_bullet(tech, "公开资料披露具身智能/多模态/运动控制能力"),
-                evidence_bullet(industrial, "工业场景强调产线作业能力"),
-                evidence_bullet(product, "产品页披露人形机器人能力边界"),
+            row_bullets(
+                "技术选择",
+                routed,
+                ("brain", "具身智能/多模态能力"),
+                ("tech", "运动控制/感知能力"),
+                ("industrial", "工业场景验证技术栈"),
             ),
-            confidence="medium" if tech else "low",
+            confidence="medium" if routed.get("brain") else "low",
+            note="" if routed.get("brain") else "本次证据包不足以判断大脑路线。",
         ),
         "目标场景": make_cell(
             scene_summary,
-            compact_bullets(
-                evidence_bullet(industrial, "面向工业制造或工厂流水线"),
-                evidence_bullet(commercial, "面向商用服务或导览场景"),
-                evidence_bullet(home, "面向家庭陪伴或消费级场景"),
-            ) or compact_bullets(evidence_bullet(reference, "公开资料披露机器人目标场景")),
+            row_bullets(
+                "目标场景",
+                routed,
+                ("industrial", "工业制造/车厂"),
+                ("commercial", "商用服务/导览"),
+                ("home", "家庭陪伴/消费级"),
+            ),
             confidence="medium",
         ),
         "硬件能力": make_cell(
             hardware_summary,
-            compact_bullets(
-                evidence_bullet(product, "产品页或新闻披露人形机器人产品"),
-                evidence_bullet(industrial, "工业版本面向产线同步作业"),
-                evidence_bullet(tech, "公开资料披露控制、感知或连续作业能力"),
+            row_bullets(
+                "硬件能力",
+                routed,
+                ("hardware", "硬件规格线索"),
+                ("product", "人形机器人产品"),
+                ("industrial", "工业版本本体"),
             ),
             confidence="medium",
         ),
         "大脑自研": make_cell(
             tech_summary,
-            compact_bullets(
-                evidence_bullet(tech, "公开资料提到具身智能、多模态规划或运动控制"),
-                evidence_bullet(official, "官网资料披露全栈或自研能力"),
-                fallback_bullet(company_name, reference, "大脑能力仍需跟踪独立评测"),
-            ),
-            confidence="low" if not tech else "medium",
-            note="只保留公开资料能支撑的能力描述。",
+            row_bullets(
+                "大脑自研",
+                routed,
+                ("brain", "具身智能模型"),
+                ("tech", "感知/运动控制能力"),
+            ) or compact_bullets(fallback_bullet(company_name, reference, "大脑路线待独立核验")),
+            confidence="low" if not routed.get("brain") else "medium",
+            note="" if routed.get("brain") else "未用硬件或预售证据硬撑大脑路线。",
         ),
         "数据策略": make_cell(
-            "场景闭环",
-            compact_bullets(
-                evidence_bullet(industrial, "工业/工厂场景可形成真实任务闭环"),
-                evidence_bullet(customer, "公开资料提到入厂、导览或客户场景"),
-                fallback_bullet(company_name, reference, "训练数据规模和采集频率未披露"),
-            ),
+            "数据待披露" if not routed.get("data") else "场景闭环",
+            row_bullets(
+                "数据策略",
+                routed,
+                ("data", "数据/训练闭环"),
+                ("industrial", "工业实训场景"),
+                ("customer", "客户场景数据"),
+            ) or compact_bullets(fallback_bullet(company_name, reference, "训练数据规模未披露")),
             confidence="low",
-            note="数据规模未公开，当前只确认场景来源。",
+            note="只确认可形成数据的场景，不推断数据规模。",
         ),
         "实测能力": make_cell(
             "公开演示",
-            compact_bullets(
-                evidence_bullet(industrial, "公开资料披露产线或工厂作业能力"),
-                evidence_bullet(commercial, "公开资料披露商用服务/导览能力"),
-                evidence_bullet(product, "产品发布或官网展示本体能力"),
+            row_bullets(
+                "实测能力",
+                routed,
+                ("test", "公开演示/首秀"),
+                ("industrial", "工业场景验证"),
+                ("commercial", "商用导览演示"),
             ),
-            confidence="medium" if industrial or commercial else "low",
+            confidence="medium" if routed.get("test") else "low",
         ),
         "量产进度": make_cell(
             progress_summary,
-            compact_bullets(
-                evidence_bullet(order, "近期公开信息披露预售、订单、交付或量产节点"),
-                evidence_bullet(product, "产品线已公开发布或展示"),
+            row_bullets(
+                "量产进度",
+                routed,
+                ("order", "订单/预售/交付节点", [(r"1\.1\s*万|1.1万|11000", 12), (r"订单|预售", 4)]),
+                ("product", "产品发布节点"),
                 fallback_bullet(company_name, reference, "最终交付节奏仍需继续跟踪"),
             ),
             confidence="medium",
@@ -746,9 +922,12 @@ def build_evidence_profile(company_name, hits):
         ),
         "可靠性": make_cell(
             "指标待披露",
-            compact_bullets(
-                evidence_bullet(tech, "公开资料披露连续作业、换电或控制能力"),
-                evidence_bullet(industrial, "工业场景对稳定作业提出要求"),
+            row_bullets(
+                "可靠性",
+                routed,
+                ("reliability", "可靠性/连续作业指标"),
+                ("test", "实测验证线索"),
+                ("industrial", "工业场景验证"),
                 fallback_bullet(company_name, reference, "故障率、MTBF和验收周期未见充分公开披露"),
             ),
             confidence="low",
@@ -756,47 +935,58 @@ def build_evidence_profile(company_name, hits):
         ),
         "价格/成本": make_cell(
             "价格待披露",
-            compact_bullets(
-                evidence_bullet(order, "公开新闻披露预售或订单信号但价格需继续核验"),
+            row_bullets(
+                "价格/成本",
+                routed,
+                ("price", "公开售价/成本线索"),
                 fallback_bullet(company_name, reference, "单机价格、交付口径和服务费结构未充分公开"),
-                evidence_bullet(product, "产品线信息可用于后续价格跟踪"),
+                ("product", "产品线可持续跟踪"),
             ),
             confidence="low",
             updated_recent=False,
         ),
         "真实订单": make_cell(
-            "预售订单" if order else "订单待核",
-            compact_bullets(
-                evidence_bullet(order, "近期公开信息出现订单、预售或交付线索"),
-                evidence_bullet(customer, "公开资料披露客户或部署场景"),
+            order_summary,
+            row_bullets(
+                "真实订单",
+                routed,
+                ("order", "订单/预售线索", [(r"1\.1\s*万|1.1万|11000", 12), (r"订单|预售", 4)]),
+                ("customer", "客户/部署线索"),
                 fallback_bullet(company_name, reference, "合同金额、回款和最终交付数仍需核验"),
             ),
             confidence="medium" if order else "low",
             updated_recent=recent_action(order),
+            note="预售不等同于B端已交付订单。" if order_summary == "消费预售" else "",
         ),
         "标杆客户": make_cell(
             customer_summary,
-            compact_bullets(
-                evidence_bullet(customer, "公开资料披露车厂、工厂、展馆或导览场景"),
-                evidence_bullet(industrial, "工业场景具备潜在标杆客户线索"),
+            row_bullets(
+                "标杆客户",
+                routed,
+                ("customer", "客户/部署场景"),
+                ("industrial", "工业客户场景"),
+                ("commercial", "商用标杆场景"),
                 fallback_bullet(company_name, reference, "客户名单和验收口径需继续跟踪"),
             ),
             confidence="low" if not customer else "medium",
         ),
         "商业模式": make_cell(
-            "产品销售",
-            compact_bullets(
-                evidence_bullet(product, "公开产品矩阵支撑硬件销售线索"),
-                evidence_bullet(order, "预售/订单信息支撑商业化进展"),
-                evidence_bullet(industrial or commercial or home, "多场景布局对应不同交付模式"),
+            "硬件销售",
+            row_bullets(
+                "商业模式",
+                routed,
+                ("business", "产品销售/预售"),
+                ("home", "消费级渠道"),
+                ("industrial", "工业项目交付"),
             ),
             confidence="medium",
         ),
         "创始团队": make_cell(
             "周剑团队" if team and "周剑" in hit_blob(team) else "团队待补",
-            compact_bullets(
-                evidence_bullet(team, "公开新闻披露创始人或管理层观点"),
-                evidence_bullet(official, "官网资料可继续补充团队背景"),
+            row_bullets(
+                "创始团队",
+                routed,
+                ("team", "创始人/管理层"),
                 fallback_bullet(company_name, reference, "核心技术团队履历仍需更多公开材料"),
             ),
             confidence="low" if not team else "medium",
@@ -804,20 +994,24 @@ def build_evidence_profile(company_name, hits):
         ),
         "融资估值": make_cell(
             "未见新融资",
-            compact_bullets(
-                evidence_bullet(finance, "公开资料出现融资、上市或估值信息"),
-                fallback_bullet(company_name, reference, "本次证据包未形成新的融资估值变化"),
-                fallback_bullet(company_name, reference, "估值、股价和财务口径应单独跟踪"),
+            row_bullets(
+                "融资估值",
+                routed,
+                ("finance", "融资/上市/估值信息"),
+                ("本次证据包未见新融资", [{"name": "V2证据路由", "url": "#", "evidence": "未匹配到融资/估值/上市类来源"}]),
+                ("估值和财务口径需单独跟踪", [{"name": "V2证据路由", "url": "#", "evidence": "未用产品发布信息替代资本信息"}]),
             ),
             confidence="low",
             updated_recent=False,
         ),
         "股东/生态资源": make_cell(
-            "产业生态",
-            compact_bullets(
-                evidence_bullet(industrial, "工业制造生态提供应用场景"),
-                evidence_bullet(customer, "公开客户/展馆/工厂线索体现生态资源"),
-                evidence_bullet(official, "官网资料披露产品与场景布局"),
+            "生态待核" if not routed.get("ecosystem") else "产业生态",
+            row_bullets(
+                "股东/生态资源",
+                routed,
+                ("ecosystem", "产业生态/伙伴"),
+                ("customer", "客户场景资源"),
+                ("股东和生态资源待补", [{"name": "V2证据路由", "url": "#", "evidence": "未匹配到股东/生态强证据"}]),
             ),
             confidence="medium" if industrial or customer else "low",
         ),

@@ -45,7 +45,7 @@
     },
     {
       "name": "优必选",
-      "reason": "工业人形 · 预售订单",
+      "reason": "工业+消费双线 · 预售订单",
       "emphasis": false
     }
   ],
@@ -334,15 +334,15 @@
               "note": "基于两条近期公开新闻归纳，具体交付节奏仍需继续跟踪。"
             },
             {
-              "summary": "工业人形",
+              "summary": "工业+消费双线",
               "bullets": [
                 {
-                  "text": "Walker S工业版",
+                  "text": "Cruzr Y1供应链首秀",
                   "sources": [
                     {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 },
@@ -350,9 +350,9 @@
                   "text": "88自由度U1",
                   "sources": [
                     {
-                      "name": "钛媒体 2026-06-26",
-                      "url": "https://www.tmtpost.com/8042348.html",
-                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
                     }
                   ]
                 },
@@ -709,32 +709,12 @@
               "summary": "具身模型",
               "bullets": [
                 {
-                  "text": "88自由度U1",
+                  "text": "具身智能模型",
                   "sources": [
                     {
                       "name": "钛媒体 2026-06-26",
                       "url": "https://www.tmtpost.com/8042348.html",
                       "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Walker S工业版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
-                  "text": "1.1万预售订单",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
                     }
                   ]
                 }
@@ -1066,6 +1046,16 @@
               "summary": "多场景",
               "bullets": [
                 {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
                   "text": "Walker S工业版",
                   "sources": [
                     {
@@ -1076,22 +1066,12 @@
                   ]
                 },
                 {
-                  "text": "Walker C商用版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-c",
-                      "evidence": "06-30，WalkerC-UBTECH。"
-                    }
-                  ]
-                },
-                {
                   "text": "U1消费级人形",
                   "sources": [
                     {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/624.htm",
-                      "evidence": "06-30，11.98~99 万元，优必选首款全尺寸超仿生人形机器人优世界 U1 系列发布。"
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
                     }
                   ]
                 }
@@ -1439,32 +1419,22 @@
               "summary": "人形本体",
               "bullets": [
                 {
-                  "text": "1.1万预售订单",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Walker S工业版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
                   "text": "88自由度U1",
                   "sources": [
                     {
-                      "name": "钛媒体 2026-06-26",
-                      "url": "https://www.tmtpost.com/8042348.html",
-                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
@@ -1822,7 +1792,7 @@
               "summary": "具身模型",
               "bullets": [
                 {
-                  "text": "88自由度U1",
+                  "text": "具身智能模型",
                   "sources": [
                     {
                       "name": "钛媒体 2026-06-26",
@@ -1830,32 +1800,12 @@
                       "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
                     }
                   ]
-                },
-                {
-                  "text": "Walker S工业版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
-                  "text": "大脑能力仍需跟踪独立评测",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
-                    }
-                  ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "medium",
-              "note": "只保留公开资料能支撑的能力描述。"
+              "note": ""
             }
           ],
           "sources": [
@@ -2205,12 +2155,22 @@
                   ]
                 },
                 {
-                  "text": "训练数据规模和采集频率未披露",
+                  "text": "Cruzr Y1供应链首秀",
                   "sources": [
                     {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
+                  "text": "U1消费级人形",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-30",
+                      "url": "https://www.tmtpost.com/8046475.html",
+                      "evidence": "06-30，人形机器人企业高喊的量产目标，或许是个伪命题。"
                     }
                   ]
                 }
@@ -2218,7 +2178,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "数据规模未公开，当前只确认场景来源。"
+              "note": "只确认可形成数据的场景，不推断数据规模。"
             }
           ],
           "sources": [
@@ -2527,32 +2487,32 @@
               "summary": "公开演示",
               "bullets": [
                 {
+                  "text": "Cruzr Y1轮式人形",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
                   "text": "Walker S工业版",
                   "sources": [
                     {
                       "name": "AICODEWITH web_search 2026-06-30",
                       "url": "https://www.ubtrobot.com/cn/about/company-profile",
                       "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Walker C商用版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-c",
-                      "evidence": "06-30，WalkerC-UBTECH。"
-                    }
-                  ]
-                },
-                {
-                  "text": "1.1万预售订单",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
                     }
                   ]
                 }
@@ -2910,6 +2870,16 @@
                   ]
                 },
                 {
+                  "text": "88自由度U1",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
+                    }
+                  ]
+                },
+                {
                   "text": "最终交付节奏仍需继续跟踪",
                   "sources": [
                     {
@@ -3257,32 +3227,32 @@
               "summary": "指标待披露",
               "bullets": [
                 {
-                  "text": "88自由度U1",
-                  "sources": [
-                    {
-                      "name": "钛媒体 2026-06-26",
-                      "url": "https://www.tmtpost.com/8042348.html",
-                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Walker S工业版",
+                  "text": "Walker S2工业版",
                   "sources": [
                     {
                       "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
+                      "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-s2",
+                      "evidence": "06-30，Walker S2。"
                     }
                   ]
                 },
                 {
-                  "text": "故障率、MTBF和验收周期未见充分公开披露",
+                  "text": "Cruzr Y1轮式人形",
                   "sources": [
                     {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
@@ -3625,12 +3595,12 @@
               "summary": "价格待披露",
               "bullets": [
                 {
-                  "text": "1.1万预售订单",
+                  "text": "11.98-99万元",
                   "sources": [
                     {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
                     }
                   ]
                 },
@@ -3641,6 +3611,16 @@
                       "name": "IT之家 2026-06-30",
                       "url": "https://www.ithome.com/0/970/516.htm",
                       "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                    }
+                  ]
+                },
+                {
+                  "text": "88自由度U1",
+                  "sources": [
+                    {
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
                     }
                   ]
                 }
@@ -3976,7 +3956,7 @@
               "note": ""
             },
             {
-              "summary": "预售订单",
+              "summary": "消费预售",
               "bullets": [
                 {
                   "text": "1.1万预售订单",
@@ -3989,12 +3969,12 @@
                   ]
                 },
                 {
-                  "text": "Walker S工业版",
+                  "text": "U1消费级人形",
                   "sources": [
                     {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
+                      "name": "钛媒体 2026-06-30",
+                      "url": "https://www.tmtpost.com/8046475.html",
+                      "evidence": "06-30，人形机器人企业高喊的量产目标，或许是个伪命题。"
                     }
                   ]
                 },
@@ -4012,7 +3992,7 @@
               "kind": "evidence",
               "updated_recent": true,
               "confidence": "medium",
-              "note": ""
+              "note": "预售不等同于B端已交付订单。"
             }
           ],
           "sources": [
@@ -4326,22 +4306,32 @@
               "summary": "车厂/展馆",
               "bullets": [
                 {
+                  "text": "U1消费级人形",
+                  "sources": [
+                    {
+                      "name": "钛媒体 2026-06-30",
+                      "url": "https://www.tmtpost.com/8046475.html",
+                      "evidence": "06-30，人形机器人企业高喊的量产目标，或许是个伪命题。"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
+                    }
+                  ]
+                },
+                {
                   "text": "Walker S工业版",
                   "sources": [
                     {
                       "name": "AICODEWITH web_search 2026-06-30",
                       "url": "https://www.ubtrobot.com/cn/about/company-profile",
                       "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
-                  "text": "客户名单和验收口径需继续跟踪",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
                     }
                   ]
                 }
@@ -4671,25 +4661,35 @@
               "note": "只确认落地方向，不推断收入确认方式。"
             },
             {
-              "summary": "产品销售",
+              "summary": "硬件销售",
               "bullets": [
                 {
-                  "text": "1.1万预售订单",
+                  "text": "消费级硬件销售",
                   "sources": [
                     {
                       "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                      "url": "https://www.ithome.com/0/970/624.htm",
+                      "evidence": "06-30，11.98~99 万元，优必选首款全尺寸超仿生人形机器人优世界 U1 系列发布。"
                     }
                   ]
                 },
                 {
-                  "text": "Walker S工业版",
+                  "text": "U1消费级人形",
                   "sources": [
                     {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
+                      "name": "36氪 2026-06-30",
+                      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+                      "evidence": "06-30，优必选全尺寸超仿生机器人售价公布。"
+                    }
+                  ]
+                },
+                {
+                  "text": "Cruzr Y1供应链首秀",
+                  "sources": [
+                    {
+                      "name": "IT之家 2026-06-26",
+                      "url": "https://www.ithome.com/0/969/219.htm",
+                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
                     }
                   ]
                 }
@@ -5028,16 +5028,6 @@
                       "name": "IT之家 2026-06-30",
                       "url": "https://www.ithome.com/0/970/532.htm",
                       "evidence": "06-30，优必选创始人周剑：机器人将替代手机，成为 AI 最核心的交互终端。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Walker S工业版",
-                  "sources": [
-                    {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
                     }
                   ]
                 },
@@ -5395,32 +5385,22 @@
               "summary": "未见新融资",
               "bullets": [
                 {
-                  "text": "U1消费级人形",
+                  "text": "证据包未见新融资",
                   "sources": [
                     {
-                      "name": "钛媒体 2026-06-30",
-                      "url": "https://www.tmtpost.com/8046475.html",
-                      "evidence": "06-30，人形机器人企业高喊的量产目标，或许是个伪命题。"
+                      "name": "V2证据路由",
+                      "url": "#",
+                      "evidence": "未匹配到融资/估值/上市类来源"
                     }
                   ]
                 },
                 {
-                  "text": "证据包未形成新的融资估值变化",
+                  "text": "估值和财务口径需单独跟踪",
                   "sources": [
                     {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
-                    }
-                  ]
-                },
-                {
-                  "text": "估值、股价和财务口径应单独跟踪",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-30",
-                      "url": "https://www.ithome.com/0/970/516.htm",
-                      "evidence": "06-30，优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单。"
+                      "name": "V2证据路由",
+                      "url": "#",
+                      "evidence": "未用产品发布信息替代资本信息"
                     }
                   ]
                 }
@@ -5785,15 +5765,15 @@
               "note": ""
             },
             {
-              "summary": "产业生态",
+              "summary": "生态待核",
               "bullets": [
                 {
-                  "text": "Walker S工业版",
+                  "text": "股东和生态资源待补",
                   "sources": [
                     {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
+                      "name": "V2证据路由",
+                      "url": "#",
+                      "evidence": "未匹配到股东/生态强证据"
                     }
                   ]
                 }
