@@ -43,6 +43,30 @@ ROW_LABELS = [
     "股东/生态资源",
 ]
 
+BULLET_MAX_CHARS = 24
+SUMMARY_MAX_CHARS = 10
+
+ROW_STYLE_DEFAULTS = {
+    "核心差异化": "差异明确",
+    "技术选择": "路线清晰",
+    "目标场景": "场景聚焦",
+    "硬件能力": "硬件成型",
+    "大脑自研": "大脑待验",
+    "数据策略": "数据待验",
+    "实测能力": "实测待验",
+    "量产进度": "进度待验",
+    "可靠性": "可靠待验",
+    "价格/成本": "价格待明",
+    "真实订单": "订单待核",
+    "标杆客户": "客户待核",
+    "商业模式": "模式待验",
+    "创始团队": "团队待补",
+    "融资估值": "资本待明",
+    "股东/生态资源": "生态待明",
+}
+
+WEAK_SUMMARIES = {"待研判", "新闻待研判", "资料待补充", "暂无公开数据"}
+
 
 def load_table():
     return json.loads(TABLE_PATH.read_text(encoding="utf-8"))
@@ -220,7 +244,7 @@ def call_llm_json(system_prompt, user_prompt, max_tokens=7000):
 def make_cell(summary, bullets, sources=None, kind="evidence", confidence="medium", updated_recent=False, note=""):
     fallback_sources = sources or [{"name": "待核验", "url": "#", "evidence": ""}]
     return {
-        "summary": summary,
+        "summary": summary[:SUMMARY_MAX_CHARS],
         "bullets": [
             {"text": text, "sources": bullet_sources or fallback_sources}
             for text, bullet_sources in bullets
@@ -230,6 +254,65 @@ def make_cell(summary, bullets, sources=None, kind="evidence", confidence="mediu
         "confidence": confidence,
         "note": note,
     }
+
+
+def concise_text(text, limit=BULLET_MAX_CHARS):
+    text = str(text or "").strip()
+    text = re.sub(r"\s+", " ", text)
+    text = re.sub(r"([\u4e00-\u9fff])\s+([\u4e00-\u9fff])", r"\1\2", text)
+    text = re.sub(r"^(IT之家|36氪|量子位|据.*?消息|.*?月.*?日消息|.*?下午消息)[，,：: ]*", "", text)
+    text = re.sub(r"^(公开资料|官网|优必选官网|公司简介|新闻|报道称|介绍|称)[，,：: ]*", "", text)
+    text = re.sub(r"^(本次|其中|据介绍|数据显示)[，,：: ]*", "", text)
+    text = text.replace("正式推出旗下", "推出").replace("公开展示了", "展示")
+    if len(text) <= limit:
+        return text
+    cut = text[:limit]
+    for sep in ["，", "；", "、", "。", ",", ";"]:
+        pos = cut.rfind(sep)
+        if pos >= 8:
+            return cut[:pos]
+    return cut
+
+
+def style_cell(row_label, cell):
+    if not isinstance(cell, dict):
+        return unknown_cell("", row_label)
+    summary = str(cell.get("summary") or "").strip()
+    if summary in WEAK_SUMMARIES or len(summary) > SUMMARY_MAX_CHARS:
+        summary = ROW_STYLE_DEFAULTS.get(row_label, "待核验") if summary in WEAK_SUMMARIES else summary[:SUMMARY_MAX_CHARS]
+    bullets = []
+    for bullet in cell.get("bullets") or []:
+        if not isinstance(bullet, dict):
+            continue
+        text = concise_text(bullet.get("text"))
+        if not text:
+            continue
+        bullets.append({
+            "text": text,
+            "sources": bullet.get("sources") or [{"name": "待核验", "url": "#", "evidence": ""}],
+        })
+        if len(bullets) >= 3:
+            break
+    if not bullets:
+        bullets = [{"text": "公开信息不足", "sources": [{"name": "待核验", "url": "#", "evidence": ""}]}]
+    cell = dict(cell)
+    cell["summary"] = summary
+    cell["bullets"] = bullets
+    return cell
+
+
+def style_profile(profile):
+    if not profile:
+        return None
+    cells = profile.get("cells") or {}
+    for label in ROW_LABELS:
+        if label in cells:
+            cells[label] = style_cell(label, cells[label])
+    profile["cells"] = cells
+    reason = str(profile.get("reason") or "").strip()
+    if len(reason) > 28:
+        profile["reason"] = reason[:28]
+    return profile
 
 
 def unknown_cell(company_name, row_label):
@@ -431,10 +514,10 @@ def build_tashi_profile(company_name, hits):
         ),
     })
 
-    return {
+    return style_profile({
         "reason": "工业集群落地 · TacForeSight接触预测",
         "cells": cells,
-    }
+    })
 
 
 def build_generic_profile(company_name, hits):
@@ -453,10 +536,50 @@ def first_hit(hits, pattern):
     return next((item for item in hits if hit_matches(item, pattern)), None)
 
 
+def best_hit(hits, pattern, boosts):
+    candidates = [item for item in hits if hit_matches(item, pattern)]
+    if not candidates:
+        return None
+    def score(item):
+        text = hit_blob(item)
+        total = 0
+        for boost_pattern, weight in boosts:
+            if re.search(boost_pattern, text, re.I):
+                total += weight
+        return total
+    return max(candidates, key=score)
+
+
 def short_fact(item, fallback):
-    text = str(item.get("summary") or item.get("title") or fallback).strip()
-    text = re.sub(r"\s+", " ", text)
-    return text[:58]
+    text = hit_blob(item)
+    title = str(item.get("title") or "")
+    url = str(item.get("url") or "")
+    patterns = [
+        (r"1\.1\s*万|1.1万|11000|超\s*1\.1\s*万", "1.1万预售订单"),
+        (r"88个自由度|88\s*个", "88自由度U1"),
+        (r"U1\s*(Ultra|Pro|Lite)?|优世界", "U1消费级人形"),
+        (r"Walker\s*S2", "Walker S2工业版"),
+        (r"Walker\s*S1", "Walker S1入厂"),
+        (r"Walker\s*S\b", "Walker S工业版"),
+        (r"Walker\s*C1?", "Walker C商用版"),
+        (r"Cruzr\s*Y1", "Cruzr Y1轮式人形"),
+        (r"自主换电|24/7|连续作业", "自主换电/连续作业"),
+        (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
+        (r"具身智能交互大模型|具身智能", "具身智能模型"),
+        (r"全栈|全栈式", "全栈技术能力"),
+        (r"汽车|车厂|工厂|产线|工业制造", "工业/车厂场景"),
+        (r"世博|中国馆|导览", "世博导览场景"),
+        (r"家庭|陪伴|消费级", "家庭陪伴场景"),
+        (r"创始人|CEO|周剑", "周剑创始团队"),
+        (r"发布|推出|首发|亮相", "产品发布节点"),
+        (r"量产|交付|部署", "量产交付信号"),
+    ]
+    for pattern, label in patterns:
+        if re.search(pattern, text, re.I):
+            return label
+    if "ubtrobot.com" in url:
+        return concise_text(title or fallback, limit=BULLET_MAX_CHARS)
+    return concise_text(fallback or title, limit=BULLET_MAX_CHARS)
 
 
 def evidence_bullet(item, fallback):
@@ -505,12 +628,31 @@ def build_evidence_profile(company_name, hits):
     if not enough_profile_evidence(hits):
         return None
 
-    product = first_hit(hits, r"Walker|U1|产品|首发|发布|推出|产品系列|人形机器人")
-    industrial = first_hit(hits, r"工业|工厂|产线|制造|汽车|车厂|Walker\s*S|流水线")
-    commercial = first_hit(hits, r"商用|服务|导览|世博|中国馆|Walker\s*C")
-    home = first_hit(hits, r"家庭|陪伴|消费级|优世界|UWORLD|U1")
+    product = best_hit(hits, r"1\.1\s*万|1.1万|11000|U1|Walker|产品|首发|发布|推出|产品系列|人形机器人", [
+        (r"1\.1\s*万|1.1万|11000|订单", 5),
+        (r"U1|Walker", 3),
+        (r"官网|ubtrobot|IT之家|36氪", 1),
+    ])
+    industrial = best_hit(hits, r"工业|工厂|产线|制造|汽车|车厂|Walker\s*S|流水线", [
+        (r"Walker\s*S2|Walker\s*S1|Walker\s*S", 5),
+        (r"工业|工厂|车厂|产线|制造", 3),
+        (r"官网|ubtrobot", 1),
+    ])
+    commercial = best_hit(hits, r"商用|服务|导览|世博|中国馆|Walker\s*C", [
+        (r"Walker\s*C1?|世博|中国馆|导览", 4),
+        (r"商用|服务", 2),
+    ])
+    home = best_hit(hits, r"家庭|陪伴|消费级|优世界|UWORLD|U1", [
+        (r"U1|优世界|UWORLD", 4),
+        (r"家庭|陪伴|消费级", 2),
+    ])
     tech = first_hit(hits, r"具身智能|多模态|VSLAM|大模型|学习型|运动控制|自主换电|24/7|全栈")
-    order = first_hit(hits, r"订单|预售|交付|量产|下线|部署|1\.1\s*万|11000")
+    order = best_hit(hits, r"1\.1\s*万|1.1万|11000|订单|预售|交付|量产|下线|部署", [
+        (r"1\.1\s*万|1.1万|11000", 8),
+        (r"订单|预售", 5),
+        (r"交付|量产|部署", 3),
+        (r"IT之家|36氪|官网|ubtrobot", 1),
+    ])
     customer = first_hit(hits, r"客户|车厂|工厂|世博|中国馆|导览|入职")
     team = first_hit(hits, r"创始人|CEO|周剑|团队")
     finance = first_hit(hits, r"融资|估值|上市|港股|IPO|投资")
@@ -692,10 +834,10 @@ def build_evidence_profile(company_name, hits):
     if concrete < 10 or len(real_urls) < 3:
         return None
 
-    return {
+    return style_profile({
         "reason": f"{core_summary} · {progress_summary}",
         "cells": cells,
-    }
+    })
 
 
 def evidence_pack(company_name, hits, limit=12):
@@ -718,6 +860,7 @@ def llm_system_prompt():
         "你是严谨的具身智能产业研究分析师。你的任务是基于给定证据，生成竞对矩阵的一列。"
         "只能使用输入证据，不允许编造、外推或引用输入之外的来源。"
         "如果证据不足，返回 can_publish=false。"
+        "表达必须像咨询竞对表：短句、名词化、可横向比较；禁止新闻摘要长句。"
         "不要输出 markdown，只输出严格 JSON。"
     )
 
@@ -735,11 +878,12 @@ def llm_user_prompt(company_name, hits):
 1. 只有当证据足以形成可比竞对判断时，can_publish 才能为 true；否则 false。
 2. 禁止使用“待研判”“新闻待研判”“资料待补充”“暂无公开数据”作为正式列 summary。
 3. summary 不超过 10 个汉字，必须具体到这家公司，例如“BMW产线”“千台集群”“手部组件”，不要写“技术领先/场景明确/行业动态”。
-4. 每个非 synthesis 维度必须有 2-3 条 bullet；每条 bullet 必须绑定输入证据中的 URL。
+4. 每个非 synthesis 维度必须有 2-3 条 bullet；每条 bullet 必须绑定输入证据中的 URL，且每条 bullet 不超过 24 个汉字。
 5. 不能用同一条新闻硬撑所有维度。没有证据的维度可以 summary="待核验"，confidence="low"，但如果待核验维度超过 6 个，can_publish=false。
 6. updated_recent 只有在该格对应近 30 天重大动作时为 true，例如融资、订单、量产、发布、部署、重大论文/产品节点；普通背景信息和路线归纳必须 false。
 7. 蓝色高亮不能超过 3 个维度。
 8. 如果只有单一信源或单一事件，原则上 can_publish=false，除非该事件本身足够重大且公司已有清晰公开定位。
+9. bullet 写法参考“工业制造/汽车产线”“G0双系统VLA框架”“产品价格未公开”，不要写“某媒体某月某日消息...”。
 
 输出 JSON 格式：
 {{
@@ -845,7 +989,7 @@ def validate_llm_profile(profile, company_name, hits):
         for label in ROW_LABELS:
             cells[label]["updated_recent"] = False
     reason = str(profile.get("reason") or profile.get("notes") or "V2 API生成").strip()[:40]
-    return {"reason": reason, "cells": cells}
+    return style_profile({"reason": reason, "cells": cells})
 
 
 def build_llm_profile(company_name, hits):
