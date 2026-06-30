@@ -6,10 +6,14 @@ it writes a small evidence cache consumed by scripts/v2_company.py.
 """
 import argparse
 import json
+import os
 import re
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -88,6 +92,160 @@ def item_from_parsed(parsed, src, level):
     }
 
 
+def normalize_search_date(value):
+    if not value:
+        return datetime.now(timezone.utc).strftime("%m-%d"), datetime.now(timezone.utc)
+    return fetch_news.normalize_date(value)
+
+
+def search_result_item(title, url, snippet, source_name, canonical, published=""):
+    date_str, dt = normalize_search_date(published)
+    text = f"{title} {snippet}"
+    level = fetch_news.relevance_level(title, snippet) or "核心具身"
+    return {
+        "date": date_str,
+        "company": canonical,
+        "title": normalize_title(title),
+        "source_name": source_name,
+        "category": "泛具身产业链" if level == "泛具身产业链" else fetch_news.categorize(title),
+        "summary": fetch_news.summarize_news_text(title, snippet) or snippet[:180],
+        "url": url,
+        "_dt": dt,
+        "_text": text,
+    }
+
+
+def fetch_json(url, headers=None, payload=None):
+    data = None if payload is None else json.dumps(payload).encode("utf-8")
+    req = Request(url, data=data, headers=headers or {"User-Agent": "embodied-ai-tracker-v2"})
+    with urlopen(req, timeout=30) as resp:
+        return json.loads(resp.read().decode("utf-8"))
+
+
+def search_queries(company_name, aliases):
+    base = aliases[0] if aliases else company_name
+    return [
+        f"{base} 机器人 具身智能 量产 订单 客户",
+        f"{base} 人形机器人 发布 部署 融资",
+        f"{base} 官网 机器人 产品",
+        f"{base} annual report robot humanoid robotics",
+    ]
+
+
+def web_search_tavily(query, limit):
+    key = os.getenv("TAVILY_API_KEY") or ""
+    if not key:
+        return []
+    data = fetch_json(
+        "https://api.tavily.com/search",
+        headers={"Content-Type": "application/json", "User-Agent": "embodied-ai-tracker-v2"},
+        payload={
+            "api_key": key,
+            "query": query,
+            "search_depth": "advanced",
+            "max_results": limit,
+            "include_answer": False,
+            "include_raw_content": False,
+        },
+    )
+    out = []
+    for row in data.get("results") or []:
+        out.append({
+            "title": row.get("title") or "",
+            "url": row.get("url") or "",
+            "snippet": row.get("content") or "",
+            "source": "Tavily",
+            "published": row.get("published_date") or "",
+        })
+    return out
+
+
+def web_search_brave(query, limit):
+    key = os.getenv("BRAVE_SEARCH_API_KEY") or ""
+    if not key:
+        return []
+    url = "https://api.search.brave.com/res/v1/web/search?" + urlencode({"q": query, "count": min(limit, 10)})
+    data = fetch_json(
+        url,
+        headers={
+            "Accept": "application/json",
+            "X-Subscription-Token": key,
+            "User-Agent": "embodied-ai-tracker-v2",
+        },
+    )
+    out = []
+    for row in ((data.get("web") or {}).get("results") or []):
+        out.append({
+            "title": row.get("title") or "",
+            "url": row.get("url") or "",
+            "snippet": row.get("description") or "",
+            "source": "Brave Search",
+            "published": row.get("page_age") or "",
+        })
+    return out
+
+
+def web_search_serpapi(query, limit):
+    key = os.getenv("SERPAPI_API_KEY") or ""
+    if not key:
+        return []
+    url = "https://serpapi.com/search.json?" + urlencode({"engine": "google", "q": query, "api_key": key, "num": min(limit, 10)})
+    data = fetch_json(url)
+    out = []
+    for row in data.get("organic_results") or []:
+        out.append({
+            "title": row.get("title") or "",
+            "url": row.get("link") or "",
+            "snippet": row.get("snippet") or "",
+            "source": "SerpAPI",
+            "published": row.get("date") or "",
+        })
+    return out
+
+
+def fetch_web_search_items(company_name, aliases, days=365, limit=12):
+    canonical = v2_company.canonical_company_name(company_name)
+    providers = [web_search_tavily, web_search_brave, web_search_serpapi]
+    rows = []
+    stats = []
+    for query in search_queries(canonical, aliases):
+        provider_hits = []
+        provider_name = ""
+        error = ""
+        for provider in providers:
+            try:
+                provider_hits = provider(query, limit=6)
+                provider_name = provider.__name__.replace("web_search_", "")
+                if provider_hits:
+                    break
+            except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError) as exc:
+                error = f"{type(exc).__name__}: {exc}"
+                continue
+        matched = 0
+        for hit in provider_hits:
+            title = fetch_news.strip_html(hit.get("title", ""))
+            url = hit.get("url", "")
+            snippet = fetch_news.strip_html(hit.get("snippet", ""))
+            if not title or not url:
+                continue
+            text = f"{title} {snippet}"
+            if not contains_alias(text, aliases):
+                continue
+            if not fetch_news.contains_any(text, fetch_news.ROBOT_SIGNAL_TERMS + fetch_news.CORE_TERMS + fetch_news.ACTION_TERMS):
+                continue
+            item = search_result_item(title, url, snippet, hit.get("source") or provider_name or "Web Search", canonical, hit.get("published", ""))
+            rows.append(item)
+            matched += 1
+        stats.append({
+            "name": f"web:{provider_name or 'none'}",
+            "query": query,
+            "fetched": bool(provider_hits),
+            "error": error,
+            "matched": matched,
+        })
+    return dedupe_items(rows)[:limit], stats
+
+
 def relevant_to_company(parsed, src, aliases):
     text = f"{parsed.get('title', '')} {parsed.get('description', '')}"
     if not contains_alias(text, aliases):
@@ -129,6 +287,10 @@ def fetch_company_news(company_name, days=30, limit=12):
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     found = []
     stats = []
+
+    web_items, web_stats = fetch_web_search_items(canonical, aliases, days=max(days, 365), limit=limit)
+    found.extend(web_items)
+    stats.extend(web_stats)
 
     for src in fetch_news.SOURCES:
         raw, attempts, error = fetch_news.fetch_rss(src["url"], attempts=src.get("attempts", 2))

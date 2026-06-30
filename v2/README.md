@@ -22,7 +22,9 @@ bounded recent highlights, and multiple usable URLs. If validation fails, the
 company remains a pending candidate instead of publishing low-quality analysis.
 
 The add workflow also runs `scripts/v2_research_news.py` first. That script does
-a company-specific fetch against the existing robotics news sources and stores
-the evidence in `v2/data/research_news.json`; `scripts/v2_company.py` then reads
-both the shared news feed and this V2-only research cache. This keeps V2
-experiments separate from the stable V1 data.
+a company-specific fetch against the existing robotics news sources and, when a
+search API key is configured, a broader web search. Supported search secrets are
+`TAVILY_API_KEY`, `BRAVE_SEARCH_API_KEY`, or `SERPAPI_API_KEY`. The evidence is
+stored in `v2/data/research_news.json`; `scripts/v2_company.py` then reads both
+the shared news feed and this V2-only research cache. This keeps V2 experiments
+separate from the stable V1 data.
