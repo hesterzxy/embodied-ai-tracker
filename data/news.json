@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T04:00:59.901748+08:00",
+  "updated": "2026-06-30T11:44:58.126834+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 14,
-      "core": 2,
+      "entries": 26,
+      "candidates": 10,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "雷峰网",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 3,
-      "core": 0,
+      "entries": 16,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 22,
+      "entries": 57,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 5,
-      "periphery": 1,
-      "new": 3
+      "core": 7,
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 7
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-06-30T04:01:17.018023+08:00",
+    "generated_at": "2026-06-30T11:45:38.062189+08:00",
     "mode": "aicodewith",
-    "item_count": 14,
+    "item_count": 19,
     "insights": [
       {
-        "label": "工厂场景先进入可验收部署",
-        "text": "本周落地证据集中在工业任务，上海嘉定与它石智航推动千台级工业具身智能机器人集群，Figure 02 已在宝马南卡工厂 11 个月支持生产超 3 万辆 X3 后升级部署 Figure 03，具身智能的近期商业化更依赖产线、集群和稳定作业记录，而非泛化叙事。",
+        "label": "工厂任务成为落地验证主线",
+        "text": "嘉定与它石智航推进千台级工业机器人集群，智元精灵G2在平板量产质检直播中作业64828件且成功率99.99%，Figure 02曾支持宝马南卡工厂生产超30000辆X3后进入Figure 03部署，工厂质检、生产辅助等可计数任务正成为规模化验收的主要抓手。",
         "evidence_urls": []
       },
       {
-        "label": "真实产线数据成为能力标尺",
-        "text": "智元精灵 G2 在 6 月 23 日至 28 日完成平板量产质检工段直播作业 64828 件，成功率 99.99%，把机器人能力验证从单点演示推进到连续工段和可统计结果，后续客户更可能围绕良率、节拍和稳定性评估采购。",
+        "label": "世界模型叙事绑定数据与通行能力",
+        "text": "无界动力发布MWA隐空间世界模型，Sand.ai获超亿美元融资并强调视频路径，纽娲机器人完成5000万元天使轮融资研发世界通行模型，港大教授李弘扬创业项目融资用于全身模型和多模态动作数据采集，资本关注点从单点演示转向模型、数据和移动交互闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本继续押注模型与数据闭环",
-        "text": "无界动力发布 MWA 隐空间世界模型并获数亿美元融资，Sand.ai 获超亿美元融资并强调视频路径，李弘扬团队数亿种子轮资金投向全身基础模型和多模态动作数据采集，资金正流向能补齐长时序物理理解、全身控制和训练数据的底层能力。",
+        "label": "融资热度尚未兑现为普遍收入",
+        "text": "多家世界模型、全身大脑和工业机器人公司获得从数千万到数亿美元融资，但宏微科技提示AIDC、人形机器人等业务仍处前期拓展、研发或小批量试点，营收占比较小且未形成规模化利润贡献，短期商业兑现仍需具体项目验证。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧聚焦世界模型与物理因果链，但宏微科技提示相关业务仍处前期拓展、研发或小批量试点阶段，营收和利润贡献有限，落地成熟度仍需验证。",
+        "summary": "技术侧集中在隐空间世界模型和长时序物理因果链表达，但宏微科技风险提示显示，部分人形机器人相关布局仍处研发或小批量试点阶段。",
         "items": [
           {
             "date": "06-29",
@@ -283,7 +283,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "智元精灵 G2 以真实产线直播披露 64828 件质检作业和 99.99% 成功率，量产环节开始用连续工段数据展示稳定性，而非只展示单次动作。",
+        "summary": "智元精灵G2完成平板量产质检工段全覆盖直播，6月23日至28日作业64828件、成功率99.99%，量产场景正成为能力展示载体。",
         "items": [
           {
             "date": "06-29",
@@ -296,7 +296,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "嘉定与它石智航推进千台级工业机器人集群，宝马在 Figure 02 支持超 3 万辆 X3 生产后部署 Figure 03，订单侧更偏向可验收的制造场景。",
+        "summary": "嘉定与它石智航推进千台级工业机器人集群，宝马在Figure 02支持超30000辆X3生产后部署Figure 03，订单更贴近工厂验收。",
         "items": [
           {
             "date": "06-29",
@@ -316,8 +316,36 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本集中流向世界模型、视频生成、全身具身大脑和灵巧手数据采集，融资金额从千万美元到数亿美元不等，资金偏好清晰能力短板。",
+        "summary": "资本继续流向世界模型、通行智能、全身具身大脑和工业机器人，融资规模覆盖5000万元天使轮、亿元级B++轮及数亿美元项目。",
         "items": [
+          {
+            "date": "06-30",
+            "title": "36氪首发｜前百度自动驾驶与机器人实验室主任创业，天使轮融资数千万，做机器人“世界通行模型”",
+            "url": "https://36kr.com/p/3875059110221064?f=rss",
+            "company": "行业",
+            "source_name": "36氪"
+          },
+          {
+            "date": "06-30",
+            "title": "纽娲机器人完成 5000 万元天使轮融资，押注机器人\"具行智能\"｜融资速递",
+            "url": "https://www.tmtpost.com/8046578.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "06-30",
+            "title": "头部玩家估值逼近宇树，机器人隐秘赛道的汹涌与暗流",
+            "url": "https://robot.ofweek.com/2026-06/ART-8321201-8420-30692617.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "06-30",
+            "title": "湖南工业具身智能机器人研发商，完成亿元级融资！",
+            "url": "https://robot.ofweek.com/2026-06/ART-8321202-8120-30692608.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "06-29",
             "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
@@ -352,12 +380,19 @@
             "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
             "company": "特斯拉",
             "source_name": "TechCrunch Robotics"
+          },
+          {
+            "date": "06-29",
+            "title": "Bear Robotics 收购 Kinisi 背后的洞察 (Insights behind Kinisi’s acquisition by Bear Robotics)",
+            "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业活动围绕集成商、物理 AI 平台和应用联盟展开，韩国也提出芯片、物理人工智能与数据中心项目，上海和天津已有机器狗巡逻案例。",
+        "summary": "行业活动围绕集成商协同、物理AI平台化和巡逻机器狗应用展开，韩国也提出芯片、物理人工智能和AI数据中心重大项目计划。",
         "items": [
           {
             "date": "06-29",
@@ -392,6 +427,42 @@
     ]
   },
   "items": [
+    {
+      "date": "06-30",
+      "company": "行业",
+      "title": "36氪首发｜前百度自动驾驶与机器人实验室主任创业，天使轮融资数千万，做机器人“世界通行模型”",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，具身智能公司纽娲机器人近日完成5000万元天使轮融资，由蓝湖资本领投，不同资本、共青城朴一投资跟投。两个月前，纽娲机器人曾完成由Plug and Play中国基金领投的种子轮融资。 纽娲机器人（下称“纽娲”）成立于2026年2月，半年不到的时间已先后获得多家财务、产业基金投资。创始人杨睿刚博士，长期从事3D视觉…",
+      "url": "https://36kr.com/p/3875059110221064?f=rss"
+    },
+    {
+      "date": "06-30",
+      "company": "行业",
+      "title": "纽娲机器人完成 5000 万元天使轮融资，押注机器人\"具行智能\"｜融资速递",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "自研\"世界通行模型\"（World Traversal Model，WTM），为各类机器人打造自主移动、导航、交互的大脑",
+      "url": "https://www.tmtpost.com/8046578.html"
+    },
+    {
+      "date": "06-30",
+      "company": "宇树科技",
+      "title": "头部玩家估值逼近宇树，机器人隐秘赛道的汹涌与暗流",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "导语：灵巧手是机器人的关键零部件，该赛道的头部玩家估值已经逼近宇树。不过，资本追捧灵巧手的理由，并非只是其将受益于机器人规模化放量这么简单。 当前人形机器人行业的聚光灯，高度集中于宇树、智元等头部整机",
+      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8420-30692617.html"
+    },
+    {
+      "date": "06-30",
+      "company": "行业",
+      "title": "湖南工业具身智能机器人研发商，完成亿元级融资！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "近日，视比特机器人完成亿元级B++轮融资，由达晨财智管理的国家中小湖南子基金、长沙城发联合投资。在国家级及省市级政府出资基金的加持下，未来视比特机器人将紧抓湖南省深化实施“人工智能+”行动的政策契机",
+      "url": "https://robot.ofweek.com/2026-06/ART-8321202-8120-30692608.html"
+    },
     {
       "date": "06-29",
       "company": "行业",
@@ -517,6 +588,15 @@
       "category": "商业订单",
       "summary": "The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
+    },
+    {
+      "date": "06-29",
+      "company": "其他",
+      "title": "Bear Robotics 收购 Kinisi 背后的洞察 (Insights behind Kinisi’s acquisition by Bear Robotics)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics. The post appeared first on The Robot Repo…",
+      "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/"
     },
     {
       "date": "06-28",
@@ -796,51 +876,6 @@
       "category": "行业动态",
       "summary": "RoboticsCareer.org now lists the growing job opportunities in physical AI and enables employers to connect to qualified talent. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "软银首席执行官孙正义：我们的机器人实体人工智能工厂已开始投产机器人",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "url": "https://36kr.com/newsflashes/3866570257831175?f=rss",
-      "summary": "（新浪财经）"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "具身智能芯片，先卷疯了",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "url": "https://www.tmtpost.com/8038367.html",
-      "summary": "最近，沐曦股份与优必选在南京签订战略合作协议，合资成立曦选创智科技（无锡）有限公司，方向指向具身智能端侧芯片研发与量产。沐曦是国产高性能GPU公司，优必选是“人形机器人第一股”。一个有算力底座，一个有机器人本体和落地场景。曦选创智计划在2027年下半年流片，2028年实现量产。 过去几年，大模型把算力需求推向云端。现在，AI开始进入车、机器人、工业设备和各种…"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "1小时真机RL微调成功率破95%！HIL-ResRL：即插即用的VLA“外挂”神器",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "url": "https://www.qbitai.com/2026/06/438166.html",
-      "summary": "在具身智能的浪潮中，视觉-语言-动作（VLA）模型展现出了惊人的泛化能力。然而，当你真正尝试把这些模型部署到真实物理世界或工业产线上时，往往会被现实狠狠“打脸”。 为什么？因为目前的 VLA 模型主要依赖于​模仿学习（Imitation Learning, 尤其是行为克隆 BC）​。这种范式存在一个致命的硬伤：​误差累积和分布偏移​。在实验室里，机械臂抓取可…"
-    },
-    {
-      "date": "06-24",
-      "company": "行业",
-      "title": "独家丨清研精准完成数亿元 B3 轮融资，目标打造物理 AI 数据基础设施",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "url": "https://www.leiphone.com/category/industrynews/ATSs1siQdN2RCpgn.html",
-      "summary": "清研精准试图构建“一套底座，一个大脑，百个垂类场景”的物理AI数据飞轮"
-    },
-    {
-      "date": "06-24",
-      "company": "其他",
-      "title": "首款搭载宁德时代电池的重载人形机器人上岗",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "url": "https://www.ithome.com/0/968/169.htm",
-      "summary": "宁德时代官方今日宣布，其与银河通用机器人正式签署全球战略合作协议。这次合作的焦点，是银河通用研发的重载人形机器人 Galbot S1，它是全球首款搭载宁德时代电池的具身智能常态化运营机器人。#宁德时代# #人形机器人#"
     }
   ]
 }
