@@ -42,6 +42,12 @@
       "name": "它石智航",
       "reason": "工业集群落地 · TacForeSight接触预测",
       "emphasis": false
+    },
+    {
+      "name": "优必选",
+      "reason": "V2 待评估",
+      "emphasis": false,
+      "pending": true
     }
   ],
   "groups": [
@@ -327,6 +333,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "基于两条近期公开新闻归纳，具体交付节奏仍需继续跟踪。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -660,6 +695,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -978,6 +1042,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1312,6 +1405,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "新闻确认部署方向，但未披露可比硬件规格。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1656,6 +1778,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1990,6 +2141,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "方向明确，但数据规模、来源和闭环频率仍待公开。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2293,6 +2473,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2627,6 +2836,35 @@
               "updated_recent": true,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2955,6 +3193,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "可靠性需要真实运行周期数据，目前只能确认部署计划。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3284,6 +3551,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3609,6 +3905,35 @@
               "updated_recent": true,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3917,6 +4242,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4236,6 +4590,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "只确认落地方向，不推断收入确认方式。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4555,6 +4938,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4889,6 +5301,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2已检索当前新闻库，但该维度还没有足够公开证据。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -5243,6 +5684,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "优必选已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [

@@ -1,4 +1,247 @@
 {
-  "updated": "2026-06-29T23:54:27+08:00",
-  "companies": {}
+  "updated": "2026-06-30T16:42:18+08:00",
+  "companies": {
+    "优必选": {
+      "queried_at": "2026-06-30T16:42:18+08:00",
+      "query": "优必选",
+      "canonical_name": "优必选",
+      "days": 30,
+      "items": [
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "优必选创始人周剑：机器人将替代手机，成为 AI 最核心的交互终端",
+          "source_name": "IT之家",
+          "category": "行业动态",
+          "summary": "6 月 30 日下午消息，优必选 2026 年度全球发布会上，优必选科技创始人、CEO 周剑分享中指出，“伴随机器人产业的发展，未来我们与 AI 交互的方式将发生彻底的变化，机器人将替代手机成为 AI 最核心的交互终端。” “以前的手机、PC、电脑都是通过键盘、鼠标甚至触摸屏在手和机器间互动，但当人形机器人或者机器人来临的那一天，你只需要用自然语言告诉他你需…",
+          "url": "https://www.ithome.com/0/970/532.htm"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "优必选 50 余款“超仿生人形机器人”首发亮相，已收获超 1.1 万预售订单",
+          "source_name": "IT之家",
+          "category": "产品量产",
+          "summary": "IT之家 6 月 30 日消息，优必选科技今日在深圳举办 2026 年度全球发布会，正式推出旗下消费级品牌“优世界”（UWORLD）的首款产品 —— 全尺寸超仿生人形机器人 U1 系列。 本次发布会以“爱是永恒”为主题，首次公开展示了 50 余款全尺寸超仿生人形机器人，含男款 / 女款不同外观、体态，机器人身高在 1.60 米到 1.85 米之间。 优必选…",
+          "url": "https://www.ithome.com/0/970/516.htm"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "公司简介",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "优必选官网 称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器人全栈式技术能力",
+          "url": "https://www.ubtrobot.com/cn/about/company-profile",
+          "_text": "公司简介 优必选官网公司简介称其聚焦工业制造、商用服务、家庭陪伴三大场景，Walker S 系列进入多家车厂实训，且公司具备人形机器人全栈式技术能力。"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "WalkerC-UBTECH",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "优必选官网称 Walker C 是商用服务场景全尺寸人形机器人，搭载具身智能交互大模型，并作为 2025 年日本大阪世博会中国馆具身智能导览大使",
+          "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-c",
+          "_text": "WalkerC-UBTECH 优必选官网称 Walker C 是商用服务场景全尺寸人形机器人，搭载具身智能交互大模型，并作为 2025 年日本大阪世博会中国馆具身智能导览大使。"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "Walker S",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "优必选官网介绍工业版人形机器人 可在工厂流水线实现精准安全同步作业，面向汽车工业等工业场景",
+          "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-s",
+          "_text": "Walker S 优必选官网介绍工业版人形机器人 Walker S 可在工厂流水线实现精准安全同步作业，面向汽车工业等工业场景。"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "WalkerS1-UBTECH",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "优必选官网称 Walker S1 面向工业场景应用，具备多模态规划大模型、语义 VSLAM、学习型运动控制等具身智能能力，并称其“入职”全球最多工厂",
+          "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-s1",
+          "_text": "WalkerS1-UBTECH 优必选官网称 Walker S1 面向工业场景应用，具备多模态规划大模型、语义 VSLAM、学习型运动控制等具身智能能力，并称其“入职”全球最多工厂。"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "Walker S2",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "优必选官网称 是全新一代工业人形机器人，具备自主换电和 24/7 连续作业能力，并标注“进厂集结 开启量产交付”",
+          "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-s2",
+          "_text": "Walker S2 优必选官网称 Walker S2 是全新一代工业人形机器人，具备自主换电和 24/7 连续作业能力，并标注“进厂集结 开启量产交付”。"
+        },
+        {
+          "date": "06-30",
+          "company": "优必选",
+          "title": "UBTECH 优必选官网-智能服务机器人领导者",
+          "source_name": "AICODEWITH web_search",
+          "category": "行业动态",
+          "summary": "官网首页列出优必选人形机器人产品系列，包括工业人形 Walker S2、Walker S1、Walker S，商用人形 Walker C1、Walker C、Walker X，以及轮式人形 Cruzr S2",
+          "url": "https://www.ubtrobot.com/cn/",
+          "_text": "UBTECH 优必选官网-智能服务机器人领导者 官网首页列出优必选人形机器人产品系列，包括工业人形 Walker S2、Walker S1、Walker S，商用人形 Walker C1、Walker C、Walker X，以及轮式人形 Cruzr S2。"
+        }
+      ],
+      "source_stats": [
+        {
+          "name": "web:serpapi",
+          "query": "优必选 机器人 具身智能 量产 订单 客户",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "优必选 人形机器人 发布 部署 融资",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:aicodewith",
+          "query": "优必选 官网 机器人 产品",
+          "fetched": true,
+          "error": "",
+          "matched": 6
+        },
+        {
+          "name": "web:serpapi",
+          "query": "优必选 annual report robot humanoid robotics",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "量子位",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "36氪",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "雷峰网",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "钛媒体",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "爱范儿",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "InfoQ",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IT之家",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 2
+        },
+        {
+          "name": "中国机器人网",
+          "fetched": false,
+          "attempts": 2,
+          "error": "URLError: <urlopen error timed out>",
+          "matched": 0
+        },
+        {
+          "name": "甲子光年",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "OFweek机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "新战略移动机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国工控网机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "The Robot Report",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "TechCrunch Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "Robotics & Automation News",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "NVIDIA Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IEEE Spectrum Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "RoboHub",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        }
+      ]
+    }
+  }
 }
