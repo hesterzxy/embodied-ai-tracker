@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T11:44:58.126834+08:00",
+  "updated": "2026-06-30T17:39:45.072973+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
+      "candidates": 4,
       "core": 2,
       "periphery": 0,
       "new": 0
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
+      "entries": 28,
       "candidates": 10,
-      "core": 3,
+      "core": 5,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "雷峰网",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 19,
       "candidates": 9,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
+      "entries": 19,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 19,
-      "core": 0,
+      "entries": 59,
+      "candidates": 15,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 6
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,9 +193,9 @@
       "error": "",
       "entries": 15,
       "candidates": 13,
-      "core": 7,
-      "periphery": 1,
-      "new": 5
+      "core": 9,
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,41 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-06-30T11:45:38.062189+08:00",
-    "mode": "aicodewith",
-    "item_count": 19,
+    "generated_at": "2026-06-30T17:40:25.606416+08:00",
+    "mode": "local",
+    "item_count": 26,
     "insights": [
       {
-        "label": "工厂任务成为落地验证主线",
-        "text": "嘉定与它石智航推进千台级工业机器人集群，智元精灵G2在平板量产质检直播中作业64828件且成功率99.99%，Figure 02曾支持宝马南卡工厂生产超30000辆X3后进入Figure 03部署，工厂质检、生产辅助等可计数任务正成为规模化验收的主要抓手。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，本次合作，双方将依托嘉定深厚智造生态，推动落地全国首个千台级工业具身智能机器人集群和规模化部署；智元今日宣布，6 月 23 日至 28 日，智元精灵 G2 机器人开启“平板量产质检工段全覆盖”真实产线直播， 机器人作业成功率 99.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.robot-china.com/news/202606/29/95980.html",
+          "https://www.ithome.com/0/970/008.htm",
+          "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
+        ]
       },
       {
-        "label": "世界模型叙事绑定数据与通行能力",
-        "text": "无界动力发布MWA隐空间世界模型，Sand.ai获超亿美元融资并强调视频路径，纽娲机器人完成5000万元天使轮融资研发世界通行模型，港大教授李弘扬创业项目融资用于全身模型和多模态动作数据采集，资本关注点从单点演示转向模型、数据和移动交互闭环。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，你从桌上端起一杯水，大脑用了 不到一秒 ，同时完成三件事： 估算杯子的重量，预判水面晃动的幅度，顺便绕开了旁边那个玻璃杯；宏微科技发布股票交易风险提示公告，目前公司布局的AIDC、人形机器人、核聚变等新兴领域相关业务尚处于前期拓展、技术研发或小批量试点阶段，相关业务营收占公司整体营业收入比重较小，尚未形成规模化营收及利润贡献，对公司当期经营业绩的提振作用有限。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/06/439891.html",
+          "https://36kr.com/newsflashes/3874215653659649?f=rss"
+        ]
       },
       {
-        "label": "融资热度尚未兑现为普遍收入",
-        "text": "多家世界模型、全身大脑和工业机器人公司获得从数千万到数亿美元融资，但宏微科技提示AIDC、人形机器人等业务仍处前期拓展、研发或小批量试点，营收占比较小且未形成规模化利润贡献，短期商业兑现仍需具体项目验证。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，今日，无界动力正式发布全球首个“长时序双向物理因果链”隐空间世界模型——MWA?；ai 是一家视频生成模型和产品公司，成立于2024年1月。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+          "https://36kr.com/p/3873965241931014?f=rss",
+          "https://36kr.com/p/3875059110221064?f=rss"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在隐空间世界模型和长时序物理因果链表达，但宏微科技风险提示显示，部分人形机器人相关布局仍处研发或小批量试点阶段。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "06-29",
@@ -283,8 +294,29 @@
       },
       {
         "category": "产品量产",
-        "summary": "智元精灵G2完成平板量产质检工段全覆盖直播，6月23日至28日作业64828件、成功率99.99%，量产场景正成为能力展示载体。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "06-30",
+            "title": "人形机器人企业高喊的量产目标，或许是个伪命题",
+            "url": "https://www.tmtpost.com/8046475.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "06-30",
+            "title": "11.98~99 万元，优必选首款全尺寸超仿生人形机器人优世界 U1 系列发布",
+            "url": "https://www.ithome.com/0/970/624.htm",
+            "company": "优必选",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "06-30",
+            "title": "Hirebotics推出用于工业喷涂的“无代码防爆”协作机器人 (Hirebotics launches ‘no-code explosion-proof’ collaborative robot for industrial painting)",
+            "url": "https://roboticsandautomationnews.com/2026/06/30/hirebotics-launches-no-code-explosion-proof-collaborative-robot-for-industrial-painting/102933/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "06-29",
             "title": "智元：精灵 G2 机器人平板量产产线直播作业 64828 件，成功率 99.99%",
@@ -296,7 +328,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "嘉定与它石智航推进千台级工业机器人集群，宝马在Figure 02支持超30000辆X3生产后部署Figure 03，订单更贴近工厂验收。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "06-29",
@@ -316,7 +348,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向世界模型、通行智能、全身具身大脑和工业机器人，融资规模覆盖5000万元天使轮、亿元级B++轮及数亿美元项目。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "06-30",
@@ -392,8 +424,36 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业活动围绕集成商协同、物理AI平台化和巡逻机器狗应用展开，韩国也提出芯片、物理人工智能和AI数据中心重大项目计划。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "06-30",
+            "title": "优必选全尺寸超仿生机器人售价公布",
+            "url": "https://36kr.com/newsflashes/3875463216590848?f=rss",
+            "company": "优必选",
+            "source_name": "36氪"
+          },
+          {
+            "date": "06-30",
+            "title": "众擎机器人在深圳成立新公司",
+            "url": "https://36kr.com/newsflashes/3875424200634625?f=rss",
+            "company": "众擎机器人",
+            "source_name": "36氪"
+          },
+          {
+            "date": "06-30",
+            "title": "让机器人动作流畅丝滑如「连音」，千寻智能高阳团队提出Legato，入选RSS 2026",
+            "url": "https://www.leiphone.com/category/private/aTTgIF3XdsBdOrVC.html",
+            "company": "千寻智能",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "06-30",
+            "title": "特斯拉内华达超级工厂电池频发失窃，近半年遭至少 11 次有组织盗抢",
+            "url": "https://www.ithome.com/0/970/584.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "06-29",
             "title": "飞阔科技联合人形机器人场景应用联盟，共同举办首届集成商百人大会",
@@ -462,6 +522,69 @@
       "category": "资本动态",
       "summary": "近日，视比特机器人完成亿元级B++轮融资，由达晨财智管理的国家中小湖南子基金、长沙城发联合投资。在国家级及省市级政府出资基金的加持下，未来视比特机器人将紧抓湖南省深化实施“人工智能+”行动的政策契机",
       "url": "https://robot.ofweek.com/2026-06/ART-8321202-8120-30692608.html"
+    },
+    {
+      "date": "06-30",
+      "company": "优必选",
+      "title": "优必选全尺寸超仿生机器人售价公布",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "36氪获悉，优必选全尺寸超仿生人形机器人U1发布，全身有88个自由度，U1 Pro价格16.98万元，U1 Ultra男版和女版价格分别为99万元和88万元，轻量化半身的U1 Lite价格11.98万元",
+      "url": "https://36kr.com/newsflashes/3875463216590848?f=rss"
+    },
+    {
+      "date": "06-30",
+      "company": "众擎机器人",
+      "title": "众擎机器人在深圳成立新公司",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "36氪获悉，天眼查App显示，近日，深圳市科翌机器人智能有限公司成立，法定代表人为赵同阳，注册资本1000万人民币，经营范围包括智能机器人的研发、智能机器人销售、工业机器人销售、工业机器人制造等，由深圳众擎机器人科技股份有限公司全资持股",
+      "url": "https://36kr.com/newsflashes/3875424200634625?f=rss"
+    },
+    {
+      "date": "06-30",
+      "company": "千寻智能",
+      "title": "让机器人动作流畅丝滑如「连音」，千寻智能高阳团队提出Legato，入选RSS 2026",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "summary": "公众号“机器之心” 链接：https://mp.weixin.qq.com/s/SmpQ7MKd2R_z9oqkMngGWw 在音乐术语中， Le g ato （连音）意味着音符之间平滑过渡、毫无间断，演奏出流畅优美的旋律。钢琴家的手指在琴键上滑动，小提琴家的弓在琴弦上连贯运行 —— 这种 \"连音\" 技巧让音乐充满生命力。一位真正掌握连音技巧的演奏者，不需要…",
+      "url": "https://www.leiphone.com/category/private/aTTgIF3XdsBdOrVC.html"
+    },
+    {
+      "date": "06-30",
+      "company": "其他",
+      "title": "人形机器人企业高喊的量产目标，或许是个伪命题",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "2026年的夏天，比天气更热的是人形机器人赛道。 从年初到年中，宇树、松延动力、智元等机器人企业相继宣布量产目标；特斯拉、小鹏、比亚迪等车企也纷纷跨界入局，甚至将人形机器人业务提升至战略高度。 如今，优必选即将上市面向C端的U1系列，再为人形机器人赛道添了“一把火”。 热闹之下，人形机器人赛道一场围绕产能、供应链与生态的竞赛已然全面打响。 「TMT星球」注意…",
+      "url": "https://www.tmtpost.com/8046475.html"
+    },
+    {
+      "date": "06-30",
+      "company": "优必选",
+      "title": "11.98~99 万元，优必选首款全尺寸超仿生人形机器人优世界 U1 系列发布",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 6 月 30 日消息，优必选科技今日在深圳举办 2026 年度全球发布会，正式推出旗下消费级品牌“优世界”（UWORLD）的首款产品 —— 全尺寸超仿生人形机器人 U1 系列，其中 001 号将于 7 月 2 日上线京东拍卖。 其中，优世界 U1 Ultra 男款 99 万元、女款 88 万元；U1 Pro 为 16.98 万元，U1 Lite 为…",
+      "url": "https://www.ithome.com/0/970/624.htm"
+    },
+    {
+      "date": "06-30",
+      "company": "特斯拉",
+      "title": "特斯拉内华达超级工厂电池频发失窃，近半年遭至少 11 次有组织盗抢",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 6 月 30 日消息，据美国内华达州治安部门的记录显示，自去年 12 月以来，装载着价值数百万美元特斯拉汽车及家用储能电池的货运挂车，已至少 11 次在特斯拉内华达工厂装卸码头直接被盗。 仅 1 月份就发生 9 起疑似货物失窃案，负责侦办系列案件的当地探员称，此类盗窃眼下已呈“泛滥态势”。 相关案卷通过公开档案调取申请获取，由《连线》杂志率先披露…",
+      "url": "https://www.ithome.com/0/970/584.htm"
+    },
+    {
+      "date": "06-30",
+      "company": "其他",
+      "title": "Hirebotics推出用于工业喷涂的“无代码防爆”协作机器人 (Hirebotics launches ‘no-code explosion-proof’ collaborative robot for industrial painting)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Hirebotics, a provider of collaborative robot solutions for metal fabrication, has announced the first explosion-proof cobot solution built using its no-code Beacon platform and th…",
+      "url": "https://roboticsandautomationnews.com/2026/06/30/hirebotics-launches-no-code-explosion-proof-collaborative-robot-for-industrial-painting/102933/"
     },
     {
       "date": "06-29",
@@ -813,69 +936,6 @@
       "category": "行业动态",
       "summary": "6月22日，非夕科技（Flexiv）与广东敏卓机电股份有限公司（以下简称“敏卓机电”） 、广东图南机器人科技有限公司（以下简称“图南科技”）在广东佛山正式签署战略合作协议。非夕科技工业副总裁陈仙勇、敏卓机电海外具身智能销售中心总经理杨子烨代表双方签约。非夕科技联合创始人兼CEO王世全、敏卓机电董事长兼总经理邱意想、图南科技董事长兼总经理郭志明、顺德区人民政府…",
       "url": "https://www.robot-china.com/news/202606/25/95967.html"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "万拿机器人入选36氪\"2026最具价值成长企业100\" 跻身具身智能成长标杆企业",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "近日，国内科技创新领域极具影响力的媒体与产业服务平台36氪正式发布「2026最具价值成长企业100」榜单。作为国内具身智能灵巧操作领域的深耕企业之一，万拿机器人凭借在具身智能核心部件领域研发、灵巧操作具身机器人解决方案创新及产业化落地方面的突出表现成功入选。此次上榜不仅体现了行业对万拿机器人技术实力与商业价值的认可，也彰显了公司在灵巧操作赛道的领先布局和成长…",
-      "url": "https://www.robot-china.com/news/202606/25/95966.html"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "飞捷科思打造全新一代物理世界模型 Fysiverse，实现从“视觉生成”到“物理推演”的飞跃",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "世界模型进入“从渲染到模拟”的分水岭随着具身智能、人形机器人和自动驾驶加速走向现实环境，世界模型正成为连接感知、预测与决策的关键物理AI基础设施。它不仅要回答“世界看起来是什么样”，还要回答“采取一个行动后，世界会发生什么变化”。在近期关于世界模型的讨论中，李飞飞与 World Labs 团队从功能上将其划分为渲染器、模拟器和规划器：渲染器生成观测，模拟器推…",
-      "url": "https://www.robot-china.com/news/202606/25/95965.html"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "全球第一！鹿明产业具身大脑Prime R0登顶全球权威具身评测榜单",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "依托鹿明机器人Lumos NexCore全域产业具身技术基座，旗下旗舰级产业具身大脑Prime R0，在全球权威零样本具身智能评测基准MolmoSpaces最新榜单中，拿下包含单臂精细操作与双臂协同操作在内的全任务谱系综合成功率Top1。在与NVIDIA Cosmos 16B、MIT、普林斯顿大学等全球顶尖团队的同场竞技中，鹿明Prime R0以更轻量的模型…",
-      "url": "https://www.robot-china.com/news/202606/25/95963.html"
-    },
-    {
-      "date": "06-25",
-      "company": "行业",
-      "title": "光轮智能融资提速: 机器人行业开始给“学习系统”买单了",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "光轮智能被看见，不只是因为融资多，而是它切中了机器人持续学习的关键：数据采集、仿真放大、评测检验和部署反馈。 最近，光轮智能的融资消息一轮接着一轮。 3月，A++及A+++轮融资10亿元；5月，蚂蚁集",
-      "url": "https://robot.ofweek.com/2026-06/ART-8321203-12005-30692065.html"
-    },
-    {
-      "date": "06-25",
-      "company": "宇树科技",
-      "title": "宇树R1降到2.99万，人形机器人价格战开始",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "6月24日晚上，宇树科技发了一条消息：双足人形机器人Unitree R1起售价从3.99万元下调至2.99万元，即日起现货销售。往前倒两年。 2023年宇树人形机器人的均价是59.34万元，2025年",
-      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8420-30692062.html"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "Robust.AI为第三代Carter移动机器人选择Aptiv PULSE传感器 (Robust.AI chooses Aptiv PULSE sensor for Gen 3 Carter mobile robot)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "Aptiv provides sensor fusion from radar and vision using AI to enable Robust.AI's Carter robot to move safely around people. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/robust-ai-chooses-aptiv-pulse-sensor-for-gen-3-carter-mobile-robot/"
-    },
-    {
-      "date": "06-25",
-      "company": "其他",
-      "title": "ARM Institute将RoboticsCareer.org扩展至物理AI领域 (ARM Institute expands RoboticsCareer.org into physical AI)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "RoboticsCareer.org now lists the growing job opportunities in physical AI and enables employers to connect to qualified talent. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/arm-institute-launches-physical-ai-focused-expansion-roboticscareer-org/"
     }
   ]
 }
