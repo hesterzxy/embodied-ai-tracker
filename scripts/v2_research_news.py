@@ -122,6 +122,28 @@ def fetch_json(url, headers=None, payload=None):
         return json.loads(resp.read().decode("utf-8"))
 
 
+def normalize_responses_url(url):
+    url = (url or "").strip().rstrip("/")
+    if not url:
+        return ""
+    if url.endswith("/responses"):
+        return url
+    if url.endswith("/v1"):
+        return url + "/responses"
+    return url + "/v1/responses"
+
+
+def normalize_chat_url(url):
+    url = (url or "").strip().rstrip("/")
+    if not url:
+        return ""
+    if url.endswith("/chat/completions"):
+        return url
+    if url.endswith("/v1"):
+        return url + "/chat/completions"
+    return url + "/v1/chat/completions"
+
+
 def search_queries(company_name, aliases):
     base = aliases[0] if aliases else company_name
     return [
@@ -130,6 +152,156 @@ def search_queries(company_name, aliases):
         f"{base} 官网 机器人 产品",
         f"{base} annual report robot humanoid robotics",
     ]
+
+
+def parse_json_object(text):
+    text = str(text or "").strip()
+    if not text:
+        return None
+    try:
+        return json.loads(text)
+    except json.JSONDecodeError:
+        pass
+    match = re.search(r"\{.*\}", text, re.S)
+    if not match:
+        return None
+    try:
+        return json.loads(match.group(0))
+    except json.JSONDecodeError:
+        return None
+
+
+def collect_output_text(data):
+    chunks = []
+    if isinstance(data.get("output_text"), str):
+        chunks.append(data["output_text"])
+    for item in data.get("output") or []:
+        if not isinstance(item, dict):
+            continue
+        for content in item.get("content") or []:
+            if not isinstance(content, dict):
+                continue
+            text = content.get("text") or content.get("output_text")
+            if isinstance(text, str):
+                chunks.append(text)
+    return "\n".join(chunks)
+
+
+def collect_source_like_rows(value):
+    rows = []
+    if isinstance(value, dict):
+        url = value.get("url") or value.get("source_website_url")
+        title = value.get("title") or value.get("name") or value.get("caption")
+        snippet = value.get("snippet") or value.get("text") or value.get("summary") or value.get("content") or ""
+        published = value.get("published") or value.get("published_date") or value.get("date") or ""
+        if url and title:
+            rows.append({
+                "title": title,
+                "url": url,
+                "snippet": snippet,
+                "source": "AICODEWITH web_search",
+                "published": published,
+            })
+        for child in value.values():
+            rows.extend(collect_source_like_rows(child))
+    elif isinstance(value, list):
+        for child in value:
+            rows.extend(collect_source_like_rows(child))
+    return rows
+
+
+def aicodewith_search_config():
+    key = os.getenv("AICODEWITH_API_KEY") or ""
+    base = os.getenv("OPENAI_BASE_URL") or os.getenv("AICODEWITH_BASE_URL") or ""
+    model = os.getenv("AICODEWITH_SEARCH_MODEL") or os.getenv("AICODEWITH_MODEL") or os.getenv("OPENAI_MODEL") or ""
+    if not key or not base or not model:
+        return {"api_key": "", "responses_url": "", "chat_url": "", "model": ""}
+    return {
+        "api_key": key,
+        "responses_url": normalize_responses_url(base),
+        "chat_url": normalize_chat_url(base),
+        "model": model,
+    }
+
+
+def web_search_aicodewith(query, limit):
+    cfg = aicodewith_search_config()
+    if not cfg["api_key"]:
+        return []
+    prompt = (
+        "请联网搜索并返回真实可点击的公开来源。"
+        "只关注具身智能/机器人公司动态、产品、量产、订单、客户、融资或部署。"
+        f"\n搜索问题：{query}"
+        "\n输出严格 JSON："
+        "{\"results\":[{\"title\":\"标题\",\"url\":\"https://...\",\"snippet\":\"一句话证据摘要\",\"published\":\"YYYY-MM-DD或空\"}]}"
+        f"\n最多返回 {limit} 条；不要返回百科、论坛灌水或无关泛科技内容。"
+    )
+    headers = {
+        "Authorization": f"Bearer {cfg['api_key']}",
+        "Content-Type": "application/json",
+        "User-Agent": "embodied-ai-tracker-v2",
+    }
+    payload = {
+        "model": cfg["model"],
+        "tools": [{"type": "web_search", "search_context_size": "low"}],
+        "tool_choice": "required",
+        "include": ["web_search_call.action.sources"],
+        "input": prompt,
+    }
+    try:
+        data = fetch_json(cfg["responses_url"], headers=headers, payload=payload)
+    except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError):
+        data = None
+    if data:
+        parsed = parse_json_object(collect_output_text(data))
+        rows = []
+        if isinstance(parsed, dict):
+            rows.extend(parsed.get("results") or [])
+        rows.extend(collect_source_like_rows(data))
+        out = []
+        seen = set()
+        for row in rows:
+            url = row.get("url") or ""
+            title = row.get("title") or ""
+            if not url or not title or url in seen:
+                continue
+            seen.add(url)
+            out.append({
+                "title": title,
+                "url": url,
+                "snippet": row.get("snippet") or row.get("summary") or "",
+                "source": "AICODEWITH web_search",
+                "published": row.get("published") or row.get("date") or "",
+            })
+            if len(out) >= limit:
+                return out
+        if out:
+            return out
+
+    search_model = os.getenv("AICODEWITH_SEARCH_MODEL") or "gpt-5-search-api"
+    chat_payload = {
+        "model": search_model,
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.1,
+        "max_tokens": 1800,
+        "response_format": {"type": "json_object"},
+    }
+    data = fetch_json(cfg["chat_url"], headers=headers, payload=chat_payload)
+    content = (((data.get("choices") or [{}])[0].get("message") or {}).get("content") or "")
+    parsed = parse_json_object(content)
+    if not isinstance(parsed, dict):
+        return []
+    out = []
+    for row in parsed.get("results") or []:
+        if row.get("title") and row.get("url"):
+            out.append({
+                "title": row.get("title") or "",
+                "url": row.get("url") or "",
+                "snippet": row.get("snippet") or "",
+                "source": "AICODEWITH search",
+                "published": row.get("published") or "",
+            })
+    return out[:limit]
 
 
 def web_search_tavily(query, limit):
@@ -205,7 +377,7 @@ def web_search_serpapi(query, limit):
 
 def fetch_web_search_items(company_name, aliases, days=365, limit=12):
     canonical = v2_company.canonical_company_name(company_name)
-    providers = [web_search_tavily, web_search_brave, web_search_serpapi]
+    providers = [web_search_aicodewith, web_search_tavily, web_search_brave, web_search_serpapi]
     rows = []
     stats = []
     for query in search_queries(canonical, aliases):

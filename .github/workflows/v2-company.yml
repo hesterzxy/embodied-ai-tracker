@@ -37,6 +37,7 @@ jobs:
           OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
           AICODEWITH_BASE_URL: ${{ secrets.AICODEWITH_BASE_URL }}
           AICODEWITH_MODEL: ${{ secrets.AICODEWITH_MODEL }}
+          AICODEWITH_SEARCH_MODEL: ${{ secrets.AICODEWITH_SEARCH_MODEL }}
           OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
           QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
           DASHSCOPE_API_KEY: ${{ secrets.DASHSCOPE_API_KEY }}
