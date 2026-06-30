@@ -706,15 +706,15 @@
               "note": ""
             },
             {
-              "summary": "具身模型",
+              "summary": "语义VSLAM",
               "bullets": [
                 {
-                  "text": "具身智能模型",
+                  "text": "语义VSLAM",
                   "sources": [
                     {
-                      "name": "钛媒体 2026-06-26",
-                      "url": "https://www.tmtpost.com/8042348.html",
-                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
+                      "name": "AICODEWITH web_search 2026-06-30",
+                      "url": "https://www.ubtrobot.com/cn/humanoid/products/walker-s1",
+                      "evidence": "06-30，WalkerS1-UBTECH。"
                     }
                   ]
                 }
@@ -1789,23 +1789,23 @@
               "note": ""
             },
             {
-              "summary": "具身模型",
+              "summary": "模型未披露",
               "bullets": [
                 {
-                  "text": "具身智能模型",
+                  "text": "未披露模型架构",
                   "sources": [
                     {
-                      "name": "钛媒体 2026-06-26",
-                      "url": "https://www.tmtpost.com/8042348.html",
-                      "evidence": "06-26，陪伴类机器人卖了5000台，优必选能松口气了？。"
+                      "name": "V2证据路由",
+                      "url": "#",
+                      "evidence": "未匹配到模型名/架构名/技术模块名"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "medium",
-              "note": ""
+              "confidence": "low",
+              "note": "不把泛称具身智能当作模型证据。"
             }
           ],
           "sources": [
@@ -2142,35 +2142,15 @@
               "note": "方向明确，但数据规模、来源和闭环频率仍待公开。"
             },
             {
-              "summary": "场景闭环",
+              "summary": "数据未披露",
               "bullets": [
                 {
-                  "text": "Walker S工业版",
+                  "text": "训练数据规模未披露",
                   "sources": [
                     {
-                      "name": "AICODEWITH web_search 2026-06-30",
-                      "url": "https://www.ubtrobot.com/cn/about/company-profile",
-                      "evidence": "06-30，公司简介。"
-                    }
-                  ]
-                },
-                {
-                  "text": "Cruzr Y1供应链首秀",
-                  "sources": [
-                    {
-                      "name": "IT之家 2026-06-26",
-                      "url": "https://www.ithome.com/0/969/219.htm",
-                      "evidence": "06-26，优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀。"
-                    }
-                  ]
-                },
-                {
-                  "text": "U1消费级人形",
-                  "sources": [
-                    {
-                      "name": "钛媒体 2026-06-30",
-                      "url": "https://www.tmtpost.com/8046475.html",
-                      "evidence": "06-30，人形机器人企业高喊的量产目标，或许是个伪命题。"
+                      "name": "V2证据路由",
+                      "url": "#",
+                      "evidence": "未匹配到数据采集/训练闭环强证据"
                     }
                   ]
                 }
@@ -2178,7 +2158,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "只确认可形成数据的场景，不推断数据规模。"
+              "note": "不把落地场景自动推断为数据闭环。"
             }
           ],
           "sources": [

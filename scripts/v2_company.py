@@ -72,7 +72,7 @@ EVIDENCE_ROUTES = {
     "技术选择": ["tech", "brain"],
     "目标场景": ["industrial", "commercial", "home"],
     "硬件能力": ["hardware", "product", "industrial"],
-    "大脑自研": ["brain", "tech"],
+    "大脑自研": ["brain"],
     "数据策略": ["data", "industrial", "customer"],
     "实测能力": ["test", "industrial", "commercial"],
     "量产进度": ["order", "product"],
@@ -565,9 +565,9 @@ def evidence_tags(item):
         ("industrial", r"工业|工厂|产线|制造|汽车|车厂|流水线|Walker\s*S"),
         ("commercial", r"商用|服务|导览|世博|中国馆|Walker\s*C"),
         ("home", r"家庭|陪伴|消费级|优世界|UWORLD|U1"),
-        ("brain", r"大模型|具身智能|多模态|VSLAM|运动控制|规划|学习型|全栈"),
-        ("tech", r"具身智能|多模态|VSLAM|学习型|运动控制|全栈|大模型"),
-        ("data", r"数据|采集|闭环|训练|实训"),
+        ("brain", r"TacForeSight|Helix|π0|pi0|G0\.5|G0|FSD|启元|VLA|VLM|世界模型"),
+        ("tech", r"TacForeSight|Helix|π0|pi0|G0\.5|G0|FSD|VLA|VLM|世界模型|多模态规划|语义\s*VSLAM|学习型运动控制"),
+        ("data", r"数据|采集|训练集|数据集|数据闭环|仿真数据|真机数据"),
         ("test", r"实测|演示|首秀|入职|导览|产线|工厂|任务"),
         ("reliability", r"可靠|故障|MTBF|连续作业|24/7|稳定|验收"),
         ("price", r"价格|售价|万元|成本|拍卖|租赁"),
@@ -645,6 +645,11 @@ def row_bullets(row_label, routed, *tag_specs):
     return compact_bullets(*entries)
 
 
+def first_routed_fact(routed, tag):
+    item = best_routed_hit(routed, tag)
+    return short_fact(item, "", route=tag) if item else ""
+
+
 def short_fact(item, fallback, route=""):
     text = hit_blob(item)
     title = str(item.get("title") or "")
@@ -669,14 +674,19 @@ def short_fact(item, fallback, route=""):
             (r"自主换电|24/7|连续作业", "自主换电/连续作业"),
         ],
         "brain": [
-            (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
-            (r"具身智能交互大模型|具身智能", "具身智能模型"),
-            (r"全栈|全栈式", "全栈技术能力"),
+            (r"TacForeSight", "TacForeSight"),
+            (r"Helix", "Helix VLA"),
+            (r"π0|pi0", "π0系列模型"),
+            (r"G0\.5|G0", "G0/G0.5 VLA"),
         ],
         "tech": [
-            (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
-            (r"具身智能交互大模型|具身智能", "具身智能模型"),
-            (r"全栈|全栈式", "全栈技术能力"),
+            (r"TacForeSight", "TacForeSight"),
+            (r"Helix", "Helix VLA"),
+            (r"π0|pi0", "π0系列模型"),
+            (r"G0\.5|G0", "G0/G0.5 VLA"),
+            (r"语义\s*VSLAM", "语义VSLAM"),
+            (r"多模态规划", "多模态规划"),
+            (r"学习型运动控制", "学习型运动控制"),
         ],
         "industrial": [
             (r"Walker\s*S2", "Walker S2工业版"),
@@ -718,8 +728,13 @@ def short_fact(item, fallback, route=""):
         (r"Walker\s*C1?", "Walker C商用版"),
         (r"Cruzr\s*Y1", "Cruzr Y1轮式人形"),
         (r"自主换电|24/7|连续作业", "自主换电/连续作业"),
-        (r"多模态|VSLAM|学习型运动控制", "多模态+VSLAM"),
-        (r"具身智能交互大模型|具身智能", "具身智能模型"),
+        (r"TacForeSight", "TacForeSight"),
+        (r"Helix", "Helix VLA"),
+        (r"π0|pi0", "π0系列模型"),
+        (r"G0\.5|G0", "G0/G0.5 VLA"),
+        (r"语义\s*VSLAM", "语义VSLAM"),
+        (r"多模态规划", "多模态规划"),
+        (r"学习型运动控制", "学习型运动控制"),
         (r"全栈|全栈式", "全栈技术能力"),
         (r"汽车|车厂|工厂|产线|工业制造", "工业/车厂场景"),
         (r"世博|中国馆|导览", "世博导览场景"),
@@ -801,7 +816,7 @@ def build_evidence_profile(company_name, hits):
         (r"U1|优世界|UWORLD", 4),
         (r"家庭|陪伴|消费级", 2),
     ])
-    tech = first_hit(hits, r"具身智能|多模态|VSLAM|大模型|学习型|运动控制|自主换电|24/7|全栈")
+    tech = first_hit(hits, r"TacForeSight|Helix|π0|pi0|G0\.5|G0|FSD|VLA|VLM|世界模型|多模态规划|语义\s*VSLAM|学习型运动控制")
     order = best_hit(hits, r"1\.1\s*万|1.1万|11000|订单|预售|交付|量产|下线|部署", [
         (r"1\.1\s*万|1.1万|11000", 8),
         (r"订单|预售", 5),
@@ -818,7 +833,12 @@ def build_evidence_profile(company_name, hits):
     has_home = bool(routed.get("home"))
     has_commercial = bool(routed.get("commercial"))
     core_summary = "工业+消费双线" if has_industrial and has_home else ("工业人形" if has_industrial else "人形矩阵")
-    tech_summary = "模型待验" if not routed.get("brain") else "具身模型"
+    tech_summary = "模型未披露" if not routed.get("brain") else "具身模型"
+    tech_choice_summary = "路线待验"
+    if routed.get("brain"):
+        tech_choice_summary = "具身模型"
+    elif routed.get("tech"):
+        tech_choice_summary = first_routed_fact(routed, "tech") or "技术模块"
     scene_summary = "多场景" if sum(bool(x) for x in [industrial, commercial, home]) >= 2 else ("工业场景" if industrial else "服务场景")
     hardware_summary = "Walker矩阵" if product and re.search(r"Walker", hit_blob(product), re.I) else "人形本体"
     progress_summary = "预售订单" if order and re.search(r"预售|订单|1\.1|11000", hit_blob(order), re.I) else ("量产交付" if order else "进度待跟")
@@ -841,16 +861,15 @@ def build_evidence_profile(company_name, hits):
             note="由多条公开来源自动归纳，未用输入证据外信息。",
         ),
         "技术选择": make_cell(
-            tech_summary,
+            tech_choice_summary,
             row_bullets(
                 "技术选择",
                 routed,
                 ("brain", "具身智能/多模态能力"),
                 ("tech", "运动控制/感知能力"),
-                ("industrial", "工业场景验证技术栈"),
-            ),
-            confidence="medium" if routed.get("brain") else "low",
-            note="" if routed.get("brain") else "本次证据包不足以判断大脑路线。",
+            ) or compact_bullets(("未披露模型架构", [{"name": "V2证据路由", "url": "#", "evidence": "未匹配到模型名/架构名/技术模块名"}])),
+            confidence="medium" if routed.get("tech") else "low",
+            note="" if routed.get("tech") else "泛称具身智能不计入技术路线。",
         ),
         "目标场景": make_cell(
             scene_summary,
@@ -875,27 +894,27 @@ def build_evidence_profile(company_name, hits):
             confidence="medium",
         ),
         "大脑自研": make_cell(
-            tech_summary,
+            "模型未披露" if not routed.get("brain") else tech_summary,
             row_bullets(
                 "大脑自研",
                 routed,
                 ("brain", "具身智能模型"),
                 ("tech", "感知/运动控制能力"),
-            ) or compact_bullets(fallback_bullet(company_name, reference, "大脑路线待独立核验")),
+            ) or compact_bullets(("未披露模型架构", [{"name": "V2证据路由", "url": "#", "evidence": "未匹配到模型名/架构名/技术模块名"}])),
             confidence="low" if not routed.get("brain") else "medium",
-            note="" if routed.get("brain") else "未用硬件或预售证据硬撑大脑路线。",
+            note="" if routed.get("brain") else "不把泛称具身智能当作模型证据。",
         ),
         "数据策略": make_cell(
-            "数据待披露" if not routed.get("data") else "场景闭环",
+            "数据未披露" if not routed.get("data") else "场景闭环",
             row_bullets(
                 "数据策略",
                 routed,
                 ("data", "数据/训练闭环"),
                 ("industrial", "工业实训场景"),
                 ("customer", "客户场景数据"),
-            ) or compact_bullets(fallback_bullet(company_name, reference, "训练数据规模未披露")),
+            ) if routed.get("data") else compact_bullets(("训练数据规模未披露", [{"name": "V2证据路由", "url": "#", "evidence": "未匹配到数据采集/训练闭环强证据"}])),
             confidence="low",
-            note="只确认可形成数据的场景，不推断数据规模。",
+            note="不把落地场景自动推断为数据闭环。",
         ),
         "实测能力": make_cell(
             "公开演示",
