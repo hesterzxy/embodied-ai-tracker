@@ -572,11 +572,11 @@ def evidence_tags(item):
         ("reliability", r"可靠|故障|MTBF|连续作业|24/7|稳定|验收"),
         ("price", r"价格|售价|万元|成本|拍卖|租赁"),
         ("customer", r"客户|车厂|工厂|世博|中国馆|导览|入职|OPPO|比亚迪|蔚来"),
-        ("business", r"预售|订单|产品线|销售|商业化|消费级|工业版|商用版"),
-        ("team", r"创始人|CEO|周剑|团队|管理层"),
-        ("finance", r"融资|估值|港股|IPO|市值|[ABCD]\+?轮|天使轮|种子轮|战略投资"),
-        ("ecosystem", r"股东|投资方|战略合作|生态伙伴|合作伙伴|供应链合作|产业联盟|京东|C资本|弘毅|红杉"),
-        ("official", r"官网|company-profile|/products/|ubtrobot|公司简介"),
+        ("business", r"预售|订单|产品线|销售|商业化|消费级|工业版|商用版|商业模式|收费|订阅|租赁|RaaS|API|授权"),
+        ("team", r"创始人|联合创始人|CEO|CTO|周剑|团队|管理层|博士|教授|校友|履历|founder|co-founder"),
+        ("finance", r"融资|估值|港股|IPO|市值|[ABCD]\+?轮|天使轮|种子轮|战略投资|funding|valuation|investor"),
+        ("ecosystem", r"股东|投资方|战略合作|生态伙伴|合作伙伴|供应链合作|产业联盟|京东|C资本|弘毅|红杉|线性资本|investor|partner"),
+        ("official", r"官网|company-profile|/products/|ubtrobot|公司简介|关于我们|about|company profile|official"),
     ]
     for tag, pattern in checks:
         if re.search(pattern, text, re.I):
@@ -711,6 +711,10 @@ def short_fact(item, fallback, route=""):
             (r"家庭|陪伴|消费级", "家庭陪伴场景"),
         ],
         "team": [(r"创始人|CEO|周剑", "周剑创始团队")],
+        "official": [
+            (r"官网|official", "官网信息"),
+            (r"公司简介|关于我们|company profile|about", "公司简介"),
+        ],
         "customer": [
             (r"OPPO", "OPPO供应链展"),
             (r"车厂|工厂|入职", "车厂/工厂场景"),
@@ -815,6 +819,8 @@ def enough_profile_evidence(hits):
 
 def recent_action(item):
     if not item:
+        return False
+    if not item.get("date"):
         return False
     text = hit_blob(item)
     return bool(re.search(r"发布|推出|亮相|预售|订单|交付|量产|部署|融资|签约|客户", text, re.I))

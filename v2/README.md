@@ -15,15 +15,19 @@ When deployed on Vercel, the add-company control also posts to `/api/add-company
 which dispatches the `V2 Company Management` GitHub Actions workflow. Persistent
 add/remove operations update only `v2/data/table.json`.
 
-On add, the workflow first gathers company-specific evidence, then asks the
-configured LLM API to draft a structured matrix column. V2 only writes that
-column if it passes validation: enough source-backed cells, no `待研判` filler,
-bounded recent highlights, and multiple usable URLs. If validation fails, the
-company remains a pending candidate instead of publishing low-quality analysis.
+On add, the workflow first runs a company-lifecycle research pass, then asks the
+configured LLM API to draft a structured matrix column. The research pass is not
+limited to the recent shared news cache: it searches for company profile,
+founders, product/technology, model/benchmark, hardware, customers/orders,
+funding/shareholders, pricing and business-model evidence from founding to now.
+V2 only writes that column if it passes validation: enough source-backed cells,
+no `待研判` filler, bounded recent highlights, and multiple usable URLs. If
+validation fails, the company remains a pending candidate instead of publishing
+low-quality analysis.
 
 The add workflow also runs `scripts/v2_research_news.py` first. That script does
 a company-specific fetch against the existing robotics news sources and a
-broader web search. It prefers AI Code With/OpenAI-compatible web search via
+broader profile-style web search. It prefers AI Code With/OpenAI-compatible web search via
 `AICODEWITH_API_KEY`, `OPENAI_BASE_URL` or `AICODEWITH_BASE_URL`, and
 `AICODEWITH_MODEL`; `AICODEWITH_SEARCH_MODEL` can optionally override the model
 used for search. `TAVILY_API_KEY`, `BRAVE_SEARCH_API_KEY`, and `SERPAPI_API_KEY`

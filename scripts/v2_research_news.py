@@ -94,7 +94,7 @@ def item_from_parsed(parsed, src, level):
 
 def normalize_search_date(value):
     if not value:
-        return datetime.now(timezone.utc).strftime("%m-%d"), datetime.now(timezone.utc)
+        return "", datetime.min.replace(tzinfo=timezone.utc)
     return fetch_news.normalize_date(value)
 
 
@@ -146,11 +146,17 @@ def normalize_chat_url(url):
 
 def search_queries(company_name, aliases):
     base = aliases[0] if aliases else company_name
+    english_alias = next((alias for alias in aliases if re.search(r"[A-Za-z]", alias)), base)
     return [
-        f"{base} 机器人 具身智能 量产 订单 客户",
-        f"{base} 人形机器人 发布 部署 融资",
-        f"{base} 官网 机器人 产品",
-        f"{base} annual report robot humanoid robotics",
+        f"{base} 公司简介 成立 创始人 团队 官网 具身智能 机器人",
+        f"{base} 产品 技术路线 模型 世界模型 VLA 具身智能",
+        f"{base} 机器人 产品 硬件 本体 量产 交付 部署",
+        f"{base} 客户 订单 合作 落地 场景 标杆客户",
+        f"{base} 融资 投资方 股东 估值 天使轮 Pre-A",
+        f"{base} 数据 训练 仿真 评测 benchmark RoboCasa",
+        f"{base} 价格 成本 商业模式 收费",
+        f"{english_alias} company profile founder funding product customers robotics embodied AI",
+        f"{english_alias} robot model world model VLA benchmark deployment financing",
     ]
 
 
@@ -230,11 +236,13 @@ def web_search_aicodewith(query, limit):
         return []
     prompt = (
         "请联网搜索并返回真实可点击的公开来源。"
-        "只关注具身智能/机器人公司动态、产品、量产、订单、客户、融资或部署。"
+        "不要只搜最近新闻，要覆盖公司创立至今的关键事实。"
+        "优先找官网/公司简介、产品页、技术或论文/榜单、融资公告、客户/订单/部署、创始团队等来源。"
+        "只关注具身智能/机器人公司画像所需的产品、技术、团队、量产、订单、客户、融资、股东或部署。"
         f"\n搜索问题：{query}"
         "\n输出严格 JSON："
         "{\"results\":[{\"title\":\"标题\",\"url\":\"https://...\",\"snippet\":\"一句话证据摘要\",\"published\":\"YYYY-MM-DD或空\"}]}"
-        f"\n最多返回 {limit} 条；不要返回百科、论坛灌水或无关泛科技内容。"
+        f"\n最多返回 {limit} 条；不要返回百科、论坛灌水、招聘页或无关泛科技内容。"
     )
     headers = {
         "Authorization": f"Bearer {cfg['api_key']}",
@@ -380,6 +388,42 @@ def fetch_web_search_items(company_name, aliases, days=365, limit=12):
     providers = [web_search_aicodewith, web_search_tavily, web_search_brave, web_search_serpapi]
     rows = []
     stats = []
+    research_terms = (
+        fetch_news.ROBOT_SIGNAL_TERMS
+        + fetch_news.CORE_TERMS
+        + fetch_news.ACTION_TERMS
+        + [
+            "官网",
+            "公司简介",
+            "成立",
+            "创始",
+            "团队",
+            "产品",
+            "技术",
+            "模型",
+            "世界模型",
+            "VLA",
+            "具身大脑",
+            "本体",
+            "客户",
+            "订单",
+            "融资",
+            "投资方",
+            "股东",
+            "估值",
+            "价格",
+            "成本",
+            "benchmark",
+            "RoboCasa",
+            "founder",
+            "funding",
+            "product",
+            "customer",
+            "deployment",
+            "world model",
+            "embodied AI",
+        ]
+    )
     for query in search_queries(canonical, aliases):
         provider_hits = []
         provider_name = ""
@@ -403,7 +447,7 @@ def fetch_web_search_items(company_name, aliases, days=365, limit=12):
             text = f"{title} {snippet}"
             if not contains_alias(text, aliases):
                 continue
-            if not fetch_news.contains_any(text, fetch_news.ROBOT_SIGNAL_TERMS + fetch_news.CORE_TERMS + fetch_news.ACTION_TERMS):
+            if not fetch_news.contains_any(text, research_terms):
                 continue
             item = search_result_item(title, url, snippet, hit.get("source") or provider_name or "Web Search", canonical, hit.get("published", ""))
             rows.append(item)
@@ -453,14 +497,14 @@ def dedupe_items(items):
     return out
 
 
-def fetch_company_news(company_name, days=30, limit=12):
+def fetch_company_news(company_name, days=3650, limit=24):
     canonical = v2_company.canonical_company_name(company_name)
     aliases = aliases_for(canonical)
     cutoff = datetime.now(timezone.utc) - timedelta(days=days)
     found = []
     stats = []
 
-    web_items, web_stats = fetch_web_search_items(canonical, aliases, days=max(days, 365), limit=limit)
+    web_items, web_stats = fetch_web_search_items(canonical, aliases, days=days, limit=limit)
     found.extend(web_items)
     stats.extend(web_stats)
 
@@ -510,8 +554,8 @@ def fetch_company_news(company_name, days=30, limit=12):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--company", required=True, help="Company name to research for V2")
-    parser.add_argument("--days", type=int, default=30)
-    parser.add_argument("--limit", type=int, default=12)
+    parser.add_argument("--days", type=int, default=3650)
+    parser.add_argument("--limit", type=int, default=24)
     args = parser.parse_args()
 
     canonical, items, stats = fetch_company_news(args.company.strip(), args.days, args.limit)
