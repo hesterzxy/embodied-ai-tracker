@@ -56,9 +56,8 @@
     },
     {
       "name": "无界动力",
-      "reason": "V2 待评估",
-      "emphasis": false,
-      "pending": true
+      "reason": "世界模型 · 无硬件量产",
+      "emphasis": false
     }
   ],
   "groups": [
@@ -414,33 +413,33 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "世界模型",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "MWA世界模型",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "双向物理因果链",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "synthesis",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": "由多条公开来源自动归纳，未用输入证据外信息。"
             }
           ],
           "sources": [
@@ -824,33 +823,33 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "MWA世界模型",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "MWA世界模型",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 },
                 {
-                  "text": "等待公开信息核验入库",
+                  "text": "双向物理因果链",
                   "sources": [
                     {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1239,33 +1238,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "模型赋能",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "MWA世界模型",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -1660,33 +1649,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "不造硬件",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "未披露自有本体",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "证据集中在模型/融资，未匹配到硬件本体来源"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -2081,33 +2060,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "MWA世界模型",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "MWA世界模型",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -2492,25 +2461,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "数据未披露",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "训练数据规模未披露",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "未匹配到数据采集/训练闭环强证据"
                     }
                   ]
                 }
@@ -2518,7 +2477,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": "不把落地场景自动推断为数据闭环。"
             }
           ],
           "sources": [
@@ -2892,33 +2851,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "RoboCasa榜单",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "双向物理因果链",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -3323,33 +3272,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "无硬件量产",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "无硬件量产信息",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "纯模型公司未匹配到硬件量产来源"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -3748,25 +3687,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "指标待披露",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "运行可靠性未披露",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "未匹配到故障率、连续运行、验收周期等来源"
                     }
                   ]
                 }
@@ -3774,7 +3703,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -4174,25 +4103,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "价格待披露",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "模型价格未披露",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "未匹配到价格、成本、服务费结构来源"
                     }
                   ]
                 }
@@ -4200,7 +4119,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -4596,33 +4515,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "无订单披露",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "未披露客户订单",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "未匹配到客户/订单/部署来源"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -5001,25 +4910,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "客户待核",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "客户名单未披露",
                   "sources": [
                     {
-                      "name": "V2手动添加",
+                      "name": "V2证据路由",
                       "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "evidence": "未匹配到客户、部署、验收来源"
                     }
                   ]
                 }
@@ -5027,7 +4926,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -5417,33 +5316,23 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "模型研发",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "MWA世界模型",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
               ],
               "kind": "evidence",
               "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "confidence": "medium",
+              "note": ""
             }
           ],
           "sources": [
@@ -5823,25 +5712,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "团队待补",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "核心技术团队履历仍需更多公开材料",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "OFweek机器人 2026-06-29",
+                      "url": "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html",
+                      "evidence": "06-29，融资数亿美元后登顶权威榜单，无界动力发布 MWA 隐空间世界模型。"
                     }
                   ]
                 }
@@ -5849,7 +5728,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -6244,25 +6123,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "超2亿融资",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "超2亿美元天使轮",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "雷峰网 2026-06-26",
+                      "url": "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html",
+                      "evidence": "06-26，无界动力完成超2亿美元天使轮融资，加速具身通用大脑与世界模型开发。"
                     }
                   ]
                 }
@@ -6270,7 +6139,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
@@ -6675,25 +6544,15 @@
               "note": "V2手动候选，尚未完成长期核验。"
             },
             {
-              "summary": "待核验",
+              "summary": "产业生态",
               "bullets": [
                 {
-                  "text": "无界动力已加入V2待评估",
+                  "text": "顶级资本参与",
                   "sources": [
                     {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
+                      "name": "雷峰网 2026-06-26",
+                      "url": "https://www.leiphone.com/category/industrynews/R0KdLxNZMHJPM7yA.html",
+                      "evidence": "06-26，无界动力完成超2亿美元天使轮融资，加速具身通用大脑与世界模型开发。"
                     }
                   ]
                 }
@@ -6701,7 +6560,7 @@
               "kind": "evidence",
               "updated_recent": false,
               "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
+              "note": ""
             }
           ],
           "sources": [
