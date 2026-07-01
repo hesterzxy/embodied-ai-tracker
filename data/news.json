@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T04:02:31.432346+08:00",
+  "updated": "2026-07-01T12:00:39.454788+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 8,
+      "entries": 26,
+      "candidates": 5,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -38,7 +38,7 @@
       "error": "",
       "entries": 19,
       "candidates": 10,
-      "core": 2,
+      "core": 3,
       "periphery": 0,
       "new": 1
     },
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
+      "entries": 19,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 5,
+      "candidates": 16,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -122,14 +122,15 @@
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "TimeoutError: The read operation timed out",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 22,
+      "candidates": 22,
+      "core": 5,
+      "periphery": 1,
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -194,7 +195,7 @@
       "candidates": 13,
       "core": 9,
       "periphery": 0,
-      "new": 6
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +240,30 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-01T04:03:05.679431+08:00",
+    "generated_at": "2026-07-01T12:01:02.304205+08:00",
     "mode": "aicodewith",
-    "item_count": 31,
+    "item_count": 36,
     "insights": [
       {
-        "label": "落地验证转向可验收工段",
-        "text": "本周具身智能的落地证据集中在工厂、维修、巡检等边界清晰任务，嘉定与它石智航推进千台级工业机器人集群，智元精灵G2在平板量产质检直播中作业64828件并公布99.99%成功率，优必选称工业机器人已批量落地海内外车企和制造工厂，短期商业化评价更依赖真实产线数据和规模部署能力。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周最明确的落地信号集中在工厂与制造场景，智元精灵G2在平板量产质检工段直播作业64828件、成功率99.99%，嘉定与它石智航推动千台级工业具身智能机器人集群，宝马在测试后部署Figure 03，项目价值正在更多由作业数量、成功率和部署规模来衡量。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始绑定数据闭环",
-        "text": "世界模型和具身大脑仍是融资与技术叙事核心，无界动力发布长时序双向物理因果链隐空间世界模型，纽娲机器人获5000万元天使轮融资押注世界通行模型，港大教授李弘扬创业项目融资将用于基础模型和多模态全身动作数据采集，模型能力正更多与真机数据、移动导航和任务闭环相连。",
+        "label": "模型叙事靠真实闭环支撑",
+        "text": "无界动力发布隐空间世界模型，纽娲机器人获5000万元天使轮融资押注世界通行模型，港大教授创业项目将资金用于全身基础模型和多模态动作数据采集，同时宏微科技提示人形机器人业务仍处前期研发或小批量试点，模型热度正在与数据采集、真机部署和收入兑现压力并行。",
         "evidence_urls": []
       },
       {
-        "label": "量产口径进入价格与交付检验",
-        "text": "人形机器人企业密集提出量产目标，宇树、松延动力、智元及特斯拉、小鹏、比亚迪等玩家均被提及，优必选发布11.98万元至99万元的全尺寸超仿生人形机器人U1系列，智元则用真实产线直播展示质检作业，市场关注点从参数发布延伸到价格带、交付节奏和稳定运行表现。",
+        "label": "家庭场景进入价格测试",
+        "text": "优必选发布全尺寸超仿生人形机器人U1系列，价格覆盖11.98万至99万元并披露首发订单破万，公司同时称工业机器人已成为营收支柱、约一半精力投入家庭场景，消费级人形机器人开始用定价和订单试探需求，但短期经营支撑仍更多来自工业落地。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧聚焦世界模型、仿真部署和具身智能人才，英伟达在华招聘覆盖三城；宏微科技提示人形机器人业务仍处前期或小批量试点，技术热度与收入贡献仍需区分。",
+        "summary": "技术侧围绕世界模型、仿真部署和具身智能人才展开，英伟达在华招聘覆盖四大方向，但部分公司仍提示相关业务处研发或小批量试点阶段。",
         "items": [
           {
             "date": "06-30",
@@ -289,7 +290,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻同时出现目标争议和实测样本，智元披露精灵G2完成64828件平板质检作业并给出成功率，优必选U1公布11.98万至99万元价格，产品开始接受工段与价格检验。",
+        "summary": "量产讨论从目标口号走向现场验证，智元披露真实产线质检作业数据，优必选发布U1系列价格，工业喷涂协作机器人也强调无代码和防爆能力。",
         "items": [
           {
             "date": "06-30",
@@ -323,13 +324,20 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地集中在工业场景，嘉定与它石智航推进千台级机器人集群，宝马在测试上一代后部署Figure 03，Figure 02曾支持超3万辆BMW X3生产，订单更强调可复制场景。",
+        "summary": "订单与部署更偏向可定义场景，优必选U1首发订单破万，嘉定推进千台级工业机器人集群，宝马在前代测试后继续部署Figure 03。",
         "items": [
           {
             "date": "07-01",
             "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
             "url": "https://www.leiphone.com/category/industrynews/K3uywJRUmXoxm8YX.html",
             "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-01",
+            "title": "以情感大模型重新定义人形机器人家庭场景，优必选超仿生机器人首发订单破万",
+            "url": "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html",
+            "company": "优必选",
             "source_name": "雷峰网"
           },
           {
@@ -350,8 +358,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续涌向世界模型、具身大脑和工业机器人，纽娲完成5000万元天使轮，视比特获亿元级融资，Sand.ai、无界动力、智平方等案例显示头部项目估值和融资规模走高。",
+        "summary": "融资集中投向世界模型、移动导航、全身具身大脑和工业机器人，纽娲、视比特、X Square Robot等获资，资本仍偏好可描述能力与场景闭环。",
         "items": [
+          {
+            "date": "07-01",
+            "title": "为什么监管成了Robotaxi估值兑现的最大变量？",
+            "url": "https://www.tmtpost.com/8047662.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "06-30",
             "title": "36氪首发｜前百度自动驾驶与机器人实验室主任创业，天使轮融资数千万，做机器人“世界通行模型”",
@@ -379,6 +394,13 @@
             "url": "https://robot.ofweek.com/2026-06/ART-8321202-8120-30692608.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "06-30",
+            "title": "X Square Robot 连续四轮融资后估值达28亿美元 (X Square Robot brings its valuation to $2.8B with four consecutive funding rounds)",
+            "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           },
           {
             "date": "06-29",
@@ -426,8 +448,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现应用与生态并进，优必选称工业机器人已成营收支柱且家庭场景投入增加，众擎在深圳设新公司，物理AI从受控环境走向现实世界仍是共同方向。",
+        "summary": "行业动态呈现家庭与工业双线推进，优必选披露家庭场景投入和工业收入支柱，众擎在深圳设新公司，物理AI从受控环境走向现实世界成为共识。",
         "items": [
+          {
+            "date": "07-01",
+            "title": "优必选卖“机器人老婆”！没四肢的，也要卖12万",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30692748.html",
+            "company": "优必选",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "06-30",
             "title": "优必选全尺寸超仿生机器人售价公布",
@@ -506,6 +535,19 @@
             "source_name": "爱范儿"
           }
         ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链机会开始绑定具体感知瓶颈，苏大教授创业的触觉系统获千万级天使轮融资，资金用于中试产线、产品迭代和团队扩充。",
+        "items": [
+          {
+            "date": "07-01",
+            "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
+            "url": "https://36kr.com/p/3874358072710407?f=rss",
+            "company": "行业",
+            "source_name": "36氪"
+          }
+        ]
       }
     ]
   },
@@ -518,6 +560,42 @@
       "category": "商业订单",
       "summary": "AI科技 获悉，跨维智能近日已完成B轮融资，融资金额10亿元人民币，投后估值超过百亿，成功跻身具身智能独角兽行列，踏入IPO的门槛。 这轮融资的投资方横跨几类资本：国家级母基金、头部国资创投、实体龙头产业资本和地方科创平台。深创投、贵阳数字经济基金是连续两轮下注；前海母基金、蓝思科技、工银资本、恒健资产、诸瑞资本这轮新进入；南山战新投、成都科创投、四川院士基…",
       "url": "https://www.leiphone.com/category/industrynews/K3uywJRUmXoxm8YX.html"
+    },
+    {
+      "date": "07-01",
+      "company": "行业",
+      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
+      "source_name": "36氪",
+      "category": "泛具身产业链",
+      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，感知纪元科技有限公司（以下简称“感知纪元”）近日完成千万级天使轮融资，本轮由松禾资本领衔投资。融资资金将主要用于中试产线搭建、核心产品迭代升级及团队扩充，加速推进多模态智能触觉电子皮肤从研发走向量产。 感知纪元成立于2025年12月，感知纪元定位于机器人触觉基础设施提供商，通过自研多模态电��皮肤、触觉感知硬件及AI算法…",
+      "url": "https://36kr.com/p/3874358072710407?f=rss"
+    },
+    {
+      "date": "07-01",
+      "company": "优必选",
+      "title": "以情感大模型重新定义人形机器人家庭场景，优必选超仿生机器人首发订单破万",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "summary": "6月30日，优必选在深圳举办2026年度全球发布会，发布面向下一个十年的“人机共生”战略，并发布全尺寸超仿生人形机器人优世界U1系列，包括半身版U1 Lite、高配全身版U1 Pro及高动态全身版U1 Ultra三款产品。其中，U1 Lite售价11.98万元；U1 Pro 16.98万元；U1 Ultra男版99万元，女版88万元。 发布会现场，优必选宣布…",
+      "url": "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html"
+    },
+    {
+      "date": "07-01",
+      "company": "其他",
+      "title": "为什么监管成了Robotaxi估值兑现的最大变量？",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "任何一条出现明显恶化，估值修复都会停顿；任何一条出现明显改善，市场会以较大弹性兑现。这种高Beta属性，决定了监管成为估值故事里波动最大的来源",
+      "url": "https://www.tmtpost.com/8047662.html"
+    },
+    {
+      "date": "07-01",
+      "company": "优必选",
+      "title": "优必选卖“机器人老婆”！没四肢的，也要卖12万",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "来源 | 深蓝财经 6月30日，港股人形机器人概念股优必选(09880.HK)股价波动明显。 受发布会预期影响，自上午开盘，优必选股价整体一路上行。发布会开始后，该股盘中一度上涨18.70%。 不过， 人形机器人",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30692748.html"
     },
     {
       "date": "06-30",
@@ -653,6 +731,15 @@
       "category": "行业动态",
       "summary": "morph launched a physically intelligent soft robotics platform that designs and manufactures what it calls “soft robotic cells.” The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/"
+    },
+    {
+      "date": "06-30",
+      "company": "行业",
+      "title": "X Square Robot 连续四轮融资后估值达28亿美元 (X Square Robot brings its valuation to $2.8B with four consecutive funding rounds)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "X Square Robots' system combines foundation models, robotics hardware, a data pipeline system, and real-world deployments. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/"
     },
     {
       "date": "06-29",
@@ -914,51 +1001,6 @@
       "category": "资本动态",
       "summary": "生命起源于海洋，当AI的触角从陆地延伸至深海，那些人类干不了、干不好、干不起的「苦活累活」，正在酝酿一场效率革命。通用具身智能的规模化商业落地，也将率先在深蓝水域找到答案",
       "url": "https://robot.ofweek.com/2026-06/ART-898890-8420-30692103.html"
-    },
-    {
-      "date": "06-26",
-      "company": "行业",
-      "title": "四川机器人减速器零部件制造商，通过北交所上市辅导验收！",
-      "source_name": "OFweek机器人",
-      "category": "泛具身产业链",
-      "summary": "日前，四川银钢一通凸轮科技股份有限公司（下称“银钢一通”）在东方证券的辅导下，顺利通过四川证监局的上市辅导验收，距离北交所IPO上市再进一步。 此前，该公司曾开启过一轮上市辅导进程。2022年6月，银",
-      "url": "https://robot.ofweek.com/2026-06/ART-8321201-8120-30692111.html"
-    },
-    {
-      "date": "06-26",
-      "company": "优必选",
-      "title": "陪伴类机器人卖了5000台，优必选能松口气了？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "其旗下消费级品牌优世界在京东和天猫同步开启预售。这款名为U1的全尺寸人形机器人主打情感陪伴，分男女两款，各搭载88个高自由度运动关节。上线10天预订量逼近4000台，到6月21日累计超过5000台。 一个可供对照的数字是：2025年全年，优必选全尺寸具身智能人形机器人总共卖了1079台。一款C端产品不到三周的预定量，是去年B端全年销量的近五倍。 优必选方面透…",
-      "url": "https://www.tmtpost.com/8042348.html"
-    },
-    {
-      "date": "06-26",
-      "company": "其他",
-      "title": "对话超维传感李炎辉：为什么那么多具身智能公司，都来抢着做「触觉」？",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "当视觉缺席具身智能“最后一厘米”，触觉就成了最大的需求。 作者丨 高景辉 编辑丨 林觉民 刚见到超维传感创始人李炎辉时，他递给了我一瓶水，本以为只是用来喝的，没想到这成了他重要的“演示道具”。 没错，在与雷峰网这次对话过程中，他几乎用一瓶普通的矿泉水解释了机器人灵巧操作所需要的触觉信息——捏住它靠「法向力」，提起它靠「切向力」，倒过来要感知「姿态」，大力把水…",
-      "url": "https://www.leiphone.com/category/robot/Q6XEzSSNN50X3wwt.html"
-    },
-    {
-      "date": "06-26",
-      "company": "优必选",
-      "title": "优必选发布轮式工业人形机器人 Cruzr Y1，在 OPPO 供应链技术展首秀",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 6 月 26 日消息，OPPO 技术发布会暨供应链技术展昨日举行，优必选旗下 Cruzr Y1 轮式工业人形机器人迎来首次公开亮相，展示料箱拆垛、码垛全流程。 官方表示，这款机器人重点攻克各类料箱、纸箱、物料上下料和分拣等柔性作业难点，直击传统自动化设备物料轻微偏移即停机、换产调试周期漫长、仅能执行单一工序等制造行业核心痛点。 Cruzr Y1 搭…",
-      "url": "https://www.ithome.com/0/969/219.htm"
-    },
-    {
-      "date": "06-26",
-      "company": "其他",
-      "title": "Flexiv 推出新型“自适应机器人”用于工业自动化 (Flexiv launches new ‘adaptive robots’ for industrial automation)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Flexiv has launched two new adaptive robots designed to bring greater tactile sensing and physical AI capabilities to industrial automation. The company unveiled its new Enlight ro…",
-      "url": "https://roboticsandautomationnews.com/2026/06/26/flexiv-launches-new-adaptive-robots-for-industrial-automation/102857/"
     }
   ]
 }
