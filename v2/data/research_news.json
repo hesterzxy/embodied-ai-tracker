@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T12:45:33+08:00",
+  "updated": "2026-07-01T16:06:37+08:00",
   "companies": {
     "优必选": {
       "queried_at": "2026-06-30T16:42:18+08:00",
@@ -347,6 +347,223 @@
           "attempts": 1,
           "error": "",
           "matched": 0
+        },
+        {
+          "name": "新战略移动机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国工控网机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "The Robot Report",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "TechCrunch Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "Robotics & Automation News",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "NVIDIA Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IEEE Spectrum Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "RoboHub",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        }
+      ]
+    },
+    "英伟达": {
+      "queried_at": "2026-07-01T16:06:37+08:00",
+      "query": "英伟达",
+      "canonical_name": "英伟达",
+      "days": 3650,
+      "items": [
+        {
+          "date": "07-01",
+          "company": "英伟达",
+          "title": "6月机器人月报：世界模型“抢地盘”，新品迭代与资本注入持续加速",
+          "source_name": "OFweek机器人",
+          "category": "产品量产",
+          "summary": "fweek.com/2026-07/ART-898890-8120-30692751.html#content\" target=\"_blank\" > 行业大事件 1、英伟达GTC发布Cosmos 3世界模型与Isaac GR00T平台 1日，英伟达在GTC台北主题演讲中正式发布Cosmos 3物理AI世界基础模型，该模型覆盖云端到边缘全场景部署，可 其它 |…",
+          "url": "https://robot.ofweek.com/2026-07/ART-8321206-8440-30692735.html"
+        },
+        {
+          "date": "07-01",
+          "company": "英伟达",
+          "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
+          "source_name": "雷峰网",
+          "category": "商业订单",
+          "summary": "AI科技 获悉，跨维智能近日已完成B轮融资，融资金额10亿元人民币，投后估值超过百亿，成功跻身具身智能独角兽行列，踏入IPO的门槛。 这轮融资的投资方横跨几类资本：国家级母基金、头部国资创投、实体龙头产业资本和地方科创平台。深创投、贵阳数字经济基金是连续两轮下注；前海母基金、蓝思科技、工银资本、恒健资产、诸瑞资本这轮新进入；南山战新投、成都科创投、四川院士基…",
+          "url": "https://www.leiphone.com/category/industrynews/K3uywJRUmXoxm8YX.html"
+        }
+      ],
+      "source_stats": [
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 公司简介 成立 创始人 团队 官网 具身智能 机器人",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 产品 技术路线 模型 世界模型 VLA 具身智能",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 机器人 产品 硬件 本体 量产 交付 部署",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 客户 订单 合作 落地 场景 标杆客户",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 融资 投资方 股东 估值 天使轮 Pre-A",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 数据 训练 仿真 评测 benchmark RoboCasa",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 价格 成本 商业模式 收费",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 company profile founder funding product customers robotics embodied AI",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "英伟达 robot model world model VLA benchmark deployment financing",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "量子位",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "36氪",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "雷峰网",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 1
+        },
+        {
+          "name": "钛媒体",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "爱范儿",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "InfoQ",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IT之家",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国机器人网",
+          "fetched": false,
+          "attempts": 2,
+          "error": "URLError: <urlopen error timed out>",
+          "matched": 0
+        },
+        {
+          "name": "甲子光年",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "OFweek机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 1
         },
         {
           "name": "新战略移动机器人",

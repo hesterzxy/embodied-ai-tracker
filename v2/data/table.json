@@ -52,6 +52,12 @@
       "name": "无界动力",
       "reason": "世界模型 · 无硬件量产",
       "emphasis": false
+    },
+    {
+      "name": "英伟达",
+      "reason": "V2 待评估",
+      "emphasis": false,
+      "pending": true
     }
   ],
   "groups": [
@@ -405,6 +411,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "由多条公开来源自动归纳，未用输入证据外信息。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -786,6 +821,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1162,6 +1226,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1544,6 +1637,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1926,6 +2048,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2298,6 +2449,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "不把落地场景自动推断为数据闭环。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2659,6 +2839,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3051,6 +3260,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3437,6 +3675,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3824,6 +4091,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4207,6 +4503,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4573,6 +4898,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4950,6 +5304,35 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -5317,6 +5700,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -5699,6 +6111,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -6091,6 +6532,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "英伟达已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
