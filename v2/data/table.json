@@ -49,12 +49,6 @@
       "emphasis": false
     },
     {
-      "name": "Sharpa",
-      "reason": "V2 待评估",
-      "emphasis": false,
-      "pending": true
-    },
-    {
       "name": "无界动力",
       "reason": "世界模型 · 无硬件量产",
       "emphasis": false
@@ -382,35 +376,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": "由多条公开来源自动归纳，未用输入证据外信息。"
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "synthesis",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "世界模型",
@@ -792,35 +757,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "MWA世界模型",
@@ -1209,35 +1145,6 @@
               "note": ""
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "模型赋能",
               "bullets": [
                 {
@@ -1618,35 +1525,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "不造硬件",
@@ -2031,35 +1909,6 @@
               "note": "不把泛称具身智能当作模型证据。"
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "MWA世界模型",
               "bullets": [
                 {
@@ -2432,35 +2281,6 @@
               "note": "不把落地场景自动推断为数据闭环。"
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "数据未披露",
               "bullets": [
                 {
@@ -2820,35 +2640,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "RoboCasa榜单",
@@ -3243,35 +3034,6 @@
               "note": ""
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "无硬件量产",
               "bullets": [
                 {
@@ -3656,35 +3418,6 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "指标待披露",
@@ -4074,35 +3807,6 @@
               "note": ""
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "价格待披露",
               "bullets": [
                 {
@@ -4486,35 +4190,6 @@
               "note": "预售不等同于B端已交付订单。"
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "无订单披露",
               "bullets": [
                 {
@@ -4879,35 +4554,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "客户待核",
@@ -5287,35 +4933,6 @@
               "note": ""
             },
             {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
-            },
-            {
               "summary": "模型研发",
               "bullets": [
                 {
@@ -5681,35 +5298,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "团队待补",
@@ -6092,35 +5680,6 @@
               "updated_recent": false,
               "confidence": "low",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "超2亿融资",
@@ -6513,35 +6072,6 @@
               "updated_recent": false,
               "confidence": "medium",
               "note": ""
-            },
-            {
-              "summary": "待核验",
-              "bullets": [
-                {
-                  "text": "Sharpa已加入V2待评估",
-                  "sources": [
-                    {
-                      "name": "V2手动添加",
-                      "url": "#",
-                      "evidence": "用户在V2工作区添加"
-                    }
-                  ]
-                },
-                {
-                  "text": "等待公开信息核验入库",
-                  "sources": [
-                    {
-                      "name": "待核验",
-                      "url": "#",
-                      "evidence": ""
-                    }
-                  ]
-                }
-              ],
-              "kind": "evidence",
-              "updated_recent": false,
-              "confidence": "low",
-              "note": "V2手动候选，尚未完成长期核验。"
             },
             {
               "summary": "产业生态",
