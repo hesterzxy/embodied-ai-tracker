@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T11:38:38+08:00",
+  "updated": "2026-07-01T12:45:33+08:00",
   "companies": {
     "优必选": {
       "queried_at": "2026-06-30T16:42:18+08:00",
@@ -335,6 +335,169 @@
         {
           "name": "web:serpapi",
           "query": "Sharpa annual report robot humanoid robotics",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "量子位",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "36氪",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "雷峰网",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "钛媒体",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "爱范儿",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "InfoQ",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IT之家",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国机器人网",
+          "fetched": false,
+          "attempts": 2,
+          "error": "URLError: <urlopen error timed out>",
+          "matched": 0
+        },
+        {
+          "name": "甲子光年",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "OFweek机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "新战略移动机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国工控网机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "The Robot Report",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "TechCrunch Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "Robotics & Automation News",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "NVIDIA Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IEEE Spectrum Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "RoboHub",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        }
+      ]
+    },
+    "无界动力": {
+      "queried_at": "2026-07-01T12:45:33+08:00",
+      "query": "无界动力",
+      "canonical_name": "无界动力",
+      "days": 30,
+      "items": [],
+      "source_stats": [
+        {
+          "name": "web:serpapi",
+          "query": "无界动力 机器人 具身智能 量产 订单 客户",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "无界动力 人形机器人 发布 部署 融资",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "无界动力 官网 机器人 产品",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "无界动力 annual report robot humanoid robotics",
           "fetched": false,
           "error": "HTTPError: HTTP Error 400: Bad Request",
           "matched": 0
