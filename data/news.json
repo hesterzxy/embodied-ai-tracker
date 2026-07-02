@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T11:41:35.174218+08:00",
+  "updated": "2026-07-02T16:59:23.846786+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
+      "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -24,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 7,
+      "candidates": 10,
       "core": 2,
       "periphery": 0,
       "new": 1
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 1,
+      "entries": 18,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 3,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
       "new": 1
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 26,
+      "entries": 60,
+      "candidates": 19,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 4,
+      "core": 5,
       "periphery": 1,
-      "new": 3
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 9,
+      "candidates": 9,
+      "core": 3,
       "periphery": 0,
-      "new": 8
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,31 +240,64 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-02T11:41:52.574747+08:00",
-    "mode": "aicodewith",
-    "item_count": 49,
+    "generated_at": "2026-07-02T17:00:05.186299+08:00",
+    "mode": "local",
+    "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周订单与部署更多集中在工业、制造和家庭首发验证场景，上海嘉定与它石智航推进千台级工业具身智能机器人集群，宝马在测试上一代后部署Figure 03，前代Figure 02曾在11个月支持超过3万辆BMW X3生产，智元精灵G2在真实产线直播完成64828件平板质检作业且成功率99.99%，机器人能力评估正在从发布会演示转向可统计、可复核的任务闭环。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，2026年，人形机器人正在跨过三道门槛：从动作展示走向自主作业，从样机交付走向批量制造，从融资故事走向真实订单；6月30日，优必选在深圳举办2026年度全球发布会，发布面向下一个十年的“人机共生”战略，并发布全尺寸超仿生人形机器人优世界U1系列，包括半身版U1 Lite、高配全身版U1 Pro及高动态全身版U1 Ultra三款产品。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html",
+          "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html",
+          "https://www.tmtpost.com/8047045.html"
+        ]
       },
       {
-        "label": "世界模型融资绑定真实闭环",
-        "text": "Loop世界模型强调让AI自执行、检查、修正直至任务完成，无界动力发布长时序双向物理因果链隐空间世界模型，纽娲机器人以世界通行模型完成5000万元天使轮融资，知天下融资用于生成式高斯基模研发与内容社群拓展，资本仍追逐模型方向，但资金用途和叙事开始贴近移动、导航、交互、仿真等可定义能力。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，很多人发现，在模拟环境里表现优异的机器人，一旦进入真实工厂，往往立刻失灵；它讲的是一件很“Agent时代”的事：别再手动一轮轮prompt模型了，去设计一个循环系统，让AI自己执行、检查、修正、继续跑，直到任务完成。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/441490.html",
+          "https://www.qbitai.com/2026/07/441225.html",
+          "https://www.qbitai.com/2026/07/441140.html"
+        ]
       },
       {
-        "label": "量产与价格进入验证维度",
-        "text": "宇树、松延动力、智元等企业相继提出量产目标，特斯拉、小鹏、比亚迪等车企也提升人形机器人战略位置，优必选发布11.98万元至99万元的U1系列并称首发订单破万，智元用产线直播披露作业件数和成功率，量产不再只是产能口号，价格、交付节奏和真实工段表现共同构成市场检验。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，本轮由上海众合创投独家投资，探针资本担任财务顾问，资金将主要用于扩充团队研发 生成式高斯基模 、开拓高斯泼溅中国内容社群的海外影响力；形成了巧妙的互文： Physical AI（物理AI）的场景。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/robot/f6tUYpkNfttVSBf3.html",
+          "https://36kr.com/p/3877109751803904?f=rss",
+          "https://robot.ofweek.com/2026-06/ART-898890-8120-30692477.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术焦点集中在世界模型、机器人技能库和具身大脑，Loop、自变量、英伟达ASPIRE等强化任务自执行与持续学习，但部分公司仍提示人形机器人业务处于试点阶段。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "07-02",
+            "title": "训练世界模型，开始从人类的肌肉和脑子里偷师了",
+            "url": "https://www.qbitai.com/2026/07/441725.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-02",
+            "title": "世界模型来了因果技术标杆！具身大脑真要长脑子了",
+            "url": "https://www.qbitai.com/2026/07/441490.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-02",
+            "title": "AI 技术用于工厂质检：特斯拉车间靠车载麦克风自动检测车辆异响",
+            "url": "https://www.ithome.com/0/971/587.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-01",
             "title": "Loop世界模型论文登顶Hugging Face，来自中国一家初创，周鸿祎陆奇都投了",
@@ -320,19 +353,12 @@
             "url": "https://36kr.com/newsflashes/3874215653659649?f=rss",
             "company": "其他",
             "source_name": "36氪"
-          },
-          {
-            "date": "06-29",
-            "title": "全球首个：隐空间世界模型，打通长时序双向物理因果链了！",
-            "url": "https://www.qbitai.com/2026/06/439891.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产话题从目标发布走向现场验证，智元披露精灵G2真实产线作业64828件、成功率99.99%，优必选U1系列给出11.98万元至99万元价格区间。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "06-30",
@@ -366,8 +392,15 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧呈现工业集群、车厂部署与家庭首单并行，嘉定推进千台级工业机器人集群，宝马部署Figure 03，优必选U1系列称首发订单破万。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "07-02",
+            "title": "从模型到工厂订单: 2026人形机器人产业链全景",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-01",
             "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
@@ -388,19 +421,12 @@
             "url": "https://www.robot-china.com/news/202606/29/95980.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-29",
-            "title": "宝马集团在测试上一代版本后部署 Figure 03 人形机器人 (BMW Group deploys Figure 03 humanoid after tests with previous version)",
-            "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/",
-            "company": "Figure",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资金继续流向世界模型、移动智能和工业机器人，知天下、纽娲、视比特等完成融资，投资叙事更强调模型能力、场景定义和工程化落地。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-01",
@@ -492,19 +518,12 @@
             "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/",
             "company": "特斯拉",
             "source_name": "TechCrunch Robotics"
-          },
-          {
-            "date": "06-29",
-            "title": "Bear Robotics 收购 Kinisi 背后的洞察 (Insights behind Kinisi’s acquisition by Bear Robotics)",
-            "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "优必选发布会带动家庭人形机器人讨论升温，售价、陪伴场景和劳动替代成为焦点，同时众擎设立深圳新公司，企业组织扩张仍在推进。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "07-02",
@@ -622,7 +641,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "供应链机会集中在触觉电子皮肤和谐波减速器等关键环节，触觉系统融资用于中试与产品迭代，零部件龙头上市并披露约34万件订单。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "07-01",
@@ -651,6 +670,42 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 2 日消息，据网易科技报道，优必选 CEO 周剑在 6 月 30 日的 2026 年度全球发布会上谈到机器人替代人类工作的问题。 周剑表示： 好好珍惜我们作为牛马、作为劳动力工作的最后光阴吧，这也就是未来 5 年 10 年 20 年的事情了 。现在 20 多岁的年轻小伙伴们，可能过了 20 年想工作也没了，都是机器人做了。 周剑还认为：大家…",
       "url": "https://www.ithome.com/0/971/428.htm"
+    },
+    {
+      "date": "07-02",
+      "company": "其他",
+      "title": "训练世界模型，开始从人类的肌肉和脑子里偷师了",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "具身智能数据的竞争，正在从“量大管饱”进入下一关。 过去一年，第一视角视频成了机器人训练的主流燃料。人戴上相机做饭、整理桌面、开抽屉，就能产出大量操作样本。 数据量的问题初步缓解，但一个更深的缺口浮出来了： 这些视频只记录了人做了什么，没有记录人为什么这样做，更没记录动作执行中大脑和身体如何实时修正。 FaceMind脸谱心智 想填的，就是这个缺口。 这家由…",
+      "url": "https://www.qbitai.com/2026/07/441725.html"
+    },
+    {
+      "date": "07-02",
+      "company": "其他",
+      "title": "世界模型来了因果技术标杆！具身大脑真要长脑子了",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "很多人发现，在模拟环境里表现优异的机器人，一旦进入真实工厂，往往立刻失灵。这是行业内最尴尬的现状，也是整个具身赛道最核心的瓶颈： 泛化能力 。 换一个环境，可能就要重新采数据、重新训练、重新交付。机器人学的始终是特定场景下的“经验”，而非现象背后的“规律”。 在这一背景下，为了让机器真正理解物理世界，构建“世界模型”逐渐成了具身大脑近年来最拥挤的赛道，各式技…",
+      "url": "https://www.qbitai.com/2026/07/441490.html"
+    },
+    {
+      "date": "07-02",
+      "company": "特斯拉",
+      "title": "AI 技术用于工厂质检：特斯拉车间靠车载麦克风自动检测车辆异响",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 2 日消息，自去年起，特斯拉车辆就已经能够自主驶离工厂装配线，自动驶入交付停车场。这套自动化物流体系大幅节省了厂区作业时间；去年特斯拉更是创下行业纪录，一台新车从得州超级工厂通过自动驾驶，直接送到客户家门口。如今，这套自动驾驶技术正进一步渗透至整车总装的末端工序。 IT之家注意到，特斯拉工程副总裁拉尔斯 · 莫拉维（Lars Moravy）…",
+      "url": "https://www.ithome.com/0/971/587.htm"
+    },
+    {
+      "date": "07-02",
+      "company": "其他",
+      "title": "从模型到工厂订单: 2026人形机器人产业链全景",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "2026年，人形机器人正在跨过三道门槛：从动作展示走向自主作业，从样机交付走向批量制造，从融资故事走向真实订单。 国内，宇树科技推进资本化，智元、优必选、银河通用等企业加快工业和商业场景验证；海外，A",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html"
     },
     {
       "date": "07-01",
@@ -1056,42 +1111,6 @@
       "category": "资本动态",
       "summary": "The startup, Proception, is taking a unique approach to collecting training data to tackle one of the hardest problems in robotics: hands.",
       "url": "https://techcrunch.com/2026/06/29/robot-hand-company-settles-tesla-trade-secret-suit-and-announces-11m-raise/"
-    },
-    {
-      "date": "06-29",
-      "company": "其他",
-      "title": "全球首个：隐空间世界模型，打通长时序双向物理因果链了！",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "你从桌上端起一杯水，大脑用了 不到一秒 ，同时完成三件事： 估算杯子的重量，预判水面晃动的幅度，顺便绕开了旁边那个玻璃杯。 在这个动作中，你的大脑不会在意杯子上的花纹，或是杯壁折射出的复杂光影，而是能瞬间抓住核心： 手要出多少力，水才不会晃出来 。 正是这种忽略无关的环境细节、 直接洞察本质的“物理直觉” ，让我们干起细活来行云流水。 但对机器人来说，想要学…",
-      "url": "https://www.qbitai.com/2026/06/439891.html"
-    },
-    {
-      "date": "06-29",
-      "company": "Figure",
-      "title": "宝马集团在测试上一代版本后部署 Figure 03 人形机器人 (BMW Group deploys Figure 03 humanoid after tests with previous version)",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "The Figure 02 robot supported the production of more than 30,000 BMW X3 vehicles over 11 months in South Carolina. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/bmw-group-deploys-figure-03-humanoid-after-tests-previous-version/"
-    },
-    {
-      "date": "06-29",
-      "company": "其他",
-      "title": "Bear Robotics 收购 Kinisi 背后的洞察 (Insights behind Kinisi’s acquisition by Bear Robotics)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Brennand Pierce, founder and CEO of Kinisi Robotics, discusses the company's approach to physical AI and its acquisition by Bear Robotics. The post appeared first on The Robot Repo…",
-      "url": "https://www.therobotreport.com/insights-behind-kinisi-acquisition-by-bear-robotics/"
-    },
-    {
-      "date": "06-28",
-      "company": "智元机器人",
-      "title": "智元第15000台通用具身机器人正式量产下线",
-      "source_name": "36氪",
-      "category": "产品量产",
-      "summary": "6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。 智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青表示，15000台量产下线印证了智元规模化量产到达新高度，也标志着中国人形机器人产业迈上了大规模真实场景应用。量产不是目的，只是一个过程，通过规模化量产让机器人在各行各业快速部署，在真实物理世界交互过程中去获取数据，通过数据飞轮让产品变得…",
-      "url": "https://36kr.com/newsflashes/3872498969252864?f=rss"
     }
   ]
 }
