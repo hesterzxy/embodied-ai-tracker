@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T22:08:13.743449+08:00",
+  "updated": "2026-07-04T03:25:49.308699+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 12,
+      "entries": 17,
+      "candidates": 13,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -66,7 +66,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "InfoQ",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 17,
+      "entries": 58,
+      "candidates": 14,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -161,14 +161,15 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 15,
+      "candidates": 15,
+      "core": 7,
+      "periphery": 1,
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,7 +192,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 8,
       "core": 2,
       "periphery": 0,
       "new": 0
@@ -231,50 +232,38 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 20,
+      "core": 21,
       "periphery": 11,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-03T22:08:54.890355+08:00",
-    "mode": "local",
+    "generated_at": "2026-07-04T03:26:10.260093+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，2026年，人形机器人正在跨过三道门槛：从动作展示走向自主作业，从样机交付走向批量制造，从融资故事走向真实订单；6月30日，优必选在深圳举办2026年度全球发布会，发布面向下一个十年的“人机共生”战略，并发布全尺寸超仿生人形机器人优世界U1系列，包括半身版U1 Lite、高配全身版U1 Pro及高动态全身版U1 Ultra三款产品。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html",
-          "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html",
-          "https://www.tmtpost.com/8047045.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周订单和产品线索更多落在工厂、能源施工、喷涂、质检、家务整理等任务上，Built Robotics获得7500万美元太阳能施工合同，特斯拉用车载麦克风做工厂异响检测，Hirebotics推出工业喷涂协作机器人，具身智能的商业叙事正在从动作展示转向能交付、能验收的作业环节。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，很多人发现，在模拟环境里表现优异的机器人，一旦进入真实工厂，往往立刻失灵；眼下具身赛道都在卷世界模型，都在抢着做机器人的“大脑”。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/441490.html",
-          "https://www.qbitai.com/2026/07/442138.html",
-          "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article"
-        ]
+        "label": "世界模型回到行动闭环",
+        "text": "多篇技术讨论把世界模型的评价标准从视觉逼真转向做对动作、避开风险和降低长期部署成本，并指出仿真表现优异的机器人进入真实工厂后可能失灵，模型竞争正在被真实数据、任务反馈和部署成本重新约束。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，本轮由上海众合创投独家投资，探针资本担任财务顾问，资金将主要用于扩充团队研发 生成式高斯基模 、开拓高斯泼溅中国内容社群的海外影响力；形成了巧妙的互文： Physical AI（物理AI）的场景。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/robot/f6tUYpkNfttVSBf3.html",
-          "https://36kr.com/p/3877109751803904?f=rss",
-          "https://www.tmtpost.com/8051824.html"
-        ]
+        "label": "资本偏向场景与短板",
+        "text": "融资覆盖基础模型、核心部件和垂直应用，知天下完成天使轮融资，清华系初创获数亿元种子轮，触觉电子皮肤项目融资用于中试产线和产品迭代，谐波减速器企业披露约34万件订单并上市，资金更愿意绑定明确场景和能力瓶颈。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "世界模型仍是技术主线，但讨论重点从做机器人大脑扩展到任务裁判、因果泛化和行动支撑，真实工厂失效问题成为重要约束。",
         "items": [
           {
             "date": "07-03",
@@ -303,6 +292,13 @@
             "url": "https://www.ifanr.com/1670916?utm_source=rss&utm_medium=rss&utm_campaign=",
             "company": "其他",
             "source_name": "爱范儿"
+          },
+          {
+            "date": "07-03",
+            "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+            "url": "https://www.qbitai.com/2026/07/442746.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "07-02",
@@ -366,19 +362,12 @@
             "url": "https://www.qbitai.com/2026/07/441396.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "06-30",
-            "title": "英伟达在华启动机器人人才招聘，聚焦具身智能等四大方向",
-            "url": "https://www.ithome.com/0/970/732.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产叙事继续升温，优必选发布11.98万至99万元U1系列，智元在欧洲亮相并推RaaS，家用与餐饮机器人开始强调具体任务能力。",
         "items": [
           {
             "date": "07-03",
@@ -426,7 +415,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业线索从概念展示转向订单验证，Built Robotics获7500万美元合同，优必选U1首发订单破万，工厂和施工场景更具验收条件。",
         "items": [
           {
             "date": "07-02",
@@ -460,7 +449,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本热度覆盖种子轮到C轮、模型到部件和应用，宇树IPO获注册同意，世界模型和物理AI初创融资仍活跃但更强调用途边界。",
         "items": [
           {
             "date": "07-03",
@@ -529,7 +518,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "优必选发布会带动市场关注和争议，预订单与高定价并存；RoboCup、工业装配和多场景应用讨论显示行业仍在寻找真实需求。",
         "items": [
           {
             "date": "07-03",
@@ -551,6 +540,13 @@
             "url": "https://www.leiphone.com/category/industrynews/CBx8Wb28sANFCEO5.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "07-03",
+            "title": "#RoboCup2026 – 人形机器人联赛第2天 (#RoboCup2026 – humanoid league day 2)",
+            "url": "https://robohub.org/robocup2026-humanoid-league-day-2/",
+            "company": "其他",
+            "source_name": "RoboHub"
           },
           {
             "date": "07-02",
@@ -628,19 +624,12 @@
             "url": "https://www.ithome.com/0/970/584.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "06-30",
-            "title": "物理 AI 演进之路：从受控环境走向现实世界",
-            "url": "https://www.infoq.cn/article/erU6ZuSI5qowMlIGSr8i?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "供应链机会集中在触觉电子皮肤和谐波减速器等关键部件，融资用于中试和迭代，上市与订单数据强化了零部件环节的可见度。",
         "items": [
           {
             "date": "07-01",
@@ -741,6 +730,24 @@
       "category": "技术突破",
       "summary": "家里要来新成员了。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
       "url": "https://www.ifanr.com/1670916?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "四年前LeCun提出JEPA时，大概不会想到，这套架构有一天会被用来理解：一颗细胞",
+      "url": "https://www.qbitai.com/2026/07/442746.html"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "#RoboCup2026 – 人形机器人联赛第2天 (#RoboCup2026 – humanoid league day 2)",
+      "source_name": "RoboHub",
+      "category": "行业动态",
+      "summary": "The second day’s play at RoboCup 2026 has drawn to a close with another bumper set of matches. Teams have come from far and wide to take part in the humanoid soccer competition thi…",
+      "url": "https://robohub.org/robocup2026-humanoid-league-day-2/"
     },
     {
       "date": "07-02",
@@ -1092,24 +1099,6 @@
       "category": "产品量产",
       "summary": "Hirebotics, a provider of collaborative robot solutions for metal fabrication, has announced the first explosion-proof cobot solution built using its no-code Beacon platform and th…",
       "url": "https://roboticsandautomationnews.com/2026/06/30/hirebotics-launches-no-code-explosion-proof-collaborative-robot-for-industrial-painting/102933/"
-    },
-    {
-      "date": "06-30",
-      "company": "其他",
-      "title": "物理 AI 演进之路：从受控环境走向现实世界",
-      "source_name": "InfoQ",
-      "category": "行业动态",
-      "summary": "物理人工智能 (AI) 正推动机器从可预测的受控环境走向复杂多变的现实世界",
-      "url": "https://www.infoq.cn/article/erU6ZuSI5qowMlIGSr8i?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "06-30",
-      "company": "其他",
-      "title": "英伟达在华启动机器人人才招聘，聚焦具身智能等四大方向",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 6 月 30 日消息，据《每日经济新闻》从英伟达处获悉，全球 AI 芯片巨头英伟达（NVIDIA）近日在中国启动大规模机器人人才招聘计划，围绕具身智能、仿真、部署及解决方案架构四大核心方向开放多个岗位，覆盖北京、上海、深圳三地。 据报道，本次招聘中，具身智能团队岗位数量最多，共开放 6 个职位。该团队发展方向为研发下一代通用机器人系统，重点聚焦灵巧…",
-      "url": "https://www.ithome.com/0/970/732.htm"
     }
   ]
 }
