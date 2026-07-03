@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T11:22:06.129188+08:00",
+  "updated": "2026-07-03T17:21:19.659242+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 14,
-      "core": 4,
+      "entries": 16,
+      "candidates": 12,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
+      "entries": 19,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 2,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 13,
+      "entries": 60,
+      "candidates": 15,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 5,
+      "core": 6,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 1,
+      "candidates": 7,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-03T11:22:33.903776+08:00",
+    "generated_at": "2026-07-03T17:21:41.747787+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周商业线索集中在工厂、能源建设、工业集群等场景，Built Robotics获7500万美元太阳能施工合同，上海嘉定与它石智航推进千台级工业具身智能机器人集群，人形机器人叙事正从动作展示和样机交付转向可计量、可部署、可验收的作业闭环。",
+        "text": "本周订单和产品线索更多集中在工厂、能源施工、工业喷涂、餐饮服务等场景，Built Robotics获得7500万美元太阳能施工合同，Hirebotics推出工业喷涂协作机器人，人形机器人叙事正从动作展示转向可定义交付边界的任务验证。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型开始补任务闭环短板",
-        "text": "多篇技术进展围绕世界模型展开，方向从充当机器人“大脑”延伸到任务执行、检查、修正和评估，行业也反复提到仿真表现进入真实工厂后失灵的问题，模型竞争正在从概念能力转向真实数据、因果理解和闭环执行能力。",
+        "label": "世界模型评价回到行动闭环",
+        "text": "多篇技术讨论把重点从视觉逼真转向能否做对动作、避开风险和降低长期部署成本，同时提出世界模型可作为裁判参与执行、检查和修正，模拟环境到真实工厂失灵的问题推动模型叙事更贴近数据与任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本更偏向明确能力模块",
-        "text": "本周融资覆盖生成式高斯基模、Physical AI场景、机器人世界通行模型、工业具身智能和触觉电子皮肤等方向，纽娲机器人完成5000万元天使轮，视比特完成亿元级B++轮，资金更集中投向可定义场景或关键能力补齐，而非单纯追逐泛化叙事。",
+        "label": "资本热度绑定能力补齐",
+        "text": "融资覆盖种子轮到C轮、基础模型到核心部件和垂直应用，知天下、清华系初创、纽娲机器人等获得早期资金，触觉电子皮肤和谐波减速器也有融资、上市和订单进展，资金正在沿着场景定义和性能瓶颈寻找入口。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型仍是技术主线，讨论从机器人“大脑”扩展到裁判、循环执行和因果建模；特斯拉用车载麦克风做工厂异响检测，强化真实场景数据闭环。",
+        "summary": "世界模型讨论从做机器人大脑延伸到做裁判、支撑行动和风险规避，特斯拉工厂质检与循环式Agent系统显示技术验证更靠近真实部署。",
         "items": [
           {
             "date": "07-03",
@@ -271,6 +271,20 @@
             "url": "https://www.qbitai.com/2026/07/442138.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "07-03",
+            "title": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
+            "url": "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "07-03",
+            "title": "X Square Robot 构建具身智能与通用机器人的全栈方案 (X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics)",
+            "url": "https://roboticsandautomationnews.com/2026/07/03/x-square-robot-builds-a-full-stack-approach-to-embodied-ai-and-general-purpose-robotics/102954/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-02",
@@ -346,8 +360,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "智元A3在欧洲亮相并于英国推出RaaS模式，优必选U1系列定价11.98万至99万元，企业量产目标增多，但产能、价格和交付能力正被纳入验证。",
+        "summary": "Isaac 1、AGIBOT A3、影智XBOT和优必选U1系列相继发布，企业高喊量产目标的同时，价格、续航、服务模式和任务范围开始被放到台前检验。",
         "items": [
+          {
+            "date": "07-03",
+            "title": "家用机器人 Isaac 1 发布：可叠衣、收拾房间和整理床铺，满电续航 8 小时",
+            "url": "https://www.ithome.com/0/972/251.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-02",
             "title": "AGIBOT 在欧洲首次亮相 A3 人形机器人，并在英国推出机器人即服务模式 (AGIBOT debuts A3 humanoid robot in Europe and launches UK Robot-as-a-Service model)",
@@ -387,7 +408,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单线索从家庭陪伴延伸到工业和能源施工，优必选U1首发订单破万，Built Robotics获7500万美元合同，嘉定推进千台级工业具身集群落地。",
+        "summary": "订单线索覆盖工厂、人形机器人、能源施工和模型落地，Built Robotics获7500万美元合同，优必选U1首发订单破万，真实采购正在成为叙事支点。",
         "items": [
           {
             "date": "07-02",
@@ -416,20 +437,20 @@
             "url": "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html",
             "company": "优必选",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "06-29",
-            "title": "上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地",
-            "url": "https://www.robot-china.com/news/202606/29/95980.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "宇树科技科创板IPO注册获同意，多家世界模型和Physical AI相关公司完成早期融资，纽娲机器人、视比特等案例显示资本仍在押注具身核心能力。",
+        "summary": "具身智能融资从基础模型扩展到核心部件和垂直应用，宇树科创板IPO注册获同意，早期世界模型与物理AI公司仍是资本追逐重点。",
         "items": [
+          {
+            "date": "07-03",
+            "title": "投资人疯抢具身智能",
+            "url": "https://www.tmtpost.com/8051824.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "07-02",
             "title": "证监会同意宇树科技科创板 IPO 注册申请",
@@ -485,26 +506,12 @@
             "url": "https://robot.ofweek.com/2026-06/ART-8321202-8120-30692608.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "06-30",
-            "title": "X Square Robot 连续四轮融资后估值达28亿美元 (X Square Robot brings its valuation to $2.8B with four consecutive funding rounds)",
-            "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "06-29",
-            "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
-            "url": "https://36kr.com/p/3868055841641476?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "优必选发布会带动家庭人形机器人讨论，99万元产品引发争议但预订单达13361台；行业同时关注财报兑现、复杂装配和移动网络对物理AI的支撑。",
+        "summary": "优必选发布会引发家庭机器人价格、陪伴属性和替代劳动讨论，复杂装配、RoboCup赛事等动态则继续展示行业对真实操作能力的关注。",
         "items": [
           {
             "date": "07-03",
@@ -512,6 +519,13 @@
             "url": "https://www.tmtpost.com/8051360.html",
             "company": "优必选",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-03",
+            "title": "黄仁勋说的Physical AI，被这家中国跨界选手带进了生命科学实验室",
+            "url": "https://www.qbitai.com/2026/07/442311.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "07-02",
@@ -610,26 +624,12 @@
             "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "06-29",
-            "title": "飞阔科技联合人形机器人场景应用联盟，共同举办首届集成商百人大会",
-            "url": "https://www.robot-china.com/news/202606/29/95987.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "06-29",
-            "title": "韩国宣布在芯片、物理人工智能和人工智能数据中心方面的重大项目计划",
-            "url": "https://36kr.com/newsflashes/3873799609570564?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "触觉电子皮肤企业获千万级天使轮并计划建设中试产线，谐波减速器企业上市且订单约34万件，供应链机会更依赖触觉、减速器等性能瓶颈。",
+        "summary": "触觉电子皮肤获千万级天使轮用于中试产线和产品迭代，谐波减速器企业上市并披露约34万件订单，零部件机会更贴近量产瓶颈。",
         "items": [
           {
             "date": "07-01",
@@ -667,6 +667,51 @@
       "category": "行业动态",
       "summary": "2026年6月30日，一台最高标价99万、被网友嘲“硅胶娃娃加豆包”的机器人，当天拉动优必选股价一度暴涨17%。 吐槽声几乎要掀翻屋顶，但13361台预订单砸出了超四千万的定金。 这个备受争议的人形机器人系列叫“优世界U1”，会议现场放出了三个版本： 半身Lite版11.98万，全身Pro版16.98万，能走路的Ultra版男款99万、女款88万。 可坐在台…",
       "url": "https://www.tmtpost.com/8051360.html"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "黄仁勋说的Physical AI，被这家中国跨界选手带进了生命科学实验室",
+      "source_name": "量子位",
+      "category": "行业动态",
+      "summary": "第三方测评超越OpenAI最强旗舰GPT-5.6 Sol",
+      "url": "https://www.qbitai.com/2026/07/442311.html"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "投资人疯抢具身智能",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "在近一周的时间内，德塔智能、擎羽科技、源策未来、自变量机器人、智平方、无界动力、智澄AI、欧拉万象、纬钛机器人、具微科技、临界点AGILINK、深度机智等超15家公司密集宣布完成新一轮融资。 轮次从种子轮到C轮，从基础模型到核心部件到垂直应用，几乎覆盖了产业链的每一个关键环节。 融资金额本身就是信号。自变量机器人两个月内累计融资超40亿元，智平方C轮融资近5…",
+      "url": "https://www.tmtpost.com/8051824.html"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "具身世界模型不应以视觉逼真度为唯一标尺，而应以“能否帮机器人做对动作、避开风险、降低长期部署成本”为重要评判标准",
+      "url": "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "家用机器人 Isaac 1 发布：可叠衣、收拾房间和整理床铺，满电续航 8 小时",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 3 日消息，科技媒体 newatlas 昨日（7 月 2 日）发布博文，报道称美国机器人公司 Weave Robotics 推出家庭机器人 Isaac 1， 可完成洗衣折叠、收拾房间及整理床铺三类家务。 外观方面，Isaac 1 机身搭载电动底座，可在居室内移动，拥有一双类似《大白！》（Baymax! ）电视剧中大白的眼镜，伸缩臂可以根据家…",
+      "url": "https://www.ithome.com/0/972/251.htm"
+    },
+    {
+      "date": "07-03",
+      "company": "其他",
+      "title": "X Square Robot 构建具身智能与通用机器人的全栈方案 (X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "The rapid growth of embodied artificial intelligence is reshaping the robotics industry, with companies racing to develop machines capable of performing a wide variety of real-worl…",
+      "url": "https://roboticsandautomationnews.com/2026/07/03/x-square-robot-builds-a-full-stack-approach-to-embodied-ai-and-general-purpose-robotics/102954/"
     },
     {
       "date": "07-02",
@@ -1054,51 +1099,6 @@
       "category": "行业动态",
       "summary": "morph launched a physically intelligent soft robotics platform that designs and manufactures what it calls “soft robotic cells.” The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/soft-robotic-cells-from-morph-embed-physical-ai-into-hardware/"
-    },
-    {
-      "date": "06-30",
-      "company": "行业",
-      "title": "X Square Robot 连续四轮融资后估值达28亿美元 (X Square Robot brings its valuation to $2.8B with four consecutive funding rounds)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "X Square Robots' system combines foundation models, robotics hardware, a data pipeline system, and real-world deployments. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/x-square-robot-brings-valuation-2-8b-four-consecutive-funding-rounds/"
-    },
-    {
-      "date": "06-29",
-      "company": "行业",
-      "title": "港大教授李弘扬创业做通用全身具身大脑，获真格高榕IDG五源等数亿种子轮融资｜硬氪独家",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪独家获悉，通用全身具身大脑公司「源策未来Archon Robotics」近日完成数亿元种子轮融资，本轮投资方包括真格基金、高榕创投、IDG资本、五源资本等头部美元基金，以及戈壁创投与香港大学联名基金、奇绩创投、上海创智学院等。光源资本担任独家财务顾问。 本轮资金将主要用于全身人形基础模型研发、多模态全身动作数据采集、人才团队扩充…",
-      "url": "https://36kr.com/p/3868055841641476?f=rss"
-    },
-    {
-      "date": "06-29",
-      "company": "其他",
-      "title": "飞阔科技联合人形机器人场景应用联盟，共同举办首届集成商百人大会",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "当人形机器人进入2026年的产业拐点，一个看似乐观的信号正在出现：机器越来越“像人”了。它们能走、能跑、能对话，甚至能完成复杂动作编排与舞台级展示。但在真实商业场景里，一个更尖锐的问题正在显现：为什么大多数机器人，依然停留在“展示”，而不是“运营”？在文旅展厅、商业门店、教育科研乃至工业试点中，机器人并不稀缺，但真正能够持续运行、持续产生价值、持续被复用的系…",
-      "url": "https://www.robot-china.com/news/202606/29/95987.html"
-    },
-    {
-      "date": "06-29",
-      "company": "其他",
-      "title": "上海嘉定携手它石智航，推动千台级工业具身智能机器人集群落地",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "2026年6月26日，立足上海人工智能与先进制造双轮驱动战略布局，上海嘉定区与它石智航旗下全资产业化主体——上海它石未来机器人有限公司签署合作协议。嘉定区副区长刘嘉峰，它石智航联合创始人陈同庆，安波福连接器系统亚太区运营总监徐晓莹等出席签约仪式。本次合作，双方将依托嘉定深厚智造生态，推动落地全国首个千台级工业具身智能机器人集群和规模化部署，并以嘉定为核心产业…",
-      "url": "https://www.robot-china.com/news/202606/29/95980.html"
-    },
-    {
-      "date": "06-29",
-      "company": "其他",
-      "title": "韩国宣布在芯片、物理人工智能和人工智能数据中心方面的重大项目计划",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "（财联社）",
-      "url": "https://36kr.com/newsflashes/3873799609570564?f=rss"
     }
   ]
 }
