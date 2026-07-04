@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T21:29:10.225574+08:00",
+  "updated": "2026-07-05T03:16:29.522547+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 15,
-      "core": 4,
+      "entries": 60,
+      "candidates": 13,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 6,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-04T21:29:27.540667+08:00",
+    "generated_at": "2026-07-05T03:16:45.718898+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
