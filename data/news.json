@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T21:43:40.107887+08:00",
+  "updated": "2026-07-06T03:20:33.106754+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -32,14 +32,15 @@
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "RemoteDisconnected: Remote end closed connection without response",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 17,
+      "candidates": 13,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -88,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -129,7 +130,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +169,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 7
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -236,418 +237,7 @@
       "new": 0
     }
   ],
-  "weekly_report": {
-    "start": "06-29",
-    "end": "07-05",
-    "generated_at": "2026-07-05T21:44:19.851828+08:00",
-    "mode": "aicodewith",
-    "item_count": 50,
-    "insights": [
-      {
-        "label": "落地从展示转向可验收任务",
-        "text": "人形机器人本周的落地叙事更多指向工厂、维修、巡检等可验收任务，优必选U1系列发布后获得高关注并出现订单排到2027年的报道，但同时伴随实机表现落差讨论，产业验证重心正从动作演示转向能否稳定交付和完成真实作业。",
-        "evidence_urls": []
-      },
-      {
-        "label": "世界模型开始进入闭环验证",
-        "text": "世界模型不再只被描述为机器人大脑，相关新闻同时提到仿真到真实工厂容易失灵、世界模型可作为裁判评估行为，以及AdaJEPA通过测试时自适应持续学习，模型价值正在被放到真实数据、环境交互和任务评估中检验。",
-        "evidence_urls": []
-      },
-      {
-        "label": "融资偏向场景和短板补齐",
-        "text": "数亿元级融资集中投向物理原生基座模型、餐饮机器人和机器人记忆系统，触觉电子皮肤项目则将资金用于中试产线和产品迭代，资本关注点更贴近可定义应用场景以及感知、记忆、模型等能力缺口。",
-        "evidence_urls": []
-      }
-    ],
-    "groups": [
-      {
-        "category": "技术突破",
-        "summary": "技术侧围绕世界模型、持续学习和灵巧操作继续推进，AdaJEPA、强化学习灵巧性等成果受关注，但多条信息仍指向真实工厂泛化不足和大模型成熟度限制。",
-        "items": [
-          {
-            "date": "07-05",
-            "title": "李飞飞、Jim Fan、徐丹飞联手，给具身智能指了一条新路",
-            "url": "https://www.tmtpost.com/8051935.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-05",
-            "title": "刚刚，LeCun团队让世界模型学会持续学习！",
-            "url": "https://www.qbitai.com/2026/07/442964.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-05",
-            "title": "99万换情绪价值？优必选C端首秀仿生机器人, 具身智能赛道加速分化",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693246.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-05",
-            "title": "国家税务总局：今年前 5 个月我国具身智能企业销售收入同比增长 22.4%",
-            "url": "https://www.ithome.com/0/972/820.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-05",
-            "title": "Humanoid称KinetIQ Ascend强化学习接近人类级灵巧性 (Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity)",
-            "url": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-04",
-            "title": "宇树科技陈立谈具身智能的“ChatGPT 时刻”：需达成两个 80%",
-            "url": "https://www.ithome.com/0/972/540.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-04",
-            "title": "宇树科技陈立：机器人目前没有大面积应用，主要原因是具身智能大模型不成熟",
-            "url": "https://www.ithome.com/0/972/522.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-03",
-            "title": "世界模型的新用途：不做选手，去当裁判",
-            "url": "https://www.qbitai.com/2026/07/442138.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-03",
-            "title": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
-            "url": "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          },
-          {
-            "date": "07-03",
-            "title": "X Square Robot 构建具身智能与通用机器人的全栈方案 (X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics)",
-            "url": "https://roboticsandautomationnews.com/2026/07/03/x-square-robot-builds-a-full-stack-approach-to-embodied-ai-and-general-purpose-robotics/102954/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-03",
-            "title": "对话乐享科技 CEO 郭人杰：具身智能有希望诞生苹果级别的公司，我们有机会成为这家丨多样性公司",
-            "url": "https://www.ifanr.com/1670916?utm_source=rss&utm_medium=rss&utm_campaign=",
-            "company": "其他",
-            "source_name": "爱范儿"
-          },
-          {
-            "date": "07-03",
-            "title": "从LLM到JEPA，中国团队正在把“世界模型”搬进细胞内部",
-            "url": "https://www.qbitai.com/2026/07/442746.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-02",
-            "title": "训练世界模型，开始从人类的肌肉和脑子里偷师了",
-            "url": "https://www.qbitai.com/2026/07/441725.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-02",
-            "title": "世界模型来了因果技术标杆！具身大脑真要长脑子了",
-            "url": "https://www.qbitai.com/2026/07/441490.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-02",
-            "title": "AI 技术用于工厂质检：特斯拉车间靠车载麦克风自动检测车辆异响",
-            "url": "https://www.ithome.com/0/971/587.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-01",
-            "title": "Loop世界模型论文登顶Hugging Face，来自中国一家初创，周鸿祎陆奇都投了",
-            "url": "https://www.qbitai.com/2026/07/441225.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-01",
-            "title": "大湾区首个200亿具身大脑来了！自变量两个月连融四轮，完成交割",
-            "url": "https://www.qbitai.com/2026/07/441140.html",
-            "company": "其他",
-            "source_name": "量子位"
-          }
-        ]
-      },
-      {
-        "category": "产品量产",
-        "summary": "量产新闻覆盖优必选U1、MG 07首车下线、家用机器人Isaac 1、AGIBOT欧洲亮相和影智餐饮机器人，价格、续航、RaaS和订单周期成为产品验证的一部分。",
-        "items": [
-          {
-            "date": "07-04",
-            "title": "订单排到2027年，谁在支撑人形机器人的“量产元年”？",
-            "url": "https://www.tmtpost.com/8052511.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-04",
-            "title": "上汽名爵 MG 07 首台量产车下线：预计 15 万-20 万元区间，首搭 Momenta R7 世界模型",
-            "url": "https://www.ithome.com/0/972/558.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-04",
-            "title": "特斯拉北美推出“夏日系列”周边，车载冰箱、充气床垫等",
-            "url": "https://www.ithome.com/0/972/677.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-03",
-            "title": "家用机器人 Isaac 1 发布：可叠衣、收拾房间和整理床铺，满电续航 8 小时",
-            "url": "https://www.ithome.com/0/972/251.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-03",
-            "title": "人形机器人企业高喊的量产目标，或许是个伪命题",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693170.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-02",
-            "title": "AGIBOT 在欧洲首次亮相 A3 人形机器人，并在英国推出机器人即服务模式 (AGIBOT debuts A3 humanoid robot in Europe and launches UK Robot-as-a-Service model)",
-            "url": "https://roboticsandautomationnews.com/2026/07/02/agibot-debuts-a3-humanoid-robot-in-europe-and-launches-uk-robot-as-a-service-model/103018/",
-            "company": "智元机器人",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-02",
-            "title": "影智XBOT发布通用餐饮服务机器人矩阵与“一脑多形”具身智能体系",
-            "url": "https://www.leiphone.com/category/industrynews/bn6JrENVQGf1G9tU.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          }
-        ]
-      },
-      {
-        "category": "商业订单",
-        "summary": "商业化线索从样机展示转向合同和预订单，Built Robotics获得7500万美元太阳能施工合同，优必选U1首发订单破万，工厂订单成为人形机器人叙事重点。",
-        "items": [
-          {
-            "date": "07-02",
-            "title": "从模型到工厂订单: 2026人形机器人产业链全景",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-02",
-            "title": "Blattner 授予 Built Robotics 7500 万美元合同，用物理 AI 助力满足能源需求 (Blattner awards Built Robotics $75M contract for physical AI to help meet energy demand)",
-            "url": "https://www.therobotreport.com/blattner-awards-built-robotics-75m-contract-meet-energy-demands/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-01",
-            "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
-            "url": "https://www.leiphone.com/category/industrynews/K3uywJRUmXoxm8YX.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-01",
-            "title": "以情感大模型重新定义人形机器人家庭场景，优必选超仿生机器人首发订单破万",
-            "url": "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html",
-            "company": "优必选",
-            "source_name": "雷峰网"
-          }
-        ]
-      },
-      {
-        "category": "资本动态",
-        "summary": "资本动态延续高热度，忆生科技、光象科技、影智XBOT等完成数亿元融资，宇树科技科创板IPO注册获同意，资金投向覆盖模型、记忆、餐饮应用和核心部件。",
-        "items": [
-          {
-            "date": "07-05",
-            "title": "硬氪首发 | 港大教授成立的忆生科技获数亿天使轮融资，致力于为机器人造一套记忆系统",
-            "url": "https://36kr.com/p/3882365879005186?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-05",
-            "title": "硬氪首发 | 清华车辆学院师兄弟创业具身智能，已完成数亿元天使融资，将落地汽车产业",
-            "url": "https://36kr.com/p/3882364132077577?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-05",
-            "title": "硬氪首发 | 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过",
-            "url": "https://36kr.com/p/3882361033322755?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-04",
-            "title": "具身智能公司光象科技累计完成数亿元天使轮融资",
-            "url": "https://36kr.com/newsflashes/3881013448683785?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-03",
-            "title": "投资人疯抢具身智能",
-            "url": "https://www.tmtpost.com/8051824.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-03",
-            "title": "Tesollo，机器人手专业企业，启动IPO进程……选定KB证券为主承销商",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8460-30693219.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-02",
-            "title": "证监会同意宇树科技科创板 IPO 注册申请",
-            "url": "https://www.ithome.com/0/971/790.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-01",
-            "title": "为什么监管成了Robotaxi估值兑现的最大变量？",
-            "url": "https://www.tmtpost.com/8047662.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          }
-        ]
-      },
-      {
-        "category": "行业动态",
-        "summary": "行业讨论一边关注优必选U1高价、预订和实机落差，一边出现情感陪伴机器人规范倡议、特斯拉Robotaxi扩区及上游自主可控表态，热度与约束并存。",
-        "items": [
-          {
-            "date": "07-05",
-            "title": "最高99万！优必选机器人卖爆，但实机有落差",
-            "url": "https://www.tmtpost.com/8053041.html",
-            "company": "优必选",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-05",
-            "title": "贝斯特：人形机器人业务仍处样品阶段",
-            "url": "https://36kr.com/newsflashes/3882472808787977?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-04",
-            "title": "规范引导情感陪伴人形机器人健康发展 两协会联合倡议",
-            "url": "https://36kr.com/newsflashes/3881009011945473?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-04",
-            "title": "宇树科技陈立：关节电机上游只有铜线、磁铁等原材料供应商，完全自主可控",
-            "url": "https://www.ithome.com/0/972/625.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-04",
-            "title": "特斯拉 Robotaxi 服务进军美国迈阿密，车内无安全员",
-            "url": "https://www.ithome.com/0/972/678.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-03",
-            "title": "99万的优必选机器人被嘲“硅胶娃娃”，为啥仍有1.3万人下单？",
-            "url": "https://www.tmtpost.com/8051360.html",
-            "company": "优必选",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-03",
-            "title": "黄仁勋说的Physical AI，被这家中国跨界选手带进了生命科学实验室",
-            "url": "https://www.qbitai.com/2026/07/442311.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-03",
-            "title": "场景至上，实效为王：NAVIAI 人形机器人多领域应用场景领跑！",
-            "url": "https://www.leiphone.com/category/industrynews/CBx8Wb28sANFCEO5.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-03",
-            "title": "#RoboCup2026 – 人形机器人联赛第2天 (#RoboCup2026 – humanoid league day 2)",
-            "url": "https://robohub.org/robocup2026-humanoid-league-day-2/",
-            "company": "其他",
-            "source_name": "RoboHub"
-          },
-          {
-            "date": "07-02",
-            "title": "优必选 CEO 周剑：珍惜我们作为牛马的最后光阴，可能 20 年后都是机器人干活",
-            "url": "https://www.ithome.com/0/971/428.htm",
-            "company": "优必选",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-02",
-            "title": "为什么复杂装配操作应结合机器人灵巧性与机械定位 (Why you should combine robot dexterity with mechanical positioning for complex assembly operations)",
-            "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-02",
-            "title": "#RoboCup2026 – 人形机器人联赛首日 (#RoboCup2026 – humanoid league day 1)",
-            "url": "https://robohub.org/robocup2026-humanoid-league-day-1/",
-            "company": "其他",
-            "source_name": "RoboHub"
-          },
-          {
-            "date": "07-01",
-            "title": "优必选卖“机器人老婆”！没四肢的，也要卖12万",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30692748.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "产业链侧出现触觉系统融资案例，苏大教授创业项目获千万级天使轮，资金用于中试产线、核心产品迭代和团队扩充，触觉电子皮肤正从研发迈向量产准备。",
-        "items": [
-          {
-            "date": "07-01",
-            "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
-            "url": "https://36kr.com/p/3874358072710407?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          }
-        ]
-      }
-    ]
-  },
+  "weekly_report": {},
   "items": [
     {
       "date": "07-05",
