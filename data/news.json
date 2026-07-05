@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T16:55:42.697515+08:00",
+  "updated": "2026-07-05T21:43:40.107887+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -27,20 +27,19 @@
       "candidates": 10,
       "core": 4,
       "periphery": 0,
-      "new": 4
+      "new": 0
     },
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 17,
-      "candidates": 13,
-      "core": 3,
+      "fetched": false,
+      "attempts": 3,
+      "error": "RemoteDisconnected: Remote end closed connection without response",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,9 +48,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 5,
-      "core": 3,
+      "entries": 18,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
       "new": 0
     },
@@ -89,7 +88,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 10,
+      "candidates": 17,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -130,7 +129,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 5
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -240,30 +239,30 @@
   "weekly_report": {
     "start": "06-29",
     "end": "07-05",
-    "generated_at": "2026-07-05T16:56:13.085587+08:00",
+    "generated_at": "2026-07-05T21:44:19.851828+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地重心转向可验收任务",
-        "text": "本周多条证据指向人形机器人从动作展示转向工厂订单、自主作业和批量制造，优必选U1系列发布并出现大量预订，但也伴随实机落差讨论，产业验证正在更多落到工厂、维修、巡检等结果可衡量的任务，而非单次演示效果。",
+        "label": "落地从展示转向可验收任务",
+        "text": "人形机器人本周的落地叙事更多指向工厂、维修、巡检等可验收任务，优必选U1系列发布后获得高关注并出现订单排到2027年的报道，但同时伴随实机表现落差讨论，产业验证重心正从动作演示转向能否稳定交付和完成真实作业。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型开始接受任务闭环检验",
-        "text": "世界模型相关讨论从机器人大脑扩展到裁判、行动支撑和持续学习，报道同时指出模拟环境表现优异的机器人进入真实工厂后可能失灵，模型价值正在从视觉逼真或概念领先，转向能否帮助机器人做对动作、避开风险并降低长期部署成本。",
+        "label": "世界模型开始进入闭环验证",
+        "text": "世界模型不再只被描述为机器人大脑，相关新闻同时提到仿真到真实工厂容易失灵、世界模型可作为裁判评估行为，以及AdaJEPA通过测试时自适应持续学习，模型价值正在被放到真实数据、环境交互和任务评估中检验。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好场景与短板补齐",
-        "text": "本周数亿元级融资集中在物理原生基座模型、机器人记忆系统、餐饮服务机器人和世界模型企业，资金用途多指向研发迭代、商业化交付或明确行业落地，资本仍活跃，但更倾向押注可定义场景和感知、记忆、模型等能力短板。",
+        "label": "融资偏向场景和短板补齐",
+        "text": "数亿元级融资集中投向物理原生基座模型、餐饮机器人和机器人记忆系统，触觉电子皮肤项目则将资金用于中试产线和产品迭代，资本关注点更贴近可定义应用场景以及感知、记忆、模型等能力缺口。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型成为技术讨论主线，方向从持续学习、裁判机制到行动支撑延展，业内更强调真实环境适应、风险规避和部署成本，而非单纯追求仿真逼真度。",
+        "summary": "技术侧围绕世界模型、持续学习和灵巧操作继续推进，AdaJEPA、强化学习灵巧性等成果受关注，但多条信息仍指向真实工厂泛化不足和大模型成熟度限制。",
         "items": [
           {
             "date": "07-05",
@@ -285,6 +284,20 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693246.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-05",
+            "title": "国家税务总局：今年前 5 个月我国具身智能企业销售收入同比增长 22.4%",
+            "url": "https://www.ithome.com/0/972/820.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-05",
+            "title": "Humanoid称KinetIQ Ascend强化学习接近人类级灵巧性 (Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity)",
+            "url": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-04",
@@ -369,26 +382,12 @@
             "url": "https://www.qbitai.com/2026/07/441140.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-01",
-            "title": "走访 ICRA 30+中国企业，我们发现具身智能产业三大趋势 | ICRA 2026",
-            "url": "https://www.leiphone.com/category/robot/fDotgIuCGA028lZJ.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-01",
-            "title": "他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具身智能从“模仿时代”迈向“经验时代”",
-            "url": "https://www.leiphone.com/category/industrynews/LaVawKu3UpUILUSR.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "优必选U1系列、MG 07首搭Momenta R7世界模型、家用机器人Isaac 1和餐饮机器人矩阵集中发布，量产叙事升温，但订单、价格和真实交付能力同步受到检验。",
+        "summary": "量产新闻覆盖优必选U1、MG 07首车下线、家用机器人Isaac 1、AGIBOT欧洲亮相和影智餐饮机器人，价格、续航、RaaS和订单周期成为产品验证的一部分。",
         "items": [
           {
             "date": "07-04",
@@ -443,7 +442,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "工厂订单、太阳能施工7500万美元合同、优必选破万预订单和跨维智能1500多个模型落地共同显示，商业化证据开始从展示转向合同、预订和可复用场景。",
+        "summary": "商业化线索从样机展示转向合同和预订单，Built Robotics获得7500万美元太阳能施工合同，优必选U1首发订单破万，工厂订单成为人形机器人叙事重点。",
         "items": [
           {
             "date": "07-02",
@@ -477,7 +476,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "具身智能融资覆盖世界模型、物理原生基座模型、记忆系统、餐饮机器人和触觉系统，数亿元级天使轮频出，资金主要投向研发迭代、团队扩张和商业化交付。",
+        "summary": "资本动态延续高热度，忆生科技、光象科技、影智XBOT等完成数亿元融资，宇树科技科创板IPO注册获同意，资金投向覆盖模型、记忆、餐饮应用和核心部件。",
         "items": [
           {
             "date": "07-05",
@@ -515,6 +514,13 @@
             "source_name": "钛媒体"
           },
           {
+            "date": "07-03",
+            "title": "Tesollo，机器人手专业企业，启动IPO进程……选定KB证券为主承销商",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8460-30693219.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "07-02",
             "title": "证监会同意宇树科技科创板 IPO 注册申请",
             "url": "https://www.ithome.com/0/971/790.htm",
@@ -527,19 +533,12 @@
             "url": "https://www.tmtpost.com/8047662.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "07-01",
-            "title": "独家丨世界模型企业知天下完成天使轮融资，要做「中国版World Labs」",
-            "url": "https://www.leiphone.com/category/robot/f6tUYpkNfttVSBf3.html",
-            "company": "行业",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "优必选U1系列因最高99万元价格和实机表现引发热议，同时情感陪伴机器人倡议发布、Robotaxi扩区、企业澄清样品阶段，行业热度与规范压力并行。",
+        "summary": "行业讨论一边关注优必选U1高价、预订和实机落差，一边出现情感陪伴机器人规范倡议、特斯拉Robotaxi扩区及上游自主可控表态，热度与约束并存。",
         "items": [
           {
             "date": "07-05",
@@ -636,7 +635,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "触觉电子皮肤获得千万级天使融资，资金用于中试产线、产品迭代和团队扩充，供应链机会正在围绕多模态感知等具体性能瓶颈推进量产准备。",
+        "summary": "产业链侧出现触觉系统融资案例，苏大教授创业项目获千万级天使轮，资金用于中试产线、核心产品迭代和团队扩充，触觉电子皮肤正从研发迈向量产准备。",
         "items": [
           {
             "date": "07-01",
@@ -721,6 +720,24 @@
       "category": "技术突破",
       "summary": "“如果有情感链接，背后就有无限的想象。一次性收入与未来生态长期持续性的收费，可能利润会比工业人形机器人更大，我的目标就是占领这个生态。” 6月30日，“人形机器人第一股”优必选2026年度全球发布会在 人形机器人",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693246.html"
+    },
+    {
+      "date": "07-05",
+      "company": "其他",
+      "title": "国家税务总局：今年前 5 个月我国具身智能企业销售收入同比增长 22.4%",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 5 日消息，国家税务总局最新税收数据显示，今年以来，我国具身智能产业发展向好，呈现多方面亮点。 1 月-5 月，具身智能产业企业销售收入 在 2025 年全年增长 13.9% 的基础上 实现 22.4% 的较快增速 ，工业企业购进具身智能机器人总金额同比增长 2.3 倍。 具身智能产业对下游软件和信息技术服务业、科学研究和技术服务业的销售收…",
+      "url": "https://www.ithome.com/0/972/820.htm"
+    },
+    {
+      "date": "07-05",
+      "company": "其他",
+      "title": "Humanoid称KinetIQ Ascend强化学习接近人类级灵巧性 (Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity)",
+      "source_name": "The Robot Report",
+      "category": "技术突破",
+      "summary": "Humanoid says its KinetIQ Ascend approach can reach 99.9% manipulation reliability at human speed and beyond for industrial tasks. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/"
     },
     {
       "date": "07-04",
@@ -912,6 +929,15 @@
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693170.html"
     },
     {
+      "date": "07-03",
+      "company": "行业",
+      "title": "Tesollo，机器人手专业企业，启动IPO进程……选定KB证券为主承销商",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "KB证券被选定为主承销商；完成B轮融资……目标于2027年以后通过技术特例上市 [照片1] Tesollo DG-5F机器人手 韩国机器人手专业企业Tesollo已正式启动通过韩国技术特例上市制度进行",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8460-30693219.html"
+    },
+    {
       "date": "07-02",
       "company": "优必选",
       "title": "优必选 CEO 周剑：珍惜我们作为牛马的最后光阴，可能 20 年后都是机器人干活",
@@ -1072,33 +1098,6 @@
       "category": "技术突破",
       "summary": "刚刚，据可靠消息： 自变量 连续完成4轮融资，投后估值突破 200亿元 ，并且完成资本交割、融资款全部到账。 这使得自变量，成为大湾区首家、也是唯一一家，估值超过200亿元的具身大脑公司。 自4月下旬发布会上宣布完成由小米战投领投的B轮融资后，仅仅两个多月，自变量又连续完成B+、B++和C轮融资。 客观来说，在具身智能赛道，宣布融资早已不算新闻；真正少见的是…",
       "url": "https://www.qbitai.com/2026/07/441140.html"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "走访 ICRA 30+中国企业，我们发现具身智能产业三大趋势 | ICRA 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "「机器人的未来在中国。」 作者丨向欣 张贤 编辑丨高景辉 6月5日，ICRA 2026在维也纳落幕。 作为机器人领域最具影响力的的国际会议之一，ICRA是一扇透视具身智能行业走向的绝佳窗口。6月1日，雷峰网·AI科技 抵达音乐之都维也纳，全程参与了这场为期5天的盛会。 在现场我们看到，今年中国参展的具身智能企业数量众多，技术成果丰富。不少团队带来了新的机器人…",
-      "url": "https://www.leiphone.com/category/robot/fDotgIuCGA028lZJ.html"
-    },
-    {
-      "date": "07-01",
-      "company": "行业",
-      "title": "独家丨世界模型企业知天下完成天使轮融资，要做「中国版World Labs」",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "summary": "通向世界模型之路：生成式3DGS基模。 作者丨向 欣 编辑丨高景辉 AI科技 独家获悉， 空间智能与世界模型初创公司知天下 （苏州）人工智能科技有限公司（以下简称“知天下”）近日已完成 天使轮 融资。 本轮由上海众合创投独家投资，探针资本担任财务顾问，资金将主要用于扩充团队研发 生成式高斯基模 、开拓高斯泼溅中国内容社群的海外影响力。 知天下是一家专注于 高…",
-      "url": "https://www.leiphone.com/category/robot/f6tUYpkNfttVSBf3.html"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "他山科技联合图灵奖得主萨顿共建“机器人幼儿园”，具身智能从“模仿时代”迈向“经验时代”",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "雷峰网获悉，6月29日，“触碰真实·自主进化——机器人幼儿园启幕大会”在北京首钢园隆重举行。本次大会由他山科技与OpenMind Global Research共同发起，由北京具身智能研究院联合主办。大会上，由他山科技与2024年图灵奖得主、Openmind 全球研究院首席科学家理查德·萨顿（Richard Sutton）教授团队联合共建的“机器人幼儿园”正…",
-      "url": "https://www.leiphone.com/category/industrynews/LaVawKu3UpUILUSR.html"
     }
   ]
 }
