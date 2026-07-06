@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T23:37:06.763744+08:00",
+  "updated": "2026-07-07T04:00:12.043703+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -40,7 +40,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 22,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -161,15 +161,14 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 15,
-      "candidates": 15,
-      "core": 6,
-      "periphery": 1,
-      "new": 6
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -219,9 +218,9 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 27,
-      "periphery": 2,
-      "new": 1
+      "core": 28,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -240,30 +239,42 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-06T23:37:23.153532+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-07-07T04:00:13.155212+08:00",
+    "mode": "local",
     "item_count": 19,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周量产和部署线索集中在物流、移动搬运和公共劳动力缺口场景，海康机器人移动机器人累计下线突破20万台，佑驾创新发布四轮足机器人及全链路无人物流闭环方案，日本经产省提出到2040年在18个领域部署1000万台AI机器人，具身智能的短期验证更依赖工厂、配送、巡检等边界清晰且可计量的任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，2026年7月6日，随着一台叉取机器人走下产线，海康机器人正式宣布，其移动机器人全品类累计下线突破20万台；日本经济产业省当地时间 6 月 30 日公布了《人工智能机器人战略》修订版， 目标到 2040 年在 18 个领域部署 1000 万台 AI 机器人 ，以在人口老龄化、出生率持续低下的背景下应对整体劳动力短缺。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/robot/V0sjtRJAoZdt3K8y.html",
+          "https://www.ithome.com/0/972/895.htm",
+          "https://36kr.com/newsflashes/3883577662877698?f=rss"
+        ]
       },
       {
-        "label": "模型竞争开始绑定真实闭环",
-        "text": "世界模型仍是技术主线之一，上汽名爵MG 07将首搭Momenta R7世界模型并于7月29日预售，蔚来向超70万蔚来和乐道用户推送世界模型OTA，同时业内继续讨论生成式世界模型能否用于机器人控制及其反应速度问题，模型叙事正在从概念热度转向车端用户、控制效率和任务闭环的验证。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，上汽 MG 今日宣布， 上汽名爵 MG 07 将在 7 月 29 日开启预售 ，新车定位“年轻人的智能纯血轿跑”；2025年，世界模型从学术概念走向产业风口。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/972/930.htm",
+          "https://www.qbitai.com/2026/07/443522.html",
+          "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI?utm_source=rss&utm_medium=article"
+        ]
       },
       {
-        "label": "资本偏向能力补齐与交付确定性",
-        "text": "光象科技完成数亿元融资并将资金投向物理原生基座模型迭代和机器人商业化交付，墨奇智能成立半年完成超10亿元天使轮系列融资且估值超70亿元，宇树科技科创板IPO注册生效，资金仍在进入具身智能，但更集中于底层模型、整机能力和上市通道等可定义环节。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，据悉，本轮资金将重点投入物理原生基座模型的研发迭代，并推进具身智能机器人产品的商业化交付；近日，具身智能企业墨奇智能（Morphi）正式宣布完成超10亿元天使轮系列融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.infoq.cn/article/m4QJlWAyRq7Fp4yQImp9?utm_source=rss&utm_medium=article",
+          "https://www.leiphone.com/category/industrynews/P6qnUcERGBlK5wJZ.html",
+          "https://www.ithome.com/0/973/235.htm"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型从产业讨论延伸到车端预售和OTA，上汽MG 07首搭Momenta R7，蔚来向超70万用户推送更新；RoboCup冠军和机器人控制讨论补充了技术验证维度。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "07-06",
@@ -304,7 +315,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产线索覆盖移动机器人、四轮足机器人、人形机器人和边缘物理AI芯片，海康机器人累计下线突破20万台，佑驾创新发布Combo方案，TAI芯片目标2027年量产。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-06",
@@ -352,7 +363,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "本周明确商业部署信息较少，日本经产省提出到2040年在18个领域部署1000万台AI机器人，需求背景来自老龄化、低出生率和整体劳动力短缺。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "07-06",
@@ -365,7 +376,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "光象科技获数亿元融资用于物理原生基座模型和商业化交付，墨奇智能完成超10亿元天使轮融资，宇树科技IPO注册生效，资本继续押注模型、整机与头部公司。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-06",
@@ -392,7 +403,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业关注点延伸至上游零部件、物理AI底层基建和机器人赛事，宇树相关报道强调零部件成本占比，北大系团队入局底层基建，RoboCup提供竞技验证场。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "07-06",
@@ -419,7 +430,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链讨论聚焦触觉与多感官融合瓶颈，相关研究联盟关注如何修复感知融合对机器人进展的限制，供应链机会更适合围绕具体性能短板展开。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "07-06",
@@ -776,6 +787,15 @@
       "url": "https://www.ithome.com/0/972/677.htm"
     },
     {
+      "date": "07-04",
+      "company": "其他",
+      "title": "Japan Pioneered Humanoid Robots—Can It Now Catch China?",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "summary": "“In the future, the relationship between humans and robots will deepen, and the distinction between them will probably disappear.” This prediction, from one of the attendees at the…",
+      "url": "https://spectrum.ieee.org/humanoid-robots-japan"
+    },
+    {
       "date": "07-03",
       "company": "其他",
       "title": "世界模型的新用途：不做选手，去当裁判",
@@ -873,15 +893,6 @@
       "category": "行业动态",
       "summary": "The second day’s play at RoboCup 2026 has drawn to a close with another bumper set of matches. Teams have come from far and wide to take part in the humanoid soccer competition thi…",
       "url": "https://robohub.org/robocup2026-humanoid-league-day-2/"
-    },
-    {
-      "date": "07-03",
-      "company": "其他",
-      "title": "人形机器人企业高喊的量产目标，或许是个伪命题",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "人形机器人“身价”暴跌，但普通人依然不感冒。 ?TMT星球原创 · 作者｜黄燕华 2026年的夏天，比天气更热的是人形机器人赛道。 从年初到年中，宇树、松延动力、智元等机器人企业相继宣布量产目标；特斯",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693170.html"
     }
   ]
 }
