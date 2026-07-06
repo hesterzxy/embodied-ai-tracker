@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T03:20:33.106754+08:00",
+  "updated": "2026-07-06T11:38:53.797503+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 10,
+      "entries": 29,
+      "candidates": 11,
       "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -51,7 +51,7 @@
       "error": "",
       "entries": 18,
       "candidates": 3,
-      "core": 2,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -63,10 +63,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 3,
-      "core": 3,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 19,
-      "core": 1,
+      "entries": 58,
+      "candidates": 21,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -114,8 +114,8 @@
       "attempts": 1,
       "error": "",
       "entries": 29,
-      "candidates": 4,
-      "core": 4,
+      "candidates": 6,
+      "core": 5,
       "periphery": 0,
       "new": 0
     },
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 10,
       "periphery": 0,
-      "new": 3
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -237,8 +237,170 @@
       "new": 0
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "07-06",
+    "end": "07-12",
+    "generated_at": "2026-07-06T11:39:33.779783+08:00",
+    "mode": "aicodewith",
+    "item_count": 7,
+    "insights": [
+      {
+        "label": "落地口径转向可交付场景",
+        "text": "日本提出到2040年在18个领域部署1000万台AI机器人，佑驾创新发布Combo全链路无人物流闭环方案并亮相四轮足机器人，特斯拉Optimus进入量产实质性落地阶段，需求验证正在更多依赖部署规模、任务闭环和量产进度等可检查指标。",
+        "evidence_urls": []
+      },
+      {
+        "label": "模型竞争开始绑定真实产品",
+        "text": "上汽名爵MG 07将于7月29日预售并首搭Momenta R7世界模型，WAIC讨论显示世界模型已从学术概念走向产业风口，光象科技数亿元融资将投向物理原生基座模型迭代和机器人商业化交付，模型路线的价值正在被产品入口和交付能力重新校准。",
+        "evidence_urls": []
+      }
+    ],
+    "groups": [
+      {
+        "category": "技术突破",
+        "summary": "世界模型继续升温，上汽名爵MG 07计划首搭Momenta R7并开启预售，WAIC讨论也显示该路线已从学术概念进入产业议题。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "征程赶超｜WAIC 2026世界模型激辩：答案不在VLA或世界模型，而在？",
+            "url": "https://www.qbitai.com/2026/07/443522.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-06",
+            "title": "上汽名爵 MG 07 官宣 7 月 29 日预售：首搭 Momenta R7 世界模型，定位“年轻人的智能纯血轿跑”",
+            "url": "https://www.ithome.com/0/972/930.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "产品量产",
+        "summary": "佑驾创新发布Combo无人物流闭环方案并亮相四轮足机器人，特斯拉Optimus进入量产实质阶段，量产进度成为能力验证的一部分。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "佑驾创新正式发布四轮足机器人",
+            "url": "https://36kr.com/newsflashes/3883577662877698?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-06",
+            "title": "不再画饼! 特斯拉机器人正式量产，万亿T链行情才刚刚开始",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321202-8460-30693301.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "商业订单",
+        "summary": "日本经济产业省修订人工智能机器人战略，提出到2040年在18个领域部署1000万台AI机器人，用于应对老龄化和低出生率带来的劳动力短缺。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "日本目标到 2040 年部署 1000 万台 AI 机器人，应对整体劳动力短缺",
+            "url": "https://www.ithome.com/0/972/895.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "光象科技完成数亿元融资，资金将用于物理原生基座模型研发迭代，并推进具身智能机器人产品商业化交付。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "数亿元融资落地！光象科技自研物理原生基座模型，跳出 VLA 与世界模型路线",
+            "url": "https://www.infoq.cn/article/m4QJlWAyRq7Fp4yQImp9?utm_source=rss&utm_medium=article",
+            "company": "行业",
+            "source_name": "InfoQ"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "宇树科技被报道为成长最快、盈利最强的十家企业之一，同时上游零部件占整机BOM成本70%以上，零部件价值受到关注。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "宇树机器人，成长最快+盈利最强的10家企业",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693331.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "征程赶超｜WAIC 2026世界模型激辩：答案不在VLA或世界模型，而在？",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "2025年，世界模型从学术概念走向产业风口。2026年，它被学界视为实现AGI的关键拼图，也被产业界看作突破具身智能泛化瓶颈的核心技术。 “AI教母”李飞飞 将其拆解为渲染器、模拟器、规划器三大类别，直言这是当今AI领域最重要也最被滥用的术语之一。 但行业仍未收敛——以语言为中心的VLA、以像素为中心的视频生成、以3D结构为中心的仿真、以视觉表征为中心的JE…",
+      "url": "https://www.qbitai.com/2026/07/443522.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "佑驾创新正式发布四轮足机器人",
+      "source_name": "36氪",
+      "category": "产品量产",
+      "summary": "36氪获悉，7月6日，佑驾创新正式发布“Combo”全链路无人物流闭环方案，由其旗下曜行动力打造的四轮足式机器人同步亮相",
+      "url": "https://36kr.com/newsflashes/3883577662877698?f=rss"
+    },
+    {
+      "date": "07-06",
+      "company": "行业",
+      "title": "数亿元融资落地！光象科技自研物理原生基座模型，跳出 VLA 与世界模型路线",
+      "source_name": "InfoQ",
+      "category": "资本动态",
+      "summary": "据悉，本轮资金将重点投入物理原生基座模型的研发迭代，并推进具身智能机器人产品的商业化交付",
+      "url": "https://www.infoq.cn/article/m4QJlWAyRq7Fp4yQImp9?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "上汽名爵 MG 07 官宣 7 月 29 日预售：首搭 Momenta R7 世界模型，定位“年轻人的智能纯血轿跑”",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 6 日消息，上汽 MG 今日宣布， 上汽名爵 MG 07 将在 7 月 29 日开启预售 ，新车定位“年轻人的智能纯血轿跑”。 据介绍，新车尺寸为 4886×1900×1485mm、轴距 2825mm，前脸采用一体冲压蚌式机盖 + 曲面切割悬浮前大灯组设计，尾部采用掀背式溜背造型设计， 配备四门无框车门和五档可调电动尾翼 ，可选 19 英寸…",
+      "url": "https://www.ithome.com/0/972/930.htm"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "日本目标到 2040 年部署 1000 万台 AI 机器人，应对整体劳动力短缺",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 7 月 6 日消息，日本经济产业省当地时间 6 月 30 日公布了《人工智能机器人战略》修订版， 目标到 2040 年在 18 个领域部署 1000 万台 AI 机器人 ，以在人口老龄化、出生率持续低下的背景下应对整体劳动力短缺。 日本经产省提到，该国目标在世界范围内构建和发展能充分利用其优势的物理 AI 和机器人数据基础架构。 图源：Pexels…",
+      "url": "https://www.ithome.com/0/972/895.htm"
+    },
+    {
+      "date": "07-06",
+      "company": "宇树科技",
+      "title": "宇树机器人，成长最快+盈利最强的10家企业",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "宇树机器人产业链形成上游国产核心零部件供给、中游宇树全栈自研整机集成、下游多场景商业化落地的完整闭环。 上游零部件占据整机BOM成本70%以上，是价值与技术核心，细分包含传动动力、感知传感、算力电子、 零部件 | <",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693331.html"
+    },
+    {
+      "date": "07-06",
+      "company": "特斯拉",
+      "title": "不再画饼! 特斯拉机器人正式量产，万亿T链行情才刚刚开始",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "多次跳票、舆论争议缠身，特斯拉Optimus终于迈入量产实质性落地阶段。A股T链板块强势爆发，表层是资金情绪驱动，底层则是人形机器人产业从概念周期迈向工程落地周期的拐点信号。依托成本、工艺、规模化配套",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321202-8460-30693301.html"
+    },
     {
       "date": "07-05",
       "company": "优必选",
@@ -625,69 +787,6 @@
       "category": "行业动态",
       "summary": "Image credit: RoboCup Federation. RoboCup 2026 kicked off today in Incheon, South Korea, with the league competitions running until 5 July. It’s an exciting time for RoboCup, as th…",
       "url": "https://robohub.org/robocup2026-humanoid-league-day-1/"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "从WorldArena榜首到1500+模型落地：跨维智能证明世界模型不是Demo是生意",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "AI科技 获悉，跨维智能近日已完成B轮融资，融资金额10亿元人民币，投后估值超过百亿，成功跻身具身智能独角兽行列，踏入IPO的门槛。 这轮融资的投资方横跨几类资本：国家级母基金、头部国资创投、实体龙头产业资本和地方科创平台。深创投、贵阳数字经济基金是连续两轮下注；前海母基金、蓝思科技、工银资本、恒健资产、诸瑞资本这轮新进入；南山战新投、成都科创投、四川院士基…",
-      "url": "https://www.leiphone.com/category/industrynews/K3uywJRUmXoxm8YX.html"
-    },
-    {
-      "date": "07-01",
-      "company": "行业",
-      "title": "苏大教授创业做机器人触觉系统，获松禾资本千万级天使轮融资｜硬氪首发",
-      "source_name": "36氪",
-      "category": "泛具身产业链",
-      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，感知纪元科技有限公司（以下简称“感知纪元”）近日完成千万级天使轮融资，本轮由松禾资本领衔投资。融资资金将主要用于中试产线搭建、核心产品迭代升级及团队扩充，加速推进多模态智能触觉电子皮肤从研发走向量产。 感知纪元成立于2025年12月，感知纪元定位于机器人触觉基础设施提供商，通过自研多模态电��皮肤、触觉感知硬件及AI算法…",
-      "url": "https://36kr.com/p/3874358072710407?f=rss"
-    },
-    {
-      "date": "07-01",
-      "company": "优必选",
-      "title": "以情感大模型重新定义人形机器人家庭场景，优必选超仿生机器人首发订单破万",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "6月30日，优必选在深圳举办2026年度全球发布会，发布面向下一个十年的“人机共生”战略，并发布全尺寸超仿生人形机器人优世界U1系列，包括半身版U1 Lite、高配全身版U1 Pro及高动态全身版U1 Ultra三款产品。其中，U1 Lite售价11.98万元；U1 Pro 16.98万元；U1 Ultra男版99万元，女版88万元。 发布会现场，优必选宣布…",
-      "url": "https://www.leiphone.com/category/robot/tQIVXjxe1BNMfJPg.html"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "为什么监管成了Robotaxi估值兑现的最大变量？",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "任何一条出现明显恶化，估值修复都会停顿；任何一条出现明显改善，市场会以较大弹性兑现。这种高Beta属性，决定了监管成为估值故事里波动最大的来源",
-      "url": "https://www.tmtpost.com/8047662.html"
-    },
-    {
-      "date": "07-01",
-      "company": "优必选",
-      "title": "优必选卖“机器人老婆”！没四肢的，也要卖12万",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "来源 | 深蓝财经 6月30日，港股人形机器人概念股优必选(09880.HK)股价波动明显。 受发布会预期影响，自上午开盘，优必选股价整体一路上行。发布会开始后，该股盘中一度上涨18.70%。 不过， 人形机器人",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30692748.html"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "Loop世界模型论文登顶Hugging Face，来自中国一家初创，周鸿祎陆奇都投了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "Prompt还没退场，Loop已经开始接管AI叙事。 这两周，硅谷开发者圈最热的词之一，是 Loop Engineering 。 它讲的是一件很“Agent时代”的事：别再手动一轮轮prompt模型了，去设计一个循环系统，让AI自己执行、检查、修正、继续跑，直到任务完成。 传统模式以prompt为核心，现在开始转向以 工作流 为核心，这也是它突然爆红的原因…",
-      "url": "https://www.qbitai.com/2026/07/441225.html"
-    },
-    {
-      "date": "07-01",
-      "company": "其他",
-      "title": "大湾区首个200亿具身大脑来了！自变量两个月连融四轮，完成交割",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "刚刚，据可靠消息： 自变量 连续完成4轮融资，投后估值突破 200亿元 ，并且完成资本交割、融资款全部到账。 这使得自变量，成为大湾区首家、也是唯一一家，估值超过200亿元的具身大脑公司。 自4月下旬发布会上宣布完成由小米战投领投的B轮融资后，仅仅两个多月，自变量又连续完成B+、B++和C轮融资。 客观来说，在具身智能赛道，宣布融资早已不算新闻；真正少见的是…",
-      "url": "https://www.qbitai.com/2026/07/441140.html"
     }
   ]
 }
