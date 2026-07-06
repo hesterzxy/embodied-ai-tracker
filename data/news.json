@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T11:38:53.797503+08:00",
+  "updated": "2026-07-06T18:25:55.306895+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 3,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 29,
-      "candidates": 11,
-      "core": 4,
+      "candidates": 8,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 13,
-      "core": 3,
+      "entries": 18,
+      "candidates": 12,
+      "core": 6,
       "periphery": 0,
-      "new": 1
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -51,9 +51,9 @@
       "error": "",
       "entries": 18,
       "candidates": 3,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -79,7 +79,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 21,
+      "entries": 59,
+      "candidates": 15,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -128,8 +128,8 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 10,
-      "periphery": 0,
+      "core": 9,
+      "periphery": 1,
       "new": 7
     },
     {
@@ -180,9 +180,9 @@
       "error": "",
       "entries": 20,
       "candidates": 8,
-      "core": 5,
+      "core": 6,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -232,33 +232,38 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 21,
+      "core": 22,
       "periphery": 11,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-06T11:39:33.779783+08:00",
+    "generated_at": "2026-07-06T18:26:18.783472+08:00",
     "mode": "aicodewith",
-    "item_count": 7,
+    "item_count": 15,
     "insights": [
       {
-        "label": "落地口径转向可交付场景",
-        "text": "日本提出到2040年在18个领域部署1000万台AI机器人，佑驾创新发布Combo全链路无人物流闭环方案并亮相四轮足机器人，特斯拉Optimus进入量产实质性落地阶段，需求验证正在更多依赖部署规模、任务闭环和量产进度等可检查指标。",
+        "label": "落地验证转向可验收任务",
+        "text": "日本经济产业省提出到2040年在18个领域部署1000万台AI机器人，特斯拉Optimus进入量产实质阶段，佑驾创新发布Combo全链路无人物流闭环方案，具身智能的竞争正在从概念展示转向能被部署规模、量产进度和任务闭环检验的交付能力。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定真实产品",
-        "text": "上汽名爵MG 07将于7月29日预售并首搭Momenta R7世界模型，WAIC讨论显示世界模型已从学术概念走向产业风口，光象科技数亿元融资将投向物理原生基座模型迭代和机器人商业化交付，模型路线的价值正在被产品入口和交付能力重新校准。",
+        "label": "模型叙事进入产品闭环",
+        "text": "世界模型在2025年从学术概念走向产业风口，上汽名爵MG 07将首搭Momenta R7世界模型并于7月29日预售，光象科技融资后继续投入物理原生基座模型和商业化交付，模型路线的价值更依赖真实产品、数据回流和任务完成度来验证。",
+        "evidence_urls": []
+      },
+      {
+        "label": "资本集中押注底层能力",
+        "text": "光象科技完成数亿元融资并投入物理原生基座模型研发，墨奇智能成立半年完成超10亿元天使轮系列融资且估值超过70亿元，资金仍在流向底层模型和具身能力平台，但后续估值支撑需要与机器人产品交付和场景落地进度匹配。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型继续升温，上汽名爵MG 07计划首搭Momenta R7并开启预售，WAIC讨论也显示该路线已从学术概念进入产业议题。",
+        "summary": "本周技术线索集中在世界模型、物理AI与机器人竞赛能力，上汽MG 07搭载Momenta R7进入预售节点，清华火神队卫冕RoboCup强化了通用底座叙事。",
         "items": [
           {
             "date": "07-06",
@@ -273,12 +278,19 @@
             "url": "https://www.ithome.com/0/972/930.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-06",
+            "title": "清华火神队成功卫冕RoboCup 2026世界冠军，加速进化构筑全球具身智能“通用底座”",
+            "url": "https://www.leiphone.com/category/industrynews/npqwbPeARWQkGrpW.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "佑驾创新发布Combo无人物流闭环方案并亮相四轮足机器人，特斯拉Optimus进入量产实质阶段，量产进度成为能力验证的一部分。",
+        "summary": "产品量产侧出现多条可跟踪节点，特斯拉Optimus进入量产实质阶段，佑驾创新发布四轮足机器人和无人物流闭环方案，TAI边缘物理AI芯片原型完成验证并指向2027年量产。",
         "items": [
           {
             "date": "07-06",
@@ -293,12 +305,33 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321202-8460-30693301.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-06",
+            "title": "打破末端配送壁垒，佑驾创新正式发布四轮足机器人",
+            "url": "https://www.leiphone.com/category/industrynews/Ql20V4DpxJjluNFB.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-06",
+            "title": "日企 TAI 完成 40nm 边缘物理 AI 芯片原型评估，目标 2027 年量产",
+            "url": "https://www.ithome.com/0/973/227.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-06",
+            "title": "6英尺高中国造机器人上身英伟达AI大脑，人形机器人终极形态亮相？",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693399.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "日本经济产业省修订人工智能机器人战略，提出到2040年在18个领域部署1000万台AI机器人，用于应对老龄化和低出生率带来的劳动力短缺。",
+        "summary": "商业订单信息主要来自日本国家级部署目标，经济产业省计划到2040年在18个领域部署1000万台AI机器人，以应对老龄化和低出生率带来的劳动力短缺。",
         "items": [
           {
             "date": "07-06",
@@ -311,7 +344,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "光象科技完成数亿元融资，资金将用于物理原生基座模型研发迭代，并推进具身智能机器人产品商业化交付。",
+        "summary": "资本动态延续高强度投入，光象科技获数亿元融资用于物理原生基座模型和商业化交付，墨奇智能完成超10亿元天使轮系列融资并刷新国内具身智能首轮融资规模纪录。",
         "items": [
           {
             "date": "07-06",
@@ -319,12 +352,19 @@
             "url": "https://www.infoq.cn/article/m4QJlWAyRq7Fp4yQImp9?utm_source=rss&utm_medium=article",
             "company": "行业",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "07-06",
+            "title": "成立半年估值超70亿，墨奇智能刷新国内具身智能首轮融资规模纪录",
+            "url": "https://www.leiphone.com/category/industrynews/P6qnUcERGBlK5wJZ.html",
+            "company": "行业",
+            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "宇树科技被报道为成长最快、盈利最强的十家企业之一，同时上游零部件占整机BOM成本70%以上，零部件价值受到关注。",
+        "summary": "行业动态同时指向产业链成本和底层基建，宇树相关报道提到上游零部件占整机BOM成本70%以上，北大系团队入局物理AI底层基建，RoboCup赛事继续提供能力观察窗口。",
         "items": [
           {
             "date": "07-06",
@@ -332,6 +372,33 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693331.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-06",
+            "title": "独家丨ACM戈登贝尔奖得主杨超领衔，北大系顶尖团队入局物理 AI 底层基建",
+            "url": "https://www.leiphone.com/category/industrynews/PjJzoF1Rb0WPXHxd.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-06",
+            "title": "#RoboCup2026 – 人形机器人联赛淘汰赛 (#RoboCup2026 – humanoid league knockout stages)",
+            "url": "https://robohub.org/robocup2026-humanoid-league-knockout-stages/",
+            "company": "其他",
+            "source_name": "RoboHub"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "泛具身产业链关注触觉与多感官融合瓶颈，相关研究联盟汇集李飞飞、Jim Fan、Danfei Xu等学者，触觉感知仍是机器人从演示走向复杂任务的重要约束。",
+        "items": [
+          {
+            "date": "07-06",
+            "title": "触觉困境：为何多感官融合阻碍了机器人进展，以及AI先驱如何修复这一问题 (The Trouble with Touch: Why Merging Senses Has Hindered Robotic Progress—And How AI Pioneers Are Fixing It)",
+            "url": "https://www.tmtpost.com/8054022.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           }
         ]
       }
@@ -400,6 +467,78 @@
       "category": "产品量产",
       "summary": "多次跳票、舆论争议缠身，特斯拉Optimus终于迈入量产实质性落地阶段。A股T链板块强势爆发，表层是资金情绪驱动，底层则是人形机器人产业从概念周期迈向工程落地周期的拐点信号。依托成本、工艺、规模化配套",
       "url": "https://robot.ofweek.com/2026-07/ART-8321202-8460-30693301.html"
+    },
+    {
+      "date": "07-06",
+      "company": "行业",
+      "title": "成立半年估值超70亿，墨奇智能刷新国内具身智能首轮融资规模纪录",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "summary": "近日，具身智能企业墨奇智能（Morphi）正式宣布完成超10亿元天使轮系列融资。本轮融资由阿里巴巴、腾讯联袂投资，蓝驰创投、君联资本、华业天成、高榕资本、中科创星、源码资本、光合创投、柏睿资本、58产业基金等十余家一线机构共同参投。融资完成后，公司估值突破70亿元，创下国内具身智能赛道公开披露首轮融资的规模纪录。 墨奇智能成立于2025年底，由黄青虬与高文礼…",
+      "url": "https://www.leiphone.com/category/industrynews/P6qnUcERGBlK5wJZ.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "独家丨ACM戈登贝尔奖得主杨超领衔，北大系顶尖团队入局物理 AI 底层基建",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "summary": "雷峰网AI科技 独家获悉，一支北大出身、手握国际顶级超算成果的核心技术团队已完 成 市场化主体搭建，正式布局物理AI底层基础设施赛道。 团队由北京大学杨超教授领衔，杨超是我国首位 ACM 戈登贝尔奖得主，2016 年带领团队拿下该国际超算最高荣誉，实现了我国在该奖项上零的突破；其本人也获评首届王选杰出青年学者奖，在高性能计算、数值仿真、人工智能等领域长期深耕…",
+      "url": "https://www.leiphone.com/category/industrynews/PjJzoF1Rb0WPXHxd.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "打破末端配送壁垒，佑驾创新正式发布四轮足机器人",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "7月6日，佑驾创新（2431.HK）正式发布「Combo」全链路无人物流闭环方案，由其旗下曜行动力打造的四轮足式机器人同步亮相。依托自动驾驶底层技术与物理AI能力，佑驾创新首次以“无人车+机器人”打通物流转运到上门配送的完整链路，直击行业长期存在的“最后一米”难题。 本次方案发布，既是曜行动力首款具身智能产品的首秀，也是佑驾创新向全场景物理AI科技企业战略升…",
+      "url": "https://www.leiphone.com/category/industrynews/Ql20V4DpxJjluNFB.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "清华火神队成功卫冕RoboCup 2026世界冠军，加速进化构筑全球具身智能“通用底座”",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "【韩国仁川，2026年7月5日】 今日，2026年RoboCup（机器人世界杯）在韩国仁川正式落下帷幕。在备受瞩目的人形机器人项目中，中国战队清华火神队搭载加速进化 Booster T1，成功卫冕 Large 组世界冠军。继去年在巴西打破中国战队 28 年冠军荒后，火神队在面对全球顶尖强队的针对性挑战下再次登顶，证明了其在具身智能算法领域的领先水平。与此同时…",
+      "url": "https://www.leiphone.com/category/industrynews/npqwbPeARWQkGrpW.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "触觉困境：为何多感官融合阻碍了机器人进展，以及AI先驱如何修复这一问题 (The Trouble with Touch: Why Merging Senses Has Hindered Robotic Progress—And How AI Pioneers Are Fixing It)",
+      "source_name": "钛媒体",
+      "category": "泛具身产业链",
+      "summary": "An elite artificial intelligence research alliance, including prominent scholars Fei-Fei Li, Jim Fan, and Danfei Xu, has identified a critical bottleneck in robotics: data-processi…",
+      "url": "https://www.tmtpost.com/8054022.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "日企 TAI 完成 40nm 边缘物理 AI 芯片原型评估，目标 2027 年量产",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 6 日消息，日本芯片设计初创企业 TokyoArtisan Intelligence (TAI) 当地时间今日宣布，其基于 FPGA 的 40nm 边缘物理 AI 芯片原型 \"Sting Ray\" 已完成验证，迈向量产阶段。 \"Sting Ray\" 架构上的灵活性使其能同时优化适配多种模型。 其采用低功耗快响应设计 ， 面向基础设施、工业…",
+      "url": "https://www.ithome.com/0/973/227.htm"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "6英尺高中国造机器人上身英伟达AI大脑，人形机器人终极形态亮相？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "Wired ?? Will Knight 英伟达机器人负责人向Wired透露，新一代人形机器人采用中国优必选制造的机身，搭载英伟达Jetson Orin芯片，实现中美技术",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693399.html"
+    },
+    {
+      "date": "07-06",
+      "company": "其他",
+      "title": "#RoboCup2026 – 人形机器人联赛淘汰赛 (#RoboCup2026 – humanoid league knockout stages)",
+      "source_name": "RoboHub",
+      "category": "行业动态",
+      "summary": "This weekend saw the finale of the league competitions at RoboCup 2026 in Incheon, South Korea, with the winners in the small, middle, and large humanoid divisions decided. Congrat…",
+      "url": "https://robohub.org/robocup2026-humanoid-league-knockout-stages/"
     },
     {
       "date": "07-05",
@@ -715,78 +854,6 @@
       "category": "技术突破",
       "summary": "很多人发现，在模拟环境里表现优异的机器人，一旦进入真实工厂，往往立刻失灵。这是行业内最尴尬的现状，也是整个具身赛道最核心的瓶颈： 泛化能力 。 换一个环境，可能就要重新采数据、重新训练、重新交付。机器人学的始终是特定场景下的“经验”，而非现象背后的“规律”。 在这一背景下，为了让机器真正理解物理世界，构建“世界模型”逐渐成了具身大脑近年来最拥挤的赛道，各式技…",
       "url": "https://www.qbitai.com/2026/07/441490.html"
-    },
-    {
-      "date": "07-02",
-      "company": "特斯拉",
-      "title": "AI 技术用于工厂质检：特斯拉车间靠车载麦克风自动检测车辆异响",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 2 日消息，自去年起，特斯拉车辆就已经能够自主驶离工厂装配线，自动驶入交付停车场。这套自动化物流体系大幅节省了厂区作业时间；去年特斯拉更是创下行业纪录，一台新车从得州超级工厂通过自动驾驶，直接送到客户家门口。如今，这套自动驾驶技术正进一步渗透至整车总装的末端工序。 IT之家注意到，特斯拉工程副总裁拉尔斯 · 莫拉维（Lars Moravy）…",
-      "url": "https://www.ithome.com/0/971/587.htm"
-    },
-    {
-      "date": "07-02",
-      "company": "其他",
-      "title": "从模型到工厂订单: 2026人形机器人产业链全景",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "2026年，人形机器人正在跨过三道门槛：从动作展示走向自主作业，从样机交付走向批量制造，从融资故事走向真实订单。 国内，宇树科技推进资本化，智元、优必选、银河通用等企业加快工业和商业场景验证；海外，A",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30692982.html"
-    },
-    {
-      "date": "07-02",
-      "company": "宇树科技",
-      "title": "证监会同意宇树科技科创板 IPO 注册申请",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 7 月 2 日消息，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。 宇树科技（Unitree Robotics）是国内头部的民用足式、人形机器人研发企业，也是全球四足机器人销量领先的厂商，2016 年 8 月由王兴兴在杭州创立，总部位于浙江杭州，是国家高新技术企业、国家级专精特新“小巨人”企业，截至 2025 年 6 月员…",
-      "url": "https://www.ithome.com/0/971/790.htm"
-    },
-    {
-      "date": "07-02",
-      "company": "其他",
-      "title": "为什么复杂装配操作应结合机器人灵巧性与机械定位 (Why you should combine robot dexterity with mechanical positioning for complex assembly operations)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Experts are recognizing the importance of mechanical positioning and its impact on the machine’s mobility, range and speed. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/why-you-should-combine-robot-dexterity-with-mechanical-positioning-for-complex-assembly-operations/"
-    },
-    {
-      "date": "07-02",
-      "company": "其他",
-      "title": "Blattner 授予 Built Robotics 7500 万美元合同，用物理 AI 助力满足能源需求 (Blattner awards Built Robotics $75M contract for physical AI to help meet energy demand)",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "Blattner has expanded its partnership with Built Robotics to scale autonomous systems for solar construction. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/blattner-awards-built-robotics-75m-contract-meet-energy-demands/"
-    },
-    {
-      "date": "07-02",
-      "company": "智元机器人",
-      "title": "AGIBOT 在欧洲首次亮相 A3 人形机器人，并在英国推出机器人即服务模式 (AGIBOT debuts A3 humanoid robot in Europe and launches UK Robot-as-a-Service model)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "AGIBOT, a developer of embodied AI and robotics, hosted the UK AGIBOT Partner Conference (APC) 2026 in London, marking a key step in the company’s European growth strategy and its…",
-      "url": "https://roboticsandautomationnews.com/2026/07/02/agibot-debuts-a3-humanoid-robot-in-europe-and-launches-uk-robot-as-a-service-model/103018/"
-    },
-    {
-      "date": "07-02",
-      "company": "其他",
-      "title": "影智XBOT发布通用餐饮服务机器人矩阵与“一脑多形”具身智能体系",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "雷峰网获悉，6月30日，影智XBOT“2026 XBOT通用餐饮具身机器人发布会”在北京举行，以产品、平台、商业闭环、生态开放为关键节点，正式发布自研具身操作系统XOS 3.0、AI Agent产品“爱宝店长”，以及三款覆盖咖啡、冰淇淋、全场景服务的通用餐饮具身机器人新品。 三者共同构成“一脑多形”的完整智能体系。 XOS 3.0：为“一脑多形”而生的具身操…",
-      "url": "https://www.leiphone.com/category/industrynews/bn6JrENVQGf1G9tU.html"
-    },
-    {
-      "date": "07-02",
-      "company": "其他",
-      "title": "#RoboCup2026 – 人形机器人联赛首日 (#RoboCup2026 – humanoid league day 1)",
-      "source_name": "RoboHub",
-      "category": "行业动态",
-      "summary": "Image credit: RoboCup Federation. RoboCup 2026 kicked off today in Incheon, South Korea, with the league competitions running until 5 July. It’s an exciting time for RoboCup, as th…",
-      "url": "https://robohub.org/robocup2026-humanoid-league-day-1/"
     }
   ]
 }
