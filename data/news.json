@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T22:39:00.347055+08:00",
+  "updated": "2026-07-08T03:57:55.029799+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 10,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -66,7 +66,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 8,
+      "entries": 58,
+      "candidates": 10,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 4
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 14,
-      "core": 10,
-      "periphery": 4,
-      "new": 11
+      "candidates": 13,
+      "core": 8,
+      "periphery": 5,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -205,7 +205,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 15,
+      "candidates": 14,
       "core": 8,
       "periphery": 1,
       "new": 1
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-07T22:39:24.014055+08:00",
+    "generated_at": "2026-07-08T03:58:09.942440+08:00",
     "mode": "aicodewith",
-    "item_count": 43,
+    "item_count": 46,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周部署线索集中在工厂、物流和产线测试等场景，爱仕达与智元创新围绕场景实训、数据采集和模型迭代建闭环，海康移动机器人累计下线突破20万台，特斯拉开放柏林工厂产线实测外部电池技术，具身智能的阶段性进展更依赖真实任务中的交付、数据回流和迭代效率。",
+        "label": "部署验证转向可验收任务",
+        "text": "爱仕达与智元创新签署战略合作，围绕场景实训、数据采集和模型迭代构建部署闭环；海康机器人移动机器人累计下线突破20万台，特斯拉也将柏林工厂产线开放给电池初创企业实测新技术，具身智能落地更集中在工厂、仓储、巡检等能计量效率和稳定性的场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争回到真实数据闭环",
-        "text": "技术讨论从大模型、智驾迁移等宽泛叙事收敛到数据基础设施、模型范式和量产路径，相关沙龙集中讨论产业化困惑，上汽MG 07将首搭Momenta R7世界模型并开启预售，阿米奥机器人强调具身智能不同于大模型和智驾，模型路线的评价正在更多绑定具体任务和物理交互数据。",
+        "label": "模型叙事回到数据闭环",
+        "text": "本周讨论从VLA、世界模型等路线之争延伸到数据基础设施、量产落地和商业化路径，上汽名爵MG 07官宣首搭Momenta R7世界模型并将预售，阿米奥机器人也强调具身智能不等同于大模型或智驾，模型能力正被放到真实任务和产品节奏中检验。",
         "evidence_urls": []
       },
       {
-        "label": "资本继续押注能力补齐",
-        "text": "光象科技数亿元融资将投向物理原生基座模型研发和商业化交付，墨奇智能完成超10亿元天使轮系列融资并披露估值超70亿元，Agility Robotics拟通过25亿美元SPAC合并上市，资金仍在进入具身赛道，但更偏向能说明技术路线、交付场景或资本化路径的公司。",
+        "label": "资本偏好能力补齐",
+        "text": "光象科技数亿元融资将投入物理原生基座模型研发和机器人商业化交付，墨奇智能成立半年完成超10亿元天使轮系列融资并估值超70亿元，Agility Robotics拟通过25亿美元SPAC合并上市，资金继续流向具备明确技术路线、场景定义或上市通道的公司。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术侧围绕数据基础设施、世界模型、空间视觉和工业感知展开，开源视觉基模、零样本基准和仓储感知系统并行推进，讨论重点从概念路线转向可落地能力。",
+        "summary": "技术侧围绕空间视觉、零样本模型、仓储感知系统和世界模型展开，讨论重点从单点算法转向数据基础设施、模型范式和产线落地路径。",
         "items": [
           {
             "date": "07-07",
@@ -346,7 +346,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产侧出现开源机器人定价、农业机器人、四轮足物流方案、特斯拉机器人量产进展及边缘物理AI芯片原型验证，价格、产线和具体应用开始共同检验产品成熟度。",
+        "summary": "产品侧出现开源机器人、农业机器人、巡检机器人和物流机器人等多类发布，海康移动机器人累计下线20万台，量产规模与价格开始共同参与能力验证。",
         "items": [
           {
             "date": "07-07",
@@ -373,6 +373,20 @@
             "date": "07-07",
             "title": "AIxCrypto 推出 RoboShare 机器人租赁平台和自主资产网络 (AIxCrypto launches RoboShare robot rental platform and autonomous asset network)",
             "url": "https://roboticsandautomationnews.com/2026/07/07/aixcrypto-launches-roboshare-robot-rental-platform-and-autonomous-asset-network/103123/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "ExRobotics在北美推出获UL认证的危险工业场所巡检机器人 (ExRobotics launches UL-certified inspection robot for hazardous industrial sites in North America)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-industrial-sites-in-north-america/103158/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "RLWRLD 推出用于灵巧机械手基准测试的开放平台 (RLWRLD launches open platform to benchmark dexterous robotic hands)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/rlwrld-launches-open-platform-to-benchmark-dexterous-robotic-hands/103146/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           },
@@ -443,7 +457,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地信息不多，但爱仕达与智元创新明确围绕部署态建立实训、采集和迭代闭环，日本提出2040年部署1000万台AI机器人，需求端仍以劳动力缺口和可验收场景牵引。",
+        "summary": "商业落地以战略合作和国家部署目标为主，爱仕达与智元创新推进部署态闭环，日本提出2040年18个领域部署1000万台AI机器人目标。",
         "items": [
           {
             "date": "07-07",
@@ -463,7 +477,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，光象科技、墨奇智能获得大额融资，宇树科技IPO注册生效，Agility Robotics推进SPAC上市，Kraken Robotics通过收购扩展水下技术市场。",
+        "summary": "融资和资本化事件密集，光象科技、墨奇智能获得大额融资，宇树科技IPO注册生效，Agility Robotics拟SPAC上市，资金关注模型、整机和细分场景。",
         "items": [
           {
             "date": "07-07",
@@ -511,7 +525,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业侧披露我国人形机器人今年整机产量有望破10万台，上游零部件占整机BOM成本70%以上，仓储物流自动化集成和物理AI底层团队入局成为关注点。",
+        "summary": "行业层面披露我国人形机器人今年整机产量有望突破10万台，仓储、广告、赛事和物理AI底层基建均有进展，应用边界继续扩展。",
         "items": [
           {
             "date": "07-07",
@@ -524,6 +538,13 @@
             "date": "07-07",
             "title": "Robot.com将作为LEAP East官方机器人合作伙伴展示自主广告机器人 (Robot.com to showcase autonomous advertising robots as official robotics partner of LEAP East)",
             "url": "https://roboticsandautomationnews.com/2026/07/07/robot-com-to-showcase-autonomous-advertising-robots-as-official-robotics-partner-of-leap-east/103093/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "HelloFresh 借助 Locus Robotics 自动化将冷藏仓库容量扩大五倍 (HelloFresh expands chilled warehouse capacity fivefold with Locus Robotics automation)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/hellofresh-expands-chilled-warehouse-capacity-fivefold-with-locus-robotics-automation/103151/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           },
@@ -559,7 +580,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻集中在空间感知、仿真流程和安全传感器，LingBot-Depth 2.0、USDZ导出和安全认证3D超声波传感器显示机会正绑定感知精度、协作安全和数据工具链。",
+        "summary": "产业链焦点集中在空间感知、仿真数据格式、安全传感和触觉融合，LingBot-Depth 2.0、3D超声波传感器等进展指向人机协作与仿真效率瓶颈。",
         "items": [
           {
             "date": "07-07",
@@ -771,6 +792,33 @@
       "category": "泛具身产业链",
       "summary": "Robbyant, an embodied AI company within Ant Group, has announced the launch of LingBot-Depth 2.0, a next-generation spatial perception model, alongside its foundational visual mode…",
       "url": "https://roboticsandautomationnews.com/2026/07/07/robbyant-launches-lingbot-depth-2-0-and-lingbot-vision-for-advanced-robotic-spatial-perception/103088/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "ExRobotics在北美推出获UL认证的危险工业场所巡检机器人 (ExRobotics launches UL-certified inspection robot for hazardous industrial sites in North America)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "ExRobotics has announced the North American launch of its UL Certified ExR-2.5 autonomous inspection robot at the recent Energy Drone & Robotics Summit in Houston. This certificati…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/exrobotics-launches-ul-certified-inspection-robot-for-hazardous-industrial-sites-in-north-america/103158/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "HelloFresh 借助 Locus Robotics 自动化将冷藏仓库容量扩大五倍 (HelloFresh expands chilled warehouse capacity fivefold with Locus Robotics automation)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Locus Robotics, a warehouse automation company, has announced that a cold-storage hardware modification developed for HelloFresh has enabled the meal kit company to expand chilled…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/hellofresh-expands-chilled-warehouse-capacity-fivefold-with-locus-robotics-automation/103151/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "RLWRLD 推出用于灵巧机械手基准测试的开放平台 (RLWRLD launches open platform to benchmark dexterous robotic hands)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "RLWRLD, a physical AI company with a proprietary robotics foundation model, RLDX-1, has announced the launch of “All Hands Up!”, an open web platform that provides technical report…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/rlwrld-launches-open-platform-to-benchmark-dexterous-robotic-hands/103146/"
     },
     {
       "date": "07-06",
@@ -1023,33 +1071,6 @@
       "category": "资本动态",
       "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，「忆生科技」（TranscEngram）完成数亿元天使轮融资，本轮投资方阵容横跨产业资本与国资平台，包括正大旗下中生制药、浦东创投、张江科投、张江高科、弘信电子、云晖资本、沃肯资本、金舵资本等。 「忆生科技」致力于从科学第一性原理出发，用\"感知—预测—交互\"闭环构建机器人\"大脑+小脑\"统一系统，探索下一代可解释自…",
       "url": "https://36kr.com/p/3882365879005186?f=rss"
-    },
-    {
-      "date": "07-05",
-      "company": "行业",
-      "title": "硬氪首发 | 清华车辆学院师兄弟创业具身智能，已完成数亿元天使融资，将落地汽车产业",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，具身智能公司 「光象科技」 宣布完成累计数亿元天使轮融资。 最新一轮由珠海科技产业集团、兴证资本、松禾资本、顺禧基金、慕华科创、SeeFund、亿宸资本、上市公司行云科技等头部财投与产投深度参与，老股东零一创投、L2F光源创业者基金持续加注。 本轮资金将重点投入物理原生基座模型的研发迭代，并推进具身智能机器人在工…",
-      "url": "https://36kr.com/p/3882364132077577?f=rss"
-    },
-    {
-      "date": "07-05",
-      "company": "行业",
-      "title": "硬氪首发 | 小米前高管唐沐创业咖啡机器人，完成数亿融资，林斌、黎万强投过",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者 | 邱晓芬 编辑 | 袁斯来 硬氪获悉，通用餐饮具身机器人公司「影智XBOT」连续完成数亿元两轮融资——其中，A轮的2亿元融资由香港简坤资本GPTX出资，B轮融资为3-5 亿元人民币，由多支政府基金、美元基金和产业投资方共同参与出资。 这是目前餐饮垂直机器人领域规模最大的一笔融资之一。 在此之前，「影智XBOT」还完成了一轮天使融资，出资人阵容豪华——…",
-      "url": "https://36kr.com/p/3882361033322755?f=rss"
-    },
-    {
-      "date": "07-05",
-      "company": "其他",
-      "title": "贝斯特：人形机器人业务仍处样品阶段",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "贝斯特公告，公司股票连续3个交易日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动。公司关注到市场对人形机器人等热点概念关注度较高，但公司人形机器人零部件业务仍在样品阶段，2026年上半年相关样品实现营收22.30万元，占公司营收比重约0.03%，业务规模较小，对公司业绩不产生重大影响，未来收益存在重大不确定性。（第一财经）",
-      "url": "https://36kr.com/newsflashes/3882472808787977?f=rss"
     }
   ]
 }
