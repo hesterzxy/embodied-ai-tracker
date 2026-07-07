@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T17:45:04.642644+08:00",
+  "updated": "2026-07-07T22:39:00.347055+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 2,
       "periphery": 1,
-      "new": 3
+      "new": 0
     },
     {
       "name": "36氪",
@@ -23,7 +23,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
+      "entries": 29,
       "candidates": 7,
       "core": 0,
       "periphery": 0,
@@ -34,13 +34,13 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 3,
+      "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 13,
-      "core": 6,
+      "candidates": 10,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
-      "core": 1,
+      "entries": 16,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -63,8 +63,8 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
       "new": 2
     },
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 56,
-      "candidates": 23,
-      "core": 4,
+      "candidates": 8,
+      "core": 0,
       "periphery": 0,
-      "new": 4
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 6,
-      "periphery": 1,
-      "new": 4
+      "candidates": 14,
+      "core": 10,
+      "periphery": 4,
+      "new": 11
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 28,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-07T17:45:18.577174+08:00",
+    "generated_at": "2026-07-07T22:39:24.014055+08:00",
     "mode": "aicodewith",
-    "item_count": 33,
+    "item_count": 43,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "爱仕达与智元创新签署战略合作，围绕部署态构建场景实训、数据采集到模型迭代闭环，海康机器人移动机器人累计下线突破20万台，特斯拉柏林工厂向外部电池创新企业开放产线实测，新一轮落地更集中在工厂、物流、供应链等结果可量化场景。",
+        "text": "本周部署线索集中在工厂、物流和产线测试等场景，爱仕达与智元创新围绕场景实训、数据采集和模型迭代建闭环，海康移动机器人累计下线突破20万台，特斯拉开放柏林工厂产线实测外部电池技术，具身智能的阶段性进展更依赖真实任务中的交付、数据回流和迭代效率。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争进入数据闭环阶段",
-        "text": "本周讨论从VLA、世界模型路线之争延伸到数据基础设施、模型范式和量产路径，上汽名爵MG 07将首搭Momenta R7世界模型并开启预售，蔚来向超70万用户推送世界模型OTA，模型能力正通过真实用户和具体任务积累反馈。",
+        "label": "模型竞争回到真实数据闭环",
+        "text": "技术讨论从大模型、智驾迁移等宽泛叙事收敛到数据基础设施、模型范式和量产路径，相关沙龙集中讨论产业化困惑，上汽MG 07将首搭Momenta R7世界模型并开启预售，阿米奥机器人强调具身智能不同于大模型和智驾，模型路线的评价正在更多绑定具体任务和物理交互数据。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好能力补齐型公司",
-        "text": "光象科技数亿元融资将投入物理原生基座模型研发和机器人商业化交付，墨奇智能成立半年完成超10亿元天使轮系列融资且估值超70亿元，高通投资者日也呈现汽车与具身智能路线交汇，资金更愿意押注可定义能力栈与交付路径。",
+        "label": "资本继续押注能力补齐",
+        "text": "光象科技数亿元融资将投向物理原生基座模型研发和商业化交付，墨奇智能完成超10亿元天使轮系列融资并披露估值超70亿元，Agility Robotics拟通过25亿美元SPAC合并上市，资金仍在进入具身赛道，但更偏向能说明技术路线、交付场景或资本化路径的公司。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕数据基础设施、世界模型、空间视觉和控制响应展开，开源视觉基模、车端世界模型预售与OTA共同指向真实数据驱动的验证。",
+        "summary": "本周技术侧围绕数据基础设施、世界模型、空间视觉和工业感知展开，开源视觉基模、零样本基准和仓储感知系统并行推进，讨论重点从概念路线转向可落地能力。",
         "items": [
           {
             "date": "07-07",
@@ -285,6 +285,27 @@
             "url": "https://www.ifanr.com/1671185?utm_source=rss&utm_medium=rss&utm_campaign=",
             "company": "其他",
             "source_name": "爱范儿"
+          },
+          {
+            "date": "07-07",
+            "title": "阿米奥机器人刘方：具身智能不是大模型，更不是智驾",
+            "url": "https://www.leiphone.com/category/industrynews/jzGG1kEnAzBgFPoa.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-07",
+            "title": "Robust.AI为下一代Carter仓库机器人选用Aptiv AI感知系统 (Robust.AI selects Aptiv’s AI-powered perception system for next-generation Carter warehouse robot)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/robust-ai-selects-aptivs-ai-powered-perception-system-for-next-generation-carter-warehouse-robot/103134/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "Lumos Robotics 在零样本具身智能全球基准测试中居首 (Lumos Robotics tops global benchmark test for zero-shot embodied AI)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/lumos-robotics-tops-global-benchmark-test-for-zero-shot-embodied-ai/103126/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-06",
@@ -325,7 +346,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻覆盖开源机器人、四轮足物流机器人、边缘物理AI芯片和移动机器人，海康累计下线20万台强化了规模化应用的参照。",
+        "summary": "量产侧出现开源机器人定价、农业机器人、四轮足物流方案、特斯拉机器人量产进展及边缘物理AI芯片原型验证，价格、产线和具体应用开始共同检验产品成熟度。",
         "items": [
           {
             "date": "07-07",
@@ -340,6 +361,20 @@
             "url": "https://www.ithome.com/0/973/549.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-07",
+            "title": "极飞发布了空中及地面农业机器人，打农药这事儿基本不需要人力参与了",
+            "url": "https://www.ifanr.com/1671223?utm_source=rss&utm_medium=rss&utm_campaign=",
+            "company": "其他",
+            "source_name": "爱范儿"
+          },
+          {
+            "date": "07-07",
+            "title": "AIxCrypto 推出 RoboShare 机器人租赁平台和自主资产网络 (AIxCrypto launches RoboShare robot rental platform and autonomous asset network)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/aixcrypto-launches-roboshare-robot-rental-platform-and-autonomous-asset-network/103123/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-06",
@@ -408,7 +443,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地以部署态合作和政策目标为主，爱仕达与智元创新共建实训、采集、迭代闭环，日本提出2040年部署1000万台AI机器人。",
+        "summary": "商业落地信息不多，但爱仕达与智元创新明确围绕部署态建立实训、采集和迭代闭环，日本提出2040年部署1000万台AI机器人，需求端仍以劳动力缺口和可验收场景牵引。",
         "items": [
           {
             "date": "07-07",
@@ -428,7 +463,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资与上市进展密集，光象科技、墨奇智能获得大额资金，宇树科技IPO注册生效，资本继续围绕基座模型、商业交付和硬件平台布局。",
+        "summary": "资本动态活跃，光象科技、墨奇智能获得大额融资，宇树科技IPO注册生效，Agility Robotics推进SPAC上市，Kraken Robotics通过收购扩展水下技术市场。",
         "items": [
           {
             "date": "07-07",
@@ -436,6 +471,13 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321201-8460-30693493.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-07",
+            "title": "Agility Robotics将通过25亿美元SPAC合并上市 (Agility Robotics to go public through $2.5 billion SPAC merger)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/agility-robotics-to-go-public-through-2-5-billion-spac-merger/103130/",
+            "company": "Agility Robotics",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-06",
@@ -469,7 +511,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业侧释放产量、成本结构和仓储自动化信号，我国人形机器人年产量有望破10万台，上游零部件仍占整机BOM成本70%以上。",
+        "summary": "行业侧披露我国人形机器人今年整机产量有望破10万台，上游零部件占整机BOM成本70%以上，仓储物流自动化集成和物理AI底层团队入局成为关注点。",
         "items": [
           {
             "date": "07-07",
@@ -477,6 +519,13 @@
             "url": "https://www.ithome.com/0/973/663.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-07",
+            "title": "Robot.com将作为LEAP East官方机器人合作伙伴展示自主广告机器人 (Robot.com to showcase autonomous advertising robots as official robotics partner of LEAP East)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/robot-com-to-showcase-autonomous-advertising-robots-as-official-robotics-partner-of-leap-east/103093/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-06",
@@ -510,7 +559,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链关注空间感知和触觉融合，灵波科技发布LingBot-Depth 2.0，多感官融合仍是机器人感知能力提升的重要瓶颈。",
+        "summary": "产业链新闻集中在空间感知、仿真流程和安全传感器，LingBot-Depth 2.0、USDZ导出和安全认证3D超声波传感器显示机会正绑定感知精度、协作安全和数据工具链。",
         "items": [
           {
             "date": "07-07",
@@ -518,6 +567,27 @@
             "url": "https://www.qbitai.com/2026/07/445184.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "07-07",
+            "title": "Niantic Spatial 为 Scaniverse 添加 USDZ 导出以简化机器人仿真工作流程 (Niantic Spatial adds USDZ export to Scaniverse to streamline robotics simulation workflows)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/niantic-spatial-adds-usdz-export-to-scaniverse-to-streamline-robotics-simulation-workflows/103116/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "Sonair 发布“全球首款”获安全认证的 3D 超声波传感器，用于人机协作 (Sonair unveils ‘world’s first’ safety-certified 3D ultrasonic sensor for human-robot collaboration)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/sonair-unveils-worlds-first-safety-certified-3d-ultrasonic-sensor-for-human-robot-collaboration/103097/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "Robbyant 推出 LingBot-Depth 2.0 与 LingBot-Vision，提升机器人空间感知能力 (Robbyant launches LingBot-Depth 2.0 and LingBot-Vision for advanced robotic spatial perception)",
+            "url": "https://roboticsandautomationnews.com/2026/07/07/robbyant-launches-lingbot-depth-2-0-and-lingbot-vision-for-advanced-robotic-spatial-perception/103088/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-06",
@@ -611,6 +681,96 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 7 日消息，特斯拉正向外部创新企业开放柏林超级工厂，以此加速完善欧洲供应链体系。该公司推出了全新产业加速项目，邀请电池科技初创企业将自研硬件与解决方案直接落地至正在运行的生产车间，用以解决生产瓶颈、提升整体产能。 特斯拉刚刚正式启动电池电芯超级工厂挑战赛，该项目由特斯拉与柏林、勃兰登堡地区深耕科研型科技企业的创业孵化器 JUNI 联合打造…",
       "url": "https://www.ithome.com/0/973/549.htm"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "阿米奥机器人刘方：具身智能不是大模型，更不是智驾",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "过去两年，具身智能常被放进两个熟悉的叙事里理解：它要么是“大模型的下一站”，要么是“自动驾驶向工厂的迁移”。前者强调模型、数据和规模效应，后者强调感知、预测、规划与端到端闭环。两种说法都言之成理，然而在阿米奥机器人创始人刘方看来，它们仍未能回答那个更根本的问题——我们究竟需要具身智能解决什么问题。 刘方坚信：具身不是大模型，不是自动驾驶，是新业态。自动驾驶数…",
+      "url": "https://www.leiphone.com/category/industrynews/jzGG1kEnAzBgFPoa.html"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "极飞发布了空中及地面农业机器人，打农药这事儿基本不需要人力参与了",
+      "source_name": "爱范儿",
+      "category": "产品量产",
+      "summary": "农活就得机器人来干。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
+      "url": "https://www.ifanr.com/1671223?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Robust.AI为下一代Carter仓库机器人选用Aptiv AI感知系统 (Robust.AI selects Aptiv’s AI-powered perception system for next-generation Carter warehouse robot)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Aptiv, an industrial technology company, has announced that Robust.AI, a developer of AI-driven warehouse automation, has selected Aptiv’s intelligent perception solutions, includi…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/robust-ai-selects-aptivs-ai-powered-perception-system-for-next-generation-carter-warehouse-robot/103134/"
+    },
+    {
+      "date": "07-07",
+      "company": "Agility Robotics",
+      "title": "Agility Robotics将通过25亿美元SPAC合并上市 (Agility Robotics to go public through $2.5 billion SPAC merger)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Agility Robotics has agreed to go public through a merger with special purpose acquisition company Churchill Capital Corp XI, in a deal that values the humanoid robotics developer…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/agility-robotics-to-go-public-through-2-5-billion-spac-merger/103130/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Lumos Robotics 在零样本具身智能全球基准测试中居首 (Lumos Robotics tops global benchmark test for zero-shot embodied AI)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Lumos Robotics says its Prime R0 industrial embodied AI model has achieved the highest overall score on the latest MolmoSpaces leaderboard, outperforming larger models from competi…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/lumos-robotics-tops-global-benchmark-test-for-zero-shot-embodied-ai/103126/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "AIxCrypto 推出 RoboShare 机器人租赁平台和自主资产网络 (AIxCrypto launches RoboShare robot rental platform and autonomous asset network)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "AIxCrypto has unveiled a robot rental marketplace and a new infrastructure platform for autonomous assets as it seeks to extend the commercial life of robots beyond their initial s…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/aixcrypto-launches-roboshare-robot-rental-platform-and-autonomous-asset-network/103123/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Niantic Spatial 为 Scaniverse 添加 USDZ 导出以简化机器人仿真工作流程 (Niantic Spatial adds USDZ export to Scaniverse to streamline robotics simulation workflows)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Niantic Spatial has launched USDZ export for its Scaniverse app, enabling robotics developers to convert real-world environments into simulation-ready digital twins for use with Nv…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/niantic-spatial-adds-usdz-export-to-scaniverse-to-streamline-robotics-simulation-workflows/103116/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Sonair 发布“全球首款”获安全认证的 3D 超声波传感器，用于人机协作 (Sonair unveils ‘world’s first’ safety-certified 3D ultrasonic sensor for human-robot collaboration)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "While the AI boom has made robots significantly more capable, the accompanying safety infrastructure has struggled to keep pace. Traditional 2D laser scanners, which are widely use…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/sonair-unveils-worlds-first-safety-certified-3d-ultrasonic-sensor-for-human-robot-collaboration/103097/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Robot.com将作为LEAP East官方机器人合作伙伴展示自主广告机器人 (Robot.com to showcase autonomous advertising robots as official robotics partner of LEAP East)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Robot.com, the company putting autonomous robots to work in the real world, has been named the official robotics partner of LEAP East, bringing its fleet of autonomous robots to th…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/robot-com-to-showcase-autonomous-advertising-robots-as-official-robotics-partner-of-leap-east/103093/"
+    },
+    {
+      "date": "07-07",
+      "company": "其他",
+      "title": "Robbyant 推出 LingBot-Depth 2.0 与 LingBot-Vision，提升机器人空间感知能力 (Robbyant launches LingBot-Depth 2.0 and LingBot-Vision for advanced robotic spatial perception)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Robbyant, an embodied AI company within Ant Group, has announced the launch of LingBot-Depth 2.0, a next-generation spatial perception model, alongside its foundational visual mode…",
+      "url": "https://roboticsandautomationnews.com/2026/07/07/robbyant-launches-lingbot-depth-2-0-and-lingbot-vision-for-advanced-robotic-spatial-perception/103088/"
     },
     {
       "date": "07-06",
@@ -890,96 +1050,6 @@
       "category": "行业动态",
       "summary": "贝斯特公告，公司股票连续3个交易日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动。公司关注到市场对人形机器人等热点概念关注度较高，但公司人形机器人零部件业务仍在样品阶段，2026年上半年相关样品实现营收22.30万元，占公司营收比重约0.03%，业务规模较小，对公司业绩不产生重大影响，未来收益存在重大不确定性。（第一财经）",
       "url": "https://36kr.com/newsflashes/3882472808787977?f=rss"
-    },
-    {
-      "date": "07-05",
-      "company": "优必选",
-      "title": "99万换情绪价值？优必选C端首秀仿生机器人, 具身智能赛道加速分化",
-      "source_name": "OFweek机器人",
-      "category": "技术突破",
-      "summary": "“如果有情感链接，背后就有无限的想象。一次性收入与未来生态长期持续性的收费，可能利润会比工业人形机器人更大，我的目标就是占领这个生态。” 6月30日，“人形机器人第一股”优必选2026年度全球发布会在 人形机器人",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693246.html"
-    },
-    {
-      "date": "07-05",
-      "company": "其他",
-      "title": "国家税务总局：今年前 5 个月我国具身智能企业销售收入同比增长 22.4%",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 5 日消息，国家税务总局最新税收数据显示，今年以来，我国具身智能产业发展向好，呈现多方面亮点。 1 月-5 月，具身智能产业企业销售收入 在 2025 年全年增长 13.9% 的基础上 实现 22.4% 的较快增速 ，工业企业购进具身智能机器人总金额同比增长 2.3 倍。 具身智能产业对下游软件和信息技术服务业、科学研究和技术服务业的销售收…",
-      "url": "https://www.ithome.com/0/972/820.htm"
-    },
-    {
-      "date": "07-05",
-      "company": "其他",
-      "title": "Humanoid称KinetIQ Ascend强化学习接近人类级灵巧性 (Humanoid says KinetIQ Ascend reinforcement learning approaches human-level dexterity)",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "summary": "Humanoid says its KinetIQ Ascend approach can reach 99.9% manipulation reliability at human speed and beyond for industrial tasks. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/humanoid-announces-kinetiq-ascend-reinforcement-learning-approach/"
-    },
-    {
-      "date": "07-04",
-      "company": "行业",
-      "title": "具身智能公司光象科技累计完成数亿元天使轮融资",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "近日，光象科技宣布完成累计数亿元天使轮融资，最新一轮融资由珠海科技产业集团、兴证资本、松禾资本、顺禧基金、慕华科创、See Fund、亿宸资本、上市公司行云科技等头部财投与头部产投深度参与，老股东零一创投、L2F光源创业者基金等持续加注。据悉，本轮资金将重点投入物理原生基座模型的研发迭代，并推进具身智能机器人产品的商业化交付。（每日经济新闻）",
-      "url": "https://36kr.com/newsflashes/3881013448683785?f=rss"
-    },
-    {
-      "date": "07-04",
-      "company": "其他",
-      "title": "规范引导情感陪伴人形机器人健康发展 两协会联合倡议",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "中国人形机器人百人会和中国机械工业联合会今天联合发布关于规范和引导情感陪伴人形机器人发展的倡议，提倡共同践行科技向善、推动机器人产业健康发展。 记者了解到，当前，我国人形机器人产业加速创新发展，正逐步融入工业、特种和服务等各类场景。近期，包括“情感陪伴人形机器人”等产品陆续对外发布，人形机器人正走进家庭、走向生活。 倡议提出，行业应坚守服务人类福祉的初心，把…",
-      "url": "https://36kr.com/newsflashes/3881009011945473?f=rss"
-    },
-    {
-      "date": "07-04",
-      "company": "其他",
-      "title": "订单排到2027年，谁在支撑人形机器人的“量产元年”？",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "summary": "2026年过半，人形机器人行业正站在一个微妙的分水岭上。 一边是“量产元年”的宏大叙事。高工机器人预测国内出货6.25万台，摩根士丹利和野村分别上调至5万台、4万-5万台，IDC断言中国具身智能市场规模将突破110亿美元。 2026年6月30日，优必选在深圳举办年度全球发布会，正式推出全尺寸超仿生人形机器人U1系列。据封面新闻报道，现场反响远不及预告片热烈…",
-      "url": "https://www.tmtpost.com/8052511.html"
-    },
-    {
-      "date": "07-04",
-      "company": "其他",
-      "title": "上汽名爵 MG 07 首台量产车下线：预计 15 万-20 万元区间，首搭 Momenta R7 世界模型",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 4 日消息，据上汽 MG 公众号，7 月 2 日，上汽名爵 MG 07 首台量产车在上汽乘用车郑州基地正式下线，该基地也同步达成第 300 万辆整车下线的重要里程碑。官方表示，达成第 3 个百万辆里程碑，用时仅不到 23 个月。 MG 07 基于上汽全新一代新能源平台打造，是该品牌首款纯电新能源轿跑，定价预计 在 15 万-20 万元之间…",
-      "url": "https://www.ithome.com/0/972/558.htm"
-    },
-    {
-      "date": "07-04",
-      "company": "宇树科技",
-      "title": "宇树科技陈立谈具身智能的“ChatGPT 时刻”：需达成两个 80%",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 4 日消息，据新浪科技报道，2026 亚布力论坛创新年会今天在上海市举行。宇树科技股份有限公司联合创始人陈立在现场判断，智能机器人行业将在未来两到五年迎来突破。 陈立表示，机器人行业的突破有三大核心要点： 第一，统一端到端机器人大模型，这是最核心的关键； 第二，更低成本、更长寿命的硬件，以及超大批量规模化生产制造，硬件边际成本会大幅下降，参…",
-      "url": "https://www.ithome.com/0/972/540.htm"
-    },
-    {
-      "date": "07-04",
-      "company": "宇树科技",
-      "title": "宇树科技陈立：机器人目前没有大面积应用，主要原因是具身智能大模型不成熟",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 4 日消息，据新浪财经报道，亚布力中国企业家论坛第十二届创新年会于 7 月 3 日-4 日在上海召开。宇树科技股份有限公司联合创始人陈立表示， 机器人目前其实还没有大面积应用 ， 主要原因还是具身智能大模型没有成熟 。 他首先认为，未来 2-5 年首先需要有一个统一的端到端机器人大模型，这是最重要的。 其次，机器人普及还需要有更低成本、更高…",
-      "url": "https://www.ithome.com/0/972/522.htm"
-    },
-    {
-      "date": "07-04",
-      "company": "宇树科技",
-      "title": "宇树科技陈立：关节电机上游只有铜线、磁铁等原材料供应商，完全自主可控",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 4 日消息，2026 亚布力论坛创新年会在上海市举行。据新浪财经报道，宇树科技联合创始人陈立表示，宇树科技核心零部件实现自研自产、底层技术架构完全打通后， 实现四足、人形、机械臂、泵体、灵巧手全系列产品自研自产 。 很多人以为我们的关节电机依赖外部采购，其实 我们的上游只有铜线、磁铁等原材料供应商，完全自主可控 。正因全套核心自研，我们产品…",
-      "url": "https://www.ithome.com/0/972/625.htm"
     }
   ]
 }
