@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T16:31:24.669809+08:00",
+  "updated": "2026-07-08T22:11:10.954281+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 4,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "36氪",
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 8,
-      "core": 1,
+      "candidates": 6,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 9,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
+      "entries": 16,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
+      "entries": 58,
+      "candidates": 11,
       "core": 3,
       "periphery": 0,
       "new": 3
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 20,
-      "core": 6,
+      "core": 5,
       "periphery": 1,
       "new": 4
     },
@@ -152,11 +152,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 18,
+      "entries": 20,
+      "candidates": 19,
       "core": 7,
       "periphery": 3,
-      "new": 1
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
+      "candidates": 12,
       "core": 6,
-      "periphery": 6,
-      "new": 3
+      "periphery": 5,
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-08T16:31:47.544885+08:00",
+    "generated_at": "2026-07-08T22:11:26.507487+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "具身智能落地正向可验收场景集中，爱仕达与智元围绕部署态共建场景实训、数据采集和模型迭代闭环，海康移动机器人累计下线突破20万台，特斯拉也把柏林工厂开放给电池初创企业实测，新技术更可能先在工厂、物流和产线环境完成验证。",
+        "label": "部署验证转向可验收任务",
+        "text": "爱仕达与智元创新签署战略合作，围绕场景实训、数据采集和模型迭代搭建部署态闭环，ExRobotics在北美推出获UL认证的危险工业场所巡检机器人，特斯拉柏林工厂向电池初创企业开放产线实测，工厂、巡检和供应链测试等边界清晰的任务正在成为本周落地验证的主要入口。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事回到真实闭环",
-        "text": "模型竞争从概念转向数据与跨构型适配，蚂蚁灵波开源LingBot-VLA 2.0并披露支持17家厂商20多种机器人构型，相关讨论同时聚焦数据基础设施、模型范式和量产路径，基座模型价值正在由能否接入真实机器人和任务闭环来校验。",
+        "label": "模型竞争回到数据与泛化约束",
+        "text": "蚂蚁灵波发布并开源LingBot-VLA 2.0，披露以60000小时数据训练并支持17家机器人厂商、20多种构型，同时具身智能评测中人类100分而最强模型仅12.8分，模型叙事虽热，但真实机器人数据、跨构型适配和任务得分仍是能力兑现的关键约束。",
         "evidence_urls": []
       },
       {
-        "label": "资本押注能力补齐",
-        "text": "资本仍在加码但指向更具体能力，光象科技数亿元融资将投向物理原生基座模型迭代和商业化交付，墨奇智能成立半年完成超10亿元天使轮系列融资，高通投资者日也把汽车和具身智能放在相近路线图中，资金偏好仍强但更依赖路线差异和交付预期支撑。",
+        "label": "资本偏向场景交付和能力补齐",
+        "text": "光象科技完成数亿元融资并将资金用于物理原生基座模型迭代和商业化交付，墨奇智能完成超10亿元天使轮系列融资，宇树科技科创板IPO获注册，资金继续进入具身智能，但更集中投向可定义路线、产品交付和头部企业上市通道。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术侧集中在具身基座模型和空间感知，蚂蚁灵波VLA 2.0开源并覆盖20多种构型，讨论焦点转向数据、泛化和量产路径。",
+        "summary": "本周技术焦点集中在VLA、世界模型和空间感知，蚂蚁灵波LingBot-VLA 2.0开源并覆盖多构型机器人，同时评测低分暴露模型到真实任务仍有明显差距。",
         "items": [
           {
             "date": "07-08",
@@ -306,6 +306,20 @@
             "url": "https://www.ithome.com/0/974/115.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-08",
+            "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
+            "url": "https://www.qbitai.com/2026/07/446411.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-08",
+            "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
+            "url": "https://www.qbitai.com/2026/07/446363.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "07-07",
@@ -369,26 +383,12 @@
             "url": "https://www.leiphone.com/category/industrynews/npqwbPeARWQkGrpW.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-06",
-            "title": "蔚来世界模型OTA，70万用户没人被留在旧版本",
-            "url": "https://www.qbitai.com/2026/07/443868.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-06",
-            "title": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-            "url": "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻覆盖移动机器人、叉车、农业机器人和开源机器人，海康移动机器人累计下线突破20万台，价格、产线实测和场景适配成为能力验证的一部分。",
+        "summary": "量产新闻覆盖AMR叉车、开源机器人、农业机器人、危险场所巡检机器人和车端世界模型，价格、认证和产线实测开始成为产品能力验证的一部分。",
         "items": [
           {
             "date": "07-08",
@@ -396,6 +396,13 @@
             "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-08",
+            "title": "凯迪拉克官宣将行业首发量产 Momenta R7 世界模型",
+            "url": "https://www.ithome.com/0/974/200.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "07-07",
@@ -459,33 +466,12 @@
             "url": "https://www.leiphone.com/category/industrynews/Ql20V4DpxJjluNFB.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-06",
-            "title": "日企 TAI 完成 40nm 边缘物理 AI 芯片原型评估，目标 2027 年量产",
-            "url": "https://www.ithome.com/0/973/227.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-06",
-            "title": "6英尺高中国造机器人上身英伟达AI大脑，人形机器人终极形态亮相？",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693399.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-06",
-            "title": "海康机器人移动机器人下线突破20万台，推动行业驶入规模化应用快车道",
-            "url": "https://www.leiphone.com/category/robot/V0sjtRJAoZdt3K8y.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业侧案例不多但指向部署闭环，爱仕达与智元合作围绕实训、数据采集和模型迭代推进，日本也提出到2040年在18个领域部署1000万台AI机器人。",
+        "summary": "商业合作数量不多，但爱仕达与智元创新围绕部署态闭环合作，日本提出2040年18个领域部署1000万台AI机器人，落地需求仍以明确场景牵引。",
         "items": [
           {
             "date": "07-07",
@@ -505,8 +491,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资与上市动态延续高热度，光象科技、墨奇智能获得大额融资，Agility Robotics拟通过SPAC上市，资金关注模型路线、产品交付和具身基础设施。",
+        "summary": "宇树科技科创板IPO获注册，Agility Robotics拟通过SPAC上市，光象科技和墨奇智能获得大额融资，资本仍关注头部标的、核心模型路线和商业交付。",
         "items": [
+          {
+            "date": "07-08",
+            "title": "宇树科技科创板IPO获注册：A股人形机器人第一股即将上市",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30693726.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-07",
             "title": "从高通2026投资者日 看汽车与具身智能的同一张路线图",
@@ -520,6 +513,13 @@
             "url": "https://roboticsandautomationnews.com/2026/07/07/agility-robotics-to-go-public-through-2-5-billion-spac-merger/103130/",
             "company": "Agility Robotics",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-07",
+            "title": "Tesollo启动IPO进程，同时开发人形机器人手 (Tesollo initiates IPO process while developing humanoid hands)",
+            "url": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-06",
@@ -539,7 +539,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现规模预期与使用争议并存，国内人形机器人产量预期升温，优必选续航问题引发讨论，仓储、工厂和Robotaxi仍是高频应用方向。",
+        "summary": "行业动态呈现规模化与争议并存，中国人形机器人年产量预期提升，Robotaxi扩区、仓储自动化扩容推进，同时高价机器人续航争议提醒体验仍待验证。",
         "items": [
           {
             "date": "07-08",
@@ -561,6 +561,13 @@
             "url": "https://roboticsandautomationnews.com/2026/07/08/opinion-why-robot-dogs-are-leading-the-pack-in-factory-floor-efficiency/103175/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-08",
+            "title": "没有终点的攀爬：机器人产业的价值转移，与宇树的向上之路",
+            "url": "https://www.tmtpost.com/8056293.html",
+            "company": "宇树科技",
+            "source_name": "钛媒体"
           },
           {
             "date": "07-07",
@@ -596,19 +603,12 @@
             "url": "https://www.leiphone.com/category/industrynews/PjJzoF1Rb0WPXHxd.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-06",
-            "title": "#RoboCup2026 – 人形机器人联赛淘汰赛 (#RoboCup2026 – humanoid league knockout stages)",
-            "url": "https://robohub.org/robocup2026-humanoid-league-knockout-stages/",
-            "company": "其他",
-            "source_name": "RoboHub"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻聚焦感知、仿真和安全部件，LingBot-Depth 2.0、USDZ导出和安全认证3D超声波传感器显示上游机会需绑定具体性能瓶颈。",
+        "summary": "产业链侧围绕感知、仿真和安全补短板，LingBot-Depth 2.0、Scaniverse USDZ导出和安全认证3D超声波传感器，均服务机器人训练与人机协作。",
         "items": [
           {
             "date": "07-07",
@@ -739,6 +739,51 @@
       "category": "产品量产",
       "summary": "ABB Robotics is expanding its Autonomous Mobile Robotics (AMR) portfolio with the launch of the Flexley Stack F712, creating a complete interoperable ecosystem across all major Vis…",
       "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/"
+    },
+    {
+      "date": "07-08",
+      "company": "其他",
+      "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "真正的世界模型，不只是连续生成画面，而是能够理解空间、预测接下来的世界状态（next state）。 其中， 实时性 很重要，因为不管是机器人决策、还是游戏娱乐，>30FPS的帧率，才能被称之为“流畅”。 近期，专注于4D世界模型研发和产业化的 魔芯科技 ，联合浙江大学潘云鹤院士、华为等，正式发布：首个全栈基于 国产NPU 的实时交互世界模型 MoWorld…",
+      "url": "https://www.qbitai.com/2026/07/446411.html"
+    },
+    {
+      "date": "07-08",
+      "company": "其他",
+      "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "过去一年，VLA、机器人基础模型、世界模型轮番登场。 一个个demo看起来越来越丝滑：叠碗、插管、收纳、倒水、整理桌面，机器人似乎终于开始听懂人话、理解世界、动手干活。 但问题是：这些模型到底谁更强？强在哪里？能不能从仿真走到真实世界？离真正的通用操作机器人，还有多远？ 曾推出 RoboTwin 系列基准的原班团队，又带来了 RoboDojo ：一个统一的仿…",
+      "url": "https://www.qbitai.com/2026/07/446363.html"
+    },
+    {
+      "date": "07-08",
+      "company": "宇树科技",
+      "title": "没有终点的攀爬：机器人产业的价值转移，与宇树的向上之路",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "6月1日，宇树带着扣非净利腰斩52.55%的财报过会；一周后，SemiAnalysis发文断言它将“主导全球”。手握六成毛利、出货全球第一，宇树却难高枕无忧：产业价值不断转移，今天的护城河守不住明天的利润，唯有不停攀爬，才能留在原地",
+      "url": "https://www.tmtpost.com/8056293.html"
+    },
+    {
+      "date": "07-08",
+      "company": "其他",
+      "title": "凯迪拉克官宣将行业首发量产 Momenta R7 世界模型",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 8 日消息，2026 年 7 月 8 日（今天）， Momenta 正式在香港联合交易所主板挂牌上市 ，股票代码为“ 6880.HK ”。 凯迪拉克官方今日发文祝贺 Momenta 港股上市， 并宣布将行业首发量产 R7 世界模型 。 据IT之家此前报道，Momenta 合伙人、研发 SVP 夏炎今年 4 月在发布会上对 Momenta R…",
+      "url": "https://www.ithome.com/0/974/200.htm"
+    },
+    {
+      "date": "07-08",
+      "company": "宇树科技",
+      "title": "宇树科技科创板IPO获注册：A股人形机器人第一股即将上市",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "小财米 7月2日，中国证监会发布《关于同意宇树科技股份有限公司首次公开发行股票注册的批复》（证监许可〔2026〕1612号），同意宇树科技首次公开发行股票并在科创板上市的注册申请。从3月20日I",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30693726.html"
     },
     {
       "date": "07-07",
@@ -939,6 +984,15 @@
       "url": "https://roboticsandautomationnews.com/2026/07/07/rlwrld-launches-open-platform-to-benchmark-dexterous-robotic-hands/103146/"
     },
     {
+      "date": "07-07",
+      "company": "行业",
+      "title": "Tesollo启动IPO进程，同时开发人形机器人手 (Tesollo initiates IPO process while developing humanoid hands)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Tesollo, a South Korean robotic hand specialist, has officially begun preparations for its initial public offering. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/tesollo-initiates-ipo-process-developing-humanoid-hands/"
+    },
+    {
       "date": "07-06",
       "company": "其他",
       "title": "征程赶超｜WAIC 2026世界模型激辩：答案不在VLA或世界模型，而在？",
@@ -1045,60 +1099,6 @@
       "category": "泛具身产业链",
       "summary": "An elite artificial intelligence research alliance, including prominent scholars Fei-Fei Li, Jim Fan, and Danfei Xu, has identified a critical bottleneck in robotics: data-processi…",
       "url": "https://www.tmtpost.com/8054022.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "日企 TAI 完成 40nm 边缘物理 AI 芯片原型评估，目标 2027 年量产",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 6 日消息，日本芯片设计初创企业 TokyoArtisan Intelligence (TAI) 当地时间今日宣布，其基于 FPGA 的 40nm 边缘物理 AI 芯片原型 \"Sting Ray\" 已完成验证，迈向量产阶段。 \"Sting Ray\" 架构上的灵活性使其能同时优化适配多种模型。 其采用低功耗快响应设计 ， 面向基础设施、工业…",
-      "url": "https://www.ithome.com/0/973/227.htm"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "6英尺高中国造机器人上身英伟达AI大脑，人形机器人终极形态亮相？",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "Wired ?? Will Knight 英伟达机器人负责人向Wired透露，新一代人形机器人采用中国优必选制造的机身，搭载英伟达Jetson Orin芯片，实现中美技术",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693399.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "#RoboCup2026 – 人形机器人联赛淘汰赛 (#RoboCup2026 – humanoid league knockout stages)",
-      "source_name": "RoboHub",
-      "category": "行业动态",
-      "summary": "This weekend saw the finale of the league competitions at RoboCup 2026 in Incheon, South Korea, with the winners in the small, middle, and large humanoid divisions decided. Congrat…",
-      "url": "https://robohub.org/robocup2026-humanoid-league-knockout-stages/"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "蔚来世界模型OTA，70万用户没人被留在旧版本",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "“我自己就是ET7车主，四年多了还能用上最好的软件”—— 说这话的人是 任少卿 ，“21世纪被引次数最多的AI论文”（Nature统计结果）ResNet核心作者，也是现在 蔚来汽车 的智能驾驶研发的掌舵人。 同他一样，几天前 超70万蔚来和乐道车主用户都收到了最新版世界模型的推送更新 。 巧的是，几乎同一时间马斯克在做相同的事：给最早7年前的HW3硬件车主更…",
-      "url": "https://www.qbitai.com/2026/07/443868.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "海康机器人移动机器人下线突破20万台，推动行业驶入规模化应用快车道",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "2026年7月6日，随着一台叉取机器人走下产线，海康机器人正式宣布，其移动机器人全品类累计下线突破20万台。 从 2024年5月第10万台下线至今，海康机器人仅用两年时间便完成第二个十万台的跨越。根据《移动机器人产业联盟》最新统计，其2025年移动机器人市占率位居全球第一。在制造业智能化转型的背景下，中国移动机器人产业正从示范应用加速迈向规模化普及的新阶段…",
-      "url": "https://www.leiphone.com/category/robot/V0sjtRJAoZdt3K8y.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-      "source_name": "InfoQ",
-      "category": "技术突破",
-      "summary": "生成式世界模型能否真正用于机器人控制？这是物理 AI 领域备受争议的话题。 生成式模型的预测能力越强，模型参数往往越大，推理延迟也可能越高。而机器人控制恰恰需要极低延迟的闭环反馈。 “你不可能要求 WAM 在一个非常小的体量下达到很强的智能。但模型体量变大之后，自然很难做到实时推理，特别是 50Hz 以下的动作推理。”上海交通大学长聘教轨助理教授穆尧对 In…",
-      "url": "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI?utm_source=rss&utm_medium=article"
     }
   ]
 }
