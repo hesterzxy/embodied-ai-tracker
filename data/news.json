@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T03:28:46.512958+08:00",
+  "updated": "2026-07-09T11:23:15.576154+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
       "new": 0
@@ -24,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 6,
+      "candidates": 4,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 3,
-      "core": 2,
+      "entries": 20,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 2,
       "core": 2,
       "periphery": 0,
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 11,
-      "core": 3,
+      "candidates": 19,
+      "core": 2,
       "periphery": 0,
       "new": 2
     },
@@ -117,7 +117,7 @@
       "candidates": 7,
       "core": 7,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 20,
+      "candidates": 19,
       "core": 5,
       "periphery": 1,
-      "new": 3
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -168,8 +168,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 5,
-      "periphery": 0,
-      "new": 4
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 6,
-      "periphery": 5,
-      "new": 1
+      "candidates": 10,
+      "core": 5,
+      "periphery": 4,
+      "new": 0
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-09T03:29:16.890093+08:00",
+    "generated_at": "2026-07-09T11:23:34.452539+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周部署线索集中在工厂、危险工业巡检和场景实训，爱仕达与智元创新围绕部署态建立从实训、数据采集到模型迭代的闭环，特斯拉开放柏林工厂产线实测外部技术，ExRobotics在北美推出UL认证巡检机器人，具身智能的商业验证正在更多依赖安全、效率和产线适配等可检查指标。",
+        "text": "本周部署线索集中在工厂、维修、巡检等任务，爱仕达与智元创新围绕部署态建立场景实训、数据采集和模型迭代闭环，特斯拉开放柏林超级工厂产线实测外部电池技术，ExRobotics在北美推出获UL认证的危险工业场所巡检机器人，短期商业化更依赖安全认证、产线验证和任务闭环，而非单纯展示通用能力。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定真实数据",
-        "text": "蚂蚁灵波开源LingBot-VLA 2.0并披露60000小时数据、支持17家机器人厂商和20多种构型，同时行业讨论聚焦数据基础设施、模型范式和量产路径，而具身智能评测中最强模型仅12.8分的结果压低了单纯模型叙事的确定性，数据来源和任务闭环会成为后续能力判断的核心依据。",
+        "label": "模型竞争进入数据闭环阶段",
+        "text": "VLA、机器人基础模型和世界模型持续升温，但具身智能测试中最强模型仅12.8分而人类为100分，蚂蚁灵波发布并开源LingBot-VLA 2.0，称基于60000小时数据并支持17家机器人厂商、20多种构型，模型叙事正在从概念扩张转向真实数据规模、跨构型适配和任务反馈。",
         "evidence_urls": []
       },
       {
-        "label": "融资与上市偏向能力补齐",
-        "text": "光象科技数亿元融资投向物理原生基座模型和商业化交付，墨奇智能完成超10亿元天使轮系列融资，宇树科技科创板IPO获注册，资本仍在进入具身智能，但资金用途更多指向模型路线、产品交付和上市融资通道，项目需要用清晰场景与工程能力承接估值。",
+        "label": "融资更偏向能力补齐",
+        "text": "光象科技获得数亿元融资并将资金投向物理原生基座模型迭代和商业化交付，中科新松完成新一轮数亿元股权融资，宇树科技科创板IPO获注册，资本仍在流入具身智能，但更关注工业场景、模型路线差异化和上市通道等可定义资产。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧重点落在基座模型、世界模型和空间感知，LingBot-VLA 2.0多次发布信息强调开源、60000小时数据与20多种构型支持，评测低分也提示泛化能力仍待验证。",
+        "summary": "本周技术侧围绕VLA、世界模型和空间感知展开，蚂蚁灵波LingBot-VLA 2.0开源并强调60000小时数据与多构型支持，行业也在讨论模型评测差距和概念边界。",
         "items": [
           {
             "date": "07-08",
@@ -376,20 +376,20 @@
             "url": "https://www.ithome.com/0/972/930.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-06",
-            "title": "清华火神队成功卫冕RoboCup 2026世界冠军，加速进化构筑全球具身智能“通用底座”",
-            "url": "https://www.leiphone.com/category/industrynews/npqwbPeARWQkGrpW.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产消息覆盖自动叉车、车端世界模型、开源机器人、农业机器人和危险场所巡检，特斯拉柏林工厂开放产线实测，价格、认证和真实产线适配成为产品可信度依据。",
+        "summary": "量产新闻覆盖机器人、传感器应用和智能汽车模型，特斯拉Optimus进入量产落地阶段，科沃斯发布49990元开源机器人，凯迪拉克宣布首发量产Momenta R7世界模型。",
         "items": [
+          {
+            "date": "07-09",
+            "title": "速腾聚创公布2026半年度销量：半年交付71.92万台，机器人大增510%，Q2增长170%",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321206-8420-30693791.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-08",
             "title": "ABB Robotics 推出自动叉车，完善 Visual SLAM AMR 产品线 (ABB Robotics completes Visual SLAM AMR range with autonomous forklift launch)",
@@ -459,19 +459,12 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321202-8460-30693301.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-06",
-            "title": "打破末端配送壁垒，佑驾创新正式发布四轮足机器人",
-            "url": "https://www.leiphone.com/category/industrynews/Ql20V4DpxJjluNFB.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地证据较少但指向明确，爱仕达与智元创新签署战略合作推进部署态闭环，日本提出2040年18个领域部署1000万台AI机器人，需求主要来自劳动力与场景验证。",
+        "summary": "商业落地证据不多但指向清晰，爱仕达与智元创新签署战略合作，围绕部署态建设从场景实训到模型迭代的闭环，日本则提出2040年部署1000万台AI机器人目标。",
         "items": [
           {
             "date": "07-07",
@@ -491,8 +484,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，宇树科技科创板IPO获注册，Agility Robotics拟通过SPAC上市，光象科技和墨奇智能获得大额融资，资金继续押注模型路线、灵巧手与商业交付。",
+        "summary": "资本动态较活跃，中科新松和光象科技完成数亿元融资，墨奇智能完成超10亿元天使轮系列融资，宇树科技IPO获注册，Agility Robotics拟通过SPAC上市。",
         "items": [
+          {
+            "date": "07-09",
+            "title": "中科院新松系工业具身智能领军者，完成数亿元股权融资！",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30693772.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-08",
             "title": "宇树科技科创板IPO获注册：A股人形机器人第一股即将上市",
@@ -539,8 +539,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业关注点从单一人形热度扩展到效率与运营，优必选续航争议、特斯拉Robotaxi扩张、机器狗工厂效率讨论和仓储自动化案例共同指向真实使用体验。",
+        "summary": "行业讨论同时关注规模化与争议，工信部披露我国人形机器人今年整机产量有望破10万台，优必选99万机器人续航引发热议，机器狗工厂效率和仓储自动化继续被关注。",
         "items": [
+          {
+            "date": "07-09",
+            "title": "拆了一台宇树机器人，美国研究机构说它会是下一个比亚迪",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693750.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-08",
             "title": "99万机器人续航引争议，优必选的三重碰撞",
@@ -596,20 +603,20 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693331.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-06",
-            "title": "独家丨ACM戈登贝尔奖得主杨超领衔，北大系顶尖团队入局物理 AI 底层基建",
-            "url": "https://www.leiphone.com/category/industrynews/PjJzoF1Rb0WPXHxd.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻集中在感知、仿真和安全传感，LingBot-Depth 2.0、LingBot-Vision、Scaniverse USDZ导出和Sonair安全认证3D超声波传感器补足机器人环境理解能力。",
+        "summary": "产业链新闻集中在感知和仿真工具，速腾聚创上半年激光雷达销量71.92万台且机器人业务大增，Sonair发布获安全认证3D超声波传感器，灵波发布空间感知模型。",
         "items": [
+          {
+            "date": "07-09",
+            "title": "速腾聚创 2026 上半年激光雷达销量 71.92 万台，机器人业务同比大增 510%",
+            "url": "https://www.ithome.com/0/974/311.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-07",
             "title": "机器人视觉迎来新突破！蚂蚁灵波空间感知模型LingBot-Depth 2.0正式发布",
@@ -637,19 +644,48 @@
             "url": "https://roboticsandautomationnews.com/2026/07/07/robbyant-launches-lingbot-depth-2-0-and-lingbot-vision-for-advanced-robotic-spatial-perception/103088/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-06",
-            "title": "触觉困境：为何多感官融合阻碍了机器人进展，以及AI先驱如何修复这一问题 (The Trouble with Touch: Why Merging Senses Has Hindered Robotic Progress—And How AI Pioneers Are Fixing It)",
-            "url": "https://www.tmtpost.com/8054022.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "07-09",
+      "company": "其他",
+      "title": "速腾聚创 2026 上半年激光雷达销量 71.92 万台，机器人业务同比大增 510%",
+      "source_name": "IT之家",
+      "category": "泛具身产业链",
+      "summary": "IT之家 7 月 9 日消息，速腾聚创今日发布自愿公告，披露了截至 2026 年 6 月 30 日止六个月的未经审核运营数据。 公告显示，公司激光雷达产品上半年总销量达 719,200 台，同比增长 170%。其中，用于 ADAS（IT之家注：高级驾驶辅助系统）应用的激光雷达销量为 436,600 台，同比增长 98%；用于机器人及其他领域的激光雷达销量为…",
+      "url": "https://www.ithome.com/0/974/311.htm"
+    },
+    {
+      "date": "07-09",
+      "company": "其他",
+      "title": "速腾聚创公布2026半年度销量：半年交付71.92万台，机器人大增510%，Q2增长170%",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "7月9日，速腾聚创公布2026上半年销量数据，公司激光雷达产品总销量719,200台，同比增长170%。其中，机器人领域销量282,600台，同比大幅增长510%；ADAS领域销量436,600台，同 其它 | <div",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321206-8420-30693791.html"
+    },
+    {
+      "date": "07-09",
+      "company": "行业",
+      "title": "中科院新松系工业具身智能领军者，完成数亿元股权融资！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "7月8日，中科新松有限公司(简称“中科新松”)完成新一轮股权融资。据悉，2026年6月，该公司正式完成A+轮数亿元股权融资，由洪泰基金、鼎晖百孚联合领投，诚通基金、大众聚鼎、广州素元等知名资本跟投，老",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30693772.html"
+    },
+    {
+      "date": "07-09",
+      "company": "宇树科技",
+      "title": "拆了一台宇树机器人，美国研究机构说它会是下一个比亚迪",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "在人形机器人行业，宇树一直是一个充满争议的存在。此前硅基君也有过系列文章:宇树科技：史上“最奇怪”的IPO公司别被6亿利润“骗”了！最赚钱的硬件，恰恰是宇树的最大风险 支持者认为，它是机器人领域的比亚",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693750.html"
+    },
     {
       "date": "07-08",
       "company": "优必选",
@@ -1063,42 +1099,6 @@
       "category": "资本动态",
       "summary": "近日，具身智能企业墨奇智能（Morphi）正式宣布完成超10亿元天使轮系列融资。本轮融资由阿里巴巴、腾讯联袂投资，蓝驰创投、君联资本、华业天成、高榕资本、中科创星、源码资本、光合创投、柏睿资本、58产业基金等十余家一线机构共同参投。融资完成后，公司估值突破70亿元，创下国内具身智能赛道公开披露首轮融资的规模纪录。 墨奇智能成立于2025年底，由黄青虬与高文礼…",
       "url": "https://www.leiphone.com/category/industrynews/P6qnUcERGBlK5wJZ.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "独家丨ACM戈登贝尔奖得主杨超领衔，北大系顶尖团队入局物理 AI 底层基建",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "summary": "雷峰网AI科技 独家获悉，一支北大出身、手握国际顶级超算成果的核心技术团队已完 成 市场化主体搭建，正式布局物理AI底层基础设施赛道。 团队由北京大学杨超教授领衔，杨超是我国首位 ACM 戈登贝尔奖得主，2016 年带领团队拿下该国际超算最高荣誉，实现了我国在该奖项上零的突破；其本人也获评首届王选杰出青年学者奖，在高性能计算、数值仿真、人工智能等领域长期深耕…",
-      "url": "https://www.leiphone.com/category/industrynews/PjJzoF1Rb0WPXHxd.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "打破末端配送壁垒，佑驾创新正式发布四轮足机器人",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "7月6日，佑驾创新（2431.HK）正式发布「Combo」全链路无人物流闭环方案，由其旗下曜行动力打造的四轮足式机器人同步亮相。依托自动驾驶底层技术与物理AI能力，佑驾创新首次以“无人车+机器人”打通物流转运到上门配送的完整链路，直击行业长期存在的“最后一米”难题。 本次方案发布，既是曜行动力首款具身智能产品的首秀，也是佑驾创新向全场景物理AI科技企业战略升…",
-      "url": "https://www.leiphone.com/category/industrynews/Ql20V4DpxJjluNFB.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "清华火神队成功卫冕RoboCup 2026世界冠军，加速进化构筑全球具身智能“通用底座”",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "【韩国仁川，2026年7月5日】 今日，2026年RoboCup（机器人世界杯）在韩国仁川正式落下帷幕。在备受瞩目的人形机器人项目中，中国战队清华火神队搭载加速进化 Booster T1，成功卫冕 Large 组世界冠军。继去年在巴西打破中国战队 28 年冠军荒后，火神队在面对全球顶尖强队的针对性挑战下再次登顶，证明了其在具身智能算法领域的领先水平。与此同时…",
-      "url": "https://www.leiphone.com/category/industrynews/npqwbPeARWQkGrpW.html"
-    },
-    {
-      "date": "07-06",
-      "company": "其他",
-      "title": "触觉困境：为何多感官融合阻碍了机器人进展，以及AI先驱如何修复这一问题 (The Trouble with Touch: Why Merging Senses Has Hindered Robotic Progress—And How AI Pioneers Are Fixing It)",
-      "source_name": "钛媒体",
-      "category": "泛具身产业链",
-      "summary": "An elite artificial intelligence research alliance, including prominent scholars Fei-Fei Li, Jim Fan, and Danfei Xu, has identified a critical bottleneck in robotics: data-processi…",
-      "url": "https://www.tmtpost.com/8054022.html"
     }
   ]
 }
