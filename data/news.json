@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T22:30:28.437376+08:00",
+  "updated": "2026-07-11T03:29:56.601408+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 57,
-      "candidates": 27,
+      "candidates": 26,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -135,9 +135,10 @@
     {
       "name": "新战略移动机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 404: Not Found",
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
       "entries": 0,
       "candidates": 0,
       "core": 0,
@@ -191,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 2,
-      "periphery": 2,
-      "new": 0
+      "candidates": 9,
+      "core": 5,
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -233,36 +234,36 @@
       "candidates": 68,
       "core": 21,
       "periphery": 11,
-      "new": 2
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-10T22:30:58.967523+08:00",
+    "generated_at": "2026-07-11T03:30:14.394514+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "量产节奏成为验收指标",
-        "text": "具身智能落地验证正从演示能力转向交付、产线和产能约束，特斯拉第三代 Optimus 完成定型并启动量产筹备，目标包括9月1000台每周、年底2500台每周，至简动力完成首批百台 i7 Pro 交付并落成 CNC 智能化产线，厂商需要用稳定交付和可验收任务来证明产品成熟度。",
+        "label": "量产门槛前移到交付与部署",
+        "text": "特斯拉第三代Optimus完成定型并启动量产筹备，目标包含9月每周1000台、年底每周2500台及10万台量产红线；至简动力完成首批百台i7 Pro交付并落成CNC智能化具身机器人产线，RoboDK推出可将机器人加工部署时间缩短最高40%的CAM软件，量产能力正与部署效率一起成为机器人能力验证的一部分。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事回到真实闭环",
-        "text": "世界模型、VLA 和视频基模继续密集开源，蚂蚁灵波 LingBot-VLA 2.0 支持17家机器人厂商20多种构型，LingBot-World 2.0 强调实时交互和小时级生成，同时 LaST-HD 相关讨论指出仿真数据仍受虚实鸿沟限制，模型进展正在被真实数据、跨构型适配和任务表现重新校准。",
+        "label": "模型竞争转向数据和任务闭环",
+        "text": "蚂蚁灵波集中开源LingBot-VLA 2.0、LingBot-World 2.0、LingBot-Video等模型，覆盖视觉、动作、操作和物理预测，并支持17家机器人厂商20多种构型；同时人手数据研究强调仿真采集仍受虚实鸿沟限制，具身模型的评价重心正在从概念发布转向真实数据、物理预测和可执行任务。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向明确工业切口",
-        "text": "本周融资集中在工业具身智能和具体能力补齐，中科新松完成数亿元股权融资，昇视唯盛以智能焊工和自研焊接具身大脑模型切入制造场景并完成数亿元 B 轮融资，另有公司半年融资超10亿元且估值突破70亿元，资金仍活跃但更愿意押注场景边界清晰、能力可定义的方向。",
+        "label": "资本偏向工业场景落点",
+        "text": "中科新松完成新一轮数亿元股权融资，昇视唯盛以自研焊接具身大脑和智能焊工切入工业制造并完成数亿元B轮融资，另有企业半年完成超十亿元天使轮系列融资且估值突破七十亿元，资金仍在进入赛道，但更容易围绕焊接、工业制造等可定义场景形成叙事。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在世界模型、VLA、视频基模和人手数据，蚂蚁灵波多项模型开源，行业同时承认仿真到现实仍有鸿沟，评测成绩也显示模型能力距离人类水平仍远。",
+        "summary": "本周技术进展集中在蚂蚁灵波多模型开源、世界模型实时交互和视频基模上，同时人手数据与虚实鸿沟被反复讨论，模型能力开始被放到物理预测与动作结果中检验。",
         "items": [
           {
             "date": "07-09",
@@ -382,26 +383,12 @@
             "url": "https://www.qbitai.com/2026/07/446363.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-07",
-            "title": "从共识到非共识：科技有「联想」沙龙首场活动直击具身智能产业化“三大困惑”",
-            "url": "https://www.qbitai.com/2026/07/445443.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-07",
-            "title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
-            "url": "https://www.qbitai.com/2026/07/445230.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品量产新闻围绕特斯拉 Optimus 定型、周产能目标、至简动力百台交付、无界动力 K15 获工业级全域 CE 认证和速腾聚创销量增长展开，交付规模与认证成为新焦点。",
+        "summary": "产品量产消息密集，特斯拉Optimus v3完成定型并提出周产目标，至简动力百台交付，无界动力K15获工业级全域CE认证，部署工具和传感器销量也同步出现放量信号。",
         "items": [
           {
             "date": "07-10",
@@ -437,6 +424,20 @@
             "url": "https://www.ithome.com/0/975/318.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-10",
+            "title": "RoboDK 推出 CAM 软件，可将机器人加工部署时间缩短“高达 40% (RoboDK unveils CAM software that cuts robotic machining deployment time ‘by up to 40 percent’)",
+            "url": "https://roboticsandautomationnews.com/2026/07/10/robodk-unveils-cam-software-that-cuts-robotic-machining-deployment-time-by-up-to-40-percent/103239/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-10",
+            "title": "Richtech Robotics推出AI机器人ADAM 24/7互动直播 (Richtech Robotics launches 24/7 interactive livestream featuring AI robot ADAM)",
+            "url": "https://roboticsandautomationnews.com/2026/07/10/richtech-robotics-launches-24-7-interactive-livestream-featuring-ai-robot-adam/103234/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-09",
@@ -477,7 +478,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据较少，主要包括特斯拉三代擎天柱初步定型后传出8月数百台订单，以及宇树、优必选被放入中国人形机器人商业化实验语境，订单验证仍处早期。",
+        "summary": "商业订单线索仍较少，主要集中在特斯拉三代擎天柱8月数百台订单传闻，以及宇树、优必选被放入中国人形机器人商业化实验框架，实际可验收订单披露有限。",
         "items": [
           {
             "date": "07-09",
@@ -497,8 +498,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态保持高热度，中科新松、昇视唯盛均获数亿元融资，另有公司半年融资超10亿元且估值突破70亿元，宇树科创板 IPO 获注册，退出通道预期升温。",
+        "summary": "资本动态延续高热度，中科新松、昇视唯盛均完成数亿元融资，Fieldwork Robotics获投资扩大香蕉采摘机器人规模，另有半年超十亿元融资案例，资金偏向具备明确场景的团队。",
         "items": [
+          {
+            "date": "07-10",
+            "title": "Fieldwork Robotics获SEED Innovations投资，扩大浆果采摘机器人规模 (Fieldwork Robotics secures SEED Innovations investment to scale berry harvesting robots)",
+            "url": "https://roboticsandautomationnews.com/2026/07/10/fieldwork-robotics-secures-seed-innovations-investment-to-scale-berry-harvesting-robots/103251/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "07-09",
             "title": "中科院新松系工业具身智能领军者，完成数亿元股权融资！",
@@ -526,26 +534,12 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321206-8420-30693860.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-08",
-            "title": "宇树科技科创板IPO获注册：A股人形机器人第一股即将上市",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30693726.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-07",
-            "title": "从高通2026投资者日 看汽车与具身智能的同一张路线图",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321201-8460-30693493.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖电池供应、监管、医疗、建筑和工厂软件化，LG 能源南京工厂应对圆柱电池需求，新泽西拟限制纯视觉自动驾驶，宇树 G1 被用于远程动物外科手术。",
+        "summary": "行业动态覆盖电池供应、自动驾驶监管、安全平台、建筑工地和手术场景，LG新能源南京工厂拟应对圆柱电池需求，新泽西州拟限制纯视觉自动驾驶，具身应用边界继续外扩。",
         "items": [
           {
             "date": "07-10",
@@ -567,6 +561,13 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30694015.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-10",
+            "title": "FORT Robotics 借助 Nvidia Halos 拓展物理 AI 安全平台 (FORT Robotics extends physical AI safety platform with Nvidia Halos)",
+            "url": "https://roboticsandautomationnews.com/2026/07/10/fort-robotics-extends-physical-ai-safety-platform-with-nvidia-halos/103254/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-09",
@@ -635,7 +636,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链本周主要由速腾聚创数据体现，其2026年上半年激光雷达销量达71.92万台，机器人业务同比大增510%，传感器环节受机器人需求拉动明显。",
+        "summary": "产业链侧以速腾聚创为代表，2026年上半年激光雷达销量达71.92万台，同比增长170%，机器人业务同比大增510%，感知硬件放量与机器人需求增长形成直接关联。",
         "items": [
           {
             "date": "07-09",
@@ -720,6 +721,42 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 10 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）将于 7 月 17 日至 20 日在上海世博、张江、西岸“三地四馆”同步举行。 本届大会以“智能伙伴共创未来”为主题，由外交部、国家发展改革委、工业和信息化部等十部委与上海市人民政府共同主办。据财联社消息，上纬新材将在展会期间推出全球首个可变形个人机器…",
       "url": "https://www.ithome.com/0/975/318.htm"
+    },
+    {
+      "date": "07-10",
+      "company": "其他",
+      "title": "FORT Robotics 借助 Nvidia Halos 拓展物理 AI 安全平台 (FORT Robotics extends physical AI safety platform with Nvidia Halos)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "FORT Robotics, the “Trust Layer” for physical AI, has announced joining the Nvidia Halos for Robotics ecosystem that’s bringing safety to autonomous robots. FORT will demonstrate a…",
+      "url": "https://roboticsandautomationnews.com/2026/07/10/fort-robotics-extends-physical-ai-safety-platform-with-nvidia-halos/103254/"
+    },
+    {
+      "date": "07-10",
+      "company": "其他",
+      "title": "Fieldwork Robotics获SEED Innovations投资，扩大浆果采摘机器人规模 (Fieldwork Robotics secures SEED Innovations investment to scale berry harvesting robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Fieldwork Robotics, developers of selective, adaptive and modular harvesting robots, has agreed an investment from SEED Innovations, the AIM-quoted investing company chaired by pro…",
+      "url": "https://roboticsandautomationnews.com/2026/07/10/fieldwork-robotics-secures-seed-innovations-investment-to-scale-berry-harvesting-robots/103251/"
+    },
+    {
+      "date": "07-10",
+      "company": "其他",
+      "title": "RoboDK 推出 CAM 软件，可将机器人加工部署时间缩短“高达 40% (RoboDK unveils CAM software that cuts robotic machining deployment time ‘by up to 40 percent’)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "RoboDK, a provider of offline programming and simulation software for robots, has launched RoboDK CAM software, demonstrating how robotic machining programs can be generated direct…",
+      "url": "https://roboticsandautomationnews.com/2026/07/10/robodk-unveils-cam-software-that-cuts-robotic-machining-deployment-time-by-up-to-40-percent/103239/"
+    },
+    {
+      "date": "07-10",
+      "company": "其他",
+      "title": "Richtech Robotics推出AI机器人ADAM 24/7互动直播 (Richtech Robotics launches 24/7 interactive livestream featuring AI robot ADAM)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Richtech Robotics, a Nevada-based provider of AI-driven service robots, has launched a new initiative: a live, 24/7 interactive streaming platform featuring the company’s AI-powere…",
+      "url": "https://roboticsandautomationnews.com/2026/07/10/richtech-robotics-launches-24-7-interactive-livestream-featuring-ai-robot-adam/103234/"
     },
     {
       "date": "07-09",
@@ -1062,42 +1099,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 8 日消息，2026 年 7 月 8 日（今天）， Momenta 正式在香港联合交易所主板挂牌上市 ，股票代码为“ 6880.HK ”。 凯迪拉克官方今日发文祝贺 Momenta 港股上市， 并宣布将行业首发量产 R7 世界模型 。 据IT之家此前报道，Momenta 合伙人、研发 SVP 夏炎今年 4 月在发布会上对 Momenta R…",
       "url": "https://www.ithome.com/0/974/200.htm"
-    },
-    {
-      "date": "07-08",
-      "company": "宇树科技",
-      "title": "宇树科技科创板IPO获注册：A股人形机器人第一股即将上市",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "小财米 7月2日，中国证监会发布《关于同意宇树科技股份有限公司首次公开发行股票注册的批复》（证监许可〔2026〕1612号），同意宇树科技首次公开发行股票并在科创板上市的注册申请。从3月20日I",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30693726.html"
-    },
-    {
-      "date": "07-07",
-      "company": "其他",
-      "title": "从高通2026投资者日 看汽车与具身智能的同一张路线图",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "最近的高通2026投资者日上，最大的新闻当然是关于AI的数据中心的内容： Dragonfly 用于智能体的CPU、 高带宽计算HBC直接将内存和计算3D堆叠一起、 收购AI原生软件公司Modular（",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321201-8460-30693493.html"
-    },
-    {
-      "date": "07-07",
-      "company": "其他",
-      "title": "从共识到非共识：科技有「联想」沙龙首场活动直击具身智能产业化“三大困惑”",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "6月30日， 由联想控股微空间、联想之星和融科资讯中心共同发起的“科技有「联想」”线下沙龙首场活动“硅基进化论”在京举行 。活动聚集具身智能学术、创业、产业与投资领域的8位嘉宾，围绕数据基础设施、模型范式演进、量产落地与商业化路径等核心议题，展开了一场“共识与非共识”的深度思辨。 活动首个环节“白板开放麦”不走寻常路——主办方刻意规避行业套话，邀请七位嘉宾分…",
-      "url": "https://www.qbitai.com/2026/07/445443.html"
-    },
-    {
-      "date": "07-07",
-      "company": "其他",
-      "title": "刚刚，首个空间原生的具身视觉基模开源！机器人更会看我们的世界了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "这一次， 机器人 更能 看懂 我们的 真实世界 了。 视频地址： https://mp.weixin.qq.com/s/z1iVG8ZKv3Rj8TOMB6eezQ 视频中最左侧的是我们真实世界的画面效果；中间的视频是未经算法美化的原始深度图，很明显，杯子的轮廓是破碎，部分杯壁和背景是混在一起的，香槟塔也像是被挖掉了不少空洞，几乎看不出形状轮廓…… 但现在机…",
-      "url": "https://www.qbitai.com/2026/07/445230.html"
     }
   ]
 }
