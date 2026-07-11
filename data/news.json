@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T03:29:56.601408+08:00",
+  "updated": "2026-07-11T10:43:57.200549+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 26,
-      "candidates": 7,
-      "core": 0,
+      "entries": 28,
+      "candidates": 13,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "雷峰网",
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 2,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
       "core": 2,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 57,
-      "candidates": 26,
-      "core": 1,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 6,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 9,
       "core": 5,
       "periphery": 1,
-      "new": 5
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,31 +240,38 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-11T03:30:14.394514+08:00",
+    "generated_at": "2026-07-11T10:44:13.649871+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "量产门槛前移到交付与部署",
-        "text": "特斯拉第三代Optimus完成定型并启动量产筹备，目标包含9月每周1000台、年底每周2500台及10万台量产红线；至简动力完成首批百台i7 Pro交付并落成CNC智能化具身机器人产线，RoboDK推出可将机器人加工部署时间缩短最高40%的CAM软件，量产能力正与部署效率一起成为机器人能力验证的一部分。",
+        "label": "落地验证转向可验收场景",
+        "text": "三菱汽车将在日本工厂启动人形机器人量产，并与 Highlanders 合作开发工厂用机器人，清水建设也计划在工地引入 AI 人形机器人，近期落地重心更多落在工厂、工地等任务边界清晰的场景，商业化评价正在从演示能力转向能否稳定替代具体工序。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争转向数据和任务闭环",
-        "text": "蚂蚁灵波集中开源LingBot-VLA 2.0、LingBot-World 2.0、LingBot-Video等模型，覆盖视觉、动作、操作和物理预测，并支持17家机器人厂商20多种构型；同时人手数据研究强调仿真采集仍受虚实鸿沟限制，具身模型的评价重心正在从概念发布转向真实数据、物理预测和可执行任务。",
+        "label": "量产节奏成为能力检验",
+        "text": "特斯拉第三代 Optimus 已完成定型并启动量产筹备，市场消息提到 9 月每周 1000 台、年底每周 2500 台及 10 万台量产红线，至简动力完成首批百台 i7 Pro 交付并落成 CNC 智能化具身机器人产线，产能、交付和一致性开始与模型能力一起构成企业竞争力。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向工业场景落点",
-        "text": "中科新松完成新一轮数亿元股权融资，昇视唯盛以自研焊接具身大脑和智能焊工切入工业制造并完成数亿元B轮融资，另有企业半年完成超十亿元天使轮系列融资且估值突破七十亿元，资金仍在进入赛道，但更容易围绕焊接、工业制造等可定义场景形成叙事。",
+        "label": "资本偏向明确工业切口",
+        "text": "中科新松完成数亿元股权融资，昇视唯盛以自研焊接具身大脑和智能焊工切入工业制造并完成数亿元 B 轮融资，另有企业半年完成超十亿元天使轮系列融资且估值突破七十亿元，资金仍在进入赛道，但更容易流向有明确任务、客户场景和能力补齐路径的团队。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术进展集中在蚂蚁灵波多模型开源、世界模型实时交互和视频基模上，同时人手数据与虚实鸿沟被反复讨论，模型能力开始被放到物理预测与动作结果中检验。",
+        "summary": "本周技术进展集中在世界模型、视频基模、VLA 和人手数据等方向，蚂蚁灵波连续开源多项模型，讨论重点从榜单性能转向物理预测、交互生成和真实数据闭环。",
         "items": [
+          {
+            "date": "07-11",
+            "title": "36氪首发 | 三个月融三轮，上交大00后博士让具身智能仿生扑翼机器人理解并驾驭流体",
+            "url": "https://36kr.com/p/3889516712065799?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
           {
             "date": "07-09",
             "title": "世界模型首次迎来“小时级”生成！蚂蚁灵波开源LingBot-World 2.0，支持AI原生多人交互",
@@ -369,27 +376,20 @@
             "url": "https://www.ithome.com/0/974/115.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-08",
-            "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
-            "url": "https://www.qbitai.com/2026/07/446411.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-08",
-            "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
-            "url": "https://www.qbitai.com/2026/07/446363.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品量产消息密集，特斯拉Optimus v3完成定型并提出周产目标，至简动力百台交付，无界动力K15获工业级全域CE认证，部署工具和传感器销量也同步出现放量信号。",
+        "summary": "量产新闻明显增多，特斯拉 Optimus 三代进入量产筹备，三菱将在日本工厂启动人形机器人量产，无界动力 K15 获工业级全域 CE 认证并开启批量交付。",
         "items": [
+          {
+            "date": "07-11",
+            "title": "三菱汽车将量产人形机器人，未来或考虑对外销售",
+            "url": "https://36kr.com/newsflashes/3890533170248454?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
           {
             "date": "07-10",
             "title": "特斯拉三代 Optimus 定了！量产红线是10 万台",
@@ -466,19 +466,12 @@
             "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-08",
-            "title": "凯迪拉克官宣将行业首发量产 Momenta R7 世界模型",
-            "url": "https://www.ithome.com/0/974/200.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单线索仍较少，主要集中在特斯拉三代擎天柱8月数百台订单传闻，以及宇树、优必选被放入中国人形机器人商业化实验框架，实际可验收订单披露有限。",
+        "summary": "订单线索仍偏少，特斯拉三代擎天柱被称已有 8 月数百台具体订单，宇树和优必选相关报道更多呈现商业化实验，尚未形成大规模可复用订单证据。",
         "items": [
           {
             "date": "07-09",
@@ -498,7 +491,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态延续高热度，中科新松、昇视唯盛均完成数亿元融资，Fieldwork Robotics获投资扩大香蕉采摘机器人规模，另有半年超十亿元融资案例，资金偏向具备明确场景的团队。",
+        "summary": "融资仍保持高热度，中科新松、昇视唯盛完成数亿元融资，AI² Robotics 获 7.35 亿美元融资，资本关注工业制造、采摘机器人和轮式人形等具体场景。",
         "items": [
           {
             "date": "07-10",
@@ -506,6 +499,13 @@
             "url": "https://roboticsandautomationnews.com/2026/07/10/fieldwork-robotics-secures-seed-innovations-investment-to-scale-berry-harvesting-robots/103251/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-10",
+            "title": "AI² Robotics 为轮式人形机器人融资7.35亿美元，估值30亿美元 (AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots)",
+            "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-09",
@@ -539,8 +539,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖电池供应、自动驾驶监管、安全平台、建筑工地和手术场景，LG新能源南京工厂拟应对圆柱电池需求，新泽西州拟限制纯视觉自动驾驶，具身应用边界继续外扩。",
+        "summary": "行业动态围绕工厂、建筑、手术和安全合规展开，三菱与 Highlanders 合作开发工厂机器人，清水建设计划工地引入 AI 人形机器人，FORT Robotics 扩展物理 AI 安全平台。",
         "items": [
+          {
+            "date": "07-11",
+            "title": "三菱与初创公司 Highlanders 合作研发人形机器人，应对日本劳动力短缺",
+            "url": "https://www.ithome.com/0/975/389.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-10",
             "title": "消息称 LG 新能源年内启用南京 9 号工厂，应对特斯拉等对圆柱电池需求",
@@ -624,19 +631,12 @@
             "url": "https://roboticsandautomationnews.com/2026/07/08/opinion-why-robot-dogs-are-leading-the-pack-in-factory-floor-efficiency/103175/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-08",
-            "title": "没有终点的攀爬：机器人产业的价值转移，与宇树的向上之路",
-            "url": "https://www.tmtpost.com/8056293.html",
-            "company": "宇树科技",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧以速腾聚创为代表，2026年上半年激光雷达销量达71.92万台，同比增长170%，机器人业务同比大增510%，感知硬件放量与机器人需求增长形成直接关联。",
+        "summary": "产业链数据有限但显示机器人感知需求增长，速腾聚创 2026 年上半年激光雷达销量 71.92 万台，机器人业务同比大增 510%，传感器环节受益于具身应用扩展。",
         "items": [
           {
             "date": "07-09",
@@ -650,6 +650,33 @@
     ]
   },
   "items": [
+    {
+      "date": "07-11",
+      "company": "其他",
+      "title": "36氪首发 | 三个月融三轮，上交大00后博士让具身智能仿生扑翼机器人理解并驾驭流体",
+      "source_name": "36氪",
+      "category": "技术突破",
+      "summary": "图源/企业 本文约 2400 字，建议阅读 6 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，具身智能仿生扑翼飞行机器人公司「鹰瞰智翼」已于近期完成数千万元A轮融资。本轮融资是公司在三个月内完成的第三轮融资，由元禾璞华领投，孚腾资本、厚雪资本跟投。资金将主要用于首款消费级产品的量产备货、市场拓展，团队扩充以及下一代具身智能扑翼机器人与流体仿真引擎的研发。 「鹰瞰…",
+      "url": "https://36kr.com/p/3889516712065799?f=rss"
+    },
+    {
+      "date": "07-11",
+      "company": "其他",
+      "title": "三菱汽车将量产人形机器人，未来或考虑对外销售",
+      "source_name": "36氪",
+      "category": "产品量产",
+      "summary": "三菱汽车7月9日表示，将在日本工厂启动人形机器人量产。三菱汽车与其投资的新兴企业Highlanders共同开发的人形机器人将于2027年左右投产，并率先导入自有工厂使用，未来还将考虑对外销售。公司将在生产发动机的京都工厂闲置空间新建生产设备，月产能计划为1000台。（界面）",
+      "url": "https://36kr.com/newsflashes/3890533170248454?f=rss"
+    },
+    {
+      "date": "07-11",
+      "company": "其他",
+      "title": "三菱与初创公司 Highlanders 合作研发人形机器人，应对日本劳动力短缺",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 11 日消息，据汽车媒体 Carscoops 今天报道，三菱现已与初创公司 Highlanders 达成合作，共同开发工厂用人形机器人，未来有望缓解日本长期存在的劳动力短缺问题。 IT之家在此援引 Carscoops，三菱此前已经对 Highlanders 进行投资，并表示未来可能继续追加资金。双方将联合开发人形机器人， 并计划在三菱位于京…",
+      "url": "https://www.ithome.com/0/975/389.htm"
+    },
     {
       "date": "07-10",
       "company": "特斯拉",
@@ -757,6 +784,15 @@
       "category": "产品量产",
       "summary": "Richtech Robotics, a Nevada-based provider of AI-driven service robots, has launched a new initiative: a live, 24/7 interactive streaming platform featuring the company’s AI-powere…",
       "url": "https://roboticsandautomationnews.com/2026/07/10/richtech-robotics-launches-24-7-interactive-livestream-featuring-ai-robot-adam/103234/"
+    },
+    {
+      "date": "07-10",
+      "company": "行业",
+      "title": "AI² Robotics 为轮式人形机器人融资7.35亿美元，估值30亿美元 (AI² Robotics raises $735M at $3B valuation for wheeled humanoid robots)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Shenzhen’s Ai2 Robotics raised $735 million at a $2.8 billion valuation, backed by state, corporate, and financial giants. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
     },
     {
       "date": "07-09",
@@ -1063,42 +1099,6 @@
       "category": "产品量产",
       "summary": "ABB Robotics is expanding its Autonomous Mobile Robotics (AMR) portfolio with the launch of the Flexley Stack F712, creating a complete interoperable ecosystem across all major Vis…",
       "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "50FPS、成本打掉70%，魔芯MoWorld把世界模型带进产业时代",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "真正的世界模型，不只是连续生成画面，而是能够理解空间、预测接下来的世界状态（next state）。 其中， 实时性 很重要，因为不管是机器人决策、还是游戏娱乐，>30FPS的帧率，才能被称之为“流畅”。 近期，专注于4D世界模型研发和产业化的 魔芯科技 ，联合浙江大学潘云鹤院士、华为等，正式发布：首个全栈基于 国产NPU 的实时交互世界模型 MoWorld…",
-      "url": "https://www.qbitai.com/2026/07/446411.html"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "具身智能“高考”难疯了！人类100分，最强模型12.8",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "过去一年，VLA、机器人基础模型、世界模型轮番登场。 一个个demo看起来越来越丝滑：叠碗、插管、收纳、倒水、整理桌面，机器人似乎终于开始听懂人话、理解世界、动手干活。 但问题是：这些模型到底谁更强？强在哪里？能不能从仿真走到真实世界？离真正的通用操作机器人，还有多远？ 曾推出 RoboTwin 系列基准的原班团队，又带来了 RoboDojo ：一个统一的仿…",
-      "url": "https://www.qbitai.com/2026/07/446363.html"
-    },
-    {
-      "date": "07-08",
-      "company": "宇树科技",
-      "title": "没有终点的攀爬：机器人产业的价值转移，与宇树的向上之路",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "6月1日，宇树带着扣非净利腰斩52.55%的财报过会；一周后，SemiAnalysis发文断言它将“主导全球”。手握六成毛利、出货全球第一，宇树却难高枕无忧：产业价值不断转移，今天的护城河守不住明天的利润，唯有不停攀爬，才能留在原地",
-      "url": "https://www.tmtpost.com/8056293.html"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "凯迪拉克官宣将行业首发量产 Momenta R7 世界模型",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 8 日消息，2026 年 7 月 8 日（今天）， Momenta 正式在香港联合交易所主板挂牌上市 ，股票代码为“ 6880.HK ”。 凯迪拉克官方今日发文祝贺 Momenta 港股上市， 并宣布将行业首发量产 R7 世界模型 。 据IT之家此前报道，Momenta 合伙人、研发 SVP 夏炎今年 4 月在发布会上对 Momenta R…",
-      "url": "https://www.ithome.com/0/974/200.htm"
     }
   ]
 }
