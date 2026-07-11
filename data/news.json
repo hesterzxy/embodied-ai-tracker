@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T15:59:42.839309+08:00",
+  "updated": "2026-07-11T21:22:02.008727+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,7 +23,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
+      "entries": 27,
       "candidates": 7,
       "core": 1,
       "periphery": 0,
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 16,
-      "core": 0,
+      "candidates": 26,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -150,7 +150,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 20,
       "candidates": 19,
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 28,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-11T15:59:58.769317+08:00",
+    "generated_at": "2026-07-11T21:22:18.595741+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收场景",
-        "text": "本周量产与合作线索集中在工厂、维修、巡检等任务边界更清晰的场景，三菱汽车将在日本工厂启动人形机器人量产并与Highlanders合作开发工厂用机器人，特斯拉三代Optimus也进入量产筹备，具身智能的验证重心正从展示能力转向能否在具体岗位形成稳定交付。",
+        "label": "落地验证转向可验收任务",
+        "text": "三菱将在日本工厂启动人形机器人量产，并与Highlanders合作开发工厂用机器人，特斯拉Optimus v3也完成定型并进入量产筹备，具身智能的近期验证重心正在集中到工厂、产线、劳动力替代等边界更清晰的任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定真实闭环",
-        "text": "蚂蚁灵波连续开源LingBot-VLA 2.0、LingBot-World 2.0和LingBot-Video，覆盖视觉、动作、操作、物理预测与视频生成，同时人手数据研究强调仿真采集仍受虚实鸿沟限制，模型叙事正在从参数和榜单延伸到真实数据、动作后果预测和任务闭环。",
+        "label": "模型叙事开始绑定真实闭环",
+        "text": "蚂蚁灵波连续开源LingBot-VLA 2.0、LingBot-World 2.0和LingBot-Video，覆盖视觉、动作、操作、物理预测等方向，同时人手数据研究强调仿真仍受虚实鸿沟限制，模型竞争正从参数和榜单延伸到真实数据、物理预测和任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好具备明确切口的团队",
-        "text": "中科新松完成新一轮数亿元股权融资，昇视唯盛以自研焊接具身大脑和智能焊工切入工业制造并完成数亿元B轮融资，另有公司半年融资超十亿元、估值突破七十亿元，资金仍活跃，但更容易落向工业制造等场景定义清楚、能力补齐路径可描述的项目。",
+        "label": "融资偏向明确场景",
+        "text": "中科新松完成数亿元股权融资，昇视唯盛以智能焊工切入工业制造并完成数亿元B轮融资，另有企业半年融资超十亿元，资本仍保持高强度投入，但更容易流向工业制造、焊接等能力定义和交付对象相对明确的方向。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在世界模型、视频基模、VLA开源和仿生扑翼机器人，蚂蚁灵波多项模型发布占据主线，真实物理预测与仿真到现实的差距成为讨论焦点。",
+        "summary": "本周技术突破集中在世界模型、视频基模、VLA模型和人手数据，蚂蚁灵波多项开源占据主线，仿真到真实的鸿沟仍是能力落地的关键约束。",
         "items": [
           {
             "date": "07-11",
@@ -381,7 +381,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产消息密集，特斯拉Optimus三代进入量产筹备并提出产能目标，三菱将在日本工厂量产人形机器人，无界动力K15通过工业级全域CE认证并开启批量交付。",
+        "summary": "产品量产消息以特斯拉Optimus v3、三菱工厂人形机器人、无界动力K15批量交付为代表，产能节奏、认证和交付数量开始成为能力验证的一部分。",
         "items": [
           {
             "date": "07-11",
@@ -459,20 +459,27 @@
             "url": "https://roboticsandautomationnews.com/2026/07/09/doosan-robotics-launches-ai-powered-palletizing-solution-for-high-mix-manufacturing/103197/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-08",
-            "title": "ABB Robotics 推出自动叉车，完善 Visual SLAM AMR 产品线 (ABB Robotics completes Visual SLAM AMR range with autonomous forklift launch)",
-            "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单披露较少，主要围绕宇树、优必选的人形机器人商业化实验，以及特斯拉三代擎天柱被称已有8月数百台具体订单，订单真实性仍需后续交付验证。",
+        "summary": "商业订单侧出现京东RoboBase落地广州、特斯拉三代擎天柱数百台订单消息，以及部署前虚拟训练场需求，商业化仍围绕基础设施和试点验证推进。",
         "items": [
+          {
+            "date": "07-11",
+            "title": "京东首个 RoboBase 项目落地广州，打造机器人全生命周期产业基础设施",
+            "url": "https://www.ithome.com/0/975/578.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-11",
+            "title": "为何机器人团队在部署前需要虚拟训练场 (Why robotics teams need virtual gyms before deployment)",
+            "url": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "07-09",
             "title": "宇树和优必选: 2026年，中国人形机器人的两场商业化实验",
@@ -491,7 +498,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本仍明显流向具身智能，中科新松、昇视唯盛完成数亿元融资，AI² Robotics获7.35亿美元融资，Fieldwork Robotics获得投资，工业与采摘等明确场景更突出。",
+        "summary": "资本动态延续高热度，AI² Robotics大额融资，中科新松、昇视唯盛完成数亿元融资，场景清晰的工业具身和轮式人形机器人仍是资金关注重点。",
         "items": [
           {
             "date": "07-10",
@@ -539,7 +546,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕劳动力短缺、监管与供应链展开，三菱和清水建设关注日本工厂和工地用机器人，LG新能源南京工厂应对圆柱电池需求，新泽西拟限制纯视觉自动驾驶。",
+        "summary": "行业动态显示车企、建筑、医疗和安全平台均在引入具身能力，三菱、清水建设指向劳动力短缺场景，监管和供应链因素也开始影响机器人相关部署。",
         "items": [
           {
             "date": "07-11",
@@ -624,19 +631,12 @@
             "url": "https://www.ithome.com/0/974/051.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-08",
-            "title": "观点：为何机器狗在工厂车间效率方面领跑 (Opinion: Why robot dogs are leading the pack in factory floor efficiency)",
-            "url": "https://roboticsandautomationnews.com/2026/07/08/opinion-why-robot-dogs-are-leading-the-pack-in-factory-floor-efficiency/103175/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧披露较少，速腾聚创2026年上半年激光雷达销量达71.92万台，机器人业务同比增长510%，传感器企业在机器人需求中的弹性开始显现。",
+        "summary": "泛具身产业链本周重点来自速腾聚创，上半年激光雷达销量达71.92万台，机器人业务同比增长510%，感知硬件受机器人需求拉动的迹象更明确。",
         "items": [
           {
             "date": "07-09",
@@ -676,6 +676,24 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 11 日消息，据汽车媒体 Carscoops 今天报道，三菱现已与初创公司 Highlanders 达成合作，共同开发工厂用人形机器人，未来有望缓解日本长期存在的劳动力短缺问题。 IT之家在此援引 Carscoops，三菱此前已经对 Highlanders 进行投资，并表示未来可能继续追加资金。双方将联合开发人形机器人， 并计划在三菱位于京…",
       "url": "https://www.ithome.com/0/975/389.htm"
+    },
+    {
+      "date": "07-11",
+      "company": "其他",
+      "title": "京东首个 RoboBase 项目落地广州，打造机器人全生命周期产业基础设施",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 7 月 11 日消息，广东省人民政府今日与京东集团签署全面战略合作协议。京东首个 RoboBase 项目同日在广州黄埔开工。 京东表示，RoboBase 项目是京东产发依托京东集团业务生态打造的 机器人全生命周期产业基础设施 ，以“研发-制造-应用-服务”一体化为目标，构建机器人完整生态闭环，致力于成为智能机器人产业服务平台。 IT之家获悉，此次开…",
+      "url": "https://www.ithome.com/0/975/578.htm"
+    },
+    {
+      "date": "07-11",
+      "company": "其他",
+      "title": "为何机器人团队在部署前需要虚拟训练场 (Why robotics teams need virtual gyms before deployment)",
+      "source_name": "The Robot Report",
+      "category": "商业订单",
+      "summary": "To address environmental and task variability, robots can benefit from 'virtual gyms' to bridge the sim-to-real gap, says SoftServe. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/"
     },
     {
       "date": "07-10",
@@ -1081,24 +1099,6 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 8 日消息，特斯拉自动驾驶网约车网络正规划新一轮地域扩张，将业务版图进一步延伸至美国南部。有网友发现，全新区域已有 Model Y Robotaxi 上路测试，这意味着本地化验证工作正在幕后加速推进。 IT之家注意到，长期追踪特斯拉动态的业内人士索耶 · 梅里特（账号 @SawyerMerritt）透露，特斯拉已在新奥尔良启动自动驾驶出租车…",
       "url": "https://www.ithome.com/0/974/051.htm"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "观点：为何机器狗在工厂车间效率方面领跑 (Opinion: Why robot dogs are leading the pack in factory floor efficiency)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "By Andrew Hamilton, head of the Digital Process Manufacturing Centre (DPMC) at the National Manufacturing Institute Scotland (NMIS) Manufacturing facilities today are sprawling, in…",
-      "url": "https://roboticsandautomationnews.com/2026/07/08/opinion-why-robot-dogs-are-leading-the-pack-in-factory-floor-efficiency/103175/"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "ABB Robotics 推出自动叉车，完善 Visual SLAM AMR 产品线 (ABB Robotics completes Visual SLAM AMR range with autonomous forklift launch)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "ABB Robotics is expanding its Autonomous Mobile Robotics (AMR) portfolio with the launch of the Flexley Stack F712, creating a complete interoperable ecosystem across all major Vis…",
-      "url": "https://roboticsandautomationnews.com/2026/07/08/abb-robotics-completes-visual-slam-amr-range-with-autonomous-forklift-launch/103169/"
     }
   ]
 }
