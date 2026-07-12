@@ -64,6 +64,12 @@
       "reason": "V2 待评估",
       "emphasis": false,
       "pending": true
+    },
+    {
+      "name": "求之科技",
+      "reason": "V2 待评估",
+      "emphasis": false,
+      "pending": true
     }
   ],
   "groups": [
@@ -452,6 +458,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "synthesis",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -914,6 +949,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -1325,6 +1389,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -1788,6 +1881,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -2205,6 +2327,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -2658,6 +2809,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3054,6 +3234,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -3527,6 +3736,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -3948,6 +4186,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -4416,6 +4683,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -4857,6 +5153,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -5258,6 +5583,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -5716,6 +6070,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -6118,6 +6501,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
@@ -6581,6 +6993,35 @@
               "updated_recent": false,
               "confidence": "low",
               "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
             }
           ],
           "sources": [
@@ -7008,6 +7449,35 @@
               "bullets": [
                 {
                   "text": "求之可及已加入V2待评估",
+                  "sources": [
+                    {
+                      "name": "V2手动添加",
+                      "url": "#",
+                      "evidence": "用户在V2工作区添加"
+                    }
+                  ]
+                },
+                {
+                  "text": "等待公开信息核验入库",
+                  "sources": [
+                    {
+                      "name": "待核验",
+                      "url": "#",
+                      "evidence": ""
+                    }
+                  ]
+                }
+              ],
+              "kind": "evidence",
+              "updated_recent": false,
+              "confidence": "low",
+              "note": "V2手动候选，尚未完成长期核验。"
+            },
+            {
+              "summary": "待核验",
+              "bullets": [
+                {
+                  "text": "求之科技已加入V2待评估",
                   "sources": [
                     {
                       "name": "V2手动添加",
