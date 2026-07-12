@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T11:47:17+08:00",
+  "updated": "2026-07-12T11:51:39+08:00",
   "companies": {
     "优必选": {
       "queried_at": "2026-06-30T16:42:18+08:00",
@@ -822,7 +822,7 @@
       ]
     },
     "求之科技": {
-      "queried_at": "2026-07-12T11:47:17+08:00",
+      "queried_at": "2026-07-12T11:51:39+08:00",
       "query": "求之科技",
       "canonical_name": "求之科技",
       "days": 3650,
@@ -833,19 +833,19 @@
           "title": "求之科技完成超一亿美元新一轮融资，孵化自清华大学智能产业研究院",
           "source_name": "AICODEWITH web_search",
           "category": "资本动态",
-          "summary": "投资界报道求之科技于2026年7月1日宣布完成超一亿美元新一轮融资，参投方包括君联资本、信产投资、联想创投、沄柏资本、普华资本、临港科创投、琥珀资本、庚辛资本等",
+          "summary": "投资界报道称求之科技2026年7月完成超1亿美元融资，参投方包括君联资本、信产投资、联想创投、沄柏资本、普华资本、临港科创投等",
           "url": "https://news.pedaily.cn/202607/565737.shtml",
-          "_text": "求之科技完成超一亿美元新一轮融资，孵化自清华大学智能产业研究院 投资界报道求之科技于2026年7月1日宣布完成超一亿美元新一轮融资，参投方包括君联资本、信产投资、联想创投、沄柏资本、普华资本、临港科创投、琥珀资本、庚辛资本等。"
+          "_text": "求之科技完成超一亿美元新一轮融资，孵化自清华大学智能产业研究院 投资界报道称求之科技2026年7月完成超1亿美元融资，参投方包括君联资本、信产投资、联想创投、沄柏资本、普华资本、临港科创投等。"
         },
         {
-          "date": "07-01",
+          "date": "",
           "company": "求之科技",
-          "title": "求之科技完成超一亿美元新一轮融资，孵化自清华大学智能产业研究院",
+          "title": "关于求之科技 — 清华大学AIR孵化的具身智能机器人公司",
           "source_name": "AICODEWITH web_search",
-          "category": "资本动态",
-          "summary": "投资界报道求之科技于2026年7月1日宣布完成超1亿美元新一轮融资，称其2023年创立、创始人为周谷越，并将推进产品量产",
-          "url": "https://www.pedaily.cn/first/163079.shtml",
-          "_text": "求之科技完成超一亿美元新一轮融资，孵化自清华大学智能产业研究院 投资界报道求之科技于2026年7月1日宣布完成超1亿美元新一轮融资，称其2023年创立、创始人为周谷越，并将推进产品量产。"
+          "category": "技术突破",
+          "summary": "官网称求之科技（DISCOVER Robotics）由清华大学智能产业研究院（AIR）于2023年孵化成立，核心团队来自头部企业与顶尖高校，具备机器人产品从概念到规模化量产经验",
+          "url": "https://www.discover-robotics.com/about-us",
+          "_text": "关于求之科技 — 清华大学AIR孵化的具身智能机器人公司 官网称求之科技（DISCOVER Robotics）由清华大学智能产业研究院（AIR）于2023年孵化成立，核心团队来自头部企业与顶尖高校，具备机器人产品从概念到规模化量产经验。"
         },
         {
           "date": "",
@@ -853,29 +853,9 @@
           "title": "求之科技-清华大学智能产业研究院",
           "source_name": "AICODEWITH web_search",
           "category": "行业动态",
-          "summary": "清华AIR页面称求之科技由清华大学智能产业研究院于2023年孵化成立，打造AIRBOT系列产品，并介绍首席科学家周谷越的机器人、视觉与产品量产背景",
+          "summary": "清华AIR介绍求之科技为AI与机器人融合创新公司，打造AIRBOT系列产品，并列出首席科学家周谷越博士的机器人、计算机视觉和大疆产品落地履历",
           "url": "https://air.tsinghua.edu.cn/yjhzdw/qzkj.htm",
-          "_text": "求之科技-清华大学智能产业研究院 清华AIR页面称求之科技由清华大学智能产业研究院于2023年孵化成立，打造AIRBOT系列产品，并介绍首席科学家周谷越的机器人、视觉与产品量产背景。"
-        },
-        {
-          "date": "",
-          "company": "求之科技",
-          "title": "具身智能训练数据采集服务 - 机器人数采工厂 | 求之科技",
-          "source_name": "AICODEWITH web_search",
-          "category": "技术突破",
-          "summary": "官网数据采集方案显示其提供桌面双臂、移动升降双臂、足式移动单臂等硬件形态，以及数据采集、处理、标注、训练、评测、部署工具链和DISCOVERSE/Real2Sim/RSR闭环",
-          "url": "https://www.discover-robotics.com/mobile/data-collection",
-          "_text": "具身智能训练数据采集服务 - 机器人数采工厂 | 求之科技 官网数据采集方案显示其提供桌面双臂、移动升降双臂、足式移动单臂等硬件形态，以及数据采集、处理、标注、训练、评测、部署工具链和DISCOVERSE/Real2Sim/RSR闭环。"
-        },
-        {
-          "date": "",
-          "company": "求之科技",
-          "title": "AIRBOT Play 六轴机械臂 — 轻量化科研级具身智能机械臂 | 求之科技",
-          "source_name": "AICODEWITH web_search",
-          "category": "技术突破",
-          "summary": "AIRBOT六轴机械臂定位于具身智能科研、教育实训及行业应用探索，支持Python/C++/ROS2接口、Real-Sim-Real闭环训练验证，并给出负载、精度、臂展等核心参数",
-          "url": "https://www.discover-robotics.com/products/airbot-play",
-          "_text": "AIRBOT Play 六轴机械臂 — 轻量化科研级具身智能机械臂 | 求之科技 AIRBOT六轴机械臂定位于具身智能科研、教育实训及行业应用探索，支持Python/C++/ROS2接口、Real-Sim-Real闭环训练验证，并给出负载、精度、臂展等核心参数。"
+          "_text": "求之科技-清华大学智能产业研究院 清华AIR介绍求之科技为AI与机器人融合创新公司，打造AIRBOT系列产品，并列出首席科学家周谷越博士的机器人、计算机视觉和大疆产品落地履历。"
         },
         {
           "date": "",
@@ -883,49 +863,22 @@
           "title": "MMK2 移动双臂机器人 — 具身智能升降操作平台 | 求之科技",
           "source_name": "AICODEWITH web_search",
           "category": "技术突破",
-          "summary": "MMK2官网页将产品定位为具身智能科研生态、数据采集与智能作业平台，支持Python/ROS2、RGB/RGB-D相机、嵌入式GPU/BPU和科研教育、数据采集、服务零售、居家服务场景",
+          "summary": "官网产品页显示MMK2定位为具身智能科研生态、数据采集与智能作业平台，支持Python/ROS2接口，面向科研教育、数据采集、服务零售和居家服务等场景",
           "url": "https://www.discover-robotics.com/products/mmk2",
-          "_text": "MMK2 移动双臂机器人 — 具身智能升降操作平台 | 求之科技 MMK2官网页将产品定位为具身智能科研生态、数据采集与智能作业平台，支持Python/ROS2、RGB/RGB-D相机、嵌入式GPU/BPU和科研教育、数据采集、服务零售、居家服务场景。"
-        },
-        {
-          "date": "",
-          "company": "求之科技",
-          "title": "DISCOVER-Robotics · GitHub",
-          "source_name": "AICODEWITH web_search",
-          "category": "行业动态",
-          "summary": "求之科技GitHub组织公开了AIRBOT-Play-Hardware、DISCOVERSE、AIRBOT-Data-Collection、lerobot-acc、openpi、3D-Diffusion-Policy等仓库，反映其围绕硬件SDK、仿真、数采和端到端机器人学习的开源技术栈",
-          "url": "https://github.com/DISCOVER-Robotics",
-          "_text": "DISCOVER-Robotics · GitHub 求之科技GitHub组织公开了AIRBOT-Play-Hardware、DISCOVERSE、AIRBOT-Data-Collection、lerobot-acc、openpi、3D-Diffusion-Policy等仓库，反映其围绕硬件SDK、仿真、数采和端到端机器人学习的开源技术栈。"
-        },
-        {
-          "date": "",
-          "company": "求之科技",
-          "title": "求之科技 - 公司详情 - 产品介绍 - innoHere英诺嘿呀",
-          "source_name": "AICODEWITH web_search",
-          "category": "行业动态",
-          "summary": "公司资料称求之科技（DISCOVER Robotics）由清华大学智能产业研究院于2023年孵化成立，打造AIRBOT系列，为高校与科研机构提供具身智能机器人解决方案",
-          "url": "https://www.innohere.com/ir/159611/product/924114.html",
-          "_text": "求之科技 - 公司详情 - 产品介绍 - innoHere英诺嘿呀 公司资料称求之科技（DISCOVER Robotics）由清华大学智能产业研究院于2023年孵化成立，打造AIRBOT系列，为高校与科研机构提供具身智能机器人解决方案。"
+          "_text": "MMK2 移动双臂机器人 — 具身智能升降操作平台 | 求之科技 官网产品页显示MMK2定位为具身智能科研生态、数据采集与智能作业平台，支持Python/ROS2接口，面向科研教育、数据采集、服务零售和居家服务等场景。"
         }
       ],
       "source_stats": [
         {
-          "name": "web:serpapi",
-          "query": "求之科技 公司简介 成立 创始人 团队 官网 具身智能 机器人",
-          "fetched": false,
-          "error": "HTTPError: HTTP Error 400: Bad Request",
-          "matched": 0
-        },
-        {
           "name": "web:aicodewith",
-          "query": "求之科技 产品 技术路线 模型 世界模型 VLA 具身智能",
+          "query": "求之科技 公司简介 成立 创始人 团队 官网 具身智能 机器人",
           "fetched": true,
           "error": "",
-          "matched": 6
+          "matched": 4
         },
         {
           "name": "web:serpapi",
-          "query": "求之科技 机器人 产品 硬件 本体 量产 交付 部署",
+          "query": "求之科技 产品 技术路线 模型 VLA 世界模型 硬件 本体",
           "fetched": false,
           "error": "HTTPError: HTTP Error 400: Bad Request",
           "matched": 0
@@ -946,28 +899,7 @@
         },
         {
           "name": "web:serpapi",
-          "query": "求之科技 数据 训练 仿真 评测 benchmark RoboCasa",
-          "fetched": false,
-          "error": "HTTPError: HTTP Error 400: Bad Request",
-          "matched": 0
-        },
-        {
-          "name": "web:serpapi",
-          "query": "求之科技 价格 成本 商业模式 收费",
-          "fetched": false,
-          "error": "HTTPError: HTTP Error 400: Bad Request",
-          "matched": 0
-        },
-        {
-          "name": "web:aicodewith",
-          "query": "求之科技 company profile founder funding product customers robotics embodied AI",
-          "fetched": true,
-          "error": "",
-          "matched": 3
-        },
-        {
-          "name": "web:serpapi",
-          "query": "求之科技 robot model world model VLA benchmark deployment financing",
+          "query": "求之科技 company profile founder funding product customers robotics embodied AI world model",
           "fetched": false,
           "error": "HTTPError: HTTP Error 400: Bad Request",
           "matched": 0
