@@ -115,10 +115,10 @@ def search_result_item(title, url, snippet, source_name, canonical, published=""
     }
 
 
-def fetch_json(url, headers=None, payload=None):
+def fetch_json(url, headers=None, payload=None, timeout=12):
     data = None if payload is None else json.dumps(payload).encode("utf-8")
     req = Request(url, data=data, headers=headers or {"User-Agent": "embodied-ai-tracker-v2"})
-    with urlopen(req, timeout=30) as resp:
+    with urlopen(req, timeout=timeout) as resp:
         return json.loads(resp.read().decode("utf-8"))
 
 
@@ -149,14 +149,10 @@ def search_queries(company_name, aliases):
     english_alias = next((alias for alias in aliases if re.search(r"[A-Za-z]", alias)), base)
     return [
         f"{base} 公司简介 成立 创始人 团队 官网 具身智能 机器人",
-        f"{base} 产品 技术路线 模型 世界模型 VLA 具身智能",
-        f"{base} 机器人 产品 硬件 本体 量产 交付 部署",
+        f"{base} 产品 技术路线 模型 VLA 世界模型 硬件 本体",
         f"{base} 客户 订单 合作 落地 场景 标杆客户",
         f"{base} 融资 投资方 股东 估值 天使轮 Pre-A",
-        f"{base} 数据 训练 仿真 评测 benchmark RoboCasa",
-        f"{base} 价格 成本 商业模式 收费",
-        f"{english_alias} company profile founder funding product customers robotics embodied AI",
-        f"{english_alias} robot model world model VLA benchmark deployment financing",
+        f"{english_alias} company profile founder funding product customers robotics embodied AI world model",
     ]
 
 
@@ -257,7 +253,7 @@ def web_search_aicodewith(query, limit):
         "input": prompt,
     }
     try:
-        data = fetch_json(cfg["responses_url"], headers=headers, payload=payload)
+        data = fetch_json(cfg["responses_url"], headers=headers, payload=payload, timeout=18)
     except (HTTPError, URLError, TimeoutError, OSError, ValueError, json.JSONDecodeError):
         data = None
     if data:
@@ -294,7 +290,7 @@ def web_search_aicodewith(query, limit):
         "max_tokens": 1800,
         "response_format": {"type": "json_object"},
     }
-    data = fetch_json(cfg["chat_url"], headers=headers, payload=chat_payload)
+    data = fetch_json(cfg["chat_url"], headers=headers, payload=chat_payload, timeout=18)
     content = (((data.get("choices") or [{}])[0].get("message") or {}).get("content") or "")
     parsed = parse_json_object(content)
     if not isinstance(parsed, dict):
@@ -430,7 +426,7 @@ def fetch_web_search_items(company_name, aliases, days=365, limit=12):
         error = ""
         for provider in providers:
             try:
-                provider_hits = provider(query, limit=6)
+                provider_hits = provider(query, limit=4)
                 provider_name = provider.__name__.replace("web_search_", "")
                 if provider_hits:
                     break

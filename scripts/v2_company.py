@@ -251,7 +251,7 @@ def call_llm_json(system_prompt, user_prompt, max_tokens=7000):
         },
     )
     try:
-        with urlopen(req, timeout=80) as resp:
+        with urlopen(req, timeout=35) as resp:
             data = json.loads(resp.read().decode("utf-8"))
         content = data["choices"][0]["message"]["content"]
         return json.loads(content)
