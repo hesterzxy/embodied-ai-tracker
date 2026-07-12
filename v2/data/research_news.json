@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T16:06:37+08:00",
+  "updated": "2026-07-12T11:25:00+08:00",
   "companies": {
     "优必选": {
       "queried_at": "2026-06-30T16:42:18+08:00",
@@ -564,6 +564,204 @@
           "attempts": 1,
           "error": "",
           "matched": 1
+        },
+        {
+          "name": "新战略移动机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国工控网机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "The Robot Report",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "TechCrunch Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "Robotics & Automation News",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "NVIDIA Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IEEE Spectrum Robotics",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "RoboHub",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        }
+      ]
+    },
+    "求之可及": {
+      "queried_at": "2026-07-12T11:25:00+08:00",
+      "query": "求之可及",
+      "canonical_name": "求之可及",
+      "days": 3650,
+      "items": [],
+      "source_stats": [
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 公司简介 成立 创始人 团队 官网 具身智能 机器人",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 产品 技术路线 模型 世界模型 VLA 具身智能",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 机器人 产品 硬件 本体 量产 交付 部署",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 客户 订单 合作 落地 场景 标杆客户",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 融资 投资方 股东 估值 天使轮 Pre-A",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 数据 训练 仿真 评测 benchmark RoboCasa",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 价格 成本 商业模式 收费",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 company profile founder funding product customers robotics embodied AI",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "web:serpapi",
+          "query": "求之可及 robot model world model VLA benchmark deployment financing",
+          "fetched": false,
+          "error": "HTTPError: HTTP Error 400: Bad Request",
+          "matched": 0
+        },
+        {
+          "name": "量子位",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "36氪",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "雷峰网",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "钛媒体",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "爱范儿",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "InfoQ",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "IT之家",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "中国机器人网",
+          "fetched": false,
+          "attempts": 2,
+          "error": "URLError: <urlopen error timed out>",
+          "matched": 0
+        },
+        {
+          "name": "甲子光年",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
+        },
+        {
+          "name": "OFweek机器人",
+          "fetched": true,
+          "attempts": 1,
+          "error": "",
+          "matched": 0
         },
         {
           "name": "新战略移动机器人",
