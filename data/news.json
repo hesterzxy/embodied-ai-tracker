@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T03:05:43.254985+08:00",
+  "updated": "2026-07-12T10:51:29.540568+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
-      "periphery": 0,
-      "new": 0
+      "candidates": 2,
+      "core": 0,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "36氪",
@@ -24,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 27,
-      "candidates": 7,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 28,
-      "core": 1,
+      "entries": 56,
+      "candidates": 26,
+      "core": 5,
       "periphery": 0,
-      "new": 0
+      "new": 5
     },
     {
       "name": "中国机器人网",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "07-06",
     "end": "07-12",
-    "generated_at": "2026-07-12T03:05:58.768502+08:00",
+    "generated_at": "2026-07-12T10:51:44.868723+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收场景",
-        "text": "三菱将在日本工厂启动人形机器人量产，并与Highlanders合作开发工厂用机器人，清水建设也计划在工地引入AI人形机器人，近期应用线索集中在工厂、施工、维修巡检等任务边界更清晰的场景，商业化判断正更多依赖能否完成具体岗位替代或补充。",
+        "text": "三菱将在日本工厂启动人形机器人量产，并与Highlanders合作开发工厂用人形机器人；日本清水建设也计划在工地引入AI人形机器人。工厂、工地等任务边界更清晰的场景正成为本周落地重点，劳动力短缺与现场效率需求推动企业先做可评估部署。",
         "evidence_urls": []
       },
       {
-        "label": "量产节奏成为能力检验项",
-        "text": "特斯拉第三代Optimus完成定型并进入量产筹备，市场消息提到9月每周1000台、年底每周2500台及10万台量产红线，至简动力完成首批百台i7 Pro交付并落成CNC智能化产线，机器人能力展示开始与交付规模、产线准备和一致性验证绑定。",
+        "label": "量产节奏成为能力检验",
+        "text": "特斯拉第三代Optimus已完成定型并启动量产筹备，目标包括9月1000台每周、年底2500台每周以及10万台量产红线；至简动力完成首批百台i7 Pro交付并落成CNC智能化产线。具身智能竞争正从演示能力延伸到产线改造、交付规模和批量一致性。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好明确任务入口",
-        "text": "中科新松完成数亿元股权融资，昇视唯盛以自研焊接具身大脑模型和智能焊工切入工业制造并完成数亿元B轮融资，另有公司半年融资超十亿元、估值突破七十亿元，资金仍在进入赛道，但更容易流向工业场景、专用能力和可定义作业闭环。",
+        "label": "资本偏向明确任务入口",
+        "text": "中科新松完成数亿元股权融资，昇视唯盛以自研焊接具身大脑模型和智能焊工切入工业制造并完成数亿元B轮融资，另有企业半年内完成超十亿元天使轮系列融资。资金仍在进入赛道，但更容易流向工业制造、焊接等任务定义清楚且可形成闭环的方向。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术进展集中在世界模型、视频基模、VLA开源和人手数据，蚂蚁灵波多项模型开源强化物理预测与交互生成，仿真到现实鸿沟仍是核心约束。",
+        "summary": "本周技术热点集中在世界模型、视频基模、VLA与人手数据，蚂蚁灵波连续开源多项模型，行业讨论从参数与榜单转向物理预测、交互生成和虚实鸿沟。",
         "items": [
           {
             "date": "07-11",
@@ -362,27 +362,20 @@
             "url": "https://www.leiphone.com/category/industrynews/4583hFHXszrX7fky.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-08",
-            "title": "人人都在喊的世界模型，正在成为AI最大的“概念筐”",
-            "url": "https://www.tmtpost.com/8056875.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-08",
-            "title": "20+ 构型泛化、多自由度支持，蚂蚁灵波开源新一代具身基座模型 LingBot-VLA 2.0",
-            "url": "https://www.ithome.com/0/974/115.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产消息明显增多，三菱将在日本工厂启动人形机器人量产，特斯拉Optimus v3进入量产筹备，至简动力百台交付和无界动力K15 CE认证推动交付验证前移。",
+        "summary": "产品量产消息以特斯拉Optimus和工业级机器人为主，特斯拉拆除旧产线并设定产能目标，三菱、至简动力、无界动力分别推进工厂量产、百台交付和CE认证批量交付。",
         "items": [
+          {
+            "date": "07-12",
+            "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
+            "url": "https://www.ithome.com/0/975/664.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-11",
             "title": "三菱汽车将量产人形机器人，未来或考虑对外销售",
@@ -464,7 +457,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧以基础设施和部署验证为主，京东RoboBase项目落地广州，特斯拉三代擎天柱出现8月数百台订单线索，虚拟训练场被用于降低部署前环境不确定性。",
+        "summary": "商业订单侧披露较少，京东RoboBase项目落地广州，特斯拉Optimus出现8月数百台订单消息，部署前虚拟训练场也被强调为降低任务与环境不确定性的工具。",
         "items": [
           {
             "date": "07-11",
@@ -498,7 +491,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态延续高热度，中科新松、昇视唯盛等工业具身企业获得数亿元融资，AI² Robotics获大额融资，专用场景能力和规模化路径成为融资叙事重点。",
+        "summary": "资本动态延续高热度，AI² Robotics获7.35亿美元融资，中科新松、昇视唯盛完成数亿元融资，另有企业半年融资超10亿元，资金集中关注工业具身与细分场景能力。",
         "items": [
           {
             "date": "07-10",
@@ -546,13 +539,20 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕劳动力短缺、监管与安全展开，三菱和清水建设推进工厂及工地机器人，FORT Robotics扩展物理AI安全平台，特斯拉纯视觉路线面临新泽西监管不确定性。",
+        "summary": "行业动态围绕劳动力短缺、安全与监管展开，三菱和清水建设推进日本现场机器人应用，FORT Robotics拓展物理AI安全平台，特斯拉自动驾驶路线在新泽西面临政策不确定性。",
         "items": [
           {
             "date": "07-11",
             "title": "三菱与初创公司 Highlanders 合作研发人形机器人，应对日本劳动力短缺",
             "url": "https://www.ithome.com/0/975/389.htm",
             "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-11",
+            "title": "特斯拉 Cybercab 即将开放员工试乘，但仅限在工厂内部",
+            "url": "https://www.ithome.com/0/975/636.htm",
+            "company": "特斯拉",
             "source_name": "IT之家"
           },
           {
@@ -624,20 +624,20 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30693635.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-08",
-            "title": "特斯拉 Robotaxi 自动驾驶网约车进军新奥尔良，测试车队已上路",
-            "url": "https://www.ithome.com/0/974/051.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链侧披露较少，速腾聚创上半年激光雷达销量71.92万台，机器人业务同比增长510%，传感器企业正受益于机器人需求扩张但仍需绑定具体应用增量。",
+        "summary": "产业链关注点落在数据和传感器，具身数据赛道已有近百名玩家、一年融资44.7亿元，速腾聚创上半年激光雷达销量71.92万台且机器人业务同比增长510%。",
         "items": [
+          {
+            "date": "07-12",
+            "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+            "url": "https://www.qbitai.com/2026/07/447914.html",
+            "company": "行业",
+            "source_name": "量子位"
+          },
           {
             "date": "07-09",
             "title": "速腾聚创 2026 上半年激光雷达销量 71.92 万台，机器人业务同比大增 510%",
@@ -650,6 +650,24 @@
     ]
   },
   "items": [
+    {
+      "date": "07-12",
+      "company": "行业",
+      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+      "source_name": "量子位",
+      "category": "泛具身产业链",
+      "summary": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
+      "url": "https://www.qbitai.com/2026/07/447914.html"
+    },
+    {
+      "date": "07-12",
+      "company": "特斯拉",
+      "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 12 日消息，特斯拉近日发布了一段视频，展示了位于美国加州北部弗里蒙特工厂（Fremont Factory）原有 Model S 和 Model X 生产线的拆除过程。 整个拆除工程仅耗时 46 天，期间动用了大量重型机械，拆除了混凝土地基、机器人机械臂以及输送设备，为新的生产线腾出空间。 IT之家注意到，特斯拉在发布视频时配文称：“一个时…",
+      "url": "https://www.ithome.com/0/975/664.htm"
+    },
     {
       "date": "07-11",
       "company": "其他",
@@ -694,6 +712,15 @@
       "category": "商业订单",
       "summary": "To address environmental and task variability, robots can benefit from 'virtual gyms' to bridge the sim-to-real gap, says SoftServe. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/why-robotics-teams-need-virtual-gyms-before-deployment/"
+    },
+    {
+      "date": "07-11",
+      "company": "特斯拉",
+      "title": "特斯拉 Cybercab 即将开放员工试乘，但仅限在工厂内部",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 12 日消息，特斯拉表示，Cybercab 将“很快在得州超级工厂（Giga Texas）向员工开放试乘体验”，这是该公司首次公开表示，将让人员乘坐这款没有方向盘、没有踏板的无人驾驶出租车。 这一消息由特斯拉两个官方账号发布，累计获得约 290 万次浏览。然而，特斯拉并未明确说明，所谓“员工试乘 Cybercab”，究竟是指在奥斯汀开展真正…",
+      "url": "https://www.ithome.com/0/975/636.htm"
     },
     {
       "date": "07-10",
@@ -1072,33 +1099,6 @@
       "category": "技术突破",
       "summary": "7 月 8 日，蚂蚁灵波科技宣布升级并开源新一代具身基座模型 LingBot-VLA 2.0。作为今年 1 月开源版本 LingBot-VLA 1.0 的全面升级，LingBot-VLA 2.0在预训练阶段融入6万小时高质量真实物理数据，覆盖 17 个主流机器人品牌的 20 种机器人构型，并扩展对头部、腰部、末端执行器及移动底盘等自由度的支持。在构型泛化、自…",
       "url": "https://www.leiphone.com/category/industrynews/4583hFHXszrX7fky.html"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "人人都在喊的世界模型，正在成为AI最大的“概念筐”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "“世界模型”大概是最近两年AI领域最热也最混乱的词汇之一。 黄仁勋在GTC上把“物理AI”和“世界模型”作为下一代AI的核心；自动驾驶公司认为世界模型是高阶智能驾驶的必经之路；机器人厂商宣称自己的世界模型能让机械臂拥有通用操作能力；甚至连做视频生成的团队，也把最新的模型改名叫世界模型，主打一个能生成视频就是能建模世界。 世界模型正在成为AI领域新的“万能标签…",
-      "url": "https://www.tmtpost.com/8056875.html"
-    },
-    {
-      "date": "07-08",
-      "company": "其他",
-      "title": "20+ 构型泛化、多自由度支持，蚂蚁灵波开源新一代具身基座模型 LingBot-VLA 2.0",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 8 日消息，蚂蚁集团旗下蚂蚁灵波科技今日正式官宣新一代具身基座模型 LingBot-VLA 2.0 全面开源。官方称，作为今年 1 月开源的 LingBot-VLA 1.0 的全面升级，LingBot-VLA 2.0 在构型泛化、自由度支持和落地效率等方面实现了显著提升。 IT之家附官方详细介绍如下： 全面扩展构型与自由度支持 支撑这些能力…",
-      "url": "https://www.ithome.com/0/974/115.htm"
-    },
-    {
-      "date": "07-08",
-      "company": "特斯拉",
-      "title": "特斯拉 Robotaxi 自动驾驶网约车进军新奥尔良，测试车队已上路",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 8 日消息，特斯拉自动驾驶网约车网络正规划新一轮地域扩张，将业务版图进一步延伸至美国南部。有网友发现，全新区域已有 Model Y Robotaxi 上路测试，这意味着本地化验证工作正在幕后加速推进。 IT之家注意到，长期追踪特斯拉动态的业内人士索耶 · 梅里特（账号 @SawyerMerritt）透露，特斯拉已在新奥尔良启动自动驾驶出租车…",
-      "url": "https://www.ithome.com/0/974/051.htm"
     }
   ]
 }
