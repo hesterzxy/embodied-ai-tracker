@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T17:30:27.291004+08:00",
+  "updated": "2026-07-13T22:37:26.487950+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 8,
+      "entries": 27,
+      "candidates": 7,
       "core": 2,
       "periphery": 0,
       "new": 0
@@ -36,7 +36,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 20,
       "candidates": 11,
       "core": 0,
       "periphery": 0,
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 1,
-      "core": 0,
+      "entries": 18,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -79,7 +79,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 16,
+      "candidates": 18,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -166,7 +166,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 4,
       "periphery": 1,
       "new": 3
     },
@@ -194,7 +194,7 @@
       "candidates": 9,
       "core": 6,
       "periphery": 1,
-      "new": 3
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -233,35 +233,36 @@
       "candidates": 68,
       "core": 21,
       "periphery": 11,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-13T17:31:07.591436+08:00",
-    "mode": "local",
-    "item_count": 6,
+    "generated_at": "2026-07-13T22:37:52.875966+08:00",
+    "mode": "aicodewith",
+    "item_count": 7,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，MiniMax CEO 称不再领取薪酬，将 4%股份激励团队；智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败”；知情人士回应“腾讯考虑入股 Manus”。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article"
-        ]
+        "label": "验收任务优先",
+        "text": "本周可验证进展集中在具体工作负荷上，Robot.com推出面向令人精疲力竭工作的 humanoid，宇树机器人给猪做手术登上Nature，焊接机器人昇视唯盛完成数亿元B轮融资，具身智能的落地判断正在更多依赖可观察任务表现，而不是单纯模型叙事。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，MiniMax CEO 称不再领取薪酬，将 4%股份激励团队；智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败”；知情人士回应“腾讯考虑入股 Manus”。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article"
-        ]
+        "label": "资本押注场景闭环",
+        "text": "融资案例集中在咖啡、焊接、关节和消费级四足机器人等明确方向，咖啡机器人公司称2026年在手订单接近3至5亿元，消费级四足机器人天使轮资金用于研发、算法迭代及量产准备，资本更偏好能定义客户、订单或能力短板的项目。",
+        "evidence_urls": []
+      },
+      {
+        "label": "供应链进入扩产验证",
+        "text": "头部人形机器人关节公司半年内再获数亿元融资并计划用于产能扩张和全球市场布局，意法半导体收购人形机器人开发商Oversonic Robotics股份，核心部件与机器人本体的结合正在通过产能和股权动作推进。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "Robot.com推出面向高消耗工作的 humanoid，产品表述强调替代令人精疲力竭的劳动，量产节奏和交付规模尚未在证据中披露。",
         "items": [
           {
             "date": "07-13",
@@ -274,7 +275,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "本周资本动态覆盖消费级四足、关节、焊接、咖啡机器人和人形开发商股权投资，资金用途多指向研发迭代、量产准备和产能扩张。",
         "items": [
           {
             "date": "07-13",
@@ -303,12 +304,19 @@
             "url": "https://roboticsandautomationnews.com/2026/07/13/stmicroelectronics-acquires-stake-in-humanoid-robot-developer-oversonic-robotics/103263/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-13",
+            "title": "前小米副总卖咖啡机器人，融资数亿",
+            "url": "https://www.tmtpost.com/8062012.html",
+            "company": "行业",
+            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业动态中，宇树手术登Nature与AI公司内部激励并列出现，具身智能关注点从概念叙事转向真实任务展示与组织投入。",
         "items": [
           {
             "date": "07-13",
@@ -375,6 +383,15 @@
       "category": "产品量产",
       "summary": "Robot.com, the company putting robots to work in the real world, has announced its entry into humanoid labor solutions with the commercial launch of R-noid, a robot “purpose-built…",
       "url": "https://roboticsandautomationnews.com/2026/07/13/robot-com-launches-humanoid-built-for-the-work-that-burns-people-out/103259/"
+    },
+    {
+      "date": "07-13",
+      "company": "行业",
+      "title": "前小米副总卖咖啡机器人，融资数亿",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "唐沐透露，2026 年公司手握的订单金额已接近3至5亿元",
+      "url": "https://www.tmtpost.com/8062012.html"
     },
     {
       "date": "07-12",
@@ -611,6 +628,15 @@
       "url": "https://www.therobotreport.com/ai%c2%b2-robotics-raises-735m-3b-valuation-wheeled-humanoid-robots/"
     },
     {
+      "date": "07-10",
+      "company": "行业",
+      "title": "华为小米也带不动，斯坦德机器人上市又失败了",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "一家客户名单里有华为、小米、富士康，股东阵容包含小米、蔚来、陆奇奇绩创坛的明星机器人企业，为何两度被港交所拒之门外？ 当",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321202-12003-30693990.html"
+    },
+    {
       "date": "07-09",
       "company": "其他",
       "title": "速腾聚创 2026 上半年激光雷达销量 71.92 万台，机器人业务同比大增 510%",
@@ -753,24 +779,6 @@
       "category": "资本动态",
       "summary": "一家半年的创业公司，照见具身智能的当下。 新眸原创·作者 | 李小东 上周，一家成立刚满半年的具身智能公司，墨奇智能，被推到了行业的聚光灯下。这家公司六个月内完成超十亿元天使轮系列融资，估值突破七十亿",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693855.html"
-    },
-    {
-      "date": "07-09",
-      "company": "宇树科技",
-      "title": "宇树和优必选: 2026年，中国人形机器人的两场商业化实验",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "贝克街探案官 被物理实体唤醒的硅基幽灵 作者丨鲁镇西 或许，在2006年，埃隆·马斯克（ElonMusk）在，特斯拉的第一份“秘密宏图”（MasterPlan）中勾勒未来出行的蓝图时，距离他首次在舞台",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8110-30693835.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "斗山机器人推出面向高混合制造的 AI 驱动码垛解决方案 (Doosan Robotics launches AI-powered palletizing solution for high-mix manufacturing)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Doosan Robotics has launched a new AI-powered palletizing solution designed to help manufacturers automate palletizing while reducing engineering complexity and improving flexibili…",
-      "url": "https://roboticsandautomationnews.com/2026/07/09/doosan-robotics-launches-ai-powered-palletizing-solution-for-high-mix-manufacturing/103197/"
     }
   ]
 }
