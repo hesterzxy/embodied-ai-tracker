@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-13T03:08:43.649129+08:00",
+  "updated": "2026-07-13T10:52:57.087922+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -25,9 +25,9 @@
       "error": "",
       "entries": 28,
       "candidates": 8,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "雷峰网",
@@ -50,8 +50,8 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -63,10 +63,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 21,
-      "core": 2,
+      "entries": 56,
+      "candidates": 15,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 11,
+      "core": 10,
       "periphery": 0,
-      "new": 5
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -155,7 +155,7 @@
       "candidates": 19,
       "core": 7,
       "periphery": 3,
-      "new": 2
+      "new": 0
     },
     {
       "name": "The Robot Report",
@@ -236,8 +236,66 @@
       "new": 1
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "07-13",
+    "end": "07-19",
+    "generated_at": "2026-07-13T10:53:09.346283+08:00",
+    "mode": "aicodewith",
+    "item_count": 2,
+    "insights": [
+      {
+        "label": "融资集中投向落地能力",
+        "text": "本周两起融资分别指向消费级四足机器人和人形机器人关节，资金用途集中在产品研发、算法迭代、量产准备、产能扩张和全球市场布局，资本更偏向支持已有明确产品方向和交付路径的团队。",
+        "evidence_urls": []
+      },
+      {
+        "label": "核心部件仍具融资吸引力",
+        "text": "头部人形机器人关节公司半年内再获数亿元融资，并将资金用于产能扩张和全球市场布局，关节等关键零部件在整机放量预期下仍是供应链中较受关注的环节。",
+        "evidence_urls": []
+      }
+    ],
+    "groups": [
+      {
+        "category": "资本动态",
+        "summary": "本周资本动态包括消费级四足机器人天使轮数千万元融资，以及头部人形机器人关节公司数亿元融资，资金均指向研发、量产或扩产。",
+        "items": [
+          {
+            "date": "07-13",
+            "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
+            "url": "https://36kr.com/p/3893473722514181?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-13",
+            "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
+            "url": "https://36kr.com/p/3885232033378308?f=rss",
+            "company": "行业",
+            "source_name": "36氪"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "07-13",
+      "company": "其他",
+      "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，深圳光之跃迁科技有限公司（Lumisition Robotics）（以下简称“光之跃迁”）近日完成近五千万元天使轮融资，由正轩领投，光点资本、力合资本、松禾资本、恒信未来等机构跟投。本轮资金将主要用于产品研发、算法迭代及量产准备。 光之跃迁成立于2026年2月， 聚焦消费级四足机器人市场， 希望以“全地形移动底盘…",
+      "url": "https://36kr.com/p/3893473722514181?f=rss"
+    },
+    {
+      "date": "07-13",
+      "company": "行业",
+      "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
+      "source_name": "36氪",
+      "category": "资本动态",
+      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，零差云控（深圳）科技股份有限公司（以下简称“零差云控”）近日完成C++轮融资数亿元，本轮由同创伟业领投、国泰君安创新投资跟投，老股东华控基金追加投资。本轮资金将用于产能扩张和全球市场布局。源式资本担任本轮独家财务顾问，并由一苇资本和源式资本共同担任后续融资财务顾问。 人形机器人赛道在经历了概念爆火与资本狂热后，行业关键词正…",
+      "url": "https://36kr.com/p/3885232033378308?f=rss"
+    },
     {
       "date": "07-12",
       "company": "行业",
@@ -291,6 +349,15 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 12 日消息，据上海证券报，宇树科技创始人王兴兴 7 月 10 日在 2026 王府井论坛上作为行业代表发表主题演讲。在演讲中，王兴兴给出了明确判断：“ 机器人最终一定会走向更广阔的市场，走向普通消费者，走向真实的生活 。” IT之家注意到，王兴兴将机器人当前的大众价值拆解为三个核心方向： 首先， 今天的机器人就像 30 年前的个人电脑…",
       "url": "https://www.ithome.com/0/975/786.htm"
+    },
+    {
+      "date": "07-12",
+      "company": "特斯拉",
+      "title": "特斯拉 Robotaxi 枢纽清洁机器人已投入运行，配套设施逐步完善",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 13 日消息，特斯拉正悄然补齐自动驾驶网约车服务的最后几块拼图。相比 Robotaxi 车辆本身，保障一支无人驾驶车队高效运转的地面运营体系，同样至关重要。 特斯拉爱好者 Spencer（X 平台账号 @scotsrule08）近日分享了一则有关特斯拉奥斯汀 Robotaxi Hub（Robotaxi 枢纽）的最新发现。这里是 Robota…",
+      "url": "https://www.ithome.com/0/975/838.htm"
     },
     {
       "date": "07-11",
@@ -660,33 +727,6 @@
       "category": "行业动态",
       "summary": "For the first time, teleoperated humanoid robots successfully performed surgeries during a UC San Diego preclinical trial. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/beyond-da-vinci-why-versatile-humanoid-robots-are-next-frontier-surgery/"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "Intrinsic 的物理 AI 愿景：打造软件定义工厂 (Intrinsic’s vision for physical AI: Building the software-defined factory)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "For decades, industrial automation has largely followed the same formula. Production lines have become faster, robots have become more capable, and software has steadily improved,…",
-      "url": "https://roboticsandautomationnews.com/2026/07/09/intrinsics-vision-for-physical-ai-building-the-software-defined-factory/103211/"
-    },
-    {
-      "date": "07-09",
-      "company": "特斯拉",
-      "title": "消息称特斯拉三代擎天柱人形机器人初步定型，马斯克放话达不成产能目标就开掉整个采购团队",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 7 月 9 日消息，据晚点 LatePost 今日报道，多位特斯拉供应链人士透露，特斯拉近期终于下发具体的 Optimus 零件采购指引，要求供应商在今年 9 月将产能提到 1000 台 / 周， 随后在年底提升到 2000-2500 台 / 周 。 两位接近供应商的人士说，特斯拉会提前 2 个月左右下订单，现在他们已经看到 8 月数百台的具体订单…",
-      "url": "https://www.ithome.com/0/974/782.htm"
-    },
-    {
-      "date": "07-08",
-      "company": "优必选",
-      "title": "99万机器人续航引争议，优必选的三重碰撞",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "作者｜任天勤 编辑｜陈肖冉 7月6日，“99万机器人伴侣续航撑不过一晚”冲上微博热搜。 图片 微博 当日优必选（09880.HK）港股收盘大跌10.01%，报98港元，单日蒸发市值约55亿港元。 人形机器人",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30693635.html"
     }
   ]
 }
