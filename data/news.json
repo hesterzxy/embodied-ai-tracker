@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T10:34:19.827178+08:00",
+  "updated": "2026-07-14T16:07:40.196685+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -24,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 26,
-      "candidates": 7,
+      "candidates": 5,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 11,
-      "core": 0,
+      "entries": 17,
+      "candidates": 9,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
-      "core": 2,
+      "entries": 18,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 15,
-      "core": 0,
+      "entries": 59,
+      "candidates": 14,
+      "core": 6,
       "periphery": 0,
-      "new": 0
+      "new": 6
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 9,
+      "core": 7,
       "periphery": 0,
-      "new": 4
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -207,7 +207,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -239,31 +239,52 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-14T10:34:42.667772+08:00",
+    "generated_at": "2026-07-14T16:08:02.313038+08:00",
     "mode": "aicodewith",
-    "item_count": 9,
+    "item_count": 17,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的落地叙事更多围绕工厂、维修、巡检和高强度劳动等可验收任务展开，Robot.com推出面向令人精疲力竭工作的 humanoid，宇树机器人给猪做手术登上Nature，焊接机器人昇视唯盛完成数亿元B轮融资，场景是否能被验收正成为能力展示之外的关键筛选条件。",
+        "label": "落地验证转向可验收工位",
+        "text": "本周机器人进展更多出现在汽车工厂、手术实验、Robotaxi运行和FSD认证等可记录场景中，小米机器人在汽车工厂实习4个月并迭代柔性工件作业，宇树机器人给猪做手术登上Nature，能力叙事正被成功率、事故记录、认证流程等外部指标约束。",
         "evidence_urls": []
       },
       {
-        "label": "资本更看重订单与补链",
-        "text": "融资案例集中在有明确场景或关键部件的公司，咖啡机器人公司称2026年在手订单接近3至5亿元，头部人形机器人关节公司融资用于产能扩张和全球市场布局，消费级四足机器人天使轮资金用于研发、算法迭代和量产准备，资金流向更贴近订单能见度、量产准备和性能瓶颈。",
+        "label": "资本偏向场景明确和能力补齐",
+        "text": "融资事件集中在咖啡机器人、消费级四足、焊接机器人、人形机器人关节等方向，咖啡机器人公司披露2026年在手订单接近3至5亿元，关节公司资金用于产能扩张和全球市场布局，投资判断更贴近订单、量产准备和关键部件供给。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事回到技能闭环",
-        "text": "逐际动力张巍提出人形机器人已有“大脑”但“有脑”和“有技能”不同，并选择从底层运控基础模型做起；叠加宇树手术任务被Nature报道，模型能力的表达正在从泛化表述收敛到真实数据、运动控制和任务完成度。",
+        "label": "模型工具开始强调成本与闭环",
+        "text": "高德ABot-World Studio宣称可在单张5090本地部署并生成小时级实时交互式视频与3D场景，自变量DMuon优化器称可让具身模型训练提速30%，模型层竞争正在从概念展示延伸到训练效率、本地部署和可交互数据生成。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "产品量产",
-        "summary": "产品量产信息较少，Robot.com推出面向高消耗工作的 humanoid，消费级四足机器人融资也明确用于量产准备。",
+        "summary": "高德发布并开放测试ABot-World Studio，自变量推出DMuon优化器，人形机器人新品也强调面向高消耗工作，产品化叙事聚焦部署、训练效率和任务适配。",
         "items": [
+          {
+            "date": "07-14",
+            "title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
+            "url": "https://www.qbitai.com/2026/07/449568.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-14",
+            "title": "内置“任意门”，高德发布通用世界模型工坊 ABot-WorldStudio",
+            "url": "https://www.ithome.com/0/976/538.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-14",
+            "title": "自变量发布 DMuon 优化器，分布式改造 Muon 大模型基础设施，让具身模型训练提速 30%",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321206-8110-30694397.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-13",
             "title": "Robot.com 推出“为令人精疲力竭的工作而打造”的人形机器人 (Robot.com launches humanoid ‘built for the work that burns people out’)",
@@ -274,8 +295,21 @@
         ]
       },
       {
+        "category": "商业订单",
+        "summary": "商业订单信息较少，特斯拉向意大利提交FSD认证申请，欧洲落地仍处于监管推进阶段，尚未形成大规模订单或运营数据披露。",
+        "items": [
+          {
+            "date": "07-14",
+            "title": "特斯拉向意大利提交 FSD 认证申请，欧洲落地进程加速",
+            "url": "https://www.ithome.com/0/976/479.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
         "category": "资本动态",
-        "summary": "资本动态活跃，关节、焊接、咖啡机器人和消费级四足机器人均获融资，资金用途集中在产能、量产和算法迭代。",
+        "summary": "融资覆盖消费级四足、焊接机器人、人形关节、咖啡机器人和人形开发商股权投资，资金用途多指向研发迭代、量产准备、产能扩张与市场布局。",
         "items": [
           {
             "date": "07-14",
@@ -323,7 +357,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕真实任务和能力边界展开，宇树手术案例被Nature报道，逐际动力则强调技能闭环不是简单堆叠大脑。",
+        "summary": "行业动态集中在工厂实习、Robotaxi事故披露、机器人手术实验和技能路线讨论，人形机器人从有大脑转向能否形成稳定技能与长时作业。",
         "items": [
           {
             "date": "07-14",
@@ -333,11 +367,45 @@
             "source_name": "钛媒体"
           },
           {
+            "date": "07-14",
+            "title": "小米机器人首次实现汽车工厂柔性工件的长时作业",
+            "url": "https://36kr.com/newsflashes/3895146029005831?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-14",
+            "title": "雷军：小米机器人在汽车工厂“实习”已满 4 个月，正“解锁”更多实习岗位",
+            "url": "https://www.ithome.com/0/976/536.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-14",
+            "title": "特斯拉奥斯汀 Robotaxi 四月中旬以来仅录得 1 起事故，系人类司机追尾",
+            "url": "https://www.ithome.com/0/976/495.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
             "date": "07-13",
             "title": "MiniMax CEO称不再领取薪酬，将4%股份激励团队；吐槽DeepSeek面试的华为天才少年回应被控诈骗；宇树机器人给猪做手术登上Nature｜AI周报",
             "url": "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article",
             "company": "宇树科技",
             "source_name": "InfoQ"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链新闻聚焦激光雷达割草机器人盈利测算，叠加关节和焊接机器人融资，供应链机会更依赖具体场景中的成本、性能与产能瓶颈。",
+        "items": [
+          {
+            "date": "07-14",
+            "title": "激光雷达割草机器人如何盈利？我们找耐士劳总裁秦岭算了一笔账",
+            "url": "https://www.leiphone.com/category/robot/RR4IBkYWGxNiggvB.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       }
@@ -361,6 +429,78 @@
       "category": "行业动态",
       "summary": "不走“堆技能融资”的短跑路线，而是从底层运控基础模型做起",
       "url": "https://www.tmtpost.com/8063449.html"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "高德发布通用世界模型工坊ABot-World Studio：5090单卡可生成小时级实时交互式视频与3D场景",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "近日，阿里巴巴集团旗下高德正式发布通用世界模型工坊ABot-World Studio，并同步开放测试。该工坊将交互式视频生成与3DGS场景生成统一在同一产品中——用户只需输入一段文字或一张图片，即可生成一个可实时交互、任意分享的AI世界，输出结果可保存为视频与3DGS文件。 据悉，ABot-World Studio可在单张5090上进行本地部署。该产品在架构…",
+      "url": "https://www.qbitai.com/2026/07/449568.html"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "小米机器人首次实现汽车工厂柔性工件的长时作业",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "36氪获悉，7月14日，小米披露旗下人形机器人在汽车工厂“实习”的最新进展。经过4个月的不断迭代，小米机器人在自攻螺母上件工站的双侧作业成功率从90.2%提升至98%，距离人工作业合格率仅差1个百分点。与此同时，还解锁了两项全新岗位——中控台侧盖板排序和料箱折叠回收，两项任务成功率均已达到90%。其中，小米此次展示的中控台侧盖板排序工站场景，首次在汽车工厂实…",
+      "url": "https://36kr.com/newsflashes/3895146029005831?f=rss"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "激光雷达割草机器人如何盈利？我们找耐士劳总裁秦岭算了一笔账",
+      "source_name": "雷峰网",
+      "category": "泛具身产业链",
+      "summary": "01 一台没有上市的原型机 2022年5月，一座公园里，一台无边界智能割草机原型机正在草坪上来回运行。 从结果看，它跑得不错。彼时，秦岭刚加入团队不久，接手的第一个业务就是割草机。团队从2021年底开始组建，到2022年初核心成员基本就位，经过大约5个月研发，做出了这台样机。而这支团队，正是今天独立运作的全球智能户外庭院公司“耐士劳智能科技”的前身。 这台样…",
+      "url": "https://www.leiphone.com/category/robot/RR4IBkYWGxNiggvB.html"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "内置“任意门”，高德发布通用世界模型工坊 ABot-WorldStudio",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 14 日消息，今日，阿里巴巴集团旗下高德正式发布通用世界模型工坊 ABot-WorldStudio，并同步开放测试。该工坊将交互式视频生成与 3DGS 场景生成统一在同一产品中 —— 用户只需输入一段文字或一张图片，即可生成一个可实时交互、任意分享的 AI 世界，输出结果可保存为视频与 3DGS 文件。 IT之家附官方详细介绍如下： ABo…",
+      "url": "https://www.ithome.com/0/976/538.htm"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "雷军：小米机器人在汽车工厂“实习”已满 4 个月，正“解锁”更多实习岗位",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 14 日消息，小米创办人、董事长兼 CEO 雷军今日发文， 称小米机器人在汽车工厂“实习”已经满 4 个月 ，随后他也介绍了机器人取得的成果： (1) 自攻螺母上件工站双侧作业，成功率从 90.2% 提升至 98%； (2) 机器人在汽车工厂总装车间的新场景进一步拓展：中控台侧盖板上件和料箱折叠成功率均达到 90%，而且，首次实现柔性工件的…",
+      "url": "https://www.ithome.com/0/976/536.htm"
+    },
+    {
+      "date": "07-14",
+      "company": "特斯拉",
+      "title": "特斯拉奥斯汀 Robotaxi 四月中旬以来仅录得 1 起事故，系人类司机追尾",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 14 日消息，特斯拉 Robotaxi、Waymo 和 Zoox 等自动驾驶系统的商业化进程，往往不是依据其实际表现来评价，而是在公众舆论中接受审视。而影响公众看法的关键因素，就是事故发生的频率。 每当自动驾驶车辆发生碰撞事故，都会引发公众对这项技术的质疑。不过，从监管机构披露的车辆运行数据来看，真实情况与公众印象并不一致，特斯拉在安全性方…",
+      "url": "https://www.ithome.com/0/976/495.htm"
+    },
+    {
+      "date": "07-14",
+      "company": "特斯拉",
+      "title": "特斯拉向意大利提交 FSD 认证申请，欧洲落地进程加速",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 7 月 14 日消息，欧洲对特斯拉 FSD（监督版）软件的监管审批正在明显提速。多年来，当地车主只能看着北美用户使用 FSD 在城市道路上行驶，而如今，一项重要的监管突破，或许已经为 FSD 在南欧的正式落地铺平了道路。 IT之家注意到，据 X 用户 @MirkoMontagna0 透露，他通过 LinkedIn 直接联系了意大利基础设施与交通部总…",
+      "url": "https://www.ithome.com/0/976/479.htm"
+    },
+    {
+      "date": "07-14",
+      "company": "其他",
+      "title": "自变量发布 DMuon 优化器，分布式改造 Muon 大模型基础设施，让具身模型训练提速 30%",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "神经网络优化器是大模型训练的底层基础设施，负责调度更新模型权重的方向和步长等。近年来，Muon 优化器在大语言模型训练领域逐渐成为焦点，展现出相比 AdamW 更快的收敛能力。自变量的实验发现，在具身",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321206-8110-30694397.html"
     },
     {
       "date": "07-13",
@@ -721,78 +861,6 @@
       "category": "资本动态",
       "summary": "36氪获悉，聚焦工业制造领域的具身智能机器人企业 「昇视唯盛」（3Srobotics）正式宣布完成数亿元B轮融资，本轮融资由上海半导体产投、金桥基金领投，零一创投、新鼎资本、中关鼎华及老股东微光创投持续加码跟投。 资金将主要用于焊接具身智能大脑与自主小脑运动控制系统的迭代升级，扩大自有智造工厂产能，扩充研发与市场服务团队，加速产品全国多行业规模化落地。 昇视…",
       "url": "https://36kr.com/p/3887871679347208?f=rss"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "中国机器人大脑引爆海外，蚂蚁灵波全栈2.0模型定义具身智能“新大脑”",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "7月9日，中国AI创新力量再次引发全球关注。 中国具身智能公司——蚂蚁灵波科技升级全栈大脑2.0，一口气发布了涵盖视觉、动作、操作以及物理预测等方向的具身智能大模型，在海外开发者社区掀起热潮，发布即登上海外社交媒体热榜。 图说：蚂蚁灵波世界模型LingBot-World 2.0（Infinity）及具身模型LingBot-VLA2.0登上X科技热榜 在Red…",
-      "url": "https://www.leiphone.com/category/industrynews/G37AgItr75dHXX0i.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "至简动力交付百台「开箱即用」机器人，加速具身量产节奏",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "打破具身行业最快交付纪录 作者丨 邓哲敏 编辑丨 齐铖湧 2026年7月6日，至简动力在苏州宣布 完成首批百台i7 Pro机器人交付，同时落成一条CNC智能化具身机器人产线。距离公司成立不足一年。 至简动力给这款产品的定位是\"开箱即用\"的工业具身机器人——客户采购后，无需漫长的现场调试，在一周内即可完成部署并进入生产节拍。与之配套的是\"同一套方案打穿多场景\"…",
-      "url": "https://www.leiphone.com/category/ai/aFTmWZkO6CAIPGvW.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "人手数据，如何重塑机器人基础模型？专访 LaST-HD 一作刘家铭",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "至简动力联合北大、港中文、乙太科技—不代替真机，人手与真机数据共生 作者丨邓哲敏 编辑丨 齐铖湧 数据一直是具身智能最难啃的骨头。目前几条主流数据路线都存在明显瓶颈。仿真数据采集效率高，却始终受到虚实鸿沟限制。真机遥操作能够获得高质量数据，但采集成本高、效率低，而且大量数据与机器人本体深度绑定，难以复用。 至简动力在苏州交付的首批 100 台 i7 Pro…",
-      "url": "https://www.leiphone.com/category/ai/tc6oPeh2ZD5DST6g.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "官宣！蚂蚁灵波世界模型2.0来了，小时级生成+Agent驱动定义AI交互新范式",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "7 月 9 日，蚂蚁灵波科技开源新一代实时交互世界模型 LingBot-World 2.0（又称 LingBot-World-Infinity）。该模型全面升级世界预测与交互能力，支持小时级实时生成、720p/60fps 高清实时输出以及更丰富的交互动作与事件，并在业界首次将 Agent 机制引入世界模型，让生成的世界从“可观看、可操控”，进一步走向“可持续…",
-      "url": "https://www.leiphone.com/category/industrynews/P1RW5pSlLbX6EKfq.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "AMI Labs 冯雁：AI 迈向现实世界，世界模型不可或缺 | ICML 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "JEPA 比生成式世界模型，天然更具有结构性优势。 作者丨 幸丽娟 编辑丨 岑 峰 2026年7月7日，ICML 2026 正会第一天，AMI Labs 联合创始人兼首席研究创新官、香港科技大学电子与计算机工程系讲席教授冯雁（Pascale Fung）带来大会首个特邀演讲。 作为与 Yann LeCun 共同擎起 JEPA 世界模型旗帜的代表学者，她在题为《…",
-      "url": "https://www.leiphone.com/category/academic/2xndXGiVd0MVqPAD.html"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "首个具身视频基模开源！LingBot-Video 如何为“机器人大脑”构建物理引擎？",
-      "source_name": "InfoQ",
-      "category": "技术突破",
-      "summary": "7 月 9 日开源的视频生成基座模型 LingBot-Video，不卷画面像不像电影，只死磕一个问题：一次动作发生后，世界会怎样变化？",
-      "url": "https://www.infoq.cn/article/SCC8javdsA2zgBg0c2C1?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "日本清水建设计划在工地引入 AI 人形机器人，缓解劳动力短缺问题",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 9 日消息，据《日经亚洲》获悉，日本大型建筑承包商清水建设（Shimizu）计划在 2030 财年前后，将人工智能驱动的人形机器人引入建筑工地，承担粉刷、抹灰等施工任务，以缓解建筑行业日益严峻的劳动力短缺问题。 迄今为止，建筑机器人研发主要聚焦于钢筋绑扎、物料运输、工地测量等单一作业。这类机器人虽然能够高效完成特定任务，但很难适应其他工作场…",
-      "url": "https://www.ithome.com/0/974/656.htm"
-    },
-    {
-      "date": "07-09",
-      "company": "其他",
-      "title": "全球首个面向具身智能的视频基模，蚂蚁灵波 LingBot-Video 开源",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 9 日消息，今天，蚂蚁灵波科技正式开源 LingBot-Video。这是全球首个基于 Mixture-of-Experts（MoE）架构、面向具身智能的开源视频生成基础模型。 IT之家附官方详细介绍如下： 过去几年，视频生成模型在画质、流畅度和创意表达上取得了快速进步。但对于具身智能来说，一个看起来逼真、动作流畅的视频，未必能反映真实的物理…",
-      "url": "https://www.ithome.com/0/974/517.htm"
     }
   ]
 }
