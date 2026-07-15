@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T16:13:04.190318+08:00",
+  "updated": "2026-07-15T21:46:23.513488+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,7 +12,7 @@
       "error": "",
       "entries": 10,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 25,
-      "candidates": 2,
+      "entries": 27,
+      "candidates": 5,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 11,
+      "candidates": 13,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -66,7 +66,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 14,
-      "core": 3,
+      "entries": 57,
+      "candidates": 23,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 7,
+      "core": 8,
       "periphery": 0,
-      "new": 4
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,9 +191,9 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 6,
-      "periphery": 1,
+      "candidates": 10,
+      "core": 5,
+      "periphery": 0,
       "new": 1
     },
     {
@@ -232,37 +232,37 @@
       "entries": 75,
       "candidates": 68,
       "core": 21,
-      "periphery": 11,
+      "periphery": 10,
       "new": 0
     }
   ],
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-15T16:13:26.756730+08:00",
+    "generated_at": "2026-07-15T21:46:46.674567+08:00",
     "mode": "aicodewith",
-    "item_count": 27,
+    "item_count": 29,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周更明确的进展集中在工厂、驾驶认证和真实部署评估，小米机器人披露已在汽车工厂实习4个月并迭代自攻螺母上件工站，特斯拉向意大利提交FSD认证申请，NVIDIA讨论通用机器人策略的真实部署评估，具身能力正更多通过可观察、可复测的任务闭环来证明。",
+        "label": "工厂任务成为落地校验场",
+        "text": "小米机器人在汽车工厂实习4个月并进入自攻螺母上件工站，小鹏被曝计划明年全球推出IRON且年底前力争月产超1000台，具身落地正在优先选择工厂、重复作业等可验收场景，量产节奏和岗位适配会比单次展示更能检验能力。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始绑定数据闭环",
-        "text": "小米开源380亿参数Xiaomi-Robotics-U0，称其打通机器人图片和视频数据生成与编辑链路，高德ABot-World Studio支持单张5090本地部署并生成小时级实时交互视频与3D场景，基础模型和世界模型的价值正在从参数规模转向数据生产、仿真和任务训练效率。",
+        "label": "模型能力转向数据与动作闭环",
+        "text": "小米开源380亿参数Xiaomi-Robotics-U0并打通机器人图片和视频数据生成编辑链路，高德ABot-World Studio可在单张5090本地生成小时级实时交互视频与3D场景，模型叙事正在从参数和通用性延伸到可部署的数据生产、仿真交互和动作精度。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好场景与短板补齐",
-        "text": "咖啡机器人公司披露2026年在手订单接近3至5亿元，焊接机器人昇视唯盛完成数亿元B轮融资，人形机器人关节公司再获数亿元融资并用于产能扩张和全球市场布局，资金更愿意押注订单可见、工艺明确或卡在核心部件瓶颈的方向。",
+        "label": "融资偏向场景和瓶颈补齐",
+        "text": "逐际动力完成近2亿美元Pre-IPO融资且半年累计4亿美元，关节公司获数亿元用于产能扩张和全球布局，焊接机器人昇视唯盛完成数亿元B轮，咖啡机器人公司披露2026年在手订单接近3至5亿元，资本更愿意押注有明确场景、产能需求或关键部件位置的公司。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "小米开源380亿参数多模态自回归具身生成模型，通用机器人基础技术栈也被持续讨论，技术焦点集中在跨任务统一建模和数据生成能力。",
+        "summary": "小米开源380亿参数多模态自回归具身生成模型，覆盖四类任务并连接图像、视频生成编辑；通用机器人基础技术栈讨论继续升温。",
         "items": [
           {
             "date": "07-15",
@@ -282,7 +282,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "本周量产侧围绕模型工具、训练基础设施和具体产品展开，高德世界模型工坊支持单卡本地部署，特斯拉FSD呈现完整版与量产精简版分层思路。",
+        "summary": "量产侧同时推进模型工具、机器人本体和自动驾驶部署，高德ABot支持5090本地运行，小鹏IRON传出月产目标，特斯拉FSD区分完整版与精简版。",
         "items": [
           {
             "date": "07-15",
@@ -304,6 +304,13 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30694522.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-15",
+            "title": "消息称小鹏计划明年在全球推出 IRON 人形机器人，今年年底前力争月产超 1000 台",
+            "url": "https://www.ithome.com/0/977/208.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "07-14",
@@ -337,7 +344,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业推进主要来自特斯拉向意大利提交FSD认证申请，以及NVIDIA分享真实部署评估方法，订单信息有限，但监管准入和部署评测正在前置。",
+        "summary": "商业落地信息较少，特斯拉向意大利提交FSD认证申请显示欧洲准入推进，NVIDIA则强调面向真实部署的通用机器人策略评估方法。",
         "items": [
           {
             "date": "07-14",
@@ -357,7 +364,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资集中在消费级四足、机器人关节、焊接机器人和咖啡机器人等方向，资金用途多指向研发、量产准备、产能扩张和全球市场布局。",
+        "summary": "资本活跃集中在人形本体、关节、焊接、咖啡和消费级四足机器人，融资用途多指向产能扩张、全球市场、研发迭代和量产准备。",
         "items": [
           {
             "date": "07-14",
@@ -365,6 +372,13 @@
             "url": "https://36kr.com/newsflashes/3894802904481029?f=rss",
             "company": "众擎机器人",
             "source_name": "36氪"
+          },
+          {
+            "date": "07-14",
+            "title": "逐际动力完成2亿美元Pre-IPO 轮融资，半年累计融资4亿美元",
+            "url": "https://www.leiphone.com/category/robot/kgzBZPwpqBBLdoed.html",
+            "company": "行业",
+            "source_name": "雷峰网"
           },
           {
             "date": "07-13",
@@ -405,7 +419,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示人形机器人继续通过工厂实习、运动挑战和专业任务展示能力，小米汽车产线案例与宇树相关科研进展强化了真实场景验证热度。",
+        "summary": "行业动态围绕真实任务展开，小米机器人进入汽车产线实习，人形机器人进行多地实景挑战，逐际动力强调有大脑不等于有技能。",
         "items": [
           {
             "date": "07-15",
@@ -474,7 +488,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链信息聚焦激光雷达割草机器人商业化测算，叠加关节公司融资扩产，供应链机会更依赖具体产品成本、性能瓶颈和规模化路径。",
+        "summary": "产业链报道聚焦激光雷达割草机器人的盈利模型，从原型机、成本与应用场景切入，显示传感方案机会仍需绑定具体产品经济性。",
         "items": [
           {
             "date": "07-14",
@@ -532,6 +546,15 @@
       "category": "产品量产",
       "summary": "日前，“广东机器人第一股”拓斯达发布2026 年半年度业绩预告。 公告显示，拓斯达预计2026年上半年归属于上市公司股东的净利润介于9000万元至1.15亿元区间，比上年同期的2873.22万元增长2",
       "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30694522.html"
+    },
+    {
+      "date": "07-15",
+      "company": "其他",
+      "title": "消息称小鹏计划明年在全球推出 IRON 人形机器人，今年年底前力争月产超 1000 台",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 15 日消息，据华尔街日报消息，知情人士透露，小鹏汽车计划于明年在全球范围内推出其 IRON 人形机器人。 消息人士称，小鹏汽车力争在今年年底前， 将 IRON 机器人的月产能提升至 1000 台以上 ，为 2027 年的全球推广铺路。 此外，小鹏计划于 2027 年第一季度，率先在国内的直营门店将 IRON 作为导购助手投入使用，并于同年…",
+      "url": "https://www.ithome.com/0/977/208.htm"
     },
     {
       "date": "07-14",
@@ -649,6 +672,15 @@
       "category": "商业订单",
       "summary": "RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/"
+    },
+    {
+      "date": "07-14",
+      "company": "行业",
+      "title": "逐际动力完成2亿美元Pre-IPO 轮融资，半年累计融资4亿美元",
+      "source_name": "雷峰网",
+      "category": "资本动态",
+      "summary": "近日，通用人形机器人企业逐际动力 LimX Dynamics 宣布完成近 2 亿美元 Pre-IPO 轮融资，投后估值达 150 亿元，跻身超级百亿独角兽行列。公司过去半年累计完成融资 4 亿美元，为后续资本市场运作筑牢基础。 据悉，本轮融资汇聚了中国、欧洲、中东、北美及东南亚的全球头部资本，充分体现了全球市场对具身智能产业长期价值的认可，以及对逐际动力技术…",
+      "url": "https://www.leiphone.com/category/robot/kgzBZPwpqBBLdoed.html"
     },
     {
       "date": "07-13",
@@ -919,24 +951,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 10 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）将于 7 月 17 日至 20 日在上海世博、张江、西岸“三地四馆”同步举行。 本届大会以“智能伙伴共创未来”为主题，由外交部、国家发展改革委、工业和信息化部等十部委与上海市人民政府共同主办。据财联社消息，上纬新材将在展会期间推出全球首个可变形个人机器…",
       "url": "https://www.ithome.com/0/975/318.htm"
-    },
-    {
-      "date": "07-10",
-      "company": "其他",
-      "title": "FORT Robotics 借助 Nvidia Halos 拓展物理 AI 安全平台 (FORT Robotics extends physical AI safety platform with Nvidia Halos)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "FORT Robotics, the “Trust Layer” for physical AI, has announced joining the Nvidia Halos for Robotics ecosystem that’s bringing safety to autonomous robots. FORT will demonstrate a…",
-      "url": "https://roboticsandautomationnews.com/2026/07/10/fort-robotics-extends-physical-ai-safety-platform-with-nvidia-halos/103254/"
-    },
-    {
-      "date": "07-10",
-      "company": "其他",
-      "title": "Fieldwork Robotics获SEED Innovations投资，扩大浆果采摘机器人规模 (Fieldwork Robotics secures SEED Innovations investment to scale berry harvesting robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Fieldwork Robotics, developers of selective, adaptive and modular harvesting robots, has agreed an investment from SEED Innovations, the AIM-quoted investing company chaired by pro…",
-      "url": "https://roboticsandautomationnews.com/2026/07/10/fieldwork-robotics-secures-seed-innovations-investment-to-scale-berry-harvesting-robots/103251/"
     }
   ]
 }
