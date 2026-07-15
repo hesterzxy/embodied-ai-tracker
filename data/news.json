@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T21:46:23.513488+08:00",
+  "updated": "2026-07-16T03:13:24.336163+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 13,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 57,
-      "candidates": 23,
-      "core": 1,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -194,7 +194,7 @@
       "candidates": 10,
       "core": 5,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-15T21:46:46.674567+08:00",
+    "generated_at": "2026-07-16T03:13:45.576390+08:00",
     "mode": "aicodewith",
-    "item_count": 29,
+    "item_count": 30,
     "insights": [
       {
-        "label": "工厂任务成为落地校验场",
-        "text": "小米机器人在汽车工厂实习4个月并进入自攻螺母上件工站，小鹏被曝计划明年全球推出IRON且年底前力争月产超1000台，具身落地正在优先选择工厂、重复作业等可验收场景，量产节奏和岗位适配会比单次展示更能检验能力。",
+        "label": "落地验证转向可验收工位",
+        "text": "本周具身智能的展示重点从泛化表演更多转向真实部署，小米机器人已在汽车工厂实习4个月并进行柔性工件长时作业，NVIDIA也强调面向真实部署评估通用机器人策略，厂内工站等可量化任务正成为能力可信度的重要来源。",
         "evidence_urls": []
       },
       {
-        "label": "模型能力转向数据与动作闭环",
-        "text": "小米开源380亿参数Xiaomi-Robotics-U0并打通机器人图片和视频数据生成编辑链路，高德ABot-World Studio可在单张5090本地生成小时级实时交互视频与3D场景，模型叙事正在从参数和通用性延伸到可部署的数据生产、仿真交互和动作精度。",
+        "label": "模型叙事开始绑定数据与成本",
+        "text": "小米开源380亿参数Xiaomi-Robotics-U0，打通机器人图片和视频数据生成与编辑链路，高德ABot-World Studio可在单张5090本地生成小时级实时交互视频与3D场景，自变量DMuon称可让具身模型训练提速30%，基础模型竞争正在向数据生产、训练效率和本地部署门槛延伸。",
         "evidence_urls": []
       },
       {
-        "label": "融资偏向场景和瓶颈补齐",
-        "text": "逐际动力完成近2亿美元Pre-IPO融资且半年累计4亿美元，关节公司获数亿元用于产能扩张和全球布局，焊接机器人昇视唯盛完成数亿元B轮，咖啡机器人公司披露2026年在手订单接近3至5亿元，资本更愿意押注有明确场景、产能需求或关键部件位置的公司。",
+        "label": "资本偏好清晰场景和瓶颈环节",
+        "text": "逐际动力完成近2亿美元Pre-IPO融资并达到150亿元估值，咖啡机器人公司披露2026年在手订单接近3至5亿元，人形机器人关节和焊接机器人企业也获得数亿元融资，资金更集中流向有明确需求、产能扩张或关键部件能力补齐的公司。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "小米开源380亿参数多模态自回归具身生成模型，覆盖四类任务并连接图像、视频生成编辑；通用机器人基础技术栈讨论继续升温。",
+        "summary": "技术侧集中在具身基础模型和通用机器人技术栈，小米U0以380亿参数覆盖多类生成任务，模型能力仍主要通过数据生成与编辑链路呈现。",
         "items": [
           {
             "date": "07-15",
@@ -282,7 +282,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产侧同时推进模型工具、机器人本体和自动驾驶部署，高德ABot支持5090本地运行，小鹏IRON传出月产目标，特斯拉FSD区分完整版与精简版。",
+        "summary": "产品量产新闻覆盖世界模型工具、人形机器人计划、FSD精简部署和企业业绩，高德单卡本地部署与小鹏月产目标显示成本和规模开始并列受关注。",
         "items": [
           {
             "date": "07-15",
@@ -344,7 +344,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地信息较少，特斯拉向意大利提交FSD认证申请显示欧洲准入推进，NVIDIA则强调面向真实部署的通用机器人策略评估方法。",
+        "summary": "商业订单信息较少，特斯拉向意大利提交FSD认证申请，NVIDIA讨论真实部署评估方法，落地进展更多体现为认证推进和部署标准建设。",
         "items": [
           {
             "date": "07-14",
@@ -364,7 +364,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本活跃集中在人形本体、关节、焊接、咖啡和消费级四足机器人，融资用途多指向产能扩张、全球市场、研发迭代和量产准备。",
+        "summary": "资本动态活跃，逐际动力、关节公司、焊接机器人、消费四足和咖啡机器人均获融资或披露订单，资金流向兼顾通用本体、场景产品与核心部件。",
         "items": [
           {
             "date": "07-14",
@@ -419,7 +419,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕真实任务展开，小米机器人进入汽车产线实习，人形机器人进行多地实景挑战，逐际动力强调有大脑不等于有技能。",
+        "summary": "行业动态围绕工厂实习、政策建议、机器人运动展示和Robotaxi安全数据展开，小米汽车产线实践强化了真实工位验证的行业关注。",
         "items": [
           {
             "date": "07-15",
@@ -427,6 +427,13 @@
             "url": "https://www.ithome.com/0/977/007.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-15",
+            "title": "Agility概述美国人形机器人政策的六项建议 (Agility outlines six recommendations for U.S. humanoid robot policies)",
+            "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/",
+            "company": "Agility Robotics",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-14",
@@ -488,7 +495,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链报道聚焦激光雷达割草机器人的盈利模型，从原型机、成本与应用场景切入，显示传感方案机会仍需绑定具体产品经济性。",
+        "summary": "产业链线索主要来自激光雷达割草机器人盈利测算，结合关节与焊接机器人融资，供应链机会更依赖具体应用成本结构和性能瓶颈。",
         "items": [
           {
             "date": "07-14",
@@ -555,6 +562,15 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 15 日消息，据华尔街日报消息，知情人士透露，小鹏汽车计划于明年在全球范围内推出其 IRON 人形机器人。 消息人士称，小鹏汽车力争在今年年底前， 将 IRON 机器人的月产能提升至 1000 台以上 ，为 2027 年的全球推广铺路。 此外，小鹏计划于 2027 年第一季度，率先在国内的直营门店将 IRON 作为导购助手投入使用，并于同年…",
       "url": "https://www.ithome.com/0/977/208.htm"
+    },
+    {
+      "date": "07-15",
+      "company": "Agility Robotics",
+      "title": "Agility概述美国人形机器人政策的六项建议 (Agility outlines six recommendations for U.S. humanoid robot policies)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Peggy Johnson, CEO of Agility, said the U.S. needs a policy framework that can strengthen what’s already working for the humanoid industry. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/"
     },
     {
       "date": "07-14",
@@ -942,15 +958,6 @@
       "category": "产品量产",
       "summary": "据多名特斯拉供应链从业人员核实，6月底，耗时三年多研发的第三代Optimus人形机器人，已经通过马斯克主持的高管评审完成定型，正式告别实验室研发阶段，全面启动量产筹备工作。 据悉，马斯克在评审会议上定",
       "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693963.html"
-    },
-    {
-      "date": "07-10",
-      "company": "其他",
-      "title": "上纬新材将在 WAIC 2026 发布全球首款可变形个人机器人启元 T1",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 10 日消息，2026 世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）将于 7 月 17 日至 20 日在上海世博、张江、西岸“三地四馆”同步举行。 本届大会以“智能伙伴共创未来”为主题，由外交部、国家发展改革委、工业和信息化部等十部委与上海市人民政府共同主办。据财联社消息，上纬新材将在展会期间推出全球首个可变形个人机器…",
-      "url": "https://www.ithome.com/0/975/318.htm"
     }
   ]
 }
