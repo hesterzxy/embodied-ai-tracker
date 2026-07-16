@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T03:13:24.336163+08:00",
+  "updated": "2026-07-16T10:40:36.259852+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 5,
+      "entries": 26,
+      "candidates": 6,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 0,
+      "entries": 13,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 22,
+      "entries": 59,
+      "candidates": 23,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 8,
+      "core": 7,
       "periphery": 0,
       "new": 2
     },
@@ -166,7 +166,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 7,
       "periphery": 0,
       "new": 3
     },
@@ -181,7 +181,7 @@
       "candidates": 8,
       "core": 6,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -207,7 +207,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -239,30 +239,25 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-16T03:13:45.576390+08:00",
+    "generated_at": "2026-07-16T10:40:50.436459+08:00",
     "mode": "aicodewith",
-    "item_count": 30,
+    "item_count": 34,
     "insights": [
       {
-        "label": "落地验证转向可验收工位",
-        "text": "本周具身智能的展示重点从泛化表演更多转向真实部署，小米机器人已在汽车工厂实习4个月并进行柔性工件长时作业，NVIDIA也强调面向真实部署评估通用机器人策略，厂内工站等可量化任务正成为能力可信度的重要来源。",
+        "label": "落地验证仍集中在工厂与可验收任务",
+        "text": "本周最明确的落地方向仍是工厂、维修、巡检这类可验收场景，小米机器人在汽车工厂完成4个月“实习”并把自攻螺母上件工站双侧作业成功率提升到更高水平，小鹏也传出 IRON 计划年底前冲刺月产超1000台，说明行业正在用连续作业和产量目标替代单点演示来证明能力。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始绑定数据与成本",
-        "text": "小米开源380亿参数Xiaomi-Robotics-U0，打通机器人图片和视频数据生成与编辑链路，高德ABot-World Studio可在单张5090本地生成小时级实时交互视频与3D场景，自变量DMuon称可让具身模型训练提速30%，基础模型竞争正在向数据生产、训练效率和本地部署门槛延伸。",
-        "evidence_urls": []
-      },
-      {
-        "label": "资本偏好清晰场景和瓶颈环节",
-        "text": "逐际动力完成近2亿美元Pre-IPO融资并达到150亿元估值，咖啡机器人公司披露2026年在手订单接近3至5亿元，人形机器人关节和焊接机器人企业也获得数亿元融资，资金更集中流向有明确需求、产能扩张或关键部件能力补齐的公司。",
+        "label": "模型叙事开始向真实数据闭环收敛",
+        "text": "小米开源 Xiaomi-Robotics-U0，强调其打通机器人图片和视频数据的生成与编辑链路，并称是首个覆盖四类任务的统一生成模型；同时高德的 ABot-World Studio可在单张5090上本地部署并生成小时级交互式视频与3D场景，表明具身模型的竞争正在从抽象能力转向真实数据、部署成本和任务闭环。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧集中在具身基础模型和通用机器人技术栈，小米U0以380亿参数覆盖多类生成任务，模型能力仍主要通过数据生成与编辑链路呈现。",
+        "summary": "本周技术侧更强调统一模型与数据链路打通，小米开源面向四类任务的具身生成基础模型，高德则把世界模型生成能力推进到可本地部署和小时级交互内容生成。",
         "items": [
           {
             "date": "07-15",
@@ -282,7 +277,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产新闻覆盖世界模型工具、人形机器人计划、FSD精简部署和企业业绩，高德单卡本地部署与小鹏月产目标显示成本和规模开始并列受关注。",
+        "summary": "量产叙事明显升温，小鹏公开月产目标，特斯拉继续拆分完整版与精简版FSD路径，行业开始把可交付、可部署和成本约束一并纳入产品验证。",
         "items": [
           {
             "date": "07-15",
@@ -311,6 +306,13 @@
             "url": "https://www.ithome.com/0/977/208.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-15",
+            "title": "NVIDIA 推出全新 Jetson Thor 计算机，推动主流机器人与边缘 AI 发展 (NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI)",
+            "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
           },
           {
             "date": "07-14",
@@ -344,7 +346,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单信息较少，特斯拉向意大利提交FSD认证申请，NVIDIA讨论真实部署评估方法，落地进展更多体现为认证推进和部署标准建设。",
+        "summary": "订单类直接证据较少，现有信息更多停留在认证推进与部署评估层面，尚未出现大规模可核验的机器人商业订单落地。",
         "items": [
           {
             "date": "07-14",
@@ -364,8 +366,15 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，逐际动力、关节公司、焊接机器人、消费四足和咖啡机器人均获融资或披露订单，资金流向兼顾通用本体、场景产品与核心部件。",
+        "summary": "资本继续偏向能力补齐和产能准备，逐际动力、关节公司、焊接机器人和消费级四足项目相继融资，部分项目已出现数亿元级订单或产能扩张表述。",
         "items": [
+          {
+            "date": "07-15",
+            "title": "Walden Robotics以11亿美元估值亮相，开发通用机器人 (Walden Robotics launches at $1.1B valuation for general-purpose robots)",
+            "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "07-14",
             "title": "众擎机器人欲收购公司以借壳上市？森霸传感：目前不存在传闻情形",
@@ -419,8 +428,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态围绕工厂实习、政策建议、机器人运动展示和Robotaxi安全数据展开，小米汽车产线实践强化了真实工位验证的行业关注。",
+        "summary": "行业讨论从“有大脑”转向“有技能”和真实工厂表现，小米机器人在汽车工厂持续迭代，教育与政策层面也开始增加相关专业和治理讨论。",
         "items": [
+          {
+            "date": "07-16",
+            "title": "教育部增设 27 个职业教育新专业：明年开始招生，涉人形机器人、车联网等领域",
+            "url": "https://www.ithome.com/0/977/336.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-16",
+            "title": "纽约州试点引入“机器人老师”：课程内容可控、保护隐私、不“说谎”",
+            "url": "https://www.ithome.com/0/977/321.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-15",
             "title": "人形机器人挑战骑马射箭，还能制作新疆拉条子",
@@ -495,7 +518,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链线索主要来自激光雷达割草机器人盈利测算，结合关节与焊接机器人融资，供应链机会更依赖具体应用成本结构和性能瓶颈。",
+        "summary": "产业链机会开始围绕具体瓶颈展开，激光雷达割草机器人盈利测算、计算平台升级和训练基础设施优化都在指向更清晰的性能、成本与量产约束。",
         "items": [
           {
             "date": "07-14",
@@ -509,6 +532,24 @@
     ]
   },
   "items": [
+    {
+      "date": "07-16",
+      "company": "其他",
+      "title": "教育部增设 27 个职业教育新专业：明年开始招生，涉人形机器人、车联网等领域",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 16 日消息，今天（16 日）， 教育部发布新增补的 27 个职业教育本专科专业 ，其中，高职专科专业 9 个、职业本科专业 18 个，涉及 14 个专业大类，20 个专业类。 新增专业将于 2027 年开始招生 。 据IT之家了解，此次专业目录增补紧扣国家“十五五”规划纲要和《教育发展“十五五”规划》部署，紧密围绕建设现代化产业体系、促进…",
+      "url": "https://www.ithome.com/0/977/336.htm"
+    },
+    {
+      "date": "07-16",
+      "company": "其他",
+      "title": "纽约州试点引入“机器人老师”：课程内容可控、保护隐私、不“说谎”",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 16 日消息，据外媒 Gadget Review 今天（16 日）报道，今年秋季，由 Realbotix 提供的人形机器人 Sally 将来到美国纽约州西部公立的萨拉曼卡市中央学区担任“助教”。Sally 拥有硅胶皮肤和棕色长发，外形高度逼真， 职责是协助教师，而不是取代教师 。 萨拉曼卡市中央学区与 Realbotix 公布的方案强调 课…",
+      "url": "https://www.ithome.com/0/977/321.htm"
+    },
     {
       "date": "07-15",
       "company": "其他",
@@ -571,6 +612,24 @@
       "category": "行业动态",
       "summary": "Peggy Johnson, CEO of Agility, said the U.S. needs a policy framework that can strengthen what’s already working for the humanoid industry. The post appeared first on The Robot Rep…",
       "url": "https://www.therobotreport.com/agility-outlines-six-recommendations-for-u-s-humanoid-robot-policies/"
+    },
+    {
+      "date": "07-15",
+      "company": "其他",
+      "title": "Walden Robotics以11亿美元估值亮相，开发通用机器人 (Walden Robotics launches at $1.1B valuation for general-purpose robots)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Leading technology companies have invested in Walden Robotics, which emerged from stealth as it develops full-stack physical AI. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/"
+    },
+    {
+      "date": "07-15",
+      "company": "其他",
+      "title": "NVIDIA 推出全新 Jetson Thor 计算机，推动主流机器人与边缘 AI 发展 (NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI)",
+      "source_name": "NVIDIA Robotics",
+      "category": "产品量产",
+      "summary": "General-purpose robots and autonomous machines are moving from research labs to real-world mass-market deployment, creating demand for compact, power-efficient AI supercomputers ca…",
+      "url": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/"
     },
     {
       "date": "07-14",
@@ -922,42 +981,6 @@
       "category": "产品量产",
       "summary": "6 月底马斯克评审通过了 Optimus 的最新版本。研发三年多、经历过阿尔法、贝塔、C 三个内部版本，三代 Optimus 终于要从实验室走向产线。 晚点独家披露了特斯拉给供应链定下的量产红线：今年 人形机器人",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30693952.html"
-    },
-    {
-      "date": "07-10",
-      "company": "其他",
-      "title": "全球首个「具身原生」预训练模型发布，从物理世界出发为机器人造大脑！",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "终于，那句用来教育年轻人的经典嗑，也是用到机器人身上了： 因为一个靠谱的机器人啊，它不能只是看到什么就做什么，现在还得学会 预判未来 —— 眼睛是看到了当下的这一帧，但脑子应该在盘算几步之后的画面了。 这个事儿在具身智能圈有个专门的名字，叫做 VA （Video-Action）模型。 视频地址： https://mp.weixin.qq.com/s/BbgM…",
-      "url": "https://www.qbitai.com/2026/07/447627.html"
-    },
-    {
-      "date": "07-10",
-      "company": "其他",
-      "title": "全球首个获工业级全域CE认证的具身智能机器人！无界动力K15开启全球批量交付",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "2026年7月9日，无界动力正式宣布旗下第二代机器人 K15 已通过欧盟合规准入，成为 全球首个获得工业级全域 CE 认证的具身智能机器人 。该产品全面通过了欧盟CE-MD（机械安全）、CE-RED（无线电设备）、CE-EMC（电磁兼容）以及EN ISO 13849（功能安全）全套工业级高标准认证，并在此基础上，成为 全球唯一通过 EN 18031 网络安全…",
-      "url": "https://www.leiphone.com/category/industrynews/jZnmuG3qKKX5smDx.html"
-    },
-    {
-      "date": "07-10",
-      "company": "优必选",
-      "title": "99 万元赛博伴侣, 优必选开启人形机器人“大哥大”时刻？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "优必选真正引起关注的，是极具冲击力的产品外观，契合了一部分用户对于人形机器人的另一种期待。无论成败，这个探索本身，都让行业回归一个最根本的问题：机器人究竟应该以怎样的方式，进入人类的生活？ 作者",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12001-30694015.html"
-    },
-    {
-      "date": "07-10",
-      "company": "特斯拉",
-      "title": "9月1000台/周，年底2500台/周！马斯克定下「特斯拉Optimus v3人形机器人」量产红线",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "据多名特斯拉供应链从业人员核实，6月底，耗时三年多研发的第三代Optimus人形机器人，已经通过马斯克主持的高管评审完成定型，正式告别实验室研发阶段，全面启动量产筹备工作。 据悉，马斯克在评审会议上定",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30693963.html"
     }
   ]
 }
