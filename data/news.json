@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T16:12:37.756787+08:00",
+  "updated": "2026-07-17T21:41:16.865830+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 3,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 8,
-      "core": 3,
+      "entries": 27,
+      "candidates": 9,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 12,
-      "core": 2,
+      "entries": 19,
+      "candidates": 13,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 12,
       "candidates": 2,
-      "core": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 27,
-      "core": 2,
+      "candidates": 17,
+      "core": 5,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 5,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -153,7 +153,7 @@
       "error": "",
       "entries": 20,
       "candidates": 19,
-      "core": 6,
+      "core": 5,
       "periphery": 2,
       "new": 0
     },
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 3,
-      "periphery": 1,
-      "new": 2
+      "candidates": 13,
+      "core": 7,
+      "periphery": 4,
+      "new": 10
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-17T16:12:50.987553+08:00",
+    "generated_at": "2026-07-17T21:41:38.448426+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周案例集中在工厂装配、分拣搬运、维修、巡检、导购等任务，优必选与哈萨克斯坦签署全面战略合作备忘录，小鹏宣布2027年将IRON推向全球市场，具身智能的商业叙事正更多依赖能被场景方验收的任务闭环。",
+        "label": "落地验证转向可验收作业",
+        "text": "本周最明确的落地信号来自仓储、出海合作和物理事实建模，智元与京东物流发布精灵 G2 Max 并用于京东物流智狼仓，优必选在哈萨克斯坦总统见证下签署全面战略合作备忘录，文远知行 WITT 将真实场景拆解为可识别和验证的最小物理事实单元，具身智能的验证口径正在从演示能力转向可部署、可验收的任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争回到数据闭环",
-        "text": "小米开源380亿参数Xiaomi-Robotics-U0，文远知行WITT提出最小物理事实单元，训练侧还出现工人第一视角采集和固定场地反复操作数据，基础模型进展不再只看参数规模，而是更强调真实物理过程能否被拆解、生成和验证。",
+        "label": "模型竞争开始贴近数据闭环",
+        "text": "小米开源 380 亿参数 Xiaomi-Robotics-U0，主打统一生成并打通机器人图片和视频数据生成与编辑链路，银河通用提出通过海量综合数据训练让基础模型在未专门训练任务上达到 70%-80% 成功率的预测，叠加 WITT 对多模态真实场景的事实单元拆解，模型叙事正在从参数规模延伸到数据生成、任务验证和后训练效率。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好能力补齐型入口",
-        "text": "日冕开物三个月完成数亿元种子轮融资，XDOF获得7000万美元融资，逐际动力完成近2亿美元Pre-IPO轮融资，同时触觉系统、ODM、消费级四足机器人等方向获得资金支持，投资正在围绕世界模型、数据供给、量产准备和关键感知能力分散布局。",
+        "label": "资本流向能力补齐环节",
+        "text": "日冕开物三个月内完成连续两轮种子轮融资合计数亿元，XDOF 获 7000 万美元融资，人形机器人 ODM 厂商获千万融资并将资金用于下一代产品研发和海外拓展，全身触觉系统公司融资资金投向研发、算力和量产测试体系，投资关注点更集中在世界模型、数据供给、触觉感知和量产能力等具体短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧重点从单点算法转向数据、世界模型和统一生成框架，小米U0、物理AI基础设施、第一视角采集等案例强化了真实任务数据的重要性。",
+        "summary": "技术侧围绕基础模型、世界模型和数据工厂展开，小米 U0、空间表征校准、组合式世界模型等方向共同指向泛化与数据瓶颈。",
         "items": [
           {
             "date": "07-17",
@@ -277,6 +277,20 @@
             "url": "https://www.ithome.com/0/978/136.htm",
             "company": "银河通用",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-17",
+            "title": "AI到底是「想错了」还是「判错了」？OpenDriveLab 陈立的组合式世界模型让策略自我纠偏 | RSS 2026",
+            "url": "https://www.leiphone.com/category/private/GkoVU7vEEW4FAPT2.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-17",
+            "title": "GAIR Paper 108 | CVPR 2026 冠军奖论文：4K 参数撬动 VLA 泛化，空间才是真正的瓶颈！",
+            "url": "https://www.leiphone.com/category/academic/tSC1DCI4SbS7ZlTG.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "07-16",
@@ -303,7 +317,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产新闻集中在世界模型、物理AI模型和人形机器人产能预期，WITT、Cosmos 3 Edge、小鹏IRON等进展显示量产验证开始与模型能力同步推进。",
+        "summary": "产品侧出现真实仓储部署、物理 AI 模型、开发平台和多类机器人矩阵，量产叙事与可部署场景、低成本本地生成能力绑定更紧。",
         "items": [
           {
             "date": "07-17",
@@ -318,6 +332,48 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30694915.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-17",
+            "title": "神玑公司首次参加世界人工智能大会，发布睿动具身智能开发平台",
+            "url": "https://36kr.com/newsflashes/3899667446613640?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-17",
+            "title": "思灵机器人 Agile Robots亮相WAIC 2026：具身智能独角兽展示物理AI全栈实力",
+            "url": "https://www.leiphone.com/category/industrynews/bnE4dz5C4rdarltB.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-17",
+            "title": "智元联合京东物流发布精灵 G2 Max 人形机器人，首次在真实仓储作业生产场景中部署落地",
+            "url": "https://www.ithome.com/0/978/274.htm",
+            "company": "智元机器人",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-17",
+            "title": "Mondo Robotics发布Beni：面向消费者的全地形AI相机机器人 (Mondo Robotics unveils Beni, an all-terrain AI camera robot for consumers)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/mondo-robotics-unveils-beni-an-all-terrain-ai-camera-robot-for-consumers/103385/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-17",
+            "title": "Robbyant 发布面向具身机器人的通用 AI 模型 LingBot-VLA 2.0 (Robbyant unveils LingBot-VLA 2.0 universal AI model for embodied robots)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/robbyant-unveils-lingbot-vla-2-0-universal-ai-model-for-embodied-robots/103355/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-17",
+            "title": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发 (Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-16",
@@ -388,19 +444,12 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321206-8110-30694397.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-13",
-            "title": "Robot.com 推出“为令人精疲力竭的工作而打造”的人形机器人 (Robot.com launches humanoid ‘built for the work that burns people out’)",
-            "url": "https://roboticsandautomationnews.com/2026/07/13/robot-com-launches-humanoid-built-for-the-work-that-burns-people-out/103259/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单以出海合作和真实部署评估为主，优必选与哈萨克斯坦签署全面战略合作备忘录，特斯拉FSD欧洲认证申请也体现落地合规进程。",
+        "summary": "商业侧以优必选哈萨克斯坦战略合作最具确定性，同时银河通用部署框架和特斯拉 FSD 欧洲认证申请显示落地仍依赖场景和监管推进。",
         "items": [
           {
             "date": "07-17",
@@ -422,19 +471,12 @@
             "url": "https://www.ithome.com/0/976/479.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-14",
-            "title": "NVIDIA 分享如何评估面向真实部署的通用机器人策略 (NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment)",
-            "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态延续高热度，世界模型、通用人形机器人、建筑机器人基础设施、ODM和消费级四足机器人均获融资，资金更关注场景入口与量产能力。",
+        "summary": "资本继续覆盖世界模型、机器人喂数、ODM、建筑机器人和通用机器人，融资案例显示资金更偏向可定义场景和能力基础设施。",
         "items": [
           {
             "date": "07-17",
@@ -458,6 +500,20 @@
             "source_name": "钛媒体"
           },
           {
+            "date": "07-17",
+            "title": "获得新融资后，Monumental计划将其建筑机器人引入美国 (With new funding, Monumental plans to bring its construction robots to the U.S.)",
+            "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
+            "company": "行业",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "07-17",
+            "title": "Monumental 融资 3200 万美元，扩大自主建筑机器人业务 (Monumental raises $32 million to expand autonomous construction robots)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/monumental-raises-32m-led-by-khosla-ventures-to-scale-the-robots-already-building-the-physical-world/103373/",
+            "company": "行业",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "07-16",
             "title": "TerraFirma融资1.15亿美元，打造建筑业机器人基础设施 (TerraFirma raises $115M to build robotic infrastructure for construction)",
             "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
@@ -477,54 +533,12 @@
             "url": "https://36kr.com/newsflashes/3894802904481029?f=rss",
             "company": "众擎机器人",
             "source_name": "36氪"
-          },
-          {
-            "date": "07-14",
-            "title": "逐际动力完成2亿美元Pre-IPO 轮融资，半年累计融资4亿美元",
-            "url": "https://www.leiphone.com/category/robot/kgzBZPwpqBBLdoed.html",
-            "company": "行业",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-13",
-            "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
-            "url": "https://36kr.com/p/3893473722514181?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-13",
-            "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
-            "url": "https://36kr.com/p/3885232033378308?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-13",
-            "title": "时隔数月，上海这家焊接机器人融资数亿元！",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30694178.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-13",
-            "title": "意法半导体收购人形机器人开发商 Oversonic Robotics 股份 (STMicroelectronics acquires stake in humanoid robot developer Oversonic Robotics)",
-            "url": "https://roboticsandautomationnews.com/2026/07/13/stmicroelectronics-acquires-stake-in-humanoid-robot-developer-oversonic-robotics/103263/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-13",
-            "title": "前小米副总卖咖啡机器人，融资数亿",
-            "url": "https://www.tmtpost.com/8062012.html",
-            "company": "行业",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖触觉系统融资、职业教育新增专业、机器人助教、导购、格斗赛事和实景挑战，产业关注点从展示热度延伸到人才、政策和能力边界。",
+        "summary": "行业动态横跨触觉系统融资、职教新增专业、小鹏 IRON 规划全球化、机器人赛事和政策建议，生态建设与应用展示同步升温。",
         "items": [
           {
             "date": "07-17",
@@ -609,26 +623,12 @@
             "url": "https://www.qbitai.com/2026/07/449906.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-14",
-            "title": "人形机器人进步的关键：管理机器人背后的动力 (Key to Humanoid Progress: Managing the Power Behind the Robots)",
-            "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-13",
-            "title": "MiniMax CEO称不再领取薪酬，将4%股份激励团队；吐槽DeepSeek面试的华为天才少年回应被控诈骗；宇树机器人给猪做手术登上Nature｜AI周报",
-            "url": "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article",
-            "company": "宇树科技",
-            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链新闻较少，主要涉及机器人仿真开发系统基准测试和激光雷达割草机器人盈利测算，供应链机会仍需绑定具体性能与成本问题。",
+        "summary": "产业链信息集中在仿真开发系统基准测试和激光雷达割草机器人盈利测算，供应链机会需要回到性能、成本和商业模型验证。",
         "items": [
           {
             "date": "07-17",
@@ -738,6 +738,96 @@
       "category": "泛具身产业链",
       "summary": "The process of building a robot doesn’t begin on the factory floor. Long before a robotic arm picks up its first component or an autonomous vehicle navigates a test route, engineer…",
       "url": "https://roboticsandautomationnews.com/2026/07/17/how-to-benchmark-your-development-system-before-running-robotics-simulations/103338/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "神玑公司首次参加世界人工智能大会，发布睿动具身智能开发平台",
+      "source_name": "36氪",
+      "category": "产品量产",
+      "summary": "36氪获悉，7月17日，2026世界人工智能大会正式开幕，蔚来芯片子公司安徽神玑技术有限公司首次独立参展。除了展出神玑NX9031芯片和车载域控外，还在会展期间推出“睿动”具身智能开发平台、分布式智能体平台等AI新产品。目前，神玑公司已形成由NX9031X、NX9031U、NX9031C等多颗芯片构成的完整产品序列，全面覆盖智能辅助驾驶、具身智能、Agent…",
+      "url": "https://36kr.com/newsflashes/3899667446613640?f=rss"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "思灵机器人 Agile Robots亮相WAIC 2026：具身智能独角兽展示物理AI全栈实力",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "7月17日，2026世界人工智能大会（WAIC 2026）在上海盛大开幕。作为全球领先的智能机器人明星企业，思灵机器人 Agile Robots携旗下H20轻量级高动态人形机器人、H10-W助理机器人、AI理疗康养机器人及高精度力反馈遥操作数据采集系统等重磅产品矩阵亮相。 在“人工智能+制造”日益深入的当下，思灵机器人以“链接人工智能与物理世界”为愿景，向全…",
+      "url": "https://www.leiphone.com/category/industrynews/bnE4dz5C4rdarltB.html"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "AI到底是「想错了」还是「判错了」？OpenDriveLab 陈立的组合式世界模型让策略自我纠偏 | RSS 2026",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "在具身智能通往 AGI 的征途中，我们正面临一个幽灵般的威胁：“黑盒幻觉”。 当一个机器人或自动驾驶策略出错时，开发者往往很难精准定位原因。因为“预测未来”和“评估好坏”这两个功能在庞大的联合网络中被紧紧绑在一起。一旦出了事故，你根本分不清它到底是“想错了”（对物理世界的预测不对），还是“判错了”（对结果好坏的评估有误）。 这种“想”与“判”的缠绕，正成为阻…",
+      "url": "https://www.leiphone.com/category/private/GkoVU7vEEW4FAPT2.html"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "GAIR Paper 108 | CVPR 2026 冠军奖论文：4K 参数撬动 VLA 泛化，空间才是真正的瓶颈！",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "机器人在新场景下失灵，根源不是不懂物理，而是空间表征错了——用极少参数校准这一层，就能打开通往原生世界动作模型的路。 作者丨张 璐 编辑丨 齐铖湧 让机器人真正理解世界，需要更大的语言模型、更逼真的视频生成，还是别的什么？ 雷峰网小编在中山大学与 X-Era AI Lab 团队的研究中f x了一个意外的答案： 很多时候，机器人在新场景下失灵，不是因为它不懂物…",
+      "url": "https://www.leiphone.com/category/academic/tSC1DCI4SbS7ZlTG.html"
+    },
+    {
+      "date": "07-17",
+      "company": "智元机器人",
+      "title": "智元联合京东物流发布精灵 G2 Max 人形机器人，首次在真实仓储作业生产场景中部署落地",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 17 日消息，2026 世界人工智能大会（WAIC）今日在上海开幕。京东物流与智元联合推出新一代安规级重载具身机器人 —— 精灵 G2 Max，并宣布该产品将应用于京东物流智狼仓，这是人形机器人 首次在真实的仓储作业生产场景中部署落地 。 官方表示，当前智能仓库多个环节已引入机器人和智能设备。但在许多货物入库场景，还需人工逐一将货物搬下、分…",
+      "url": "https://www.ithome.com/0/978/274.htm"
+    },
+    {
+      "date": "07-17",
+      "company": "行业",
+      "title": "获得新融资后，Monumental计划将其建筑机器人引入美国 (With new funding, Monumental plans to bring its construction robots to the U.S.)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "Mondo Robotics发布Beni：面向消费者的全地形AI相机机器人 (Mondo Robotics unveils Beni, an all-terrain AI camera robot for consumers)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Mondo Robotics, a robotics company creating accessible robots for the consumer, has launched its first robot, Beni, on Kickstarter. Beni is the first portable, all-terrain robot th…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/mondo-robotics-unveils-beni-an-all-terrain-ai-camera-robot-for-consumers/103385/"
+    },
+    {
+      "date": "07-17",
+      "company": "行业",
+      "title": "Monumental 融资 3200 万美元，扩大自主建筑机器人业务 (Monumental raises $32 million to expand autonomous construction robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Monumental, the Amsterdam-based tech company automating construction with robotics and software, has announced a $32 million Series B led by Khosla Ventures, with participation fro…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/monumental-raises-32m-led-by-khosla-ventures-to-scale-the-robots-already-building-the-physical-world/103373/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "Robbyant 发布面向具身机器人的通用 AI 模型 LingBot-VLA 2.0 (Robbyant unveils LingBot-VLA 2.0 universal AI model for embodied robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Robbyant, an embodied AI company within Ant Group, has announced the upgrade and open-source release of LingBot-VLA 2.0. Building upon the foundation of LingBot-VLA 1.0 released in…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/robbyant-unveils-lingbot-vla-2-0-universal-ai-model-for-embodied-robots/103355/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发 (Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Noetra, along with its core member companies and investors – Sony, SoftBank, NEC, and Honda Motor – launched full-scale R&D for a Japan-developed multimodal foundation model that w…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/"
     },
     {
       "date": "07-16",
@@ -1008,96 +1098,6 @@
       "category": "行业动态",
       "summary": "前脚马斯克刚说过机器人很难进工厂，但小米偏不信邪，直接就让机器人进工厂实习了。 刚刚，小米技术官方微博发布小米机器人进厂“实习”的最新进展—— 不到半年的时间里，小米机器人就学会了柔性工件的长时作业。 所谓的柔性工件作业，指的是面对每次都不一样的物体位置、姿态和突发状况，机器人都要能随机应变，难度比固定动作高一大截。 注意看，小米汽车工厂总装车间里的这个机器…",
       "url": "https://www.qbitai.com/2026/07/449906.html"
-    },
-    {
-      "date": "07-14",
-      "company": "其他",
-      "title": "人形机器人进步的关键：管理机器人背后的动力 (Key to Humanoid Progress: Managing the Power Behind the Robots)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Murata Power Solutions' John Quinlan on how advanced robotics converts, distributes and controls on-board power from battery to actuator. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/key-to-humanoid-progress-managing-the-power-behind-the-robots/"
-    },
-    {
-      "date": "07-14",
-      "company": "其他",
-      "title": "NVIDIA 分享如何评估面向真实部署的通用机器人策略 (NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment)",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "RoboLab research powers NVIDIA Isaac Lab-Arena, an open-source simulation framework for large-scale policy setup and evaluation. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/nvidia-shares-how-evaluate-general-purpose-robot-policies-real-world-deployment/"
-    },
-    {
-      "date": "07-14",
-      "company": "行业",
-      "title": "逐际动力完成2亿美元Pre-IPO 轮融资，半年累计融资4亿美元",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "summary": "近日，通用人形机器人企业逐际动力 LimX Dynamics 宣布完成近 2 亿美元 Pre-IPO 轮融资，投后估值达 150 亿元，跻身超级百亿独角兽行列。公司过去半年累计完成融资 4 亿美元，为后续资本市场运作筑牢基础。 据悉，本轮融资汇聚了中国、欧洲、中东、北美及东南亚的全球头部资本，充分体现了全球市场对具身智能产业长期价值的认可，以及对逐际动力技术…",
-      "url": "https://www.leiphone.com/category/robot/kgzBZPwpqBBLdoed.html"
-    },
-    {
-      "date": "07-13",
-      "company": "其他",
-      "title": "36氪首发 | 港中大博士、前大疆工程师创业消费级四足机器人，天使轮获正轩领投数千万元",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，深圳光之跃迁科技有限公司（Lumisition Robotics）（以下简称“光之跃迁”）近日完成近五千万元天使轮融资，由正轩领投，光点资本、力合资本、松禾资本、恒信未来等机构跟投。本轮资金将主要用于产品研发、算法迭代及量产准备。 光之跃迁成立于2026年2月， 聚焦消费级四足机器人市场， 希望以“全地形移动底盘…",
-      "url": "https://36kr.com/p/3893473722514181?f=rss"
-    },
-    {
-      "date": "07-13",
-      "company": "行业",
-      "title": "头部人形机器人关节公司半年再获新融资，同创伟业领投数亿元｜硬氪首发",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，零差云控（深圳）科技股份有限公司（以下简称“零差云控”）近日完成C++轮融资数亿元，本轮由同创伟业领投、国泰君安创新投资跟投，老股东华控基金追加投资。本轮资金将用于产能扩张和全球市场布局。源式资本担任本轮独家财务顾问，并由一苇资本和源式资本共同担任后续融资财务顾问。 人形机器人赛道在经历了概念爆火与资本狂热后，行业关键词正…",
-      "url": "https://36kr.com/p/3885232033378308?f=rss"
-    },
-    {
-      "date": "07-13",
-      "company": "宇树科技",
-      "title": "MiniMax CEO称不再领取薪酬，将4%股份激励团队；吐槽DeepSeek面试的华为天才少年回应被控诈骗；宇树机器人给猪做手术登上Nature｜AI周报",
-      "source_name": "InfoQ",
-      "category": "行业动态",
-      "summary": "MiniMax CEO 称不再领取薪酬，将 4%股份激励团队；智谱创始人唐杰发布内部信：将开启 Touch High（摸高）计划，“不登顶，就是失败”；知情人士回应“腾讯考虑入股 Manus”；吐槽 DeepSeek 面试的华为天才少年李博杰被投资人控诉诈骗，李博杰称始终履行职责；字节绩效规则调整：加大半年激励，加强字节范与领导力考核；京东抹平 leader…",
-      "url": "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "07-13",
-      "company": "行业",
-      "title": "时隔数月，上海这家焊接机器人融资数亿元！",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "日前，据36氪消息称，昇视唯盛正式宣布完成数亿元B轮融资，由上海半导体产投、金桥基金领投，零一创投、新鼎资本、中关鼎华及老股东微光创投加码跟投。所募得资金将主要用于焊接具身智能大脑与自主小脑运动控制系",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321202-8120-30694178.html"
-    },
-    {
-      "date": "07-13",
-      "company": "其他",
-      "title": "意法半导体收购人形机器人开发商 Oversonic Robotics 股份 (STMicroelectronics acquires stake in humanoid robot developer Oversonic Robotics)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Oversonic Robotics, the Italian cognitive robotics company creator of RoBee, the first certified cognitive humanoid robot designed to operate in complex environments, announces tha…",
-      "url": "https://roboticsandautomationnews.com/2026/07/13/stmicroelectronics-acquires-stake-in-humanoid-robot-developer-oversonic-robotics/103263/"
-    },
-    {
-      "date": "07-13",
-      "company": "其他",
-      "title": "Robot.com 推出“为令人精疲力竭的工作而打造”的人形机器人 (Robot.com launches humanoid ‘built for the work that burns people out’)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Robot.com, the company putting robots to work in the real world, has announced its entry into humanoid labor solutions with the commercial launch of R-noid, a robot “purpose-built…",
-      "url": "https://roboticsandautomationnews.com/2026/07/13/robot-com-launches-humanoid-built-for-the-work-that-burns-people-out/103259/"
-    },
-    {
-      "date": "07-13",
-      "company": "行业",
-      "title": "前小米副总卖咖啡机器人，融资数亿",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "唐沐透露，2026 年公司手握的订单金额已接近3至5亿元",
-      "url": "https://www.tmtpost.com/8062012.html"
     }
   ]
 }
