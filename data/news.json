@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T10:43:42.505321+08:00",
+  "updated": "2026-07-17T16:12:37.756787+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 6,
-      "core": 4,
+      "candidates": 5,
+      "core": 3,
       "periphery": 0,
       "new": 1
     },
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 4,
+      "entries": 29,
+      "candidates": 8,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 18,
       "candidates": 12,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -51,9 +51,9 @@
       "error": "",
       "entries": 19,
       "candidates": 2,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 19,
-      "core": 1,
+      "entries": 59,
+      "candidates": 27,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,9 +192,9 @@
       "error": "",
       "entries": 15,
       "candidates": 10,
-      "core": 5,
-      "periphery": 0,
-      "new": 3
+      "core": 3,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-17T10:44:05.575874+08:00",
+    "generated_at": "2026-07-17T16:12:50.987553+08:00",
     "mode": "aicodewith",
-    "item_count": 47,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "具身智能落地验证正更多绑定工厂、导购、跨境合作和真实部署评估等可验收任务，优必选与哈萨克斯坦代表团签署全面战略合作备忘录，小米相关报道提到工人采集装配、分拣、搬运第一视角数据，特斯拉训练场也围绕拿杯子、擦桌子等固定动作反复采集，行业判断标准正在从展示效果转向流程可复现、结果可检验。",
+        "text": "本周案例集中在工厂装配、分拣搬运、维修、巡检、导购等任务，优必选与哈萨克斯坦签署全面战略合作备忘录，小鹏宣布2027年将IRON推向全球市场，具身智能的商业叙事正更多依赖能被场景方验收的任务闭环。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事被数据闭环约束",
-        "text": "世界模型和基础模型继续升温，但关注点已从参数规模延伸到数据生成、编辑、仿真和部署条件，小米开源380亿参数Xiaomi-Robotics-U0，高德ABot-World Studio可在单张5090本地部署并生成小时级交互式视频与3D场景，模型价值更依赖能否进入训练和任务闭环。",
+        "label": "模型竞争回到数据闭环",
+        "text": "小米开源380亿参数Xiaomi-Robotics-U0，文远知行WITT提出最小物理事实单元，训练侧还出现工人第一视角采集和固定场地反复操作数据，基础模型进展不再只看参数规模，而是更强调真实物理过程能否被拆解、生成和验证。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景和能力补齐",
-        "text": "本周融资集中在世界模型、ODM、关节、触觉和具备订单线索的机器人公司，日冕开物三个月内完成数亿元融资，咖啡机器人公司披露2026年订单金额接近3至5亿元，人形机器人ODM和全身触觉系统也获得资金支持，资本更愿意押注可定义场景、量产准备和关键短板。",
+        "label": "资本偏好能力补齐型入口",
+        "text": "日冕开物三个月完成数亿元种子轮融资，XDOF获得7000万美元融资，逐际动力完成近2亿美元Pre-IPO轮融资，同时触觉系统、ODM、消费级四足机器人等方向获得资金支持，投资正在围绕世界模型、数据供给、量产准备和关键感知能力分散布局。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术突破集中在数据与世界模型，小米开源380亿参数U0，数据工厂记录装配、分拣、搬运等第一视角操作，基础设施化路径升温。",
+        "summary": "技术侧重点从单点算法转向数据、世界模型和统一生成框架，小米U0、物理AI基础设施、第一视角采集等案例强化了真实任务数据的重要性。",
         "items": [
           {
             "date": "07-17",
@@ -270,6 +270,13 @@
             "url": "https://www.tmtpost.com/8067769.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-17",
+            "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+            "url": "https://www.ithome.com/0/978/136.htm",
+            "company": "银河通用",
+            "source_name": "IT之家"
           },
           {
             "date": "07-16",
@@ -291,20 +298,27 @@
             "url": "https://www.ithome.com/0/977/012.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-13",
-            "title": "为通用机器人构建基础技术栈 (Building a Foundation Stack for General-Purpose Robots)",
-            "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack",
-            "company": "其他",
-            "source_name": "IEEE Spectrum Robotics"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品量产侧强调边缘部署与上市节奏，ABot可单张5090本地部署，小鹏IRON传出月产目标并规划全球推出，英伟达也更新机器人计算平台。",
+        "summary": "产品量产新闻集中在世界模型、物理AI模型和人形机器人产能预期，WITT、Cosmos 3 Edge、小鹏IRON等进展显示量产验证开始与模型能力同步推进。",
         "items": [
+          {
+            "date": "07-17",
+            "title": "文远知行发布自研物理 AI 大模型 WITT，首次引入“最小物理事实单元”概念",
+            "url": "https://www.ithome.com/0/978/055.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-17",
+            "title": "千台量产前夜，具身智能竞争已沉到底层基建",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30694915.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-16",
             "title": "用世界模型给VLA当教练，原力灵机发布DW0.5，把RL搬进虚拟世界",
@@ -386,7 +400,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单仍以可落地验证为主，优必选与哈萨克斯坦代表团签署全面战略合作备忘录，特斯拉FSD提交意大利认证，部署评估框架受关注。",
+        "summary": "商业订单以出海合作和真实部署评估为主，优必选与哈萨克斯坦签署全面战略合作备忘录，特斯拉FSD欧洲认证申请也体现落地合规进程。",
         "items": [
           {
             "date": "07-17",
@@ -420,7 +434,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，世界模型公司日冕开物获数亿元融资，逐际动力完成2亿美元Pre-IPO，关节、ODM、消费四足和建筑机器人均获资金支持。",
+        "summary": "资本动态延续高热度，世界模型、通用人形机器人、建筑机器人基础设施、ODM和消费级四足机器人均获融资，资金更关注场景入口与量产能力。",
         "items": [
           {
             "date": "07-17",
@@ -435,6 +449,13 @@
             "url": "https://36kr.com/p/3899057634363266?f=rss",
             "company": "行业",
             "source_name": "36氪"
+          },
+          {
+            "date": "07-17",
+            "title": "最近，投资人都在研究给机器人“喂饭”",
+            "url": "https://www.tmtpost.com/8068658.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "07-16",
@@ -503,7 +524,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖人才、应用和政策，小鹏宣布2027年将IRON推向全球市场，教育部新增涉人形机器人专业，机器人助教、格斗赛等场景继续扩散。",
+        "summary": "行业动态覆盖触觉系统融资、职业教育新增专业、机器人助教、导购、格斗赛事和实景挑战，产业关注点从展示热度延伸到人才、政策和能力边界。",
         "items": [
           {
             "date": "07-17",
@@ -602,20 +623,20 @@
             "url": "https://www.infoq.cn/article/ySJsUiKHrIF1zDtKsNDj?utm_source=rss&utm_medium=article",
             "company": "宇树科技",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "07-13",
-            "title": "半年融三轮、智元经纬都押注，这家成立不到一年的机器人公司凭什么？",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321206-12003-30694492.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链关注具体盈利模型，激光雷达割草机器人案例从原型机、公园运行和商业测算切入，显示供应链机会需绑定明确场景和成本结构。",
+        "summary": "泛具身产业链新闻较少，主要涉及机器人仿真开发系统基准测试和激光雷达割草机器人盈利测算，供应链机会仍需绑定具体性能与成本问题。",
         "items": [
+          {
+            "date": "07-17",
+            "title": "运行机器人仿真前如何对开发系统进行基准测试 (How to Benchmark Your Development System Before Running Robotics Simulations)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/how-to-benchmark-your-development-system-before-running-robotics-simulations/103338/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "07-14",
             "title": "激光雷达割草机器人如何盈利？我们找耐士劳总裁秦岭算了一笔账",
@@ -672,6 +693,51 @@
       "category": "商业订单",
       "summary": "近日一则科技圈重磅合作备受关注：优必选科技在上海与哈萨克斯坦代表团完成高层会晤，在哈国总统托卡耶夫现场见证下，双方正式签下全面战略合作备忘录。 不同于普通外贸订单、短期技术交流，这份合作协议瞄准产业落",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8110-30694828.html"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "最近，投资人都在研究给机器人“喂饭”",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "具身智能拼到今天，拼的已经不是谁的机器人会摆pose，而是谁的机器人真的会干活，而数据，正在成为决定机器人能不能真正变聪明的隐形门槛。 具身投资人也开始把目光放在数据之上，甚至硅谷老钱也在加速入场。6月中旬，XDOF从隐身状态走出，一次性拿下7000万美元融资，投资方包括Thrive Capital和a16z。专注机器人数据基础设施的Encord完成6000…",
+      "url": "https://www.tmtpost.com/8068658.html"
+    },
+    {
+      "date": "07-17",
+      "company": "银河通用",
+      "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 17 日消息，据央视财经报道，在 2026 世界人工智能大会上，银河通用机器人创始人兼首席技术官王鹤预测，通过海量综合数据训练，具身智能基础模型能在未经专门训练的任务上直接达到 70%-80% 成功率，媲美当年数字模型的对话水平；而强大的预训练模型加上高效后训练范式，正是敲开这一里程碑的关键条件。 王鹤判断，按当前数据积累速度和模型收敛趋势…",
+      "url": "https://www.ithome.com/0/978/136.htm"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "文远知行发布自研物理 AI 大模型 WITT，首次引入“最小物理事实单元”概念",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 17 日消息，今日，自动驾驶科技公司文远知行 WeRide 发布自研物理 AI 认知基础大模型 WeRide WITT。 据介绍，基于视觉语言大模型（VLM）能力，WITT 首次引入“最小物理事实单元”概念， 打通视频、图像、文本等多模态信息 ，将连续变化的真实场景拆解为可被识别和验证的事实单元，构建起以物理事实为核心的新一代 AI 理解框…",
+      "url": "https://www.ithome.com/0/978/055.htm"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "千台量产前夜，具身智能竞争已沉到底层基建",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "作者 | 曾响铃 文 | 响铃说 2026年的WAIC，人形机器人依然是展区里最吸睛的存在。只是，业内人聚在一起聊的话题，早已从“能不能翻跟头、能不能实现抓取”换成了另一套语境——能不能连续跑24小时 人形机器人",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30694915.html"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "运行机器人仿真前如何对开发系统进行基准测试 (How to Benchmark Your Development System Before Running Robotics Simulations)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "The process of building a robot doesn’t begin on the factory floor. Long before a robotic arm picks up its first component or an autonomous vehicle navigates a test route, engineer…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/how-to-benchmark-your-development-system-before-running-robotics-simulations/103338/"
     },
     {
       "date": "07-16",
@@ -1032,51 +1098,6 @@
       "category": "资本动态",
       "summary": "唐沐透露，2026 年公司手握的订单金额已接近3至5亿元",
       "url": "https://www.tmtpost.com/8062012.html"
-    },
-    {
-      "date": "07-13",
-      "company": "其他",
-      "title": "为通用机器人构建基础技术栈 (Building a Foundation Stack for General-Purpose Robots)",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "技术突破",
-      "summary": "This article is brought to you by X Square Robot . Large language models gave artificial intelligence a working recipe. Pretrain a large model on broad data, and general capability…",
-      "url": "https://spectrum.ieee.org/x-square-robot-embodied-ai-stack"
-    },
-    {
-      "date": "07-13",
-      "company": "智元机器人",
-      "title": "半年融三轮、智元经纬都押注，这家成立不到一年的机器人公司凭什么？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "摘要：人形机器人“卖铲人” 朝阳资本论 瞳海 2026年7月13日，上海新奇机器人有限公司宣布完成A+轮融资。 这家成立于2025年8月的公司，自2025年底启动首轮市场化融资以来，已在半",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321206-12003-30694492.html"
-    },
-    {
-      "date": "07-12",
-      "company": "行业",
-      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
-      "source_name": "量子位",
-      "category": "泛具身产业链",
-      "summary": "为了帮你看清具身数据行业，我们总结了以下十个行业现状",
-      "url": "https://www.qbitai.com/2026/07/447914.html"
-    },
-    {
-      "date": "07-12",
-      "company": "特斯拉",
-      "title": "特斯拉 46 天拆除 Model S/X 产线，为 Optimus 人形机器人量产铺路",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 12 日消息，特斯拉近日发布了一段视频，展示了位于美国加州北部弗里蒙特工厂（Fremont Factory）原有 Model S 和 Model X 生产线的拆除过程。 整个拆除工程仅耗时 46 天，期间动用了大量重型机械，拆除了混凝土地基、机器人机械臂以及输送设备，为新的生产线腾出空间。 IT之家注意到，特斯拉在发布视频时配文称：“一个时…",
-      "url": "https://www.ithome.com/0/975/664.htm"
-    },
-    {
-      "date": "07-12",
-      "company": "行业",
-      "title": "具身智能460亿融资背后的“异类玩家”",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "2026年过半，具身智能一级市场的账本摊开了。288起融资，226家企业拿到钱，274家机构出手，披露总额超过460亿元。 其中超过一半的钱涌入了“大脑派”公司，而业务以机器人本体为核心的“本体派”公司同期融资仅占12.8%。 大额单笔融资频发、融资轮次持续提速、机构争先抢投头部项目，三重资本行为共同抬高行业入场门槛。 资金高度向技术壁垒深厚、落地场景成熟的…",
-      "url": "https://www.tmtpost.com/8061597.html"
     }
   ]
 }
