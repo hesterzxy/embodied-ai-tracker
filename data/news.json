@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-17T21:41:16.865830+08:00",
+  "updated": "2026-07-18T03:12:10.791378+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -27,7 +27,7 @@
       "candidates": 9,
       "core": 4,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 13,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 17,
-      "core": 5,
+      "entries": 60,
+      "candidates": 16,
+      "core": 4,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
-      "core": 7,
-      "periphery": 4,
-      "new": 10
+      "candidates": 14,
+      "core": 8,
+      "periphery": 3,
+      "new": 8
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 3
+      "new": 4
     },
     {
       "name": "RoboHub",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-17T21:41:38.448426+08:00",
+    "generated_at": "2026-07-18T03:12:26.954407+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收作业",
-        "text": "本周最明确的落地信号来自仓储、出海合作和物理事实建模，智元与京东物流发布精灵 G2 Max 并用于京东物流智狼仓，优必选在哈萨克斯坦总统见证下签署全面战略合作备忘录，文远知行 WITT 将真实场景拆解为可识别和验证的最小物理事实单元，具身智能的验证口径正在从演示能力转向可部署、可验收的任务闭环。",
+        "label": "落地验证转向可验收任务",
+        "text": "智元与京东物流发布精灵 G2 Max，并称将应用于京东物流智狼仓，优必选与哈萨克斯坦代表团签署全面战略合作备忘录，近期进展更多落在仓储、出海合作等可定义场景，机器人能力评估正从展示效果转向真实作业部署和后续交付验证。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始贴近数据闭环",
-        "text": "小米开源 380 亿参数 Xiaomi-Robotics-U0，主打统一生成并打通机器人图片和视频数据生成与编辑链路，银河通用提出通过海量综合数据训练让基础模型在未专门训练任务上达到 70%-80% 成功率的预测，叠加 WITT 对多模态真实场景的事实单元拆解，模型叙事正在从参数规模延伸到数据生成、任务验证和后训练效率。",
+        "label": "模型叙事绑定数据闭环",
+        "text": "小米开源 380 亿参数 Xiaomi-Robotics-U0，覆盖机器人图片和视频数据生成与编辑，文远知行 WITT 引入最小物理事实单元，银河通用提出通过海量综合数据训练提升未专门训练任务成功率，基础模型竞争开始围绕真实数据组织、可验证事实和任务泛化展开。",
         "evidence_urls": []
       },
       {
-        "label": "资本流向能力补齐环节",
-        "text": "日冕开物三个月内完成连续两轮种子轮融资合计数亿元，XDOF 获 7000 万美元融资，人形机器人 ODM 厂商获千万融资并将资金用于下一代产品研发和海外拓展，全身触觉系统公司融资资金投向研发、算力和量产测试体系，投资关注点更集中在世界模型、数据供给、触觉感知和量产能力等具体短板。",
+        "label": "资本关注场景与瓶颈补齐",
+        "text": "日冕开物三个月内完成数亿元种子轮融资，XDOF 获 7000 万美元融资，人形机器人 ODM 厂商融资用于下一代产品研发和海外拓展，同时全身触觉公司资金投向量产测试体系，资金更集中流向世界模型、数据供给、触觉和制造交付等能力短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕基础模型、世界模型和数据工厂展开，小米 U0、空间表征校准、组合式世界模型等方向共同指向泛化与数据瓶颈。",
+        "summary": "本周技术线集中在世界模型、数据工厂和空间表征，小米开源 380 亿参数统一生成模型，银河通用提出 2028 年具身基础模型成功率预期，研究重点从单点算法转向数据与泛化机制。",
         "items": [
           {
             "date": "07-17",
@@ -317,7 +317,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现真实仓储部署、物理 AI 模型、开发平台和多类机器人矩阵，量产叙事与可部署场景、低成本本地生成能力绑定更紧。",
+        "summary": "产品侧出现更多平台化与真实部署信号，智元精灵 G2 Max 将进入京东物流智狼仓，文远知行发布 WITT，神玑推出具身开发平台，量产叙事开始与场景、模型和开发工具绑定。",
         "items": [
           {
             "date": "07-17",
@@ -372,6 +372,27 @@
             "date": "07-17",
             "title": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发 (Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics)",
             "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-17",
+            "title": "Weave Robotics 推出首款移动人形机器人 Isaac (Weave Robotics launches Isaac, its first mobile humanoid robot)",
+            "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "07-17",
+            "title": "McLaren Construction 将与 FieldAI 合作大规模部署自主机器人 (McLaren Construction to deploy autonomous robots at scale in partnership with FieldAI)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/mclaren-construction-to-deploy-autonomous-robots-at-scale-in-partnership-with-fieldai/103422/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-17",
+            "title": "1X发布用于NEO的25自由度仿人机器人手 (1X unveils 25-degree-of-freedom humanoid robot hands for NEO)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/1x-unveils-25-degree-of-freedom-humanoid-robot-hands-for-neo/103405/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           },
@@ -437,19 +458,12 @@
             "url": "https://www.ithome.com/0/976/538.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-14",
-            "title": "自变量发布 DMuon 优化器，分布式改造 Muon 大模型基础设施，让具身模型训练提速 30%",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321206-8110-30694397.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业侧以优必选哈萨克斯坦战略合作最具确定性，同时银河通用部署框架和特斯拉 FSD 欧洲认证申请显示落地仍依赖场景和监管推进。",
+        "summary": "商业订单证据相对有限，优必选在哈萨克斯坦总统见证下与代表团签署全面战略合作备忘录，银河通用披露新部署框架，出海合作和低门槛部署仍处在后续落地验证阶段。",
         "items": [
           {
             "date": "07-17",
@@ -464,19 +478,12 @@
             "url": "https://www.qbitai.com/2026/07/451403.html",
             "company": "银河通用",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-14",
-            "title": "特斯拉向意大利提交 FSD 认证申请，欧洲落地进程加速",
-            "url": "https://www.ithome.com/0/976/479.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本继续覆盖世界模型、机器人喂数、ODM、建筑机器人和通用机器人，融资案例显示资金更偏向可定义场景和能力基础设施。",
+        "summary": "融资继续活跃，日冕开物连续两轮种子轮合计数亿元，XDOF 获 7000 万美元，逐际动力完成近 2 亿美元 Pre-IPO，建筑机器人和 ODM 也获资金支持，资本偏好明确场景和基础能力。",
         "items": [
           {
             "date": "07-17",
@@ -521,6 +528,13 @@
             "source_name": "The Robot Report"
           },
           {
+            "date": "07-16",
+            "title": "阿里京东投完，IDG和蓝思科技跟上：逐际动力Pre-IPO背后的资本逻辑",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-12005-30694663.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "07-15",
             "title": "Walden Robotics以11亿美元估值亮相，开发通用机器人 (Walden Robotics launches at $1.1B valuation for general-purpose robots)",
             "url": "https://www.therobotreport.com/walden-robotics-launches-1-1b-valuation-general-purpose-robots/",
@@ -538,7 +552,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态横跨触觉系统融资、职教新增专业、小鹏 IRON 规划全球化、机器人赛事和政策建议，生态建设与应用展示同步升温。",
+        "summary": "行业侧覆盖人才、政策、展示和应用预告，教育部新增涉人形机器人职业教育专业，小鹏称 2027 年将 IRON 推向全球市场，Agility 提出政策建议，行业配套开始向人才和规则延伸。",
         "items": [
           {
             "date": "07-17",
@@ -546,6 +560,13 @@
             "url": "https://36kr.com/p/3899128277452681?f=rss",
             "company": "智元机器人",
             "source_name": "36氪"
+          },
+          {
+            "date": "07-17",
+            "title": "Agility Robotics在弗里蒙特开设新设施，加速物理AI发展 (Agility Robotics opens new Fremont facility to accelerate physical AI development)",
+            "url": "https://roboticsandautomationnews.com/2026/07/17/agility-robotics-opens-new-fremont-facility-to-accelerate-physical-ai-development/103426/",
+            "company": "Agility Robotics",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-16",
@@ -602,33 +623,12 @@
             "url": "https://36kr.com/newsflashes/3895146029005831?f=rss",
             "company": "其他",
             "source_name": "36氪"
-          },
-          {
-            "date": "07-14",
-            "title": "雷军：小米机器人在汽车工厂“实习”已满 4 个月，正“解锁”更多实习岗位",
-            "url": "https://www.ithome.com/0/976/536.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-14",
-            "title": "特斯拉奥斯汀 Robotaxi 四月中旬以来仅录得 1 起事故，系人类司机追尾",
-            "url": "https://www.ithome.com/0/976/495.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-14",
-            "title": "马斯克“机器人还进不了厂”刚说完，小米机器人”上岗“汽车产线了",
-            "url": "https://www.qbitai.com/2026/07/449906.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链信息集中在仿真开发系统基准测试和激光雷达割草机器人盈利测算，供应链机会需要回到性能、成本和商业模型验证。",
+        "summary": "产业链信息主要涉及仿真开发系统基准测试和激光雷达割草机器人商业测算，证据显示上游工具与细分场景盈利模型仍在探索，供应链机会需要嵌入具体性能与成本约束。",
         "items": [
           {
             "date": "07-17",
@@ -830,6 +830,42 @@
       "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/"
     },
     {
+      "date": "07-17",
+      "company": "其他",
+      "title": "Weave Robotics 推出首款移动人形机器人 Isaac (Weave Robotics launches Isaac, its first mobile humanoid robot)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Weave Robotics has listed the features of its Isaac wheeled bimanual manipulator robot for household and office use. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
+    },
+    {
+      "date": "07-17",
+      "company": "Agility Robotics",
+      "title": "Agility Robotics在弗里蒙特开设新设施，加速物理AI发展 (Agility Robotics opens new Fremont facility to accelerate physical AI development)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Agility Robotics, a humanoid robotics and physical AI company, has opened its new Fremont, California facility designed to accelerate physical AI developments that directly improve…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/agility-robotics-opens-new-fremont-facility-to-accelerate-physical-ai-development/103426/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "McLaren Construction 将与 FieldAI 合作大规模部署自主机器人 (McLaren Construction to deploy autonomous robots at scale in partnership with FieldAI)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "McLaren Construction has agreed a partnership with FieldAI, a developer of physical AI, to bring general-purpose robots to its UK construction sites. Under the partnership, McLaren…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/mclaren-construction-to-deploy-autonomous-robots-at-scale-in-partnership-with-fieldai/103422/"
+    },
+    {
+      "date": "07-17",
+      "company": "其他",
+      "title": "1X发布用于NEO的25自由度仿人机器人手 (1X unveils 25-degree-of-freedom humanoid robot hands for NEO)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Humanoid robotics company 1X has unveiled a new tendon-driven robotic hand for its NEO humanoid platform, saying the design brings near human-level dexterity, strength and tactile…",
+      "url": "https://roboticsandautomationnews.com/2026/07/17/1x-unveils-25-degree-of-freedom-humanoid-robot-hands-for-neo/103405/"
+    },
+    {
       "date": "07-16",
       "company": "其他",
       "title": "教育部增设 27 个职业教育新专业：明年开始招生，涉人形机器人、车联网等领域",
@@ -918,6 +954,15 @@
       "category": "资本动态",
       "summary": "TerraFirma has developed a platform that combines AI-enabled software, a remote command-and-control center, and retrofitted heavy machinery. The post appeared first on The Robot Re…",
       "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/"
+    },
+    {
+      "date": "07-16",
+      "company": "行业",
+      "title": "阿里京东投完，IDG和蓝思科技跟上：逐际动力Pre-IPO背后的资本逻辑",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "摘要：半年吸金4亿美元、估值150亿 朝阳资本论 乌子柒 7月14日，深圳通用人形机器人公司逐际动力LimX Dynamics宣布完成近2亿美元Pre-IPO轮融资，投后估值达到150亿元",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-12005-30694663.html"
     },
     {
       "date": "07-15",
@@ -1053,51 +1098,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 14 日消息，今日，阿里巴巴集团旗下高德正式发布通用世界模型工坊 ABot-WorldStudio，并同步开放测试。该工坊将交互式视频生成与 3DGS 场景生成统一在同一产品中 —— 用户只需输入一段文字或一张图片，即可生成一个可实时交互、任意分享的 AI 世界，输出结果可保存为视频与 3DGS 文件。 IT之家附官方详细介绍如下： ABo…",
       "url": "https://www.ithome.com/0/976/538.htm"
-    },
-    {
-      "date": "07-14",
-      "company": "其他",
-      "title": "雷军：小米机器人在汽车工厂“实习”已满 4 个月，正“解锁”更多实习岗位",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 14 日消息，小米创办人、董事长兼 CEO 雷军今日发文， 称小米机器人在汽车工厂“实习”已经满 4 个月 ，随后他也介绍了机器人取得的成果： (1) 自攻螺母上件工站双侧作业，成功率从 90.2% 提升至 98%； (2) 机器人在汽车工厂总装车间的新场景进一步拓展：中控台侧盖板上件和料箱折叠成功率均达到 90%，而且，首次实现柔性工件的…",
-      "url": "https://www.ithome.com/0/976/536.htm"
-    },
-    {
-      "date": "07-14",
-      "company": "特斯拉",
-      "title": "特斯拉奥斯汀 Robotaxi 四月中旬以来仅录得 1 起事故，系人类司机追尾",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 14 日消息，特斯拉 Robotaxi、Waymo 和 Zoox 等自动驾驶系统的商业化进程，往往不是依据其实际表现来评价，而是在公众舆论中接受审视。而影响公众看法的关键因素，就是事故发生的频率。 每当自动驾驶车辆发生碰撞事故，都会引发公众对这项技术的质疑。不过，从监管机构披露的车辆运行数据来看，真实情况与公众印象并不一致，特斯拉在安全性方…",
-      "url": "https://www.ithome.com/0/976/495.htm"
-    },
-    {
-      "date": "07-14",
-      "company": "特斯拉",
-      "title": "特斯拉向意大利提交 FSD 认证申请，欧洲落地进程加速",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 7 月 14 日消息，欧洲对特斯拉 FSD（监督版）软件的监管审批正在明显提速。多年来，当地车主只能看着北美用户使用 FSD 在城市道路上行驶，而如今，一项重要的监管突破，或许已经为 FSD 在南欧的正式落地铺平了道路。 IT之家注意到，据 X 用户 @MirkoMontagna0 透露，他通过 LinkedIn 直接联系了意大利基础设施与交通部总…",
-      "url": "https://www.ithome.com/0/976/479.htm"
-    },
-    {
-      "date": "07-14",
-      "company": "其他",
-      "title": "自变量发布 DMuon 优化器，分布式改造 Muon 大模型基础设施，让具身模型训练提速 30%",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "神经网络优化器是大模型训练的底层基础设施，负责调度更新模型权重的方向和步长等。近年来，Muon 优化器在大语言模型训练领域逐渐成为焦点，展现出相比 AdamW 更快的收敛能力。自变量的实验发现，在具身",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321206-8110-30694397.html"
-    },
-    {
-      "date": "07-14",
-      "company": "其他",
-      "title": "马斯克“机器人还进不了厂”刚说完，小米机器人”上岗“汽车产线了",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "summary": "前脚马斯克刚说过机器人很难进工厂，但小米偏不信邪，直接就让机器人进工厂实习了。 刚刚，小米技术官方微博发布小米机器人进厂“实习”的最新进展—— 不到半年的时间里，小米机器人就学会了柔性工件的长时作业。 所谓的柔性工件作业，指的是面对每次都不一样的物体位置、姿态和突发状况，机器人都要能随机应变，难度比固定动作高一大截。 注意看，小米汽车工厂总装车间里的这个机器…",
-      "url": "https://www.qbitai.com/2026/07/449906.html"
     }
   ]
 }
