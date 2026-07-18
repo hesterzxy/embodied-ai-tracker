@@ -37,6 +37,7 @@
   "FORT Robotics extends physical AI safety platform with Nvidia Halos": "FORT Robotics 借助 Nvidia Halos 拓展物理 AI 安全平台",
   "Fieldwork Robotics secures SEED Innovations investment to scale berry harvesting robots": "Fieldwork Robotics获SEED Innovations投资，扩大浆果采摘机器人规模",
   "Flexiv launches new ‘adaptive robots’ for industrial automation": "Flexiv 推出新型“自适应机器人”用于工业自动化",
+  "Fujitsu partners with Fanuc, Yaskawa and Kawasaki to advance physical AI using Nvidia technology": "Fujitsu携手Fanuc、Yaskawa和Kawasaki利用Nvidia技术推进物理AI",
   "General Intuition raises $320M to use video game data to train robots": "通用直觉公司融资3.2亿美元，利用视频游戏数据训练机器人",
   "Goodwood Festival of Speed unveils Future Lab lineup for 2026": "古德伍德速度节公布2026年Future Lab阵容",
   "Ground Robots Inherit the Kill Zone": "地面机器人接管杀伤区",
@@ -78,6 +79,7 @@
   "NVIDIA shares how to evaluate general-purpose robot policies for real-world deployment": "NVIDIA 分享如何评估面向真实部署的通用机器人策略",
   "Niantic Spatial adds USDZ export to Scaniverse to streamline robotics simulation workflows": "Niantic Spatial 为 Scaniverse 添加 USDZ 导出以简化机器人仿真工作流程",
   "Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发",
+  "Nvidia and Hugging Face expand LeRobot with new open robotics AI tools": "Nvidia 与 Hugging Face 推出新开放机器人 AI 工具扩展 LeRobot",
   "Oak Ridge National Lab reveals ‘hidden workforce’ behind AI-powered research facilities": "橡树岭国家实验室揭示 AI 驱动研究设施背后的“隐形劳动力",
   "Opinion: The end of inventory – how real-time supply chains are rewriting industrial real estate": "观点：库存的终结——实时供应链如何改写工业地产",
   "Opinion: Why robot dogs are leading the pack in factory floor efficiency": "观点：为何机器狗在工厂车间效率方面领跑",
@@ -85,6 +87,7 @@
   "RLWRLD launches open platform to benchmark dexterous robotic hands": "RLWRLD 推出用于灵巧机械手基准测试的开放平台",
   "Richtech Robotics launches 24/7 interactive livestream featuring AI robot ADAM": "Richtech Robotics推出AI机器人ADAM 24/7互动直播",
   "Robbyant launches LingBot-Depth 2.0 and LingBot-Vision for advanced robotic spatial perception": "Robbyant 推出 LingBot-Depth 2.0 与 LingBot-Vision，提升机器人空间感知能力",
+  "Robbyant releases LingBot-World 2.0 with hour-long real-time world generation": "Robbyant 发布 LingBot-World 2.0，支持长达一小时的实时世界生成",
   "Robbyant unveils LingBot-VLA 2.0 universal AI model for embodied robots": "Robbyant 发布面向具身机器人的通用 AI 模型 LingBot-VLA 2.0",
   "RoboDK unveils CAM software that cuts robotic machining deployment time ‘by up to 40 percent’": "RoboDK 推出 CAM 软件，可将机器人加工部署时间缩短“高达 40%",
   "Robot Talk Episode 161 – Collaborative haptic systems, with Allison Okamura": "Robot Talk第161期：Allison Okamura谈协作式触觉系统",
@@ -107,6 +110,7 @@
   "This humanoid robotics company is going public, but its CEO isn’t promising a robot in your home anytime soon": "这家人形机器人公司即将上市，但其 CEO 并不承诺机器人很快进入你家",
   "This startup thinks robotics is about to have its ChatGPT moment": "这家初创公司认为机器人即将迎来 ChatGPT 时刻",
   "Top 10 robotics developments of June 2026": "2026年6月十大机器人技术进展",
+  "Toyota and Nvidia expand partnership to develop AI for vehicles, factories and cities": "Toyota和Nvidia扩大合作，开发用于车辆、工厂和城市的AI",
   "UK startup Humanoid launches reinforcement learning system to improve robot manipulation": "英国初创公司 Humanoid 推出强化学习系统，提升机器人操控能力",
   "University of Rhode Island opens advanced Ocean Robotics Laboratory for autonomous marine research": "罗德岛大学启用先进海洋机器人实验室，开展自主海洋研究",
   "Vention collaborates with FANUC and Universal Robots on software-defined automation": "Vention 与发那科（FANUC）和优傲机器人（Universal Robots）合作开发软件定义自动化",
@@ -123,5 +127,6 @@
   "Why you should combine robot dexterity with mechanical positioning for complex assembly operations": "为什么复杂装配操作应结合机器人灵巧性与机械定位",
   "With new funding, Monumental plans to bring its construction robots to the U.S.": "获得新融资后，Monumental计划将其建筑机器人引入美国",
   "X Square Robot brings its valuation to $2.8B with four consecutive funding rounds": "X Square Robot 连续四轮融资后估值达28亿美元",
-  "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics": "X Square Robot 构建具身智能与通用机器人的全栈方案"
+  "X Square Robot builds a full-stack approach to embodied AI and general-purpose robotics": "X Square Robot 构建具身智能与通用机器人的全栈方案",
+  "mimic Robotics unveils full-stack platform for dexterous robot manipulation": "mimic Robotics 发布灵巧机器人操作全栈平台"
 }

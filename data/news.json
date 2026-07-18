@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-18T15:52:38.037156+08:00",
+  "updated": "2026-07-18T21:18:14.676367+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -25,9 +25,9 @@
       "error": "",
       "entries": 26,
       "candidates": 6,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 13,
-      "core": 3,
+      "entries": 16,
+      "candidates": 11,
+      "core": 4,
       "periphery": 0,
       "new": 1
     },
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -66,7 +66,7 @@
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 20,
-      "core": 4,
+      "candidates": 25,
+      "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -192,9 +192,9 @@
       "error": "",
       "entries": 15,
       "candidates": 14,
-      "core": 10,
+      "core": 11,
       "periphery": 1,
-      "new": 7
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,31 +239,45 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-18T15:52:52.515295+08:00",
+    "generated_at": "2026-07-18T21:18:29.626413+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周多条进展集中在柔性制造、越南工厂、仓储作业和工业合作场景，影身智能披露数亿订单并强调柔性制造稳定商业化，智元与京东物流将精灵G2 Max部署于真实仓储，产业评价标准正从Demo转向稳定运行、批量交付和可复制能力。",
+        "text": "本周具身智能落地案例更多集中在工厂、仓储、制造等任务边界清晰的场景，智元与京东物流将精灵 G2 Max 部署到真实仓储作业，影身智能机器人进入越南工厂，4D 世界模型企业已在柔性制造形成稳定商业化，短期竞争重心正在从展示能力转向能否在生产现场被持续验收。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事开始绑定数据闭环",
-        "text": "4D世界模型进入工厂、日冕开物三个月内完成数亿元融资，银河通用提出依靠海量综合数据训练让基础模型在未专门训练任务上达到70%至80%成功率，模型能力的竞争正更多落在真实物理数据、任务成功率和后训练范式上。",
+        "label": "模型叙事绑定数据闭环",
+        "text": "4D 世界模型、VLA 接触理解、组合式世界模型等技术进展持续出现，银河通用提出 2028 年具身基础模型有望在未专门训练任务上达到 70%-80% 成功率，同时企业开始强调通过真实场景沉淀动态物理数据，模型能力的可信度将更多取决于任务数据、后训练和现场反馈闭环。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景明确和短板补齐",
-        "text": "日冕开物、XDOF、人形机器人ODM厂商及全身触觉系统公司获得融资，资金用途覆盖世界模型、机器人数据供给、下一代本体研发、海外拓展和量产测试体系，投资关注点从单一整机热度延伸到可定义任务、数据供给和感知触觉等能力缺口。",
+        "label": "资本偏向场景和短板补齐",
+        "text": "日冕开物三个月内完成数亿元种子轮融资，XDOF 获 7000 万美元融资，人形机器人 ODM 厂商获得千万融资且资金用于下一代产品和海外拓展，触觉系统创业公司资金投向研发、算力和量产测试，投资关注点正落在世界模型、机器人喂数、ODM 和触觉等可对应产业短板的环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、数据工厂、空间表征和标准化展开，银河通用给出2028年基础模型成功率预测，4D世界模型进入越南工厂，研究与落地线索同步增加。",
+        "summary": "技术进展围绕世界模型、VLA 接触理解、空间表征和标准化展开，银河通用给出 2028 年基础模型成功率预测，影身智能则把 4D 世界模型带入越南工厂。",
         "items": [
+          {
+            "date": "07-18",
+            "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
+            "url": "https://www.qbitai.com/2026/07/453897.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-18",
+            "title": "Fujitsu携手Fanuc、Yaskawa和Kawasaki利用Nvidia技术推进物理AI (Fujitsu partners with Fanuc, Yaskawa and Kawasaki to advance physical AI using Nvidia technology)",
+            "url": "https://roboticsandautomationnews.com/2026/07/18/fujitsu-partners-with-fanuc-yaskawa-and-kawasaki-to-advance-physical-ai-using-nvidia-technology/103488/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "07-17",
             "title": "明星创业者扎堆，2026具身智能创业门槛有多高？",
@@ -312,19 +326,12 @@
             "url": "https://www.leiphone.com/category/robot/2m3jnMIPtYerJ6UR.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-16",
-            "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
-            "url": "https://www.qbitai.com/2026/07/451327.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻集中在WAIC及真实场景部署，傅利叶发布轮式双臂机器人，智元与京东物流落地重载人形机器人，行业竞争表述明显从展示能力转向交付能力。",
+        "summary": "产品发布密集覆盖轮式双臂、人形机器人、全栈方案和开放工具，智元与京东物流实现真实仓储部署，蓝思智能与上纬新材签约万台级产线。",
         "items": [
           {
             "date": "07-18",
@@ -346,6 +353,41 @@
             "url": "https://www.ithome.com/0/978/462.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-18",
+            "title": "腾讯升级发布具身智能全栈方案，ADP 4.0海外版正式上线",
+            "url": "https://36kr.com/newsflashes/3900908700436103?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-18",
+            "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 即将量产",
+            "url": "https://www.ithome.com/0/978/566.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-18",
+            "title": "中兴发布业内同规格尺寸下最轻人形机器人产品“中兴星仔”：高 1.6 米，自重 30 余千克",
+            "url": "https://www.ithome.com/0/978/521.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-18",
+            "title": "Nvidia 与 Hugging Face 推出新开放机器人 AI 工具扩展 LeRobot (Nvidia and Hugging Face expand LeRobot with new open robotics AI tools)",
+            "url": "https://roboticsandautomationnews.com/2026/07/18/nvidia-and-hugging-face-expand-lerobot-with-new-open-robotics-ai-tools/103491/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-18",
+            "title": "mimic Robotics 发布灵巧机器人操作全栈平台 (mimic Robotics unveils full-stack platform for dexterous robot manipulation)",
+            "url": "https://roboticsandautomationnews.com/2026/07/18/mimic-robotics-unveils-full-stack-platform-for-dexterous-robot-manipulation/103473/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-17",
@@ -451,19 +493,12 @@
             "url": "https://www.qbitai.com/2026/07/450896.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-16",
-            "title": "英伟达发布全新人工智能模型，并扩建日本实体人工智能产业生态",
-            "url": "https://36kr.com/newsflashes/3898269495789188?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "订单侧出现出海合作、数亿订单和商业试点线索，优必选签署中亚合作备忘录，4D世界模型企业在柔性制造商业化，四足机器人也开始进入试点阶段。",
+        "summary": "商业化案例以出海和试点为主，优必选与哈萨克斯坦签署战略合作备忘录，Strider 启动四足机器人商业试点，4D 世界模型企业披露数亿订单。",
         "items": [
           {
             "date": "07-18",
@@ -485,19 +520,12 @@
             "url": "https://www.robot-china.com/news/202607/17/96113.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "07-16",
-            "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-            "url": "https://www.qbitai.com/2026/07/451403.html",
-            "company": "银河通用",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向具身世界模型、人形机器人ODM、数据供给和建筑机器人等方向，日冕开物数亿元种子轮、XDOF 7000万美元融资显示早期项目仍受关注。",
+        "summary": "融资集中在世界模型、机器人数据、ODM 和建筑机器人等方向，日冕开物完成数亿元融资，XDOF 获 7000 万美元，Monumental 融资 3200 万美元。",
         "items": [
           {
             "date": "07-17",
@@ -533,26 +561,12 @@
             "url": "https://roboticsandautomationnews.com/2026/07/17/monumental-raises-32m-led-by-khosla-ventures-to-scale-the-robots-already-building-the-physical-world/103373/",
             "company": "行业",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-16",
-            "title": "TerraFirma融资1.15亿美元，打造建筑业机器人基础设施 (TerraFirma raises $115M to build robotic infrastructure for construction)",
-            "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-16",
-            "title": "阿里京东投完，IDG和蓝思科技跟上：逐际动力Pre-IPO背后的资本逻辑",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-12005-30694663.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态聚焦中试平台、制造场景、职业教育和服务场景扩展，上海平台具备年产2000台整机能力，越疆、腾讯等强调Physical AI进入制造工厂。",
+        "summary": "产业基础设施和人才供给同步推进，上海张江中试平台具备年产 2000 台整机能力，教育部增设相关职教专业，制造场景继续成为 Physical AI 展示重点。",
         "items": [
           {
             "date": "07-18",
@@ -602,34 +616,20 @@
             "url": "https://www.ithome.com/0/977/321.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-16",
-            "title": "人形机器人成为导购，小鹏汽车 2027 年将把 IRON 推向全球市场，",
-            "url": "https://www.ithome.com/0/977/762.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-16",
-            "title": "震撼功夫巨星甄子丹：全球人形机器人自由格斗联赛揭幕战在深圳打响，头掉了还能打",
-            "url": "https://www.ithome.com/0/977/823.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-16",
-            "title": "与哈金森达成战略合作，乐聚机器人何以获得全球工业巨头持续青睐？",
-            "url": "https://www.robot-china.com/news/202607/16/96106.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻较少，重点在仿真开发基准测试和云迹科技世界价值模型，后者基于超过11亿次真实服务交互数据，指向服务机器人空间智能运营。",
+        "summary": "产业链侧重点从通用部件转向感知、仿真和空间智能，思特威与地瓜机器人合作推出 1:1 方形视觉传感器，云迹基于真实服务交互发布世界价值模型。",
         "items": [
+          {
+            "date": "07-18",
+            "title": "机器人“眼睛”升级，思特威联合地瓜机器人推出 1:1 方形视觉传感器",
+            "url": "https://www.ithome.com/0/978/529.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-17",
             "title": "运行机器人仿真前如何对开发系统进行基准测试 (How to Benchmark Your Development System Before Running Robotics Simulations)",
@@ -693,6 +693,78 @@
       "category": "商业订单",
       "summary": "Indian robotics startup Strider Robotics says it has successfully demonstrated what it describes as one of the country’s highest-payload quadruped robots, capable of carrying a 40…",
       "url": "https://roboticsandautomationnews.com/2026/07/18/strider-robotics-demonstrates-40-kg-payload-quadruped-robot-as-commercial-pilots-begin/103453/"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "过去一年，随着具身基础模型的快速发展，机器人已经能完成不少轮廓清晰、位置明确的操作任务。 可一旦涉及柔性物体、易损物体或密集接触，机器人往往就开始力不从“脑”。 无论是捏起一颗葡萄而不将它捏破，还是抓住一只纸杯而不让它变形，视觉只能帮助机器人找到目标，想要完成任务，机器人还需要人类与物体交互时不可或缺的触觉感知。 也正因为如此，现在也有越来越多团队开始将触觉…",
+      "url": "https://www.qbitai.com/2026/07/453897.html"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "腾讯升级发布具身智能全栈方案，ADP 4.0海外版正式上线",
+      "source_name": "36氪",
+      "category": "产品量产",
+      "summary": "7月18日，在2026世界人工智能大会（WAIC）上，腾讯面向具身智能与智能体领域带来多项产品技术的升级发布。在具身智能领域，腾讯正式升级发布具身智能全栈方案，贯穿云底座、模型层、平台层与应用层，全面助力机器人本体及系统开发商提质提效；在智能体领域，基于个人与企业提效需求，推出差异化的全矩阵解决方案。其中，面向企业用户的腾讯云企业级智能体开发平台ADP4.0…",
+      "url": "https://36kr.com/newsflashes/3900908700436103?f=rss"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 即将量产",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 18 日消息，7 月 18 日，2026 世界人工智能大会期间，蓝思科技子公司蓝思智能机器人 (长沙) 有限公司与 上纬新材 正式签约， 达成首期规划万台级机器人的产线合作 。 此次与上纬新材合作，双方将围绕 机器人精密零部件加工、关节模组生产、整机组装 等智造环节开展深度协同，稳步推进机器人产能落地与量产交付工作。本次合作聚焦的 启元 Q…",
+      "url": "https://www.ithome.com/0/978/566.htm"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "机器人“眼睛”升级，思特威联合地瓜机器人推出 1:1 方形视觉传感器",
+      "source_name": "IT之家",
+      "category": "泛具身产业链",
+      "summary": "IT之家 7 月 18 日消息，7 月 18 日，国产 CMOS 图像传感器供应商思特威宣布，与地瓜机器人正式达成战略合作。 根据合作协议，双方将围绕思特威机器视觉系列 CMOS 图像传感器产品迭代、地瓜机器人 S600 平台接口标准化定义以及“感知 + 计算”一体化方案系统级性能优化等层面，建立长效研发协同机制，开展联合技术攻关，全面提升具身智能设备全场景…",
+      "url": "https://www.ithome.com/0/978/529.htm"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "中兴发布业内同规格尺寸下最轻人形机器人产品“中兴星仔”：高 1.6 米，自重 30 余千克",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 18 日消息，在 2026 世界人工智能大会暨人工智能全球治理高级别会议期间，中兴通讯发布了星系列人形机器人及具身智能解决方案。 轻量化全尺寸人形机器人“中兴星仔”作为商业服务场景主力机型，身高 1.6 米、自重 30 余千克，是当前 业内同规格尺寸下最轻人形产品 。 官方表示，“中兴星仔”整机采用腱绳驱动轻量化架构，全身搭载柔性晶格皮肤…",
+      "url": "https://www.ithome.com/0/978/521.htm"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "Nvidia 与 Hugging Face 推出新开放机器人 AI 工具扩展 LeRobot (Nvidia and Hugging Face expand LeRobot with new open robotics AI tools)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Nvidia and Hugging Face have expanded their collaboration to bring new AI models, robotics frameworks and development tools to the open-source LeRobot platform, aiming to make robo…",
+      "url": "https://roboticsandautomationnews.com/2026/07/18/nvidia-and-hugging-face-expand-lerobot-with-new-open-robotics-ai-tools/103491/"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "Fujitsu携手Fanuc、Yaskawa和Kawasaki利用Nvidia技术推进物理AI (Fujitsu partners with Fanuc, Yaskawa and Kawasaki to advance physical AI using Nvidia technology)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Fujitsu has begun working with Japanese robotics manufacturers Fanuc, Yaskawa Electric and Kawasaki Heavy Industries to explore the development and deployment of physical AI across…",
+      "url": "https://roboticsandautomationnews.com/2026/07/18/fujitsu-partners-with-fanuc-yaskawa-and-kawasaki-to-advance-physical-ai-using-nvidia-technology/103488/"
+    },
+    {
+      "date": "07-18",
+      "company": "其他",
+      "title": "mimic Robotics 发布灵巧机器人操作全栈平台 (mimic Robotics unveils full-stack platform for dexterous robot manipulation)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "mimic Robotics has introduced a new robotic hand, wearable exoskeleton and software platform that it says are designed to advance general-purpose dexterous manipulation for industr…",
+      "url": "https://roboticsandautomationnews.com/2026/07/18/mimic-robotics-unveils-full-stack-platform-for-dexterous-robot-manipulation/103473/"
     },
     {
       "date": "07-17",
@@ -1026,78 +1098,6 @@
       "category": "技术突破",
       "summary": "世界各地，有不少人正在给机器人当“幼教”。 在印度的一些工厂里，有工人头戴摄像头完成装配、分拣和搬运，将第一视角画面和完整操作过程记录下来；特斯拉 Optimus 的训练场里，也有工作人员佩戴装有多枚摄像头的头盔和背包，在固定场地内反复拿杯子、擦桌子、拉窗帘；一些数据公司付费邀请普通人拍摄自己叠衣服、洗碗和整理房间的过程。 他们在做的，都是把人类早已习惯的动…",
       "url": "https://www.leiphone.com/category/robot/2m3jnMIPtYerJ6UR.html"
-    },
-    {
-      "date": "07-16",
-      "company": "银河通用",
-      "title": "全球首个！银河通用新框架仅需人类视频即可部署，特斯拉蚌埠住了",
-      "source_name": "量子位",
-      "category": "商业订单",
-      "summary": "要说这两年，大模型最重要的变化之一，就是越来越不依赖预训练一锤定音，部分能力开始留到推理时刻再兑现。 OpenAI o1如此，DeepSeek-R1也是如此。模型推理能力提升，靠的是在应用过程中的持续自我提升。 但机器人不一样，它面对的是比文本更复杂的物理世界，任意一次误判都有可能损坏抓取对象。想让机器人像大模型一样在部署时进化，行业内一直没有人做到。 视频…",
-      "url": "https://www.qbitai.com/2026/07/451403.html"
-    },
-    {
-      "date": "07-16",
-      "company": "其他",
-      "title": "手握英伟达宁德时代相同剧本，具身智能的第一个「基建商」出现了",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "2026年中，一家看似处于AI产业链“中游”的公司—— 景烁科技 ，在独立运营后，引发了行业热议。 它的背景足够硬核： 文远知行内部孵化，CEO是文远001号员工 。赛道也足够有故事、被追捧： 具身智能 。 但景烁选择的切入点，在喧嚣的赛道里显得格外冷静：不做整机，不做单纯的大脑，而是押注物理AI的基础设施——数据和世界模型技术体系。 在这个言必称“大脑”和…",
-      "url": "https://www.qbitai.com/2026/07/451327.html"
-    },
-    {
-      "date": "07-16",
-      "company": "其他",
-      "title": "英伟达发布全新人工智能模型，并扩建日本实体人工智能产业生态",
-      "source_name": "36氪",
-      "category": "产品量产",
-      "summary": "英伟达于周三推出一款面向机器人与视觉智能体的全新AI模型，进一步加码日本实体人工智能赛道。这款全新模型名为Cosmos 3 Edge，属于世界模型，能够助力智能系统实时感知实体环境并完成自主导航。相较于大语言模型（LLM），世界模型可依托更多维度的数据输入完成学习。本次发布紧跟今年5月Cosmos 3基础版的上线节奏。（新浪财经）",
-      "url": "https://36kr.com/newsflashes/3898269495789188?f=rss"
-    },
-    {
-      "date": "07-16",
-      "company": "其他",
-      "title": "人形机器人成为导购，小鹏汽车 2027 年将把 IRON 推向全球市场，",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 16 日消息，小鹏品牌日暨 MONA L03 全球上市发布会正在举行，小鹏汽车宣布，2027 年将把人形机器人 IRON 推向全球市场。 据介绍，小鹏 IRON 具备三大差异化能力：极致拟人的形态设计、汽车级安全与量产能力，以及基于图灵 AI 芯片和物理世界大模型的端侧 AI 能力。它能够实现本地感知、决策与交互，并通过自然语言完成复杂任务…",
-      "url": "https://www.ithome.com/0/977/762.htm"
-    },
-    {
-      "date": "07-16",
-      "company": "其他",
-      "title": "震撼功夫巨星甄子丹：全球人形机器人自由格斗联赛揭幕战在深圳打响，头掉了还能打",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 17 日消息，7 月 16 日晚，由深圳机器人企业发起组织的全球首个产业级人形机器人自由格斗赛事 —— 众擎 URKL 全球首场机器人格斗赛揭幕之夜在深圳开幕。 据介绍，此次揭幕战采用 1V1 对抗赛的形式，共包含 5 个回合，每个回合时长 5 分钟，在这 5 分钟里，对对方选手的有效部位进行有效击打，即可获得分数。每队有三次的战术暂停，每…",
-      "url": "https://www.ithome.com/0/977/823.htm"
-    },
-    {
-      "date": "07-16",
-      "company": "行业",
-      "title": "TerraFirma融资1.15亿美元，打造建筑业机器人基础设施 (TerraFirma raises $115M to build robotic infrastructure for construction)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "TerraFirma has developed a platform that combines AI-enabled software, a remote command-and-control center, and retrofitted heavy machinery. The post appeared first on The Robot Re…",
-      "url": "https://www.therobotreport.com/terrafirma-raises-115m-build-robotic-infrastructure-construction/"
-    },
-    {
-      "date": "07-16",
-      "company": "行业",
-      "title": "阿里京东投完，IDG和蓝思科技跟上：逐际动力Pre-IPO背后的资本逻辑",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "摘要：半年吸金4亿美元、估值150亿 朝阳资本论 乌子柒 7月14日，深圳通用人形机器人公司逐际动力LimX Dynamics宣布完成近2亿美元Pre-IPO轮融资，投后估值达到150亿元",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12005-30694663.html"
-    },
-    {
-      "date": "07-16",
-      "company": "其他",
-      "title": "与哈金森达成战略合作，乐聚机器人何以获得全球工业巨头持续青睐？",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "2026年，具身智能行业正式迎来商业落地分水岭。资本市场与产业端的判断标准正在发生明显转向：不再只为实验室炫酷Demo买单，能适配真实产线稳定运行、支持批量交付、可规模化复制的场景落地能力，逐渐成为衡量人形机器人企业综合实力的核心标尺。过去三年，国内人形机器人行业公开发布的全尺寸样机数量已超百款，但真正能进入代表性工业巨头产线完成长期稳定运行的产品屈指可数…",
-      "url": "https://www.robot-china.com/news/202607/16/96106.html"
     }
   ]
 }
