@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T16:21:54.016772+08:00",
+  "updated": "2026-07-19T21:20:44.030874+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -24,8 +24,8 @@
       "attempts": 1,
       "error": "",
       "entries": 27,
-      "candidates": 7,
-      "core": 1,
+      "candidates": 6,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
+      "entries": 18,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 59,
       "candidates": 18,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -114,10 +114,10 @@
       "attempts": 1,
       "error": "",
       "entries": 29,
-      "candidates": 11,
-      "core": 11,
+      "candidates": 13,
+      "core": 12,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "OFweek机器人",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 8,
+      "core": 9,
       "periphery": 0,
-      "new": 6
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-13",
     "end": "07-19",
-    "generated_at": "2026-07-19T16:22:18.995253+08:00",
+    "generated_at": "2026-07-19T21:21:14.594165+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的落地案例更多集中在仓储、柔性制造、封胶整理等可量化任务，智元与京东物流发布精灵 G2 Max 并部署至真实仓储作业场景，4D 世界模型企业已在柔性制造形成数亿订单，Magic-VLA K02 展示叠盒封胶长程任务成功率超 90%，场景价值正在由展台演示转向生产任务的稳定交付。",
+        "label": "落地正在向仓储与工厂收敛",
+        "text": "本周多条证据都指向同一类可验收任务，智元精灵 G2 Max 首次进入京东物流真实仓储作业，柔性制造企业也在稳定商业化落地，行业落点明显从展示转向仓储、制造等闭环场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争依赖数据闭环",
-        "text": "世界模型和 VLA 仍是技术主线，但证据显示关注点开始落到数据规模、评测标准和训练接口，专家强调这些幕后工作决定 AI 能否进入工厂和家庭，全国首个具身智能实训场样板点打通不同机型训练数据接口，模型能力的可复用性将更多取决于真实任务数据和评测闭环。",
+        "label": "中试与量产平台开始补齐",
+        "text": "上海人形机器人中试服务平台、全国首个具身智能实训场样板点以及国家地方共建创新中心中试平台相继发布，且出现万台级产线合作，说明从试制、测试到交付的基础设施正在成形，量产验证被前置到产业链中。",
         "evidence_urls": []
       },
       {
-        "label": "量产能力纳入能力验证",
-        "text": "蓝思智能与上纬新材签约首期规划万台级机器人产线，上海人形机器人中试公共服务平台具备年产 2000 台整机和 2000 套核心精密组件能力，触觉系统、视觉传感器等环节也获得融资或合作推进，具身智能的竞争不只看单机能力，还要看规模制造和关键部件补齐速度。",
+        "label": "资本更看重能力补齐",
+        "text": "日冕开物三个月内完成数亿元种子轮融资，触觉系统创业公司和人形机器人 ODM 也拿到新资金，投资方向集中在世界模型、触觉、量产测试和海外拓展，资金偏好已转向能补上任务成功率与交付能力的环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、VLA、触觉感知和组合式纠偏展开，Magic-VLA K02 在叠盒封胶长程任务中成功率超 90%，但数据规模、评测标准和网联协同仍是产业应用前提。",
+        "summary": "技术进展集中在长程任务、接触理解和世界模型上，重点不再是单点演示，而是围绕成功率、泛化和数据闭环推进产业应用。",
         "items": [
           {
             "date": "07-19",
@@ -331,7 +331,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品发布从人形、轮式双臂到 Robot Phone 和全栈方案均有进展，智元 G2 Max 进入京东物流真实仓储场景，蓝思智能推进万台级产线，量产与部署成为核心看点。",
+        "summary": "产品端出现中试平台、实训场和万台级产线合作，量产验证从单机试做转向多机型兼容、数据接口和交付节奏的系统化建设。",
         "items": [
           {
             "date": "07-19",
@@ -344,6 +344,13 @@
             "date": "07-19",
             "title": "全国首个具身智能实训场样板点发布",
             "url": "https://www.ithome.com/0/978/673.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-19",
+            "title": "上海人形机器人中试服务平台发布，兼容轮臂机器人、四足机器人试制",
+            "url": "https://www.ithome.com/0/978/735.htm",
             "company": "其他",
             "source_name": "IT之家"
           },
@@ -486,26 +493,12 @@
             "url": "https://www.robot-china.com/news/202607/17/96130.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "07-17",
-            "title": "盛会启幕 | WAIC2026世界人工智能大会，数聚链具身智能“大小脑”协同技术重磅亮相！",
-            "url": "https://www.robot-china.com/news/202607/17/96129.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "07-17",
-            "title": "润和软件重磅发布具身智能战略和Runmatic具身智能大脑与应用解决方案——让具身更自主，让智能更懂行",
-            "url": "https://www.robot-china.com/news/202607/17/96127.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化案例集中在柔性制造、仓储、四足机器人试点和出海合作，4D 世界模型企业已披露数亿订单，优必选与哈萨克斯坦签署战略合作，订单质量仍需后续交付验证。",
+        "summary": "订单与试点主要落在柔性制造、仓储物流和海外合作，企业开始用真实业务场景检验机器人负载、稳定性和可部署性。",
         "items": [
           {
             "date": "07-19",
@@ -539,7 +532,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资继续流向世界模型、机器人本体 ODM、喂饭类数据能力和建筑机器人，日冕开物三个月内完成数亿元种子轮融资，投资人更偏好明确场景和能力补齐方向。",
+        "summary": "融资明显集中到世界模型、触觉系统和具身机器人硬件厂商，资金用途多指向研发、测试体系、算力与海外市场扩展。",
         "items": [
           {
             "date": "07-17",
@@ -580,7 +573,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业基础设施与生态合作加速建设，上海中试公共服务平台具备年产 2000 台整机能力，腾讯与越疆聚焦制造工厂中的 Physical AI，稳定性、成功率和泛化仍被反复提及。",
+        "summary": "行业侧围绕中试公共服务平台、物理 AI 研讨和工厂落地展开，产业重心正在从概念验证转向组织化生产能力建设。",
         "items": [
           {
             "date": "07-19",
@@ -628,8 +621,15 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻集中在视觉传感器和仿真开发基础环节，思特威与地瓜机器人合作推出 1:1 方形视觉传感器，供应链机会需要绑定感知、仿真等具体性能瓶颈。",
+        "summary": "上游围绕视觉传感器、仿真基准和遥操作训练展开，供应链机会更依赖能提升感知精度、训练效率和开发效率的细分能力。",
         "items": [
+          {
+            "date": "07-19",
+            "title": "如何避免机器人开发中的遥操作陷阱 (How to avoid the teleoperation trap in robotics development)",
+            "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "07-18",
             "title": "机器人“眼睛”升级，思特威联合地瓜机器人推出 1:1 方形视觉传感器",
@@ -711,6 +711,24 @@
       "category": "商业订单",
       "summary": "研究 更多 原创 AI产业最新趋势解读：词元经济体系下的组织变革新机遇 人工智能 · 数字化 · 人工智能 报告</",
       "url": "https://www.jazzyear.com/study_info.html?id=167"
+    },
+    {
+      "date": "07-19",
+      "company": "其他",
+      "title": "上海人形机器人中试服务平台发布，兼容轮臂机器人、四足机器人试制",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 19 日消息，7 月 18 日，2026 世界人工智能大会（WAIC），上海人形机器人中试服务平台正式发布。 据介绍，上海人形机器人中试服务平台坐落于 浦东机器人谷一期 3 号楼 ，总建筑面积约 6800 平方米，划分装配区、专业测试区、智能仓储三大核心功能楼层。 IT之家注意到，平台搭建两条模块化柔性整机试制产线，兼容 人形机器人、轮臂机…",
+      "url": "https://www.ithome.com/0/978/735.htm"
+    },
+    {
+      "date": "07-19",
+      "company": "其他",
+      "title": "如何避免机器人开发中的遥操作陷阱 (How to avoid the teleoperation trap in robotics development)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/"
     },
     {
       "date": "07-18",
@@ -1080,24 +1098,6 @@
       "category": "产品量产",
       "summary": "随着人工智能技术的爆发式演进，具身智能（Embodied AI）正处于从实验室走向千家万户的历史性拐点。然而，当真正面对真实、复杂的C端家庭场景时，行业猛然发现：让机器人“听懂指令”只是第一步，让机器人“懂你”，才是决定具身智能能否真正融入人类生活的终极壁垒。近日，星炽动力（SFLare Robotics）正式披露了其自主研发的PULSE架构，即基于用户真实…",
       "url": "https://www.robot-china.com/news/202607/17/96130.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "盛会启幕 | WAIC2026世界人工智能大会，数聚链具身智能“大小脑”协同技术重磅亮相！",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "7月17日，2026世界人工智能大会暨人工智能全球治理高级别会议（WAIC）在上海盛大启幕，国家领导人出席本届大会开幕式并发表主旨讲话。作为全球人工智能领域最具影响力的顶级盛会之一，本届大会以“智能伙伴，共创未来”为核心主题，展览总面积首次突破10万平方米，1100余家企业参展，3000余项展品集中亮相，超300款产品全球首发。智算、具身两大赛道各汇聚超20…",
-      "url": "https://www.robot-china.com/news/202607/17/96129.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "润和软件重磅发布具身智能战略和Runmatic具身智能大脑与应用解决方案——让具身更自主，让智能更懂行",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "7月11日，在2026人工智能终端产业博览会上，江苏润和软件股份有限公司（以下简称“润和软件”）面向业界首次宣布了具身智能战略，并重磅发布Runmatic具身智能大脑与应用解决方案，打造贯通“国产化智算底座-自主进化大脑-行业智能体应用”的端到端完整体系，以“让具身更自主，让智能更懂行”为价值主张，系统性破解具身智能本体面向行业落地的难题。润和软件发布具身智…",
-      "url": "https://www.robot-china.com/news/202607/17/96127.html"
     }
   ]
 }
