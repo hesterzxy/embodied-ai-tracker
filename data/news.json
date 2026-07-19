@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T21:20:44.030874+08:00",
+  "updated": "2026-07-20T03:08:48.168169+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 11,
+      "entries": 17,
+      "candidates": 13,
       "core": 3,
       "periphery": 0,
       "new": 1
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 18,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 0,
-      "new": 7
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -236,418 +236,7 @@
       "new": 0
     }
   ],
-  "weekly_report": {
-    "start": "07-13",
-    "end": "07-19",
-    "generated_at": "2026-07-19T21:21:14.594165+08:00",
-    "mode": "aicodewith",
-    "item_count": 50,
-    "insights": [
-      {
-        "label": "落地正在向仓储与工厂收敛",
-        "text": "本周多条证据都指向同一类可验收任务，智元精灵 G2 Max 首次进入京东物流真实仓储作业，柔性制造企业也在稳定商业化落地，行业落点明显从展示转向仓储、制造等闭环场景。",
-        "evidence_urls": []
-      },
-      {
-        "label": "中试与量产平台开始补齐",
-        "text": "上海人形机器人中试服务平台、全国首个具身智能实训场样板点以及国家地方共建创新中心中试平台相继发布，且出现万台级产线合作，说明从试制、测试到交付的基础设施正在成形，量产验证被前置到产业链中。",
-        "evidence_urls": []
-      },
-      {
-        "label": "资本更看重能力补齐",
-        "text": "日冕开物三个月内完成数亿元种子轮融资，触觉系统创业公司和人形机器人 ODM 也拿到新资金，投资方向集中在世界模型、触觉、量产测试和海外拓展，资金偏好已转向能补上任务成功率与交付能力的环节。",
-        "evidence_urls": []
-      }
-    ],
-    "groups": [
-      {
-        "category": "技术突破",
-        "summary": "技术进展集中在长程任务、接触理解和世界模型上，重点不再是单点演示，而是围绕成功率、泛化和数据闭环推进产业应用。",
-        "items": [
-          {
-            "date": "07-19",
-            "title": "我国具身智能正加速迈向产业应用阶段",
-            "url": "https://36kr.com/newsflashes/3901848349165441?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-19",
-            "title": "魔法原子Magic-VLA K02攻克叠盒封胶长程任务，成功率超90%",
-            "url": "https://www.qbitai.com/2026/07/454155.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-19",
-            "title": "阿里开放式世界模型快乐生蚝 HappyOyster 1.0 登陆百炼平台，支持两大核心模式",
-            "url": "https://www.ithome.com/0/978/644.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
-            "url": "https://www.qbitai.com/2026/07/453897.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-18",
-            "title": "Fujitsu携手Fanuc、Yaskawa和Kawasaki利用Nvidia技术推进物理AI (Fujitsu partners with Fanuc, Yaskawa and Kawasaki to advance physical AI using Nvidia technology)",
-            "url": "https://roboticsandautomationnews.com/2026/07/18/fujitsu-partners-with-fanuc-yaskawa-and-kawasaki-to-advance-physical-ai-using-nvidia-technology/103488/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "明星创业者扎堆，2026具身智能创业门槛有多高？",
-            "url": "https://www.tmtpost.com/8067769.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-17",
-            "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
-            "url": "https://www.ithome.com/0/978/136.htm",
-            "company": "银河通用",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-17",
-            "title": "AI到底是「想错了」还是「判错了」？OpenDriveLab 陈立的组合式世界模型让策略自我纠偏 | RSS 2026",
-            "url": "https://www.leiphone.com/category/private/GkoVU7vEEW4FAPT2.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-17",
-            "title": "GAIR Paper 108 | CVPR 2026 冠军奖论文：4K 参数撬动 VLA 泛化，空间才是真正的瓶颈！",
-            "url": "https://www.leiphone.com/category/academic/tSC1DCI4SbS7ZlTG.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          }
-        ]
-      },
-      {
-        "category": "产品量产",
-        "summary": "产品端出现中试平台、实训场和万台级产线合作，量产验证从单机试做转向多机型兼容、数据接口和交付节奏的系统化建设。",
-        "items": [
-          {
-            "date": "07-19",
-            "title": "美国初创公司发布机器人 AI 模型 ACT-2，宣称在陌生家庭叠衣成功率超 99%",
-            "url": "https://www.ithome.com/0/978/617.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-19",
-            "title": "全国首个具身智能实训场样板点发布",
-            "url": "https://www.ithome.com/0/978/673.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-19",
-            "title": "上海人形机器人中试服务平台发布，兼容轮臂机器人、四足机器人试制",
-            "url": "https://www.ithome.com/0/978/735.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "灵巧智能亮相WAIC，全栈自研驱动具身智能产业化落地",
-            "url": "https://www.leiphone.com/category/industrynews/w5PrxGuvqYtI9U4p.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-18",
-            "title": "傅利叶发布首款轮式双臂机器人 GRW：三种手随便换、能扛起 16 公斤重物",
-            "url": "https://www.ithome.com/0/978/489.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "荣耀李健 WAIC 宣布 Robot Phone 开启预约：搭载 Agentic OS，8 月份发布",
-            "url": "https://www.ithome.com/0/978/462.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "腾讯升级发布具身智能全栈方案，ADP 4.0海外版正式上线",
-            "url": "https://36kr.com/newsflashes/3900908700436103?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-18",
-            "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 即将量产",
-            "url": "https://www.ithome.com/0/978/566.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "中兴发布业内同规格尺寸下最轻人形机器人产品“中兴星仔”：高 1.6 米，自重 30 余千克",
-            "url": "https://www.ithome.com/0/978/521.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-18",
-            "title": "Nvidia 与 Hugging Face 推出新开放机器人 AI 工具扩展 LeRobot (Nvidia and Hugging Face expand LeRobot with new open robotics AI tools)",
-            "url": "https://roboticsandautomationnews.com/2026/07/18/nvidia-and-hugging-face-expand-lerobot-with-new-open-robotics-ai-tools/103491/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-18",
-            "title": "mimic Robotics 发布灵巧机器人操作全栈平台 (mimic Robotics unveils full-stack platform for dexterous robot manipulation)",
-            "url": "https://roboticsandautomationnews.com/2026/07/18/mimic-robotics-unveils-full-stack-platform-for-dexterous-robot-manipulation/103473/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "文远知行发布自研物理 AI 大模型 WITT，首次引入“最小物理事实单元”概念",
-            "url": "https://www.ithome.com/0/978/055.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-17",
-            "title": "千台量产前夜，具身智能竞争已沉到底层基建",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30694915.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-17",
-            "title": "神玑公司首次参加世界人工智能大会，发布睿动具身智能开发平台",
-            "url": "https://36kr.com/newsflashes/3899667446613640?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-17",
-            "title": "思灵机器人 Agile Robots亮相WAIC 2026：具身智能独角兽展示物理AI全栈实力",
-            "url": "https://www.leiphone.com/category/industrynews/bnE4dz5C4rdarltB.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-17",
-            "title": "智元联合京东物流发布精灵 G2 Max 人形机器人，首次在真实仓储作业生产场景中部署落地",
-            "url": "https://www.ithome.com/0/978/274.htm",
-            "company": "智元机器人",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-17",
-            "title": "Mondo Robotics发布Beni：面向消费者的全地形AI相机机器人 (Mondo Robotics unveils Beni, an all-terrain AI camera robot for consumers)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/mondo-robotics-unveils-beni-an-all-terrain-ai-camera-robot-for-consumers/103385/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "Robbyant 发布面向具身机器人的通用 AI 模型 LingBot-VLA 2.0 (Robbyant unveils LingBot-VLA 2.0 universal AI model for embodied robots)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/robbyant-unveils-lingbot-vla-2-0-universal-ai-model-for-embodied-robots/103355/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发 (Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "Weave Robotics 推出首款移动人形机器人 Isaac (Weave Robotics launches Isaac, its first mobile humanoid robot)",
-            "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-17",
-            "title": "McLaren Construction 将与 FieldAI 合作大规模部署自主机器人 (McLaren Construction to deploy autonomous robots at scale in partnership with FieldAI)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/mclaren-construction-to-deploy-autonomous-robots-at-scale-in-partnership-with-fieldai/103422/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "1X发布用于NEO的25自由度仿人机器人手 (1X unveils 25-degree-of-freedom humanoid robot hands for NEO)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/1x-unveils-25-degree-of-freedom-humanoid-robot-hands-for-neo/103405/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "星炽动力发布PULSE具身智能架构： 从“动作执行”到“心智理解”，开启具身智能新纪元",
-            "url": "https://www.robot-china.com/news/202607/17/96130.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "商业订单",
-        "summary": "订单与试点主要落在柔性制造、仓储物流和海外合作，企业开始用真实业务场景检验机器人负载、稳定性和可部署性。",
-        "items": [
-          {
-            "date": "07-19",
-            "title": "原创 2026中国具身智能行业洞察报告 人工智能 · 商业化 · 人工智能 报告 2026-07-19",
-            "url": "https://www.jazzyear.com/study_info.html?id=167",
-            "company": "其他",
-            "source_name": "甲子光年"
-          },
-          {
-            "date": "07-18",
-            "title": "Strider Robotics 展示40公斤载重四足机器人，商业试点启动 (Strider Robotics demonstrates 40 kg payload quadruped robot as commercial pilots begin)",
-            "url": "https://roboticsandautomationnews.com/2026/07/18/strider-robotics-demonstrates-40-kg-payload-quadruped-robot-as-commercial-pilots-begin/103453/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "总统亲自见证签约! 优必选挺进中亚：人形机器人出海，不止卖设备那么简单",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-8110-30694828.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-17",
-            "title": "手握数亿订单！4D世界模型核心玩家，正打破具身智能场景边界",
-            "url": "https://www.robot-china.com/news/202607/17/96113.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "资本动态",
-        "summary": "融资明显集中到世界模型、触觉系统和具身机器人硬件厂商，资金用途多指向研发、测试体系、算力与海外市场扩展。",
-        "items": [
-          {
-            "date": "07-17",
-            "title": "36氪首发 | 前蔚来、华为智驾核心成员联手创业具身世界模型，三个月内完成数亿元融资",
-            "url": "https://36kr.com/p/3899081603483525?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-17",
-            "title": "36氪首发 | 这家人形机器人ODM厂商获千万融资，飞荣达、索辰科技接连下注",
-            "url": "https://36kr.com/p/3899057634363266?f=rss",
-            "company": "行业",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-17",
-            "title": "最近，投资人都在研究给机器人“喂饭”",
-            "url": "https://www.tmtpost.com/8068658.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-17",
-            "title": "获得新融资后，Monumental计划将其建筑机器人引入美国 (With new funding, Monumental plans to bring its construction robots to the U.S.)",
-            "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/",
-            "company": "行业",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-17",
-            "title": "Monumental 融资 3200 万美元，扩大自主建筑机器人业务 (Monumental raises $32 million to expand autonomous construction robots)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/monumental-raises-32m-led-by-khosla-ventures-to-scale-the-robots-already-building-the-physical-world/103373/",
-            "company": "行业",
-            "source_name": "Robotics & Automation News"
-          }
-        ]
-      },
-      {
-        "category": "行业动态",
-        "summary": "行业侧围绕中试公共服务平台、物理 AI 研讨和工厂落地展开，产业重心正在从概念验证转向组织化生产能力建设。",
-        "items": [
-          {
-            "date": "07-19",
-            "title": "苏度 WAIC 首秀：从1到10+技能跃迁，探索通用机器人 Scaling 路径",
-            "url": "https://www.leiphone.com/category/ai/7NBqAPnPNa3p2OD4.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "07-18",
-            "title": "国家地方共建人形机器人创新中心中试公共服务平台启用，每年可产整机 2000 台",
-            "url": "https://www.ithome.com/0/978/482.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-17",
-            "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
-            "url": "https://36kr.com/p/3899128277452681?f=rss",
-            "company": "智元机器人",
-            "source_name": "36氪"
-          },
-          {
-            "date": "07-17",
-            "title": "Agility Robotics在弗里蒙特开设新设施，加速物理AI发展 (Agility Robotics opens new Fremont facility to accelerate physical AI development)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/agility-robotics-opens-new-fremont-facility-to-accelerate-physical-ai-development/103426/",
-            "company": "Agility Robotics",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "07-17",
-            "title": "腾讯×越疆：Physical AI正在走进制造工厂，开始创造真正的生产价值",
-            "url": "https://www.robot-china.com/news/202607/17/96123.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "07-17",
-            "title": "直击越疆Physical AI：会思考、善操作机器人的精准作业闭环",
-            "url": "https://www.robot-china.com/news/202607/17/96131.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "上游围绕视觉传感器、仿真基准和遥操作训练展开，供应链机会更依赖能提升感知精度、训练效率和开发效率的细分能力。",
-        "items": [
-          {
-            "date": "07-19",
-            "title": "如何避免机器人开发中的遥操作陷阱 (How to avoid the teleoperation trap in robotics development)",
-            "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-18",
-            "title": "机器人“眼睛”升级，思特威联合地瓜机器人推出 1:1 方形视觉传感器",
-            "url": "https://www.ithome.com/0/978/529.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-17",
-            "title": "运行机器人仿真前如何对开发系统进行基准测试 (How to Benchmark Your Development System Before Running Robotics Simulations)",
-            "url": "https://roboticsandautomationnews.com/2026/07/17/how-to-benchmark-your-development-system-before-running-robotics-simulations/103338/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          }
-        ]
-      }
-    ]
-  },
+  "weekly_report": {},
   "items": [
     {
       "date": "07-19",
