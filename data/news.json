@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T03:08:48.168169+08:00",
+  "updated": "2026-07-20T11:17:16.941636+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 6,
-      "core": 0,
+      "entries": 28,
+      "candidates": 10,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "雷峰网",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 13,
+      "candidates": 14,
       "core": 3,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
-      "core": 0,
+      "entries": 16,
+      "candidates": 5,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "爱范儿",
@@ -62,11 +62,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
-      "core": 1,
+      "entries": 16,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 19,
-      "core": 1,
+      "entries": 58,
+      "candidates": 23,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,7 +128,7 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 6,
+      "core": 5,
       "periphery": 0,
       "new": 3
     },
@@ -151,8 +151,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 19,
+      "entries": 19,
+      "candidates": 18,
       "core": 5,
       "periphery": 2,
       "new": 0
@@ -236,8 +236,147 @@
       "new": 0
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "07-20",
+    "end": "07-26",
+    "generated_at": "2026-07-20T11:17:29.650652+08:00",
+    "mode": "aicodewith",
+    "item_count": 6,
+    "insights": [
+      {
+        "label": "验收标准转向稳定干活",
+        "text": "WAIC现场展示覆盖叠衣、冲咖啡、切菜、分拣等任务，同时讨论焦点转向连续执行数百上千次、换环境、失败恢复和部署后增长，具身智能落地评价正在从单次演示转向可重复、可验收的任务闭环。",
+        "evidence_urls": []
+      },
+      {
+        "label": "场景订单优先来自确定需求",
+        "text": "深圳博匠机器人与香港头部智能建造企业签署战略合作协议，并披露不低于2亿元订单，工厂、建造、维修、巡检等边界清晰场景更容易形成采购决策，短期商业化仍会围绕明确交付和验收展开。",
+        "evidence_urls": []
+      },
+      {
+        "label": "模型叙事受制于真实数据闭环",
+        "text": "行业仍被描述为处在具身智能的前GPT阶段，展台任务虽已延伸到工业产线和厨房灶台，但核心问题落在环境迁移、失败恢复和部署后能力增长，供应链和算法机会需要绑定这些具体瓶颈而非单纯概念扩张。",
+        "evidence_urls": []
+      }
+    ],
+    "groups": [
+      {
+        "category": "技术突破",
+        "summary": "WAIC展示机器人叠衣、冲咖啡、切菜、分拣等多类操作，但讨论重点落在连续成功率、跨环境适应、失败恢复和部署后成长。",
+        "items": [
+          {
+            "date": "07-20",
+            "title": "具身智能还在“前GPT时代”| WAIC观察",
+            "url": "https://www.tmtpost.com/8071481.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-20",
+            "title": "具身智能的“ChatGPT时刻”，可能不会同一天到来",
+            "url": "https://www.tmtpost.com/8071091.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
+        "category": "商业订单",
+        "summary": "深圳博匠机器人与香港头部智能建造企业签署战略合作协议，披露不低于2亿元订单，建筑机器人场景率先体现采购确定性。",
+        "items": [
+          {
+            "date": "07-20",
+            "title": "深圳建筑机器人研发商，拿下不低于2个亿的订单！",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "工信部数据显示我国人形机器人整机产品超全球半数，同时租赁热度回落、服务基础设施接棒，行业从展示流量转向运营能力。",
+        "items": [
+          {
+            "date": "07-20",
+            "title": "我国人形机器人整机产品超全球半数",
+            "url": "https://36kr.com/newsflashes/3903383107110785?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-20",
+            "title": "中国人形机器人租赁淘金热终结，服务基础设施接棒 (China’s Humanoid Rental Gold Rush Ends as Service Infrastructure Takes Over)",
+            "url": "https://www.tmtpost.com/8071553.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-20",
+            "title": "别人还在秀跳舞，智元在WAIC现场开了一条产线",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "我国人形机器人整机产品超全球半数",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "工业和信息化部7月20日发布数据显示，上半年，我国一批具有国际竞争优势的产业加快壮大。智能机器人领域，我国研发的四足机器人占全球销量份额接近70%，人形机器人整机产品达400余款、超全球半数。人工智能、半导体、新能源、生物医药等领域，涌现一批全球独角兽企业，在国际标准研制、产业治理等方面积极贡献中国方案。（新华社）",
+      "url": "https://36kr.com/newsflashes/3903383107110785?f=rss"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "具身智能还在“前GPT时代”| WAIC观察",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "WAIC 2026的展台上， 机器人 叠衣服、冲咖啡、切菜、分拣，从工业产线到厨房灶台都在演示“干活”。 走出展台，跟那些真正在一线的人聊下来，不管是造机器人的、训模型的，还是铺产线的，听到的判断要保守得多。这个行业的实际进度，远没有展台画面看上去那么近。 面壁智能的姚远打了个比方，现在的具身智能像2018年的大模型，BERT、GPT、T5三条路线并存，谁也…",
+      "url": "https://www.tmtpost.com/8071481.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "具身智能的“ChatGPT时刻”，可能不会同一天到来",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "问题变成了它能不能连续做几百次、几千次，换一个环境还能不能做，失败以后能不能自己恢复，以及部署出去以后，能力能否继续增长",
+      "url": "https://www.tmtpost.com/8071091.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "中国人形机器人租赁淘金热终结，服务基础设施接棒 (China’s Humanoid Rental Gold Rush Ends as Service Infrastructure Takes Over)",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "As daily rates plummet and early event hype fades, competition across the sector is shifting from hardware ownership to localized service logistics and high-margin enterprise integ…",
+      "url": "https://www.tmtpost.com/8071553.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "深圳建筑机器人研发商，拿下不低于2个亿的订单！",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议。这标志着博匠机器人在港澳市场从“试点应用”正式迈入“规模化落地”的全新阶段。 根据协议，香港头部智能建造企业将 特种机器人",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html"
+    },
+    {
+      "date": "07-20",
+      "company": "智元机器人",
+      "title": "别人还在秀跳舞，智元在WAIC现场开了一条产线",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "7 月 17 日，第九届世界人工智能大会（WAIC）在上海世博中心正式开幕，作为一年一度的 AI 行业盛会，今年大会依然聚集了国内外大模型公司、AI 应用和硬件厂商，雷科技（ID：leitech）旗下",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html"
+    },
     {
       "date": "07-19",
       "company": "其他",
@@ -633,60 +772,6 @@
       "category": "行业动态",
       "summary": "Agility Robotics, a humanoid robotics and physical AI company, has opened its new Fremont, California facility designed to accelerate physical AI developments that directly improve…",
       "url": "https://roboticsandautomationnews.com/2026/07/17/agility-robotics-opens-new-fremont-facility-to-accelerate-physical-ai-development/103426/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "McLaren Construction 将与 FieldAI 合作大规模部署自主机器人 (McLaren Construction to deploy autonomous robots at scale in partnership with FieldAI)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "McLaren Construction has agreed a partnership with FieldAI, a developer of physical AI, to bring general-purpose robots to its UK construction sites. Under the partnership, McLaren…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/mclaren-construction-to-deploy-autonomous-robots-at-scale-in-partnership-with-fieldai/103422/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "1X发布用于NEO的25自由度仿人机器人手 (1X unveils 25-degree-of-freedom humanoid robot hands for NEO)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Humanoid robotics company 1X has unveiled a new tendon-driven robotic hand for its NEO humanoid platform, saying the design brings near human-level dexterity, strength and tactile…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/1x-unveils-25-degree-of-freedom-humanoid-robot-hands-for-neo/103405/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "腾讯×越疆：Physical AI正在走进制造工厂，开始创造真正的生产价值",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "摘要：不“炫技”，却是产业界等了很多年的答案：Physical AI正在走进制造工厂，开始创造真正的生产价值。2026世界人工智能大会上，几乎所有关于机器人的讨论都绕不开一个关键词——Physical AI。过去几年，行业不断刷新大模型能力边界，VLA模型快速演进，机器人越来越“聪明”。但今年WAIC上，一个更明确的共识正在形成：Physical AI的真正…",
-      "url": "https://www.robot-china.com/news/202607/17/96123.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "手握数亿订单！4D世界模型核心玩家，正打破具身智能场景边界",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "2026年的具身智能赛道，热闹与割裂并存。放眼行业，大量企业扎堆人形机器人Demo、发布会比拼炫技动作，落地却大多停留在工业或者家庭等单一领域，离“通用人形机器人”还有一大段。针对这一行业痛点，有这样一家企业给出硬核答案——以4D世界模型为核心技术底座，不仅在柔性制造领域实现稳定商业化落地，同时依托场景持续沉淀动态物理数据，布局居家照料、清洁、餐饮等生活场景…",
-      "url": "https://www.robot-china.com/news/202607/17/96113.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "直击越疆Physical AI：会思考、善操作机器人的精准作业闭环",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "当人工智能的进化指针从“数字智能”拨向“物理智能”，一场关乎AI如何真正扎根现实世界的产业浪潮正在涌动。7月17日，2026越疆工业具身智能生态伙伴研讨会在苏州成功举办，会议从Physical AI的底层逻辑出发，展示了一套让机器人感知、决策并精密作用于物理环境的技术蓝图，围绕“从机械臂到具身智能体”的演进主线，向外界展示了一条从“Physical AI”到…",
-      "url": "https://www.robot-china.com/news/202607/17/96131.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "星炽动力发布PULSE具身智能架构： 从“动作执行”到“心智理解”，开启具身智能新纪元",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "随着人工智能技术的爆发式演进，具身智能（Embodied AI）正处于从实验室走向千家万户的历史性拐点。然而，当真正面对真实、复杂的C端家庭场景时，行业猛然发现：让机器人“听懂指令”只是第一步，让机器人“懂你”，才是决定具身智能能否真正融入人类生活的终极壁垒。近日，星炽动力（SFLare Robotics）正式披露了其自主研发的PULSE架构，即基于用户真实…",
-      "url": "https://www.robot-china.com/news/202607/17/96130.html"
     }
   ]
 }
