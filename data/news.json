@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T17:16:42.325193+08:00",
+  "updated": "2026-07-20T22:09:07.977163+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -10,11 +10,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "entries": 9,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "36氪",
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 29,
-      "candidates": 12,
+      "candidates": 10,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 19,
       "candidates": 14,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
-      "core": 2,
+      "entries": 18,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -77,9 +77,9 @@
       "error": "",
       "entries": 19,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 22,
-      "core": 1,
+      "candidates": 23,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 0,
-      "new": 6
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 14,
-      "core": 11,
-      "periphery": 1,
-      "new": 7
+      "candidates": 12,
+      "core": 10,
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 4
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -231,38 +231,50 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 21,
+      "core": 22,
       "periphery": 10,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-20T17:17:10.599536+08:00",
-    "mode": "aicodewith",
-    "item_count": 12,
+    "generated_at": "2026-07-20T22:09:48.044823+08:00",
+    "mode": "local",
+    "item_count": 16,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周证据集中指向工厂、建造、维修、巡检等任务型场景，WAIC展台演示了叠衣服、冲咖啡、切菜、分拣等操作，博匠机器人还与香港头部智能建造企业签署不低于2亿元订单，具身智能商业化更可能先在结果可计量、交付可验收的场景形成闭环。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议；机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
+          "https://www.qbitai.com/2026/07/455438.html",
+          "https://www.tmtpost.com/8071481.html"
+        ]
       },
       {
-        "label": "模型竞争回到任务闭环",
-        "text": "1.5B开源通用VLA模型出现，WAIC现场大量机器人展示真实操作，但行业讨论的焦点已从单次演示转向能否连续执行几百次、几千次，换环境后是否稳定、失败后能否自恢复，模型能力的评价正在被真实数据、长期部署和任务成功率重新定义。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，一个新的 国产VLA 模型诞生了，而且只有 1.；比如 Kimi K3 的发布引发了大量关注，但同时也带来了算力挑战。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/455229.html",
+          "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article",
+          "https://www.tmtpost.com/8071481.html"
+        ]
       },
       {
-        "label": "量产能力进入验证范围",
-        "text": "WAIC具身智能参展企业从去年80多家增至200多家，占全部展商近五分之一，真机超过300台；光鉴发布视觉感知方案，宇树发布支持全模态交互理解的模型，感知、交互和规模化交付开始共同影响产品能否从展示走向打工。",
-        "evidence_urls": []
+        "label": "量产和价格开始成为能力验证的一部分",
+        "text": "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界；今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/455438.html",
+          "https://www.tmtpost.com/8071296.html",
+          "https://www.ithome.com/0/979/032.htm"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "WAIC展示叠衣、冲咖啡、切菜、分拣等任务，同时讨论连续执行、换环境、自恢复和部署增长，1.5B开源VLA模型强化了模型侧进展。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "07-20",
@@ -291,12 +303,19 @@
             "url": "https://www.tmtpost.com/8071756.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-20",
+            "title": "国产GPU分水岭时刻：当别家还在卷参数，摩尔线程早已训练出了世界模型",
+            "url": "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "光鉴发布具身智能视觉感知方案，宇树发布支持全模态交互理解的UnifoLM-OminiA-0.3；WAIC具身企业增至200多家、真机超300台。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-20",
@@ -318,12 +337,26 @@
             "url": "https://www.ithome.com/0/979/032.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-20",
+            "title": "国家具身智能应用中试基地发布首个合作世界模型 魔芯科技MoWorld 3D正式亮相",
+            "url": "https://www.qbitai.com/2026/07/455517.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-20",
+            "title": "AGIBOT在WAIC 2026发布四款新机器人，扩展工业具身智能产品矩阵 (AGIBOT unveils four new robots at WAIC 2026 as it expands industrial embodied AI portfolio)",
+            "url": "https://roboticsandautomationnews.com/2026/07/20/agibot-unveils-four-new-robots-at-waic-2026-as-it-expands-industrial-embodied-ai-portfolio/103505/",
+            "company": "智元机器人",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "博匠机器人与香港头部智能建造企业签署战略合作协议，披露不低于2亿元订单，建筑机器人率先出现可验收的大额合作样本。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "07-20",
@@ -336,7 +369,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "工信部数据显示我国人形机器人整机产品超全球半数；租赁热度降温后，服务基础设施、现场产线和消费型机器人受到关注。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "07-20",
@@ -363,6 +396,13 @@
             "date": "07-20",
             "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
             "url": "https://36kr.com/p/3903761449617027?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
+          },
+          {
+            "date": "07-20",
+            "title": "光轮智能与西门子正式达成合作",
+            "url": "https://36kr.com/newsflashes/3903949369329280?f=rss",
             "company": "其他",
             "source_name": "36氪"
           }
@@ -478,6 +518,42 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 20 日消息，今日宇树科技发布宇树 UnifoLM-OminiA-0.3，单模型统筹家居康养多任务，支持全模态交互理解，全程自主，稳定执行抗干扰。 IT之家注意到，根据宇树科技发布的演示视频，该模型能够完成多种实际任务，例如： 物品搬运：将地上的抱枕放到沙发上。 视觉识别与回答：识别抱枕颜色（如白色）、药盒颜色和数量（如三盒药，红、蓝、黄）…",
       "url": "https://www.ithome.com/0/979/032.htm"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "国家具身智能应用中试基地发布首个合作世界模型 魔芯科技MoWorld 3D正式亮相",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "2026世界人工智能大会召开前夕，7月16日，在杭州市发改委，杭州高新区（滨江）党委和管委会、政府的支持下，国家具身智能应用中试基地（以下简称“基地”）联合华为云、魔芯科技在杭州举办“模生万物 芯向未来”主题发布会，魔芯科技MoWorld 3D世界模型正式亮相。这是该国家级中试平台揭牌以来举办的首场世界模型发布活动，推出的产品为全球首个全栈基于国产NPU构建…",
+      "url": "https://www.qbitai.com/2026/07/455517.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "光轮智能与西门子正式达成合作",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "36氪获悉，近日，在WAIC 2026现场， 。双方将依托光轮智能的三位一体全栈自研仿真平台SimFoundry，推动工业软件中长期积累的物理模型、工程参数和工艺知识，转化为机器人可以持续调用的仿真能力，并进一步贯通训练、评测与真实部署，为机器人进入复杂工业场景提供全栈物理AI基础设施支撑",
+      "url": "https://36kr.com/newsflashes/3903949369329280?f=rss"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "国产GPU分水岭时刻：当别家还在卷参数，摩尔线程早已训练出了世界模型",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "“2026 年初，OpenClaw 刚火时，日活 Token 数大概是 140 万亿。未来算力越多越好，因为 Scaling Law 依然成立。”摩尔线程创始人、董事长兼 CEO 张建中在 2026 世界人工智能大会上分享道。 现实是当前算力依然不够。比如 Kimi K3 的发布引发了大量关注，但同时也带来了算力挑战。就在昨天，月之暗面发布公告称，暂停 C…",
+      "url": "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-20",
+      "company": "智元机器人",
+      "title": "AGIBOT在WAIC 2026发布四款新机器人，扩展工业具身智能产品矩阵 (AGIBOT unveils four new robots at WAIC 2026 as it expands industrial embodied AI portfolio)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "AGIBOT has unveiled four new robotics products at the World Artificial Intelligence Conference (WAIC) 2026 in Shanghai, expanding its portfolio of humanoid robots, industrial autom…",
+      "url": "https://roboticsandautomationnews.com/2026/07/20/agibot-unveils-four-new-robots-at-waic-2026-as-it-expands-industrial-embodied-ai-portfolio/103505/"
     },
     {
       "date": "07-19",
@@ -784,42 +860,6 @@
       "category": "产品量产",
       "summary": "7月17日，2026世界人工智能大会（WAIC 2026）在上海盛大开幕。作为全球领先的智能机器人明星企业，思灵机器人 Agile Robots携旗下H20轻量级高动态人形机器人、H10-W助理机器人、AI理疗康养机器人及高精度力反馈遥操作数据采集系统等重磅产品矩阵亮相。 在“人工智能+制造”日益深入的当下，思灵机器人以“链接人工智能与物理世界”为愿景，向全…",
       "url": "https://www.leiphone.com/category/industrynews/bnE4dz5C4rdarltB.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "AI到底是「想错了」还是「判错了」？OpenDriveLab 陈立的组合式世界模型让策略自我纠偏 | RSS 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "在具身智能通往 AGI 的征途中，我们正面临一个幽灵般的威胁：“黑盒幻觉”。 当一个机器人或自动驾驶策略出错时，开发者往往很难精准定位原因。因为“预测未来”和“评估好坏”这两个功能在庞大的联合网络中被紧紧绑在一起。一旦出了事故，你根本分不清它到底是“想错了”（对物理世界的预测不对），还是“判错了”（对结果好坏的评估有误）。 这种“想”与“判”的缠绕，正成为阻…",
-      "url": "https://www.leiphone.com/category/private/GkoVU7vEEW4FAPT2.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "GAIR Paper 108 | CVPR 2026 冠军奖论文：4K 参数撬动 VLA 泛化，空间才是真正的瓶颈！",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "机器人在新场景下失灵，根源不是不懂物理，而是空间表征错了——用极少参数校准这一层，就能打开通往原生世界动作模型的路。 作者丨张 璐 编辑丨 齐铖湧 让机器人真正理解世界，需要更大的语言模型、更逼真的视频生成，还是别的什么？ 雷峰网小编在中山大学与 X-Era AI Lab 团队的研究中f x了一个意外的答案： 很多时候，机器人在新场景下失灵，不是因为它不懂物…",
-      "url": "https://www.leiphone.com/category/academic/tSC1DCI4SbS7ZlTG.html"
-    },
-    {
-      "date": "07-17",
-      "company": "智元机器人",
-      "title": "智元联合京东物流发布精灵 G2 Max 人形机器人，首次在真实仓储作业生产场景中部署落地",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 17 日消息，2026 世界人工智能大会（WAIC）今日在上海开幕。京东物流与智元联合推出新一代安规级重载具身机器人 —— 精灵 G2 Max，并宣布该产品将应用于京东物流智狼仓，这是人形机器人 首次在真实的仓储作业生产场景中部署落地 。 官方表示，当前智能仓库多个环节已引入机器人和智能设备。但在许多货物入库场景，还需人工逐一将货物搬下、分…",
-      "url": "https://www.ithome.com/0/978/274.htm"
-    },
-    {
-      "date": "07-17",
-      "company": "行业",
-      "title": "获得新融资后，Monumental计划将其建筑机器人引入美国 (With new funding, Monumental plans to bring its construction robots to the U.S.)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
     }
   ]
 }
