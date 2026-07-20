@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-20T11:17:16.941636+08:00",
+  "updated": "2026-07-20T17:16:42.325193+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
+      "candidates": 4,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 10,
+      "entries": 29,
+      "candidates": 12,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -40,7 +40,7 @@
       "candidates": 14,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 5,
-      "core": 3,
+      "entries": 19,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 2,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 23,
-      "core": 2,
+      "entries": 60,
+      "candidates": 22,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 22,
-      "core": 5,
+      "candidates": 21,
+      "core": 4,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -154,7 +154,7 @@
       "entries": 19,
       "candidates": 18,
       "core": 5,
-      "periphery": 2,
+      "periphery": 1,
       "new": 0
     },
     {
@@ -194,7 +194,7 @@
       "candidates": 14,
       "core": 11,
       "periphery": 1,
-      "new": 6
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-20T11:17:29.650652+08:00",
+    "generated_at": "2026-07-20T17:17:10.599536+08:00",
     "mode": "aicodewith",
-    "item_count": 6,
+    "item_count": 12,
     "insights": [
       {
-        "label": "验收标准转向稳定干活",
-        "text": "WAIC现场展示覆盖叠衣、冲咖啡、切菜、分拣等任务，同时讨论焦点转向连续执行数百上千次、换环境、失败恢复和部署后增长，具身智能落地评价正在从单次演示转向可重复、可验收的任务闭环。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周证据集中指向工厂、建造、维修、巡检等任务型场景，WAIC展台演示了叠衣服、冲咖啡、切菜、分拣等操作，博匠机器人还与香港头部智能建造企业签署不低于2亿元订单，具身智能商业化更可能先在结果可计量、交付可验收的场景形成闭环。",
         "evidence_urls": []
       },
       {
-        "label": "场景订单优先来自确定需求",
-        "text": "深圳博匠机器人与香港头部智能建造企业签署战略合作协议，并披露不低于2亿元订单，工厂、建造、维修、巡检等边界清晰场景更容易形成采购决策，短期商业化仍会围绕明确交付和验收展开。",
+        "label": "模型竞争回到任务闭环",
+        "text": "1.5B开源通用VLA模型出现，WAIC现场大量机器人展示真实操作，但行业讨论的焦点已从单次演示转向能否连续执行几百次、几千次，换环境后是否稳定、失败后能否自恢复，模型能力的评价正在被真实数据、长期部署和任务成功率重新定义。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事受制于真实数据闭环",
-        "text": "行业仍被描述为处在具身智能的前GPT阶段，展台任务虽已延伸到工业产线和厨房灶台，但核心问题落在环境迁移、失败恢复和部署后能力增长，供应链和算法机会需要绑定这些具体瓶颈而非单纯概念扩张。",
+        "label": "量产能力进入验证范围",
+        "text": "WAIC具身智能参展企业从去年80多家增至200多家，占全部展商近五分之一，真机超过300台；光鉴发布视觉感知方案，宇树发布支持全模态交互理解的模型，感知、交互和规模化交付开始共同影响产品能否从展示走向打工。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "WAIC展示机器人叠衣、冲咖啡、切菜、分拣等多类操作，但讨论重点落在连续成功率、跨环境适应、失败恢复和部署后成长。",
+        "summary": "WAIC展示叠衣、冲咖啡、切菜、分拣等任务，同时讨论连续执行、换环境、自恢复和部署增长，1.5B开源VLA模型强化了模型侧进展。",
         "items": [
           {
             "date": "07-20",
@@ -277,12 +277,53 @@
             "url": "https://www.tmtpost.com/8071091.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-20",
+            "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
+            "url": "https://www.qbitai.com/2026/07/455229.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-20",
+            "title": "WAIC上，具身智能的十宗“最”",
+            "url": "https://www.tmtpost.com/8071756.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
+        "category": "产品量产",
+        "summary": "光鉴发布具身智能视觉感知方案，宇树发布支持全模态交互理解的UnifoLM-OminiA-0.3；WAIC具身企业增至200多家、真机超300台。",
+        "items": [
+          {
+            "date": "07-20",
+            "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
+            "url": "https://www.qbitai.com/2026/07/455438.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-20",
+            "title": "机器人开始打工了，可量产才是生死线｜2026 WAIC",
+            "url": "https://www.tmtpost.com/8071296.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-20",
+            "title": "宇树发布 UnifoLM-OminiA-0.3 模型，支持全模态交互理解",
+            "url": "https://www.ithome.com/0/979/032.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "深圳博匠机器人与香港头部智能建造企业签署战略合作协议，披露不低于2亿元订单，建筑机器人场景率先体现采购确定性。",
+        "summary": "博匠机器人与香港头部智能建造企业签署战略合作协议，披露不低于2亿元订单，建筑机器人率先出现可验收的大额合作样本。",
         "items": [
           {
             "date": "07-20",
@@ -295,7 +336,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "工信部数据显示我国人形机器人整机产品超全球半数，同时租赁热度回落、服务基础设施接棒，行业从展示流量转向运营能力。",
+        "summary": "工信部数据显示我国人形机器人整机产品超全球半数；租赁热度降温后，服务基础设施、现场产线和消费型机器人受到关注。",
         "items": [
           {
             "date": "07-20",
@@ -317,6 +358,13 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-20",
+            "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
+            "url": "https://36kr.com/p/3903761449617027?f=rss",
+            "company": "其他",
+            "source_name": "36氪"
           }
         ]
       }
@@ -376,6 +424,60 @@
       "category": "行业动态",
       "summary": "7 月 17 日，第九届世界人工智能大会（WAIC）在上海世博中心正式开幕，作为一年一度的 AI 行业盛会，今年大会依然聚集了国内外大模型公司、AI 应用和硬件厂商，雷科技（ID：leitech）旗下",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "随着多模态大模型和VLA等技术不断发展，具身智能正加速迈向产业化。机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。 自主导航、精细抓取、人机交互等能力，都建立在可靠的三维视觉感知基础之上。视觉感知不只是深度数据的输出，更是机器人理解环境、执行任…",
+      "url": "https://www.qbitai.com/2026/07/455438.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "一个新的 国产VLA 模型诞生了，而且只有 1.5B 。 视频地址： https://mp.weixin.qq.com/s/TWDuh4NmsamJ52E2A6ZpTw 在上面这个真机演示里，两只机械臂围着桌面开始做三明治。它们分工合作，先取面包，再夹起生菜、火腿和鸡蛋，一层层叠到一起。 视频地址： https://mp.weixin.qq.com/s/TW…",
+      "url": "https://www.qbitai.com/2026/07/455229.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
+      "source_name": "36氪",
+      "category": "行业动态",
+      "summary": "一台80cm高的毛绒人形机器人，可以承载多少想象力？ “它虽然没有完全像人，但拥有全套的传感器，可以跟你交互、分析你的表情，去看你是高兴还是低落。只要算力可以满足，它可以提供各种各样的东西，软件能增量开发的东西是有无限想象力的。” 青心意创CTO曾俊告诉硬氪。他所谈论的是Amoo——青心意创推出的首款智能机器人产品Amoo，身高80cm，拟人双足，无棱角毛绒…",
+      "url": "https://36kr.com/p/3903761449617027?f=rss"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "机器人开始打工了，可量产才是生死线｜2026 WAIC",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "WAIC场馆外的电闪雷鸣，仿佛地球生命创生一样，激发着具身智能这个新物种。 还没走进世博展览馆，周边路口上就能看见人形交通机器人在疏导车流，好像在预示：本届WAIC，具身智能绝对站C位。 从参展数量上即可证实这一点。今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。各式各样的机器人把无数观展者“硬控”…",
+      "url": "https://www.tmtpost.com/8071296.html"
+    },
+    {
+      "date": "07-20",
+      "company": "其他",
+      "title": "WAIC上，具身智能的十宗“最”",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "这十宗“最”，就是我们眼中WAIC之后的具身行业",
+      "url": "https://www.tmtpost.com/8071756.html"
+    },
+    {
+      "date": "07-20",
+      "company": "宇树科技",
+      "title": "宇树发布 UnifoLM-OminiA-0.3 模型，支持全模态交互理解",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 20 日消息，今日宇树科技发布宇树 UnifoLM-OminiA-0.3，单模型统筹家居康养多任务，支持全模态交互理解，全程自主，稳定执行抗干扰。 IT之家注意到，根据宇树科技发布的演示视频，该模型能够完成多种实际任务，例如： 物品搬运：将地上的抱枕放到沙发上。 视觉识别与回答：识别抱枕颜色（如白色）、药盒颜色和数量（如三盒药，红、蓝、黄）…",
+      "url": "https://www.ithome.com/0/979/032.htm"
     },
     {
       "date": "07-19",
@@ -718,60 +820,6 @@
       "category": "资本动态",
       "summary": "Monumental acts as a subcontractor during construction tasks. Contractors pay the company for finished walls rather than for robots. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/with-new-funding-monumental-plans-bring-construction-robots-u-s/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "Mondo Robotics发布Beni：面向消费者的全地形AI相机机器人 (Mondo Robotics unveils Beni, an all-terrain AI camera robot for consumers)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Mondo Robotics, a robotics company creating accessible robots for the consumer, has launched its first robot, Beni, on Kickstarter. Beni is the first portable, all-terrain robot th…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/mondo-robotics-unveils-beni-an-all-terrain-ai-camera-robot-for-consumers/103385/"
-    },
-    {
-      "date": "07-17",
-      "company": "行业",
-      "title": "Monumental 融资 3200 万美元，扩大自主建筑机器人业务 (Monumental raises $32 million to expand autonomous construction robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Monumental, the Amsterdam-based tech company automating construction with robotics and software, has announced a $32 million Series B led by Khosla Ventures, with participation fro…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/monumental-raises-32m-led-by-khosla-ventures-to-scale-the-robots-already-building-the-physical-world/103373/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "Robbyant 发布面向具身机器人的通用 AI 模型 LingBot-VLA 2.0 (Robbyant unveils LingBot-VLA 2.0 universal AI model for embodied robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Robbyant, an embodied AI company within Ant Group, has announced the upgrade and open-source release of LingBot-VLA 2.0. Building upon the foundation of LingBot-VLA 1.0 released in…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/robbyant-unveils-lingbot-vla-2-0-universal-ai-model-for-embodied-robots/103355/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "Noetra启动日本面向物理AI与机器人领域的多模态AI基础模型开发 (Noetra launches development of Japan’s multimodal AI foundation model for physical AI and robotics)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Noetra, along with its core member companies and investors – Sony, SoftBank, NEC, and Honda Motor – launched full-scale R&D for a Japan-developed multimodal foundation model that w…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/noetra-launches-development-of-japans-multimodal-ai-foundation-model-for-physical-ai-and-robotics/103351/"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "Weave Robotics 推出首款移动人形机器人 Isaac (Weave Robotics launches Isaac, its first mobile humanoid robot)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Weave Robotics has listed the features of its Isaac wheeled bimanual manipulator robot for household and office use. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/weave-robotics-launches-isaac-first-mobile-humanoid-robot/"
-    },
-    {
-      "date": "07-17",
-      "company": "Agility Robotics",
-      "title": "Agility Robotics在弗里蒙特开设新设施，加速物理AI发展 (Agility Robotics opens new Fremont facility to accelerate physical AI development)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Agility Robotics, a humanoid robotics and physical AI company, has opened its new Fremont, California facility designed to accelerate physical AI developments that directly improve…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/agility-robotics-opens-new-fremont-facility-to-accelerate-physical-ai-development/103426/"
     }
   ]
 }
