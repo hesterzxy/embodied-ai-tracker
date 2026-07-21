@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T03:45:55.695266+08:00",
+  "updated": "2026-07-21T10:45:58.661966+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,11 +23,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 10,
+      "entries": 25,
+      "candidates": 8,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "雷峰网",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 13,
+      "entries": 17,
+      "candidates": 11,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 2,
-      "core": 0,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 26,
-      "core": 0,
+      "entries": 59,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -114,7 +114,7 @@
       "attempts": 1,
       "error": "",
       "entries": 29,
-      "candidates": 13,
+      "candidates": 14,
       "core": 12,
       "periphery": 0,
       "new": 0
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 4,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -191,8 +191,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 9,
+      "candidates": 11,
+      "core": 8,
       "periphery": 0,
       "new": 4
     },
@@ -239,43 +239,38 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-21T03:46:35.819803+08:00",
-    "mode": "local",
-    "item_count": 18,
+    "generated_at": "2026-07-21T10:46:14.823269+08:00",
+    "mode": "aicodewith",
+    "item_count": 22,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议；机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
-          "https://www.qbitai.com/2026/07/455438.html",
-          "https://www.tmtpost.com/8071481.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能落地叙事集中在工厂、建造、维修、巡检等任务场景，博匠机器人与香港头部智能建造企业签署战略合作并取得不低于2亿元订单，WAIC现场也从叠衣、冲咖啡扩展到分拣和产线演示，商业化判断正从展示效果转向能否稳定交付、反复执行和被客户验收。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，一个新的 国产VLA 模型诞生了，而且只有 1.；比如 Kimi K3 的发布引发了大量关注，但同时也带来了算力挑战。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/455229.html",
-          "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article",
-          "https://www.tmtpost.com/8071481.html"
-        ]
+        "label": "模型能力开始绑定数据闭环",
+        "text": "1.5B开源通用VLA模型、摩尔线程世界模型以及宇树全模态交互理解模型相继出现，但行业讨论已不只停留在参数和演示，连续执行数百次、换环境泛化、失败自恢复和部署后持续增长成为关键评价维度，模型竞争正在向真实任务数据和训练评测闭环收敛。",
+        "evidence_urls": []
       },
       {
-        "label": "量产和价格开始成为能力验证的一部分",
-        "text": "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界；今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/455438.html",
-          "https://www.tmtpost.com/8071296.html",
-          "https://www.ithome.com/0/979/032.htm"
-        ]
+        "label": "量产能力成为竞争门槛",
+        "text": "WAIC具身智能参展企业从去年80多家增至200多家，真机超过300台，智元发布四款工业具身智能新品，光鉴科技推出视觉感知方案，市场热度抬升的同时，能否形成可复制生产、可控成本和场景适配能力，正在成为产品从样机走向订单的筛选条件。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧围绕VLA模型、世界模型、物理AI基建和榜单可信度展开，行业关注点从单次演示转向连续执行、跨环境泛化、失败恢复和部署后能力增长。",
         "items": [
+          {
+            "date": "07-21",
+            "title": "人均第一，具身智能榜单能信吗？",
+            "url": "https://www.tmtpost.com/8072920.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "07-20",
             "title": "具身智能还在“前GPT时代”| WAIC观察",
@@ -322,7 +317,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品侧集中在视觉感知、全模态交互、世界模型和工业机器人矩阵发布，WAIC参展企业与真机数量大幅增加，量产和场景适配被放到更核心位置。",
         "items": [
           {
             "date": "07-20",
@@ -363,8 +358,22 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业侧出现建筑机器人不低于2亿元订单，三星设立机器人部门推进商业化，特斯拉Autopilot案件赔偿维持，订单机会与合规风险同时影响落地节奏。",
         "items": [
+          {
+            "date": "07-21",
+            "title": "特斯拉面临 2.43 亿美元赔偿，法院认定 2019 年 Autopilot 致死案件判决有效",
+            "url": "https://www.ithome.com/0/979/309.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-21",
+            "title": "三星电子宣布将设立机器人部门，加速研发和商业化",
+            "url": "https://www.ithome.com/0/979/306.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-20",
             "title": "深圳建筑机器人研发商，拿下不低于2个亿的订单！",
@@ -383,8 +392,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业侧数据显示我国人形机器人整机产品超全球半数，租赁热度降温后服务基础设施接棒，智元现场产线和光轮智能与西门子合作凸显工业化方向。",
         "items": [
+          {
+            "date": "07-21",
+            "title": "情感陪伴机器人市场迎来爆发，行业高增长暗藏多重合规风险，优必选港股年内跌35%，监管急开会研讨行业",
+            "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30695225.html",
+            "company": "优必选",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "07-20",
             "title": "我国人形机器人整机产品超全球半数",
@@ -425,6 +441,42 @@
     ]
   },
   "items": [
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "人均第一，具身智能榜单能信吗？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | 定焦One，作者 | 王璐，编辑 | 魏佳 具身智能赛道持续吸引资本目光的同时，各类相关榜单也越来越多。当“第一”几乎成为各家标配时，榜单还有可信度吗？ 一个多月前，千寻智能就经历了尴尬时刻。6月初，其具身基座模型Spirit v1.6在RoboArena榜单上以1918分的成绩超过了英伟达Cosmos3的1880分，一度位居“世界第一”；紧接着，千…",
+      "url": "https://www.tmtpost.com/8072920.html"
+    },
+    {
+      "date": "07-21",
+      "company": "特斯拉",
+      "title": "特斯拉面临 2.43 亿美元赔偿，法院认定 2019 年 Autopilot 致死案件判决有效",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 7 月 21 日消息，据 Electrek 当地时间 7 月 20 日报道，美国佛罗里达州迈阿密联邦法院法官 Beth Bloom 已驳回特斯拉要求推翻 2.43 亿美元（IT之家注：现汇率约合 16.47 亿元人民币）Autopilot 致死事故赔偿判决的请求，这意味着该公司在一审法院层面寻求撤销陪审团裁决的尝试失败。 该案件源于 2019 年发…",
+      "url": "https://www.ithome.com/0/979/309.htm"
+    },
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "三星电子宣布将设立机器人部门，加速研发和商业化",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 7 月 21 日消息，据路透社报道，三星电子周二表示 ，将设立一个机器人部门 RX ，直接向首席执行官汇报，以加速该领域的研发和商业化，将机器人技术打造为增长引擎。 三星电子表示，RX 部门（Robotics eXperience，机器人体验）将负责中长期机器人战略、核心技术开发和业务执行，同时扩大在国内和海外的研究能力。 三星电子曾在今年 3 月…",
+      "url": "https://www.ithome.com/0/979/306.htm"
+    },
+    {
+      "date": "07-21",
+      "company": "优必选",
+      "title": "情感陪伴机器人市场迎来爆发，行业高增长暗藏多重合规风险，优必选港股年内跌35%，监管急开会研讨行业",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "监管闭门研讨情感机器人，独居与单身人群催生新赛道？2028年国内市场预计达600亿，但优必选股价今年跌35% ? 据21世纪经济报道，7月19日，根据业内可靠消息，上周监管部门专门召开闭门研讨会，集结",
+      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30695225.html"
+    },
     {
       "date": "07-20",
       "company": "其他",
@@ -838,42 +890,6 @@
       "category": "资本动态",
       "summary": "具身智能拼到今天，拼的已经不是谁的机器人会摆pose，而是谁的机器人真的会干活，而数据，正在成为决定机器人能不能真正变聪明的隐形门槛。 具身投资人也开始把目光放在数据之上，甚至硅谷老钱也在加速入场。6月中旬，XDOF从隐身状态走出，一次性拿下7000万美元融资，投资方包括Thrive Capital和a16z。专注机器人数据基础设施的Encord完成6000…",
       "url": "https://www.tmtpost.com/8068658.html"
-    },
-    {
-      "date": "07-17",
-      "company": "银河通用",
-      "title": "银河通用机器人创始人王鹤：具身智能的 ChatGPT 时刻 2028 年有望到来",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 7 月 17 日消息，据央视财经报道，在 2026 世界人工智能大会上，银河通用机器人创始人兼首席技术官王鹤预测，通过海量综合数据训练，具身智能基础模型能在未经专门训练的任务上直接达到 70%-80% 成功率，媲美当年数字模型的对话水平；而强大的预训练模型加上高效后训练范式，正是敲开这一里程碑的关键条件。 王鹤判断，按当前数据积累速度和模型收敛趋势…",
-      "url": "https://www.ithome.com/0/978/136.htm"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "文远知行发布自研物理 AI 大模型 WITT，首次引入“最小物理事实单元”概念",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 17 日消息，今日，自动驾驶科技公司文远知行 WeRide 发布自研物理 AI 认知基础大模型 WeRide WITT。 据介绍，基于视觉语言大模型（VLM）能力，WITT 首次引入“最小物理事实单元”概念， 打通视频、图像、文本等多模态信息 ，将连续变化的真实场景拆解为可被识别和验证的事实单元，构建起以物理事实为核心的新一代 AI 理解框…",
-      "url": "https://www.ithome.com/0/978/055.htm"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "千台量产前夜，具身智能竞争已沉到底层基建",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "作者 | 曾响铃 文 | 响铃说 2026年的WAIC，人形机器人依然是展区里最吸睛的存在。只是，业内人聚在一起聊的话题，早已从“能不能翻跟头、能不能实现抓取”换成了另一套语境——能不能连续跑24小时 人形机器人",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30694915.html"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "运行机器人仿真前如何对开发系统进行基准测试 (How to Benchmark Your Development System Before Running Robotics Simulations)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "The process of building a robot doesn’t begin on the factory floor. Long before a robotic arm picks up its first component or an autonomous vehicle navigates a test route, engineer…",
-      "url": "https://roboticsandautomationnews.com/2026/07/17/how-to-benchmark-your-development-system-before-running-robotics-simulations/103338/"
     }
   ]
 }
