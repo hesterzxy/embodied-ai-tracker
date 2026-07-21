@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-21T16:31:46.189438+08:00",
+  "updated": "2026-07-21T21:53:48.439997+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -10,7 +10,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 9,
+      "entries": 10,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -24,10 +24,10 @@
       "attempts": 1,
       "error": "",
       "entries": 28,
-      "candidates": 4,
-      "core": 1,
+      "candidates": 8,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "雷峰网",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 10,
+      "entries": 19,
+      "candidates": 13,
       "core": 2,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 2,
-      "core": 1,
+      "entries": 18,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 2,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -75,8 +75,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 1,
+      "entries": 20,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 22,
-      "core": 0,
+      "entries": 59,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -178,7 +178,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 8,
+      "candidates": 9,
       "core": 6,
       "periphery": 0,
       "new": 0
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 8,
-      "periphery": 0,
-      "new": 4
+      "candidates": 8,
+      "core": 4,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,42 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-21T16:32:26.343403+08:00",
-    "mode": "local",
-    "item_count": 23,
+    "generated_at": "2026-07-21T21:54:06.754089+08:00",
+    "mode": "aicodewith",
+    "item_count": 26,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议；机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
-          "https://www.qbitai.com/2026/07/455438.html",
-          "https://www.tmtpost.com/8071481.html"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周订单和展会信息更多指向建筑、工业产线、分拣、巡检类场景，博匠机器人与香港头部智能建造企业签署不低于2亿元合作，智元在WAIC扩展工业产品矩阵，机器人能力评价正在从演示效果转向任务交付和连续运行。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，一个新的 国产VLA 模型诞生了，而且只有 1.；比如 Kimi K3 的发布引发了大量关注，但同时也带来了算力挑战。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/455229.html",
-          "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article",
-          "https://www.tmtpost.com/8071481.html"
-        ]
+        "label": "模型竞争贴近任务闭环",
+        "text": "1.5B开源通用VLA模型、世界模型、情感世界模型等消息集中出现，WAIC讨论也把问题落到连续执行、环境变化、失败恢复和部署后增长，模型叙事开始围绕真实数据、物理约束和可复现任务来展开。",
+        "evidence_urls": []
       },
       {
-        "label": "量产和价格开始成为能力验证的一部分",
-        "text": "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界；今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/07/455438.html",
-          "https://www.tmtpost.com/8071296.html",
-          "https://www.ithome.com/0/979/032.htm"
-        ]
+        "label": "量产与合规成为能力门槛",
+        "text": "WAIC具身参展企业由80多家增至200多家、真机超过300台，同时情感机器人出现预售破万单后遭遇监管与量产压力，产品是否能稳定制造、定价交付并满足安全合规，正在与智能能力一起构成市场验证条件。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术议题集中在VLA、世界模型、情感状态建模和物理摩擦等方向，讨论重点从参数规模转向连续执行、环境泛化、失败恢复与真实部署后的能力增长。",
         "items": [
           {
             "date": "07-21",
@@ -289,6 +277,20 @@
             "url": "https://www.tmtpost.com/8073430.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-21",
+            "title": "具身机器人进家，只差一套“情感世界模型”",
+            "url": "https://www.tmtpost.com/8073768.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-21",
+            "title": "摩擦力是构建更优机器人世界模型的关键 (Friction is key to making better robot world models)",
+            "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-20",
@@ -336,8 +338,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品侧一边在WAIC集中展示超过300台真机和多款新机器人，一边暴露量产、安全与监管压力，视觉感知方案和中试基地世界模型成为支撑落地的配套环节。",
         "items": [
+          {
+            "date": "07-21",
+            "title": "预售破万单，市值蒸发超200亿：情感机器人遭遇“监管与量产”双重淬火",
+            "url": "https://www.tmtpost.com/8073975.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "07-20",
             "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
@@ -377,7 +386,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业进展以可交付场景为主，博匠机器人获得不低于2亿元智能建造合作，三星设立机器人部门推进商业化，同时特斯拉自动驾驶赔偿案提示责任边界仍影响部署。",
         "items": [
           {
             "date": "07-21",
@@ -411,7 +420,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业热度仍高，工信部数据显示我国人形机器人整机产品超全球半数，但租赁热降温、服务基础设施接棒，现场产线和工业合作更受关注。",
         "items": [
           {
             "date": "07-21",
@@ -504,6 +513,33 @@
       "category": "技术突破",
       "summary": "情感大模型的真正机会，不是让AI更会安慰，而是成为智能终端的“人类状态模型”",
       "url": "https://www.tmtpost.com/8073430.html"
+    },
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "预售破万单，市值蒸发超200亿：情感机器人遭遇“监管与量产”双重淬火",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "U1那些“像人”的能力，恰恰暴露了全行业的安全黑洞，也让早已落定的监管利剑精准劈向了这条赛道",
+      "url": "https://www.tmtpost.com/8073975.html"
+    },
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "具身机器人进家，只差一套“情感世界模型”",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "居家养老最后一公里，不是机器人会不会走路，而是能否读懂老人状态，并把异常交给真正负责的人",
+      "url": "https://www.tmtpost.com/8073768.html"
+    },
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "摩擦力是构建更优机器人世界模型的关键 (Friction is key to making better robot world models)",
+      "source_name": "The Robot Report",
+      "category": "技术突破",
+      "summary": "Deploying world models in real robotic systems requires a step that receives less attention than the models themselves: conditioning. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/"
     },
     {
       "date": "07-20",
@@ -882,33 +918,6 @@
       "category": "资本动态",
       "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，具身智能世界模型公司日冕开物（北京日冕机器人有限公司）近期完成连续两轮种子轮融资，融资合计金额达数亿元人民币，由鼎峰科创、远图未来、百度风投、沃衍资本、武岳峰科创、万林国际共同参与投资。同时，新一轮融资也在同步交割中。 此前融资资金主要用于自研世界模型 LaMPA 的研发迭代、强化学习体系建设，以及数据闭环和产品…",
       "url": "https://36kr.com/p/3899081603483525?f=rss"
-    },
-    {
-      "date": "07-17",
-      "company": "行业",
-      "title": "36氪首发 | 这家人形机器人ODM厂商获千万融资，飞荣达、索辰科技接连下注",
-      "source_name": "36氪",
-      "category": "资本动态",
-      "summary": "图源/企业 本文约 2400 字，建议阅读 6 分钟 作者丨欧雪 编辑丨袁斯来 硬氪获悉，人形机器人ODM方案商半醒具身（BXI Robotics）于近期完成千万元级新一轮融资，投资方为A股上市公司索辰科技。本轮资金将主要用于下一代人形机器人研发及海外市场拓展。此前，半醒具身曾于2025年完成首轮机构融资，投资方为上市公司飞荣达。 半醒具身成立于2022年…",
-      "url": "https://36kr.com/p/3899057634363266?f=rss"
-    },
-    {
-      "date": "07-17",
-      "company": "其他",
-      "title": "明星创业者扎堆，2026具身智能创业门槛有多高？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "存量具身智能企业超3000家，2026年入场还有机会吗？",
-      "url": "https://www.tmtpost.com/8067769.html"
-    },
-    {
-      "date": "07-17",
-      "company": "优必选",
-      "title": "总统亲自见证签约! 优必选挺进中亚：人形机器人出海，不止卖设备那么简单",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "近日一则科技圈重磅合作备受关注：优必选科技在上海与哈萨克斯坦代表团完成高层会晤，在哈国总统托卡耶夫现场见证下，双方正式签下全面战略合作备忘录。 不同于普通外贸订单、短期技术交流，这份合作协议瞄准产业落",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-8110-30694828.html"
     }
   ]
 }
