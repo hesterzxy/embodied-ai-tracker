@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T16:32:24.184819+08:00",
+  "updated": "2026-07-22T21:57:21.447979+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 9,
+      "entries": 27,
+      "candidates": 6,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 13,
+      "entries": 16,
+      "candidates": 12,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 4,
-      "core": 1,
+      "entries": 15,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 2,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 19,
+      "entries": 59,
+      "candidates": 21,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -117,7 +117,7 @@
       "candidates": 14,
       "core": 12,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -151,9 +151,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 18,
-      "core": 5,
+      "entries": 18,
+      "candidates": 17,
+      "core": 4,
       "periphery": 1,
       "new": 0
     },
@@ -194,7 +194,7 @@
       "candidates": 7,
       "core": 3,
       "periphery": 2,
-      "new": 4
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-22T16:32:40.539279+08:00",
+    "generated_at": "2026-07-22T21:57:49.300394+08:00",
     "mode": "aicodewith",
-    "item_count": 38,
+    "item_count": 40,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周订单和展示更集中在工厂、建筑、维修、巡检等结果可核验场景，博匠机器人与香港头部智能建造企业签署不低于2亿元合作，WAIC现场也从叠衣、冲咖啡延伸到分拣和产线演示，具身智能的商业推进正在优先选择边界较清晰、验收指标更明确的任务。",
+        "text": "本周具身智能落地线索集中在工厂、建筑、基础设施等结果更易验收的场景，博匠机器人与香港头部智能建造企业签署不低于2亿元订单，WAIC 2026现场大量演示叠衣、冲咖啡、切菜、分拣，智元机器人展示产线能力，商业化评价正在从单次表演转向连续作业、交付验收和场景复用。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事进入任务闭环",
-        "text": "生数科技、摩尔线程、魔芯科技等围绕世界模型发布进展，1.5B国产开源VLA模型和MiniCPM-Robot系列模型也进入视野，讨论焦点从参数和演示能力转向真实环境预测、连续执行、失败恢复与数据闭环，模型能力仍处早期但评价口径更贴近机器人实际部署。",
+        "label": "模型叙事进入任务闭环",
+        "text": "世界模型和VLA仍是技术主线，生数科技强调用通用世界模型连接生成与行动，国产1.5B开源通用VLA模型、面壁MiniCPM-Robot系列模型和摩尔线程世界模型相继出现，同时行业讨论开始触及摩擦力、人类状态模型等物理细节，模型竞争不只看参数规模，更看能否支撑机器人在真实环境中感知、预测和执行。",
         "evidence_urls": []
       },
       {
-        "label": "量产压力抬高产品门槛",
-        "text": "WAIC具身参展企业增至200多家、真机超过300台，宇树、面壁、光鉴科技等发布模型或感知方案，同时情感机器人出现预售破万单后遭遇监管与量产压力，产品竞争不再只看拟人交互和概念热度，安全合规、供应能力和可复制交付开始共同构成验证条件。",
+        "label": "资本偏好能力补齐与确定场景",
+        "text": "资本继续流向具身智能关键环节和明确应用，智平方融资50亿元估值达200亿元，Humanoid以13.5亿美元估值融资1.52亿美元，Gritt获3240万美元用于基础设施物理AI，蓝点触控半年三轮融资并获产业资本关注；与此同时情感机器人预售破万单后遭遇监管与量产压力，融资热度与订单热度都需要被合规、量产和场景交付重新校准。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术讨论集中在世界模型、VLA模型和情感状态建模，行业关注点从单次演示转向连续执行、环境变化适应、失败恢复及真实机器人部署中的物理细节。",
+        "summary": "技术讨论围绕世界模型、VLA和具身基座模型展开，生数、面壁等推进从生成到行动，但行业仍关注连续执行、环境迁移和失败恢复能力。",
         "items": [
           {
             "date": "07-22",
@@ -270,6 +270,13 @@
             "url": "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "07-22",
+            "title": "宇树王兴兴：具身智能“ChatGPT 时刻”有望最快两三年内到来，大家要提前做好准备",
+            "url": "https://www.ithome.com/0/980/206.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
           },
           {
             "date": "07-21",
@@ -345,7 +352,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧集中发布模型、视觉感知、触觉人形机器人和中试基地合作成果，WAIC真机数量提升明显，但情感机器人案例显示量产交付、安全合规仍是关键约束。",
+        "summary": "量产侧呈现模型开源、感知方案和人形机器人新品并行，WAIC展商和真机数量大增，情感机器人则暴露监管、安全与规模交付压力。",
         "items": [
           {
             "date": "07-22",
@@ -414,7 +421,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业进展以建筑机器人不低于2亿元合作最具确定性，三星设立机器人部门推进商业化，特斯拉Autopilot赔偿案则提醒自动化能力落地伴随责任边界压力。",
+        "summary": "商业化信号集中在建筑与机器人部门建设，博匠机器人获得不低于2亿元订单，三星设立机器人部门，特斯拉自动驾驶事故赔偿也提示落地责任边界。",
         "items": [
           {
             "date": "07-21",
@@ -448,7 +455,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向可定义场景和关键能力补齐，Gritt面向基础设施物理AI融资3240万美元，Humanoid以13.5亿美元估值融资1.52亿美元，产业资本也进入触控环节。",
+        "summary": "资本仍押注人形机器人、物理AI基础设施和关键零部件，智平方、Humanoid、Gritt及蓝点触控融资案例显示场景确定性和能力补齐更受关注。",
         "items": [
           {
             "date": "07-22",
@@ -472,6 +479,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "07-22",
+            "title": "原创 类脑VLA加持，智平方吸金50亿元，估值冲上200亿元 人工智能 · 商业化 · 人工智能 作者：刘杨楠 | 编辑：栗子 2026-06-29",
+            "url": "https://www.jazzyear.com/article_info.html?id=1794",
+            "company": "其他",
+            "source_name": "甲子光年"
+          },
+          {
             "date": "07-21",
             "title": "英国公司 Humanoid 获 1.52 亿美元 A 轮融资 (U.K.-based Humanoid secures $152M in Series A funding)",
             "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
@@ -482,7 +496,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示大厂和整机企业加速布局物理AI，我国人形机器人整机产品占全球半数以上，租赁热度退潮后，服务基础设施和真实产线能力更受关注。",
+        "summary": "行业从展示热度转向服务基础设施与真实运营，国内人形机器人整机产品占全球过半，租赁热退潮、Robotaxi扩城和京东布局物理AI同步出现。",
         "items": [
           {
             "date": "07-22",
@@ -551,7 +565,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻较少但指向明确，HBK与Siléane将触觉智能用于高速化妆品包装，感知部件机会更依赖包装、抓取等具体工艺瓶颈的性能验证。",
+        "summary": "产业链新闻聚焦触觉智能，HBK与Siléane合作用于高速化妆品包装，供应链机会更贴近高速作业中的感知精度和接触控制瓶颈。",
         "items": [
           {
             "date": "07-22",
@@ -645,6 +659,24 @@
       "category": "资本动态",
       "summary": "Humanoid, a UK-based AI and robotics company building industrial humanoid robots, today announced a $152 million Series A financing at a $1.35 billion post-money valuation. This fu…",
       "url": "https://roboticsandautomationnews.com/2026/07/22/humanoid-raises-152-million-at-1-35-billion-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/103561/"
+    },
+    {
+      "date": "07-22",
+      "company": "宇树科技",
+      "title": "宇树王兴兴：具身智能“ChatGPT 时刻”有望最快两三年内到来，大家要提前做好准备",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 22 日消息，2026 年世界互联网大会数字丝路发展论坛于今日在陕西西安举行，据澎湃新闻报道，宇树科技创始人兼首席执行官王兴兴在开幕式上表示，过去几年，人形机器人从行走到舞蹈、功夫格斗到简单服务进步飞速。 具身智能的“ChatGPT 时刻”有望最快在两三年内到来 ，届时机器人在大部分陌生场景也能直接工作，实现很多基本功能。 王兴兴还称，大家…",
+      "url": "https://www.ithome.com/0/980/206.htm"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "原创 类脑VLA加持，智平方吸金50亿元，估值冲上200亿元 人工智能 · 商业化 · 人工智能 作者：刘杨楠 | 编辑：栗子 2026-06-29",
+      "source_name": "甲子光年",
+      "category": "资本动态",
+      "summary": "甲子光年 原创 两个月连获两轮数亿元融资，深度机智以全栈自主路线加速国产物理AI基座模型落地 人工智能 · 商业化 · 人工智能 <div class=\"botto",
+      "url": "https://www.jazzyear.com/article_info.html?id=1794"
     },
     {
       "date": "07-21",
@@ -996,24 +1028,6 @@
       "category": "产品量产",
       "summary": "2026世界人工智能大会（WAIC）启幕，具身智能、物理AI与人形机器人赛道再次成为产业关注焦点。伴随大模型、感知交互和运动控制能力持续进步，行业竞争正从“能展示什么”加速转向“能交付什么”。在此背景下，灵巧智能携全链路技术体系与多场景落地成果亮相WAIC，系统展示其在类人灵巧操作领域的全栈能力与产业化路径。 当前，具身智能产业正从技术热潮迈入落地验证阶段…",
       "url": "https://www.leiphone.com/category/industrynews/w5PrxGuvqYtI9U4p.html"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "傅利叶发布首款轮式双臂机器人 GRW：三种手随便换、能扛起 16 公斤重物",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 18 日消息，2026 世界人工智能大会近日在上海召开。傅利叶昨天在大会上推出首款轮式双臂机器人 GRW，主打仓储物流、工业制造、康养照护等高负载人机协同场景。 据介绍，这款机器人归属辅助型交互类别，采用创新的“长臂窄肩”设计，全身尺寸达 720*618*1160-1650 mm，体重约 160 kg，机身肩宽仅 585 mm，机身主体覆盖…",
-      "url": "https://www.ithome.com/0/978/489.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "国家地方共建人形机器人创新中心中试公共服务平台启用，每年可产整机 2000 台",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 18 日消息，据央视新闻今天（18 日）报道，国家地方共建人形机器人创新中心中试公共服务平台正式启用。 该平台坐落于上海浦东张江机器人谷，构建研发试制、精密装配、全项测试、仓储交付一体化中试闭环，具备 年产 2000 台整机、2000 套核心精密组件 能力，将为浦东具身智能产业提供从研发到量产的关键支撑，有效降低研发建线成本，沉淀标准工艺与…",
-      "url": "https://www.ithome.com/0/978/482.htm"
     }
   ]
 }
