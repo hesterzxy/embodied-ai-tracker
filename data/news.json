@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T03:24:58.116247+08:00",
+  "updated": "2026-07-22T10:43:34.746657+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 8,
+      "entries": 27,
+      "candidates": 5,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 4,
-      "core": 2,
+      "entries": 17,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 24,
-      "core": 3,
+      "entries": 57,
+      "candidates": 22,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-22T03:25:18.547466+08:00",
+    "generated_at": "2026-07-22T10:43:50.053181+08:00",
     "mode": "aicodewith",
-    "item_count": 27,
+    "item_count": 31,
     "insights": [
       {
-        "label": "落地转向可验收任务",
-        "text": "本周具身智能的落地线索集中在工厂、建筑、维修和巡检等更容易定义交付结果的场景，WAIC现场从工业产线到厨房灶台展示叠衣服、冲咖啡、切菜、分拣，智元在现场展示产线，博匠机器人与香港头部智能建造企业签署不低于2亿元订单，商业验证正在从演示能力转向可验收任务。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能的落地线索更多集中在建筑、工业产线、维修巡检等任务边界清晰的场景，深圳博匠机器人与香港头部智能建造企业签署不低于2亿元订单，智元在WAIC展示产线化应用，行业对连续执行、换环境稳定性和失败恢复的要求正在抬高，短期商业化更可能先由可验收任务牵引。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事落到闭环验证",
-        "text": "国产1.5B开源通用VLA模型、摩尔线程世界模型、魔芯科技MoWorld 3D等进展密集出现，同时行业讨论已从参数规模延伸到能否连续执行数百次、换环境是否稳定、失败后能否恢复，模型价值更依赖真实数据、仿真评测和部署任务闭环。",
+        "label": "模型叙事进入数据闭环",
+        "text": "1.5B开源通用VLA模型、世界模型、情感世界模型和摩擦力建模等议题密集出现，WAIC现场虽有叠衣服、冲咖啡、切菜、分拣等演示，但讨论焦点已从单次展示转向能否连续数百次执行、部署后持续增长和真实数据闭环，模型能力的评价标准正在变得更贴近任务运行。",
         "evidence_urls": []
       },
       {
-        "label": "量产和合规成为能力门槛",
-        "text": "WAIC具身智能参展企业从80多家增至200多家、真机超过300台，情感机器人U1预售破万单后遭遇监管与量产压力并伴随市值蒸发超200亿元，人形机器人租赁日费下滑，产品能力开始被交付规模、价格承受力和安全合规共同检验。",
+        "label": "资本偏向场景和补短板",
+        "text": "蓝点触控半年三轮融资并吸引宁德时代、智元、上汽等产业方入局，英国Humanoid完成1.52亿美元A轮融资，资金流向既覆盖整机公司，也关注触控、感知等能力补齐环节，产业资本更愿意押注能嵌入明确产品路径和性能瓶颈的环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕VLA、世界模型、情感状态模型和摩擦力建模展开，但讨论重点已转向连续执行、环境迁移、失败恢复和部署后增长等可验证指标。",
+        "summary": "技术侧围绕VLA、世界模型、情感状态模型和摩擦力建模展开，WAIC演示覆盖叠衣、咖啡、切菜、分拣等任务，但讨论重点转向连续执行、环境泛化和失败恢复。",
         "items": [
           {
             "date": "07-21",
@@ -338,14 +338,28 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻集中在视觉感知方案、宇树全模态模型、魔芯MoWorld 3D和智元四款新品，WAIC真机密集亮相后，交付能力成为核心压力。",
+        "summary": "产品侧集中展示感知、触觉、全模态交互和工业机器人矩阵，WAIC参展具身企业增至200多家、真机超300台，量产能力与监管安全开始共同影响产品验证。",
         "items": [
+          {
+            "date": "07-22",
+            "title": "酷哇科技亮相WAIC 2026，解密行业首个双层智能体世界模型",
+            "url": "https://www.qbitai.com/2026/07/456178.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "07-21",
             "title": "预售破万单，市值蒸发超200亿：情感机器人遭遇“监管与量产”双重淬火",
             "url": "https://www.tmtpost.com/8073975.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-21",
+            "title": "Generative Bionics 发布具备全身触觉感知的人形机器人 (Generative Bionics unveils humanoid robot with full-body tactile sensing)",
+            "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-20",
@@ -386,7 +400,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧出现博匠机器人不低于2亿元建筑机器人合作，三星设立机器人部门，特斯拉Autopilot判赔延续自动驾驶商业化责任边界压力。",
+        "summary": "商业化出现建筑机器人不低于2亿元合作订单，三星设立机器人部门推进研发和商业化，同时特斯拉Autopilot案件赔偿判决延续，落地扩张伴随责任边界压力。",
         "items": [
           {
             "date": "07-21",
@@ -419,8 +433,28 @@
         ]
       },
       {
+        "category": "资本动态",
+        "summary": "资本动态较少但金额和产业属性突出，蓝点触控半年三轮融资并获产业方关注，英国Humanoid完成1.52亿美元A轮，资金继续押注整机与关键能力环节。",
+        "items": [
+          {
+            "date": "07-22",
+            "title": "半年三轮融资、宁德时代智元上汽排队入局：蓝点触控的“产业资本局”",
+            "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-21",
+            "title": "英国公司 Humanoid 获 1.52 亿美元 A 轮融资 (U.K.-based Humanoid secures $152M in Series A funding)",
+            "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
+            "company": "行业",
+            "source_name": "The Robot Report"
+          }
+        ]
+      },
+      {
         "category": "行业动态",
-        "summary": "行业动态显示我国人形机器人整机产品占全球过半，Robotaxi扩城、租赁热降温、光轮智能与西门子合作共同指向服务基础设施建设。",
+        "summary": "行业层面呈现扩张与降温并存，我国人形机器人整机产品超全球半数，Robotaxi拓展城市，租赁热降温后服务基础设施接棒，情感陪伴机器人则面临合规审视。",
         "items": [
           {
             "date": "07-21",
@@ -476,6 +510,24 @@
     ]
   },
   "items": [
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "酷哇科技亮相WAIC 2026，解密行业首个双层智能体世界模型",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "机器人真正需要的世界模型，并不是单一物理世界模型，而是物理世界模型与人类社会世界模型的统一",
+      "url": "https://www.qbitai.com/2026/07/456178.html"
+    },
+    {
+      "date": "07-22",
+      "company": "智元机器人",
+      "title": "半年三轮融资、宁德时代智元上汽排队入局：蓝点触控的“产业资本局”",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "出品 | 何玺 排版 | 叶媛 2019年，34岁的刘吴月做了一个决定：卖掉北京的房子。 他当时就职于中国航天科技集团，深度参与火星探测、深空探测，负责过高超音速飞行器飞行试验。辞去稳定工作、卖掉房产",
+      "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html"
+    },
     {
       "date": "07-21",
       "company": "其他",
@@ -556,6 +608,24 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 21 日消息，特斯拉当地时间周二宣布，将 Robotaxi 自动驾驶出租车服务扩展至美国佛罗里达州的奥兰多和坦帕。这家电动汽车制造商正力争证明其能够将自动驾驶出租车业务从最初的投放市场扩大规模。 此次扩张正值特斯拉即将于周三公布第二季度财报前夕。华尔街正密切关注 Robotaxi 业务的进展，因为随着首席执行官埃隆 · 马斯克将公司重心转向…",
       "url": "https://www.ithome.com/0/979/786.htm"
+    },
+    {
+      "date": "07-21",
+      "company": "行业",
+      "title": "英国公司 Humanoid 获 1.52 亿美元 A 轮融资 (U.K.-based Humanoid secures $152M in Series A funding)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post appeared first on The Robot Report…",
+      "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
+    },
+    {
+      "date": "07-21",
+      "company": "其他",
+      "title": "Generative Bionics 发布具备全身触觉感知的人形机器人 (Generative Bionics unveils humanoid robot with full-body tactile sensing)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
     },
     {
       "date": "07-20",
@@ -889,42 +959,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 18 日消息，在 2026 世界人工智能大会暨人工智能全球治理高级别会议期间，中兴通讯发布了星系列人形机器人及具身智能解决方案。 轻量化全尺寸人形机器人“中兴星仔”作为商业服务场景主力机型，身高 1.6 米、自重 30 余千克，是当前 业内同规格尺寸下最轻人形产品 。 官方表示，“中兴星仔”整机采用腱绳驱动轻量化架构，全身搭载柔性晶格皮肤…",
       "url": "https://www.ithome.com/0/978/521.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "Nvidia 与 Hugging Face 推出新开放机器人 AI 工具扩展 LeRobot (Nvidia and Hugging Face expand LeRobot with new open robotics AI tools)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Nvidia and Hugging Face have expanded their collaboration to bring new AI models, robotics frameworks and development tools to the open-source LeRobot platform, aiming to make robo…",
-      "url": "https://roboticsandautomationnews.com/2026/07/18/nvidia-and-hugging-face-expand-lerobot-with-new-open-robotics-ai-tools/103491/"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "Fujitsu携手Fanuc、Yaskawa和Kawasaki利用Nvidia技术推进物理AI (Fujitsu partners with Fanuc, Yaskawa and Kawasaki to advance physical AI using Nvidia technology)",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "summary": "Fujitsu has begun working with Japanese robotics manufacturers Fanuc, Yaskawa Electric and Kawasaki Heavy Industries to explore the development and deployment of physical AI across…",
-      "url": "https://roboticsandautomationnews.com/2026/07/18/fujitsu-partners-with-fanuc-yaskawa-and-kawasaki-to-advance-physical-ai-using-nvidia-technology/103488/"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "mimic Robotics 发布灵巧机器人操作全栈平台 (mimic Robotics unveils full-stack platform for dexterous robot manipulation)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "mimic Robotics has introduced a new robotic hand, wearable exoskeleton and software platform that it says are designed to advance general-purpose dexterous manipulation for industr…",
-      "url": "https://roboticsandautomationnews.com/2026/07/18/mimic-robotics-unveils-full-stack-platform-for-dexterous-robot-manipulation/103473/"
-    },
-    {
-      "date": "07-17",
-      "company": "智元机器人",
-      "title": "36氪首发 | 港科大博士创业做机器人全身触觉系统，红杉、瓴智、智元共同押注",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，全身多模态融合触觉解决方案公司模感科技（MoSense）近日完成数千万元天使轮融资，投资方包括红杉中国、高瓴创投及智元机器人。本轮融资资金将主要用于加速研发、团队扩充、算力投入及量产测试体系建设。 模感科技成立于2026年5月，总部注册于上海，在深圳前海设有研发中心，聚焦机器人全身多模态触觉感知系统研发。公司正式…",
-      "url": "https://36kr.com/p/3899128277452681?f=rss"
     }
   ]
 }
