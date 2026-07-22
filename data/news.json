@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-22T10:43:34.746657+08:00",
+  "updated": "2026-07-22T16:32:24.184819+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -10,9 +10,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "entries": 9,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 5,
+      "entries": 28,
+      "candidates": 9,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 13,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
+      "entries": 18,
+      "candidates": 4,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -75,11 +75,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
+      "entries": 19,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 22,
+      "entries": 60,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 0,
-      "new": 5
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 2,
-      "periphery": 1,
-      "new": 1
+      "candidates": 7,
+      "core": 3,
+      "periphery": 2,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,31 +239,38 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-22T10:43:50.053181+08:00",
+    "generated_at": "2026-07-22T16:32:40.539279+08:00",
     "mode": "aicodewith",
-    "item_count": 31,
+    "item_count": 38,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的落地线索更多集中在建筑、工业产线、维修巡检等任务边界清晰的场景，深圳博匠机器人与香港头部智能建造企业签署不低于2亿元订单，智元在WAIC展示产线化应用，行业对连续执行、换环境稳定性和失败恢复的要求正在抬高，短期商业化更可能先由可验收任务牵引。",
+        "text": "本周订单和展示更集中在工厂、建筑、维修、巡检等结果可核验场景，博匠机器人与香港头部智能建造企业签署不低于2亿元合作，WAIC现场也从叠衣、冲咖啡延伸到分拣和产线演示，具身智能的商业推进正在优先选择边界较清晰、验收指标更明确的任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事进入数据闭环",
-        "text": "1.5B开源通用VLA模型、世界模型、情感世界模型和摩擦力建模等议题密集出现，WAIC现场虽有叠衣服、冲咖啡、切菜、分拣等演示，但讨论焦点已从单次展示转向能否连续数百次执行、部署后持续增长和真实数据闭环，模型能力的评价标准正在变得更贴近任务运行。",
+        "label": "世界模型叙事进入任务闭环",
+        "text": "生数科技、摩尔线程、魔芯科技等围绕世界模型发布进展，1.5B国产开源VLA模型和MiniCPM-Robot系列模型也进入视野，讨论焦点从参数和演示能力转向真实环境预测、连续执行、失败恢复与数据闭环，模型能力仍处早期但评价口径更贴近机器人实际部署。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景和补短板",
-        "text": "蓝点触控半年三轮融资并吸引宁德时代、智元、上汽等产业方入局，英国Humanoid完成1.52亿美元A轮融资，资金流向既覆盖整机公司，也关注触控、感知等能力补齐环节，产业资本更愿意押注能嵌入明确产品路径和性能瓶颈的环节。",
+        "label": "量产压力抬高产品门槛",
+        "text": "WAIC具身参展企业增至200多家、真机超过300台，宇树、面壁、光鉴科技等发布模型或感知方案，同时情感机器人出现预售破万单后遭遇监管与量产压力，产品竞争不再只看拟人交互和概念热度，安全合规、供应能力和可复制交付开始共同构成验证条件。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕VLA、世界模型、情感状态模型和摩擦力建模展开，WAIC演示覆盖叠衣、咖啡、切菜、分拣等任务，但讨论重点转向连续执行、环境泛化和失败恢复。",
+        "summary": "本周技术讨论集中在世界模型、VLA模型和情感状态建模，行业关注点从单次演示转向连续执行、环境变化适应、失败恢复及真实机器人部署中的物理细节。",
         "items": [
+          {
+            "date": "07-22",
+            "title": "从生成到行动，生数科技用通用世界模型连接「两个世界」",
+            "url": "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "07-21",
             "title": "人均第一，具身智能榜单能信吗？",
@@ -338,7 +345,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧集中展示感知、触觉、全模态交互和工业机器人矩阵，WAIC参展具身企业增至200多家、真机超300台，量产能力与监管安全开始共同影响产品验证。",
+        "summary": "产品侧集中发布模型、视觉感知、触觉人形机器人和中试基地合作成果，WAIC真机数量提升明显，但情感机器人案例显示量产交付、安全合规仍是关键约束。",
         "items": [
           {
             "date": "07-22",
@@ -346,6 +353,13 @@
             "url": "https://www.qbitai.com/2026/07/456178.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "07-22",
+            "title": "WAIC 2026 | 面壁智能首个具身智能成果 MiniCPM-Robot 系列模型正式发布！",
+            "url": "https://www.leiphone.com/category/ai/gtBK8Ln3ANuHPQaX.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "07-21",
@@ -400,7 +414,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化出现建筑机器人不低于2亿元合作订单，三星设立机器人部门推进研发和商业化，同时特斯拉Autopilot案件赔偿判决延续，落地扩张伴随责任边界压力。",
+        "summary": "商业进展以建筑机器人不低于2亿元合作最具确定性，三星设立机器人部门推进商业化，特斯拉Autopilot赔偿案则提醒自动化能力落地伴随责任边界压力。",
         "items": [
           {
             "date": "07-21",
@@ -434,7 +448,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态较少但金额和产业属性突出，蓝点触控半年三轮融资并获产业方关注，英国Humanoid完成1.52亿美元A轮，资金继续押注整机与关键能力环节。",
+        "summary": "资本继续流向可定义场景和关键能力补齐，Gritt面向基础设施物理AI融资3240万美元，Humanoid以13.5亿美元估值融资1.52亿美元，产业资本也进入触控环节。",
         "items": [
           {
             "date": "07-22",
@@ -442,6 +456,20 @@
             "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "07-22",
+            "title": "Gritt 获 3240 万美元融资，打造基础设施物理 AI (Gritt launches with $32.4 million to build physical AI for infrastructure)",
+            "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/",
+            "company": "行业",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "07-22",
+            "title": "Humanoid以13.5亿美元估值融资1.52亿美元，成欧洲首家纯人形机器人独角兽 (Humanoid raises $152 million at $1.35 billion valuation, becoming ‘Europe’s first pure-play humanoid robotics unicorn’)",
+            "url": "https://roboticsandautomationnews.com/2026/07/22/humanoid-raises-152-million-at-1-35-billion-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/103561/",
+            "company": "行业",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "07-21",
@@ -454,8 +482,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业层面呈现扩张与降温并存，我国人形机器人整机产品超全球半数，Robotaxi拓展城市，租赁热降温后服务基础设施接棒，情感陪伴机器人则面临合规审视。",
+        "summary": "行业动态显示大厂和整机企业加速布局物理AI，我国人形机器人整机产品占全球半数以上，租赁热度退潮后，服务基础设施和真实产线能力更受关注。",
         "items": [
+          {
+            "date": "07-22",
+            "title": "京东押注物理 AI，打通数字到物理世界的链路",
+            "url": "https://www.tmtpost.com/8072404.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-22",
+            "title": "Jiuwen Symbiosis深度解析：从数字世界走向物理世界，为Physical AI打造Symbiosis (共生)",
+            "url": "https://www.infoq.cn/article/BmyIPDkVKj11vspmB6su?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "07-21",
             "title": "情感陪伴机器人市场迎来爆发，行业高增长暗藏多重合规风险，优必选港股年内跌35%，监管急开会研讨行业",
@@ -506,6 +548,19 @@
             "source_name": "36氪"
           }
         ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链新闻较少但指向明确，HBK与Siléane将触觉智能用于高速化妆品包装，感知部件机会更依赖包装、抓取等具体工艺瓶颈的性能验证。",
+        "items": [
+          {
+            "date": "07-22",
+            "title": "当机器人开始感知：HBK 与 Siléane 为高速化妆品包装带来触觉智能 (When robots start to feel: HBK and Siléane bring tactile intelligence to high-speed cosmetics packaging)",
+            "url": "https://roboticsandautomationnews.com/2026/07/22/when-robots-start-to-feel-hbk-and-sileane-bring-tactile-intelligence-to-high-speed-cosmetics-packaging/103567/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          }
+        ]
       }
     ]
   },
@@ -527,6 +582,69 @@
       "category": "资本动态",
       "summary": "出品 | 何玺 排版 | 叶媛 2019年，34岁的刘吴月做了一个决定：卖掉北京的房子。 他当时就职于中国航天科技集团，深度参与火星探测、深空探测，负责过高超音速飞行器飞行试验。辞去稳定工作、卖掉房产",
       "url": "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "WAIC 2026 | 面壁智能首个具身智能成果 MiniCPM-Robot 系列模型正式发布！",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "7 月 19 日上 午，面壁智能主办的「智在终端 惠及千行」分论坛在世界人工智能大会上圆满举行。论坛上，面壁智能联合 OpenBMB 正式发布并开源了其首个具身智能技术成果 MiniCPM-Robot 系列模型，「小钢炮」正式进军机器人领域！ 本次发布的 MiniCPM-Robot 系列成果包括两个具身智能模型：通用 VLA 模型 MiniCPM-Robot…",
+      "url": "https://www.leiphone.com/category/ai/gtBK8Ln3ANuHPQaX.html"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "从生成到行动，生数科技用通用世界模型连接「两个世界」",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "在世界人工智能大会（WAIC）的展馆里，机器人通常是最抢镜的一类展品。 机械臂抓取物体、人形机器人听从指令完成家务，“世界模型”也常常伴随这些演示出现，用来解释机器人如何理解环境、预测变化并完成行动。久而久之，世界模型似乎逐渐成为机器人和自动驾驶领域的专属概念。 但在生数科技创始人、清华大学人工智能研究院副院长朱军看来，通用世界模型并不只服务于某个单一场景…",
+      "url": "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "京东押注物理 AI，打通数字到物理世界的链路",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "在2026年WIC这场体量巨大的展会中，我们看到了行业正在迎来全新的发展阶段。 据统计，今年共有242家 机器人 与智能硬件相关企业参展，占全部展商的23.6%，成为WAIC 2026最热赛道；206家参展主体集中于“算力·芯片·基础设施”大类，占比20.1%；大模型与生成式AI赛道共有130家参展主体，体量与去年大致持平。 在这组数据背后，一个值得观察的变…",
+      "url": "https://www.tmtpost.com/8072404.html"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "Jiuwen Symbiosis深度解析：从数字世界走向物理世界，为Physical AI打造Symbiosis (共生)",
+      "source_name": "InfoQ",
+      "category": "行业动态",
+      "summary": "Jiuwen Symbiosis 是一个能懂人话、看得见物理世界、控制四肢执行的 Physical AI Agent。用户不需要示教，只需像指挥一个经验丰富的工人一样，用自然语言下任务，它就能自己完成感知、理解、规划、执行。同时，对昇腾、鲲鹏算力具备天然亲和性，保障推理性能高效稳定。本文将对其技术进行详解。 GitHub： https://github.co…",
+      "url": "https://www.infoq.cn/article/BmyIPDkVKj11vspmB6su?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "当机器人开始感知：HBK 与 Siléane 为高速化妆品包装带来触觉智能 (When robots start to feel: HBK and Siléane bring tactile intelligence to high-speed cosmetics packaging)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "France-based advanced robotics specialist Siléane has partnered with Hottinger Brüel & Kjær (HBK), to deliver a groundbreaking automated gripping solution for a global cosmetics ma…",
+      "url": "https://roboticsandautomationnews.com/2026/07/22/when-robots-start-to-feel-hbk-and-sileane-bring-tactile-intelligence-to-high-speed-cosmetics-packaging/103567/"
+    },
+    {
+      "date": "07-22",
+      "company": "行业",
+      "title": "Gritt 获 3240 万美元融资，打造基础设施物理 AI (Gritt launches with $32.4 million to build physical AI for infrastructure)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Gritt, the company building an intelligent system combining robotics and AI to accelerate the world’s infrastructure buildout, has launched with $32.4 million in pre-seed and Serie…",
+      "url": "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/"
+    },
+    {
+      "date": "07-22",
+      "company": "行业",
+      "title": "Humanoid以13.5亿美元估值融资1.52亿美元，成欧洲首家纯人形机器人独角兽 (Humanoid raises $152 million at $1.35 billion valuation, becoming ‘Europe’s first pure-play humanoid robotics unicorn’)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Humanoid, a UK-based AI and robotics company building industrial humanoid robots, today announced a $152 million Series A financing at a $1.35 billion post-money valuation. This fu…",
+      "url": "https://roboticsandautomationnews.com/2026/07/22/humanoid-raises-152-million-at-1-35-billion-valuation-becoming-europes-first-pure-play-humanoid-robotics-unicorn/103561/"
     },
     {
       "date": "07-21",
@@ -896,69 +1014,6 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 18 日消息，据央视新闻今天（18 日）报道，国家地方共建人形机器人创新中心中试公共服务平台正式启用。 该平台坐落于上海浦东张江机器人谷，构建研发试制、精密装配、全项测试、仓储交付一体化中试闭环，具备 年产 2000 台整机、2000 套核心精密组件 能力，将为浦东具身智能产业提供从研发到量产的关键支撑，有效降低研发建线成本，沉淀标准工艺与…",
       "url": "https://www.ithome.com/0/978/482.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "荣耀李健 WAIC 宣布 Robot Phone 开启预约：搭载 Agentic OS，8 月份发布",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 18 日消息，7 月 18 日，在 2026 世界人工智能大会（WAIC 2026）期间，荣耀举办了主题为“从数字屏幕到具身智能 —— 物理世界新范式”的分论坛。在本次论坛上，荣耀终端股份有限公司 CEO 李健正式官宣，全球首台机器人手机 Robot Phone 面向全渠道开启预约。 作为具身智能时代的“新物种”，荣耀 Robot Phon…",
-      "url": "https://www.ithome.com/0/978/462.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "Strider Robotics 展示40公斤载重四足机器人，商业试点启动 (Strider Robotics demonstrates 40 kg payload quadruped robot as commercial pilots begin)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Indian robotics startup Strider Robotics says it has successfully demonstrated what it describes as one of the country’s highest-payload quadruped robots, capable of carrying a 40…",
-      "url": "https://roboticsandautomationnews.com/2026/07/18/strider-robotics-demonstrates-40-kg-payload-quadruped-robot-as-commercial-pilots-begin/103453/"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "让VLA更懂接触，优理奇UniTac让机器人拥有“触觉想象力”",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "过去一年，随着具身基础模型的快速发展，机器人已经能完成不少轮廓清晰、位置明确的操作任务。 可一旦涉及柔性物体、易损物体或密集接触，机器人往往就开始力不从“脑”。 无论是捏起一颗葡萄而不将它捏破，还是抓住一只纸杯而不让它变形，视觉只能帮助机器人找到目标，想要完成任务，机器人还需要人类与物体交互时不可或缺的触觉感知。 也正因为如此，现在也有越来越多团队开始将触觉…",
-      "url": "https://www.qbitai.com/2026/07/453897.html"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "腾讯升级发布具身智能全栈方案，ADP 4.0海外版正式上线",
-      "source_name": "36氪",
-      "category": "产品量产",
-      "summary": "7月18日，在2026世界人工智能大会（WAIC）上，腾讯面向具身智能与智能体领域带来多项产品技术的升级发布。在具身智能领域，腾讯正式升级发布具身智能全栈方案，贯穿云底座、模型层、平台层与应用层，全面助力机器人本体及系统开发商提质提效；在智能体领域，基于个人与企业提效需求，推出差异化的全矩阵解决方案。其中，面向企业用户的腾讯云企业级智能体开发平台ADP4.0…",
-      "url": "https://36kr.com/newsflashes/3900908700436103?f=rss"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "蓝思智能与上纬新材合作建万台级产线，全球首个可变形个人机器人启元 T1 即将量产",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 18 日消息，7 月 18 日，2026 世界人工智能大会期间，蓝思科技子公司蓝思智能机器人 (长沙) 有限公司与 上纬新材 正式签约， 达成首期规划万台级机器人的产线合作 。 此次与上纬新材合作，双方将围绕 机器人精密零部件加工、关节模组生产、整机组装 等智造环节开展深度协同，稳步推进机器人产能落地与量产交付工作。本次合作聚焦的 启元 Q…",
-      "url": "https://www.ithome.com/0/978/566.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "机器人“眼睛”升级，思特威联合地瓜机器人推出 1:1 方形视觉传感器",
-      "source_name": "IT之家",
-      "category": "泛具身产业链",
-      "summary": "IT之家 7 月 18 日消息，7 月 18 日，国产 CMOS 图像传感器供应商思特威宣布，与地瓜机器人正式达成战略合作。 根据合作协议，双方将围绕思特威机器视觉系列 CMOS 图像传感器产品迭代、地瓜机器人 S600 平台接口标准化定义以及“感知 + 计算”一体化方案系统级性能优化等层面，建立长效研发协同机制，开展联合技术攻关，全面提升具身智能设备全场景…",
-      "url": "https://www.ithome.com/0/978/529.htm"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "中兴发布业内同规格尺寸下最轻人形机器人产品“中兴星仔”：高 1.6 米，自重 30 余千克",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 18 日消息，在 2026 世界人工智能大会暨人工智能全球治理高级别会议期间，中兴通讯发布了星系列人形机器人及具身智能解决方案。 轻量化全尺寸人形机器人“中兴星仔”作为商业服务场景主力机型，身高 1.6 米、自重 30 余千克，是当前 业内同规格尺寸下最轻人形产品 。 官方表示，“中兴星仔”整机采用腱绳驱动轻量化架构，全身搭载柔性晶格皮肤…",
-      "url": "https://www.ithome.com/0/978/521.htm"
     }
   ]
 }
