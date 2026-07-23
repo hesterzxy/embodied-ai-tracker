@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T22:03:11.123521+08:00",
+  "updated": "2026-07-24T03:22:07.253644+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -53,7 +53,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 14,
+      "candidates": 17,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -220,7 +220,7 @@
       "candidates": 30,
       "core": 27,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-23T22:03:36.574894+08:00",
+    "generated_at": "2026-07-24T03:22:30.914079+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证更偏可验收任务",
-        "text": "具身智能的商业进展正在向建筑、工厂和商业等任务边界更清晰的场景集中，博匠机器人与香港头部智能建造企业签署不低于2亿元订单，光鉴科技发布面向真实场景的视觉感知方案，WAIC展台也集中展示分拣、切菜、冲咖啡等可观察动作，短期竞争焦点更接近能否稳定完成任务而非单纯展示通用性。",
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能落地样本更多指向建筑、工厂和商业等真实场景，博匠机器人与香港头部智能建造企业签署战略合作并取得不低于2亿元订单，WAIC现场也集中展示分拣、叠衣、冲咖啡等可观察任务，短期竞争焦点从演示能力转向能否被客户验收和复购。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型开始绑定应用验证",
-        "text": "世界模型热度仍在升温，但资金和技术叙事已更多指向真实数据与任务闭环，PrimalVerse数亿元种子轮资金将用于4D世界模型基模研发并推进具身智能、自动驾驶、医疗手术等应用验证，极佳视界被曝最快2026年赴港上市，昆仑万维继续迭代Matrix-Game系列，模型公司需要用跨场景验证支撑估值和上市预期。",
+        "label": "世界模型叙事进入闭环验证",
+        "text": "极佳视界被报道讨论最快2026年赴港上市，昆仑万维持续发布Matrix-Game系列，PrimalVerse融资后投入4D世界模型基模和多场景应用验证，世界模型正从概念热度走向真实数据、物理预测和任务执行的闭环比拼。",
         "evidence_urls": []
       },
       {
-        "label": "量产能力成为估值约束",
-        "text": "产品侧不再只看演示效果，面壁智能发布并开源MiniCPM-Robot系列模型，Generative Bionics推出具备全身触觉感知的人形机器人，但情感机器人U1在预售破万单后遭遇监管与量产压力并伴随市值蒸发超200亿元，交付、合规和安全正在进入能力验证体系。",
+        "label": "资本偏好能力补齐型环节",
+        "text": "Ropedia获得2200万美元用于扩大机器人训练数据采集，PrimalVerse数亿元种子轮聚焦4D世界模型，特斯拉二季度资本支出同比增长142%至58亿美元，资金正在流向数据、基模和AI基础设施等制约物理AI落地的短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型和VLA成为本周技术主线，1B参数模型登顶榜单，昆仑万维、大晓、生数等继续强调从生成到执行的物理AI能力。",
+        "summary": "技术侧围绕世界模型、VLA和端侧模型密集推进，1B参数模型登顶榜单、Matrix-Game迭代和多家团队创业显示方向升温，但多数证据仍停留在模型发布和论坛讨论。",
         "items": [
           {
             "date": "07-23",
@@ -387,7 +387,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论从展台热度转向交付缺口，WAIC参展具身企业约200家、真机超300台，视觉感知、触觉感知和开源机器人模型同步推进。",
+        "summary": "量产线索从模型开源延伸到感知、控制和触觉硬件，MiniCPM-Robot、AMD模块和全身触觉人形机器人相继出现，情感机器人预售破万后遭遇监管和量产压力。",
         "items": [
           {
             "date": "07-23",
@@ -395,6 +395,13 @@
             "url": "https://www.tmtpost.com/8076858.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "07-23",
+            "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+            "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-22",
@@ -437,26 +444,12 @@
             "url": "https://www.tmtpost.com/8071296.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "07-20",
-            "title": "宇树发布 UnifoLM-OminiA-0.3 模型，支持全模态交互理解",
-            "url": "https://www.ithome.com/0/979/032.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-20",
-            "title": "国家具身智能应用中试基地发布首个合作世界模型 魔芯科技MoWorld 3D正式亮相",
-            "url": "https://www.qbitai.com/2026/07/455517.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化信号仍较少但更具体，博匠机器人获得不低于2亿元建筑机器人订单，三星设立机器人部门，特斯拉自动驾驶诉讼风险继续影响商业预期。",
+        "summary": "商业订单证据较少但更具体，博匠机器人拿下不低于2亿元建筑机器人订单，三星设立机器人部门推进商业化，特斯拉Autopilot案件赔偿维持凸显合规成本。",
         "items": [
           {
             "date": "07-21",
@@ -483,7 +476,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向世界模型、数据和工业人形机器人，PrimalVerse、数据企业、Humanoid等获融资，特斯拉二季度资本支出同比增142%至58亿美元。",
+        "summary": "融资覆盖数据、世界模型、基础设施物理AI和人形机器人，PrimalVerse、Gritt、Humanoid与ATOMS均获资金支持，特斯拉也以更高资本开支加码AI。",
         "items": [
           {
             "date": "07-23",
@@ -505,6 +498,13 @@
             "url": "https://www.ithome.com/0/980/828.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-23",
+            "title": "Uber 联合创始人为新机器人初创公司 ATOMS 融资 17 亿美元 (Uber co-founder raises $1.7B for new robotics startup ATOMS)",
+            "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+            "company": "行业",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-22",
@@ -545,7 +545,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业活动覆盖教育、平台和整机规模，北京中学生人形机器人足球赛55支队伍参赛，工信部称我国人形机器人整机产品超过全球半数。",
+        "summary": "行业活动从赛事、应用入口到政策数据同步展开，北京中学生人形机器人足球赛收官，特斯拉App为Optimus准备上线，工信部披露我国人形机器人整机产品超全球半数。",
         "items": [
           {
             "date": "07-23",
@@ -623,20 +623,20 @@
             "url": "https://36kr.com/p/3903761449617027?f=rss",
             "company": "其他",
             "source_name": "36氪"
-          },
-          {
-            "date": "07-20",
-            "title": "光轮智能与西门子正式达成合作",
-            "url": "https://36kr.com/newsflashes/3903949369329280?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会聚焦感知部件和触觉智能，HBK与Siléane合作用于高速化妆品包装，供应链价值更依赖能否解决具体性能瓶颈。",
+        "summary": "产业链机会集中在训练数据和触觉感知等瓶颈环节，Ropedia融资扩大数据采集，HBK与Siléane把触觉智能用于高速化妆品包装，场景边界较明确。",
         "items": [
+          {
+            "date": "07-23",
+            "title": "Ropedia 融资2200万美元，扩大机器人训练数据采集规模 (Ropedia raises $22M to scale data collection for training robots)",
+            "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/",
+            "company": "行业",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "07-22",
             "title": "当机器人开始感知：HBK 与 Siléane 为高速化妆品包装带来触觉智能 (When robots start to feel: HBK and Siléane bring tactile intelligence to high-speed cosmetics packaging)",
@@ -756,6 +756,33 @@
       "category": "资本动态",
       "summary": "IT之家 7 月 23 日消息，特斯拉首席执行官埃隆 · 马斯克表示，公司应该在人工智能（AI）领域投入更多资金，即便其中一部分资金最终被浪费。 随着马斯克不断加码 AI 投资，特斯拉今年第二季度资本支出同比大增 142%，达到 58 亿美元（IT之家注：现汇率约合 393.33 亿元人民币）。 在周四财报发布后的分析师电话会议上，马斯克表示，他已经要求公司…",
       "url": "https://www.ithome.com/0/980/828.htm"
+    },
+    {
+      "date": "07-23",
+      "company": "行业",
+      "title": "Uber 联合创始人为新机器人初创公司 ATOMS 融资 17 亿美元 (Uber co-founder raises $1.7B for new robotics startup ATOMS)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Travis Kalanick, the former CEO of Uber, said with ATOMS, he hopes to create physical automation to transform industry. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/"
+    },
+    {
+      "date": "07-23",
+      "company": "其他",
+      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/"
+    },
+    {
+      "date": "07-23",
+      "company": "行业",
+      "title": "Ropedia 融资2200万美元，扩大机器人训练数据采集规模 (Ropedia raises $22M to scale data collection for training robots)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/"
     },
     {
       "date": "07-22",
@@ -1071,33 +1098,6 @@
       "category": "技术突破",
       "summary": "这十宗“最”，就是我们眼中WAIC之后的具身行业",
       "url": "https://www.tmtpost.com/8071756.html"
-    },
-    {
-      "date": "07-20",
-      "company": "宇树科技",
-      "title": "宇树发布 UnifoLM-OminiA-0.3 模型，支持全模态交互理解",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 7 月 20 日消息，今日宇树科技发布宇树 UnifoLM-OminiA-0.3，单模型统筹家居康养多任务，支持全模态交互理解，全程自主，稳定执行抗干扰。 IT之家注意到，根据宇树科技发布的演示视频，该模型能够完成多种实际任务，例如： 物品搬运：将地上的抱枕放到沙发上。 视觉识别与回答：识别抱枕颜色（如白色）、药盒颜色和数量（如三盒药，红、蓝、黄）…",
-      "url": "https://www.ithome.com/0/979/032.htm"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "国家具身智能应用中试基地发布首个合作世界模型 魔芯科技MoWorld 3D正式亮相",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "2026世界人工智能大会召开前夕，7月16日，在杭州市发改委，杭州高新区（滨江）党委和管委会、政府的支持下，国家具身智能应用中试基地（以下简称“基地”）联合华为云、魔芯科技在杭州举办“模生万物 芯向未来”主题发布会，魔芯科技MoWorld 3D世界模型正式亮相。这是该国家级中试平台揭牌以来举办的首场世界模型发布活动，推出的产品为全球首个全栈基于国产NPU构建…",
-      "url": "https://www.qbitai.com/2026/07/455517.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "光轮智能与西门子正式达成合作",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "36氪获悉，近日，在WAIC 2026现场， 。双方将依托光轮智能的三位一体全栈自研仿真平台SimFoundry，推动工业软件中长期积累的物理模型、工程参数和工艺知识，转化为机器人可以持续调用的仿真能力，并进一步贯通训练、评测与真实部署，为机器人进入复杂工业场景提供全栈物理AI基础设施支撑",
-      "url": "https://36kr.com/newsflashes/3903949369329280?f=rss"
     }
   ]
 }
