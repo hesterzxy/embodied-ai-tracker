@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-23T03:22:30.604515+08:00",
+  "updated": "2026-07-23T10:48:49.176066+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 9,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 6,
+      "entries": 28,
+      "candidates": 5,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
-      "core": 0,
+      "entries": 19,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 15,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 25,
-      "core": 1,
+      "entries": 58,
+      "candidates": 22,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -127,8 +127,8 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 3,
+      "candidates": 20,
+      "core": 2,
       "periphery": 0,
       "new": 0
     },
@@ -207,7 +207,7 @@
       "candidates": 16,
       "core": 8,
       "periphery": 2,
-      "new": 2
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -239,30 +239,42 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-23T03:22:54.934171+08:00",
-    "mode": "aicodewith",
-    "item_count": 40,
+    "generated_at": "2026-07-23T10:49:29.262216+08:00",
+    "mode": "local",
+    "item_count": 42,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "博匠机器人与香港头部智能建造企业签署不低于2亿元订单，WAIC现场大量展示叠衣、冲咖啡、切菜、分拣和产线作业，商业化重心更接近建筑、工厂、维修、巡检等能定义交付结果的场景。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议；机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
+          "https://www.qbitai.com/2026/07/455438.html",
+          "https://www.tmtpost.com/8071481.html"
+        ]
       },
       {
-        "label": "模型叙事进入任务闭环",
-        "text": "本周出现1.5B开源通用VLA模型、生数科技通用世界模型、面壁MiniCPM-Robot系列模型等进展，同时行业讨论仍聚焦连续执行、环境变化、失败恢复和真实部署后的能力增长，模型竞争正在从参数和演示转向真实数据与任务闭环。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，一个新的 国产VLA 模型诞生了，而且只有 1.；比如 Kimi K3 的发布引发了大量关注，但同时也带来了算力挑战。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/07/455229.html",
+          "https://www.infoq.cn/article/01aguG1Yrgxl0bpmfZps?utm_source=rss&utm_medium=article",
+          "https://www.leiphone.com/category/industrynews/KI18cZQBZWHRPWNX.html"
+        ]
       },
       {
-        "label": "资本偏好场景和补链能力",
-        "text": "Gritt获3240万美元融资用于基础设施物理AI，Humanoid以13.5亿美元估值融资1.52亿美元，智平方融资和蓝点触控产业资本入局也被集中报道，资金更愿意流向任务边界清晰或能补齐感知、触控、基座模型等短板的公司。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，甲子光年 原创 两个月连获两轮数亿元融资，深度机智以全栈自主路线加速国产物理AI基座模型落地 人工智能 · 商业化 · 人工智能 <div class=\"botto；出品 | 何玺 排版 | 叶媛 2019年，34岁的刘吴月做了一个决定：卖掉北京的房子。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.jazzyear.com/article_info.html?id=1794",
+          "https://robot.ofweek.com/2026-07/ART-8321201-8420-30695366.html",
+          "https://roboticsandautomationnews.com/2026/07/22/gritt-launches-with-32-4-million-to-build-physical-ai-for-infrastructure/103564/"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型、VLA和情感状态模型成为技术讨论主线，但多篇报道强调具身智能仍处前GPT阶段，连续执行、环境泛化和失败恢复仍是核心门槛。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "07-22",
@@ -277,6 +289,13 @@
             "url": "https://www.ithome.com/0/980/206.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-22",
+            "title": "报告分享实体 AI 与机器人技术现状 (Report shares the state of physical AI and robotics)",
+            "url": "https://www.therobotreport.com/physical-ai-and-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-21",
@@ -352,7 +371,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "WAIC具身企业和真机数量显著增加，MiniCPM-Robot、宇树全模态模型、视觉感知方案和触觉人形机器人集中发布，预售与监管压力也把量产能力推到台前。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-22",
@@ -421,7 +440,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "博匠机器人获得不低于2亿元建筑机器人订单，三星设立机器人部门推进商业化；特斯拉Autopilot判赔案例则提醒自动化落地仍伴随责任和合规成本。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "07-21",
@@ -455,7 +474,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "Humanoid、Gritt、智平方和蓝点触控相关融资集中出现，资本一方面追逐工业人形和基础设施物理AI，另一方面关注触控、模型和产业资源协同。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-22",
@@ -496,8 +515,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "京东布局物理AI，特斯拉Robotaxi扩展至奥兰多和坦帕；国内人形机器人整机产品占全球过半，同时租赁热降温，服务基础设施价值上升。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "07-23",
+            "title": "首届北京市中学生人形机器人足球赛收官：55 支队伍参赛，胜者获推荐参加世界 U19 赛事",
+            "url": "https://www.ithome.com/0/980/370.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-22",
             "title": "京东押注物理 AI，打通数字到物理世界的链路",
@@ -565,7 +591,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "HBK与Siléane合作把触觉智能用于高速化妆品包装，产业链机会开始绑定具体工艺瓶颈，感知部件价值需要在速度、稳定性和良率中被验证。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "07-22",
@@ -579,6 +605,15 @@
     ]
   },
   "items": [
+    {
+      "date": "07-23",
+      "company": "其他",
+      "title": "首届北京市中学生人形机器人足球赛收官：55 支队伍参赛，胜者获推荐参加世界 U19 赛事",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 23 日消息，据央视新闻今日报道，首届北京市中学生人形机器人足球赛总决赛于 7 月 22 日在清华大学附属中学收官。赛事自今年 4 月 11 日启动以来，覆盖北京各区及河北雄安新区，共吸引 55 支中学生代表队参赛。 据介绍，比赛采用人形机器人 3V3 足球对抗形式，现场展示了机器人传球、射门等技术动作。赛事设甲、乙两大竞赛组别，历经赛前培…",
+      "url": "https://www.ithome.com/0/980/370.htm"
+    },
     {
       "date": "07-22",
       "company": "其他",
@@ -677,6 +712,15 @@
       "category": "资本动态",
       "summary": "甲子光年 原创 两个月连获两轮数亿元融资，深度机智以全栈自主路线加速国产物理AI基座模型落地 人工智能 · 商业化 · 人工智能 <div class=\"botto",
       "url": "https://www.jazzyear.com/article_info.html?id=1794"
+    },
+    {
+      "date": "07-22",
+      "company": "其他",
+      "title": "报告分享实体 AI 与机器人技术现状 (Report shares the state of physical AI and robotics)",
+      "source_name": "The Robot Report",
+      "category": "技术突破",
+      "summary": "A report looks at how physical AI is increasingly enabling autonomous systems to perceive their environments, make decisions, and act in the real world. The post appeared first on…",
+      "url": "https://www.therobotreport.com/physical-ai-and-robotics/"
     },
     {
       "date": "07-21",
@@ -1010,24 +1054,6 @@
       "category": "产品量产",
       "summary": "IT之家 7 月 19 日消息，7 月 18 日，2026 世界人工智能大会（WAIC），上海人形机器人中试服务平台正式发布。 据介绍，上海人形机器人中试服务平台坐落于 浦东机器人谷一期 3 号楼 ，总建筑面积约 6800 平方米，划分装配区、专业测试区、智能仓储三大核心功能楼层。 IT之家注意到，平台搭建两条模块化柔性整机试制产线，兼容 人形机器人、轮臂机…",
       "url": "https://www.ithome.com/0/978/735.htm"
-    },
-    {
-      "date": "07-19",
-      "company": "其他",
-      "title": "如何避免机器人开发中的遥操作陷阱 (How to avoid the teleoperation trap in robotics development)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "Teleoperation is necessary for training humanoid robots, but reinforcement learning and simulation are still necessary, says Flexion's CEO. The post appeared first on The Robot Rep…",
-      "url": "https://www.therobotreport.com/how-to-avoid-teleoperation-trap-robotics-development/"
-    },
-    {
-      "date": "07-18",
-      "company": "其他",
-      "title": "灵巧智能亮相WAIC，全栈自研驱动具身智能产业化落地",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "2026世界人工智能大会（WAIC）启幕，具身智能、物理AI与人形机器人赛道再次成为产业关注焦点。伴随大模型、感知交互和运动控制能力持续进步，行业竞争正从“能展示什么”加速转向“能交付什么”。在此背景下，灵巧智能携全链路技术体系与多场景落地成果亮相WAIC，系统展示其在类人灵巧操作领域的全栈能力与产业化路径。 当前，具身智能产业正从技术热潮迈入落地验证阶段…",
-      "url": "https://www.leiphone.com/category/industrynews/w5PrxGuvqYtI9U4p.html"
     }
   ]
 }
