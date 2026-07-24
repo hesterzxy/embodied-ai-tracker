@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T10:44:49.507722+08:00",
+  "updated": "2026-07-24T16:30:02.564549+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -13,8 +13,8 @@
       "entries": 10,
       "candidates": 5,
       "core": 2,
-      "periphery": 0,
-      "new": 1
+      "periphery": 1,
+      "new": 3
     },
     {
       "name": "36氪",
@@ -24,7 +24,7 @@
       "attempts": 1,
       "error": "",
       "entries": 27,
-      "candidates": 3,
+      "candidates": 7,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 11,
-      "core": 3,
+      "candidates": 13,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
-      "core": 0,
+      "entries": 18,
+      "candidates": 4,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 19,
-      "core": 0,
+      "entries": 59,
+      "candidates": 23,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -113,9 +113,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 31,
-      "candidates": 16,
-      "core": 14,
+      "entries": 32,
+      "candidates": 14,
+      "core": 12,
       "periphery": 0,
       "new": 3
     },
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 20,
-      "core": 1,
-      "periphery": 0,
-      "new": 0
+      "candidates": 19,
+      "core": 0,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,31 +239,45 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-24T10:45:23.596192+08:00",
+    "generated_at": "2026-07-24T16:30:29.366739+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证收敛到可验收任务",
-        "text": "博匠机器人与香港头部智能建造企业签下不低于2亿元订单，WAIC现场演示覆盖分拣、叠衣服、冲咖啡、切菜等具体动作，视觉感知方案也强调进入家庭、工厂、商业场景后的物理理解能力，短期商业化更可能先围绕工厂、建造、巡检等能定义交付标准的任务推进。",
+        "label": "落地验证转向可验收任务",
+        "text": "具身智能本周的落地线索更多集中在工厂、能源、制造、工业和医药等场景，小鹏人形机器人被曝在广州工厂小批量试生产，35家大型央国企实测因果世界模型，商业化判断正在从演示效果转向生产调度、安全管控和复杂决策等可验收任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定数据闭环",
-        "text": "极佳视界被报道讨论最快2026年赴港上市，昆仑万维持续迭代世界模型，国产1.5B通用VLA模型开源，Ropedia融资2200万美元扩展机器人训练数据采集，模型叙事正在从生成效果和参数规模转向真实数据、端侧执行和任务成功率的组合验证。",
+        "label": "世界模型热度高但标准未定",
+        "text": "WAIC世界模型论坛披露概念、技术路线、训练方式、数据标准和评测尺度均未收敛，同时昆仑万维持续发布Matrix-Game系列、极佳视界被曝讨论最快2026年赴港上市，模型叙事仍处在高关注阶段，短期竞争更可能落在真实数据、任务闭环和评测可信度上。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好能力补齐型标的",
-        "text": "PrimalVerse数亿元种子轮资金用于4D世界模型基模研发和多场景应用验证，特斯拉第二季度资本支出同比增长142%至58亿美元，ATOMS、Holiday Robotics、Humanoid等海外机器人公司获得大额融资，资金仍愿意加码物理AI，但更集中流向世界模型、数据采集、工业机器人本体等关键瓶颈。",
+        "label": "供应链融资绑定具体瓶颈",
+        "text": "一目科技完成超10亿元E轮融资并推进触觉传感器量产，具身数据赛道一年融资44.7亿元且出现线下数据采集5S店，PrimalVerse种子轮资金也将用于4D世界模型基模研发和多场景验证，资本更偏向补齐感知、数据和场景验证等明确短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破集中在世界模型和VLA，国产1B模型登顶榜单、1.5B通用VLA开源，多家公司将模型能力指向真实世界理解、预测与执行，仍处于从演示走向任务闭环的阶段。",
+        "summary": "世界模型成为技术讨论主线，WAIC集中呈现路线和评测分歧，昆仑万维、大晓机器人等推进新模型，中国团队1B参数模型登榜也强化了小模型效率叙事。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
+            "url": "https://www.qbitai.com/2026/07/458617.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-24",
+            "title": "RSS 2026 时间检验奖：形态即计算，具身智能的“逻辑刹车”已至",
+            "url": "https://www.leiphone.com/category/private/rMXnmau3OSE7evhI.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "07-23",
             "title": "超越π0，中国团队用1B参数模型登顶具身智能榜单",
@@ -354,34 +368,20 @@
             "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-20",
-            "title": "具身智能还在“前GPT时代”| WAIC观察",
-            "url": "https://www.tmtpost.com/8071481.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-20",
-            "title": "具身智能的“ChatGPT时刻”，可能不会同一天到来",
-            "url": "https://www.tmtpost.com/8071091.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-20",
-            "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
-            "url": "https://www.qbitai.com/2026/07/455229.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "产品侧一边发布机器人芯片模块、开源模型和视觉感知方案，一边暴露情感机器人在监管、安全和量产上的压力，量产不再只是出货口径，也开始检验成本、可靠性和合规边界。",
+        "summary": "小鹏人形机器人被曝进入小批量试生产和产线最后联调，AMD推出机器人Kria模块，面壁开源MiniCPM-Robot，量产能力与端侧硬件开始共同参与验证。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
+            "url": "https://www.ithome.com/0/981/130.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-23",
             "title": "四场实地走访，还原具身智能走向量产的真实水位",
@@ -423,27 +423,27 @@
             "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "07-20",
-            "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
-            "url": "https://www.qbitai.com/2026/07/455438.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "07-20",
-            "title": "机器人开始打工了，可量产才是生死线｜2026 WAIC",
-            "url": "https://www.tmtpost.com/8071296.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业订单案例不多，但博匠机器人拿下不低于2亿元建筑机器人合作，三星设立机器人部门推进商业化，说明企业客户更关注能落在建造、制造等场景中的明确交付。",
+        "summary": "商业落地聚焦高价值行业实测和闭环问题，35家央国企测试因果世界模型，能源、制造、工业和医药场景强调调度、安全、风控与复杂决策可靠性。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "嚯！35家大型央国企实测后，因果世界模型落地了",
+            "url": "https://www.qbitai.com/2026/07/458357.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-24",
+            "title": "圆桌访谈：具身智能的落地分水岭——哪些场景真的跑出了商业闭环？",
+            "url": "https://www.infoq.cn/video/8dRT4X0eMoQA8xP9YB7q?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "07-21",
             "title": "特斯拉面临 2.43 亿美元赔偿，法院认定 2019 年 Autopilot 致死案件判决有效",
@@ -457,20 +457,27 @@
             "url": "https://www.ithome.com/0/979/306.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "07-20",
-            "title": "深圳建筑机器人研发商，拿下不低于2个亿的订单！",
-            "url": "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态活跃，PrimalVerse、数据服务商、ATOMS、Holiday Robotics、Humanoid等获得融资，特斯拉也加快AI投入，资金主要追逐世界模型、训练数据、基础设施物理AI和人形机器人本体。",
+        "summary": "融资集中投向世界模型、触觉传感、训练数据和机器人本体，PrimalVerse、一目科技、ATOMS、Holiday Robotics等案例显示资金仍在押注能力补齐。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "不卷coding，卷原生多模态世界模型：智象未来拿下15亿C轮融资？",
+            "url": "https://www.tmtpost.com/8077595.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-24",
+            "title": "具身智能争夺下一块拼图：一目科技估值破百亿，触觉传感器走向量产",
+            "url": "https://www.infoq.cn/article/luJs2PpHVhQb8s5F2WuA?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
           {
             "date": "07-23",
             "title": "具身智能数据需求暴涨千倍，这家“数据炼油厂”刚拿到近亿元融资",
@@ -545,8 +552,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态显示参与主体继续扩容，北京中学生人形机器人足球赛、京东物理AI布局、特斯拉Optimus相关代码和Robotaxi扩展并行出现，产业热度从展会走向教育、平台和服务场景。",
+        "summary": "特斯拉围绕AI5芯片、Optimus App准备和Robotaxi扩城持续推进，三星设立机器人部门，北京中学生人形机器人足球赛也显示生态培育开始下沉。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程",
+            "url": "https://www.ithome.com/0/981/117.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "07-23",
             "title": "首届北京市中学生人形机器人足球赛收官：55 支队伍参赛，胜者获推荐参加世界 U19 赛事",
@@ -602,34 +616,20 @@
             "url": "https://36kr.com/newsflashes/3903383107110785?f=rss",
             "company": "其他",
             "source_name": "36氪"
-          },
-          {
-            "date": "07-20",
-            "title": "中国人形机器人租赁淘金热终结，服务基础设施接棒 (China’s Humanoid Rental Gold Rush Ends as Service Infrastructure Takes Over)",
-            "url": "https://www.tmtpost.com/8071553.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-20",
-            "title": "别人还在秀跳舞，智元在WAIC现场开了一条产线",
-            "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-20",
-            "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
-            "url": "https://36kr.com/p/3903761449617027?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "泛具身产业链的机会更贴近感知和数据瓶颈，Ropedia融资扩展机器人训练数据采集，HBK与Siléane将触觉智能用于高速化妆品包装，供应链价值需要绑定具体性能短板。",
+        "summary": "数据和触觉成为产业链热点，国内近百名玩家涌入具身数据采集，Ropedia融资扩张训练数据规模，HBK与Siléane将触觉智能用于高速包装。",
         "items": [
+          {
+            "date": "07-24",
+            "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+            "url": "https://www.qbitai.com/2026/07/459262.html",
+            "company": "行业",
+            "source_name": "量子位"
+          },
           {
             "date": "07-23",
             "title": "Ropedia 融资2200万美元，扩大机器人训练数据采集规模 (Ropedia raises $22M to scale data collection for training robots)",
@@ -649,6 +649,87 @@
     ]
   },
   "items": [
+    {
+      "date": "07-24",
+      "company": "行业",
+      "title": "近百名玩家涌入具身数据：一年融资44.7亿，谁能真靠“卖数据”赚钱？",
+      "source_name": "量子位",
+      "category": "泛具身产业链",
+      "summary": "在湖南郴州，一家中国移动营业厅挂牌“具身数据采集5S店”，普通顾客领一套夹爪、手套和头戴相机，经过简单培训，就能边做家务，边采集机器人训练数据。 首期投放的1000套设备，满产状态下每年能采集100万小时数据。我仿佛听到了商家心里打的小算盘：既采了数据，又赚了眼球，4A广告公司都应该来学学。（doge） 具身数采类似的“花活”还有不少：有的为了采数据免费上门…",
+      "url": "https://www.qbitai.com/2026/07/459262.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "世界模型“六小龙”在WAIC吵起来了！行业红利就在非共识里",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "世界模型，是当前AI圈最火、也最没有共识的领域之一。 它的概念没有收敛、技术路线没有收敛、训练方式没有收敛、数据标准没有收敛、评测尺度没有收敛…… 7月19日，在WAIC“世界模型六小龙”论坛上，一场信息密度极高的圆桌讨论，凑齐了六家公司的世界模型技术负责人。他们是： 这些嘉宾的观点，代表了行业对世界模型最前沿的思考，值得一听。 这六家公司目前押注的技术路线…",
+      "url": "https://www.qbitai.com/2026/07/458617.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "嚯！35家大型央国企实测后，因果世界模型落地了",
+      "source_name": "量子位",
+      "category": "商业订单",
+      "summary": "眼下，AI能帮人写稿、编程、生成视频，但离真正进入企业工作流、解决实际问题，经常还差一口气。 特别是能源、制造、工业、医药这些高价值行业，企业需要的并不是只会依照现有数据来生成内容的AI工具，而是一套能支撑生产调度、安全管控、风险研判和复杂方案决策的可靠智能系统。 WAIC期间，中数睿智发布了 “AI for Reasoning” 因果智能体系，针对的就是这…",
+      "url": "https://www.qbitai.com/2026/07/458357.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "RSS 2026 时间检验奖：形态即计算，具身智能的“逻辑刹车”已至",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "颁给“空气”的最高荣誉 当全球具身智能开发者都在卷“百万小时视频数据”和“万亿参数大模型”时，7月15日，在 RSS 2026 的现场，大会却将分量最重的“时间检验奖（Test of Time Award）”，颁给了一只用空气驱动、成本极低、甚至连传感器都没有的软体气动机器人手：《A Novel Type of Compliant Underactuated…",
+      "url": "https://www.leiphone.com/category/private/rMXnmau3OSE7evhI.html"
+    },
+    {
+      "date": "07-24",
+      "company": "行业",
+      "title": "不卷coding，卷原生多模态世界模型：智象未来拿下15亿C轮融资？",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "2026年过一半，全球AI行业本该见证属于Coding赛道的高光时刻。 Kimi K3的发布被寄予厚望，国产大模型在代码能力上对Claude的追赶，似乎只差“临门一脚”。 然而，这“临门一脚”不仅没能踢开胜利的大门，反而一脚踢崩了资本市场： 发布次日，智谱股价暴跌28.49%，MiniMax暴跌15.62%，大洋彼岸同样寒意逼人。美国AI板块随之集体下挫，即…",
+      "url": "https://www.tmtpost.com/8077595.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "具身智能争夺下一块拼图：一目科技估值破百亿，触觉传感器走向量产",
+      "source_name": "InfoQ",
+      "category": "资本动态",
+      "summary": "一目科技近日宣布完成超 10 亿元 E 轮融资，投后估值超过 100 亿元。本轮融资由多家人民币基金、美元基金及产业投资方参与，庚辛资本担任长期财务顾问。 一目科技成立于 2016 年，创始人李智强毕业于卡内基梅隆大学，拥有环境工程、人工智能和硬件研发经历。公开资料显示，他此前曾参与微流体微生物燃料电池和微型光谱设备研发。创办一目科技后，公司逐步将业务重心转…",
+      "url": "https://www.infoq.cn/article/luJs2PpHVhQb8s5F2WuA?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "圆桌访谈：具身智能的落地分水岭——哪些场景真的跑出了商业闭环？",
+      "source_name": "InfoQ",
+      "category": "商业订单",
+      "summary": "现在具身智能真正跑出商业闭环的场景有哪些？共同特征是什么？",
+      "url": "https://www.infoq.cn/video/8dRT4X0eMoQA8xP9YB7q?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "7 月 24 日下午消息，新浪科技独家获悉，小鹏人形机器人已在广州工厂正式开启小批量试生产，同时量产产线进入最后联调阶段，量产冲刺正式进入倒计时。 此前，小鹏集团内部召开机器人量产动员大会，明确了关键时间节点：2026 年实现人形机器人量产，预计 2027 年起将陆续进驻全球小鹏门店及商业场景，承担导购、讲解等服务。 据悉，小鹏机器人业务整合集团在硬件、AI…",
+      "url": "https://www.ithome.com/0/981/130.htm"
+    },
+    {
+      "date": "07-24",
+      "company": "特斯拉",
+      "title": "消息称台积电版特斯拉 AI5 芯片采用 3nm 工艺制程",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 7 月 24 日消息，Tesla（特斯拉）在驱动其未来电动汽车和人形机器人的 AI 系列上采用了双源化供应策略，比如 AI6 基于三星晶圆代工 2nm 工艺而 AI6.5 则采用台积电 2nm。 特斯拉的 AI5 世代芯片同样包含三星晶圆代工和台积电版本，但此前的消息主要围绕的还是三星晶圆代工版本。 三星晶圆代工版 AI5 已完成流片 ， 据信基于…",
+      "url": "https://www.ithome.com/0/981/117.htm"
+    },
     {
       "date": "07-23",
       "company": "其他",
@@ -1017,87 +1098,6 @@
       "category": "行业动态",
       "summary": "工业和信息化部7月20日发布数据显示，上半年，我国一批具有国际竞争优势的产业加快壮大。智能机器人领域，我国研发的四足机器人占全球销量份额接近70%，人形机器人整机产品达400余款、超全球半数。人工智能、半导体、新能源、生物医药等领域，涌现一批全球独角兽企业，在国际标准研制、产业治理等方面积极贡献中国方案。（新华社）",
       "url": "https://36kr.com/newsflashes/3903383107110785?f=rss"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "具身智能还在“前GPT时代”| WAIC观察",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "WAIC 2026的展台上， 机器人 叠衣服、冲咖啡、切菜、分拣，从工业产线到厨房灶台都在演示“干活”。 走出展台，跟那些真正在一线的人聊下来，不管是造机器人的、训模型的，还是铺产线的，听到的判断要保守得多。这个行业的实际进度，远没有展台画面看上去那么近。 面壁智能的姚远打了个比方，现在的具身智能像2018年的大模型，BERT、GPT、T5三条路线并存，谁也…",
-      "url": "https://www.tmtpost.com/8071481.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "具身智能的“ChatGPT时刻”，可能不会同一天到来",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "问题变成了它能不能连续做几百次、几千次，换一个环境还能不能做，失败以后能不能自己恢复，以及部署出去以后，能力能否继续增长",
-      "url": "https://www.tmtpost.com/8071091.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "中国人形机器人租赁淘金热终结，服务基础设施接棒 (China’s Humanoid Rental Gold Rush Ends as Service Infrastructure Takes Over)",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "As daily rates plummet and early event hype fades, competition across the sector is shifting from hardware ownership to localized service logistics and high-margin enterprise integ…",
-      "url": "https://www.tmtpost.com/8071553.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "深圳建筑机器人研发商，拿下不低于2个亿的订单！",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "近日，深圳博匠机器人有限公司（简称“博匠机器人”）与香港头部智能建造企业签署战略合作协议。这标志着博匠机器人在港澳市场从“试点应用”正式迈入“规模化落地”的全新阶段。 根据协议，香港头部智能建造企业将 特种机器人",
-      "url": "https://robot.ofweek.com/2026-07/ART-8321204-8120-30695023.html"
-    },
-    {
-      "date": "07-20",
-      "company": "智元机器人",
-      "title": "别人还在秀跳舞，智元在WAIC现场开了一条产线",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "7 月 17 日，第九届世界人工智能大会（WAIC）在上海世博中心正式开幕，作为一年一度的 AI 行业盛会，今年大会依然聚集了国内外大模型公司、AI 应用和硬件厂商，雷科技（ID：leitech）旗下",
-      "url": "https://robot.ofweek.com/2026-07/ART-898890-12003-30695014.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "光鉴科技发布具身智能视觉感知方案，为物理AI提供视觉感知基础",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "随着多模态大模型和VLA等技术不断发展，具身智能正加速迈向产业化。机器人拥有了越来越强的理解、推理和决策能力，但真正进入家庭、工厂、商业等真实场景后，决定其应用能力的，不只是“大脑”是否足够聪明，更在于能否准确感知和理解物理世界。 自主导航、精细抓取、人机交互等能力，都建立在可靠的三维视觉感知基础之上。视觉感知不只是深度数据的输出，更是机器人理解环境、执行任…",
-      "url": "https://www.qbitai.com/2026/07/455438.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "1.5B开源通用VLA模型，冲进具身智能第一梯队",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "一个新的 国产VLA 模型诞生了，而且只有 1.5B 。 视频地址： https://mp.weixin.qq.com/s/TWDuh4NmsamJ52E2A6ZpTw 在上面这个真机演示里，两只机械臂围着桌面开始做三明治。它们分工合作，先取面包，再夹起生菜、火腿和鸡蛋，一层层叠到一起。 视频地址： https://mp.weixin.qq.com/s/TW…",
-      "url": "https://www.qbitai.com/2026/07/455229.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "硬氪首发 | 一台80cm高的毛绒人形机器人，配一套面向未来的自研OS系统",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "一台80cm高的毛绒人形机器人，可以承载多少想象力？ “它虽然没有完全像人，但拥有全套的传感器，可以跟你交互、分析你的表情，去看你是高兴还是低落。只要算力可以满足，它可以提供各种各样的东西，软件能增量开发的东西是有无限想象力的。” 青心意创CTO曾俊告诉硬氪。他所谈论的是Amoo——青心意创推出的首款智能机器人产品Amoo，身高80cm，拟人双足，无棱角毛绒…",
-      "url": "https://36kr.com/p/3903761449617027?f=rss"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "机器人开始打工了，可量产才是生死线｜2026 WAIC",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "summary": "WAIC场馆外的电闪雷鸣，仿佛地球生命创生一样，激发着具身智能这个新物种。 还没走进世博展览馆，周边路口上就能看见人形交通机器人在疏导车流，好像在预示：本届WAIC，具身智能绝对站C位。 从参展数量上即可证实这一点。今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。各式各样的机器人把无数观展者“硬控”…",
-      "url": "https://www.tmtpost.com/8071296.html"
     }
   ]
 }
