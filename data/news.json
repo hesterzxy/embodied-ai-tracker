@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T21:48:27.222064+08:00",
+  "updated": "2026-07-25T03:27:32.436409+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 11,
-      "core": 4,
+      "core": 5,
       "periphery": 0,
       "new": 3
     },
@@ -53,7 +53,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
+      "entries": 60,
+      "candidates": 19,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -117,7 +117,7 @@
       "candidates": 14,
       "core": 11,
       "periphery": 0,
-      "new": 3
+      "new": 4
     },
     {
       "name": "OFweek机器人",
@@ -167,8 +167,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 9,
-      "periphery": 0,
-      "new": 1
+      "periphery": 2,
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -218,9 +218,9 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 27,
-      "periphery": 2,
-      "new": 2
+      "core": 28,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -239,30 +239,42 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-24T21:48:43.442830+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-07-25T03:27:49.373021+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "小鹏人形机器人已在广州工厂小批量试生产并进行量产产线最后联调，宇树As2-W强调6m/s速度、IP54防水、16kg持续负重和超30km续航，产品能力正在用工厂、巡检、负重作业等可量化场景接受检验。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，7 月 24 日下午消息，新浪科技独家获悉，小鹏人形机器人已在广州工厂正式开启小批量试生产，同时量产产线进入最后联调阶段，量产冲刺正式进入倒计时；工厂的逻辑很简单：干得准、跑得稳，得能运行，还能创收。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/981/130.htm",
+          "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html",
+          "https://www.ithome.com/0/981/372.htm"
+        ]
       },
       {
-        "label": "世界模型进入任务闭环竞争",
-        "text": "WAIC论坛显示世界模型在概念、路线、训练、数据和评测上仍未收敛，昆仑万维Matrix-Game 3.5提出迈向真实世界，极佳视界被曝讨论最快2026年赴港上市，模型叙事正从生成演示推进到真实数据与执行任务的验证。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，7月21日，外媒报道称，世界模型创业公司极佳视界（GigaAI）正在讨论最快于2026年赴港上市；世界模型牌桌上，昆仑万维已连出五张牌，一张比一张大。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8075585.html",
+          "https://www.leiphone.com/category/ai/ElUplw96iXqIFTPd.html",
+          "https://www.qbitai.com/2026/07/458617.html"
+        ]
       },
       {
-        "label": "资本偏向能力短板补齐",
-        "text": "PrimalVerse数亿元种子轮资金投向4D世界模型基模及具身智能等应用验证，一目科技超10亿元E轮后估值超过100亿元并推进触觉传感器量产，具身数据领域一年融资44.7亿元，资金更集中投向数据、触觉和场景验证等瓶颈环节。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，Kimi K3的发布被寄予厚望，国产大模型在代码能力上对Claude的追赶，似乎只差“临门一脚”；融资资金将用于4D世界模型基模研发及团队扩充，并推进在具身智能、游戏影视、自动驾驶、医疗手术等场景中的应用验证。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8077595.html",
+          "https://www.tmtpost.com/8076725.html",
+          "https://www.jazzyear.com/article_info.html?id=1794"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型仍处在路线、数据和评测未收敛阶段，WAIC讨论热度高，同时榜单、OTA、开源模型和形态即计算观点共同推动技术从理解走向执行验证。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "07-24",
@@ -291,6 +303,20 @@
             "url": "https://www.ithome.com/0/981/360.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-24",
+            "title": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
+            "url": "https://www.qbitai.com/2026/07/460041.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "07-24",
+            "title": "对话星炽动力CTO李达——PULSE架构：如何让具身智能更像人？",
+            "url": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "07-23",
@@ -361,26 +387,12 @@
             "url": "https://www.tmtpost.com/8072920.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "07-21",
-            "title": "机器人有了“世界模型”，却还缺一张“人的状态地图”",
-            "url": "https://www.tmtpost.com/8073430.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "07-21",
-            "title": "具身机器人进家，只差一套“情感世界模型”",
-            "url": "https://www.tmtpost.com/8073768.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "小鹏人形机器人小批量试产、宇树发布高续航轮足机器人，AMD推出机器人模块，量产讨论开始从样机展示转向产线联调、性能指标和系统分层协作。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "07-24",
@@ -423,19 +435,12 @@
             "url": "https://www.leiphone.com/category/ai/gtBK8Ln3ANuHPQaX.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "07-21",
-            "title": "预售破万单，市值蒸发超200亿：情感机器人遭遇“监管与量产”双重淬火",
-            "url": "https://www.tmtpost.com/8073975.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化讨论集中在能源、制造、工业、医药等高价值场景，央国企实测和闭环圆桌强调生产调度、安全管控、风险研判等可交付任务。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "07-24",
@@ -469,7 +474,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资覆盖世界模型、触觉传感器、数据炼油厂、人形机器人和海外机器人公司，单笔金额从近亿元到数十亿元不等，资本关注点更偏向场景验证和关键能力补齐。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "07-24",
@@ -559,7 +564,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "特斯拉Robotaxi、AI5芯片和Optimus应用准备持续推进，三星设立机器人部门，NEURA与高校共建训练平台，行业扩张同时伴随情感机器人合规风险讨论。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "07-24",
@@ -581,6 +586,13 @@
             "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
             "company": "其他",
             "source_name": "The Robot Report"
+          },
+          {
+            "date": "07-24",
+            "title": "Video Friday: An Italian Humanoid Comes to Life",
+            "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
           },
           {
             "date": "07-23",
@@ -621,7 +633,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "具身数据采集吸引近百名玩家并出现5S店模式，Ropedia融资扩大采集规模，触觉智能进入高速包装案例，产业链机会正围绕数据和感知能力展开。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "07-24",
@@ -783,6 +795,33 @@
       "category": "行业动态",
       "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "国产世界模型登顶李飞飞团队榜单！适配国产昇腾算力、代码权重全开源",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "登顶的是 兔展智能 团队联合北大、鹏城实验室研发的 UniWorld-View（模型已适配国产昇腾算力） ： 你随手拍一段视频，或者干脆只给一张图，它还你一段“相机轨迹任你指定”的新视角视频—— 推、拉、摇、移，甚至“绕着场景360°转一圈”都可以，提供“精确听话的相机位姿控制”。 不管是单图3D生成还是视频4D生成，用的是“同一套代码、同一个模型”。 真·…",
+      "url": "https://www.qbitai.com/2026/07/460041.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "对话星炽动力CTO李达——PULSE架构：如何让具身智能更像人？",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "端云协同 + 原生隐私设计，家庭机器人兼顾智能与安全 编辑丨李希 今年关于具身智能的讨论里，有一个问题始终绕不开：机器人进了家门，到底靠什么让人愿意留着它？ 工厂的逻辑很简单：干得准、跑得稳，得能运行，还能创收。但家庭场景不一样：一个动作失误、一次对意图的理解偏差，用户的心理容错率几乎为零 —— 错一次，机器人就可能就被退货，或者放在角落吃灰。 这个现实，让…",
+      "url": "https://www.leiphone.com/category/industrynews/VoghxG89WgJ2E9ZI.html"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "Video Friday: An Italian Humanoid Comes to Life",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "summary": "Your weekly selection of awesome robot videos Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a…",
+      "url": "https://spectrum.ieee.org/video-friday-physical-ai-robotics"
     },
     {
       "date": "07-23",
@@ -1071,33 +1110,6 @@
       "category": "行业动态",
       "summary": "监管闭门研讨情感机器人，独居与单身人群催生新赛道？2028年国内市场预计达600亿，但优必选股价今年跌35% ? 据21世纪经济报道，7月19日，根据业内可靠消息，上周监管部门专门召开闭门研讨会，集结",
       "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30695225.html"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "机器人有了“世界模型”，却还缺一张“人的状态地图”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "情感大模型的真正机会，不是让AI更会安慰，而是成为智能终端的“人类状态模型”",
-      "url": "https://www.tmtpost.com/8073430.html"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "预售破万单，市值蒸发超200亿：情感机器人遭遇“监管与量产”双重淬火",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "summary": "U1那些“像人”的能力，恰恰暴露了全行业的安全黑洞，也让早已落定的监管利剑精准劈向了这条赛道",
-      "url": "https://www.tmtpost.com/8073975.html"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "具身机器人进家，只差一套“情感世界模型”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "居家养老最后一公里，不是机器人会不会走路，而是能否读懂老人状态，并把异常交给真正负责的人",
-      "url": "https://www.tmtpost.com/8073768.html"
     }
   ]
 }
