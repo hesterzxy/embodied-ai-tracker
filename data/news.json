@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T03:22:07.253644+08:00",
+  "updated": "2026-07-24T10:44:49.507722+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 6,
+      "entries": 27,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
-      "core": 1,
+      "entries": 17,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 17,
-      "core": 1,
+      "entries": 57,
+      "candidates": 19,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 0,
-      "new": 4
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-24T03:22:30.914079+08:00",
+    "generated_at": "2026-07-24T10:45:23.596192+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能落地样本更多指向建筑、工厂和商业等真实场景，博匠机器人与香港头部智能建造企业签署战略合作并取得不低于2亿元订单，WAIC现场也集中展示分拣、叠衣、冲咖啡等可观察任务，短期竞争焦点从演示能力转向能否被客户验收和复购。",
+        "label": "落地验证收敛到可验收任务",
+        "text": "博匠机器人与香港头部智能建造企业签下不低于2亿元订单，WAIC现场演示覆盖分拣、叠衣服、冲咖啡、切菜等具体动作，视觉感知方案也强调进入家庭、工厂、商业场景后的物理理解能力，短期商业化更可能先围绕工厂、建造、巡检等能定义交付标准的任务推进。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型叙事进入闭环验证",
-        "text": "极佳视界被报道讨论最快2026年赴港上市，昆仑万维持续发布Matrix-Game系列，PrimalVerse融资后投入4D世界模型基模和多场景应用验证，世界模型正从概念热度走向真实数据、物理预测和任务执行的闭环比拼。",
+        "label": "模型竞争开始绑定数据闭环",
+        "text": "极佳视界被报道讨论最快2026年赴港上市，昆仑万维持续迭代世界模型，国产1.5B通用VLA模型开源，Ropedia融资2200万美元扩展机器人训练数据采集，模型叙事正在从生成效果和参数规模转向真实数据、端侧执行和任务成功率的组合验证。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏好能力补齐型环节",
-        "text": "Ropedia获得2200万美元用于扩大机器人训练数据采集，PrimalVerse数亿元种子轮聚焦4D世界模型，特斯拉二季度资本支出同比增长142%至58亿美元，资金正在流向数据、基模和AI基础设施等制约物理AI落地的短板。",
+        "label": "资本偏好能力补齐型标的",
+        "text": "PrimalVerse数亿元种子轮资金用于4D世界模型基模研发和多场景应用验证，特斯拉第二季度资本支出同比增长142%至58亿美元，ATOMS、Holiday Robotics、Humanoid等海外机器人公司获得大额融资，资金仍愿意加码物理AI，但更集中流向世界模型、数据采集、工业机器人本体等关键瓶颈。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、VLA和端侧模型密集推进，1B参数模型登顶榜单、Matrix-Game迭代和多家团队创业显示方向升温，但多数证据仍停留在模型发布和论坛讨论。",
+        "summary": "本周技术突破集中在世界模型和VLA，国产1B模型登顶榜单、1.5B通用VLA开源，多家公司将模型能力指向真实世界理解、预测与执行，仍处于从演示走向任务闭环的阶段。",
         "items": [
           {
             "date": "07-23",
@@ -375,19 +375,12 @@
             "url": "https://www.qbitai.com/2026/07/455229.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "07-20",
-            "title": "WAIC上，具身智能的十宗“最”",
-            "url": "https://www.tmtpost.com/8071756.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产线索从模型开源延伸到感知、控制和触觉硬件，MiniCPM-Robot、AMD模块和全身触觉人形机器人相继出现，情感机器人预售破万后遭遇监管和量产压力。",
+        "summary": "产品侧一边发布机器人芯片模块、开源模型和视觉感知方案，一边暴露情感机器人在监管、安全和量产上的压力，量产不再只是出货口径，也开始检验成本、可靠性和合规边界。",
         "items": [
           {
             "date": "07-23",
@@ -398,7 +391,7 @@
           },
           {
             "date": "07-23",
-            "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+            "title": "AMD 推出面向机器人的 Kria 模块，支持实时控制与统一内存 (AMD unveils Kria module for real-time control, unified memory for robots)",
             "url": "https://www.therobotreport.com/amd-unveils-kria-module-real-time-control-unified-memory-robots/",
             "company": "其他",
             "source_name": "The Robot Report"
@@ -449,7 +442,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单证据较少但更具体，博匠机器人拿下不低于2亿元建筑机器人订单，三星设立机器人部门推进商业化，特斯拉Autopilot案件赔偿维持凸显合规成本。",
+        "summary": "商业订单案例不多，但博匠机器人拿下不低于2亿元建筑机器人合作，三星设立机器人部门推进商业化，说明企业客户更关注能落在建造、制造等场景中的明确交付。",
         "items": [
           {
             "date": "07-21",
@@ -476,7 +469,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资覆盖数据、世界模型、基础设施物理AI和人形机器人，PrimalVerse、Gritt、Humanoid与ATOMS均获资金支持，特斯拉也以更高资本开支加码AI。",
+        "summary": "资本动态活跃，PrimalVerse、数据服务商、ATOMS、Holiday Robotics、Humanoid等获得融资，特斯拉也加快AI投入，资金主要追逐世界模型、训练数据、基础设施物理AI和人形机器人本体。",
         "items": [
           {
             "date": "07-23",
@@ -503,6 +496,13 @@
             "date": "07-23",
             "title": "Uber 联合创始人为新机器人初创公司 ATOMS 融资 17 亿美元 (Uber co-founder raises $1.7B for new robotics startup ATOMS)",
             "url": "https://www.therobotreport.com/uber-co-founder-raises-1-7b-for-new-robotics-startup-atoms/",
+            "company": "行业",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "07-23",
+            "title": "Holiday Robotics 为其 FRIDAY 轮式人形机器人融资 1.05 亿美元 (Holiday Robotics raises $105M for its FRIDAY wheeled humanoid)",
+            "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/",
             "company": "行业",
             "source_name": "The Robot Report"
           },
@@ -545,7 +545,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业活动从赛事、应用入口到政策数据同步展开，北京中学生人形机器人足球赛收官，特斯拉App为Optimus准备上线，工信部披露我国人形机器人整机产品超全球半数。",
+        "summary": "行业动态显示参与主体继续扩容，北京中学生人形机器人足球赛、京东物理AI布局、特斯拉Optimus相关代码和Robotaxi扩展并行出现，产业热度从展会走向教育、平台和服务场景。",
         "items": [
           {
             "date": "07-23",
@@ -628,7 +628,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会集中在训练数据和触觉感知等瓶颈环节，Ropedia融资扩大数据采集，HBK与Siléane把触觉智能用于高速化妆品包装，场景边界较明确。",
+        "summary": "泛具身产业链的机会更贴近感知和数据瓶颈，Ropedia融资扩展机器人训练数据采集，HBK与Siléane将触觉智能用于高速化妆品包装，供应链价值需要绑定具体性能短板。",
         "items": [
           {
             "date": "07-23",
@@ -769,7 +769,7 @@
     {
       "date": "07-23",
       "company": "其他",
-      "title": "AMD unveils Kria module for real-time control, unified memory for robots",
+      "title": "AMD 推出面向机器人的 Kria 模块，支持实时控制与统一内存 (AMD unveils Kria module for real-time control, unified memory for robots)",
       "source_name": "The Robot Report",
       "category": "产品量产",
       "summary": "AMD has launched the Ryzen AI Embedded X100 and Kria AI SoM, bringing unified memory and real-time control to challenge NVIDIA in robotics. The post appeared first on The Robot Rep…",
@@ -783,6 +783,15 @@
       "category": "泛具身产业链",
       "summary": "Ropdeia's HOMIE is a head-mounted device, equipped with a 360º camera view, that captures first-person data for training robots. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/ropedia-raises-22m-scale-data-collection-training-robots/"
+    },
+    {
+      "date": "07-23",
+      "company": "行业",
+      "title": "Holiday Robotics 为其 FRIDAY 轮式人形机器人融资 1.05 亿美元 (Holiday Robotics raises $105M for its FRIDAY wheeled humanoid)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Holiday's robot features a wheel-based mobile base, an upper body for dexterous manipulation, and hot-swappable batteries. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/holiday-robotics-raises-105m-wheeled-humanoid-friday/"
     },
     {
       "date": "07-22",
@@ -1089,15 +1098,6 @@
       "category": "产品量产",
       "summary": "WAIC场馆外的电闪雷鸣，仿佛地球生命创生一样，激发着具身智能这个新物种。 还没走进世博展览馆，周边路口上就能看见人形交通机器人在疏导车流，好像在预示：本届WAIC，具身智能绝对站C位。 从参展数量上即可证实这一点。今年具身智能赛道的参展企业从去年的80多家猛增到200多家，占全部展商近五分之一，摆出来的真机超过300台。各式各样的机器人把无数观展者“硬控”…",
       "url": "https://www.tmtpost.com/8071296.html"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "WAIC上，具身智能的十宗“最”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "这十宗“最”，就是我们眼中WAIC之后的具身行业",
-      "url": "https://www.tmtpost.com/8071756.html"
     }
   ]
 }
