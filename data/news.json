@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-24T16:30:02.564549+08:00",
+  "updated": "2026-07-24T21:48:27.222064+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
+      "candidates": 3,
       "core": 2,
       "periphery": 1,
-      "new": 3
+      "new": 0
     },
     {
       "name": "36氪",
@@ -23,8 +23,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 27,
-      "candidates": 7,
+      "entries": 26,
+      "candidates": 8,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 13,
+      "entries": 18,
+      "candidates": 11,
       "core": 4,
       "periphery": 0,
       "new": 3
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 4,
-      "core": 1,
+      "entries": 19,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 3,
-      "core": 3,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 23,
-      "core": 4,
+      "candidates": 18,
+      "core": 3,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -115,7 +115,7 @@
       "error": "",
       "entries": 32,
       "candidates": 14,
-      "core": 12,
+      "core": 11,
       "periphery": 0,
       "new": 3
     },
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 8,
+      "core": 9,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -239,30 +239,30 @@
   "weekly_report": {
     "start": "07-20",
     "end": "07-26",
-    "generated_at": "2026-07-24T16:30:29.366739+08:00",
+    "generated_at": "2026-07-24T21:48:43.442830+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "具身智能本周的落地线索更多集中在工厂、能源、制造、工业和医药等场景，小鹏人形机器人被曝在广州工厂小批量试生产，35家大型央国企实测因果世界模型，商业化判断正在从演示效果转向生产调度、安全管控和复杂决策等可验收任务。",
+        "text": "小鹏人形机器人已在广州工厂小批量试生产并进行量产产线最后联调，宇树As2-W强调6m/s速度、IP54防水、16kg持续负重和超30km续航，产品能力正在用工厂、巡检、负重作业等可量化场景接受检验。",
         "evidence_urls": []
       },
       {
-        "label": "世界模型热度高但标准未定",
-        "text": "WAIC世界模型论坛披露概念、技术路线、训练方式、数据标准和评测尺度均未收敛，同时昆仑万维持续发布Matrix-Game系列、极佳视界被曝讨论最快2026年赴港上市，模型叙事仍处在高关注阶段，短期竞争更可能落在真实数据、任务闭环和评测可信度上。",
+        "label": "世界模型进入任务闭环竞争",
+        "text": "WAIC论坛显示世界模型在概念、路线、训练、数据和评测上仍未收敛，昆仑万维Matrix-Game 3.5提出迈向真实世界，极佳视界被曝讨论最快2026年赴港上市，模型叙事正从生成演示推进到真实数据与执行任务的验证。",
         "evidence_urls": []
       },
       {
-        "label": "供应链融资绑定具体瓶颈",
-        "text": "一目科技完成超10亿元E轮融资并推进触觉传感器量产，具身数据赛道一年融资44.7亿元且出现线下数据采集5S店，PrimalVerse种子轮资金也将用于4D世界模型基模研发和多场景验证，资本更偏向补齐感知、数据和场景验证等明确短板。",
+        "label": "资本偏向能力短板补齐",
+        "text": "PrimalVerse数亿元种子轮资金投向4D世界模型基模及具身智能等应用验证，一目科技超10亿元E轮后估值超过100亿元并推进触觉传感器量产，具身数据领域一年融资44.7亿元，资金更集中投向数据、触觉和场景验证等瓶颈环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "世界模型成为技术讨论主线，WAIC集中呈现路线和评测分歧，昆仑万维、大晓机器人等推进新模型，中国团队1B参数模型登榜也强化了小模型效率叙事。",
+        "summary": "世界模型仍处在路线、数据和评测未收敛阶段，WAIC讨论热度高，同时榜单、OTA、开源模型和形态即计算观点共同推动技术从理解走向执行验证。",
         "items": [
           {
             "date": "07-24",
@@ -277,6 +277,20 @@
             "url": "https://www.leiphone.com/category/private/rMXnmau3OSE7evhI.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "07-24",
+            "title": "自变量登上APEC国际舞台，代表中国具身智能分享服务民生“最佳实践”",
+            "url": "https://www.leiphone.com/category/industrynews/wbuuGeiADHNlBBOR.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "07-24",
+            "title": "零跑 D19 首次 OTA 开启推送，升级优化城市领航辅助 VLA",
+            "url": "https://www.ithome.com/0/981/360.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "07-23",
@@ -361,25 +375,25 @@
             "url": "https://www.tmtpost.com/8073768.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "07-21",
-            "title": "摩擦力是构建更优机器人世界模型的关键 (Friction is key to making better robot world models)",
-            "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "小鹏人形机器人被曝进入小批量试生产和产线最后联调，AMD推出机器人Kria模块，面壁开源MiniCPM-Robot，量产能力与端侧硬件开始共同参与验证。",
+        "summary": "小鹏人形机器人小批量试产、宇树发布高续航轮足机器人，AMD推出机器人模块，量产讨论开始从样机展示转向产线联调、性能指标和系统分层协作。",
         "items": [
           {
             "date": "07-24",
             "title": "消息称小鹏人形机器人正小批量试生产，量产产线进入最后联调阶段",
             "url": "https://www.ithome.com/0/981/130.htm",
             "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "07-24",
+            "title": "宇树发布轮足机器人 As2-W：速度 6m/s、IP54 级防水、空载续航距离超 30km",
+            "url": "https://www.ithome.com/0/981/372.htm",
+            "company": "宇树科技",
             "source_name": "IT之家"
           },
           {
@@ -416,19 +430,12 @@
             "url": "https://www.tmtpost.com/8073975.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "07-21",
-            "title": "Generative Bionics 发布具备全身触觉感知的人形机器人 (Generative Bionics unveils humanoid robot with full-body tactile sensing)",
-            "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地聚焦高价值行业实测和闭环问题，35家央国企测试因果世界模型，能源、制造、工业和医药场景强调调度、安全、风控与复杂决策可靠性。",
+        "summary": "商业化讨论集中在能源、制造、工业、医药等高价值场景，央国企实测和闭环圆桌强调生产调度、安全管控、风险研判等可交付任务。",
         "items": [
           {
             "date": "07-24",
@@ -462,7 +469,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资集中投向世界模型、触觉传感、训练数据和机器人本体，PrimalVerse、一目科技、ATOMS、Holiday Robotics等案例显示资金仍在押注能力补齐。",
+        "summary": "融资覆盖世界模型、触觉传感器、数据炼油厂、人形机器人和海外机器人公司，单笔金额从近亿元到数十亿元不等，资本关注点更偏向场景验证和关键能力补齐。",
         "items": [
           {
             "date": "07-24",
@@ -477,6 +484,13 @@
             "url": "https://www.infoq.cn/article/luJs2PpHVhQb8s5F2WuA?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "07-24",
+            "title": "智元启动赴港上市流程，2025 年通用人形机器人出货量全球第一",
+            "url": "https://www.ithome.com/0/981/350.htm",
+            "company": "智元机器人",
+            "source_name": "IT之家"
           },
           {
             "date": "07-23",
@@ -540,19 +554,12 @@
             "url": "https://www.jazzyear.com/article_info.html?id=1794",
             "company": "其他",
             "source_name": "甲子光年"
-          },
-          {
-            "date": "07-21",
-            "title": "英国公司 Humanoid 获 1.52 亿美元 A 轮融资 (U.K.-based Humanoid secures $152M in Series A funding)",
-            "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/",
-            "company": "行业",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "特斯拉围绕AI5芯片、Optimus App准备和Robotaxi扩城持续推进，三星设立机器人部门，北京中学生人形机器人足球赛也显示生态培育开始下沉。",
+        "summary": "特斯拉Robotaxi、AI5芯片和Optimus应用准备持续推进，三星设立机器人部门，NEURA与高校共建训练平台，行业扩张同时伴随情感机器人合规风险讨论。",
         "items": [
           {
             "date": "07-24",
@@ -560,6 +567,20 @@
             "url": "https://www.ithome.com/0/981/117.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "07-24",
+            "title": "特斯拉Robotaxi正式上路：一场烧钱无度的“史诗级豪赌”",
+            "url": "https://www.tmtpost.com/8078471.html",
+            "company": "特斯拉",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "07-24",
+            "title": "NEURA Robotics成立NEURA Gym RWTH Aachen，训练物理AI (NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI)",
+            "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "07-23",
@@ -595,33 +616,12 @@
             "url": "https://robot.ofweek.com/2026-07/ART-898890-8420-30695225.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "07-21",
-            "title": "财报前夕，特斯拉将 Robotaxi 自动驾驶出租车服务扩展至美国奥兰多和坦帕",
-            "url": "https://www.ithome.com/0/979/786.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "07-21",
-            "title": "原创 探展梅卡曼德，通用机器人“眼脑手”再进化！ 科技产业 · 生产制造 · 人工智能 作者：甲子光年 2026-07-21",
-            "url": "https://www.jazzyear.com/article_info.html?id=1803",
-            "company": "其他",
-            "source_name": "甲子光年"
-          },
-          {
-            "date": "07-20",
-            "title": "我国人形机器人整机产品超全球半数",
-            "url": "https://36kr.com/newsflashes/3903383107110785?f=rss",
-            "company": "其他",
-            "source_name": "36氪"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "数据和触觉成为产业链热点，国内近百名玩家涌入具身数据采集，Ropedia融资扩张训练数据规模，HBK与Siléane将触觉智能用于高速包装。",
+        "summary": "具身数据采集吸引近百名玩家并出现5S店模式，Ropedia融资扩大采集规模，触觉智能进入高速包装案例，产业链机会正围绕数据和感知能力展开。",
         "items": [
           {
             "date": "07-24",
@@ -729,6 +729,60 @@
       "category": "行业动态",
       "summary": "IT之家 7 月 24 日消息，Tesla（特斯拉）在驱动其未来电动汽车和人形机器人的 AI 系列上采用了双源化供应策略，比如 AI6 基于三星晶圆代工 2nm 工艺而 AI6.5 则采用台积电 2nm。 特斯拉的 AI5 世代芯片同样包含三星晶圆代工和台积电版本，但此前的消息主要围绕的还是三星晶圆代工版本。 三星晶圆代工版 AI5 已完成流片 ， 据信基于…",
       "url": "https://www.ithome.com/0/981/117.htm"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "自变量登上APEC国际舞台，代表中国具身智能分享服务民生“最佳实践”",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "7月16日-24日，亚太经合组织（APEC）“2026年数字和人工智能部长会议及数字周”系列活动在四川成都举行。 作为部长会议的重要配套活动，工业和信息化部于7月24日上午举办“APEC数智赋能高级别对话”，邀请APEC经济体部长及政府部门、企业、科研机构和国际组织高级别代表参加，围绕“发展人工智能，增进民生福祉”“推动数字转型，赋能千行百业”两大议题展开交…",
+      "url": "https://www.leiphone.com/category/industrynews/wbuuGeiADHNlBBOR.html"
+    },
+    {
+      "date": "07-24",
+      "company": "特斯拉",
+      "title": "特斯拉Robotaxi正式上路：一场烧钱无度的“史诗级豪赌”",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "当Robotaxi真的在奥斯汀街头跑起来的时候，或许不是“未来已来”的终章，而是一场更残酷、更烧钱竞赛的开始",
+      "url": "https://www.tmtpost.com/8078471.html"
+    },
+    {
+      "date": "07-24",
+      "company": "宇树科技",
+      "title": "宇树发布轮足机器人 As2-W：速度 6m/s、IP54 级防水、空载续航距离超 30km",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 7 月 24 日消息，宇树科技今日发布新产品 As2-W 轮足机器人（机器狗），官方称其可以 16kg 持续负重长效作业，空载续航距离超 30km。 IT之家从官方宣传视频中获悉，As2-W 可实现 6m/s 高速疾驰，并完成高台俯冲、侧向翻转、腾空转体等动作；具备 IP54 级防水，可踏水穿流。 据悉，这款机器人在年初发布的 As2 基础上增加了…",
+      "url": "https://www.ithome.com/0/981/372.htm"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "零跑 D19 首次 OTA 开启推送，升级优化城市领航辅助 VLA",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 7 月 24 日消息，零跑汽车官方宣布，零跑 D19 首次 OTA 已于 7 月 24 日陆续开启推送。 IT之家附主要更新内容如下： 城市领航辅助 VLA 更安全通行：主动执行防御性减速，规避风险； 更高效通行：支持大型十字路口进入直行待行区； 更舒适通行：优化车速控制，加减速衔接更柔和、从容； 更精准通行：显示对应行驶方向的箭头信号灯状态，精准…",
+      "url": "https://www.ithome.com/0/981/360.htm"
+    },
+    {
+      "date": "07-24",
+      "company": "智元机器人",
+      "title": "智元启动赴港上市流程，2025 年通用人形机器人出货量全球第一",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 7 月 24 日消息，据界面新闻从智元处获悉， 智元已启动赴港上市流程 。 IT之家查询获悉，智元创新（上海）科技股份有限公司成立于 2023 年，董事长兼 CEO 为邓泰华，总裁兼 CTO 为彭志辉（网名“稚晖君”）： 去年 12 月，智元第 5000 台通用具身机器人量产下线； 今年 3 月，智元第 1 万台通用具身机器人远征 A3 下线； 今…",
+      "url": "https://www.ithome.com/0/981/350.htm"
+    },
+    {
+      "date": "07-24",
+      "company": "其他",
+      "title": "NEURA Robotics成立NEURA Gym RWTH Aachen，训练物理AI (NEURA Robotics establishes NEURA Gym RWTH Aachen to train physical AI)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "NEURA Robotics has partnered with a German university for NEURA Gym RWTH Aachen, one of 10 facilities for training physical AI. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/neura-robotics-establishes-neura-gym-rwth-aachen-train-physical-ai/"
     },
     {
       "date": "07-23",
@@ -1044,60 +1098,6 @@
       "category": "技术突破",
       "summary": "居家养老最后一公里，不是机器人会不会走路，而是能否读懂老人状态，并把异常交给真正负责的人",
       "url": "https://www.tmtpost.com/8073768.html"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "摩擦力是构建更优机器人世界模型的关键 (Friction is key to making better robot world models)",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "summary": "Deploying world models in real robotic systems requires a step that receives less attention than the models themselves: conditioning. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/friction-is-key-to-making-better-robot-world-models/"
-    },
-    {
-      "date": "07-21",
-      "company": "特斯拉",
-      "title": "财报前夕，特斯拉将 Robotaxi 自动驾驶出租车服务扩展至美国奥兰多和坦帕",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 7 月 21 日消息，特斯拉当地时间周二宣布，将 Robotaxi 自动驾驶出租车服务扩展至美国佛罗里达州的奥兰多和坦帕。这家电动汽车制造商正力争证明其能够将自动驾驶出租车业务从最初的投放市场扩大规模。 此次扩张正值特斯拉即将于周三公布第二季度财报前夕。华尔街正密切关注 Robotaxi 业务的进展，因为随着首席执行官埃隆 · 马斯克将公司重心转向…",
-      "url": "https://www.ithome.com/0/979/786.htm"
-    },
-    {
-      "date": "07-21",
-      "company": "行业",
-      "title": "英国公司 Humanoid 获 1.52 亿美元 A 轮融资 (U.K.-based Humanoid secures $152M in Series A funding)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Humanoid said it has reached a $1.35 billion valuation as it scales its AI-driven industrial robots and expands commercial deployments. The post appeared first on The Robot Report…",
-      "url": "https://www.therobotreport.com/uk-based-humanoid-secures-152m-in-series-a-funding/"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "Generative Bionics 发布具备全身触觉感知的人形机器人 (Generative Bionics unveils humanoid robot with full-body tactile sensing)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Generative Bionics said its Gene.01 humanoid is fully sensorized, helping it quickly anticipate human presence and respond. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/generative-bionics-unveils-humanoid-robot-with-full-body-tactile-sensing/"
-    },
-    {
-      "date": "07-21",
-      "company": "其他",
-      "title": "原创 探展梅卡曼德，通用机器人“眼脑手”再进化！ 科技产业 · 生产制造 · 人工智能 作者：甲子光年 2026-07-21",
-      "source_name": "甲子光年",
-      "category": "行业动态",
-      "summary": "甲子光年 研究 更多 原创 2026中国具身智能行业洞察报告 <div class=\"tags font-14\" onclick=\"toPage('./study_list.htm",
-      "url": "https://www.jazzyear.com/article_info.html?id=1803"
-    },
-    {
-      "date": "07-20",
-      "company": "其他",
-      "title": "我国人形机器人整机产品超全球半数",
-      "source_name": "36氪",
-      "category": "行业动态",
-      "summary": "工业和信息化部7月20日发布数据显示，上半年，我国一批具有国际竞争优势的产业加快壮大。智能机器人领域，我国研发的四足机器人占全球销量份额接近70%，人形机器人整机产品达400余款、超全球半数。人工智能、半导体、新能源、生物医药等领域，涌现一批全球独角兽企业，在国际标准研制、产业治理等方面积极贡献中国方案。（新华社）",
-      "url": "https://36kr.com/newsflashes/3903383107110785?f=rss"
     }
   ]
 }
