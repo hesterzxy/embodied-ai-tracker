@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-09T00:09:24.019572+08:00",
+  "updated": "2026-09-09T04:50:49.555564+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 21,
+      "candidates": 22,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 2,
+      "core": 3,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,30 +240,41 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-09T00:09:38.172877+08:00",
-    "mode": "aicodewith",
-    "item_count": 16,
+    "generated_at": "2026-09-09T04:51:29.641338+08:00",
+    "mode": "local",
+    "item_count": 17,
     "insights": [
       {
-        "label": "落地验证转向可验收闭环",
-        "text": "小鹏机器人自研自建生产线启用并称机器人自主走下产线，智元发布轮足式导盲机器人，日本出现面向人形机器人的维修车辆；相比宇树全自主搏击被提醒距离规模化落地仍远，产业关注点正在从展示能力转向生产、辅助与运维等更容易验收的任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，小鹏汽车官方微博称：“从 0 到 1，从实验室到自研自建生产线，我们做到了；光环之下，演示不等于量产成功，技术突破与商业化鸿沟，同样值得冷静审视。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/999/529.htm",
+          "https://robot.ofweek.com/2026-09/ART-898890-8460-30702077.html",
+          "https://www.qbitai.com/2026/09/485056.html"
+        ]
       },
       {
-        "label": "世界模型热度升高但仍待交付验证",
-        "text": "宇树称实现世界模型实时驱动全自主人形机器人格斗，智象发布具身世界模型HiDream-O1-Embodied，原小米汽车L3负责人王乃岩投身具身大脑创业并寻求融资；模型叙事开始绑定真实任务演示，但现有证据仍以发布和演示为主，尚不足以证明规模化部署。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资；宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/999/765.htm",
+          "https://www.ithome.com/0/999/432.htm",
+          "https://www.ithome.com/0/999/529.htm"
+        ]
       },
       {
-        "label": "资本继续押注产能与能力补齐",
-        "text": "广东天机完成10亿元B轮及B+轮融资，投后估值接近百亿元，高瓴创投、美团战投联合领投，腾讯、高榕创投参与，宇树科技已登陆科创板；资金仍流向工业机器人和头部平台，同时触觉、电池材料等链条环节开始寻找人形机器人增量，但机会需要对应明确性能瓶颈。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，广东天机智能系统有限公司近日宣布完成10亿元B轮及B+轮融资，投后估值接近百亿元，高瓴创投、美团战投联合领投，腾讯、高榕创投 零部件 | <；8月19日，宇树科技正式登陆科创板。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html",
+          "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破集中在具身大脑和世界模型，宇树发布实时驱动全自主格斗，原小米L3负责人创业攻坚高泛化能力并寻求融资。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "09-08",
@@ -283,7 +294,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现模型与终端两类发布，智象推出具身世界模型，智元发布轮足式导盲机器人，量产能力仍需后续交付数据验证。",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
           {
             "date": "09-07",
@@ -303,7 +314,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业订单仅见宇树全自主搏击相关讨论，报道明确提示演示不等于量产成功，技术突破与商业化之间仍存在距离。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-08",
@@ -316,7 +327,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态以广东天机10亿元融资和宇树登陆科创板为主，资金更偏向工业机器人产能、头部企业和可定义场景。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-08",
@@ -343,7 +354,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态覆盖小鹏产线启用、特斯拉服务场景设想、三星入局传闻及机器人维修车，产业边界从本体制造延伸到服务配套。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-08",
@@ -381,6 +392,13 @@
             "source_name": "IT之家"
           },
           {
+            "date": "09-08",
+            "title": "AI无法超越人形机器人的硬件限制 (AI can’t outrun a humanoid’s hardware)",
+            "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "09-07",
             "title": "消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀",
             "url": "https://www.ithome.com/0/999/466.htm",
@@ -398,7 +416,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链关注触觉传感器路线、数据困局与模型之争，相关机会正在形成，但仍需和按摩、操作等具体任务的性能需求绑定。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-07",
@@ -483,6 +501,15 @@
       "category": "资本动态",
       "summary": "> 作者 | 铅笔道 惜文 编辑 | 铅笔道邹蔚 机器人行业又来了一笔大融资。 广东天机智能系统有限公司近日宣布完成10亿元B轮及B+轮融资，投后估值接近百亿元，高瓴创投、美团战投联合领投，腾讯、高榕创投 零部件 | <",
       "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html"
+    },
+    {
+      "date": "09-08",
+      "company": "其他",
+      "title": "AI无法超越人形机器人的硬件限制 (AI can’t outrun a humanoid’s hardware)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical system…",
+      "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
     },
     {
       "date": "09-07",
@@ -852,15 +879,6 @@
       "category": "行业动态",
       "summary": "近日，物理AI研发公司 ZINOVA 基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成了混凝土倾覆板（Tilt-up Construction）缩比施工场景演示，覆盖支模组框、多层钢筋铺设与绑扎等核心工序。雷峰网了解到， 此次POC验证了具身机器人使用现有工具参与复杂施工流程的可行性，也是垂直行业创新企业基于通用机器人平…",
       "url": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
-    },
-    {
-      "date": "09-03",
-      "company": "其他",
-      "title": "机械臂做到第10步就容易出错？一个 2B 模型靠动态调整注意力解决了 | IJCAI 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "S²-VLA 引入信念状态和自适应动态门控，仅用2B参数、7GB显存，长程操控超越7B模型。 作者丨 张 璐 编辑丨 幸丽娟 过去一段时间，Scaling Law 在具身智能里被看得很重。为了让机械臂完成复杂的搬运、对准和组合，多数工作把视觉-语言-动作（VLA）模型做到 7B 甚至 8.5B。参数变大后，语义理解和场景识别确实更强了，但长程操控里的不稳定问…",
-      "url": "https://www.leiphone.com/category/private/wTgqKxi0pIXPuau0.html"
     }
   ]
 }
