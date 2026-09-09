@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T00:04:14.179763+08:00",
+  "updated": "2026-09-10T04:35:07.047360+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 12,
       "core": 8,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 16,
-      "core": 1,
+      "candidates": 20,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-10T00:04:30.763571+08:00",
-    "mode": "aicodewith",
-    "item_count": 36,
+    "generated_at": "2026-09-10T04:35:47.162312+08:00",
+    "mode": "local",
+    "item_count": 37,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周更明确的落地信号集中在工厂、物流、维修和巡检等任务，特斯拉Optimus出现5000台订单并进入9月审厂，蚂蚁灵波展示取药、分拣、上下料，小鹏机器人启用自研自建产线，商业验证正在从展示能力转向产线、审厂和作业闭环。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，这是继此前数百台试产订单之后，首个千台级别的量产订单；这就是2026外滩大会科技展览，蚂蚁灵波科技展示的几件看起来并不“炫技”的事：机器人从货架上精准取下一盒药，送到用户手里，在物流场景中持续完成分拣，在工业产线上完成上下料。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321206-8460-30702270.html",
+          "https://www.leiphone.com/category/industrynews/SjYRQou3shWq9xXG.html",
+          "https://www.ithome.com/0/999/529.htm"
+        ]
       },
       {
-        "label": "具身大脑叙事开始绑定真实数据",
-        "text": "世界模型和高泛化具身大脑继续升温，宇树宣布用世界模型实时驱动全自主人形机器人格斗，原小米汽车L3负责人王乃岩投身相关创业，Runway ARR突破2亿美元并转向世界模型押注，模型能力的说服力正在更多依赖实时任务、收入增长和场景数据。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资；宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.ithome.com/0/999/765.htm",
+          "https://www.ithome.com/0/999/432.htm",
+          "https://www.tmtpost.com/8133572.html"
+        ]
       },
       {
-        "label": "资本偏好能力补齐与量产路径",
-        "text": "小鹏机器人获得9亿美元融资，广东天机完成10亿元B轮及B+轮融资，而A股人形机器人中报显示本体环节盈利能力较弱、赚钱公司多不靠人形机器人，资金仍在进入赛道，但更需要用明确产能、工业订单和供应链能力来消化估值预期。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，来源丨深蓝财经 小鹏机器人距离规模量产又近了一步；广东天机智能系统有限公司近日宣布完成10亿元B轮及B+轮融资，投后估值接近百亿元，高瓴创投、美团战投联合领投，腾讯、高榕创投 零部件 | <。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702340.html",
+          "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html",
+          "https://www.tmtpost.com/8133803.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、具身大脑和物理AI基础设施推进，宇树展示全自主格斗，蚂蚁灵波进入取药、分拣、上下料场景，相关创业和研究继续向泛化能力聚焦。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "09-09",
@@ -304,7 +316,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产新闻覆盖柔性具身大脑、工业金属3D打印机器人单元、欧洲人形机器人产能合作及触觉灵巧手，新职业发布也把应用技术员纳入体系，产业化配套更完整。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "09-09",
@@ -387,7 +399,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业端最强信号来自特斯拉Optimus 5000台订单和9月审厂，追觅展示户外庭院商用落地，宇树全自主搏击仍被提醒演示不等于规模化，订单质量成为核心观察点。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-09",
@@ -414,7 +426,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态呈现冷热并存，小鹏机器人获9亿美元融资，广东天机融资10亿元并接近百亿元估值，同时A股中报提示本体环节盈利弱，市场开始重新审视收入与估值匹配。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-09",
@@ -455,7 +467,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业侧小鹏机器人生产线启用并自主走下产线，宇树全自主格斗带来关注，日韩企业围绕电池材料、维修车辆等延伸服务入场，硬件限制仍是AI落地的重要约束。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-09",
@@ -470,6 +482,13 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321202-12003-30702348.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-09",
+            "title": "AGIBOT将在RoboBusiness上解读如何将人形机器人从实验室推向现实世界 (AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness)",
+            "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
+            "company": "智元机器人",
+            "source_name": "The Robot Report"
           },
           {
             "date": "09-08",
@@ -531,7 +550,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链关注点集中在空间感知、轨迹追踪和触觉传感，RoboTracer强调3D空间度量推理，触觉路线讨论升温，供应链机会更依赖能否解决感知、数据和执行精度瓶颈。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-09",
@@ -713,6 +732,15 @@
       "category": "产品量产",
       "summary": "IT之家 9 月 9 日消息，据新华社今天（9 日）报道，人力资源社会保障部等部门发布第八批新职业，包括 11 个新职业和 23 个新工种。 11 个新职业包括数字孪生工程技术人员、具身智能机器人应用技术员、运动数据分析师、微电网管理员等。其中，数字职业和绿色职业分别占到了 45% 和 27%。 IT之家查询获悉，此次新增的新职业如下： 数字孪生工程技术人员…",
       "url": "https://www.ithome.com/1/000/429.htm"
+    },
+    {
+      "date": "09-09",
+      "company": "智元机器人",
+      "title": "AGIBOT将在RoboBusiness上解读如何将人形机器人从实验室推向现实世界 (AGIBOT to explain how to scale humanoids from the lab to the real world at RoboBusiness)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems. The post appeared first on The Robot…",
+      "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"
     },
     {
       "date": "09-08",
@@ -992,15 +1020,6 @@
       "category": "行业动态",
       "summary": "8月27日，Hugging Face旗下法国团队Pollen Robotics发布了一只身高仅25厘米、售价399美元的双足机器人Microduck。开订24小时订单额突破260万美元，高峰期平均每4",
       "url": "https://robot.ofweek.com/2026-09/ART-8321206-8110-30701585.html"
-    },
-    {
-      "date": "09-04",
-      "company": "其他",
-      "title": "机器人不能停下来等模型：星尘发布 SmoothRL，让在线强化学习跟上大模型的异步推理",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "星尘智能（Astribot） 基座模型团队发布能异步执行的在线强化学习框架 SmoothRL",
-      "url": "https://www.qbitai.com/2026/09/484437.html"
     }
   ]
 }
