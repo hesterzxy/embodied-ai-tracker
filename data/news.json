@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T04:35:07.047360+08:00",
+  "updated": "2026-09-10T11:27:48.389602+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 0,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 12,
-      "core": 8,
+      "entries": 19,
+      "candidates": 11,
+      "core": 7,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 14,
       "candidates": 2,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 20,
-      "core": 0,
+      "entries": 59,
+      "candidates": 19,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-10T04:35:47.162312+08:00",
+    "generated_at": "2026-09-10T11:28:28.510210+08:00",
     "mode": "local",
-    "item_count": 37,
+    "item_count": 40,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -277,6 +277,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "09-10",
+            "title": "扔掉遥控器，是具身智能的终极关卡",
+            "url": "https://www.tmtpost.com/8134608.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "09-09",
             "title": "Runway ARR 突破 2 亿美元：视频热潮转向世界模型押注",
@@ -318,6 +325,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "09-10",
+            "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+            "url": "https://www.qbitai.com/2026/09/486436.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "09-09",
             "title": "韩国版人形机器人KAIROS亮相：170cm、80kg，能握手能抗推",
@@ -470,6 +484,13 @@
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
+            "date": "09-10",
+            "title": "特斯拉AI工程师和算力之争: FSD和Optimus机器人谁会排在前面？",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702458.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "09-09",
             "title": "宇树实现人形机器人全自主格斗：擂台之上，自己出拳",
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702274.html",
@@ -571,6 +592,33 @@
     ]
   },
   "items": [
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行",
+      "url": "https://www.qbitai.com/2026/09/486436.html"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "扔掉遥控器，是具身智能的终极关卡",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文｜巨潮WAVE，作者 | 谢泽锋，编辑｜杨旭然 细心的观众能发现，无论是赛跑、障碍赛、跳高还是举重和跳远，机器人背后总是会站着一两个操作员，他们手里拿着遥控器，给机器人下达指令。 去年的机器人马拉松大赛上，几乎都需要人拿着遥控器在后面跟着跑，每台机器人甚至需要三名工程师“陪跑”，一度被诟病为“遥控车大赛”。 “人为遥控”的真实存在，会打破机器人公司漂亮de…",
+      "url": "https://www.tmtpost.com/8134608.html"
+    },
+    {
+      "date": "09-10",
+      "company": "特斯拉",
+      "title": "特斯拉AI工程师和算力之争: FSD和Optimus机器人谁会排在前面？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "Ashok Elluswamy的正式头衔是特斯拉AI软件副总裁，同时负责FSD自动驾驶与Optimus人形机器人的AI研发。2025年6月，原Optimus项目负责人Milan Kovac离职后，As",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702458.html"
+    },
     {
       "date": "09-09",
       "company": "其他",
@@ -993,33 +1041,6 @@
       "category": "行业动态",
       "summary": "IT之家 9 月 6 日消息，特斯拉 AI 负责人 Ashok Elluswamy 本周表示，特斯拉 Robotaxi 自动驾驶无人出租车距离“实现 24 小时全天候运营”已经不远。针对一名希望在深夜使用 Cybercab 出行的用户，他在 X 平台回复称，待“v15 计划中的下一项技术”完成整合后，这项能力将在“下个月左右”上线。 不过，Elluswamy…",
       "url": "https://www.ithome.com/0/998/849.htm"
-    },
-    {
-      "date": "09-04",
-      "company": "其他",
-      "title": "Claude走出屏幕前，Anthropic先给机械臂写“说明书”",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "AI Agent要走出电脑，不仅需要一个更聪明的大脑，还得面对几十年工业系统留下的接口。现在，大模型公司与自动化行业开始从两端向同一层靠近",
-      "url": "https://www.tmtpost.com/8127807.html"
-    },
-    {
-      "date": "09-04",
-      "company": "其他",
-      "title": "1X NEO预售破万却交付延期：家庭机器人的“产能地狱”才刚刚开始",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "NEO可能是目前全球最矛盾的一台人形机器人。2025年10月，1X Technologies开启NEO预售，售价2万美元一台，或499美元/月租赁。开放预订后首年产能5天内全部售罄，预订量突破1万台",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701592.html"
-    },
-    {
-      "date": "09-04",
-      "company": "宇树科技",
-      "title": "宇树上纬们造万元人形机器人，为何399美元机器鸭先卖爆了？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "8月27日，Hugging Face旗下法国团队Pollen Robotics发布了一只身高仅25厘米、售价399美元的双足机器人Microduck。开订24小时订单额突破260万美元，高峰期平均每4",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8110-30701585.html"
     }
   ]
 }
