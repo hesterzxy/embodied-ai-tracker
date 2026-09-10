@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T18:48:50.158157+08:00",
+  "updated": "2026-09-10T23:58:39.546207+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 5,
       "core": 4,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 5,
-      "core": 2,
+      "candidates": 11,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 3,
-      "core": 1,
+      "entries": 19,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 19,
-      "core": 5,
+      "entries": 59,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
-      "new": 5
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -113,9 +113,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 32,
-      "candidates": 11,
-      "core": 11,
+      "entries": 31,
+      "candidates": 9,
+      "core": 9,
       "periphery": 0,
       "new": 0
     },
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -182,7 +182,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -195,7 +195,7 @@
       "candidates": 11,
       "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 6,
-      "new": 5
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-10T18:49:26.028326+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-09-10T23:59:19.626417+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "验收型场景加速落地",
-        "text": "工厂、物流和货架取药等可验收任务成为本周落地叙事主线，蚂蚁灵波展示取药、物流分拣及产线上下料，特斯拉Optimus被报道获得5000台订单且小鹏启用自建生产线，竞争开始同时接受任务稳定性与产能准备度检验。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，这是继此前数百台试产订单之后，首个千台级别的量产订单；乐聚机器人今日宣布，联合安徽电信、华为发布 全国首个 5G-A 具身智能专属套餐 「具身翼联」，同步落地业界首个 5G-A 具身人形 机器人园区 群体巡检应用示范。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321206-8460-30702270.html",
+          "https://www.ithome.com/1/000/975.htm",
+          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+        ]
       },
       {
-        "label": "具身大脑转向数据闭环",
-        "text": "宇树开源的UnifoLM-WLA-1.0以大规模多模态感知理解数据和交互式世界建模为基础，万勋发布NOVA2.0时披露1000万次真实作业，模型竞争已从演示效果延伸至真实数据积累、实时决策和任务闭环。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，0 是宇树科技全新一代通用人形机器人基础模型，依托大规模通用多模态感知与理解数据，融合以交互为中心的世界建模；原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/000/837.htm",
+          "https://www.ithome.com/0/999/765.htm",
+          "https://www.ithome.com/0/999/432.htm"
+        ]
       },
       {
-        "label": "资本覆盖算控与工业交付",
-        "text": "ADI拟以13.5亿美元收购智能MCU企业Alif以扩展物理AI布局，天机智能完成10亿元B轮及B+轮融资并指向1万台工业机器人，资本配置正覆盖算控能力和可定义的工业部署，而非只押注本体概念。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，模拟芯片大厂 Analog Devices（ADI，亚德诺）美国当地时间本月 9 日宣布，已就以 13.；来源丨深蓝财经 小鹏机器人距离规模量产又近了一步。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/000/943.htm",
+          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702340.html",
+          "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "宇树开源UnifoLM-WLA-1.0，称其基于大规模多模态数据并融合世界建模，同时展示世界模型实时驱动全自主人形格斗，真实数据、实时推理与自主性仍是研发焦点。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "09-10",
@@ -299,6 +311,13 @@
             "url": "https://roboticsandautomationnews.com/2026/09/10/vention-opens-robotics-and-physical-ai-lab-in-montreal/104733/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-10",
+            "title": "AI 开始学习「想象未来」：ECCV 2026背后，中国学者如何卡位世界模型",
+            "url": "https://www.leiphone.com/category/private/N4B8vPY6fPQvqU4Z.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "09-09",
@@ -339,7 +358,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "京东发布JoyAI世界模型及10万卡国产算力集群，高德推出ABot-Earth 0.7，万勋称NOVA2.0已覆盖1000万次真实作业，产品发布正增加可量化的任务与基础设施指标。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "09-10",
@@ -359,6 +378,20 @@
             "date": "09-10",
             "title": "高德发布全球首个 3D 原生城市世界模型 ABot-Earth 0.7，实现从星球到街景的全尺寸 AI 生成",
             "url": "https://www.ithome.com/1/000/890.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-10",
+            "title": "中科融合亮相CIOE 2026：以MEMS智能光学连接空间显示与具身智能",
+            "url": "https://www.leiphone.com/category/industrynews/AS2iCsOjP7xGiT00.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-10",
+            "title": "全国首个，乐聚联合安徽电信、华为发布 5G-A 具身智能专属套餐",
+            "url": "https://www.ithome.com/1/000/975.htm",
             "company": "其他",
             "source_name": "IT之家"
           },
@@ -431,19 +464,12 @@
             "url": "https://www.qbitai.com/2026/09/485056.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "09-07",
-            "title": "智元发布全球首款轮足式导盲机器人：1700万视障人士等来“另一种眼睛”",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "特斯拉Optimus出现5000台订单，报道将其称为首个千台级量产订单；另有面向户外庭院和机器人开发部署平台的商用信息，订单规模与交付能力仍需后续验证。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-10",
@@ -451,6 +477,13 @@
             "url": "https://roboticsandautomationnews.com/2026/09/10/general-robotics-says-grid-can-automate-entire-robot-development-and-deployment-lifecycle/104729/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-10",
+            "title": "Maven Robotics 想抢走你的机器人部署订单 (Maven Robotics wants to steal your robot deployment deal)",
+            "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/",
+            "company": "其他",
+            "source_name": "TechCrunch Robotics"
           },
           {
             "date": "09-09",
@@ -477,7 +510,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "ADI拟以13.5亿美元收购智能MCU企业Alif以扩展物理AI布局，天机智能完成合计10亿元B轮及B+轮融资，资本同时进入底层算控与工业机器人交付环节。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-10",
@@ -513,19 +546,12 @@
             "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html",
             "company": "行业",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-07",
-            "title": "机器人能帮助应对孤独吗？BBC 的 Ann Droid 引发对未来照护的思考 (Could robots help tackle loneliness? BBC’s Ann Droid raises questions about the future of care)",
-            "url": "https://robohub.org/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care/",
-            "company": "其他",
-            "source_name": "RoboHub"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "小鹏称其机器人自研自建生产线已启用，中国商飞提出建设AI训练场并让人形机器人进入大飞机车间，制造业正在提供产线部署和训练环境的具体入口。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-10",
@@ -603,26 +629,12 @@
             "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-07",
-            "title": "消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀",
-            "url": "https://www.ithome.com/0/999/466.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-07",
-            "title": "Agility Robotics在 humanoid SPAC 前披露180万美元营收 (Agility Robotics reports $1.8M revenue ahead of humanoid SPAC)",
-            "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/",
-            "company": "Agility Robotics",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "HSImul3R尝试把人类视频重建为可仿真的人场景交互，RoboTracer聚焦三维空间感知与轨迹追踪，触觉传感与数据问题亦受关注，技能数据和空间表征是供应链研发重点。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-10",
@@ -766,6 +778,42 @@
       "category": "商业订单",
       "summary": "General Robotics, a company building the intelligence layer for physical AI, has announced a major milestone for GRID, its robot intelligence platform. Built from the ground up as…",
       "url": "https://roboticsandautomationnews.com/2026/09/10/general-robotics-says-grid-can-automate-entire-robot-development-and-deployment-lifecycle/104729/"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "AI 开始学习「想象未来」：ECCV 2026背后，中国学者如何卡位世界模型",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "世界模型开始合流，中国团队正在进入核心问题。 作者丨吴思梦 编辑丨岑 峰 2026 年 9 月 8 日，全球计算机视觉顶级会议 ACM 与 ECVA（European Computer Vision Association）主办的 ECCV 2026 将在瑞典马尔默的 Malmö Arena 和 Malmömässan 两个相邻场馆开幕。 这个两年一届、与…",
+      "url": "https://www.leiphone.com/category/private/N4B8vPY6fPQvqU4Z.html"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "中科融合亮相CIOE 2026：以MEMS智能光学连接空间显示与具身智能",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "2026年9月9日至11日，第27届中国国际光电博览会（CIOE 2026）在深圳国际会展中心（宝安）举行。中科融合携Iris Green、Iris Color、Iris AR及NANO微小型多模态高速扫描模组亮相2号馆2A157展位，展示自主MEMS智能光学平台在骑行HUD、车载投影、AR近眼显示及机器人3D感知领域的应用成果——以米粒大小的MEMS微振镜…",
+      "url": "https://www.leiphone.com/category/industrynews/AS2iCsOjP7xGiT00.html"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "全国首个，乐聚联合安徽电信、华为发布 5G-A 具身智能专属套餐",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 10 日消息，乐聚机器人今日宣布，联合安徽电信、华为发布 全国首个 5G-A 具身智能专属套餐 「具身翼联」，同步落地业界首个 5G-A 具身人形 机器人园区 群体巡检应用示范。 据介绍，“ 具身翼联 ”是全国首个 5G-A 具身智能专属套餐。针对机器人高上行占比、低时延、多机并发需求，提供峰值上行 500Mbps、超低时延 20ms@95…",
+      "url": "https://www.ithome.com/1/000/975.htm"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "Maven Robotics 想抢走你的机器人部署订单 (Maven Robotics wants to steal your robot deployment deal)",
+      "source_name": "TechCrunch Robotics",
+      "category": "商业订单",
+      "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
+      "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
     },
     {
       "date": "09-09",
@@ -1063,42 +1111,6 @@
       "category": "技术突破",
       "summary": "IT之家 9 月 7 日消息，宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。官方一同公布了全自主人形机器人格斗的 实拍画面 。 官方表示，UnifoLM-X2-1.0 突破世界-动作大模型瞬时规划、决策和动态交互执行等瓶颈，实现高动态、强交互、实时实现对未来预测和规划， 实现人形机器人全自主搏击 。验证了世界模型驱动的人形机器人大规…",
       "url": "https://www.ithome.com/0/999/432.htm"
-    },
-    {
-      "date": "09-07",
-      "company": "智元机器人",
-      "title": "智元发布全球首款轮足式导盲机器人：1700万视障人士等来“另一种眼睛”",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "9月4日上午，北京国家会议中心。智元研究院（中国兵器工业集团杭州智元研究院）旗下远山智行正式发布“小远智能灵动导盲犬”——全球首款轮足式导盲机器人。 这不是一台在展台上跳舞的机器人，也不是一台在发布会",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30701848.html"
-    },
-    {
-      "date": "09-07",
-      "company": "其他",
-      "title": "机器人能帮助应对孤独吗？BBC 的 Ann Droid 引发对未来照护的思考 (Could robots help tackle loneliness? BBC’s Ann Droid raises questions about the future of care)",
-      "source_name": "RoboHub",
-      "category": "资本动态",
-      "summary": "By Maria Jose Galvez Trigo, Cardiff University and Paul Willis, Cardiff University New BBC sitcom Ann Droid imagines a near future in which robots provide care and companionship to…",
-      "url": "https://robohub.org/could-robots-help-tackle-loneliness-bbcs-ann-droid-raises-questions-about-the-future-of-care/"
-    },
-    {
-      "date": "09-07",
-      "company": "其他",
-      "title": "消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 7 日消息，据韩媒 sedaily 消息，三星电子正加快其人形机器人原型机的研发，计划在明年 1 月于美国拉斯维加斯举办的 CES 2027 上， 首次公开其自主研发的人形机器人 。 业内消息称，在三星电子 DX 部门负责人卢泰文（Roh Tae-moon）的直属管辖下，三星机器人 RX 部门正主导筹备将于明年 CES 登场的样机。业内高层…",
-      "url": "https://www.ithome.com/0/999/466.htm"
-    },
-    {
-      "date": "09-07",
-      "company": "Agility Robotics",
-      "title": "Agility Robotics在 humanoid SPAC 前披露180万美元营收 (Agility Robotics reports $1.8M revenue ahead of humanoid SPAC)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Agility Robotics’ S-4 filing reveals $1.8 million in 2025 revenue, a $140 million operating loss and plans to scale its Digit humanoid robot business. The post appeared first on Th…",
-      "url": "https://www.therobotreport.com/agility-robotics-reports-18m-revenue-ahead-of-humanoid-spac/"
     }
   ]
 }
