@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10T23:58:39.546207+08:00",
+  "updated": "2026-09-11T04:31:30.956417+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -92,7 +92,7 @@
       "candidates": 22,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -182,7 +182,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 1,
-      "new": 2
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -206,9 +206,9 @@
       "error": "",
       "entries": 18,
       "candidates": 15,
-      "core": 7,
+      "core": 8,
       "periphery": 2,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -234,13 +234,13 @@
       "candidates": 69,
       "core": 19,
       "periphery": 7,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-10T23:59:19.626417+08:00",
+    "generated_at": "2026-09-11T04:32:11.050467+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -259,7 +259,7 @@
         "evidence_urls": [
           "https://www.ithome.com/1/000/837.htm",
           "https://www.ithome.com/0/999/765.htm",
-          "https://www.ithome.com/0/999/432.htm"
+          "https://www.qbitai.com/2026/09/486716.html"
         ]
       },
       {
@@ -345,13 +345,6 @@
             "title": "消息称原小米汽车 L3 智能驾驶技术负责人王乃岩投身创业，攻坚高泛化具身大脑",
             "url": "https://www.ithome.com/0/999/765.htm",
             "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-07",
-            "title": "宇树科技：全球首次实现世界模型实时驱动全自主人形机器人格斗",
-            "url": "https://www.ithome.com/0/999/432.htm",
-            "company": "宇树科技",
             "source_name": "IT之家"
           }
         ]
@@ -566,6 +559,13 @@
             "url": "https://www.ithome.com/1/000/832.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-10",
+            "title": "Skild AI 借助 NVIDIA Physical AI 让机器人仅凭单段视频学会新任务 (Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video)",
+            "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
           },
           {
             "date": "09-09",
@@ -814,6 +814,15 @@
       "category": "商业订单",
       "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
       "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+    },
+    {
+      "date": "09-10",
+      "company": "其他",
+      "title": "Skild AI 借助 NVIDIA Physical AI 让机器人仅凭单段视频学会新任务 (Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video)",
+      "source_name": "NVIDIA Robotics",
+      "category": "行业动态",
+      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant rep…",
+      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
     },
     {
       "date": "09-09",
@@ -1102,15 +1111,6 @@
       "category": "泛具身产业链",
       "summary": "你敢让机器人给你按摩吗？在今年的WAIC上，我们体验了一把之后，发现居然还挺舒服的。而这台按摩的机器人，很大的不同在于，它搭载了触觉传感器。 黄仁勋说，“触觉”是具身智能的最后一块拼图，真是如此吗？机器人有了触觉后，真的能更强大吗？干活会更聪明吗？如果答案是肯定的，那么为什么目前大多数机器人都还没有触觉？市场上有哪些路线与冲突呢？ 这期视频，跟我们一起走进实…",
       "url": "https://www.tmtpost.com/8131169.html"
-    },
-    {
-      "date": "09-07",
-      "company": "宇树科技",
-      "title": "宇树科技：全球首次实现世界模型实时驱动全自主人形机器人格斗",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 9 月 7 日消息，宇树科技今日宣布， 全球首次 实现世界模型实时驱动全自主人形机器人格斗。官方一同公布了全自主人形机器人格斗的 实拍画面 。 官方表示，UnifoLM-X2-1.0 突破世界-动作大模型瞬时规划、决策和动态交互执行等瓶颈，实现高动态、强交互、实时实现对未来预测和规划， 实现人形机器人全自主搏击 。验证了世界模型驱动的人形机器人大规…",
-      "url": "https://www.ithome.com/0/999/432.htm"
     }
   ]
 }
