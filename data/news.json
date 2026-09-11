@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T18:46:25.257997+08:00",
+  "updated": "2026-09-12T00:01:38.416514+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 3,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 20,
       "candidates": 4,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 2,
-      "core": 2,
+      "entries": 16,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
+      "entries": 60,
+      "candidates": 21,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 2,
-      "new": 6
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -168,7 +168,7 @@
       "entries": 15,
       "candidates": 15,
       "core": 4,
-      "periphery": 1,
+      "periphery": 0,
       "new": 3
     },
     {
@@ -192,8 +192,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 7,
+      "candidates": 9,
+      "core": 6,
       "periphery": 0,
       "new": 2
     },
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-11T18:47:05.335794+08:00",
+    "generated_at": "2026-09-12T00:02:18.466668+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -498,13 +498,6 @@
             "url": "https://www.leiphone.com/category/industrynews/kf4KPltXt4hPhjpt.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-08",
-            "title": "宇树科技实现机器人全自主搏击, 但距离规模化落地仍很遥远",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702077.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -582,6 +575,20 @@
             "source_name": "钛媒体"
           },
           {
+            "date": "09-11",
+            "title": "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据",
+            "url": "https://www.tmtpost.com/8135323.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "09-11",
+            "title": "视频星期五：人形机器人挑战攀爬架 (Video Friday: Humanoid Robot Takes On Monkey Bars)",
+            "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
+          },
+          {
             "date": "09-10",
             "title": "特斯拉AI工程师和算力之争: FSD和Optimus机器人谁会排在前面？",
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702458.html",
@@ -622,13 +629,6 @@
             "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/",
             "company": "智元机器人",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-08",
-            "title": "小鹏机器人生产线正式启用，“全球首位高阶通用人形机器人”自主走下产线",
-            "url": "https://www.ithome.com/0/999/529.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -760,6 +760,24 @@
       "category": "资本动态",
       "summary": "潮涌AI编辑部 根据科技媒体The Information报道称，证监会近期向部分投行和投资机构发出非正式窗口指导，拟提高人形机器人等初创企业的IPO审批门槛。 证监会暂未回复置评请求。 报道提到的门",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702655.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "未来十年，大模型与实体产业的深度结合，将触发全新的范式变革，不只会改变生产方式与组织模式，更会重构整个产业的价值逻辑",
+      "url": "https://www.tmtpost.com/8135323.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "视频星期五：人形机器人挑战攀爬架 (Video Friday: Humanoid Robot Takes On Monkey Bars)",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events fo…",
+      "url": "https://spectrum.ieee.org/video-friday-disaster-response-robots"
     },
     {
       "date": "09-10",
@@ -1093,24 +1111,6 @@
       "category": "行业动态",
       "summary": "AGIBOT plans to give attendees actionable insights on identifying high-value robotics use cases and building sustainable developer ecosystems. The post appeared first on The Robot…",
       "url": "https://www.therobotreport.com/agibot-share-plans-scale-humanoids-from-lab-to-real-world-at-robobusiness/"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "小鹏机器人生产线正式启用，“全球首位高阶通用人形机器人”自主走下产线",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 8 日消息，小鹏集团今日官宣，小鹏机器人完成关键跨越， 小鹏机器人生产线正式启用 ，全球首位高阶通用人形机器人完成自动化总装并自主走下产线。 小鹏汽车官方微博称：“从 0 到 1，从实验室到自研自建生产线，我们做到了。” 8 月 24 日，小鹏机器人业务完成首轮超 9 亿美元 （IT之家注：现汇率约合 60.56 亿元人民币） 融资，投后估…",
-      "url": "https://www.ithome.com/0/999/529.htm"
-    },
-    {
-      "date": "09-08",
-      "company": "宇树科技",
-      "title": "宇树科技实现机器人全自主搏击, 但距离规模化落地仍很遥远",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "一段机器人自主搏击视频刷屏，UnifoLMX21.0世界动作大模型带来技术信号。光环之下，演示不等于量产成功，技术突破与商业化鸿沟，同样值得冷静审视。 9月7日晚间，宇树科技对外放出一段极具冲击力的演",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702077.html"
     }
   ]
 }
