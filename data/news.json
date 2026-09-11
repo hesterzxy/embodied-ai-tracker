@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T04:31:30.956417+08:00",
+  "updated": "2026-09-11T11:25:32.541671+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 4,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
       "new": 0
     },
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 2,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -90,7 +90,7 @@
       "error": "",
       "entries": 59,
       "candidates": 22,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 9,
-      "periphery": 0,
-      "new": 3
+      "core": 8,
+      "periphery": 1,
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -208,7 +208,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 2,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 6,
-      "new": 3
+      "new": 4
     },
     {
       "name": "RoboHub",
@@ -240,17 +240,17 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-11T04:32:11.050467+08:00",
+    "generated_at": "2026-09-11T11:26:12.601600+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，这是继此前数百台试产订单之后，首个千台级别的量产订单；乐聚机器人今日宣布，联合安徽电信、华为发布 全国首个 5G-A 具身智能专属套餐 「具身翼联」，同步落地业界首个 5G-A 具身人形 机器人园区 群体巡检应用示范。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，优必选9月10日宣布，近期接连与欧洲、日韩市场客户签约，斩获超5000万元海外订单，订单产品包括商用服务人形机器人Walker C1和超仿真人形机器人优世界U1；这是继此前数百台试产订单之后，首个千台级别的量产订单。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-898890-8420-30702644.html",
           "https://robot.ofweek.com/2026-09/ART-8321206-8460-30702270.html",
-          "https://www.ithome.com/1/000/975.htm",
-          "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
+          "https://www.ithome.com/1/000/975.htm"
         ]
       },
       {
@@ -277,6 +277,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "09-11",
+            "title": "让机器狗替你买东西：支付宝宣布首推“AI 付 · 具身智能”，网友戏称“狗腿付”",
+            "url": "https://www.ithome.com/1/001/145.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-10",
             "title": "扔掉遥控器，是具身智能的终极关卡",
@@ -443,20 +450,6 @@
             "url": "https://www.ithome.com/1/000/429.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "09-08",
-            "title": "波士顿动力前员工创办 Dynamic Creatures，致力于用机器人让角色栩栩如生 (Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics)",
-            "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-07",
-            "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
-            "url": "https://www.qbitai.com/2026/09/485056.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
@@ -464,6 +457,13 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "09-11",
+            "title": "优必选拿下5000万海外订单：机器人出海从“表演”进入“打工”",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702644.html",
+            "company": "优必选",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-10",
             "title": "General Robotics称GRID可自动化整个机器人开发与部署生命周期 (General Robotics says GRID can automate entire robot development and deployment lifecycle)",
@@ -532,13 +532,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-07",
-            "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」丨WRC 2026",
-            "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html",
-            "company": "行业",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -546,6 +539,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "09-11",
+            "title": "特斯拉今年要造一万台Optimus机器人, 却一台都不打算卖",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30702643.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-10",
             "title": "特斯拉AI工程师和算力之争: FSD和Optimus机器人谁会排在前面？",
@@ -637,6 +637,13 @@
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
+            "date": "09-11",
+            "title": "乐动机器人于CIOE 2026重磅发布多款激光雷达新品，以感知核心驱动产业变革",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321201-8120-30702683.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "09-10",
             "title": "全球首个可仿真的人–场景交互重建框架 HSImul3R：让人类视频真正成为机器人技能来源",
             "url": "https://www.qbitai.com/2026/09/486747.html",
@@ -649,19 +656,48 @@
             "url": "https://www.leiphone.com/category/private/sgaqS952UXuoJUVJ.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-07",
-            "title": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
-            "url": "https://www.tmtpost.com/8131169.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "让机器狗替你买东西：支付宝宣布首推“AI 付 · 具身智能”，网友戏称“狗腿付”",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 9 月 11 日消息，支付宝今日宣布和高德动量合作， 首次把 AI 支付能力用在具身机器上 ，产品名称为“AI 付 · 具身智能”，网友戏称为“狗腿付”。 高德动量机器狗“途途”可以遵照指令， 帮忙跑腿，并完成支付 ，真正实现帮主人“打酱油”的任务，整个过程都在主人的授权范围内。 支付宝官方介绍称，“AI 付”应用蚂蚁集团自主打造的 APASS 商…",
+      "url": "https://www.ithome.com/1/001/145.htm"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "乐动机器人于CIOE 2026重磅发布多款激光雷达新品，以感知核心驱动产业变革",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "> 2026年中国国际光电博览会（CIOE）于今日在深圳国际会展中心盛大开幕，全球光电及相关领域企业齐聚一堂，共襄行业盛举。作为全球领先的移动机器人感知技术解决方案提供商，深圳乐动机器人股份有限公司（以下 零部件 | <",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8120-30702683.html"
+    },
+    {
+      "date": "09-11",
+      "company": "优必选",
+      "title": "优必选拿下5000万海外订单：机器人出海从“表演”进入“打工”",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "优必选9月10日宣布，近期接连与欧洲、日韩市场客户签约，斩获超5000万元海外订单，订单产品包括商用服务人形机器人Walker C1和超仿真人形机器人优世界U1。这不是一份巨额合同，但它的分量在于一个",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702644.html"
+    },
+    {
+      "date": "09-11",
+      "company": "特斯拉",
+      "title": "特斯拉今年要造一万台Optimus机器人, 却一台都不打算卖",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "9月以来，Optimus机器人板块的热度几乎都围绕一个词：爬产。 据产业链信息，特斯拉弗里蒙特的Optimus产线在8月底至9月初进入批量生产准备状态，供应商周度订单环比大幅增长，年底周产目标一再上修",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30702643.html"
+    },
     {
       "date": "09-10",
       "company": "其他",
@@ -1075,42 +1111,6 @@
       "category": "行业动态",
       "summary": "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical system…",
       "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "波士顿动力前员工创办 Dynamic Creatures，致力于用机器人让角色栩栩如生 (Boston Dynamics veterans launch Dynamic Creatures to bring characters to life with robotics)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Dynamic Creatures plants to create its own line of characters, and to re-create characters for specific brands and environments. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/boston-dynamics-veterans-launch-dynamic-creatures-to-bring-characters-to-life-with-robotics/"
-    },
-    {
-      "date": "09-07",
-      "company": "其他",
-      "title": "原生全模态技术战略闭环，智象（HiDream.ai）发布具身世界模型HiDream-O1-Embodied",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "今日，智象未来（HiDream.ai）正式发布具身世界模型HiDream-O1-Embodied。秉承原生全模态的技术理念，模型强化机器人物理感知与动态预判能力，助力具身智能实现更高阶的物理交互。具身模型的发布，标志着智象逐步实现了打通图像、视频、3D、动作等模态，贯通理解—推演—执行全流程，构建统一世界模型基座的技术闭环。 模型发布同期，HiDream-O…",
-      "url": "https://www.qbitai.com/2026/09/485056.html"
-    },
-    {
-      "date": "09-07",
-      "company": "行业",
-      "title": "王兴兴上市后首次公开演讲：机器人真正爆发要等两个「80%时刻」丨WRC 2026",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "summary": "8月19日，宇树科技正式登陆科创板。上市后的答谢午宴上，宇树科技创始人王兴兴首次提出“物理AI机器人的自进化”，希望利用基础大模型，将论文检索、代码生成、仿真训练、真机测试和评价反馈串成闭环，让机器人研发逐步从高度依赖人工转向持续自我迭代。 一天后的2026世界机器人大会主论坛上，王兴兴再次谈到了这一方向。相比说明机器人跑得多快、跳得多高，他把更多时间留给了…",
-      "url": "https://www.leiphone.com/category/robot/qtdF8IhMqe2oNmH0.html"
-    },
-    {
-      "date": "09-07",
-      "company": "其他",
-      "title": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
-      "source_name": "钛媒体",
-      "category": "泛具身产业链",
-      "summary": "你敢让机器人给你按摩吗？在今年的WAIC上，我们体验了一把之后，发现居然还挺舒服的。而这台按摩的机器人，很大的不同在于，它搭载了触觉传感器。 黄仁勋说，“触觉”是具身智能的最后一块拼图，真是如此吗？机器人有了触觉后，真的能更强大吗？干活会更聪明吗？如果答案是肯定的，那么为什么目前大多数机器人都还没有触觉？市场上有哪些路线与冲突呢？ 这期视频，跟我们一起走进实…",
-      "url": "https://www.tmtpost.com/8131169.html"
     }
   ]
 }
