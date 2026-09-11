@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T11:25:32.541671+08:00",
+  "updated": "2026-09-11T18:46:25.257997+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 11,
-      "core": 3,
+      "entries": 20,
+      "candidates": 4,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 1,
-      "core": 0,
+      "entries": 17,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 22,
-      "core": 1,
+      "candidates": 18,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -129,8 +129,8 @@
       "entries": 22,
       "candidates": 22,
       "core": 8,
-      "periphery": 1,
-      "new": 7
+      "periphery": 2,
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 3,
-      "new": 0
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
+      "candidates": 10,
       "core": 7,
-      "periphery": 1,
-      "new": 3
+      "periphery": 0,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-11T11:26:12.601600+08:00",
+    "generated_at": "2026-09-11T18:47:05.335794+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -255,10 +255,10 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，0 是宇树科技全新一代通用人形机器人基础模型，依托大规模通用多模态感知与理解数据，融合以交互为中心的世界建模；原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，0 是宇树科技全新一代通用人形机器人基础模型，依托大规模通用多模态感知与理解数据，融合以交互为中心的世界建模；无论是自动驾驶车辆应对动态路况，还是机器人完成取物、洗衣等日常任务，都要求AI理解空间关系、预测行动后果，并根据环境变化及时调整。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.ithome.com/1/000/837.htm",
-          "https://www.ithome.com/0/999/765.htm",
+          "https://www.leiphone.com/category/industrynews/ep5FMJuV8lEiAJgr.html",
           "https://www.qbitai.com/2026/09/486716.html"
         ]
       },
@@ -268,7 +268,7 @@
         "evidence_urls": [
           "https://www.ithome.com/1/000/943.htm",
           "https://robot.ofweek.com/2026-09/ART-898890-12005-30702340.html",
-          "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html"
+          "https://robot.ofweek.com/2026-09/ART-898890-8420-30702655.html"
         ]
       }
     ],
@@ -283,6 +283,13 @@
             "url": "https://www.ithome.com/1/001/145.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-11",
+            "title": "世界模型如何走向物理世界？看看这些专家怎么说",
+            "url": "https://www.leiphone.com/category/industrynews/ep5FMJuV8lEiAJgr.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "09-10",
@@ -346,13 +353,6 @@
             "url": "https://www.leiphone.com/category/private/Y5eqFriHBTvAOukX.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-08",
-            "title": "消息称原小米汽车 L3 智能驾驶技术负责人王乃岩投身创业，攻坚高泛化具身大脑",
-            "url": "https://www.ithome.com/0/999/765.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -360,6 +360,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "09-11",
+            "title": "【深度】机器人拖链电缆在工业机器人领域需求旺盛 我国高质量产品市场占比有望提升",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702722.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-10",
             "title": "打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果",
@@ -506,6 +513,27 @@
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
+            "date": "09-11",
+            "title": "宇树跌破500元，一级市场融资连续下跌，机器人步入冷静期",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30702702.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-11",
+            "title": "股价腰斩vs亏损上市：宇树智元的瑜亮之争",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12001-30702692.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-11",
+            "title": "人形机器人IPO要收紧？",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702655.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "09-10",
             "title": "ADI 计划以 13.5 亿美元收购智能 MCU 企业 Alif，扩展物理 AI 布局",
             "url": "https://www.ithome.com/1/000/943.htm",
@@ -525,13 +553,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30702340.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-08",
-            "title": "1万台工业机器人：融资10亿",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -545,6 +566,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30702643.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-11",
+            "title": "人形机器人是噱头？国产已完成手术",
+            "url": "https://www.tmtpost.com/8136870.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "09-11",
+            "title": "一台人形机器人，到底要工作多久才能回本？",
+            "url": "https://www.tmtpost.com/8136661.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "09-10",
@@ -594,41 +629,6 @@
             "url": "https://www.ithome.com/0/999/529.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "09-08",
-            "title": "如果Optimus机器人每天帮你省3小时，贫富差距是按小时拉开的",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702056.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-08",
-            "title": "韩国电池材料企业瞄准人形机器人，开辟电动汽车外新增长赛道",
-            "url": "https://www.ithome.com/0/999/808.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-08",
-            "title": "日本首个“人形机器人救护车”现身，搭载机器人专用担架、维修零部件等",
-            "url": "https://www.ithome.com/0/999/807.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-08",
-            "title": "特斯拉拟用 Robotaxi 接送维修车主，减少对代步车和 Uber 优惠券依赖",
-            "url": "https://www.ithome.com/0/999/759.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-08",
-            "title": "AI无法超越人形机器人的硬件限制 (AI can’t outrun a humanoid’s hardware)",
-            "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -697,6 +697,69 @@
       "category": "行业动态",
       "summary": "9月以来，Optimus机器人板块的热度几乎都围绕一个词：爬产。 据产业链信息，特斯拉弗里蒙特的Optimus产线在8月底至9月初进入批量生产准备状态，供应商周度订单环比大幅增长，年底周产目标一再上修",
       "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30702643.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "世界模型如何走向物理世界？看看这些专家怎么说",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "当人工智能从屏幕中的对话、创作与编程，走向真实环境中的感知、决策与行动，它需要面对一套更复杂的考验。无论是自动驾驶车辆应对动态路况，还是机器人完成取物、洗衣等日常任务，都要求AI理解空间关系、预测行动后果，并根据环境变化及时调整。 正因如此，世界模型被寄予厚望。它有望为AI提供在行动之前，推演未来的能力。从生成逼真的视频，到预测行动后果，再到驱动机器人完成真…",
+      "url": "https://www.leiphone.com/category/industrynews/ep5FMJuV8lEiAJgr.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "人形机器人是噱头？国产已完成手术",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "8月底，第二届世界人形机器人运动会在北京举行，并通过CCTV直播让全国观众见识到人形机器人的潜力。在这场新奇的运动会上，人形机器人不仅可以赛跑、跳高，甚至可以自由搏击，组队踢足球。 虽然在不少项目上，人形机器人还显得较为笨拙，表现距离人类运动员还有一定差距。但在部分项目如短跑及原地跳高，其成绩已经远超人类。这种潜力，也恰恰是人类想要借用的部分。 马斯克也在此…",
+      "url": "https://www.tmtpost.com/8136870.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "一台人形机器人，到底要工作多久才能回本？",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "机器人有了考勤表，还没有工资表。人形机器人公司开始公布价格、工时和任务量，但这些数字还没有在同一个真实项目里组成一张完整的经济账",
+      "url": "https://www.tmtpost.com/8136661.html"
+    },
+    {
+      "date": "09-11",
+      "company": "其他",
+      "title": "【深度】机器人拖链电缆在工业机器人领域需求旺盛 我国高质量产品市场占比有望提升",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "目前，我国企业已具备机器人拖链电缆用铜导体、特柔软铜绞线、镀锡铜导体规模化生产实力，这将为机器人拖链电缆行业发展奠定良好基础。 机器人拖链电缆是一类专为机器人设计的高柔性特种电缆，能够承受机器人关节和",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702722.html"
+    },
+    {
+      "date": "09-11",
+      "company": "宇树科技",
+      "title": "宇树跌破500元，一级市场融资连续下跌，机器人步入冷静期",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "导语：等待下一个引爆点。 宇树，跌到头了吗？ 9月10日，宇树股价跌2.99%报收498.55元，首次跌破500元整数关口，创下上市以来股价新低。与上月上市首日开盘峰值4449亿元相比，市值已经蒸发超",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30702702.html"
+    },
+    {
+      "date": "09-11",
+      "company": "智元机器人",
+      "title": "股价腰斩vs亏损上市：宇树智元的瑜亮之争",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "序 ?TrueView 对于人形机器人赛道，资本既是行业扩张的燃料，也是左右企业命运的指挥棒。 一边是快速登陆A股、市值冲高又腰斩的宇树，一边是尚未盈利、拿到高PS溢价的智元，两家企业代表硬件本体与A",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12001-30702692.html"
+    },
+    {
+      "date": "09-11",
+      "company": "行业",
+      "title": "人形机器人IPO要收紧？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "潮涌AI编辑部 根据科技媒体The Information报道称，证监会近期向部分投行和投资机构发出非正式窗口指导，拟提高人形机器人等初创企业的IPO审批门槛。 证监会暂未回复置评请求。 报道提到的门",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702655.html"
     },
     {
       "date": "09-10",
@@ -1048,69 +1111,6 @@
       "category": "商业订单",
       "summary": "一段机器人自主搏击视频刷屏，UnifoLMX21.0世界动作大模型带来技术信号。光环之下，演示不等于量产成功，技术突破与商业化鸿沟，同样值得冷静审视。 9月7日晚间，宇树科技对外放出一段极具冲击力的演",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702077.html"
-    },
-    {
-      "date": "09-08",
-      "company": "特斯拉",
-      "title": "如果Optimus机器人每天帮你省3小时，贫富差距是按小时拉开的",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "最近一段特斯拉Optimus的广告片在西班牙引发了不小的讨论。画面里，机器人坐在汽车后座、陪孩子玩火车模型、跟一家人走在山谷里。温馨得像一部家庭电影。 西班牙经济学家马克·维达尔（Marc Vidal",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30702056.html"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "韩国电池材料企业瞄准人形机器人，开辟电动汽车外新增长赛道",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 8 日消息，韩国电池材料企业 EcoPro Co.计划加入韩国电池材料厂商进军人形机器人产业的行列，希望凭借更轻、能量密度更高的电池需求，寻找电动汽车之外的新增长市场。 EcoPro 表示，公司计划加快高镍正极材料以及下一代固态电池技术的研发，将其应用于全球正在开发的仿真人形机器人。包括 LG Energy Solution、三星 SDI…",
-      "url": "https://www.ithome.com/0/999/808.htm"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "日本首个“人形机器人救护车”现身，搭载机器人专用担架、维修零部件等",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 8 日消息，日本 GMO 互联网集团旗下公司“GMO AI & 机器人商事”（GMO AIR）今天宣布推出“人形机器人救护车”， 是日本首个专门服务人形机器人的维修车辆 。 IT之家了解到，这辆救护车可在人形机器人发生故障时赶赴现场，提供诊断、维修及备用机器人等服务。车内配备人形机器人专用担架，以及各种机器人的零部件、耗材和电脑等。如果机器…",
-      "url": "https://www.ithome.com/0/999/807.htm"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "消息称原小米汽车 L3 智能驾驶技术负责人王乃岩投身创业，攻坚高泛化具身大脑",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 9 月 8 日消息，据“21 世纪经济报道”，原小米智能驾驶 L3 技术负责人王乃岩已投身具身大脑创业，目前该项目正在寻求融资。一位投资人表示：“王乃岩的创业团队中有不少是他在图森时期的老同事，现在核心研发人员有十几个。” 和其他具身大脑创业派不同，王乃岩此次创业的独特性是“复用 L3 的技术逻辑”。其中最具代表性的方法是“在动作模型的预训练环节…",
-      "url": "https://www.ithome.com/0/999/765.htm"
-    },
-    {
-      "date": "09-08",
-      "company": "特斯拉",
-      "title": "特斯拉拟用 Robotaxi 接送维修车主，减少对代步车和 Uber 优惠券依赖",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 8 日消息，据 Not a Tesla App 报道，在美国把车辆送到特斯拉服务中心进行数小时维修后，如何回家一直是一个有些“碰运气”的问题。虽然特斯拉会尽量在维修时间较长时提供免费代步车，但服务中心经常出现备用车辆不足的情况。 在这种情况下，工作人员通常只能向客户提供 Uber 打车优惠券，或者干脆无法提供任何替代交通方案。 不过，这种临…",
-      "url": "https://www.ithome.com/0/999/759.htm"
-    },
-    {
-      "date": "09-08",
-      "company": "行业",
-      "title": "1万台工业机器人：融资10亿",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "> 作者 | 铅笔道 惜文 编辑 | 铅笔道邹蔚 机器人行业又来了一笔大融资。 广东天机智能系统有限公司近日宣布完成10亿元B轮及B+轮融资，投后估值接近百亿元，高瓴创投、美团战投联合领投，腾讯、高榕创投 零部件 | <",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702227.html"
-    },
-    {
-      "date": "09-08",
-      "company": "其他",
-      "title": "AI无法超越人形机器人的硬件限制 (AI can’t outrun a humanoid’s hardware)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The remarkable progress in AI has brought robotics closer to machines capable of determining what they should do. The next major advance may depend on whether their physical system…",
-      "url": "https://www.therobotreport.com/ai-cant-outrun-a-humanoids-hardware/"
     }
   ]
 }
