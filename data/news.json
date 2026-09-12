@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-12T11:30:25.175453+08:00",
+  "updated": "2026-09-12T18:15:01.669301+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 0,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 4,
-      "core": 0,
+      "entries": 19,
+      "candidates": 5,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
+      "entries": 58,
       "candidates": 15,
-      "core": 0,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-07",
     "end": "09-13",
-    "generated_at": "2026-09-12T11:31:05.365711+08:00",
+    "generated_at": "2026-09-12T18:15:41.868073+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -255,11 +255,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，0 是宇树科技全新一代通用人形机器人基础模型，依托大规模通用多模态感知与理解数据，融合以交互为中心的世界建模；无论是自动驾驶车辆应对动态路况，还是机器人完成取物、洗衣等日常任务，都要求AI理解空间关系、预测行动后果，并根据环境变化及时调整。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，0 是宇树科技全新一代通用人形机器人基础模型，依托大规模通用多模态感知与理解数据，融合以交互为中心的世界建模；多位具身智能领域的年轻科学家、数据专家与百亿具身企业掌门人齐聚，围绕通用大脑、数据飞轮与场景落地展开讨论，现场座无虚席。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.ithome.com/1/000/837.htm",
-          "https://www.leiphone.com/category/industrynews/ep5FMJuV8lEiAJgr.html",
-          "https://www.qbitai.com/2026/09/486716.html"
+          "https://www.leiphone.com/category/industrynews/7lsrguW2f4twY8wp.html",
+          "https://www.leiphone.com/category/industrynews/ep5FMJuV8lEiAJgr.html"
         ]
       },
       {
@@ -283,6 +283,20 @@
             "url": "https://www.tmtpost.com/8137542.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "09-12",
+            "title": "探索RSI，生数新世界模型让机器人开始自我进化",
+            "url": "https://www.qbitai.com/2026/09/487752.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-12",
+            "title": "外滩大会三问具身智能： 模型、数据、生态如何突围？",
+            "url": "https://www.leiphone.com/category/industrynews/7lsrguW2f4twY8wp.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "09-11",
@@ -436,27 +450,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/09/meltio-launches-us-assembled-robot-cell-for-industrial-metal-3d-printing/104703/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-09",
-            "title": "Neura Robotics与SECO合作扩大欧洲人形机器人产能 (Neura Robotics and SECO partner to scale humanoid robot production in Europe)",
-            "url": "https://roboticsandautomationnews.com/2026/09/09/neura-robotics-and-seco-partner-to-scale-humanoid-robot-production-in-europe/104696/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-09",
-            "title": "Dynamic Creatures走出隐身模式，推出互动角色机器人 (Dynamic Creatures emerges from stealth to launch interactive character robots)",
-            "url": "https://roboticsandautomationnews.com/2026/09/09/dynamic-creatures-emerges-from-stealth-to-launch-interactive-character-robots/104688/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-09",
-            "title": "全球首个诊脉灵巧手亮相，打造它的公司却说自己只做触觉",
-            "url": "https://www.leiphone.com/category/robot/nDORMeqWgd7ZV76p.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -464,6 +457,13 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "09-12",
+            "title": "特斯拉纽约致命车祸引争议：马斯克否认涉及 Autopilot 并嘲讽 ABC 等传统媒体“故意往特斯拉身上带节奏”",
+            "url": "https://www.ithome.com/1/001/550.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-11",
             "title": "优必选拿下5000万海外订单：机器人出海从“表演”进入“打工”",
@@ -670,6 +670,33 @@
       "category": "技术突破",
       "summary": "过去一年，具身智能最热闹的争论，不是某个模型的效果有多好，而是一个悬而未决的路线问题： 机器人 到底该走 VLA，还是走 WAM？两种路线看似针锋相对，内核却指向同一个出处，都建立在数字世界的大模型之上。VLA 是视觉语言模型向动作的延伸，WAM 则把视频生成模型搬到机器人身上。 行业争论的 VLA 和 WAM 两条路线，灵波都没有选。它走的是第三条，官方称…",
       "url": "https://www.tmtpost.com/8137542.html"
+    },
+    {
+      "date": "09-12",
+      "company": "其他",
+      "title": "探索RSI，生数新世界模型让机器人开始自我进化",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "触觉、记忆、Ego数据、自进化……这个世界模型全都有",
+      "url": "https://www.qbitai.com/2026/09/487752.html"
+    },
+    {
+      "date": "09-12",
+      "company": "其他",
+      "title": "外滩大会三问具身智能： 模型、数据、生态如何突围？",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "9月11日，蚂蚁灵波科技在2026 Inclusion·外滩大会举行“基座之上：具身智能的场景突围与协同进化”论坛。多位具身智能领域的年轻科学家、数据专家与百亿具身企业掌门人齐聚，围绕通用大脑、数据飞轮与场景落地展开讨论，现场座无虚席。 具身智能正处在一个焦灼时刻：行业热度不断升高，人们对机器人“真干活”的期待也越来越高，但技术路线尚未收敛，真正有效的数据仍…",
+      "url": "https://www.leiphone.com/category/industrynews/7lsrguW2f4twY8wp.html"
+    },
+    {
+      "date": "09-12",
+      "company": "特斯拉",
+      "title": "特斯拉纽约致命车祸引争议：马斯克否认涉及 Autopilot 并嘲讽 ABC 等传统媒体“故意往特斯拉身上带节奏”",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 9 月 12 日消息，据纽约市警察局（NYPD）通报，一辆 2024 款特斯拉 Model Y 于当地时间周三凌晨在曼哈顿发生致命车祸，造成车内一名乘客死亡。 特斯拉 CEO 埃隆 · 马斯克周四在 X 上反驳了 ABC News 对事故的报道，称该起事故与车辆本身及 Autopilot 系统无关。后续，ABC News 删除了原帖。 马斯克还表示…",
+      "url": "https://www.ithome.com/1/001/550.htm"
     },
     {
       "date": "09-11",
@@ -1084,33 +1111,6 @@
       "category": "产品量产",
       "summary": "Meltio has launched a US-assembled version of its Meltio Robot Cell, a robotic wire-laser metal additive manufacturing system aimed at industrial customers across the Americas. The…",
       "url": "https://roboticsandautomationnews.com/2026/09/09/meltio-launches-us-assembled-robot-cell-for-industrial-metal-3d-printing/104703/"
-    },
-    {
-      "date": "09-09",
-      "company": "其他",
-      "title": "Neura Robotics与SECO合作扩大欧洲人形机器人产能 (Neura Robotics and SECO partner to scale humanoid robot production in Europe)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Neura Robotics and embedded computing specialist SECO have formed a strategic partnership to develop and manufacture electronic compute modules for Neura’s cognitive robots, includ…",
-      "url": "https://roboticsandautomationnews.com/2026/09/09/neura-robotics-and-seco-partner-to-scale-humanoid-robot-production-in-europe/104696/"
-    },
-    {
-      "date": "09-09",
-      "company": "其他",
-      "title": "Dynamic Creatures走出隐身模式，推出互动角色机器人 (Dynamic Creatures emerges from stealth to launch interactive character robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Dynamic Creatures, a robotics startup founded by former Boston Dynamics, Google and Robotics and AI Institute executives, has emerged from stealth to develop mobile interactive cha…",
-      "url": "https://roboticsandautomationnews.com/2026/09/09/dynamic-creatures-emerges-from-stealth-to-launch-interactive-character-robots/104688/"
-    },
-    {
-      "date": "09-09",
-      "company": "其他",
-      "title": "全球首个诊脉灵巧手亮相，打造它的公司却说自己只做触觉",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "2026年以来，具身智能依旧是一级市场最受关注的赛道之一。本体、模型、场景和应用的竞争持续升温，连带着上游的传感器环节也一起热了起来。 触觉传感器，就是这条产业链上最先拥挤起来的环节之一。过去两年，涌进这个赛道的公司多达25家，数采设备、数据手套几乎成了标配动作。行业的主流叙事也很一致：具身智能缺触觉数据，谁先把数据攒起来，谁就握住了未来的燃料。 但在这股热…",
-      "url": "https://www.leiphone.com/category/robot/nDORMeqWgd7ZV76p.html"
     }
   ]
 }
