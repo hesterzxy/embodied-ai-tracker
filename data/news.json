@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T20:01:45.292458+08:00",
+  "updated": "2026-09-15T02:04:53.914870+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 12,
-      "core": 2,
+      "candidates": 11,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -53,7 +53,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 21,
+      "entries": 58,
+      "candidates": 23,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -114,10 +114,10 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 7,
-      "core": 7,
+      "candidates": 4,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 5,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
+      "candidates": 11,
       "core": 5,
-      "periphery": 0,
-      "new": 3
+      "periphery": 1,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 6,
-      "new": 2
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,40 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-14T20:02:24.758249+08:00",
-    "mode": "aicodewith",
-    "item_count": 7,
+    "generated_at": "2026-09-15T02:05:33.986689+08:00",
+    "mode": "local",
+    "item_count": 12,
     "insights": [
       {
-        "label": "多模态世界模型进入具身智能叙事中心",
-        "text": "李飞飞团队发布的 Atlas 按官方说法可同时处理文字、图片、视频和 3D，模型能力展示从单一模态扩展到多模态世界建模，但现有证据尚未包含真实任务效果或商业部署数据。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在今年 3 月的小米春季新品发布会上，宇树科技创始人王兴兴携宇树机器人到现场为新一代 SU7 站台；a robotics foundation model designed to enable robots to learn new manipulation tasks from a single video demonstration。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/002/308.htm",
+          "https://roboticsandautomationnews.com/2026/09/14/skild-ai-unveils-s1-robot-foundation-model-that-learns-tasks-from-video-demonstrations/104791/",
+          "https://www.leiphone.com/category/robot/Dq92tSkeaGMAL0rP.html"
+        ]
       },
       {
-        "label": "人形机器人竞争开始同时比价格与产品配置",
-        "text": "蓝虫具身发布模块化人形机器人 Mantis Standard“小白”，起售价 0.98 万元，宇树科技则推出标准版售价 9.5 万元的 G1+，厂商正把模块化、运动性能和感知交互与价格一并推向市场检验。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，官方称其为“全球首个”能同时处理文字、图片、视频和3D的多模态世界模型；在今年 3 月的小米春季新品发布会上，宇树科技创始人王兴兴携宇树机器人到现场为新一代 SU7 站台。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8139209.html",
+          "https://www.ithome.com/1/002/308.htm"
+        ]
       },
       {
-        "label": "融资继续流向巡检与机器人能力建设",
-        "text": "国巡机器人近半年完成两轮累计数千万融资，超维动力获超 5 亿元融资，公开信息分别指向巡检场景和 VLA、世界模型等能力建设，资本偏好已出现具体场景与底层能力并行的特征。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定；杭州国巡机器人科技有限公司（下称“国巡机器人”）近半年完成两轮累计数千万融资，由玖兆投资、粤科金融集团、梁创投联合投资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html",
+          "https://robot.ofweek.com/2026-09/ART-8321204-8120-30702856.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术突破聚焦多模态世界模型，Atlas按官方说法可同时处理文字、图片、视频和3D，但现有信息主要停留在能力发布，尚不足以判断其真实场景表现。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "09-14",
@@ -276,7 +286,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "本周产品端同时出现类脑认知世界模型发布、模块化人形机器人上市和宇树G1+升级，公开价格从0.98万元起至9.5万元，产品能力与成本开始接受市场比较。",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
           {
             "date": "09-14",
@@ -298,12 +308,33 @@
             "url": "https://www.ithome.com/1/002/133.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-14",
+            "title": "Universal Robots 在 IMTS 发布其第七代机器人平台 (Universal Robots launches its seventh generation robot platform at IMTS)",
+            "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "09-14",
+            "title": "Kinetic Blocks推出人形机器人训练数据市场 (Kinetic Blocks launches marketplace for humanoid robot training data)",
+            "url": "https://roboticsandautomationnews.com/2026/09/14/kinetic-blocks-launches-marketplace-for-humanoid-robot-training-data/104794/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-14",
+            "title": "Skild AI发布S1机器人基础模型，可通过视频演示学习任务 (Skild AI unveils S1 robot foundation model that learns tasks from video demonstrations)",
+            "url": "https://roboticsandautomationnews.com/2026/09/14/skild-ai-unveils-s1-robot-foundation-model-that-learns-tasks-from-video-demonstrations/104791/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "本周披露的融资包括国巡机器人近半年累计数千万融资及超维动力超5亿元融资，资金分别关联巡检机器人和VLA、世界模型等方向，场景与能力建设均受关注。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-14",
@@ -323,7 +354,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "优必选柳州工厂于9月12日投产，报道称其为全球首个万台级工厂；在现有证据下，行业信号主要体现为制造规模扩张，尚无产能利用率等数据。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-14",
@@ -331,6 +362,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702897.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-14",
+            "title": "小米雷军现身宇树科技，和王兴兴观看人形机器人表演",
+            "url": "https://www.ithome.com/1/002/308.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-14",
+            "title": "Renesas在北京成立物理AI与机器人实验室 (Renesas establishes physical AI and robotics lab in Beijing)",
+            "url": "https://roboticsandautomationnews.com/2026/09/14/renesas-establishes-physical-ai-and-robotics-lab-in-beijing/104788/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -399,6 +444,51 @@
       "category": "资本动态",
       "summary": "作者｜毛心如 具身智能的竞争，正在进入一个越来越较真的阶段。 早期，行业比的是谁先把机器人做出来；后来，比的是谁的动作更像人。 到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html"
+    },
+    {
+      "date": "09-14",
+      "company": "宇树科技",
+      "title": "小米雷军现身宇树科技，和王兴兴观看人形机器人表演",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 14 日消息，小米创办人、董事长兼 CEO 雷军今日现身宇树科技，在宇树科技创始人王兴兴的陪同下，实地探访并观看人形机器人表演。 在今年 3 月的小米春季新品发布会上，宇树科技创始人王兴兴携宇树机器人到现场为新一代 SU7 站台。雷军当时表示：“今年是（宇树科技）创业十周年。 谢谢你在五年前给了我们一个投资（宇树）的机会 ”。 IT之家注意…",
+      "url": "https://www.ithome.com/1/002/308.htm"
+    },
+    {
+      "date": "09-14",
+      "company": "其他",
+      "title": "Universal Robots 在 IMTS 发布其第七代机器人平台 (Universal Robots launches its seventh generation robot platform at IMTS)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
+    },
+    {
+      "date": "09-14",
+      "company": "其他",
+      "title": "Kinetic Blocks推出人形机器人训练数据市场 (Kinetic Blocks launches marketplace for humanoid robot training data)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Kinetic Blocks, an Oslo-based startup, has launched a beta version of what it describes as a two-sided marketplace for buying and selling training data for humanoid robots. The mar…",
+      "url": "https://roboticsandautomationnews.com/2026/09/14/kinetic-blocks-launches-marketplace-for-humanoid-robot-training-data/104794/"
+    },
+    {
+      "date": "09-14",
+      "company": "其他",
+      "title": "Skild AI发布S1机器人基础模型，可通过视频演示学习任务 (Skild AI unveils S1 robot foundation model that learns tasks from video demonstrations)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Skild AI has unveiled S1, a robotics foundation model designed to enable robots to learn new manipulation tasks from a single video demonstration without task-specific fine-tuning…",
+      "url": "https://roboticsandautomationnews.com/2026/09/14/skild-ai-unveils-s1-robot-foundation-model-that-learns-tasks-from-video-demonstrations/104791/"
+    },
+    {
+      "date": "09-14",
+      "company": "其他",
+      "title": "Renesas在北京成立物理AI与机器人实验室 (Renesas establishes physical AI and robotics lab in Beijing)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Renesas Electronics, a premier supplier of advanced semiconductor solutions, has announced the official opening of its Physical AI & Robotics Lab in Beijing, China. The new dedicat…",
+      "url": "https://roboticsandautomationnews.com/2026/09/14/renesas-establishes-physical-ai-and-robotics-lab-in-beijing/104788/"
     },
     {
       "date": "09-13",
@@ -741,51 +831,6 @@
       "category": "产品量产",
       "summary": "IT之家 9 月 10 日消息，乐聚机器人今日宣布，联合安徽电信、华为发布 全国首个 5G-A 具身智能专属套餐 「具身翼联」，同步落地业界首个 5G-A 具身人形 机器人园区 群体巡检应用示范。 据介绍，“ 具身翼联 ”是全国首个 5G-A 具身智能专属套餐。针对机器人高上行占比、低时延、多机并发需求，提供峰值上行 500Mbps、超低时延 20ms@95…",
       "url": "https://www.ithome.com/1/000/975.htm"
-    },
-    {
-      "date": "09-10",
-      "company": "其他",
-      "title": "Maven Robotics 想抢走你的机器人部署订单 (Maven Robotics wants to steal your robot deployment deal)",
-      "source_name": "TechCrunch Robotics",
-      "category": "商业订单",
-      "summary": "Maven Robotics emerged from stealth today with a $100 million Series A and active deployments.",
-      "url": "https://techcrunch.com/2026/09/10/maven-robotics-wants-to-steal-your-robot-deployment-deal/"
-    },
-    {
-      "date": "09-10",
-      "company": "其他",
-      "title": "Skild AI 借助 NVIDIA Physical AI 让机器人仅凭单段视频学会新任务 (Skild AI Taps NVIDIA Physical AI to Teach Robots New Tasks From a Single Video)",
-      "source_name": "NVIDIA Robotics",
-      "category": "行业动态",
-      "summary": "Manufacturing floors, warehouses and production lines rarely stay fixed — tasks change, layouts shift and new products arrive, and most robots can’t keep up without significant rep…",
-      "url": "https://blogs.nvidia.com/blog/skild-ai-s1-physical-ai/"
-    },
-    {
-      "date": "09-09",
-      "company": "其他",
-      "title": "Runway ARR 突破 2 亿美元：视频热潮转向世界模型押注",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "仅在第二季度就净增 ARR 超过 4000 万美元，人均营收约为 52 万美元",
-      "url": "https://www.tmtpost.com/8133572.html"
-    },
-    {
-      "date": "09-09",
-      "company": "宇树科技",
-      "title": "宇树实现人形机器人全自主格斗：擂台之上，自己出拳",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "9月7日晚，宇树科技发布了一段视频。两台人形机器人站在擂台上，没有遥控器，没有剧本，纯粹依靠自身AI模型实时决策，进行了一场约2分钟的完全自主搏击对抗。 这背后是宇树的UnifoLM-X2-1.0模型",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702274.html"
-    },
-    {
-      "date": "09-09",
-      "company": "其他",
-      "title": "韩国版人形机器人KAIROS亮相：170cm、80kg，能握手能抗推",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "9月7日，韩国机械与材料研究院（KIMM）在首尔举办“2026全球机械技术论坛”，主题为“机器人，Physical AI与未来产业生态”。论坛现场演示了KIMM正在开发的韩国型AI人形机器人“KAIR",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30702272.html"
     }
   ]
 }
