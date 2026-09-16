@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T18:59:57.845855+08:00",
+  "updated": "2026-09-17T00:18:38.135895+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 0,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 7,
-      "core": 2,
+      "candidates": 8,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 4,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 29,
-      "core": 0,
+      "entries": 59,
+      "candidates": 28,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -114,7 +114,7 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 4,
+      "candidates": 5,
       "core": 4,
       "periphery": 0,
       "new": 1
@@ -156,7 +156,7 @@
       "candidates": 14,
       "core": 7,
       "periphery": 4,
-      "new": 6
+      "new": 5
     },
     {
       "name": "The Robot Report",
@@ -180,7 +180,7 @@
       "error": "",
       "entries": 19,
       "candidates": 15,
-      "core": 8,
+      "core": 7,
       "periphery": 1,
       "new": 1
     },
@@ -195,7 +195,7 @@
       "candidates": 13,
       "core": 9,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,43 +240,38 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-16T19:00:37.938959+08:00",
-    "mode": "local",
-    "item_count": 33,
+    "generated_at": "2026-09-17T00:18:58.024181+08:00",
+    "mode": "aicodewith",
+    "item_count": 34,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在 IMTS国际制造技术展览会上，泰瑞达机器人旗下、全球协作工业机器人先驱优傲机器人（UR）正式发布其第七代机器人平台 Gen 7；9月12日，柳州北部生态新区，优必选万台级工业人形机器人超级智慧工厂投产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.gongkong.com/news/202609/453327.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8460-30703109.html",
-          "https://www.leiphone.com/category/industrynews/QDqnLfFb5wiTdPyd.html"
-        ]
+        "label": "落地验证转向可验收工位",
+        "text": "本周优傲发布Gen 7工业协作平台，优必选柳州万台级工业人形机器人工厂投产，天工机器人以仓库分拣场景完成数亿元A轮融资，RealMan计划在真实工作场所部署近1000台机器人，工厂、仓储和工作场所任务正成为具身智能能力验证的主要载体。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，2026年，世界模型逐渐从学术概念走向产业落地；官方称其为“全球首个”能同时处理文字、图片、视频和3D的多模态世界模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8140715.html",
-          "https://www.tmtpost.com/8139209.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8460-30703109.html"
-        ]
+        "label": "世界模型叙事开始绑定空间数据",
+        "text": "Atlas被称为可同时处理文字、图片、视频和3D的多模态世界模型，相关报道强调3D重建让世界模型进入可测量阶段，紫东太初ZDTaichu5.0-9B开源并突出空间具身能力，模型竞争正在从概念展示转向能否服务真实环境理解和任务闭环。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定；刚港股上市的梅卡曼德创始人公开质疑具身智能企业营收造假，点名银河通用，银河通用回应网络流传均属不实信息，不参与口水仗 据腾讯科技，9月10日晚间，银河通用回应近期围绕具身智能行业商业化及资本泡沫的争议。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-12008-30703084.html",
-          "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/"
-        ]
+        "label": "资本偏好场景清晰与商业可核验",
+        "text": "Maven Robotics获1亿美元融资用于扩大通用工业机器人规模，国巡机器人半年两轮融资聚焦巡检，超维动力融资超5亿元，同时银河通用遭遇营收争议并回应不实信息，融资热度仍在，但可定义场景、部署能力和收入真实性正在被更严密地审视。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术侧集中在多模态与世界模型，Atlas突出文字、图像、视频和3D处理能力，ZDTaichu5.0-9B开源，空间理解与可测量任务成为主要看点。",
         "items": [
+          {
+            "date": "09-16",
+            "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+            "url": "https://www.qbitai.com/2026/09/490839.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "09-15",
             "title": "Atlas用3D重建开路，世界模型进入可测量的新阶段",
@@ -295,7 +290,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品量产新闻覆盖UR Gen 7、宇树G1+、具脑Cog-WM 1.0和具身专用SIM卡，价格、平台化和通信配套开始共同参与能力验证。",
         "items": [
           {
             "date": "09-16",
@@ -392,7 +387,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业部署证据较少但指向真实场景，RealMan计划在工作场所部署近1000台机器人，另有报告关注手术机器人与仓库自动化的实际部署。",
         "items": [
           {
             "date": "09-16",
@@ -412,7 +407,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "资本动态延续活跃，Maven获1亿美元，国巡机器人半年两轮数千万融资，超维动力融资超5亿元，同时营收真实性争议抬高商业化审查强度。",
         "items": [
           {
             "date": "09-15",
@@ -453,7 +448,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业讨论围绕物理AI、数据路线和安全升级展开，优必选柳州工厂投产，Figure与特斯拉数据路径分化，Digit 5强化腿部、电池和安全架构。",
         "items": [
           {
             "date": "09-16",
@@ -529,7 +524,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链关注物理交互短板，Xspark AI提出机器人需要类似脊髓的架构，触觉并非替代视觉，而是补足真实接触控制与反馈能力。",
         "items": [
           {
             "date": "09-15",
@@ -569,6 +564,15 @@
       "category": "商业订单",
       "summary": "RealMan Robotics has launched a real-world robot deployment initiative based on its Global Link Network, or GLN, at the 2026 World Robot Conference in Beijing, where the company is…",
       "url": "https://roboticsandautomationnews.com/2026/09/16/realman-launches-global-link-network-robot-deployment-initiative-at-world-robot-conference-2026/104839/"
+    },
+    {
+      "date": "09-16",
+      "company": "其他",
+      "title": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "来了！这一次， 国产多模态 在物理世界也夯起来了—— 九大国际权威空间理解基准测试中， 八项断档第一 ，通用能力还能不打折。 紫东太初最新开源的通用多模态大模型 ZDTaichu5.0-9B ，直接把10B以下通用模型空间具身的天花板又往上顶了一大截。 这里可能就有朋友要问了，让多模态看懂真实世界，为啥值得单拎出来说？ 过去的多模态模型，已经能把一张图片理解…",
+      "url": "https://www.qbitai.com/2026/09/490839.html"
     },
     {
       "date": "09-15",
@@ -983,15 +987,6 @@
       "category": "产品量产",
       "summary": "目前，我国企业已具备机器人拖链电缆用铜导体、特柔软铜绞线、镀锡铜导体规模化生产实力，这将为机器人拖链电缆行业发展奠定良好基础。 机器人拖链电缆是一类专为机器人设计的高柔性特种电缆，能够承受机器人关节和",
       "url": "https://robot.ofweek.com/2026-09/ART-8321201-8420-30702722.html"
-    },
-    {
-      "date": "09-11",
-      "company": "宇树科技",
-      "title": "宇树跌破500元，一级市场融资连续下跌，机器人步入冷静期",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "导语：等待下一个引爆点。 宇树，跌到头了吗？ 9月10日，宇树股价跌2.99%报收498.55元，首次跌破500元整数关口，创下上市以来股价新低。与上月上市首日开盘峰值4449亿元相比，市值已经蒸发超",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30702702.html"
     }
   ]
 }
