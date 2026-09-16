@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T04:57:40.917858+08:00",
+  "updated": "2026-09-16T11:43:33.444920+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,7 +36,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 11,
       "core": 4,
       "periphery": 0,
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 1,
+      "entries": 15,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 16,
-      "core": 1,
+      "entries": 58,
+      "candidates": 13,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -127,8 +127,8 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 9,
+      "candidates": 20,
+      "core": 8,
       "periphery": 0,
       "new": 1
     },
@@ -205,7 +205,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 15,
+      "candidates": 14,
       "core": 8,
       "periphery": 2,
       "new": 1
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-16T04:58:21.164238+08:00",
+    "generated_at": "2026-09-16T11:44:13.518421+08:00",
     "mode": "local",
     "item_count": 30,
     "insights": [
