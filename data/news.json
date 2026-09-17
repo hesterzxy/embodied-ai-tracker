@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-17T11:48:38.023465+08:00",
+  "updated": "2026-09-17T19:08:58.976790+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 8,
+      "entries": 17,
+      "candidates": 9,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 1,
-      "core": 0,
+      "entries": 18,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 2,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 31,
-      "core": 1,
+      "entries": 56,
+      "candidates": 19,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 0,
-      "new": 7
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 9,
+      "candidates": 10,
+      "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,42 +240,30 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-17T11:49:18.115377+08:00",
-    "mode": "local",
-    "item_count": 40,
+    "generated_at": "2026-09-17T19:09:23.455028+08:00",
+    "mode": "aicodewith",
+    "item_count": 42,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在 IMTS国际制造技术展览会上，泰瑞达机器人旗下、全球协作工业机器人先驱优傲机器人（UR）正式发布其第七代机器人平台 Gen 7；9月12日，柳州北部生态新区，优必选万台级工业人形机器人超级智慧工厂投产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.gongkong.com/news/202609/453327.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8460-30703109.html",
-          "https://www.leiphone.com/category/industrynews/QDqnLfFb5wiTdPyd.html"
-        ]
+        "label": "落地验证偏向可验收工位",
+        "text": "本周工厂、仓库、巡检等场景继续成为具身智能验证主线，优必选柳州万台级工业人形机器人超级智慧工厂投产，天工机器人在仓库分拣场景推进并完成数亿元A轮融资，Optimus首批外部交付也被确认优先面向工业场景，行业对真实任务闭环的关注高于泛化叙事。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，2026年，世界模型逐渐从学术概念走向产业落地；官方称其为“全球首个”能同时处理文字、图片、视频和3D的多模态世界模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8140715.html",
-          "https://www.tmtpost.com/8139209.html",
-          "https://www.qbitai.com/2026/09/490950.html"
-        ]
+        "label": "世界模型进入任务化表达",
+        "text": "Atlas被官方称为可同时处理文字、图片、视频和3D的多模态世界模型，并以3D重建切入可测量能力，紫东太初5.0-9B开源强调空间具身智能，小米强化学习训练直播显示模型训练成本仍高，模型进展正在从概念发布转向数据、空间和算力约束下的能力验证。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定；9月16日，深圳具身感知企业帕西尼，完成数亿元B++轮融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-12003-30703544.html",
-          "https://robot.ofweek.com/2026-09/ART-8321200-8460-30703517.html"
-        ]
+        "label": "资本流向能力短板补齐",
+        "text": "帕西尼完成数亿元B++轮融资并获得三星、比亚迪等投资，地瓜机器人完成4亿美元C轮融资，超维动力融资超5亿元，国巡机器人半年两轮融资数千万，资金更集中投向感知、软硬一体基础设施、进化学习和巡检等明确能力或场景，而非单纯押注整机概念。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "世界模型和强化学习是本周技术主线，Atlas强调文字、图片、视频和3D融合，紫东太初5.0-9B开源，小米展示强化学习训练成本，技术叙事更贴近可测量空间能力。",
         "items": [
           {
             "date": "09-17",
@@ -283,6 +271,13 @@
             "url": "https://www.qbitai.com/2026/09/490950.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "09-17",
+            "title": "世界模型入口战：字节向左，京东向右",
+            "url": "https://www.tmtpost.com/8143284.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "09-16",
@@ -309,7 +304,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产侧同时出现工业协作平台、人形机器人升级和通信套餐，UR发布Gen 7，宇树推出G1+，Optimus确认2027年面向外部客户交付，规模化仍围绕价格、工艺和工业落地推进。",
         "items": [
           {
             "date": "09-17",
@@ -413,7 +408,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业订单证据较少，RealMan计划在真实工作场所部署近1000台机器人，另有仓库自动化和手术机器人案例讨论，已披露信息更偏向部署计划和方法论，而非大规模验收结果。",
         "items": [
           {
             "date": "09-16",
@@ -433,7 +428,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "融资集中在感知、基础设施、通用工业机器人和巡检机器人，帕西尼、地瓜机器人、超维动力、Maven Robotics等获得资金，资本继续寻找可定义能力与真实场景结合点。",
         "items": [
           {
             "date": "09-17",
@@ -448,6 +443,13 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321200-8460-30703517.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-17",
+            "title": "Agility发布Digit 5人形机器人，上市前订单额突破3亿美元 (Agility unveils Digit 5 humanoid as orders exceed $300 million ahead of public listing)",
+            "url": "https://roboticsandautomationnews.com/2026/09/17/agility-unveils-digit-5-humanoid-as-orders-exceed-300-million-ahead-of-public-listing/104857/",
+            "company": "Agility Robotics",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-15",
@@ -488,7 +490,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业动态围绕工厂建设、真实数据和商业化争议展开，优必选柳州工厂投产，Optimus德州厂房施工加速，Figure与特斯拉路线差异被讨论，IPO和营收真实性也受到关注。",
         "items": [
           {
             "date": "09-17",
@@ -578,7 +580,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链关注点落在物理交互短板，Xspark AI提出机器人需要类似脊髓的架构，触觉不能替代视觉但可补全交互能力，供应链机会更依赖具体性能瓶颈。",
         "items": [
           {
             "date": "09-15",
@@ -645,6 +647,24 @@
       "category": "产品量产",
       "summary": "9月15日，International Business Times 报道，马斯克再次确认Optimus将于 2027 年开始向商业客户交付，首批优先落地工业场景，替代危险、高重复性工位。而官方口径同",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30703494.html"
+    },
+    {
+      "date": "09-17",
+      "company": "其他",
+      "title": "世界模型入口战：字节向左，京东向右",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "世界模型带来的不仅是技术变革，更是人机交互方式的根本转变",
+      "url": "https://www.tmtpost.com/8143284.html"
+    },
+    {
+      "date": "09-17",
+      "company": "Agility Robotics",
+      "title": "Agility发布Digit 5人形机器人，上市前订单额突破3亿美元 (Agility unveils Digit 5 humanoid as orders exceed $300 million ahead of public listing)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Agility Robotics has unveiled Digit 5, the latest generation of its humanoid robot, as the company reports more than $300 million in multi-year customer orders and prepares to beco…",
+      "url": "https://roboticsandautomationnews.com/2026/09/17/agility-unveils-digit-5-humanoid-as-orders-exceed-300-million-ahead-of-public-listing/104857/"
     },
     {
       "date": "09-16",
@@ -1023,24 +1043,6 @@
       "category": "行业动态",
       "summary": "IT之家 9 月 12 日消息，据柳州市融媒体中心“柳州 1 号”公众号，9 月 12 日，柳州优必选万台级工业人形机器人超级智慧工厂投产仪式在北部生态新区举行。 该超级智慧工厂是优必选打造的 全球首个适配万台级产能 的工业人形机器人智能制造标杆工厂，依托工业仿真系统智能规划、数字化“智慧大脑”全域调度，真正落地“用机器人造机器人”新质生产力智造模式，按照产…",
       "url": "https://www.ithome.com/1/001/635.htm"
-    },
-    {
-      "date": "09-11",
-      "company": "其他",
-      "title": "让机器狗替你买东西：支付宝宣布首推“AI 付 · 具身智能”，网友戏称“狗腿付”",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 9 月 11 日消息，支付宝今日宣布和高德动量合作， 首次把 AI 支付能力用在具身机器上 ，产品名称为“AI 付 · 具身智能”，网友戏称为“狗腿付”。 高德动量机器狗“途途”可以遵照指令， 帮忙跑腿，并完成支付 ，真正实现帮主人“打酱油”的任务，整个过程都在主人的授权范围内。 支付宝官方介绍称，“AI 付”应用蚂蚁集团自主打造的 APASS 商…",
-      "url": "https://www.ithome.com/1/001/145.htm"
-    },
-    {
-      "date": "09-11",
-      "company": "其他",
-      "title": "乐动机器人于CIOE 2026重磅发布多款激光雷达新品，以感知核心驱动产业变革",
-      "source_name": "OFweek机器人",
-      "category": "泛具身产业链",
-      "summary": "> 2026年中国国际光电博览会（CIOE）于今日在深圳国际会展中心盛大开幕，全球光电及相关领域企业齐聚一堂，共襄行业盛举。作为全球领先的移动机器人感知技术解决方案提供商，深圳乐动机器人股份有限公司（以下 零部件 | <",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8120-30702683.html"
     }
   ]
 }
