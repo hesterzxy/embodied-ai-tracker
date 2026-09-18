@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T23:59:26.047618+08:00",
+  "updated": "2026-09-19T04:33:15.603009+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -92,7 +92,7 @@
       "candidates": 18,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 7,
       "periphery": 0,
-      "new": 3
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 7,
+      "candidates": 11,
+      "core": 10,
       "periphery": 1,
-      "new": 2
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 6,
-      "new": 1
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-18T23:59:45.282288+08:00",
+    "generated_at": "2026-09-19T04:33:37.895291+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收工位",
-        "text": "本周具身智能落地线索集中在工厂、维修、巡检和搬运等边界较清晰的任务，Agility Robotics发布Digit 5并披露订单额超过3亿美元，Digit 5具备人员靠近自动减速、停止、下蹲并关闭电机等安全机制，最大搬运能力23公斤，Optimus也被再次指向2027年面向商业客户交付且首批优先工业场景，短期竞争焦点更接近安全、负载、部署数量和客户验收，而不是泛化叙事本身",
+        "label": "验收任务压过概念展示",
+        "text": "具身智能落地验证正在向工厂、维修、巡检等可验收任务集中，Digit 5发布时强调人员靠近可减速、停止、下蹲并关闭电机，最大搬运23公斤且订单额达到3亿美元，特斯拉也被曝针对Optimus启动量产审厂，安全、负载、交付和订单开始共同构成能力可信度。",
         "evidence_urls": []
       },
       {
-        "label": "量产审厂成为能力验证环节",
-        "text": "特斯拉被曝9月16日团队落地宁波并于17日启动Optimus机器人业务新一轮量产审厂，优傲机器人在IMTS发布第七代Gen 7平台，Booster K1探索版以38999元发售，Nvidia推出面向机器人与边缘AI的Jetson Orin Nano 2，供应链、平台化和价格开始共同进入市场评估体系，机器人能力正在被制造准备度和可采购性重新定价",
+        "label": "模型竞争转向真实闭环",
+        "text": "模型叙事从通用概念转向数据、任务和算力闭环，Atlas以3D重建推动世界模型进入可测量阶段，小米强化学习训练直播被报道一小时消耗约3万美元，特斯拉AI5芯片也被曝在三星得州工厂以2nm工艺试产，后续竞争更依赖可复现实验、训练效率和端侧算力支撑。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向基础设施和感知短板",
-        "text": "地瓜机器人完成4亿美元C轮融资，并被报道已有800万片芯片和50%客户覆盖率，帕西尼完成数亿元B++轮融资且投资方包括三星、比亚迪，Xspark AI提出用类似机器人脊髓的架构补全物理交互短板，资金更集中流向芯片、感知和软硬一体基础设施，单纯Demo对融资叙事的支撑力度在减弱",
+        "label": "资本沿瓶颈补位",
+        "text": "资本更集中投向可定义场景和能力短板，地瓜机器人完成4亿美元C轮并强调软硬一体机器人基础设施，帕西尼完成数亿元B++轮融资并聚焦具身感知，触觉和机器人脊髓架构也被提出补齐物理交互短板，融资逻辑更靠近量产配套和性能瓶颈。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、多模态、强化学习和基础设施展开，Atlas 3D重建、ZDTaichu5.0-9B开源与小米强化学习训练直播显示模型能力正被放到可测量任务和真实算力成本中检验。",
+        "summary": "本周技术突破集中在世界模型、强化学习和多模态模型，Atlas 3D重建、小米训练直播等案例把进展更多放到可测量数据与算力投入上。",
         "items": [
           {
             "date": "09-18",
@@ -311,7 +311,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产侧出现多条可采购和可制造信号，特斯拉被曝启动Optimus量产审厂，优傲发布Gen 7平台，Figure更新Helix 2.5，Booster K1以38999元发售，产品化节奏明显加快。",
+        "summary": "产品量产侧同时出现特斯拉Optimus审厂、优傲Gen 7平台、Figure Helix 2.5和Booster K1发售，量产准备、平台迭代与价格披露并行。",
         "items": [
           {
             "date": "09-18",
@@ -347,6 +347,27 @@
             "url": "https://www.ithome.com/1/004/343.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-18",
+            "title": "EIT将AI计划扩展至机器人领域，并启动欧洲创始人项目，计划发放8000万欧元 (EIT expands AI initiative to robotics and launches European founders program with €80 million to give away)",
+            "url": "https://roboticsandautomationnews.com/2026/09/18/eit-expands-ai-initiative-to-robotics-and-launches-european-founders-program/104948/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-18",
+            "title": "Embodied AI 推出机器人员工队伍，旨在“解决欧洲制造业危机 (Embodied AI launches a robotic workforce to ‘solve the European manufacturing crisis’)",
+            "url": "https://roboticsandautomationnews.com/2026/09/18/embodied-ai-launches-a-robotic-workforce-to-solve-the-european-manufacturing-crisis/104939/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-18",
+            "title": "Agibot称其2026年上半年全球人形机器人出货量居首 (Agibot claims top spot in global humanoid robot shipments in first half of 2026)",
+            "url": "https://roboticsandautomationnews.com/2026/09/18/agibot-claims-top-spot-in-global-humanoid-robot-shipments-in-first-half-of-2026/104930/",
+            "company": "智元机器人",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-17",
@@ -389,33 +410,12 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30703125.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-15",
-            "title": "全国首个具身智能机器人专用 SIM 卡发布：套餐 599 元起，峰值上行 500Mbps",
-            "url": "https://www.ithome.com/1/002/714.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-15",
-            "title": "人形机器人的量产死结，被一家车企先解开了",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703253.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-15",
-            "title": "预计到2040年，人形机器人年出货量将飙升至2600万台 (Humanoid robot shipments forecast to surge to 26 million a year by 2040)",
-            "url": "https://roboticsandautomationnews.com/2026/09/15/humanoid-robot-shipments-forecast-to-surge-to-26-million-a-year-by-2040/104816/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "订单侧以真实场景部署为主，Agility发布Digit 5并披露超过3亿美元订单，RealMan计划在真实工作场所部署近1000台机器人，Lucid计划在欧洲多城部署至少2.5万辆Robotaxi。",
+        "summary": "商业订单仍围绕真实部署展开，Digit 5凭安全交互和23公斤搬运能力获得3亿美元订单，RealMan也计划在真实工作场所部署近1000台机器人。",
         "items": [
           {
             "date": "09-18",
@@ -442,7 +442,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续流向可定义能力和基础设施，地瓜机器人完成4亿美元C轮融资，帕西尼完成数亿元B++轮融资，Agility订单披露也出现在上市前节点，融资关注点更靠近量产与造血。",
+        "summary": "资本动态以大额融资和并购为主，地瓜机器人4亿美元C轮、帕西尼数亿元B++轮、软银收购相关研究机构，资金更偏向基础设施和感知能力。",
         "items": [
           {
             "date": "09-18",
@@ -464,6 +464,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703719.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-18",
+            "title": "软银同意收购 Robotics and AI Institute (SoftBank agrees to acquire Robotics and AI Institute)",
+            "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "09-18",
+            "title": "F-Prime Capital 将在 RoboBusiness 解读机器人投资现状 (F-Prime Capital to give insights on the state of robotics investments at RoboBusiness)",
+            "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "09-17",
@@ -513,26 +527,12 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-12008-30703084.html",
             "company": "银河通用",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-15",
-            "title": "Maven Robotics获1亿美元融资，扩大通用工业机器人规模 (Maven Robotics launches with $100 million funding to scale general-purpose industrial robots)",
-            "url": "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/",
-            "company": "行业",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-15",
-            "title": "Bosch Ventures投资Asylon Robotics (Bosch Ventures invests in Asylon Robotics)",
-            "url": "https://roboticsandautomationnews.com/2026/09/15/bosch-ventures-invests-in-asylon-robotics/104799/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论从概念热度转向生产闭环和供应链进度，特斯拉AI5芯片被曝在三星得州2nm工厂试产，Figure展示陌生家庭任务，Optimus德州工厂建设进度也受到关注。",
+        "summary": "行业动态中，特斯拉AI5试产和Optimus工厂施工进展强化量产预期，Figure进入陌生家庭测试，业内仍认为真正承担家庭实用工作需要时间。",
         "items": [
           {
             "date": "09-18",
@@ -617,19 +617,12 @@
             "url": "https://www.leiphone.com/category/ai/ThVhOdBYKbsqZo8f.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-15",
-            "title": "Agility 的 Digit 5 人形机器人迎来新腿部、电池和安全升级 (Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades)",
-            "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
-            "company": "Agility Robotics",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链关注芯片、感知和物理交互补短板，地瓜机器人以800万片芯片、50%客户覆盖率和4亿美元融资强化基础设施定位，触觉与机器人脊髓架构成为补足交互能力的方向。",
+        "summary": "产业链关注芯片、仿真和触觉等底层环节，地瓜机器人披露800万片芯片与50%客户覆盖率，Xspark AI强调触觉之外还需机器人脊髓架构。",
         "items": [
           {
             "date": "09-18",
@@ -637,6 +630,13 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321201-12005-30703675.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-18",
+            "title": "Lumos Robotics 推出新仿真环境，让机器人更“即插即用 (Lumos Robotics launches new simulation environment to ‘make robots more plug-and-play’)",
+            "url": "https://roboticsandautomationnews.com/2026/09/18/lumos-robotics-launches-new-simulation-environment-to-make-robots-more-plug-and-play/104933/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-15",
@@ -811,6 +811,60 @@
       "category": "行业动态",
       "summary": "IT之家 9 月 18 日消息，据路透社今天（18 日）晚间报道，清华大学机器人学助理教授、千寻智能联合创始人兼首席科学家高阳预计，最快从明年开始，人形机器人就能 听懂口头指令并完成大多数通用任务 ，但真正进入家庭、承担实用工作仍需时日。 中国人形机器人的硬件能力近年快速提升，冲刺、跳舞甚至按指令完成后空翻都已不成问题。机器人企业的竞争重心也随之转向软件，目…",
       "url": "https://www.ithome.com/1/004/327.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "软银同意收购 Robotics and AI Institute (SoftBank agrees to acquire Robotics and AI Institute)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "F-Prime Capital 将在 RoboBusiness 解读机器人投资现状 (F-Prime Capital to give insights on the state of robotics investments at RoboBusiness)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Sanjay Aggarwal and Betsy Mulé of F-Prime Capital will unveil the firm's State of Robotics Investments report at RoboBusiness. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "EIT将AI计划扩展至机器人领域，并启动欧洲创始人项目，计划发放8000万欧元 (EIT expands AI initiative to robotics and launches European founders program with €80 million to give away)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "The EIT AI Community has expanded its remit to become the EIT AI & Robotics Community, a pan-European initiative designed to support the development and commercialization of artifi…",
+      "url": "https://roboticsandautomationnews.com/2026/09/18/eit-expands-ai-initiative-to-robotics-and-launches-european-founders-program/104948/"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "Embodied AI 推出机器人员工队伍，旨在“解决欧洲制造业危机 (Embodied AI launches a robotic workforce to ‘solve the European manufacturing crisis’)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "What Europeans take for granted – high quality of life, wages and strong protections – is not guaranteed. With most of high-volume production moving to Asia, European competitivene…",
+      "url": "https://roboticsandautomationnews.com/2026/09/18/embodied-ai-launches-a-robotic-workforce-to-solve-the-european-manufacturing-crisis/104939/"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "Lumos Robotics 推出新仿真环境，让机器人更“即插即用 (Lumos Robotics launches new simulation environment to ‘make robots more plug-and-play’)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "New embodied AI platform cuts robotic skill development from weeks to days, helping enterprises create, deploy and continuously improve robot skills without building a full in-hous…",
+      "url": "https://roboticsandautomationnews.com/2026/09/18/lumos-robotics-launches-new-simulation-environment-to-make-robots-more-plug-and-play/104933/"
+    },
+    {
+      "date": "09-18",
+      "company": "智元机器人",
+      "title": "Agibot称其2026年上半年全球人形机器人出货量居首 (Agibot claims top spot in global humanoid robot shipments in first half of 2026)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Agibot ranked first globally for humanoid robot shipments in the first half of 2026, shipping approximately 9,700 units and accounting for more than 43 percent of the global market…",
+      "url": "https://roboticsandautomationnews.com/2026/09/18/agibot-claims-top-spot-in-global-humanoid-robot-shipments-in-first-half-of-2026/104930/"
     },
     {
       "date": "09-17",
@@ -1045,60 +1099,6 @@
       "category": "技术突破",
       "summary": "2026年，世界模型逐渐从学术概念走向产业落地。 World Labs收购了机器人仿真公司SceniX，英伟达的Cosmos绑定算力主攻仿真，谷歌的Genie系列持续迭代。国内Manifold AI发布自研世界模型WorldScape登顶多个榜单，摩尔线程开源全栈仿真平台MT Lambda完成Sim2Real真机验证。 各大玩家都在加速布局，但路线分歧也越来…",
       "url": "https://www.tmtpost.com/8140715.html"
-    },
-    {
-      "date": "09-15",
-      "company": "其他",
-      "title": "全国首个具身智能机器人专用 SIM 卡发布：套餐 599 元起，峰值上行 500Mbps",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 15 日消息，据“深圳发布”公众号昨日发文，深圳企业乐聚近日联合安徽电信、华为发布全国首个 5G-A 具身智能专属套餐「具身翼联」。 IT之家从原报道获悉，「具身翼联」是全国首个专为具身智能机器人打造的专用 SIM 卡。针对机器人高上行占比、低时延、多机并发需求， 提供峰值上行 500Mbps 、超低时延 20ms@95% 及业务优先调度保…",
-      "url": "https://www.ithome.com/1/002/714.htm"
-    },
-    {
-      "date": "09-15",
-      "company": "其他",
-      "title": "人形机器人的量产死结，被一家车企先解开了",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "> 1913年，福特发明流水线之前，汽车均由手工打造，装配一辆车需要花费大量时间，是名副其实的奢侈品。流水线出现后，装配时间缩短到93分钟，成本大幅下降，汽车才真正走进普通人的生活。 现在的人形机器人，很 人形机器人",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703253.html"
-    },
-    {
-      "date": "09-15",
-      "company": "其他",
-      "title": "预计到2040年，人形机器人年出货量将飙升至2600万台 (Humanoid robot shipments forecast to surge to 26 million a year by 2040)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "According to a new research report from the IoT market research firm Berg Insight, the humanoid robotics industry has entered an early phase of long-term commercial growth. Berg In…",
-      "url": "https://roboticsandautomationnews.com/2026/09/15/humanoid-robot-shipments-forecast-to-surge-to-26-million-a-year-by-2040/104816/"
-    },
-    {
-      "date": "09-15",
-      "company": "行业",
-      "title": "Maven Robotics获1亿美元融资，扩大通用工业机器人规模 (Maven Robotics launches with $100 million funding to scale general-purpose industrial robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Maven Robotics, an intelligent industrial robotics company, has officially launched and has announced $100 million in Series A funding from RoboStrategy, LocalGlobe, Vine Ventures,…",
-      "url": "https://roboticsandautomationnews.com/2026/09/15/maven-robotics-launches-with-100-million-funding-to-scale-general-purpose-industrial-robots/104812/"
-    },
-    {
-      "date": "09-15",
-      "company": "其他",
-      "title": "Bosch Ventures投资Asylon Robotics (Bosch Ventures invests in Asylon Robotics)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Bosch Ventures has announced an investment in Asylon Robotics to accelerate the development and deployment of autonomous, AI-enabled robotic systems for security, inspection, and o…",
-      "url": "https://roboticsandautomationnews.com/2026/09/15/bosch-ventures-invests-in-asylon-robotics/104799/"
-    },
-    {
-      "date": "09-15",
-      "company": "Agility Robotics",
-      "title": "Agility 的 Digit 5 人形机器人迎来新腿部、电池和安全升级 (Agility’s Digit 5 humanoid has new legs, batteries and safety upgrades)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
     }
   ]
 }
