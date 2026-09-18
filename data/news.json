@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T18:43:31.092046+08:00",
+  "updated": "2026-09-18T23:59:26.047618+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -53,7 +53,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -66,7 +66,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 17,
-      "core": 0,
+      "entries": 58,
+      "candidates": 18,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -114,10 +114,10 @@
       "attempts": 1,
       "error": "",
       "entries": 31,
-      "candidates": 5,
-      "core": 4,
+      "candidates": 6,
+      "core": 5,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 8,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,7 +179,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 15,
+      "candidates": 14,
       "core": 7,
       "periphery": 1,
       "new": 0
@@ -195,7 +195,7 @@
       "candidates": 9,
       "core": 7,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 6,
-      "new": 2
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-18T18:43:45.088026+08:00",
+    "generated_at": "2026-09-18T23:59:45.282288+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证转向可验收工位",
-        "text": "Digit 5发布时突出人员靠近自动减速、下蹲断电和23公斤搬运能力，并拿到3亿美元订单，UR发布Gen 7平台，优必选柳州万台级工业人形机器人工厂投产，近期验证重心更集中在搬运、工业自动化和工厂部署等任务，安全边界、负载能力和交付规模正在成为客户判断价值的核心指标。",
+        "text": "本周具身智能落地线索集中在工厂、维修、巡检和搬运等边界较清晰的任务，Agility Robotics发布Digit 5并披露订单额超过3亿美元，Digit 5具备人员靠近自动减速、停止、下蹲并关闭电机等安全机制，最大搬运能力23公斤，Optimus也被再次指向2027年面向商业客户交付且首批优先工业场景，短期竞争焦点更接近安全、负载、部署数量和客户验收，而不是泛化叙事本身",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始绑定真实闭环",
-        "text": "Atlas以3D重建推动世界模型进入可测量阶段，小米强化学习训练直播暴露高昂算力消耗，特斯拉AI5芯片据称已在三星得州2nm产线试产，模型能力竞争不再只停留在概念表达，而是被数据采集、训练成本和专用算力进度共同约束。",
+        "label": "量产审厂成为能力验证环节",
+        "text": "特斯拉被曝9月16日团队落地宁波并于17日启动Optimus机器人业务新一轮量产审厂，优傲机器人在IMTS发布第七代Gen 7平台，Booster K1探索版以38999元发售，Nvidia推出面向机器人与边缘AI的Jetson Orin Nano 2，供应链、平台化和价格开始共同进入市场评估体系，机器人能力正在被制造准备度和可采购性重新定价",
         "evidence_urls": []
       },
       {
-        "label": "资本流向量产基础设施与感知短板",
-        "text": "地瓜机器人完成4亿美元C轮融资并强调机器人基础设施定位，帕西尼获得数亿元B++轮融资且有三星、比亚迪等产业方参与，资金更偏向芯片、软硬一体和感知等可定义环节，单纯Demo叙事的融资说服力在下降。",
+        "label": "资本偏向基础设施和感知短板",
+        "text": "地瓜机器人完成4亿美元C轮融资，并被报道已有800万片芯片和50%客户覆盖率，帕西尼完成数亿元B++轮融资且投资方包括三星、比亚迪，Xspark AI提出用类似机器人脊髓的架构补全物理交互短板，资金更集中流向芯片、感知和软硬一体基础设施，单纯Demo对融资叙事的支撑力度在减弱",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术侧围绕世界模型、多模态和强化学习展开，Atlas 3D重建、ZDTaichu5.0-9B开源与小米强化学习训练显示能力进展正被可测量任务和算力成本共同检验。",
+        "summary": "技术侧围绕世界模型、多模态、强化学习和基础设施展开，Atlas 3D重建、ZDTaichu5.0-9B开源与小米强化学习训练直播显示模型能力正被放到可测量任务和真实算力成本中检验。",
         "items": [
           {
             "date": "09-18",
@@ -271,6 +271,13 @@
             "url": "https://www.tmtpost.com/8144542.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "09-18",
+            "title": "具身智能技术路线尚未定型，基础设施却先收敛",
+            "url": "https://www.qbitai.com/2026/09/492238.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "09-17",
@@ -304,7 +311,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧集中发布面向工业、家庭和边缘AI的新品，Figure Helix 2.5、Booster K1、Jetson Orin Nano 2和UR Gen 7共同指向量产能力、价格门槛与场景适配的竞争。",
+        "summary": "量产侧出现多条可采购和可制造信号，特斯拉被曝启动Optimus量产审厂，优傲发布Gen 7平台，Figure更新Helix 2.5，Booster K1以38999元发售，产品化节奏明显加快。",
         "items": [
           {
             "date": "09-18",
@@ -333,6 +340,13 @@
             "url": "https://roboticsandautomationnews.com/2026/09/18/nvidia-unveils-jetson-orin-nano-2-for-robotics-and-edge-ai/104918/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-18",
+            "title": "消息称特斯拉针对 Optimus 机器人业务启动量产审厂，多家供应链企业回应",
+            "url": "https://www.ithome.com/1/004/343.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
           },
           {
             "date": "09-17",
@@ -401,7 +415,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单侧出现人形机器人和Robotaxi两类落地信号，Digit 5在安全协作与23公斤搬运能力基础上获得3亿美元订单，Lucid计划在欧洲部署至少2.5万辆Robotaxi。",
+        "summary": "订单侧以真实场景部署为主，Agility发布Digit 5并披露超过3亿美元订单，RealMan计划在真实工作场所部署近1000台机器人，Lucid计划在欧洲多城部署至少2.5万辆Robotaxi。",
         "items": [
           {
             "date": "09-18",
@@ -428,7 +442,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本事件集中在基础设施、感知和具身企业融资，地瓜机器人4亿美元C轮、帕西尼数亿元B++轮及Agility上市前订单披露，显示资金更看重明确场景与能力补齐。",
+        "summary": "资本继续流向可定义能力和基础设施，地瓜机器人完成4亿美元C轮融资，帕西尼完成数亿元B++轮融资，Agility订单披露也出现在上市前节点，融资关注点更靠近量产与造血。",
         "items": [
           {
             "date": "09-18",
@@ -513,19 +527,12 @@
             "url": "https://roboticsandautomationnews.com/2026/09/15/bosch-ventures-invests-in-asylon-robotics/104799/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-14",
-            "title": "半年两轮！杭州巡检机器人研发商，融资数千万",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321204-8120-30702856.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业侧从工厂建设、芯片试产到家庭测试同步推进，特斯拉Optimus厂房施工加速、AI5据称2nm试产，Figure进入30个陌生家庭，优必选柳州工厂投产。",
+        "summary": "行业讨论从概念热度转向生产闭环和供应链进度，特斯拉AI5芯片被曝在三星得州2nm工厂试产，Figure展示陌生家庭任务，Optimus德州工厂建设进度也受到关注。",
         "items": [
           {
             "date": "09-18",
@@ -554,6 +561,13 @@
             "url": "https://www.ifanr.com/1680884?utm_source=rss&utm_medium=rss&utm_campaign=",
             "company": "Figure",
             "source_name": "爱范儿"
+          },
+          {
+            "date": "09-18",
+            "title": "千寻智能联合创始人高阳：人形机器人最快明年就能“听懂人话”，真正“帮人做事”仍需时日",
+            "url": "https://www.ithome.com/1/004/327.htm",
+            "company": "千寻智能",
+            "source_name": "IT之家"
           },
           {
             "date": "09-17",
@@ -610,26 +624,12 @@
             "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/",
             "company": "Agility Robotics",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-15",
-            "title": "Digit或将成为首个真正安全的人形机器人工作者 (Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe)",
-            "url": "https://spectrum.ieee.org/humanoid-robot-safety",
-            "company": "其他",
-            "source_name": "IEEE Spectrum Robotics"
-          },
-          {
-            "date": "09-14",
-            "title": "机器人造机器人！全球首个万台级工厂投产，优必选这次赌大了",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702897.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链关注芯片平台和物理交互短板，地瓜机器人以800万片芯片、50%客户覆盖率和4亿美元融资强化基础设施定位，Xspark AI强调机器人需要类脊髓架构。",
+        "summary": "产业链关注芯片、感知和物理交互补短板，地瓜机器人以800万片芯片、50%客户覆盖率和4亿美元融资强化基础设施定位，触觉与机器人脊髓架构成为补足交互能力的方向。",
         "items": [
           {
             "date": "09-18",
@@ -784,6 +784,33 @@
       "category": "产品量产",
       "summary": "Nvidia has released the Jetson Orin Nano 2, a new robotics computer for entry-level edge AI. The company says the new computer will enable millions of developers worldwide to build…",
       "url": "https://roboticsandautomationnews.com/2026/09/18/nvidia-unveils-jetson-orin-nano-2-for-robotics-and-edge-ai/104918/"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "咋回事儿呢？机器人本体批量落地，行业要补的课反而更多了？ 别意外。本体数量上来了，具身智能乍看离规模化越来越近，但理解周围世界、学习新任务、持续进化的能力，还没法跟着机器人一起批量复制。 和只在数字世界处理信息的通用智能体相比，具身智能要让AI真正进入物理世界。 一台机器人学会一个动作不算最难，难的是继续学会第二个、第三个任务；一项已经验证的能力，能不能快速…",
+      "url": "https://www.qbitai.com/2026/09/492238.html"
+    },
+    {
+      "date": "09-18",
+      "company": "特斯拉",
+      "title": "消息称特斯拉针对 Optimus 机器人业务启动量产审厂，多家供应链企业回应",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 18 日消息，日前，21 世纪经济报道援引产业链人士消息称，特斯拉相关团队已于 9 月 16 日落地宁波，并于 17 日开启新一轮针对旗下机器人业务的量产审厂。据称此轮审厂将 实质导向机器人 Optimus 的量产 ，已向供应链企业下达相关订单。 按计划，特斯拉今年将下线 约 5 万台 Optimus 机器人 ，在世界各地特斯拉超级工厂中部…",
+      "url": "https://www.ithome.com/1/004/343.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "千寻智能",
+      "title": "千寻智能联合创始人高阳：人形机器人最快明年就能“听懂人话”，真正“帮人做事”仍需时日",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 18 日消息，据路透社今天（18 日）晚间报道，清华大学机器人学助理教授、千寻智能联合创始人兼首席科学家高阳预计，最快从明年开始，人形机器人就能 听懂口头指令并完成大多数通用任务 ，但真正进入家庭、承担实用工作仍需时日。 中国人形机器人的硬件能力近年快速提升，冲刺、跳舞甚至按指令完成后空翻都已不成问题。机器人企业的竞争重心也随之转向软件，目…",
+      "url": "https://www.ithome.com/1/004/327.htm"
     },
     {
       "date": "09-17",
@@ -1072,33 +1099,6 @@
       "category": "行业动态",
       "summary": "The latest version of Digit includes new knees, upgraded batteries, and more comprehensive safety architecture. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/agilitys-digit-5-humanoid-has-new-legs-batteries-safety-upgrades/"
-    },
-    {
-      "date": "09-15",
-      "company": "其他",
-      "title": "Digit或将成为首个真正安全的人形机器人工作者 (Digit 5 May Be the First Humanoid Robot Worker That’s Truly Safe)",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "summary": "Despite the recent deluge of videos of humanoid robots doing backflips and kung-fu, the actual pace of progress towards humanoids that can do economically viable jobs at scale has…",
-      "url": "https://spectrum.ieee.org/humanoid-robot-safety"
-    },
-    {
-      "date": "09-14",
-      "company": "优必选",
-      "title": "机器人造机器人！全球首个万台级工厂投产，优必选这次赌大了",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "9月12日，优必选柳州工厂投产了。 官方给的标签很炸：全球首个万台级工业人形机器人超级智慧工厂。1.4万平方米，每10分钟下线一台，年产能破万。 现场阵仗也不小。广西自治区党委书记陈刚去了，柳州市四套",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702897.html"
-    },
-    {
-      "date": "09-14",
-      "company": "行业",
-      "title": "半年两轮！杭州巡检机器人研发商，融资数千万",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "据晨源资本消息，杭州国巡机器人科技有限公司（下称“国巡机器人”）近半年完成两轮累计数千万融资，由玖兆投资、粤科金融集团、梁创投联合投资。 本轮入局的粤科金融集团实力雄厚，是广东省规模最大的专业性国有母",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321204-8120-30702856.html"
     }
   ]
 }
