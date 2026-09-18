@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-18T05:02:24.332221+08:00",
+  "updated": "2026-09-18T11:35:52.682052+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,7 +36,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 9,
       "core": 0,
       "periphery": 0,
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 4,
-      "core": 2,
+      "entries": 16,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 19,
-      "core": 1,
+      "entries": 59,
+      "candidates": 20,
+      "core": 4,
       "periphery": 0,
-      "new": 1
+      "new": 4
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 22,
-      "core": 8,
-      "periphery": 0,
-      "new": 3
+      "candidates": 21,
+      "core": 9,
+      "periphery": 1,
+      "new": 8
     },
     {
       "name": "新战略移动机器人",
@@ -150,13 +150,13 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 16,
       "candidates": 14,
       "core": 7,
       "periphery": 4,
-      "new": 5
+      "new": 3
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 9,
       "core": 6,
       "periphery": 1,
-      "new": 5
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,42 +240,30 @@
   "weekly_report": {
     "start": "09-14",
     "end": "09-20",
-    "generated_at": "2026-09-18T05:03:04.418118+08:00",
-    "mode": "local",
-    "item_count": 46,
+    "generated_at": "2026-09-18T11:36:08.310247+08:00",
+    "mode": "aicodewith",
+    "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，在 IMTS国际制造技术展览会上，泰瑞达机器人旗下、全球协作工业机器人先驱优傲机器人（UR）正式发布其第七代机器人平台 Gen 7；9月12日，柳州北部生态新区，优必选万台级工业人形机器人超级智慧工厂投产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.gongkong.com/news/202609/453327.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8460-30703109.html",
-          "https://www.leiphone.com/category/industrynews/QDqnLfFb5wiTdPyd.html"
-        ]
+        "label": "落地验收转向可控工位",
+        "text": "本周订单和部署线索集中在工厂、仓库与真实工作场所，Digit 5发布时强调近人安全停机和23公斤搬运能力并获得超3亿美元订单，RealMan计划部署近1000台机器人，Optimus外部交付也指向2027年工业场景，商业验证正更多围绕安全、搬运和重复工位展开。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，2026年，世界模型逐渐从学术概念走向产业落地；官方称其为“全球首个”能同时处理文字、图片、视频和3D的多模态世界模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8140715.html",
-          "https://www.tmtpost.com/8139209.html",
-          "https://www.qbitai.com/2026/09/490950.html"
-        ]
+        "label": "模型叙事开始绑定数据闭环",
+        "text": "Atlas被称为可同时处理文字、图片、视频和3D的多模态世界模型，相关报道强调3D重建让世界模型进入可测量阶段，小米强化学习训练直播则暴露高算力成本，模型竞争正在从概念展示走向真实数据、训练成本和任务评测的约束。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定；9月16日，深圳具身感知企业帕西尼，完成数亿元B++轮融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-12003-30703544.html",
-          "https://robot.ofweek.com/2026-09/ART-8321200-8460-30703517.html"
-        ]
+        "label": "资本偏向量产与短板补齐",
+        "text": "地瓜机器人完成4亿美元C轮融资，帕西尼获得数亿元B++轮融资并有三星、比亚迪等投资方，超维动力融资超5亿元，资金更多流向机器人基础设施、感知和进化能力等环节，单纯Demo的融资说服力在减弱。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "世界模型和强化学习仍是技术主线，Atlas突出文字、图像、视频与3D统一处理，国产多模态模型继续开源，高成本训练让可测评任务和数据效率更受关注。",
         "items": [
           {
             "date": "09-17",
@@ -316,8 +304,22 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "新品密集发布，Figure Helix 2.5、Booster K1、宇树G1+和UR Gen 7覆盖家务、教育和工业自动化，Optimus确认2027年外部交付，量产节奏仍偏工业先行。",
         "items": [
+          {
+            "date": "09-18",
+            "title": "人形机器人可“自主做家务”，Figure 发布 Helix 2.5 模型",
+            "url": "https://www.ithome.com/1/003/942.htm",
+            "company": "Figure",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-18",
+            "title": "加速进化 Booster K1 探索版人形机器人发布：标配豆包大模型，38999 元",
+            "url": "https://www.ithome.com/1/003/924.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-17",
             "title": "马斯克再次确认Optimus将于2027年才开始向外部客户交付",
@@ -401,54 +403,61 @@
             "url": "https://www.ithome.com/1/002/133.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
-          },
-          {
-            "date": "09-14",
-            "title": "Universal Robots 在 IMTS 发布其第七代机器人平台 (Universal Robots launches its seventh generation robot platform at IMTS)",
-            "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-14",
-            "title": "Kinetic Blocks推出人形机器人训练数据市场 (Kinetic Blocks launches marketplace for humanoid robot training data)",
-            "url": "https://roboticsandautomationnews.com/2026/09/14/kinetic-blocks-launches-marketplace-for-humanoid-robot-training-data/104794/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-14",
-            "title": "Skild AI发布S1机器人基础模型，可通过视频演示学习任务 (Skild AI unveils S1 robot foundation model that learns tasks from video demonstrations)",
-            "url": "https://roboticsandautomationnews.com/2026/09/14/skild-ai-unveils-s1-robot-foundation-model-that-learns-tasks-from-video-demonstrations/104791/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "订单集中在可定义任务，Digit 5凭近人安全机制、23公斤搬运能力拿到超3亿美元订单，Lucid欧洲Robotaxi和RealMan近千台部署计划体现真实场景验证升温。",
         "items": [
+          {
+            "date": "09-18",
+            "title": "美国电动汽车企业 Lucid 计划在欧洲部署至少 2.5 万辆 Robotaxi",
+            "url": "https://www.ithome.com/1/003/916.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-18",
+            "title": "Digit 5人形机器人拆掉围栏，3亿美元订单到手",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30703672.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-16",
             "title": "RealMan计划在真实工作场所部署近1000台机器人 (RealMan plans deployment of nearly 1,000 robots in real-world workplaces)",
             "url": "https://roboticsandautomationnews.com/2026/09/16/realman-launches-global-link-network-robot-deployment-initiative-at-world-robot-conference-2026/104839/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-14",
-            "title": "报告涵盖手术机器人进展及仓库自动化的实际部署 (Report covers advances in surgical robots, deploying warehouse automation in the real world)",
-            "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "融资事件围绕机器人基础设施、感知和量产能力展开，地瓜机器人4亿美元C轮、帕西尼数亿元B++轮、超维动力超5亿元融资显示资本更关注可落地环节。",
         "items": [
+          {
+            "date": "09-18",
+            "title": "地瓜机器人C轮融资4亿美元：资本不再为Demo买单，只为量产续费",
+            "url": "https://www.tmtpost.com/8144105.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "09-18",
+            "title": "人形机器人IPO“收紧”传闻背后：谁在裸泳，谁在造血？",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703726.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-18",
+            "title": "看小鹏融资9亿美金“眼红”？「零跑」官宣自研人形机器人！",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703719.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-17",
             "title": "三星、比亚迪都投了！机器人感知黑马，狂揽超40亿融资",
@@ -530,8 +539,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业焦点从展示转向产能和闭环，优必选柳州万台级工厂投产，特斯拉Optimus厂房施工加速，AI5芯片试产消息强化核心算力与整机节奏联动。",
         "items": [
+          {
+            "date": "09-18",
+            "title": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+            "url": "https://www.infoq.cn/article/x2FmIeCkeDYUV66BNj3g?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "09-18",
+            "title": "消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺",
+            "url": "https://www.ithome.com/1/003/999.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-17",
             "title": "如何从历史中学习？基于RhymeRL的强化学习系统优化实践｜QCon上海",
@@ -601,27 +624,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30702897.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-14",
-            "title": "小米雷军现身宇树科技，和王兴兴观看人形机器人表演",
-            "url": "https://www.ithome.com/1/002/308.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-14",
-            "title": "Renesas在北京成立物理AI与机器人实验室 (Renesas establishes physical AI and robotics lab in Beijing)",
-            "url": "https://roboticsandautomationnews.com/2026/09/14/renesas-establishes-physical-ai-and-robotics-lab-in-beijing/104788/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链机会集中在芯片、感知和底层控制短板，地瓜机器人强调800万片芯片和客户覆盖率，Xspark AI提出机器人需要类似脊髓的物理交互架构。",
         "items": [
+          {
+            "date": "09-18",
+            "title": "800万片芯片、50%客户覆盖率、4亿美元融资：地瓜机器人要做机器人时代的“Wintel”",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321201-12005-30703675.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-15",
             "title": "Xspark AI 丁文伯：触觉替代不了视觉，但机器人需要一套自己的“脊髓” ｜物理AI 50人",
@@ -634,6 +650,96 @@
     ]
   },
   "items": [
+    {
+      "date": "09-18",
+      "company": "行业",
+      "title": "地瓜机器人C轮融资4亿美元：资本不再为Demo买单，只为量产续费",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "9月17日，地瓜机器人宣布完成4亿美元C轮融资。 本轮融资由国际知名投资机构未来资产领投，互联网巨头美团战投，合肥国投、南山战新投、璟泉资本等政府投资平台，凯辉基金、华美国际投资集团有限公司、广发信德、超越摩尔、启航投资旗下芯创二期基金等一线投资机构联合跟投，以及高瓴创投、五源资本、线性资本、黄浦江资本、淡马锡旗下的Vertex Growth、Prosper…",
+      "url": "https://www.tmtpost.com/8144105.html"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+      "source_name": "InfoQ",
+      "category": "行业动态",
+      "summary": "随着 Coding Agent、企业智能助手等 Agent 应用进入真实生产环境，如何让 Agent 在持续使用过程中不断提升能力，成为下一阶段的重要挑战",
+      "url": "https://www.infoq.cn/article/x2FmIeCkeDYUV66BNj3g?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "09-18",
+      "company": "特斯拉",
+      "title": "消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 18 日消息，据首尔经济日报报道，业内消息称三星电子已在美国得克萨斯州泰勒的代工厂开始原型生产，向特斯拉提供 AI5 芯片。 泰勒工厂原定于 11 月左右全面投产，但由于大型科技公司对 AI 芯片的需求激增，三星提前了原型产量以开始良率验证， 计划在今年年底完成大规模生产验证，并于明年全面供应 。 半导体行业消息人士 15 日表示，三星泰勒…",
+      "url": "https://www.ithome.com/1/003/999.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "Figure",
+      "title": "人形机器人可“自主做家务”，Figure 发布 Helix 2.5 模型",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 18 日消息，人形机器人企业 Figure 今日发布了 Helix 2.5 模型， 能让机器人“自主做家务” 。 IT之家从 Figure 官方介绍获悉，Figure 在美国旧金山湾区租了 30 套房子，机器人没有进行额外训练，到了地方就开始自己收拾房子。 Helix 2.5 的构建旨在回答一个问题 —— 类人生物能否进入一个它从未见过的家…",
+      "url": "https://www.ithome.com/1/003/942.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "加速进化 Booster K1 探索版人形机器人发布：标配豆包大模型，38999 元",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 18 日消息，加速进化成长型人形机器人 Booster K1 探索版今日正式发售， 京东标价 38,999 元 。 Booster K1 探索版宣称是“具身开发入门级整机”， 身高约 95cm，重量约 19.5kg，全身 22 个自由度 。 Booster K1 探索版标配豆包大模型 ，通过双目深度相机、环形 3 麦克风 + 扬声器进行 A…",
+      "url": "https://www.ithome.com/1/003/924.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "美国电动汽车企业 Lucid 计划在欧洲部署至少 2.5 万辆 Robotaxi",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 9 月 18 日消息，美国电动汽车企业 Lucid 与欧洲共享出行平台 Bolt 当地时间昨日共同宣布双方建立了战略合作伙伴关系。 两家企业计划在欧洲多个国家的多个城市部署至少 2.5 万辆 Robotaxi 。 IT之家获悉，该 Robotaxi 将基于 Lucid 的即将推出的中型车平台，采用 NVIDIA（英伟达）Hyperion 开发平台和…",
+      "url": "https://www.ithome.com/1/003/916.htm"
+    },
+    {
+      "date": "09-18",
+      "company": "行业",
+      "title": "人形机器人IPO“收紧”传闻背后：谁在裸泳，谁在造血？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "> 过去一周，财经圈里被讨论最多的话题之一，就是人形机器人企业的IPO审核是否正在收紧。 消息最初来自科技媒体The Information的报道，称中国证券监管机构正收紧对寻求上市的人形机器人初创公司的 人形机器人",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703726.html"
+    },
+    {
+      "date": "09-18",
+      "company": "行业",
+      "title": "看小鹏融资9亿美金“眼红”？「零跑」官宣自研人形机器人！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "当人形机器人成为科技圈最热的风口，越来越多企业热衷于在舞台上展示样机行走、交互的炫酷画面，零跑却给出了一套完全反向的答卷。 9月16日的2026零跑技术日，零跑科技创始人、董事长、CEO?朱江明对外确",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30703719.html"
+    },
+    {
+      "date": "09-18",
+      "company": "行业",
+      "title": "800万片芯片、50%客户覆盖率、4亿美元融资：地瓜机器人要做机器人时代的“Wintel”",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "9月17日，地瓜机器人宣布完成4亿美元C轮融资。未来资产领投，美团战投，合肥国投、南山战新投、璟泉资本等地方国资平台联合跟投，高瓴创投、五源资本、线性资本、淡马锡旗下Vertex Growth、云锋基",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321201-12005-30703675.html"
+    },
+    {
+      "date": "09-18",
+      "company": "其他",
+      "title": "Digit 5人形机器人拆掉围栏，3亿美元订单到手",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "人员靠近时可自动减速或停止，继续接近则下蹲并关闭电机；最大搬运能力23公斤 Agility Robotics的Digit 5正式发布。这家公司说了一句很实在的话：Digit 5是全球首款无需物理安全围",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30703672.html"
+    },
     {
       "date": "09-17",
       "company": "其他",
@@ -993,96 +1099,6 @@
       "category": "资本动态",
       "summary": "作者｜毛心如 具身智能的竞争，正在进入一个越来越较真的阶段。 早期，行业比的是谁先把机器人做出来；后来，比的是谁的动作更像人。 到了今天，随着 VLA、世界模型以及人形机器人加速走向真实场景，真正决定",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30702917.html"
-    },
-    {
-      "date": "09-14",
-      "company": "宇树科技",
-      "title": "小米雷军现身宇树科技，和王兴兴观看人形机器人表演",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 14 日消息，小米创办人、董事长兼 CEO 雷军今日现身宇树科技，在宇树科技创始人王兴兴的陪同下，实地探访并观看人形机器人表演。 在今年 3 月的小米春季新品发布会上，宇树科技创始人王兴兴携宇树机器人到现场为新一代 SU7 站台。雷军当时表示：“今年是（宇树科技）创业十周年。 谢谢你在五年前给了我们一个投资（宇树）的机会 ”。 IT之家注意…",
-      "url": "https://www.ithome.com/1/002/308.htm"
-    },
-    {
-      "date": "09-14",
-      "company": "其他",
-      "title": "Universal Robots 在 IMTS 发布其第七代机器人平台 (Universal Robots launches its seventh generation robot platform at IMTS)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Universal Robots has released three new robot arms, a rebuilt core controller, a new AI-ready tool flange, and more. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/universal-robots-launches-its-seventh-generation-robot-platform-at-imts/"
-    },
-    {
-      "date": "09-14",
-      "company": "其他",
-      "title": "Kinetic Blocks推出人形机器人训练数据市场 (Kinetic Blocks launches marketplace for humanoid robot training data)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Kinetic Blocks, an Oslo-based startup, has launched a beta version of what it describes as a two-sided marketplace for buying and selling training data for humanoid robots. The mar…",
-      "url": "https://roboticsandautomationnews.com/2026/09/14/kinetic-blocks-launches-marketplace-for-humanoid-robot-training-data/104794/"
-    },
-    {
-      "date": "09-14",
-      "company": "其他",
-      "title": "Skild AI发布S1机器人基础模型，可通过视频演示学习任务 (Skild AI unveils S1 robot foundation model that learns tasks from video demonstrations)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Skild AI has unveiled S1, a robotics foundation model designed to enable robots to learn new manipulation tasks from a single video demonstration without task-specific fine-tuning…",
-      "url": "https://roboticsandautomationnews.com/2026/09/14/skild-ai-unveils-s1-robot-foundation-model-that-learns-tasks-from-video-demonstrations/104791/"
-    },
-    {
-      "date": "09-14",
-      "company": "其他",
-      "title": "Renesas在北京成立物理AI与机器人实验室 (Renesas establishes physical AI and robotics lab in Beijing)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Renesas Electronics, a premier supplier of advanced semiconductor solutions, has announced the official opening of its Physical AI & Robotics Lab in Beijing, China. The new dedicat…",
-      "url": "https://roboticsandautomationnews.com/2026/09/14/renesas-establishes-physical-ai-and-robotics-lab-in-beijing/104788/"
-    },
-    {
-      "date": "09-14",
-      "company": "其他",
-      "title": "报告涵盖手术机器人进展及仓库自动化的实际部署 (Report covers advances in surgical robots, deploying warehouse automation in the real world)",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "Learn from a surgical robotics case study and a discussion of how to best deploy mobile robots in the warehouse in this issue. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/report-covers-surgical-robot-advances-deploying-warehouse-automation-real-world/"
-    },
-    {
-      "date": "09-13",
-      "company": "其他",
-      "title": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
-      "source_name": "量子位",
-      "category": "泛具身产业链",
-      "summary": "过去一年，具身智能的技术迭代明显加快。VLA、世界模型持续演进，强化学习重新成为机器人学习的重要技术路径，Sim2Real加速从仿真走向真机，全身控制能力也在快速突破。 机器人会做的事情也越来越多：能走、能跑、能抓、能导航，甚至可以完成越来越复杂的长程任务。 但如果把这些能力放到真实世界里，一个更基础的问题正在浮现： 机器人“会做”一件事，和机器人能够在开放…",
-      "url": "https://www.qbitai.com/2026/09/488672.html"
-    },
-    {
-      "date": "09-13",
-      "company": "特斯拉",
-      "title": "特斯拉计划在奥斯汀建设第二个 Robotaxi 专属充电站，配置 24 个 V4 充电桩",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 13 日消息，要规模化运营自动驾驶网约车车队，远不止编写自动驾驶代码这么简单。车辆在接送乘客的间隙，需要专门场地完成充电、清洁与待班停放，不能挤占面向普通车主的公共充电桩。随着 Robotaxi 网络稳步扩张，特斯拉已经在规划专属配套基础设施，保障这支无人驾驶车队持续补能。 长期追踪超级充电站动态的网友 MarcoRPi1（@MarcoRP…",
-      "url": "https://www.ithome.com/1/001/762.htm"
-    },
-    {
-      "date": "09-13",
-      "company": "其他",
-      "title": "蚂蚁灵波开源三款 LingBot-World 2.0 世界模型：Small 参数 1.3B 面向消费级单卡 GPU 设计",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 9 月 13 日消息，继今年 7 月开源 LingBot-World 2.0 14B 模型后，蚂蚁灵波科技本周进一步开源三款模型：LingBot-World 2.0 Small（1.3B）、LingBot-World 2.0 Bidirectional 和 LingBot-World 2.0 Causal Pretrain。 据介绍，LingBot…",
-      "url": "https://www.ithome.com/1/001/863.htm"
-    },
-    {
-      "date": "09-12",
-      "company": "其他",
-      "title": "蚂蚁灵波不“嫁接”：具身大脑的原生路线与冷启动",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "过去一年，具身智能最热闹的争论，不是某个模型的效果有多好，而是一个悬而未决的路线问题： 机器人 到底该走 VLA，还是走 WAM？两种路线看似针锋相对，内核却指向同一个出处，都建立在数字世界的大模型之上。VLA 是视觉语言模型向动作的延伸，WAM 则把视频生成模型搬到机器人身上。 行业争论的 VLA 和 WAM 两条路线，灵波都没有选。它走的是第三条，官方称…",
-      "url": "https://www.tmtpost.com/8137542.html"
     }
   ]
 }
