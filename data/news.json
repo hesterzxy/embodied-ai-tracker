@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T20:14:40.065439+08:00",
+  "updated": "2026-09-22T05:47:22.254001+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 8,
+      "candidates": 9,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 2,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 18,
+      "entries": 59,
+      "candidates": 26,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -111,7 +111,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 31,
       "candidates": 7,
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 0,
-      "new": 3
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 11,
       "core": 11,
       "periphery": 0,
-      "new": 6
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -206,9 +206,9 @@
       "error": "",
       "entries": 18,
       "candidates": 14,
-      "core": 8,
-      "periphery": 2,
-      "new": 0
+      "core": 9,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -240,30 +240,41 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-21T20:14:55.348268+08:00",
-    "mode": "aicodewith",
-    "item_count": 13,
+    "generated_at": "2026-09-22T05:48:02.317155+08:00",
+    "mode": "local",
+    "item_count": 16,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周案例集中在加油站便利店、家庭家务和供应链审厂等具体场景，大晓机器人接入美团与中国石油数智平台处理订单，Figure披露Helix 2并进入30个陌生家庭，特斯拉机器人团队被曝在长三角审厂且多家企业已获订单，具身智能的验证重心正从演示能力转向任务闭环、现场适配和交付条件。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8147667.html",
+          "https://www.ithome.com/1/005/332.htm",
+          "https://www.ithome.com/1/005/100.htm"
+        ]
       },
       {
-        "label": "模型叙事开始绑定真实闭环",
-        "text": "清华联合无问芯穹等开源RPent，将大模型理解目标、拆解任务、调用工具并根据结果调整计划的智能体范式引入机器人身体，Figure的家庭任务测试也强调长时间真实环境执行，模型能力的评价口径正在靠近可持续执行、反馈修正和跨场景泛化。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，Codex、Claude Code等数字世界智能体，已经向我们展示出了一种全新且高效的工作方式：大模型理解目标，拆解任务，调用适当的工具，并根据执行结果不断调整计划，直到完成任务；9月17日，Figure发布Helix 2.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/09/493218.html",
+          "https://www.tmtpost.com/8147667.html"
+        ]
       },
       {
-        "label": "量产准备推高供应链确定性要求",
-        "text": "特斯拉Optimus量产筹备带动长三角和宁波供应链考察，三星组建团队研发芯片工厂机器人，宇树发布3.99万元起的22自由度Dex5-S灵巧手，启元机器人Q1和T1亮相且披露2.1亿元预收款已到账，价格、部件性能和产线需求正共同成为能力验证的一部分。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势；2026年9月，欣旺达最新一轮C++轮融资细节的披露，理想汽车拟出资26.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
+          "https://www.tmtpost.com/8146396.html",
+          "https://www.ithome.com/1/005/430.htm"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "清华联合无问芯穹等开源RPent，延续大模型智能体的目标理解、任务拆解、工具调用和反馈调整思路，但当前证据主要体现方法框架，工程效果仍待更多任务数据验证。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "09-21",
@@ -276,7 +287,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "启元机器人发布Q1和T1并披露2.1亿元预收款到账，宇树推出22自由度、真手尺寸的Dex5-S灵巧手且起售价3.99万元，量产叙事开始同时呈现订单预期与部件价格。",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
           {
             "date": "09-21",
@@ -296,7 +307,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "特斯拉机器人团队被曝在长三角审厂且多家企业已获订单，大晓机器人与中国石油落地加油站便利店项目，订单线索更多指向供应链准备和可定义零售作业场景。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-21",
@@ -311,12 +322,19 @@
             "url": "https://www.ithome.com/1/005/332.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-21",
+            "title": "为何大规模部署具身智能需要层层保障安全 (Why Deploying Physical AI at Scale Demands Safety at Every Layer)",
+            "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "方奇科技获千万级天使轮融资用于研发、团队扩充和典型场景验证，理想汽车拟参与欣旺达融资并关注机器人公司，资本更偏向能力补齐、场景落地和供应链位置。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-21",
@@ -338,12 +356,19 @@
             "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
             "company": "行业",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "09-21",
+            "title": "小米雷军澄清“打新宇树科技赚了 100 多亿”：是顺为投资的，而且不是打新、是早期天使投资",
+            "url": "https://www.ithome.com/1/005/430.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "Figure发布Helix 2并进入30个陌生家庭自主做家务，特斯拉得州Optimus工厂主结构接近完工但投产仍需时间，璇玑动力展示四足机器人一体化方案，行业推进仍偏早期验证。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-21",
@@ -365,12 +390,19 @@
             "url": "https://www.infoq.cn/article/IhCGKqeVbMIbdhVLbavr?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "09-21",
+            "title": "Boston Dynamics 开设 Metaplant Application Center，训练 Atlas 人形机器人 (Boston Dynamics opens Metaplant Application Center to train Atlas humanoids)",
+            "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "三星组建团队研发芯片工厂机器人，推动半导体工厂向AI驱动的自主化生产基地转型；家庭清洁相关报道也显示机器人原理正向消费设备渗透，但证据仍较概念化。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-21",
@@ -507,6 +539,33 @@
       "category": "泛具身产业链",
       "summary": "Most conversations about consumer robotics still gravitate toward humanoids. Bipedal machines walking through a kitchen, manipulating household objects and eventually performing a…",
       "url": "https://roboticsandautomationnews.com/2026/09/21/from-smart-sensors-to-self-maintenance-how-robotic-principles-are-moving-into-everyday-home-cleaning/104974/"
+    },
+    {
+      "date": "09-21",
+      "company": "宇树科技",
+      "title": "小米雷军澄清“打新宇树科技赚了 100 多亿”：是顺为投资的，而且不是打新、是早期天使投资",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 9 月 21 日消息，小米创办人、董事长兼 CEO 雷军今日开启直播，和大家聊聊澎程发布这些天。 A 股人形机器人第一股宇树科技于 8 月 19 日上市 ，开盘大涨 629.44%，有网上传言“雷军打新宇树科技赚了 100 多亿”。 对此，雷军在今日的直播中澄清，不是他投资的， 而是顺为投资的 。第二也不是打新， 而是早期天使投资、早期风险投资…",
+      "url": "https://www.ithome.com/1/005/430.htm"
+    },
+    {
+      "date": "09-21",
+      "company": "其他",
+      "title": "Boston Dynamics 开设 Metaplant Application Center，训练 Atlas 人形机器人 (Boston Dynamics opens Metaplant Application Center to train Atlas humanoids)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/"
+    },
+    {
+      "date": "09-21",
+      "company": "其他",
+      "title": "为何大规模部署具身智能需要层层保障安全 (Why Deploying Physical AI at Scale Demands Safety at Every Layer)",
+      "source_name": "NVIDIA Robotics",
+      "category": "商业订单",
+      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omd…",
+      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
     },
     {
       "date": "09-20",
@@ -813,33 +872,6 @@
       "category": "产品量产",
       "summary": "What Europeans take for granted – high quality of life, wages and strong protections – is not guaranteed. With most of high-volume production moving to Asia, European competitivene…",
       "url": "https://roboticsandautomationnews.com/2026/09/18/embodied-ai-launches-a-robotic-workforce-to-solve-the-european-manufacturing-crisis/104939/"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "Lumos Robotics 推出新仿真环境，让机器人更“即插即用 (Lumos Robotics launches new simulation environment to ‘make robots more plug-and-play’)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "New embodied AI platform cuts robotic skill development from weeks to days, helping enterprises create, deploy and continuously improve robot skills without building a full in-hous…",
-      "url": "https://roboticsandautomationnews.com/2026/09/18/lumos-robotics-launches-new-simulation-environment-to-make-robots-more-plug-and-play/104933/"
-    },
-    {
-      "date": "09-18",
-      "company": "智元机器人",
-      "title": "Agibot称其2026年上半年全球人形机器人出货量居首 (Agibot claims top spot in global humanoid robot shipments in first half of 2026)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Agibot ranked first globally for humanoid robot shipments in the first half of 2026, shipping approximately 9,700 units and accounting for more than 43 percent of the global market…",
-      "url": "https://roboticsandautomationnews.com/2026/09/18/agibot-claims-top-spot-in-global-humanoid-robot-shipments-in-first-half-of-2026/104930/"
-    },
-    {
-      "date": "09-17",
-      "company": "其他",
-      "title": "罗福莉沉寂半年官宣小米强化学习！直播新模型训练过程，一小时烧3万美元",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "什么情况？小米新模型的强化学习训练，直接开了现场直播。 点进去一看，这哪是训练现场啊，这就是烧钱现场，一眨眼就是10美刀，一分钟就是4000多元人民币出去了。 当然烧钱的速度可能不是均匀的，从pro模型开始训练算起36小时，两款模型已经花了超过108万美元， 平均每小时3万美元 。 要是别人干这事得喊一句误闯天家，但是小米干这事只能喊一句误闯米家了。 在这个…",
-      "url": "https://www.qbitai.com/2026/09/490950.html"
     }
   ]
 }
