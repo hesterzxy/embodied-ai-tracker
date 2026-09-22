@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T00:29:02.790415+08:00",
+  "updated": "2026-09-23T05:00:32.770883+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 25,
+      "candidates": 24,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -124,7 +124,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 22,
       "candidates": 22,
@@ -168,8 +168,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 7,
-      "periphery": 0,
-      "new": 5
+      "periphery": 1,
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -180,7 +180,7 @@
       "error": "",
       "entries": 19,
       "candidates": 10,
-      "core": 3,
+      "core": 4,
       "periphery": 1,
       "new": 0
     },
@@ -208,7 +208,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-23T00:29:42.893787+08:00",
+    "generated_at": "2026-09-23T05:01:12.853467+08:00",
     "mode": "local",
-    "item_count": 21,
+    "item_count": 22,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -441,6 +441,13 @@
             "source_name": "NVIDIA Robotics"
           },
           {
+            "date": "09-22",
+            "title": "英伟达称 Isaac ROS 5.0 将 AI 智能体引入机器人开发 (Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA)",
+            "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "09-21",
             "title": "消息称三星组建新团队研发芯片工厂机器人，推进半导体工厂自动化转型",
             "url": "https://www.ithome.com/1/005/388.htm",
@@ -503,6 +510,15 @@
       "category": "泛具身产业链",
       "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open fr…",
       "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
+    },
+    {
+      "date": "09-22",
+      "company": "其他",
+      "title": "英伟达称 Isaac ROS 5.0 将 AI 智能体引入机器人开发 (Isaac ROS 5.0 brings AI agents to robotics development, says NVIDIA)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. The post appeared first on The Robot Repor…",
+      "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/"
     },
     {
       "date": "09-21",
@@ -899,15 +915,6 @@
       "category": "技术突破",
       "summary": "咋回事儿呢？机器人本体批量落地，行业要补的课反而更多了？ 别意外。本体数量上来了，具身智能乍看离规模化越来越近，但理解周围世界、学习新任务、持续进化的能力，还没法跟着机器人一起批量复制。 和只在数字世界处理信息的通用智能体相比，具身智能要让AI真正进入物理世界。 一台机器人学会一个动作不算最难，难的是继续学会第二个、第三个任务；一项已经验证的能力，能不能快速…",
       "url": "https://www.qbitai.com/2026/09/492238.html"
-    },
-    {
-      "date": "09-18",
-      "company": "特斯拉",
-      "title": "消息称特斯拉针对 Optimus 机器人业务启动量产审厂，多家供应链企业回应",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 18 日消息，日前，21 世纪经济报道援引产业链人士消息称，特斯拉相关团队已于 9 月 16 日落地宁波，并于 17 日开启新一轮针对旗下机器人业务的量产审厂。据称此轮审厂将 实质导向机器人 Optimus 的量产 ，已向供应链企业下达相关订单。 按计划，特斯拉今年将下线 约 5 万台 Optimus 机器人 ，在世界各地特斯拉超级工厂中部…",
-      "url": "https://www.ithome.com/1/004/343.htm"
     }
   ]
 }
