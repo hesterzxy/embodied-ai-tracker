@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T11:42:17.036330+08:00",
+  "updated": "2026-09-22T19:07:09.276580+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -10,9 +10,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 9,
+      "entries": 10,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 9,
-      "core": 2,
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
+      "entries": 17,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 22,
-      "core": 0,
+      "entries": 57,
+      "candidates": 15,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 8,
+      "core": 10,
       "periphery": 0,
-      "new": 5
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -152,8 +152,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 14,
+      "entries": 15,
+      "candidates": 13,
       "core": 7,
       "periphery": 4,
       "new": 2
@@ -195,7 +195,7 @@
       "candidates": 11,
       "core": 10,
       "periphery": 0,
-      "new": 6
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-22T11:42:32.461110+08:00",
-    "mode": "aicodewith",
-    "item_count": 17,
+    "generated_at": "2026-09-22T19:07:49.430774+08:00",
+    "mode": "local",
+    "item_count": 20,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的应用证据更多集中在便利店履约、家庭家务、工厂训练和供应链审厂等环节，大晓机器人接入中国石油数智平台与美团订单，Figure进入30个陌生家庭测试，特斯拉机器人团队被曝在长三角审厂，项目价值正从演示能力转向能否被流程、订单和现场验收。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8147667.html",
+          "https://www.ithome.com/1/005/332.htm",
+          "https://www.ithome.com/1/005/100.htm"
+        ]
       },
       {
-        "label": "模型进展绑定真实闭环",
-        "text": "宇树开源60亿参数模型并强调多项开源成绩，清华与无问芯穹等开源RPent，Figure发布Helix 2.0并披露长时间取件与家庭测试，模型叙事正在靠任务拆解、工具调用、执行反馈和跨场景数据来支撑，单纯参数或动作展示的说服力相对下降。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，Codex、Claude Code等数字世界智能体，已经向我们展示出了一种全新且高效的工作方式：大模型理解目标，拆解任务，调用适当的工具，并根据执行结果不断调整计划，直到完成任务；> 这是思维AI社的第127篇原创 全文约1462字，阅读时长预计5分钟 一直以来，外界对宇树的印象是\"卖身体的\"——机器狗漫山遍野跑，人形机器人会翻跟头、会打拳，但一说到\"脑子\"，总有人嘀咕：模型是不是 人形机器人。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/09/493218.html",
+          "https://robot.ofweek.com/2026-09/ART-898890-8420-30704293.html",
+          "https://www.tmtpost.com/8147667.html"
+        ]
       },
       {
-        "label": "量产与价格进入能力评价",
-        "text": "启元机器人发布Q1和T1并披露2.1亿元预收款已到账，宇树Dex5-S灵巧手以22自由度、真手1，1尺寸和3.99万元起售价亮相，特斯拉Optimus量产筹备带动供应链审厂，硬件能力开始与交付节奏、成本边界和供应链稳定性一并被检验。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势；具身涌现9月22日讯，北京先途起源科技有限公司已经完成首轮种子轮数千万元股权融资，本轮由啟赋资本领投，多家投资机构仍在推进后续交割，势乘资本Scale Partners担任本次交易的独家财务顾问。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
+          "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html",
+          "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "宇树开源60亿参数模型并强调7项开源成绩，清华与无问芯穹等开源RPent，技术焦点从单点模型发布延伸到任务拆解、工具调用和执行反馈闭环。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "09-22",
@@ -283,7 +295,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "启元机器人发布Q1和T1并披露2.1亿元预收款到账，宇树Dex5-S灵巧手以22自由度和3.99万元起售价亮相，量产预期与价格带同步成为市场关注点。",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
           {
             "date": "09-21",
@@ -303,7 +315,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "特斯拉被曝长三角审厂且多家企业已获人形机器人订单，大晓机器人联合中国石油落地加油站便利店项目，商业化更依赖明确流程和可结算场景。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-21",
@@ -330,8 +342,22 @@
       },
       {
         "category": "资本动态",
-        "summary": "方奇科技获千万级天使轮用于研发和场景验证，理想汽车拟参与欣旺达融资并布局机器人公司，顺为早期投资宇树被澄清，资本仍围绕能力补齐和场景落地展开。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
+          {
+            "date": "09-22",
+            "title": "我国首台人形机器人团队再创业！「先途起源」首轮获数千万元融资",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-22",
+            "title": "耶鲁博士创办「范博特」具身公司完成千万级天使轮融资！放弃通用人形，心理机器人走得通吗？",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-21",
             "title": "李想的投资野心：当欣旺达二股东，“扫货”机器人公司",
@@ -364,8 +390,15 @@
       },
       {
         "category": "行业动态",
-        "summary": "Figure发布Helix 2.0并进入30个陌生家庭测试，特斯拉得州Optimus工厂主结构接近完工，Boston Dynamics在现代工厂训练Atlas，现场化训练权重上升。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "09-22",
+            "title": "消息称小鹏机器人完成供应链审厂及核心零部件定点，与特斯拉核心供应商存在较高重合度",
+            "url": "https://www.ithome.com/1/005/731.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-21",
             "title": "曝特斯拉得州 Optimus 机器人工厂主结构接近完工，投产仍需时日",
@@ -398,7 +431,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "三星被曝组建团队研发芯片工厂机器人，家庭清洁领域也在引入传感器和自维护等机器人原理，产业链机会更贴近制造自动化和具体功能模块升级。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-21",
@@ -427,6 +460,33 @@
       "category": "技术突破",
       "summary": "> 这是思维AI社的第127篇原创 全文约1462字，阅读时长预计5分钟 一直以来，外界对宇树的印象是\"卖身体的\"——机器狗漫山遍野跑，人形机器人会翻跟头、会打拳，但一说到\"脑子\"，总有人嘀咕：模型是不是 人形机器人",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704293.html"
+    },
+    {
+      "date": "09-22",
+      "company": "特斯拉",
+      "title": "消息称小鹏机器人完成供应链审厂及核心零部件定点，与特斯拉核心供应商存在较高重合度",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 22 日消息，据澎湃新闻今日报道，消息人士透露， 小鹏机器人已完成供应链审厂及核心零部件定点 ，量产进程进一步推进。 报道称 9 月 22 日当天，小鹏集团举行了 首届机器人供应链合作伙伴大会 ，来自执行器、灵巧手、传感器、AI 芯片等核心零部件领域的头部供应链企业集中出席。 大会现场，小鹏机器人展示了从自主运动、感知决策到自然交互的最新能…",
+      "url": "https://www.ithome.com/1/005/731.htm"
+    },
+    {
+      "date": "09-22",
+      "company": "行业",
+      "title": "我国首台人形机器人团队再创业！「先途起源」首轮获数千万元融资",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "具身涌现9月22日讯，北京先途起源科技有限公司已经完成首轮种子轮数千万元股权融资，本轮由啟赋资本领投，多家投资机构仍在推进后续交割，势乘资本Scale Partners担任本次交易的独家财务顾问。 这",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html"
+    },
+    {
+      "date": "09-22",
+      "company": "行业",
+      "title": "耶鲁博士创办「范博特」具身公司完成千万级天使轮融资！放弃通用人形，心理机器人走得通吗？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "9月22日，具身涌现获悉，深圳市范博特机器人有限公司完成千万级天使轮融资。这家耶鲁大学创新中心孵化、落地深圳南山区AI模力营的初创企业，避开行业扎堆的通用人形赛道，把全部重心押注面向学生群体的心理教练",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html"
     },
     {
       "date": "09-21",
@@ -841,33 +901,6 @@
       "category": "行业动态",
       "summary": "IT之家 9 月 18 日消息，据路透社今天（18 日）晚间报道，清华大学机器人学助理教授、千寻智能联合创始人兼首席科学家高阳预计，最快从明年开始，人形机器人就能 听懂口头指令并完成大多数通用任务 ，但真正进入家庭、承担实用工作仍需时日。 中国人形机器人的硬件能力近年快速提升，冲刺、跳舞甚至按指令完成后空翻都已不成问题。机器人企业的竞争重心也随之转向软件，目…",
       "url": "https://www.ithome.com/1/004/327.htm"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "软银同意收购 Robotics and AI Institute (SoftBank agrees to acquire Robotics and AI Institute)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "The deal has been rumored for a couple of months, but it is now being reviewed by the Committee on Foreign Investment in the United States. The post appeared first on The Robot Rep…",
-      "url": "https://www.therobotreport.com/softbank-agrees-to-acquire-robotics-and-ai-institute/"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "F-Prime Capital 将在 RoboBusiness 解读机器人投资现状 (F-Prime Capital to give insights on the state of robotics investments at RoboBusiness)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Sanjay Aggarwal and Betsy Mulé of F-Prime Capital will unveil the firm's State of Robotics Investments report at RoboBusiness. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/f-prime-capital-give-insights-state-robotics-investments-robobusiness/"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "EIT将AI计划扩展至机器人领域，并启动欧洲创始人项目，计划发放8000万欧元 (EIT expands AI initiative to robotics and launches European founders program with €80 million to give away)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "The EIT AI Community has expanded its remit to become the EIT AI & Robotics Community, a pan-European initiative designed to support the development and commercialization of artifi…",
-      "url": "https://roboticsandautomationnews.com/2026/09/18/eit-expands-ai-initiative-to-robotics-and-launches-european-founders-program/104948/"
     }
   ]
 }
