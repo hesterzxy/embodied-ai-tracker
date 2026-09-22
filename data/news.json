@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T05:47:22.254001+08:00",
+  "updated": "2026-09-22T11:42:17.036330+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 15,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 26,
-      "core": 3,
+      "candidates": 22,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 5,
+      "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 14,
       "core": 7,
       "periphery": 4,
-      "new": 4
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,9 +193,9 @@
       "error": "",
       "entries": 15,
       "candidates": 11,
-      "core": 11,
+      "core": 10,
       "periphery": 0,
-      "new": 5
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -208,7 +208,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 1,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -240,42 +240,38 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-22T05:48:02.317155+08:00",
-    "mode": "local",
-    "item_count": 16,
+    "generated_at": "2026-09-22T11:42:32.461110+08:00",
+    "mode": "aicodewith",
+    "item_count": 17,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8147667.html",
-          "https://www.ithome.com/1/005/332.htm",
-          "https://www.ithome.com/1/005/100.htm"
-        ]
+        "label": "落地验证转向可验收任务",
+        "text": "本周具身智能的应用证据更多集中在便利店履约、家庭家务、工厂训练和供应链审厂等环节，大晓机器人接入中国石油数智平台与美团订单，Figure进入30个陌生家庭测试，特斯拉机器人团队被曝在长三角审厂，项目价值正从演示能力转向能否被流程、订单和现场验收。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，Codex、Claude Code等数字世界智能体，已经向我们展示出了一种全新且高效的工作方式：大模型理解目标，拆解任务，调用适当的工具，并根据执行结果不断调整计划，直到完成任务；9月17日，Figure发布Helix 2.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/09/493218.html",
-          "https://www.tmtpost.com/8147667.html"
-        ]
+        "label": "模型进展绑定真实闭环",
+        "text": "宇树开源60亿参数模型并强调多项开源成绩，清华与无问芯穹等开源RPent，Figure发布Helix 2.0并披露长时间取件与家庭测试，模型叙事正在靠任务拆解、工具调用、执行反馈和跨场景数据来支撑，单纯参数或动作展示的说服力相对下降。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势；2026年9月，欣旺达最新一轮C++轮融资细节的披露，理想汽车拟出资26.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-          "https://www.tmtpost.com/8146396.html",
-          "https://www.ithome.com/1/005/430.htm"
-        ]
+        "label": "量产与价格进入能力评价",
+        "text": "启元机器人发布Q1和T1并披露2.1亿元预收款已到账，宇树Dex5-S灵巧手以22自由度、真手1，1尺寸和3.99万元起售价亮相，特斯拉Optimus量产筹备带动供应链审厂，硬件能力开始与交付节奏、成本边界和供应链稳定性一并被检验。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "summary": "宇树开源60亿参数模型并强调7项开源成绩，清华与无问芯穹等开源RPent，技术焦点从单点模型发布延伸到任务拆解、工具调用和执行反馈闭环。",
         "items": [
+          {
+            "date": "09-22",
+            "title": "宇树开源的60亿参数新大脑，7项成绩干到全球开源第一",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704293.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-21",
             "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
@@ -287,7 +283,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "启元机器人发布Q1和T1并披露2.1亿元预收款到账，宇树Dex5-S灵巧手以22自由度和3.99万元起售价亮相，量产预期与价格带同步成为市场关注点。",
         "items": [
           {
             "date": "09-21",
@@ -307,7 +303,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "特斯拉被曝长三角审厂且多家企业已获人形机器人订单，大晓机器人联合中国石油落地加油站便利店项目，商业化更依赖明确流程和可结算场景。",
         "items": [
           {
             "date": "09-21",
@@ -334,7 +330,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "方奇科技获千万级天使轮用于研发和场景验证，理想汽车拟参与欣旺达融资并布局机器人公司，顺为早期投资宇树被澄清，资本仍围绕能力补齐和场景落地展开。",
         "items": [
           {
             "date": "09-21",
@@ -368,7 +364,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "Figure发布Helix 2.0并进入30个陌生家庭测试，特斯拉得州Optimus工厂主结构接近完工，Boston Dynamics在现代工厂训练Atlas，现场化训练权重上升。",
         "items": [
           {
             "date": "09-21",
@@ -402,7 +398,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "三星被曝组建团队研发芯片工厂机器人，家庭清洁领域也在引入传感器和自维护等机器人原理，产业链机会更贴近制造自动化和具体功能模块升级。",
         "items": [
           {
             "date": "09-21",
@@ -423,6 +419,15 @@
     ]
   },
   "items": [
+    {
+      "date": "09-22",
+      "company": "宇树科技",
+      "title": "宇树开源的60亿参数新大脑，7项成绩干到全球开源第一",
+      "source_name": "OFweek机器人",
+      "category": "技术突破",
+      "summary": "> 这是思维AI社的第127篇原创 全文约1462字，阅读时长预计5分钟 一直以来，外界对宇树的印象是\"卖身体的\"——机器狗漫山遍野跑，人形机器人会翻跟头、会打拳，但一说到\"脑子\"，总有人嘀咕：模型是不是 人形机器人",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704293.html"
+    },
     {
       "date": "09-21",
       "company": "其他",
@@ -863,15 +868,6 @@
       "category": "产品量产",
       "summary": "The EIT AI Community has expanded its remit to become the EIT AI & Robotics Community, a pan-European initiative designed to support the development and commercialization of artifi…",
       "url": "https://roboticsandautomationnews.com/2026/09/18/eit-expands-ai-initiative-to-robotics-and-launches-european-founders-program/104948/"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "Embodied AI 推出机器人员工队伍，旨在“解决欧洲制造业危机 (Embodied AI launches a robotic workforce to ‘solve the European manufacturing crisis’)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "What Europeans take for granted – high quality of life, wages and strong protections – is not guaranteed. With most of high-volume production moving to Asia, European competitivene…",
-      "url": "https://roboticsandautomationnews.com/2026/09/18/embodied-ai-launches-a-robotic-workforce-to-solve-the-european-manufacturing-crisis/104939/"
     }
   ]
 }
