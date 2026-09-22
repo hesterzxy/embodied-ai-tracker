@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-22T19:07:09.276580+08:00",
+  "updated": "2026-09-23T00:29:02.790415+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,9 +62,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
-      "core": 1,
+      "entries": 18,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 15,
-      "core": 2,
+      "entries": 60,
+      "candidates": 25,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -111,7 +111,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 31,
       "candidates": 7,
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 10,
       "periphery": 0,
-      "new": 7
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 0,
-      "new": 3
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,8 +179,8 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 12,
-      "core": 6,
+      "candidates": 10,
+      "core": 3,
       "periphery": 1,
       "new": 0
     },
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 10,
+      "candidates": 9,
+      "core": 8,
       "periphery": 0,
-      "new": 7
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -208,7 +208,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -219,8 +219,8 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 24,
-      "periphery": 6,
+      "core": 23,
+      "periphery": 7,
       "new": 3
     },
     {
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-22T19:07:49.430774+08:00",
+    "generated_at": "2026-09-23T00:29:42.893787+08:00",
     "mode": "local",
-    "item_count": 20,
+    "item_count": 21,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -434,6 +434,13 @@
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
+            "date": "09-22",
+            "title": "NVIDIA Isaac ROS 5.0 推进智能体化开源机器人开发 (NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development)",
+            "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
+          },
+          {
             "date": "09-21",
             "title": "消息称三星组建新团队研发芯片工厂机器人，推进半导体工厂自动化转型",
             "url": "https://www.ithome.com/1/005/388.htm",
@@ -487,6 +494,15 @@
       "category": "资本动态",
       "summary": "9月22日，具身涌现获悉，深圳市范博特机器人有限公司完成千万级天使轮融资。这家耶鲁大学创新中心孵化、落地深圳南山区AI模力营的初创企业，避开行业扎堆的通用人形赛道，把全部重心押注面向学生群体的心理教练",
       "url": "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html"
+    },
+    {
+      "date": "09-22",
+      "company": "其他",
+      "title": "NVIDIA Isaac ROS 5.0 推进智能体化开源机器人开发 (NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development)",
+      "source_name": "NVIDIA Robotics",
+      "category": "泛具身产业链",
+      "summary": "To build and deploy sophisticated robotics applications that can perceive, reason and act in dynamic environments, developers need new physical AI models and tools. The ROS open fr…",
+      "url": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/"
     },
     {
       "date": "09-21",
@@ -892,15 +908,6 @@
       "category": "产品量产",
       "summary": "IT之家 9 月 18 日消息，日前，21 世纪经济报道援引产业链人士消息称，特斯拉相关团队已于 9 月 16 日落地宁波，并于 17 日开启新一轮针对旗下机器人业务的量产审厂。据称此轮审厂将 实质导向机器人 Optimus 的量产 ，已向供应链企业下达相关订单。 按计划，特斯拉今年将下线 约 5 万台 Optimus 机器人 ，在世界各地特斯拉超级工厂中部…",
       "url": "https://www.ithome.com/1/004/343.htm"
-    },
-    {
-      "date": "09-18",
-      "company": "千寻智能",
-      "title": "千寻智能联合创始人高阳：人形机器人最快明年就能“听懂人话”，真正“帮人做事”仍需时日",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 18 日消息，据路透社今天（18 日）晚间报道，清华大学机器人学助理教授、千寻智能联合创始人兼首席科学家高阳预计，最快从明年开始，人形机器人就能 听懂口头指令并完成大多数通用任务 ，但真正进入家庭、承担实用工作仍需时日。 中国人形机器人的硬件能力近年快速提升，冲刺、跳舞甚至按指令完成后空翻都已不成问题。机器人企业的竞争重心也随之转向软件，目…",
-      "url": "https://www.ithome.com/1/004/327.htm"
     }
   ]
 }
