@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T00:19:14.968662+08:00",
+  "updated": "2026-09-24T05:13:17.038997+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -79,7 +79,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -117,7 +117,7 @@
       "candidates": 7,
       "core": 6,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 7,
-      "periphery": 1,
-      "new": 3
+      "candidates": 13,
+      "core": 10,
+      "periphery": 2,
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 23,
       "periphery": 7,
-      "new": 3
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-24T00:19:55.040657+08:00",
+    "generated_at": "2026-09-24T05:13:57.138252+08:00",
     "mode": "local",
-    "item_count": 43,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -250,7 +250,7 @@
         "evidence_urls": [
           "https://www.tmtpost.com/8147667.html",
           "https://www.ithome.com/1/005/332.htm",
-          "https://www.ithome.com/1/005/100.htm"
+          "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/"
         ]
       },
       {
@@ -264,11 +264,11 @@
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构；据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构；Cognex,a specialist in industrial machine vision,has entered into a definitive agreement to acquire RealSense。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
           "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
-          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-          "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html"
+          "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/",
+          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html"
         ]
       }
     ],
@@ -304,6 +304,13 @@
             "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "09-23",
+            "title": "Intrinsic 开源核心工业机器人技术 (Intrinsic open sources core industrial robotics technology)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/intrinsic-open-sources-core-industrial-robotics-technology/105036/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-22",
@@ -354,6 +361,20 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "09-23",
+            "title": "Toborlife AI推出适用于Unitree G1人形机器人的全身遥操作系统 (Toborlife AI launches full-body teleoperation system for Unitree G1 humanoid robot)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/toborlife-ai-launches-full-body-teleoperation-system-for-unitree-g1-humanoid-robot/105056/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-23",
+            "title": "爱普生推出首款协作机器人 AX6 (Epson launches AX6, its first collaborative robot)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/epson-launches-ax6-its-first-collaborative-robot/105033/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "09-22",
             "title": "质量管理软件如何防止机器人生产线陷入瘫痪 (How Quality Management Software Keeps Robot Production Lines From Falling Apart)",
             "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/",
@@ -393,6 +414,13 @@
             "url": "https://www.ithome.com/1/006/330.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-23",
+            "title": "RLWRLD阐述面向工业人形机器人的“部署优先”物理AI战略 (RLWRLD outlines ‘deployment-first’ physical AI strategy for industrial humanoids)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-21",
@@ -441,6 +469,13 @@
             "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
             "company": "其他",
             "source_name": "The Robot Report"
+          },
+          {
+            "date": "09-23",
+            "title": "Cognex将以5亿美元收购RealSense，大举进军机器人感知与物理AI领域 (Cognex to acquire RealSense for $500 million in major expansion into robotic perception and physical AI)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-22",
@@ -540,6 +575,13 @@
             "source_name": "The Robot Report"
           },
           {
+            "date": "09-23",
+            "title": "Pickr.AI开发适用于现有仓储系统的模块化拣选机器人 (Pickr.AI develops modular picking robots for existing warehouse systems)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/pickr-ai-develops-modular-picking-robots-for-existing-warehouse-systems/105052/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "09-22",
             "title": "消息称小鹏机器人完成供应链审厂及核心零部件定点，与特斯拉核心供应商存在较高重合度",
             "url": "https://www.ithome.com/1/005/731.htm",
@@ -580,6 +622,13 @@
         "category": "泛具身产业链",
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
+          {
+            "date": "09-23",
+            "title": "Stäubli Robots采用Eclore Actuators定制防护方案 (Custom-made protection by Eclore Actuators adopted by Stäubli Robots)",
+            "url": "https://roboticsandautomationnews.com/2026/09/23/custom-made-protection-by-eclore-actuators-adopted-by-staubli-robots/105041/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "09-22",
             "title": "NVIDIA Isaac ROS 5.0 推进智能体化开源机器人开发 (NVIDIA Isaac ROS 5.0 Advances Agentic, Open Source Robotics Development)",
@@ -783,6 +832,69 @@
       "category": "资本动态",
       "summary": "Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Toborlife AI推出适用于Unitree G1人形机器人的全身遥操作系统 (Toborlife AI launches full-body teleoperation system for Unitree G1 humanoid robot)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Toborlife AI, developer of the Tobor Harness control system and the official US partner of Unitree Robotics, has announced its full-body teleoperation software for the Unitree G1 E…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/toborlife-ai-launches-full-body-teleoperation-system-for-unitree-g1-humanoid-robot/105056/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Pickr.AI开发适用于现有仓储系统的模块化拣选机器人 (Pickr.AI develops modular picking robots for existing warehouse systems)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Norwegian robotics company Pickr.AI has developed a range of flexible, modular picking robots designed to integrate into existing warehouse infrastructure without requiring extensi…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/pickr-ai-develops-modular-picking-robots-for-existing-warehouse-systems/105052/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Cognex将以5亿美元收购RealSense，大举进军机器人感知与物理AI领域 (Cognex to acquire RealSense for $500 million in major expansion into robotic perception and physical AI)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Cognex, a specialist in industrial machine vision, has entered into a definitive agreement to acquire RealSense, the market leader in depth-sensing cameras and vision technology fo…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Stäubli Robots采用Eclore Actuators定制防护方案 (Custom-made protection by Eclore Actuators adopted by Stäubli Robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Eclore Actuators, a specialist in protective bellows for demanding industrial environments, announced the integration of its custom protective bellows across Stäubli’s SCARA robot…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/custom-made-protection-by-eclore-actuators-adopted-by-staubli-robots/105041/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Intrinsic 开源核心工业机器人技术 (Intrinsic open sources core industrial robotics technology)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Intrinsic, Google’s industrial robotics and physical AI software company, has open sourced foundational parts of its robotics platform, giving developers access to technologies for…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/intrinsic-open-sources-core-industrial-robotics-technology/105036/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "爱普生推出首款协作机器人 AX6 (Epson launches AX6, its first collaborative robot)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Epson Robots has launched the AX6 collaborative 6-axis robot, marking the company’s entry into the collaborative robot market and expanding its range of robotic safety technologies…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/epson-launches-ax6-its-first-collaborative-robot/105033/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "RLWRLD阐述面向工业人形机器人的“部署优先”物理AI战略 (RLWRLD outlines ‘deployment-first’ physical AI strategy for industrial humanoids)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "RLWRLD, a physical AI company, participated in Humanoids Summit Seoul 2026, a global robotics and artificial intelligence (AI) conference held at COEX in Seoul from September 22 to…",
+      "url": "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/"
     },
     {
       "date": "09-22",
@@ -999,69 +1111,6 @@
       "category": "商业订单",
       "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omd…",
       "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
-    },
-    {
-      "date": "09-20",
-      "company": "行业",
-      "title": "半年融资近50亿！中东土豪狂撒币，地瓜机器人成资本新宠",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "> ??地瓜机器人完成4亿美元C轮融资。 文｜沈潇 点击收听本文播客 中东土豪，盯上了地瓜机器人。 9月17日，来自深圳的地瓜机器人，宣布完成4亿美元（约合人民币26.8亿元）C轮融资，由韩国大型金融集团 系统软件",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321205-12005-30703949.html"
-    },
-    {
-      "date": "09-20",
-      "company": "特斯拉",
-      "title": "Optimus量产前最后一关：特斯拉审厂到底在审什么？",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "最近不少粉丝问审厂代表啥意思，具体审什么等等，周末刚好简单说一下，如有说的不对的请 区指教~ 9月16日，一支特斯拉团队落地宁波。设计、工程、采购、供应商管理四个部门的人一起到场，带着图纸、标准和订",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30703916.html"
-    },
-    {
-      "date": "09-20",
-      "company": "特斯拉",
-      "title": "世界最大车企丰田官宣40万台机器人计划：与特斯拉Optimus不同路线",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "918了，写两篇小日子的机器人进展，铭记历史，自强不息。 最近丰田副社长中嶋裕树说了一句话，在当下的机器人赛道里显得很特别：“机器人不是要取代人类，目标是打造机器人和人类共存的世界。”说这话的人，管理",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8460-30703912.html"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "别把杰作留在实验室，张江见 2026 GDPS 国际具身智能技能大赛·高校赛队招募",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "具身智能正在从「展示品」变成「生产力」。而这一年，国家把真题摆上了桌面，工信部联合国务院国资委启动《2026年度人形机器人与具身智能实景实训专项行动》，九大重点场景面向全球求解： 生产制造、检测分析、维修维护、仓储物流、配送零售、医疗康养、安全生产、应急救援、防灾减灾 。 上海作为先行城市承接国家任务。 10月23—25日，上海·张江科学会堂 ， 2026…",
-      "url": "https://www.leiphone.com/category/industrynews/QmCxO9BKrABdNFbB.html"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "稚晖君发布启元 Q1 和 T1 人形机器人：外壳随心改换、人形四足秒切换，首发接入腾讯 WorkBuddy",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 20 日消息，在今日的 2026 启元机器人全球产品发布会上，启元机器人发布 启元 Q1、启元 T1 两款人形机器人。 据上纬新材料科技股份有限公司董事长、智元机器人联合创始人兼首席技术官彭志辉（稚晖君）介绍，启元 Q1 主打自定义特性， 支持自定义设计互动动作、3D 打印改造外观 ，用户可自由调整机器人的外观造型、性格特质、动作姿态与语音…",
-      "url": "https://www.ithome.com/1/004/871.htm"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "丰田将投放 40 万台自研轮式人形机器人“ELEY”，副社长称机器人并非用来取代人类",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 20 日消息，据日经中文网报道， 丰田将在工厂引入 40 万台人形机器人 ，打造机器人与人类工人协同作业的生产环境。 这款人形机器人名为“ELEY”，重 50 千克，依靠电池或电源线供电；它依靠车轮移动，而非双足行走。 ▲ 图源丰田官网 丰田及集团各公司计划 2028 年以后，每年投入 1 万亿日元 （IT之家注：现汇率约合 427.28…",
-      "url": "https://www.ithome.com/1/004/841.htm"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "东风人形机器人将于今年 10 月份进入工厂：主要面向生产制造领域，进行分拣、质检等工作",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 20 日消息，据第一财经消息，东风汽车智能化技术首席总工程师张振林表示， 东风人形机器人将于今年 10 月份进入工厂 ，主要面向生产制造领域，进行分拣、质检等工作。今年年底，东风人形机器人将进行小批量、小点位的试制，计划在明年年底能力与真人持平。 此外，该公司自主研发的机器狗将比人形机器人更快投入 4S 店导购等场景。张振林认为， 车企研发…",
-      "url": "https://www.ithome.com/1/004/831.htm"
     }
   ]
 }
