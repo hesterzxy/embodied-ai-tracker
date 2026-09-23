@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T18:56:52.723511+08:00",
+  "updated": "2026-09-24T00:19:14.968662+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -40,7 +40,7 @@
       "candidates": 8,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 3,
+      "candidates": 4,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 21,
-      "core": 2,
+      "entries": 58,
+      "candidates": 27,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 9,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 15,
       "core": 9,
       "periphery": 4,
-      "new": 2
+      "new": 1
     },
     {
       "name": "The Robot Report",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 8,
       "periphery": 1,
-      "new": 4
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,8 +179,8 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 10,
-      "core": 4,
+      "candidates": 9,
+      "core": 3,
       "periphery": 1,
       "new": 0
     },
@@ -195,7 +195,7 @@
       "candidates": 11,
       "core": 7,
       "periphery": 1,
-      "new": 6
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,42 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-23T18:57:09.697899+08:00",
-    "mode": "aicodewith",
-    "item_count": 40,
+    "generated_at": "2026-09-24T00:19:55.040657+08:00",
+    "mode": "local",
+    "item_count": 43,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能落地更集中在工厂、便利店、家庭服务等可拆解场景，大晓机器人联合中国石油落地加油站便利店项目，Figure披露机器人进入30个陌生家庭自主干家务，特斯拉机器人团队被曝在长三角审厂且多家企业已获订单，短期商业化更依赖库存拣选、审厂交付、家务执行这类能被记录和验收的任务。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8147667.html",
+          "https://www.ithome.com/1/005/332.htm",
+          "https://www.ithome.com/1/005/100.htm"
+        ]
       },
       {
-        "label": "模型叙事开始接受闭环检验",
-        "text": "实时世界模型、语义化世界模型和开源机器人智能体框架继续成为技术焦点，方奇科技融资将资金用于核心研发、典型场景验证和商业化落地，RPent强调大模型理解目标、拆解任务、调用工具并依据执行结果调整计划，模型能力的评价正在从参数和演示转向真实数据、任务执行和持续学习闭环。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，这年头，实时生成的世界模型越来越会「造世界」了；今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/09/496329.html",
+          "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+          "https://www.tmtpost.com/8149233.html"
+        ]
       },
       {
-        "label": "供应链热度绑定量产确定性",
-        "text": "特斯拉Optimus量产筹备带动长三角和宁波供应链审厂，小鹏机器人完成供应链审厂及核心零部件定点且与Optimus供应链重合度较高，宇树推出3.99万元起的22自由度Dex5-S灵巧手，资本和零部件机会更需要落在执行器、灵巧手、传感器、AI芯片等明确瓶颈上，而非泛化的人形机器人概念。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构；据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
+          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
+          "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、机器人智能体和开源大脑推进，宇树60亿参数模型、RPent开源及工业合作并行，但也出现对虚假收入和数采叙事的质疑。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "09-23",
@@ -285,6 +297,13 @@
             "url": "https://www.tmtpost.com/8149233.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "09-23",
+            "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
+            "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
           },
           {
             "date": "09-22",
@@ -311,7 +330,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产消息覆盖灵巧手、边缘AI模组、夹爪软件工具和整机交付，宇树Dex5-S定价3.99万元起，优必选交付缩水报道提醒订单到交付仍有落差。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "09-23",
@@ -359,7 +378,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "订单端从加油站便利店、机器人供应链到电动重卡展开，大晓机器人与中国石油项目具备流程闭环，特斯拉机器人审厂传闻强化供应链放量预期。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "09-23",
@@ -400,7 +419,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资集中投向可定义场景和能力补齐，方奇科技获千万级天使轮推进世界模型与场景验证，欧卡智舶半年累计融资3亿元，海面具身智能获关注。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-23",
@@ -415,6 +434,13 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-23",
+            "title": "Qualcomm 将收购 PickNik Robotics，并继续保持 MoveIt 开源 (Qualcomm to acquire PickNik Robotics and keep MoveIt open-source)",
+            "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "09-22",
@@ -462,7 +488,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业焦点集中在中美制造与供应链能力，特斯拉得州Optimus工厂进入制造验证阶段，小鹏供应链大会与特斯拉供应商重合，宇树展示19台机器人自主集群表演。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-23",
@@ -507,6 +533,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "09-23",
+            "title": "人形机器人现状”主题演讲汇聚行业领袖参加 RoboBusiness (State of Humanoids keynote brings industry leaders to RoboBusiness)",
+            "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "09-22",
             "title": "消息称小鹏机器人完成供应链审厂及核心零部件定点，与特斯拉核心供应商存在较高重合度",
             "url": "https://www.ithome.com/1/005/731.htm",
@@ -545,7 +578,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链围绕机器人开发框架和工厂自动化延伸，NVIDIA Isaac ROS 5.0引入智能体工作流，三星组建团队研发芯片工厂机器人，应用边界继续外扩。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-22",
@@ -723,6 +756,33 @@
       "category": "产品量产",
       "summary": "Nvidia has introduced Jetson Orin Nano 2, a new compact robotics computer designed to provide higher AI inference performance and lower power consumption for robots, drones, vision…",
       "url": "https://roboticsandautomationnews.com/2026/09/23/nvidia-launches-jetson-orin-nano-2-for-entry-level-robotics-and-edge-ai/105011/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来",
+      "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "人形机器人现状”主题演讲汇聚行业领袖参加 RoboBusiness (State of Humanoids keynote brings industry leaders to RoboBusiness)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments. The post appeared first on The Robot Repor…",
+      "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/"
+    },
+    {
+      "date": "09-23",
+      "company": "其他",
+      "title": "Qualcomm 将收购 PickNik Robotics，并继续保持 MoveIt 开源 (Qualcomm to acquire PickNik Robotics and keep MoveIt open-source)",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/"
     },
     {
       "date": "09-22",
@@ -1002,33 +1062,6 @@
       "category": "行业动态",
       "summary": "IT之家 9 月 20 日消息，据第一财经消息，东风汽车智能化技术首席总工程师张振林表示， 东风人形机器人将于今年 10 月份进入工厂 ，主要面向生产制造领域，进行分拣、质检等工作。今年年底，东风人形机器人将进行小批量、小点位的试制，计划在明年年底能力与真人持平。 此外，该公司自主研发的机器狗将比人形机器人更快投入 4S 店导购等场景。张振林认为， 车企研发…",
       "url": "https://www.ithome.com/1/004/831.htm"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "原创 2026个人机器人应用价值研究报告 人工智能 · 商业化 · 人工智能 报告 2026-09-20",
-      "source_name": "甲子光年",
-      "category": "商业订单",
-      "summary": "研究 更多 原创 AI原生组织：组织形态的重塑与管理科学新范式 科技产业 · 数字化 · 人工智能 报告</span",
-      "url": "https://www.jazzyear.com/study_info.html?id=179"
-    },
-    {
-      "date": "09-20",
-      "company": "法拉第未来",
-      "title": "法拉第未来一口气发布九款配置 EAI 机器人，最贵超 92 万元",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 20 日消息，法拉第未来（Faraday Future，简称 FF）于美国当地时间 9 月 19 日举行了 919 FF EAI 机器人“四核全智”系列新品发布会，发布了 FF All-New Futurist、FF Master Mini、FX Aegis Hyper、FX Aegis Mega 及 FX Aegis Classic Ul…",
-      "url": "https://www.ithome.com/1/005/010.htm"
-    },
-    {
-      "date": "09-20",
-      "company": "其他",
-      "title": "人形机器人坏了该怎么办？ (What do you do with a humanoid robot when it breaks down?)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Decommissioning a humanoid robot is not a matter of traditional scrapping. It's a highly technical, high-stakes surgical endeavor. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/what-do-you-do-with-a-humanoid-robot-when-it-breaks-down/"
     }
   ]
 }
