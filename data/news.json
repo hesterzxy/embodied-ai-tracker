@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-23T05:00:32.770883+08:00",
+  "updated": "2026-09-23T11:41:51.294910+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 1,
+      "entries": 17,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
+      "entries": 17,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 24,
-      "core": 0,
+      "entries": 59,
+      "candidates": 16,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -111,7 +111,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 31,
       "candidates": 7,
@@ -124,13 +124,13 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 10,
+      "core": 11,
       "periphery": 0,
-      "new": 5
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 13,
       "core": 7,
       "periphery": 4,
-      "new": 2
+      "new": 0
     },
     {
       "name": "The Robot Report",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 6,
       "periphery": 1,
-      "new": 6
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 8,
-      "periphery": 0,
-      "new": 6
+      "candidates": 10,
+      "core": 7,
+      "periphery": 1,
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-23T05:01:12.853467+08:00",
+    "generated_at": "2026-09-23T11:42:31.360963+08:00",
     "mode": "local",
-    "item_count": 22,
+    "item_count": 28,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -264,11 +264,11 @@
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势；具身涌现9月22日讯，北京先途起源科技有限公司已经完成首轮种子轮数千万元股权融资，本轮由啟赋资本领投，多家投资机构仍在推进后续交割，势乘资本Scale Partners担任本次交易的独家财务顾问。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构；据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
           "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-          "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html",
-          "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html"
+          "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html"
         ]
       }
     ],
@@ -295,8 +295,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "09-22",
+            "title": "质量管理软件如何防止机器人生产线陷入瘫痪 (How Quality Management Software Keeps Robot Production Lines From Falling Apart)",
+            "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "09-21",
             "title": "上纬新材启元机器人今日发布Q1/T1：2.1亿预收款已到账",
@@ -345,6 +352,13 @@
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
+            "date": "09-23",
+            "title": "方奇科技完成千万级天使轮融资，清华团队研发「语义化世界模型」",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "09-22",
             "title": "我国首台人形机器人团队再创业！「先途起源」首轮获数千万元融资",
             "url": "https://robot.ofweek.com/2026-09/ART-8321202-8420-30704409.html",
@@ -392,6 +406,34 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "09-23",
+            "title": "马斯克称特斯拉上海超级工厂成功靠的是中国团队：鼓励世界各地的人去中国看看，推荐上海北京西安",
+            "url": "https://www.ithome.com/1/006/054.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-23",
+            "title": "全球首次！宇树19台机器人同台，没有基站，还会自己纠错",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704476.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-23",
+            "title": "特斯拉得州Optimus机器人超级工厂6个月成型，进入“制造验证阶段”",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704462.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-23",
+            "title": "小鹏机器人定点协议已签，供应商和Optimus供应链重叠不少",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321201-8110-30704460.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-22",
             "title": "消息称小鹏机器人完成供应链审厂及核心零部件定点，与特斯拉核心供应商存在较高重合度",
@@ -467,6 +509,51 @@
   },
   "items": [
     {
+      "date": "09-23",
+      "company": "特斯拉",
+      "title": "马斯克称特斯拉上海超级工厂成功靠的是中国团队：鼓励世界各地的人去中国看看，推荐上海北京西安",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 23 日消息，特斯拉 CEO 埃隆 · 马斯克今日接受了央视财经专访，央视今早放出了一段前瞻预告。 在这段访谈视频中，当谈及特斯拉上海超级工厂时，马斯克表示，特斯拉上海工厂的成功靠的是中国团队。 马斯克称，特斯拉中国团队人才济济、勤恳可靠，产品质量一流，生产效率极高。他说，上海超级工厂是一块瑰宝。 马斯克还表示，只要有时间，就应该尽可能去中…",
+      "url": "https://www.ithome.com/1/006/054.htm"
+    },
+    {
+      "date": "09-23",
+      "company": "宇树科技",
+      "title": "全球首次！宇树19台机器人同台，没有基站，还会自己纠错",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "9月22日，世界技能大赛开幕式。宇树科技19台H2人形机器人与120名舞者同台共舞，完成全球首次全尺寸通用人形机器人全AI驱动自主集群表演。 这不是普通的机器人跳舞。没有场外定位基站，没有外部辅助，1",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704476.html"
+    },
+    {
+      "date": "09-23",
+      "company": "行业",
+      "title": "方奇科技完成千万级天使轮融资，清华团队研发「语义化世界模型」",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构。 该公司成立于2026年2月，位于北京海淀，到本轮融资时仅运行7个月",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html"
+    },
+    {
+      "date": "09-23",
+      "company": "特斯拉",
+      "title": "特斯拉得州Optimus机器人超级工厂6个月成型，进入“制造验证阶段”",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "得克萨斯州奥斯汀的北园区，一座长度超过4000英尺的巨型建筑正在拔地而起。从今年3月底破土动工算起，仅仅6个月，这座Optimus专属工厂的主体钢结构已经接近完工——观察人士Joe Tegtmeyer",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704462.html"
+    },
+    {
+      "date": "09-23",
+      "company": "特斯拉",
+      "title": "小鹏机器人定点协议已签，供应商和Optimus供应链重叠不少",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "今天小鹏首届机器人供应链合作伙伴大会，小智把参会名单和各方信息翻了一遍，发现最有意思的不是小鹏本身，而是一条藏在新闻里的暗线。 消息人士透露，特斯拉机器人团队近期也在中国供应链企业审厂。双方在核心供应",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8110-30704460.html"
+    },
+    {
       "date": "09-22",
       "company": "宇树科技",
       "title": "宇树开源的60亿参数新大脑，7项成绩干到全球开源第一",
@@ -519,6 +606,15 @@
       "category": "泛具身产业链",
       "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/"
+    },
+    {
+      "date": "09-22",
+      "company": "其他",
+      "title": "质量管理软件如何防止机器人生产线陷入瘫痪 (How Quality Management Software Keeps Robot Production Lines From Falling Apart)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Fourteen months after a cobot cell started shipping, a mid-sized integrator discovered its torque records lived in a plant manager’s email folder. The customer audit was in nine da…",
+      "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/"
     },
     {
       "date": "09-21",
@@ -861,60 +957,6 @@
       "category": "商业订单",
       "summary": "人员靠近时可自动减速或停止，继续接近则下蹲并关闭电机；最大搬运能力23公斤 Agility Robotics的Digit 5正式发布。这家公司说了一句很实在的话：Digit 5是全球首款无需物理安全围",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12005-30703672.html"
-    },
-    {
-      "date": "09-18",
-      "company": "Figure",
-      "title": "零样本干活！Figure 机器人走进 30 个陌生家庭，整理客厅、折毛巾、铺床",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "美国人形机器人公司Figure发布Helix 2.5，将其称为最先进的神经网络",
-      "url": "https://www.tmtpost.com/8144641.html"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "对话超维动力喻杰：具身智能，没有弯道超车｜独家",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "他对于“攀登珠峰、沿途下蛋”的理解，不是任性的“既要又要”，而是基于华为智驾的经历沉淀下的，一条独特的平衡之道",
-      "url": "https://www.tmtpost.com/8144542.html"
-    },
-    {
-      "date": "09-18",
-      "company": "Figure",
-      "title": "Figure 让机器人第一次「空手」进陌生人家：不遥操，也不提前预习，进了家门就干活",
-      "source_name": "爱范儿",
-      "category": "行业动态",
-      "summary": "没去过你家，也不耽误帮你叠被子 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
-      "url": "https://www.ifanr.com/1680884?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "date": "09-18",
-      "company": "Figure",
-      "title": "Helix 2.5来了！Figure连续发布三个大招：零样本泛化初见曙光",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "怪不得Figure能拿到接近400亿美元的估值。最近，它连续放出三个大招，给我的感觉是，具身智能可能真的要变天了。 最新发布的Helix 2.5，似乎触摸到了零样本泛化的门槛。人形机器人走进30个陌生",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321203-8110-30703772.html"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "Nvidia 发布面向机器人与边缘 AI 的 Jetson Orin Nano 2 (Nvidia unveils Jetson Orin Nano 2 for robotics and edge AI)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Nvidia has released the Jetson Orin Nano 2, a new robotics computer for entry-level edge AI. The company says the new computer will enable millions of developers worldwide to build…",
-      "url": "https://roboticsandautomationnews.com/2026/09/18/nvidia-unveils-jetson-orin-nano-2-for-robotics-and-edge-ai/104918/"
-    },
-    {
-      "date": "09-18",
-      "company": "其他",
-      "title": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "咋回事儿呢？机器人本体批量落地，行业要补的课反而更多了？ 别意外。本体数量上来了，具身智能乍看离规模化越来越近，但理解周围世界、学习新任务、持续进化的能力，还没法跟着机器人一起批量复制。 和只在数字世界处理信息的通用智能体相比，具身智能要让AI真正进入物理世界。 一台机器人学会一个动作不算最难，难的是继续学会第二个、第三个任务；一项已经验证的能力，能不能快速…",
-      "url": "https://www.qbitai.com/2026/09/492238.html"
     }
   ]
 }
