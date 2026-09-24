@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T05:13:17.038997+08:00",
+  "updated": "2026-09-24T11:32:35.076557+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 8,
+      "entries": 18,
+      "candidates": 9,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -50,8 +50,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 27,
-      "core": 0,
+      "candidates": 32,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 9,
+      "core": 11,
       "periphery": 0,
-      "new": 2
+      "new": 8
     },
     {
       "name": "新战略移动机器人",
@@ -195,7 +195,7 @@
       "candidates": 13,
       "core": 10,
       "periphery": 2,
-      "new": 9
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,17 +240,17 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-24T05:13:57.138252+08:00",
+    "generated_at": "2026-09-24T11:33:15.459756+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；RLWRLD,a physical AI company,participated in Humanoids Summit Seoul 2026。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.tmtpost.com/8147667.html",
-          "https://www.ithome.com/1/005/332.htm",
-          "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/"
+          "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/",
+          "https://www.ithome.com/1/005/100.htm"
         ]
       },
       {
@@ -340,6 +340,13 @@
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
+            "date": "09-24",
+            "title": "特斯拉Optimus V3把关节全包了，这才是机器人量产的暗号",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30704665.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "09-23",
             "title": "交付缩水八成，优必选给具身智能泼了一盆冷水",
             "url": "https://www.tmtpost.com/8150766.html",
@@ -387,13 +394,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321206-12003-30704086.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-21",
-            "title": "宇树科技发布 Dex5-S 灵巧手：22 自由度、真手 1:1 尺寸，售价 3.99 万元起",
-            "url": "https://www.ithome.com/1/005/403.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -401,6 +401,13 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "09-24",
+            "title": "国网先牵手、南网再入股，两家电网巨头接连押注宇树!百亿采购背后抢的是具身智能标准定义权",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704639.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-23",
             "title": "它石智航顶尖团队引领中国具身智能率先迈入规模化落地阶段",
@@ -428,20 +435,6 @@
             "url": "https://www.ithome.com/1/005/100.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "09-21",
-            "title": "大晓机器人联合中国石油落地首个加油站便利店具身智能项目",
-            "url": "https://www.ithome.com/1/005/332.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-21",
-            "title": "为何大规模部署具身智能需要层层保障安全 (Why Deploying Physical AI at Scale Demands Safety at Every Layer)",
-            "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/",
-            "company": "其他",
-            "source_name": "NVIDIA Robotics"
           }
         ]
       },
@@ -449,6 +442,27 @@
         "category": "资本动态",
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
+          {
+            "date": "09-24",
+            "title": "高通加码物理人工智能，拟收购机器人软件企业 PickNik Robotics",
+            "url": "https://www.ithome.com/1/006/594.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-24",
+            "title": "具身智能的第一张IPO门票，给了不跳舞的机器人",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704654.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-24",
+            "title": "海面具身智能领导者融资数亿元，李泽湘，阿里也投过！",
+            "url": "https://robot.ofweek.com/2026-09/ART-8321206-8120-30704629.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-23",
             "title": "方奇科技完成千万级天使轮融资，清华团队研发「语义化世界模型」",
@@ -511,13 +525,6 @@
             "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
             "company": "行业",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-21",
-            "title": "小米雷军澄清“打新宇树科技赚了 100 多亿”：是顺为投资的，而且不是打新、是早期天使投资",
-            "url": "https://www.ithome.com/1/005/430.htm",
-            "company": "宇树科技",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -525,6 +532,27 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "09-24",
+            "title": "终结者成真：众擎 T800 人形机器人首次参与人类格斗赛，一脚踹倒拳击手",
+            "url": "https://www.ithome.com/1/006/596.htm",
+            "company": "众擎机器人",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-24",
+            "title": "两万的启元机器人，却是智元高价买来的一个「坑位」",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704669.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-24",
+            "title": "先睹为快，传特斯拉Optimus V3机器人设计图",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30704666.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "09-23",
             "title": "马斯克称特斯拉上海超级工厂成功靠的是中国团队：鼓励世界各地的人去中国看看，推荐上海北京西安",
@@ -601,20 +629,6 @@
             "url": "https://www.tmtpost.com/8147667.html",
             "company": "Figure",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "09-21",
-            "title": "开箱即上岗！璇玑动力首发Hypertron-SW01中型四足机器人",
-            "url": "https://www.infoq.cn/article/IhCGKqeVbMIbdhVLbavr?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          },
-          {
-            "date": "09-21",
-            "title": "Boston Dynamics 开设 Metaplant Application Center，训练 Atlas 人形机器人 (Boston Dynamics opens Metaplant Application Center to train Atlas humanoids)",
-            "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -642,26 +656,84 @@
             "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-21",
-            "title": "消息称三星组建新团队研发芯片工厂机器人，推进半导体工厂自动化转型",
-            "url": "https://www.ithome.com/1/005/388.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-21",
-            "title": "从智能传感器到自我维护：机器人原理如何走进日常家庭清洁 (From smart sensors to self-maintenance: How robotic principles are moving into everyday home cleaning)",
-            "url": "https://roboticsandautomationnews.com/2026/09/21/from-smart-sensors-to-self-maintenance-how-robotic-principles-are-moving-into-everyday-home-cleaning/104974/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "09-24",
+      "company": "众擎机器人",
+      "title": "终结者成真：众擎 T800 人形机器人首次参与人类格斗赛，一脚踹倒拳击手",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 20 日，在美国旧金山 REK 机器人格斗赛事八角笼内，来自中国的众擎 T800 人形机器人首次与人类拳手对战。 从视频可以看到，众擎 T800 被换上了类似电影《终结者》的 T800 机器人头部，在八角笼中一记重踢， 直接将佩戴全套护具的网红拳手 Frankie LaPenna 踹翻在地 ，成功赢下比赛…",
+      "url": "https://www.ithome.com/1/006/596.htm"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "高通加码物理人工智能，拟收购机器人软件企业 PickNik Robotics",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 9 月 24 日消息，Qualcomm（高通）美国加州当地时间 23 日宣布，已就收购机器人软件企业 PickNik Robotics 达成协议。 PickNik 长期以来维护着全球应用最广泛的开源机器人操作框架之一 MoveIt 。该框架已被全球产学两界广泛用于各行各业的复杂机器人应用程序开发中。 高通称这笔交易践行了其对构建开放机器人生态系统的…",
+      "url": "https://www.ithome.com/1/006/594.htm"
+    },
+    {
+      "date": "09-24",
+      "company": "智元机器人",
+      "title": "两万的启元机器人，却是智元高价买来的一个「坑位」",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "> 潮涌AI编辑部 具身圈来了一场豪华发布会。 胡军、黄晓明、田亮叶一茜夫妇、李嗣镕、影视飓风Tim……从影视明星、运动员到头部博主，前不久都汇聚在上海西岸梦中心，替一个全新的机器人系列站台，全场背景板写 人形机器人",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704669.html"
+    },
+    {
+      "date": "09-24",
+      "company": "特斯拉",
+      "title": "先睹为快，传特斯拉Optimus V3机器人设计图",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "9月23日，有人从特斯拉安卓版App的安装包里，翻出了Optimus Gen 3的设计图。 不是工厂偷拍，不是供应链外流。是特斯拉自己，把下一代机器人——还贴心地带上上一代Gen 2.5做对比——塞进",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30704666.html"
+    },
+    {
+      "date": "09-24",
+      "company": "特斯拉",
+      "title": "特斯拉Optimus V3把关节全包了，这才是机器人量产的暗号",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "9月23日，特斯拉又一次“被泄密”了。先睹为快，传特斯拉Optimus V3机器人设计图 研究者@wholemars从特斯拉安卓版App的安装包（APK）里，扒出了Optimus Gen 3的官方设计",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30704665.html"
+    },
+    {
+      "date": "09-24",
+      "company": "行业",
+      "title": "具身智能的第一张IPO门票，给了不跳舞的机器人",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者 | 碧山 来源 | 具身投研圈 9月18日，中国证监会国际合作司披露了微亿智造的境外发行上市备案通知书——这家常州公司拿到了港交所聆讯的前置条件。 这个名字对大多数人很陌生，但它的行业位置值得停",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704654.html"
+    },
+    {
+      "date": "09-24",
+      "company": "宇树科技",
+      "title": "国网先牵手、南网再入股，两家电网巨头接连押注宇树!百亿采购背后抢的是具身智能标准定义权",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "国网先合作、南网后入股宇树，电力百亿采购背后，人荒驱动与标准定义权争夺。 2026年8月，宇树科技科创板IPO，南方电网产融控股以战略投资者身份获配约1.36亿元，与中石油昆仑资本并列出现在战略配售名",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704639.html"
+    },
+    {
+      "date": "09-24",
+      "company": "行业",
+      "title": "海面具身智能领导者融资数亿元，李泽湘，阿里也投过！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "9月23日消息，欧卡智舶宣布，完成数亿元C轮融资，由“国字号” 力量由西安高新金控集团旗下西高投领投，一线资本元禾璞华、三元资本跟投。 叠加本次融资，欧卡智舶至此已累计融资金额已近3亿元，资本认可度持",
+      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8120-30704629.html"
+    },
     {
       "date": "09-23",
       "company": "特斯拉",
@@ -1039,78 +1111,6 @@
       "category": "行业动态",
       "summary": "文 | 芯智能头条，作者 | Time，编辑 | Cloudy 在宝马工厂搬过零件之后，Figure的机器人又被带到了别人家。这次等着它们的，是散落的玩具、没叠的毛巾和需要整理的床铺。事情听起来不大，却比站在一个固定工位前，更接近人们想象中的“机器人替我干活”。 9月17日，Figure发布Helix 2.5，公布了机器人在30个陌生家庭执行这三类任务的测试…",
       "url": "https://www.tmtpost.com/8147667.html"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "开箱即上岗！璇玑动力首发Hypertron-SW01中型四足机器人",
-      "source_name": "InfoQ",
-      "category": "行业动态",
-      "summary": "璇玑动力在东博会上展示泛行业中型四足机器人Hypertron-SW01，全新升级的“机器人本体+自研AI软件系统+生态体系”一体化解决方案...",
-      "url": "https://www.infoq.cn/article/IhCGKqeVbMIbdhVLbavr?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "09-21",
-      "company": "宇树科技",
-      "title": "宇树科技发布 Dex5-S 灵巧手：22 自由度、真手 1:1 尺寸，售价 3.99 万元起",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 21 日消息，宇树科技（Unitree）今日发布了灵巧手产品 Dex5-S，该产品单手具备 22 个自由度，整机尺寸与真实人手接近，官方起售价为 3.99 万元。 据介绍，Dex5-S 的核心看点在于“小”与“巧”的平衡。产品采用约 1:1 的真手尺寸设计，得益于 22 个自由度的配置，用户可以获得更舒适、更稳定的握持角度。其外形尺寸为 1…",
-      "url": "https://www.ithome.com/1/005/403.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "消息称三星组建新团队研发芯片工厂机器人，推进半导体工厂自动化转型",
-      "source_name": "IT之家",
-      "category": "泛具身产业链",
-      "summary": "IT之家 9 月 21 日消息，三星正把自身的机器人战略进一步延伸至半导体业务板块。该公司专门组建了一支团队，为其芯片工厂研发机器人，以此落实工厂向人工智能驱动的自主化生产基地转型的规划。 据《韩国中央日报》的报道，三星近期在设备解决方案事业部（DS）下属的全球制造与基础设施技术部门之下，新成立了名为“AX / PI”的专项团队，负责芯片工厂自动化机器人的研…",
-      "url": "https://www.ithome.com/1/005/388.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "大晓机器人联合中国石油落地首个加油站便利店具身智能项目",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 9 月 21 日消息， 大晓机器人今日宣布与中国石油上海销售公司正式达成战略合作，启动试运营首个加油站便利店场景的全闭环具身智能机器人项目。 IT之家从官方介绍获悉，双方此次合作落地后，首店（昆仑好客便利店（中国石油振兴店））已进入试运营阶段。消费者通过美团下单后，订单经中国石油数智平台进入作业系统，大晓机器人根据订单和库存信息， 在 75 厘米通…",
-      "url": "https://www.ithome.com/1/005/332.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "从智能传感器到自我维护：机器人原理如何走进日常家庭清洁 (From smart sensors to self-maintenance: How robotic principles are moving into everyday home cleaning)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Most conversations about consumer robotics still gravitate toward humanoids. Bipedal machines walking through a kitchen, manipulating household objects and eventually performing a…",
-      "url": "https://roboticsandautomationnews.com/2026/09/21/from-smart-sensors-to-self-maintenance-how-robotic-principles-are-moving-into-everyday-home-cleaning/104974/"
-    },
-    {
-      "date": "09-21",
-      "company": "宇树科技",
-      "title": "小米雷军澄清“打新宇树科技赚了 100 多亿”：是顺为投资的，而且不是打新、是早期天使投资",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 9 月 21 日消息，小米创办人、董事长兼 CEO 雷军今日开启直播，和大家聊聊澎程发布这些天。 A 股人形机器人第一股宇树科技于 8 月 19 日上市 ，开盘大涨 629.44%，有网上传言“雷军打新宇树科技赚了 100 多亿”。 对此，雷军在今日的直播中澄清，不是他投资的， 而是顺为投资的 。第二也不是打新， 而是早期天使投资、早期风险投资…",
-      "url": "https://www.ithome.com/1/005/430.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "Boston Dynamics 开设 Metaplant Application Center，训练 Atlas 人形机器人 (Boston Dynamics opens Metaplant Application Center to train Atlas humanoids)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "The new Robotics Metaplant Application Center is training humanoids as part of Hyundai's Metaplant America in Georgia. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/boston-dynamics-opens-metaplant-application-center-train-atlas-humanoid-robots/"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "为何大规模部署具身智能需要层层保障安全 (Why Deploying Physical AI at Scale Demands Safety at Every Layer)",
-      "source_name": "NVIDIA Robotics",
-      "category": "商业订单",
-      "summary": "Physical AI is moving rapidly from research to large-scale deployment. By 2035, ABI Research projects an installed base of 49 million level 3-5 autonomous vehicles (AVs), while Omd…",
-      "url": "https://blogs.nvidia.com/blog/physical-ai-halos-safety/"
     }
   ]
 }
