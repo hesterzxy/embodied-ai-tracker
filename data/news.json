@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T19:16:49.879461+08:00",
+  "updated": "2026-09-25T00:39:46.336162+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 8,
-      "core": 1,
+      "candidates": 10,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 25,
-      "core": 2,
+      "candidates": 22,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 21,
       "core": 12,
       "periphery": 0,
-      "new": 5
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 8,
+      "core": 7,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,8 +179,8 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 9,
-      "core": 3,
+      "candidates": 8,
+      "core": 2,
       "periphery": 1,
       "new": 0
     },
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-24T19:17:29.965710+08:00",
+    "generated_at": "2026-09-25T00:40:26.409057+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -299,6 +299,20 @@
             "source_name": "IT之家"
           },
           {
+            "date": "09-24",
+            "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
+            "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-24",
+            "title": "具身智能的行业信用正在被机器人公司透支",
+            "url": "https://www.tmtpost.com/8152223.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
             "date": "09-23",
             "title": "实时世界模型进入“全科生”阶段，PixVerse R2先交卷！",
             "url": "https://www.qbitai.com/2026/09/496329.html",
@@ -339,13 +353,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704293.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-22",
-            "title": "生态合作 | 博银合创×法奥机器人：共启工业具身智能规模化新篇章",
-            "url": "https://www.gongkong.com/news/202609/453517.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       },
@@ -413,13 +420,6 @@
             "date": "09-23",
             "title": "爱普生推出首款协作机器人 AX6 (Epson launches AX6, its first collaborative robot)",
             "url": "https://roboticsandautomationnews.com/2026/09/23/epson-launches-ax6-its-first-collaborative-robot/105033/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-22",
-            "title": "质量管理软件如何防止机器人生产线陷入瘫痪 (How Quality Management Software Keeps Robot Production Lines From Falling Apart)",
-            "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           }
@@ -492,6 +492,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "09-24",
+            "title": "亚马逊将投资超 1 亿美元在美国新建机器人制造工厂，2028 年投入运营",
+            "url": "https://www.ithome.com/1/007/014.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
             "date": "09-23",
             "title": "方奇科技完成千万级天使轮融资，清华团队研发「语义化世界模型」",
             "url": "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
@@ -532,13 +539,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321206-8420-30704342.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-21",
-            "title": "李想的投资野心：当欣旺达二股东，“扫货”机器人公司",
-            "url": "https://www.tmtpost.com/8146396.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -796,6 +796,33 @@
       "category": "资本动态",
       "summary": "作者 | 宁成缺 来源 | 具身投研圈 9月17日，D-Robotics（地瓜机器人）宣布完成4亿美元C轮融资。未来资产领投，美团战投，合肥国投、南山战新投、璟泉资本、凯辉基金等机构联合跟投，高瓴创投",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704773.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "SeeAct AI穆尧：具身智能终局，一定是从“被训练”走向“自我进化”｜物理AI50人",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "机器人真正缺的，不是数据，而是经验。 李秋悦 吴彤 那是具身智能最荒芜的时候。 没有成熟数据集，没有标准Benchmark，甚至没有一条被验证能走通的技术路线。 穆尧南下港大读博，开始研究具身智能。 2021年，穆尧进入HKUMMLab，成为该实验室创始人罗平教授和中国人工智能奠基人之一的汤晓鸥教授共同指导的学生。 “具身智能会是一个非常 Promising…",
+      "url": "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "具身智能的行业信用正在被机器人公司透支",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "9月24日，梅卡曼德（09615.HK）交出上市后的第一份中期账本，这距离它9月1日挂牌仅过了23天。而成立十年的梅卡曼德，此前积攒的行业热度，可能都不及最近这23天。 这份热度的来源，一是火热的IPO本身：公开发售获得3835倍认购，引来25.25万份申请，一手中签率3%；另一个来源，就是创始人邵天兰在上市后连续的“仗义掀桌式”发言，给具身智能行业当头下了…",
+      "url": "https://www.tmtpost.com/8152223.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "亚马逊将投资超 1 亿美元在美国新建机器人制造工厂，2028 年投入运营",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 9 月 24 日消息，据华尔街日报报道，亚马逊已经是全球最大的机器人制造商之一。随着公司进一步推动仓库作业自动化，亚马逊正在扩大机器人生产规模。 亚马逊表示，公司将投资超过 1 亿美元 （IT之家注：现汇率约合 6.72 亿元人民币） ，在美国印第安纳州格林伍德（Greenwood）建设一座新的机器人制造工厂，预计将于 2028 年投入运营。 就在…",
+      "url": "https://www.ithome.com/1/007/014.htm"
     },
     {
       "date": "09-23",
@@ -1084,33 +1111,6 @@
       "category": "泛具身产业链",
       "summary": "The release brings new agentic workflows and platform support to NVIDIA Isaac ROS to help developers deploy robotics applications faster. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/isaac-ros-5-0-brings-ai-agents-robotics-development-says-nvidia/"
-    },
-    {
-      "date": "09-22",
-      "company": "其他",
-      "title": "质量管理软件如何防止机器人生产线陷入瘫痪 (How Quality Management Software Keeps Robot Production Lines From Falling Apart)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Fourteen months after a cobot cell started shipping, a mid-sized integrator discovered its torque records lived in a plant manager’s email folder. The customer audit was in nine da…",
-      "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/"
-    },
-    {
-      "date": "09-22",
-      "company": "其他",
-      "title": "生态合作 | 博银合创×法奥机器人：共启工业具身智能规模化新篇章",
-      "source_name": "中国工控网机器人",
-      "category": "技术突破",
-      "summary": "2026年9月22日，博银合创与法奥机器人生态战略合作签约仪式在苏州高新区法奥总部隆重举行。博银合创CEO任经纬、COO尹向东等高管和主要负责人与法奥机器人董事长姚庭、技术总监马鑫等一众同仁共同出席并见证这一重要里程碑时刻。 标签： 博银合创 法奥机器人",
-      "url": "https://www.gongkong.com/news/202609/453517.html"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "李想的投资野心：当欣旺达二股东，“扫货”机器人公司",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "2026年9月，欣旺达最新一轮C++轮融资细节的披露，理想汽车拟出资26.5亿元增资欣旺达动力，认购8.79%的股份。 交易完成后，理想汽车相关主体将间接持有11.17%的股份，跃升为欣旺达动力的第二大股东，推动这只动力电池独角兽的估值冲破300亿元大关。 早在2022年，理想就曾投入4亿元成为欣旺达汽车电池的股东；2025年，双方又以50:50的股比成立了…",
-      "url": "https://www.tmtpost.com/8146396.html"
     }
   ]
 }
