@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T11:32:35.076557+08:00",
+  "updated": "2026-09-24T19:16:49.879461+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 9,
+      "entries": 20,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 3,
-      "core": 1,
+      "entries": 17,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 32,
-      "core": 3,
+      "entries": 60,
+      "candidates": 25,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -127,10 +127,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 22,
-      "core": 11,
+      "candidates": 21,
+      "core": 12,
       "periphery": 0,
-      "new": 8
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -152,11 +152,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 15,
-      "core": 9,
-      "periphery": 4,
-      "new": 1
+      "entries": 18,
+      "candidates": 17,
+      "core": 12,
+      "periphery": 3,
+      "new": 5
     },
     {
       "name": "The Robot Report",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,7 +192,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
+      "candidates": 12,
       "core": 10,
       "periphery": 2,
       "new": 2
@@ -208,7 +208,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -232,25 +232,25 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 19,
-      "periphery": 7,
-      "new": 1
+      "core": 18,
+      "periphery": 8,
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-24T11:33:15.459756+08:00",
+    "generated_at": "2026-09-24T19:17:29.965710+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，9月17日，Figure发布Helix 2.；RLWRLD,a physical AI company,participated in Humanoids Summit Seoul 2026。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，这类方式可以解决确定性较高的任务，却难以覆盖真实场景中不断变化的物品、环境和需求；RLWRLD,a physical AI company,participated in Humanoids Summit Seoul 2026。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
-          "https://www.tmtpost.com/8147667.html",
+          "https://www.qbitai.com/2026/09/496816.html",
           "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/",
-          "https://www.ithome.com/1/005/100.htm"
+          "https://robot.ofweek.com/2026-09/ART-898890-12003-30704639.html"
         ]
       },
       {
@@ -268,7 +268,7 @@
         "evidence_urls": [
           "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
           "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/",
-          "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html"
+          "https://www.ithome.com/1/006/594.htm"
         ]
       }
     ],
@@ -277,6 +277,27 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "09-24",
+            "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+            "url": "https://www.qbitai.com/2026/09/496767.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-24",
+            "title": "这次云栖，斑马智能亮出了从汽车到具身智能的入场券",
+            "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-24",
+            "title": "超 300 台机器人陪你玩：全球首个大规模具身智能主题乐园今日开园",
+            "url": "https://www.ithome.com/1/006/965.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-23",
             "title": "实时世界模型进入“全科生”阶段，PixVerse R2先交卷！",
@@ -325,13 +346,6 @@
             "url": "https://www.gongkong.com/news/202609/453517.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
-          },
-          {
-            "date": "09-21",
-            "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
-            "url": "https://www.qbitai.com/2026/09/493218.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
@@ -344,6 +358,27 @@
             "title": "特斯拉Optimus V3把关节全包了，这才是机器人量产的暗号",
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8110-30704665.html",
             "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-24",
+            "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+            "url": "https://www.qbitai.com/2026/09/496816.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-24",
+            "title": "Counterpoint 数据：四足机器人 2026H1 全球出货约 3.5 万台，达 2025 全年 3/4",
+            "url": "https://www.ithome.com/1/006/958.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-24",
+            "title": "全球首次！镜识科技灵巧手VIVA实现人机实时四手联弹，VIVA× CADA（灵巧手×音乐具身大模型）阶段里程碑发布",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-8120-30704831.html",
+            "company": "其他",
             "source_name": "OFweek机器人"
           },
           {
@@ -387,13 +422,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/22/how-quality-management-software-keeps-robot-production-lines-from-falling-apart/105005/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-21",
-            "title": "上纬新材启元机器人今日发布Q1/T1：2.1亿预收款已到账",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321206-12003-30704086.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -428,13 +456,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/23/rlwrld-outlines-deployment-first-physical-ai-strategy-for-industrial-humanoids/105026/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-21",
-            "title": "消息称特斯拉机器人团队在长三角审厂，多家企业已获订单",
-            "url": "https://www.ithome.com/1/005/100.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -460,6 +481,13 @@
             "date": "09-24",
             "title": "海面具身智能领导者融资数亿元，李泽湘，阿里也投过！",
             "url": "https://robot.ofweek.com/2026-09/ART-8321206-8120-30704629.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-24",
+            "title": "融资4亿美元：不造机器人的地瓜机器人，凭什么让资本排队？",
+            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704773.html",
             "company": "行业",
             "source_name": "OFweek机器人"
           },
@@ -511,20 +539,6 @@
             "url": "https://www.tmtpost.com/8146396.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "09-21",
-            "title": "据传：特斯拉考察宁波多家上市公司的机器人业务，「均胜电子」在列！",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704148.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-21",
-            "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
-            "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html",
-            "company": "行业",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -615,20 +629,6 @@
             "url": "https://www.ithome.com/1/005/731.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "09-21",
-            "title": "曝特斯拉得州 Optimus 机器人工厂主结构接近完工，投产仍需时日",
-            "url": "https://www.ithome.com/1/005/052.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-21",
-            "title": "捡快递200小时的Figure机器人，走进30个陌生家庭自主干家务",
-            "url": "https://www.tmtpost.com/8147667.html",
-            "company": "Figure",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -733,6 +733,69 @@
       "category": "资本动态",
       "summary": "9月23日消息，欧卡智舶宣布，完成数亿元C轮融资，由“国字号” 力量由西安高新金控集团旗下西高投领投，一线资本元禾璞华、三元资本跟投。 叠加本次融资，欧卡智舶至此已累计融资金额已近3亿元，资本认可度持",
       "url": "https://robot.ofweek.com/2026-09/ART-8321206-8120-30704629.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "一直以来，要让机器人学会一项新任务，往往需要重新采集数据、编写固定流程，或进行针对性训练。这类方式可以解决确定性较高的任务，却难以覆盖真实场景中不断变化的物品、环境和需求。 近期，新一代通用大模型GPT-6 Astra的发布，引发行业对具身智能技术路线的广泛讨论与重新思考。不少观点认为，通用大模型正在展现操控机器人的能力，可能对既有具身智能路线形成冲击；与此…",
+      "url": "https://www.qbitai.com/2026/09/496816.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "一架架飞机在空中有序飞行，按时起降，看似只是飞机自己的事情，实际上，它需要持续与机场、跑道、航线以及地面资源系统协同。 这正是“塔台”存在的意义： 它负责把分散的飞机和地面、空中的资源协调组织起来，让飞机根据各自的任务有序运行。而当飞机越来越多、航线越来越复杂，这种统一管控和协调也就变得越来越重要。 一项具身任务，本质上是多个角色的协同：机器人和相机等现场设…",
+      "url": "https://www.qbitai.com/2026/09/496767.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "这次云栖，斑马智能亮出了从汽车到具身智能的入场券",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "周五晚上六点，你坐进车里，什么也没说。 AI 系统已经知道，这周六是女儿的生日。它没有等你开口，先推荐了一个游玩地点 —— 郊外那家亲子农场，因为它知道你女儿喜欢大自然。 AI 系统又想起你上周在车里念叨过 “ 好久没吃江浙菜了 ” ，于是在沿途标记出一家评分最高的江浙菜馆。 你只回了一句话： “ 就按这个来。 ” 没有打开 App ，没有搜索，没有比价，甚…",
+      "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "超 300 台机器人陪你玩：全球首个大规模具身智能主题乐园今日开园",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 9 月 24 日消息，智元官方宣布，全球首个大规模具身智能主题乐园今日正式开园，由智元与长隆集团联手打造。 IT之家了解到，该乐园作为全球首个、规模最大、场景最丰富、技术最先进的具身智能主题乐园， 拥有超 300 台机器人 ，覆盖机器人文娱商演、科普研学、导览导购导引、服务零售站、智能伴游、酒店场景、体育竞技等七大场景。 同时，这些机器人将在 10…",
+      "url": "https://www.ithome.com/1/006/965.htm"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "Counterpoint 数据：四足机器人 2026H1 全球出货约 3.5 万台，达 2025 全年 3/4",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 24 日消息，Counterpoint Research 当地时间 21 日发布见解：全球四足机器人出货规模在 2026 年上半年达到约 3.5 万台， 已是 2025 全年水平的 3/4 ；而这 3.5 万台中 40% 面向垂直工业应用。 ▲ 图源：Counterpoint Research 中国制造商仍然主导四足机器人市场 ，宇树科技…",
+      "url": "https://www.ithome.com/1/006/958.htm"
+    },
+    {
+      "date": "09-24",
+      "company": "其他",
+      "title": "全球首次！镜识科技灵巧手VIVA实现人机实时四手联弹，VIVA× CADA（灵巧手×音乐具身大模型）阶段里程碑发布",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "> 近日，镜识科技发布灵巧手VIVA，全球首次实现了实时人机四手联弹，机器人不再只是\"弹得准\"，而是真正\"弹得好\"。并宣布完成VIVA × CADA阶段里程碑，机器人音乐智能迈入\"会创作、能演奏、可持续学 人形机器人",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-8120-30704831.html"
+    },
+    {
+      "date": "09-24",
+      "company": "行业",
+      "title": "融资4亿美元：不造机器人的地瓜机器人，凭什么让资本排队？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者 | 宁成缺 来源 | 具身投研圈 9月17日，D-Robotics（地瓜机器人）宣布完成4亿美元C轮融资。未来资产领投，美团战投，合肥国投、南山战新投、璟泉资本、凯辉基金等机构联合跟投，高瓴创投",
+      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704773.html"
     },
     {
       "date": "09-23",
@@ -1048,69 +1111,6 @@
       "category": "资本动态",
       "summary": "2026年9月，欣旺达最新一轮C++轮融资细节的披露，理想汽车拟出资26.5亿元增资欣旺达动力，认购8.79%的股份。 交易完成后，理想汽车相关主体将间接持有11.17%的股份，跃升为欣旺达动力的第二大股东，推动这只动力电池独角兽的估值冲破300亿元大关。 早在2022年，理想就曾投入4亿元成为欣旺达汽车电池的股东；2025年，双方又以50:50的股比成立了…",
       "url": "https://www.tmtpost.com/8146396.html"
-    },
-    {
-      "date": "09-21",
-      "company": "特斯拉",
-      "title": "消息称特斯拉机器人团队在长三角审厂，多家企业已获订单",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 9 月 21 日消息，据澎湃新闻今日报道，产业链人士透露， 特斯拉机器人团队已经于上周在拓普集团、三花智控、均胜电子等供应链企业开启审厂工作 。上述企业主要供给关节模组、执行器、精密结构件等核心机电部件。 “在本次审厂前， 这些企业都已经拿到了特斯拉人形机器人的订单 ，只是或多或少的区别。审厂将对相关产线质量、合规等方面开展评估，通过后将很快开始生…",
-      "url": "https://www.ithome.com/1/005/100.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "特斯拉",
-      "title": "曝特斯拉得州 Optimus 机器人工厂主结构接近完工，投产仍需时日",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 21 日消息，X 平台博主 Joe Tegtmeyer 近日使用无人机观察特斯拉得克萨斯州超级工厂，显示该工厂的主体钢结构已经接近完工。 Tegtmeyer 表示，该工厂的钢结构已经接近建筑北侧边缘，距北侧外围梁大约还差 5 个柱网。且工厂上方的三层楼正在浇筑混凝土，更多区域也在铺设钢筋，为后续浇筑做准备。 该名博主还认为，特斯拉得州 Op…",
-      "url": "https://www.ithome.com/1/005/052.htm"
-    },
-    {
-      "date": "09-21",
-      "company": "特斯拉",
-      "title": "据传：特斯拉考察宁波多家上市公司的机器人业务，「均胜电子」在列！",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "特斯拉Optimus的量产筹备，正在把全球人形机器人供应链的目光引向中国。近期特斯拉团队奔赴宁波，走访均胜电子等一批有汽车零部件合作基础的本土上市公司，调研人形机器人相关零部件能力，后续团队还将前往广",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704148.html"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "上纬新材启元机器人今日发布Q1/T1：2.1亿预收款已到账",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "一台100厘米高的机器人，能变形，能跟着郎朗的琴声做动作。付1000块订金就能锁定。今天，上纬新材旗下启元机器人在上海西岸梦中心办发布会，Q1和T1正式亮相。 梳理一下时间线。8月23日，启元Q1和T",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321206-12003-30704086.html"
-    },
-    {
-      "date": "09-21",
-      "company": "其他",
-      "title": "GPT-6 Astra开进机器人身体！清华联手无问芯穹等开源RPent",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "Codex、Claude Code等数字世界智能体，已经向我们展示出了一种全新且高效的工作方式：大模型理解目标，拆解任务，调用适当的工具，并根据执行结果不断调整计划，直到完成任务。 随着GPT-6 Astra开始接受真实机器人操作测试，这种“让大模型作为决策大脑”的智能体范式正逐渐走向物理世界。 通用大模型，能否成为机器人的“大脑”，让机器人真正完成现实世界…",
-      "url": "https://www.qbitai.com/2026/09/493218.html"
-    },
-    {
-      "date": "09-21",
-      "company": "行业",
-      "title": "具身智能模型公司方奇科技完成千万级天使轮融资",
-      "source_name": "雷峰网",
-      "category": "资本动态",
-      "summary": "近日，具身智能通用大脑研发商方奇科技（北京）有限公司（以下简称“方奇科技”）宣布完成千万级天使轮融资，投资方包括启迪之星创投等知名机构。 据悉，本轮融资资金将主要用于核心技术研发与研发团队扩充，并加速关键技术在典型场景中的验证与商业化落地，持续沉淀机器人可持续学习、可跨本体迁移的“通用技能操作系统”，并为打造通用“机器人大脑”蓄势，逐步构建面向多机器人本体…",
-      "url": "https://www.leiphone.com/category/industrynews/YREhdZ1XsK1D5Rfi.html"
-    },
-    {
-      "date": "09-21",
-      "company": "Figure",
-      "title": "捡快递200小时的Figure机器人，走进30个陌生家庭自主干家务",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "文 | 芯智能头条，作者 | Time，编辑 | Cloudy 在宝马工厂搬过零件之后，Figure的机器人又被带到了别人家。这次等着它们的，是散落的玩具、没叠的毛巾和需要整理的床铺。事情听起来不大，却比站在一个固定工位前，更接近人们想象中的“机器人替我干活”。 9月17日，Figure发布Helix 2.5，公布了机器人在30个陌生家庭执行这三类任务的测试…",
-      "url": "https://www.tmtpost.com/8147667.html"
     }
   ]
 }
