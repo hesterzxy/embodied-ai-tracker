@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-25T19:22:35.041960+08:00",
+  "updated": "2026-09-26T00:46:11.620965+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,7 +12,7 @@
       "error": "",
       "entries": 10,
       "candidates": 3,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
-      "core": 1,
+      "entries": 19,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 20,
-      "core": 2,
+      "candidates": 21,
+      "core": 3,
       "periphery": 0,
       "new": 2
     },
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 5,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,7 +179,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 8,
+      "candidates": 7,
       "core": 1,
       "periphery": 1,
       "new": 0
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
+      "candidates": 11,
       "core": 6,
-      "periphery": 2,
-      "new": 4
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -232,38 +232,50 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 19,
+      "core": 18,
       "periphery": 8,
-      "new": 3
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-25T19:23:07.834361+08:00",
-    "mode": "aicodewith",
+    "generated_at": "2026-09-26T00:46:51.676866+08:00",
+    "mode": "local",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地评价转向可验收任务",
-        "text": "Semi规划年产能5万辆，它石智航扩充产能与交付能力，机器人企业开始以工厂、运输等明确场景承接规模化需求，稳定交付和任务精度正成为比展示效果更硬的验证指标。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制；据介绍，为 Semi 打造的首座工厂 年产能 50,000 辆 ，占地面积 180 万平方英尺 （IT之家注：约 16.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/007/246.htm",
+          "https://www.ithome.com/1/007/084.htm",
+          "https://www.qbitai.com/2026/09/496816.html"
+        ]
       },
       {
-        "label": "模型竞争进入数据任务闭环",
-        "text": "世界模型统一评测、语义化世界模型融资及机器人云原生平台相继出现，技术重心正从生成和演示转向真实环境中的调度、适应与持续执行，但行业对数据质量和收入真实性的质疑仍限制结论强度。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，这年头，实时生成的世界模型越来越会「造世界」了；今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.qbitai.com/2026/09/496329.html",
+          "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
+          "https://www.tmtpost.com/8149233.html"
+        ]
       },
       {
-        "label": "资本沿能力缺口纵向整合",
-        "text": "Cognex拟以5亿美元收购RealSense，高通拟收购PickNik Robotics，同时资本投向机器人芯片、海面作业和工业制造，资金更偏好感知、软件与特定场景能力可清晰定义的标的。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，潮涌AI编辑部 9月21日，具身智能通用大脑研发商方奇科技（北京）有限公司宣布完成千万级天使轮融资，投资方为启迪之星创投等机构；Qualcomm（高通）美国加州当地时间 23 日宣布，已就收购机器人软件企业 PickNik Robotics 达成协议。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
+          "https://www.ithome.com/1/006/594.htm",
+          "https://robot.ofweek.com/2026-09/ART-898890-8420-30704654.html"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术进展集中于世界模型评测、跨集群机器人调度和自主进化，RLark已实现5分钟纳管与10秒启动任务，研发评价更贴近真实系统协同效率。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
           {
             "date": "09-25",
@@ -339,7 +351,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品端同时推进量产时间表、开放方案和细分品类出货，长安提出2028年量产人形机器人，四足机器人2026年上半年全球出货约3.5万台。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "09-25",
@@ -361,6 +373,13 @@
             "url": "https://robohub.org/an-open-source-approach-to-physical-ai-from-intrinsic/",
             "company": "其他",
             "source_name": "RoboHub"
+          },
+          {
+            "date": "09-25",
+            "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
+            "url": "https://www.ithome.com/1/007/246.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
           },
           {
             "date": "09-24",
@@ -417,20 +436,20 @@
             "url": "https://roboticsandautomationnews.com/2026/09/23/nvidia-launches-jetson-orin-nano-2-for-entry-level-robotics-and-edge-ai/105011/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-23",
-            "title": "Toborlife AI推出适用于Unitree G1人形机器人的全身遥操作系统 (Toborlife AI launches full-body teleoperation system for Unitree G1 humanoid robot)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/toborlife-ai-launches-full-body-teleoperation-system-for-unitree-g1-humanoid-robot/105056/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业需求主要落在运输、电网与工业交付场景，美国电动重卡订单计划投入至少2500辆车辆，它石智航则通过扩建团队和生产基地提升交付能力。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "09-25",
+            "title": "灵巧手不是等AGI才用：一份被误读的物理AI落地地图",
+            "url": "https://www.tmtpost.com/8152613.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "09-24",
             "title": "国网先牵手、南网再入股，两家电网巨头接连押注宇树!百亿采购背后抢的是具身智能标准定义权",
@@ -456,7 +475,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本覆盖大额融资、产业收购与上市准备，地瓜机器人完成4亿美元融资，Cognex拟以5亿美元收购RealSense，资金加速补齐芯片、感知和软件环节。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "09-24",
@@ -513,26 +532,12 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-23",
-            "title": "Qualcomm 将收购 PickNik Robotics，并继续保持 MoveIt 开源 (Qualcomm to acquire PickNik Robotics and keep MoveIt open-source)",
-            "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-23",
-            "title": "Cognex将以5亿美元收购RealSense，大举进军机器人感知与物理AI领域 (Cognex to acquire RealSense for $500 million in major expansion into robotic perception and physical AI)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业关注点由表演能力转向量产与精密作业，Semi工厂规划年产5万辆，王兴兴将几毫米级工作误差列为核心瓶颈，规模和精度成为共同约束。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
             "date": "09-25",
@@ -554,6 +559,20 @@
             "url": "https://www.ithome.com/1/007/143.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
+          },
+          {
+            "date": "09-25",
+            "title": "Digit人形机器人制造商Agility Robotics正探索轮式机器人 (Agility Robotics, maker of Digit humanoid, exploring wheeled robots)",
+            "url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/",
+            "company": "Agility Robotics",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "09-25",
+            "title": "Plus One Robotics调查发现，美国人希望人类监督人形机器人 (Plus One Robotics survey finds Americans want human oversight of humanoid robots)",
+            "url": "https://roboticsandautomationnews.com/2026/09/25/plus-one-robotics-survey-finds-americans-want-human-oversight-of-humanoid-robots/105146/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-24",
@@ -624,19 +643,12 @@
             "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-23",
-            "title": "Pickr.AI开发适用于现有仓储系统的模块化拣选机器人 (Pickr.AI develops modular picking robots for existing warehouse systems)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/pickr-ai-develops-modular-picking-robots-for-existing-warehouse-systems/105052/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "Robot.com与索迪斯签署七年协议，计划扩大北美校园自主配送机器人部署，长期运营合同为配送机器人提供了较明确的场景边界与商业验证周期。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "09-24",
@@ -712,6 +724,42 @@
       "category": "产品量产",
       "summary": "Deborah Lupton / Pop Chips / Licenced by CC-BY 4.0 Intrinsic (an AI robotics group at Google) announced that the company is making parts of its platform open source. Intrinsic Core…",
       "url": "https://robohub.org/an-open-source-approach-to-physical-ai-from-intrinsic/"
+    },
+    {
+      "date": "09-25",
+      "company": "其他",
+      "title": "灵巧手不是等AGI才用：一份被误读的物理AI落地地图",
+      "source_name": "钛媒体",
+      "category": "商业订单",
+      "summary": "宇树Dex5-S把22个主动自由度压进3.99万元，市场欢呼“人形机器人进家倒计时”。但把出货量当干活量、把自由度当灵巧、把家庭当最大市场，是三个系统性误读。灵巧手的真实逻辑是按“脑子的水位”分层变现——硬件决定能力上限，数据决定当下能做什么：工业可枚举场景不需要通用AGI，家庭复杂长尾任务才高度依赖它",
+      "url": "https://www.tmtpost.com/8152613.html"
+    },
+    {
+      "date": "09-25",
+      "company": "特斯拉",
+      "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 25 日消息，The Information 今天（25 日）晚间报道称，特斯拉近几个月已将 Optimus 人形机器人的产量 扩大到原来的约 10 倍 （tenfold），然而 稳定规模化生产的难题 仍未解决。 多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制 。 两名熟悉…",
+      "url": "https://www.ithome.com/1/007/246.htm"
+    },
+    {
+      "date": "09-25",
+      "company": "Agility Robotics",
+      "title": "Digit人形机器人制造商Agility Robotics正探索轮式机器人 (Agility Robotics, maker of Digit humanoid, exploring wheeled robots)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Agility Robotics is exploring a range of robot designs and form factors, including wheels, to address different operating environments and customer needs. The post appeared first o…",
+      "url": "https://www.therobotreport.com/agility-robotics-maker-of-digit-humanoid-exploring-wheeled-robots/"
+    },
+    {
+      "date": "09-25",
+      "company": "其他",
+      "title": "Plus One Robotics调查发现，美国人希望人类监督人形机器人 (Plus One Robotics survey finds Americans want human oversight of humanoid robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Americans appear more comfortable with humanoid robots when trained humans remain available to monitor their operation and intervene when necessary, according to new research from…",
+      "url": "https://roboticsandautomationnews.com/2026/09/25/plus-one-robotics-survey-finds-americans-want-human-oversight-of-humanoid-robots/105146/"
     },
     {
       "date": "09-24",
@@ -1063,42 +1111,6 @@
       "category": "行业动态",
       "summary": "At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments. The post appeared first on The Robot Repor…",
       "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Qualcomm 将收购 PickNik Robotics，并继续保持 MoveIt 开源 (Qualcomm to acquire PickNik Robotics and keep MoveIt open-source)",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Qualcomm plans to integrate the Dragonwing and Arduino platforms with the MoveIt open-source manipulation framework. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/qualcomm-acquires-picknik-robotics-keep-moveit-open-source/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Toborlife AI推出适用于Unitree G1人形机器人的全身遥操作系统 (Toborlife AI launches full-body teleoperation system for Unitree G1 humanoid robot)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Toborlife AI, developer of the Tobor Harness control system and the official US partner of Unitree Robotics, has announced its full-body teleoperation software for the Unitree G1 E…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/toborlife-ai-launches-full-body-teleoperation-system-for-unitree-g1-humanoid-robot/105056/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Pickr.AI开发适用于现有仓储系统的模块化拣选机器人 (Pickr.AI develops modular picking robots for existing warehouse systems)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Norwegian robotics company Pickr.AI has developed a range of flexible, modular picking robots designed to integrate into existing warehouse infrastructure without requiring extensi…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/pickr-ai-develops-modular-picking-robots-for-existing-warehouse-systems/105052/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Cognex将以5亿美元收购RealSense，大举进军机器人感知与物理AI领域 (Cognex to acquire RealSense for $500 million in major expansion into robotic perception and physical AI)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Cognex, a specialist in industrial machine vision, has entered into a definitive agreement to acquire RealSense, the market leader in depth-sensing cameras and vision technology fo…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/cognex-to-acquire-realsense-for-500-million-in-major-expansion-into-robotic-perception-and-physical-ai/105044/"
     }
   ]
 }
