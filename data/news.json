@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T00:46:11.620965+08:00",
+  "updated": "2026-09-26T05:12:47.528790+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 10,
-      "core": 2,
+      "candidates": 11,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -53,7 +53,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -92,7 +92,7 @@
       "candidates": 21,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -168,8 +168,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 5,
-      "periphery": 1,
-      "new": 4
+      "periphery": 2,
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -194,8 +194,8 @@
       "entries": 15,
       "candidates": 11,
       "core": 6,
-      "periphery": 1,
-      "new": 2
+      "periphery": 0,
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,17 +240,17 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-26T00:46:51.676866+08:00",
+    "generated_at": "2026-09-26T05:13:27.628579+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制；据介绍，为 Semi 打造的首座工厂 年产能 50,000 辆 ，占地面积 180 万平方英尺 （IT之家注：约 16.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制；这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.ithome.com/1/007/246.htm",
-          "https://www.ithome.com/1/007/084.htm",
-          "https://www.qbitai.com/2026/09/496816.html"
+          "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
+          "https://www.ithome.com/1/007/084.htm"
         ]
       },
       {
@@ -353,6 +353,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "09-26",
+            "title": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
+            "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
+            "company": "智元机器人",
+            "source_name": "雷峰网"
+          },
           {
             "date": "09-25",
             "title": "长安汽车：力争在 2028 年实现人形机器人量产、2030 年推出商用航线飞行汽车",
@@ -636,13 +643,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/23/china-has-commanding-lead-in-physical-ai-readiness-openmind-report-finds/105014/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-23",
-            "title": "人形机器人现状”主题演讲汇聚行业领袖参加 RoboBusiness (State of Humanoids keynote brings industry leaders to RoboBusiness)",
-            "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -662,6 +662,15 @@
     ]
   },
   "items": [
+    {
+      "date": "09-26",
+      "company": "智元机器人",
+      "title": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "雷峰网报道： 2026 年，具身智能行业最难回答的问题之一，是怎么落地。 这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。智元称之为「部署态」，机器人开始离开发布会和展会，进入真实的生产与服务环境。 一台机器人在舞台上完成一次高难度动作，足以成为热点；让数百台机器人每…",
+      "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
+    },
     {
       "date": "09-25",
       "company": "智元机器人",
@@ -1102,15 +1111,6 @@
       "category": "技术突破",
       "summary": "今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来",
       "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "人形机器人现状”主题演讲汇聚行业领袖参加 RoboBusiness (State of Humanoids keynote brings industry leaders to RoboBusiness)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "At RoboBusiness, industry leaders will discuss the state of humanoids as the robots transition from demos to real industrial deployments. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/state-of-humanoids-keynote-brings-industry-leaders-robobusiness/"
     }
   ]
 }
