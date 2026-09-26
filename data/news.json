@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T05:12:47.528790+08:00",
+  "updated": "2026-09-26T11:55:44.471691+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 2,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -76,8 +76,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 21,
-      "core": 3,
+      "entries": 59,
+      "candidates": 18,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 5,
       "periphery": 2,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,26 +240,26 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-26T05:13:27.628579+08:00",
+    "generated_at": "2026-09-26T11:56:24.633495+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制；这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制；据外媒 The Information 报道，特斯拉最新一代 Optimus V3 人形机器人在机械手设计、生产线设备以及训练数据采集等方面均遇到困难。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.ithome.com/1/007/246.htm",
-          "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
-          "https://www.ithome.com/1/007/084.htm"
+          "https://www.ithome.com/1/007/277.htm",
+          "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
         ]
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，这年头，实时生成的世界模型越来越会「造世界」了；今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，这年头，实时生成的世界模型越来越会「造世界」了；连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.qbitai.com/2026/09/496329.html",
-          "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
-          "https://www.tmtpost.com/8149233.html"
+          "https://www.tmtpost.com/8149233.html",
+          "https://www.leiphone.com/category/ai/k1XGdu6w3n7xGgKB.html"
         ]
       },
       {
@@ -277,6 +277,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "09-26",
+            "title": "京东，具身智能大玩家？",
+            "url": "https://www.tmtpost.com/8152876.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "09-25",
             "title": "卡特彼勒携手 FieldAI 推进物理 AI 与自主机器人技术 (Caterpillar partners with FieldAI to advance physical AI and autonomous robotics)",
@@ -339,13 +346,6 @@
             "url": "https://www.tmtpost.com/8149233.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "09-23",
-            "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
-            "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
           }
         ]
       },
@@ -385,6 +385,13 @@
             "date": "09-25",
             "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
             "url": "https://www.ithome.com/1/007/246.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "09-25",
+            "title": "消息称特斯拉 Optimus V3 机器人量产遇阻：机械手组装困难、AI 能力仍待突破",
+            "url": "https://www.ithome.com/1/007/277.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
           },
@@ -434,13 +441,6 @@
             "date": "09-23",
             "title": "Robotiq 推出面向物理 AI 与机器人操作的开源软件工具 (Robotiq launches open-source software tools for physical AI and robot manipulation)",
             "url": "https://roboticsandautomationnews.com/2026/09/23/end-of-arm-tooling-expert-robotiq-releases-open-source-software-packages-for-physical-ai-ecosystem/105018/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-23",
-            "title": "Nvidia 发布面向入门级机器人和边缘 AI 的 Jetson Orin Nano 2 (Nvidia launches Jetson Orin Nano 2 for entry-level robotics and edge AI)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/nvidia-launches-jetson-orin-nano-2-for-entry-level-robotics-and-edge-ai/105011/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           }
@@ -672,6 +672,15 @@
       "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
     },
     {
+      "date": "09-26",
+      "company": "其他",
+      "title": "京东，具身智能大玩家？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | AIX财经（AIXcaijing）作者｜李梦冉，编辑｜魏佳 一家不造机器人的公司，正在成为机器人行业最激进的玩家之一。 9月9日，京东在全球科技探索者大会上启动“物理AI加速计划”。最引人关注的一项是，京东物流计划未来5年采购300万台机器人、100万台无人车和10万架无人机，推进物流全流程无人化。 供应链、制造、训练、销售、应用、售后，一台机器人从…",
+      "url": "https://www.tmtpost.com/8152876.html"
+    },
+    {
       "date": "09-25",
       "company": "智元机器人",
       "title": "四足机器人：宇树第一，智元、云深处争第二？",
@@ -769,6 +778,15 @@
       "category": "行业动态",
       "summary": "Americans appear more comfortable with humanoid robots when trained humans remain available to monitor their operation and intervene when necessary, according to new research from…",
       "url": "https://roboticsandautomationnews.com/2026/09/25/plus-one-robotics-survey-finds-americans-want-human-oversight-of-humanoid-robots/105146/"
+    },
+    {
+      "date": "09-25",
+      "company": "特斯拉",
+      "title": "消息称特斯拉 Optimus V3 机器人量产遇阻：机械手组装困难、AI 能力仍待突破",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 26 日消息，特斯拉正将公司未来押注于人工智能和机器人，但其从电动汽车向人形机器人转型的过程中，也开始面临一系列量产和人员方面的挑战。据外媒 The Information 报道，特斯拉最新一代 Optimus V3 人形机器人在机械手设计、生产线设备以及训练数据采集等方面均遇到困难。 目前，特斯拉已经将 Optimus 产量提升至每周数百…",
+      "url": "https://www.ithome.com/1/007/277.htm"
     },
     {
       "date": "09-24",
@@ -1093,24 +1111,6 @@
       "category": "行业动态",
       "summary": "China has established a substantial lead over the United States and other major economies in their readiness to build and deploy physical AI systems, according to a new study from…",
       "url": "https://roboticsandautomationnews.com/2026/09/23/china-has-commanding-lead-in-physical-ai-readiness-openmind-report-finds/105014/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Nvidia 发布面向入门级机器人和边缘 AI 的 Jetson Orin Nano 2 (Nvidia launches Jetson Orin Nano 2 for entry-level robotics and edge AI)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Nvidia has introduced Jetson Orin Nano 2, a new compact robotics computer designed to provide higher AI inference performance and lower power consumption for robots, drones, vision…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/nvidia-launches-jetson-orin-nano-2-for-entry-level-robotics-and-edge-ai/105011/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "人人都在造世界模型，HappyWorld‑Bench 试着给出一张统一考卷",
-      "source_name": "InfoQ",
-      "category": "技术突破",
-      "summary": "今年云栖大会上发布了 HappyWorld-Bench，它想把世界模型行业的试卷统一起来",
-      "url": "https://www.infoq.cn/article/3rXojuNPmJANFv8iWqI8?utm_source=rss&utm_medium=article"
     }
   ]
 }
