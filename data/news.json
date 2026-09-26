@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-26T11:55:44.471691+08:00",
+  "updated": "2026-09-26T18:59:28.560894+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,9 +12,9 @@
       "error": "",
       "entries": 10,
       "candidates": 3,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
-      "core": 1,
+      "entries": 60,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 6,
+      "candidates": 13,
+      "core": 8,
       "periphery": 0,
-      "new": 1
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-26T11:56:24.633495+08:00",
+    "generated_at": "2026-09-26T19:00:08.644658+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -283,6 +283,20 @@
             "url": "https://www.tmtpost.com/8152876.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "09-26",
+            "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+            "url": "https://www.qbitai.com/2026/09/498271.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-26",
+            "title": "现实世界中的物理AI：可靠机器人操控的四项要求 (Physical AI in the real world: Four requirements for reliable robot manipulation)",
+            "url": "https://roboticsandautomationnews.com/2026/09/26/physical-ai-in-the-real-world-four-requirements-for-reliable-robot-manipulation/105155/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "09-25",
@@ -361,6 +375,27 @@
             "source_name": "雷峰网"
           },
           {
+            "date": "09-26",
+            "title": "Tutor Intelligence 发布下一代 Cassie 和 Sonny 机器人 (Tutor Intelligence unveils next-generation Cassie and Sonny robots)",
+            "url": "https://roboticsandautomationnews.com/2026/09/26/tutor-intelligence-unveils-next-generation-cassie-and-sonny-robots/105168/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-26",
+            "title": "PAL Robotics推出独立式TIAGo Pro Arm，用于操作与具身智能研究 (PAL Robotics launches standalone TIAGo Pro Arm for manipulation and physical AI research)",
+            "url": "https://roboticsandautomationnews.com/2026/09/26/pal-robotics-launches-standalone-tiago-pro-arm-for-manipulation-and-physical-ai-research/105165/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "09-26",
+            "title": "Segway Navimow 推出配备可伸缩切割臂的机器人割草机 (Segway Navimow launches robotic mower with extendable cutting arm)",
+            "url": "https://roboticsandautomationnews.com/2026/09/26/segway-navimow-launches-robotic-mower-with-extendable-cutting-arm/105160/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "09-25",
             "title": "长安汽车：力争在 2028 年实现人形机器人量产、2030 年推出商用航线飞行汽车",
             "url": "https://www.ithome.com/1/007/073.htm",
@@ -429,20 +464,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/24/robotics-australia-group-and-howtorobot-launch-national-automation-platform/105094/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-23",
-            "title": "交付缩水八成，优必选给具身智能泼了一盆冷水",
-            "url": "https://www.tmtpost.com/8150766.html",
-            "company": "优必选",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "09-23",
-            "title": "Robotiq 推出面向物理 AI 与机器人操作的开源软件工具 (Robotiq launches open-source software tools for physical AI and robot manipulation)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/end-of-arm-tooling-expert-robotiq-releases-open-source-software-packages-for-physical-ai-ecosystem/105018/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -470,13 +491,6 @@
             "url": "https://www.qbitai.com/2026/09/496481.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "09-23",
-            "title": "美国史上最大电动卡车订单落地，特斯拉 Semi 成最大赢家",
-            "url": "https://www.ithome.com/1/006/330.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -532,13 +546,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321205-12005-30704464.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-23",
-            "title": "「欧卡智舶」完成数亿C轮融资！阿里为何投向海面具身智能？",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -546,6 +553,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "09-26",
+            "title": "索尼芯片子公司将收紧远程办公：要求约 8000 名员工全面返岗，加速物理 AI 研发",
+            "url": "https://www.ithome.com/1/007/413.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-25",
             "title": "四足机器人：宇树第一，智元、云深处争第二？",
@@ -629,20 +643,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321201-8110-30704460.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-23",
-            "title": "特斯拉弗里蒙特工厂种族歧视案开庭，多名黑人员工控诉遭不公对待",
-            "url": "https://www.ithome.com/1/006/275.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-23",
-            "title": "OpenMind报告：中国在物理AI准备度上遥遥领先 (China has commanding lead in physical AI readiness, OpenMind report finds)",
-            "url": "https://roboticsandautomationnews.com/2026/09/23/china-has-commanding-lead-in-physical-ai-readiness-openmind-report-finds/105014/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -679,6 +679,60 @@
       "category": "技术突破",
       "summary": "文 | AIX财经（AIXcaijing）作者｜李梦冉，编辑｜魏佳 一家不造机器人的公司，正在成为机器人行业最激进的玩家之一。 9月9日，京东在全球科技探索者大会上启动“物理AI加速计划”。最引人关注的一项是，京东物流计划未来5年采购300万台机器人、100万台无人车和10万架无人机，推进物流全流程无人化。 供应链、制造、训练、销售、应用、售后，一台机器人从…",
       "url": "https://www.tmtpost.com/8152876.html"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线",
+      "url": "https://www.qbitai.com/2026/09/498271.html"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "索尼芯片子公司将收紧远程办公：要求约 8000 名员工全面返岗，加速物理 AI 研发",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 9 月 26 日消息，据日经亚洲消息，从下个月起，索尼集团将要求其芯片业务子公司的员工全面恢复到岗办公，成为最新一家缩减远程办公政策的日本企业。 此次调整原则上强制覆盖索尼半导体解决方案公司（Sony Semiconductor Solutions）的 约 8,000 名员工 。该举措属于公司组织架构改革的一环，核心目标是 加速物理 AI（Phys…",
+      "url": "https://www.ithome.com/1/007/413.htm"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "Tutor Intelligence 发布下一代 Cassie 和 Sonny 机器人 (Tutor Intelligence unveils next-generation Cassie and Sonny robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Tutor Intelligence has unveiled new generations of its Cassie and Sonny robots, expanding the systems’ capabilities for material handling, e-commerce fulfillment and other industri…",
+      "url": "https://roboticsandautomationnews.com/2026/09/26/tutor-intelligence-unveils-next-generation-cassie-and-sonny-robots/105168/"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "PAL Robotics推出独立式TIAGo Pro Arm，用于操作与具身智能研究 (PAL Robotics launches standalone TIAGo Pro Arm for manipulation and physical AI research)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "PAL Robotics has introduced the TIAGo Pro Arm, a standalone robotic manipulation platform aimed at researchers working on robot learning, artificial intelligence and physical AI. T…",
+      "url": "https://roboticsandautomationnews.com/2026/09/26/pal-robotics-launches-standalone-tiago-pro-arm-for-manipulation-and-physical-ai-research/105165/"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "Segway Navimow 推出配备可伸缩切割臂的机器人割草机 (Segway Navimow launches robotic mower with extendable cutting arm)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Segway Navimow has unveiled the H5 Pro, a robotic lawn mower featuring an extendable cutting arm designed to eliminate the strip of uncut grass commonly left along lawn edges. Intr…",
+      "url": "https://roboticsandautomationnews.com/2026/09/26/segway-navimow-launches-robotic-mower-with-extendable-cutting-arm/105160/"
+    },
+    {
+      "date": "09-26",
+      "company": "其他",
+      "title": "现实世界中的物理AI：可靠机器人操控的四项要求 (Physical AI in the real world: Four requirements for reliable robot manipulation)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "By Thomas Houden, director of global business development, OnRobot Physical AI promises robots that can perceive, act and adapt in the physical world with far less task-specific en…",
+      "url": "https://roboticsandautomationnews.com/2026/09/26/physical-ai-in-the-real-world-four-requirements-for-reliable-robot-manipulation/105155/"
     },
     {
       "date": "09-25",
@@ -1057,60 +1111,6 @@
       "category": "技术突破",
       "summary": "“银河通用要是觉得自己占理，就出来一起聊聊虚假收入、关联交易、突击上市割韭菜的问题，如果觉得自己不占理就低调点装死也行，发声明、报警、找水军，简直是灾难级公关。”搭配捂脸哭的表情，梅卡曼德机器人公司创始人兼CEO邵天兰又在自己新发的朋友圈连着 了三条。 这距离他9月9日与9月10日，连续两天在朋友圈炮轰“攒局型”具身智能企业靠数采中心和关联交易制造虚假收入…",
       "url": "https://www.tmtpost.com/8149233.html"
-    },
-    {
-      "date": "09-23",
-      "company": "优必选",
-      "title": "交付缩水八成，优必选给具身智能泼了一盆冷水",
-      "source_name": "钛媒体",
-      "category": "产品量产",
-      "summary": "文 | 市值榜，作者 | 齐笑 ，编辑 | 嘉辛 从6月2日京东预售上线，到6月30日发布会宣布全渠道订单突破13361台，U1几乎一路伴随着聚光灯。 发布会当天，优必选港股盘中一度涨超18%，最终收盘涨幅收窄至7.48%，报102.8港元。 13361台是什么概念？2025年全年，优必选全尺寸具身智能人形机器人累计销量仅为1079台。也就是说，U1预售不到…",
-      "url": "https://www.tmtpost.com/8150766.html"
-    },
-    {
-      "date": "09-23",
-      "company": "特斯拉",
-      "title": "美国史上最大电动卡车订单落地，特斯拉 Semi 成最大赢家",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 9 月 23 日消息，美国道路上很快将出现更多电动重型卡车。美国一项史无前例的电动 8 级卡车（Class 8）订单已经落地，由一家货运企业联盟牵头，未来几个月将有至少 2500 辆全新电动重型卡车投入美国道路。 此次订单的最大赢家是特斯拉，其 8 级 Semi 电动卡车被选为首批 2500 辆卡车的主要车型。除特斯拉外，参与此次大规模采购的联盟还…",
-      "url": "https://www.ithome.com/1/006/330.htm"
-    },
-    {
-      "date": "09-23",
-      "company": "特斯拉",
-      "title": "特斯拉弗里蒙特工厂种族歧视案开庭，多名黑人员工控诉遭不公对待",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 23 日消息，据路透社报道，美国加州一家政府机构起诉特斯拉，指控其旗下主力总装工厂内种族歧视现象泛滥，该案于当地时间周一开庭审理，这只是这家电动汽车厂商面临的一系列同类诉讼当中的一起。 特斯拉的代理律师与加州民权局将在奥克兰市，于州高等法院法官彼得 · 博尔肯（Peter Borkon）面前展开庭审交锋。法官已经排定，本次庭审持续至 10…",
-      "url": "https://www.ithome.com/1/006/275.htm"
-    },
-    {
-      "date": "09-23",
-      "company": "行业",
-      "title": "「欧卡智舶」完成数亿C轮融资！阿里为何投向海面具身智能？",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "具身涌现9月23日获悉，海面具身智能企业欧卡智舶完成C轮融资，半年累计融资规模达到3亿元，本轮由西高投领投，元禾璞华、三元资本跟投。 这家瞄准船舶智能驾驶的创业公司，过往已经收获图灵创投、李泽湘Xbo",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321205-12003-30704566.html"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "Robotiq 推出面向物理 AI 与机器人操作的开源软件工具 (Robotiq launches open-source software tools for physical AI and robot manipulation)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Robotiq has launched three open-source software releases for its adaptive grippers: a C++ SDK, an official ROS 2 package, and updated Nvidia Isaac Sim assets. All three are maintai…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/end-of-arm-tooling-expert-robotiq-releases-open-source-software-packages-for-physical-ai-ecosystem/105018/"
-    },
-    {
-      "date": "09-23",
-      "company": "其他",
-      "title": "OpenMind报告：中国在物理AI准备度上遥遥领先 (China has commanding lead in physical AI readiness, OpenMind report finds)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "China has established a substantial lead over the United States and other major economies in their readiness to build and deploy physical AI systems, according to a new study from…",
-      "url": "https://roboticsandautomationnews.com/2026/09/23/china-has-commanding-lead-in-physical-ai-readiness-openmind-report-finds/105014/"
     }
   ]
 }
