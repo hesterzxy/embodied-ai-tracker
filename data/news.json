@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T00:34:00.157220+08:00",
+  "updated": "2026-09-28T05:01:11.621685+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 16,
       "core": 2,
       "periphery": 0,
       "new": 1
