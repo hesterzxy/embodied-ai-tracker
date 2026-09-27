@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-27T12:05:35.561238+08:00",
+  "updated": "2026-09-27T19:34:21.218760+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 12,
+      "entries": 60,
+      "candidates": 20,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -195,7 +195,7 @@
       "candidates": 13,
       "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-21",
     "end": "09-27",
-    "generated_at": "2026-09-27T12:06:15.649888+08:00",
+    "generated_at": "2026-09-27T19:35:01.347189+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -346,6 +346,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "09-27",
+            "title": "新一代 Roadster 发布在即，特斯拉可伸缩主动尾翼专利曝光",
+            "url": "https://www.ithome.com/1/007/523.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "09-26",
             "title": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
@@ -636,13 +643,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704462.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-23",
-            "title": "小鹏机器人定点协议已签，供应商和Optimus供应链重叠不少",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321201-8110-30704460.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -679,6 +679,15 @@
       "category": "商业订单",
       "summary": "Most AI-powered robots effectively stop learning once they are deployed. Researchers at Skylark Labs, working with academics from Carnegie Mellon University and the University of C…",
       "url": "https://roboticsandautomationnews.com/2026/09/27/skylark-labs-researchers-develop-ai-system-that-enables-robots-to-keep-learning-after-deployment/105179/"
+    },
+    {
+      "date": "09-27",
+      "company": "特斯拉",
+      "title": "新一代 Roadster 发布在即，特斯拉可伸缩主动尾翼专利曝光",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 9 月 27 日消息，距离新一代特斯拉 Roadster 终于要在舞台上正式亮相仅剩数日，一批新公开的专利文件疑似揭开了这款电动超跑的一项技术：如何在高速状态下牢牢贴紧路面。美国专利商标局（USPTO）新对外公布的一份专利显示，特斯拉正在研发一套设计巧妙、可伸缩的多功能主动式空气动力学后尾翼。 IT之家注意到，专利附图展示了一台低矮的双门轿跑，车上…",
+      "url": "https://www.ithome.com/1/007/523.htm"
     },
     {
       "date": "09-26",
@@ -1102,15 +1111,6 @@
       "category": "行业动态",
       "summary": "得克萨斯州奥斯汀的北园区，一座长度超过4000英尺的巨型建筑正在拔地而起。从今年3月底破土动工算起，仅仅6个月，这座Optimus专属工厂的主体钢结构已经接近完工——观察人士Joe Tegtmeyer",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8460-30704462.html"
-    },
-    {
-      "date": "09-23",
-      "company": "特斯拉",
-      "title": "小鹏机器人定点协议已签，供应商和Optimus供应链重叠不少",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "今天小鹏首届机器人供应链合作伙伴大会，小智把参会名单和各方信息翻了一遍，发现最有意思的不是小鹏本身，而是一条藏在新闻里的暗线。 消息人士透露，特斯拉机器人团队近期也在中国供应链企业审厂。双方在核心供应",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321201-8110-30704460.html"
     }
   ]
 }
