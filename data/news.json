@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-28T21:08:09.355897+08:00",
+  "updated": "2026-09-29T07:04:00.552552+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 15,
+      "candidates": 14,
       "core": 2,
       "periphery": 0,
       "new": 1
@@ -53,7 +53,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 20,
-      "core": 2,
+      "candidates": 13,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 12,
       "periphery": 0,
-      "new": 7
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 18,
       "core": 14,
       "periphery": 3,
-      "new": 8
+      "new": 7
     },
     {
       "name": "The Robot Report",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 4,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 8,
-      "periphery": 0,
-      "new": 1
+      "candidates": 10,
+      "core": 6,
+      "periphery": 1,
+      "new": 6
     },
     {
       "name": "NVIDIA Robotics",
@@ -208,7 +208,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 1,
-      "new": 2
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -220,7 +220,7 @@
       "entries": 30,
       "candidates": 30,
       "core": 22,
-      "periphery": 8,
+      "periphery": 7,
       "new": 3
     },
     {
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-09-28T21:08:49.526724+08:00",
+    "generated_at": "2026-09-29T07:04:40.653563+08:00",
     "mode": "local",
-    "item_count": 14,
+    "item_count": 18,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -310,6 +310,13 @@
             "url": "https://www.gongkong.com/news/202609/453575.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
+          },
+          {
+            "date": "09-28",
+            "title": "观点：具身AI在迎来“GPT时刻”前必须证明什么 (Opinion: What embodied AI must prove before it has its ‘GPT moment’)",
+            "url": "https://roboticsandautomationnews.com/2026/09/28/opinion-what-embodied-ai-must-prove-before-it-has-its-gpt-moment/105223/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -344,6 +351,13 @@
             "url": "https://robot.ofweek.com/2026-09/ART-8321203-8420-30705069.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-28",
+            "title": "ABB推出E-Device，支持用户通过自己的平板电脑和PC控制机器人 (ABB launches E-Device to let users control robots from their own tablets and PCs)",
+            "url": "https://roboticsandautomationnews.com/2026/09/28/abb-robotics-e-device-simplifies-robot-interaction-on-customers-own-devices/105232/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -397,6 +411,20 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704927.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "09-28",
+            "title": "Robonomics站在门槛上：经济自主、智慧城市与人形机器人的加密钱包 (Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids)",
+            "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "09-28",
+            "title": "IBM申请通过人形机器人脚部进行无线充电的专利 (IBM files patent for wireless charging through humanoid robots’ feet)",
+            "url": "https://roboticsandautomationnews.com/2026/09/28/ibm-files-patent-for-wireless-charging-through-humanoid-robots-feet/105202/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -528,6 +556,42 @@
       "category": "技术突破",
       "summary": "作为第五届全球数字贸易博览会重要同期活动，2026全球数字贸易创新大赛（具身智能机器人挑战赛）于杭州大会展中心6B馆（6号馆四楼）火热进行。赛事以赛场为技术试验场，汇聚国内百余支来自高校和科技企业的参赛队伍，通过“专业竞技-公众参与-产业交流”的形式，全方位检验国产具身智能机器人运动控制、环境感知与自主决策能力，直观展现.. 标签： 机器人运动会 <a hr…",
       "url": "https://www.gongkong.com/news/202609/453575.html"
+    },
+    {
+      "date": "09-28",
+      "company": "其他",
+      "title": "Robonomics站在门槛上：经济自主、智慧城市与人形机器人的加密钱包 (Robonomics on the threshold: Economic autonomy, smart cities, and crypto wallets for humanoids)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Economics is both a robotics impetus and a constraint, as systems make deliveries on streets or do chores in households. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/"
+    },
+    {
+      "date": "09-28",
+      "company": "其他",
+      "title": "ABB推出E-Device，支持用户通过自己的平板电脑和PC控制机器人 (ABB launches E-Device to let users control robots from their own tablets and PCs)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "ABB Robotics is expanding its programming tool and user interface portfolio with the launch of E-Device, a compact safety interface that enables customers to use their own tablet o…",
+      "url": "https://roboticsandautomationnews.com/2026/09/28/abb-robotics-e-device-simplifies-robot-interaction-on-customers-own-devices/105232/"
+    },
+    {
+      "date": "09-28",
+      "company": "其他",
+      "title": "观点：具身AI在迎来“GPT时刻”前必须证明什么 (Opinion: What embodied AI must prove before it has its ‘GPT moment’)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "By Steven Yang, founder and editor, RoboSkin.ai Consider an assembly robot that encounters resistance while inserting a component. The camera suggests correct alignment, but the co…",
+      "url": "https://roboticsandautomationnews.com/2026/09/28/opinion-what-embodied-ai-must-prove-before-it-has-its-gpt-moment/105223/"
+    },
+    {
+      "date": "09-28",
+      "company": "其他",
+      "title": "IBM申请通过人形机器人脚部进行无线充电的专利 (IBM files patent for wireless charging through humanoid robots’ feet)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "IBM has developed a concept for enabling humanoid robots to autonomously recharge by standing on specially equipped floor tiles, according to a recently published US patent applica…",
+      "url": "https://roboticsandautomationnews.com/2026/09/28/ibm-files-patent-for-wireless-charging-through-humanoid-robots-feet/105202/"
     },
     {
       "date": "09-27",
@@ -816,42 +880,6 @@
       "category": "商业订单",
       "summary": "国网先合作、南网后入股宇树，电力百亿采购背后，人荒驱动与标准定义权争夺。 2026年8月，宇树科技科创板IPO，南方电网产融控股以战略投资者身份获配约1.36亿元，与中石油昆仑资本并列出现在战略配售名",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704639.html"
-    },
-    {
-      "date": "09-24",
-      "company": "行业",
-      "title": "海面具身智能领导者融资数亿元，李泽湘，阿里也投过！",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "9月23日消息，欧卡智舶宣布，完成数亿元C轮融资，由“国字号” 力量由西安高新金控集团旗下西高投领投，一线资本元禾璞华、三元资本跟投。 叠加本次融资，欧卡智舶至此已累计融资金额已近3亿元，资本认可度持",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321206-8120-30704629.html"
-    },
-    {
-      "date": "09-24",
-      "company": "其他",
-      "title": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "一直以来，要让机器人学会一项新任务，往往需要重新采集数据、编写固定流程，或进行针对性训练。这类方式可以解决确定性较高的任务，却难以覆盖真实场景中不断变化的物品、环境和需求。 近期，新一代通用大模型GPT-6 Astra的发布，引发行业对具身智能技术路线的广泛讨论与重新思考。不少观点认为，通用大模型正在展现操控机器人的能力，可能对既有具身智能路线形成冲击；与此…",
-      "url": "https://www.qbitai.com/2026/09/496816.html"
-    },
-    {
-      "date": "09-24",
-      "company": "其他",
-      "title": "5分钟完成机器人纳管、10秒启动跨集群任务，清华大学联合无问芯穹开源具身智能云原生平台RLark",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "一架架飞机在空中有序飞行，按时起降，看似只是飞机自己的事情，实际上，它需要持续与机场、跑道、航线以及地面资源系统协同。 这正是“塔台”存在的意义： 它负责把分散的飞机和地面、空中的资源协调组织起来，让飞机根据各自的任务有序运行。而当飞机越来越多、航线越来越复杂，这种统一管控和协调也就变得越来越重要。 一项具身任务，本质上是多个角色的协同：机器人和相机等现场设…",
-      "url": "https://www.qbitai.com/2026/09/496767.html"
-    },
-    {
-      "date": "09-24",
-      "company": "其他",
-      "title": "这次云栖，斑马智能亮出了从汽车到具身智能的入场券",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "周五晚上六点，你坐进车里，什么也没说。 AI 系统已经知道，这周六是女儿的生日。它没有等你开口，先推荐了一个游玩地点 —— 郊外那家亲子农场，因为它知道你女儿喜欢大自然。 AI 系统又想起你上周在车里念叨过 “ 好久没吃江浙菜了 ” ，于是在沿途标记出一家评分最高的江浙菜馆。 你只回了一句话： “ 就按这个来。 ” 没有打开 App ，没有搜索，没有比价，甚…",
-      "url": "https://www.leiphone.com/category/ai/c5xfhIwWHqSfnGrS.html"
     }
   ]
 }
