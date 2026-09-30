@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T12:23:29.550063+08:00",
+  "updated": "2026-09-30T20:05:49.581308+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 15,
+      "entries": 19,
+      "candidates": 13,
       "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
-      "core": 1,
+      "entries": 17,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 3,
+      "entries": 17,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
-      "core": 1,
+      "candidates": 18,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -122,15 +122,14 @@
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 22,
-      "candidates": 22,
-      "core": 11,
-      "periphery": 1,
-      "new": 8
+      "fetched": false,
+      "attempts": 3,
+      "error": "TimeoutError: The read operation timed out",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -152,9 +151,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 18,
-      "core": 14,
+      "entries": 20,
+      "candidates": 17,
+      "core": 13,
       "periphery": 3,
       "new": 3
     },
@@ -192,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
-      "core": 4,
+      "candidates": 8,
+      "core": 5,
       "periphery": 0,
-      "new": 1
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -232,7 +231,7 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 18,
+      "core": 19,
       "periphery": 8,
       "new": 3
     }
@@ -240,9 +239,9 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-09-30T12:24:09.624108+08:00",
+    "generated_at": "2026-09-30T20:06:29.657362+08:00",
     "mode": "local",
-    "item_count": 41,
+    "item_count": 46,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -255,11 +254,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，AMD宣布与World Labs达成最终收购协议；ERA 9X 智能驾驶辅助全面升级， Momenta R7 世界模型正式开放 OTA。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，AMD宣布与World Labs达成最终收购协议；2026 年 1 月，爱诗科技提出“通用实时世界模型”这 一产品方向，并推出 R1。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.tmtpost.com/8155299.html",
-          "https://www.ithome.com/1/007/931.htm",
-          "https://www.leiphone.com/category/industrynews/yR9rN5kyqx3kypzz.html"
+          "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html",
+          "https://www.ithome.com/1/007/931.htm"
         ]
       },
       {
@@ -277,6 +276,27 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "09-30",
+            "title": "越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题",
+            "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-30",
+            "title": "具身智能不只在地上跑：给无人机装上机械臂，它们要去天上「拧螺栓」了 | IROS 2026",
+            "url": "https://www.leiphone.com/category/academic/XSVcStujND4eWLFZ.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "09-30",
+            "title": "从三维视觉到世界模型：空间智能为何成为 AI 走向物理世界的共同主线？| ECCV 2026复盘",
+            "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "09-29",
             "title": "550亿，苏姿丰买下李飞飞的世界模型公司",
@@ -415,6 +435,20 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "09-30",
+            "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+            "url": "https://www.qbitai.com/2026/09/499280.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "09-30",
+            "title": "Iron Mountain 扩大 Dexory 仓储机器人部署，新增 18 米高 AMR (Iron Mountain expands Dexory warehouse robotics deployment with 18-meter AMRs)",
+            "url": "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "09-29",
             "title": "原创 2026个人机器人应用价值研究报告 人工智能 · 商业化 · 人工智能 报告 2026-09-20",
@@ -661,6 +695,51 @@
       "category": "行业动态",
       "summary": "9月25日，The Information 援引多位知情人士的报道，把 Optimus 的家底掀开了一角。我先把关键事实按原样罗列，后面的分析都建立在这份底稿上。之前我们也有相关分析：机器人也能“逛超",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30705327.html"
+    },
+    {
+      "date": "09-30",
+      "company": "其他",
+      "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
+      "source_name": "量子位",
+      "category": "商业订单",
+      "summary": "当下具身浪潮依旧汹涌，资本市场对机器人的热度未停，就说最近，宇树登陆科创板，梅卡曼德、优地机器人先后在港交所挂牌。9月底，本末科技和欢创科技也相继挂牌上市。 然而有消息称，对于具身智能机器人公司的上市，市场正在 趋于审慎 。 财联社月初从多位投行人士处获悉，监管正在调整部分人形机器人企业的上市节奏。 目前，监管部门尚未公开专项新规，但公开信息不断指向一套正在…",
+      "url": "https://www.qbitai.com/2026/09/499280.html"
+    },
+    {
+      "date": "09-30",
+      "company": "其他",
+      "title": "越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "AI 视频的下一战：谁能让世界保持运行 作者丨Reah 编辑丨李娜 岑峰 大语言模型已经用 Scaling 证明模型、数据和算力可以持续换来更强能力，必须一边生成、一边回应用户的实时世界模型，能不能也走上这样一条路？ 2026 年 1 月，爱诗科技提出“通用实时世界模型”这 一产品方向，并推出 R1。 目前，PixVerse R2 已全量上线 用户可以直接进…",
+      "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html"
+    },
+    {
+      "date": "09-30",
+      "company": "其他",
+      "title": "具身智能不只在地上跑：给无人机装上机械臂，它们要去天上「拧螺栓」了 | IROS 2026",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "具身智能的研究边界，正从地面移动操作向空中协同作业延伸。 作者丨 张岂萍 编辑丨 幸丽娟 机械臂抓取、移动机器人导航和多机器人协作，是具身智能研究的常见切口，但大多仍延续“地面机器人”范式：身体默认是地面移动机器人，环境是结构化可通行空间与离散物体，任务是感知、移动、抓取、搬运等。 但如果机器人离开地面 、 进入空中 ，还能 完成同样的操作 吗 ？ 没有固定…",
+      "url": "https://www.leiphone.com/category/academic/XSVcStujND4eWLFZ.html"
+    },
+    {
+      "date": "09-30",
+      "company": "其他",
+      "title": "从三维视觉到世界模型：空间智能为何成为 AI 走向物理世界的共同主线？| ECCV 2026复盘",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "AI 正从看懂画面，走向理解空间、预测变化、执行动作。 作者丨 张岂萍 编辑丨 幸丽娟 AI 已经越来越会生成一个“看起来真实”的世界，却依然很难真正理解并行动于这个世界。 物体在哪里、彼此是什么空间关系，遮挡之后还剩下什么；一个动作发生后，世界会怎样变化。这些问题的解法，共同指向空间智能。 而近两年具身智能与世界模型的爆火，进一步推动空间智能成为 AI 走…",
+      "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html"
+    },
+    {
+      "date": "09-30",
+      "company": "其他",
+      "title": "Iron Mountain 扩大 Dexory 仓储机器人部署，新增 18 米高 AMR (Iron Mountain expands Dexory warehouse robotics deployment with 18-meter AMRs)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "Iron Mountain has expanded its use of Dexory’s warehouse robotics technology, becoming the first customer to deploy the company’s new generation of autonomous inventory-scanning ro…",
+      "url": "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/"
     },
     {
       "date": "09-29",
@@ -1003,51 +1082,6 @@
       "category": "产品量产",
       "summary": "雷峰网报道： 2026 年，具身智能行业最难回答的问题之一，是怎么落地。 这里的「落地」有两层含义：一方面，机器人得有足够稳定的量产能力，能够真的交付出去；另一方面，交付之后还得适应具体场景，在真实环境里持续工作。智元称之为「部署态」，机器人开始离开发布会和展会，进入真实的生产与服务环境。 一台机器人在舞台上完成一次高难度动作，足以成为热点；让数百台机器人每…",
       "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
-    },
-    {
-      "date": "09-26",
-      "company": "其他",
-      "title": "京东，具身智能大玩家？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "文 | AIX财经（AIXcaijing）作者｜李梦冉，编辑｜魏佳 一家不造机器人的公司，正在成为机器人行业最激进的玩家之一。 9月9日，京东在全球科技探索者大会上启动“物理AI加速计划”。最引人关注的一项是，京东物流计划未来5年采购300万台机器人、100万台无人车和10万架无人机，推进物流全流程无人化。 供应链、制造、训练、销售、应用、售后，一台机器人从…",
-      "url": "https://www.tmtpost.com/8152876.html"
-    },
-    {
-      "date": "09-26",
-      "company": "其他",
-      "title": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路线",
-      "url": "https://www.qbitai.com/2026/09/498271.html"
-    },
-    {
-      "date": "09-26",
-      "company": "其他",
-      "title": "索尼芯片子公司将收紧远程办公：要求约 8000 名员工全面返岗，加速物理 AI 研发",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 26 日消息，据日经亚洲消息，从下个月起，索尼集团将要求其芯片业务子公司的员工全面恢复到岗办公，成为最新一家缩减远程办公政策的日本企业。 此次调整原则上强制覆盖索尼半导体解决方案公司（Sony Semiconductor Solutions）的 约 8,000 名员工 。该举措属于公司组织架构改革的一环，核心目标是 加速物理 AI（Phys…",
-      "url": "https://www.ithome.com/1/007/413.htm"
-    },
-    {
-      "date": "09-26",
-      "company": "其他",
-      "title": "Tutor Intelligence 发布下一代 Cassie 和 Sonny 机器人 (Tutor Intelligence unveils next-generation Cassie and Sonny robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Tutor Intelligence has unveiled new generations of its Cassie and Sonny robots, expanding the systems’ capabilities for material handling, e-commerce fulfillment and other industri…",
-      "url": "https://roboticsandautomationnews.com/2026/09/26/tutor-intelligence-unveils-next-generation-cassie-and-sonny-robots/105168/"
-    },
-    {
-      "date": "09-26",
-      "company": "其他",
-      "title": "PAL Robotics推出独立式TIAGo Pro Arm，用于操作与具身智能研究 (PAL Robotics launches standalone TIAGo Pro Arm for manipulation and physical AI research)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "PAL Robotics has introduced the TIAGo Pro Arm, a standalone robotic manipulation platform aimed at researchers working on robot learning, artificial intelligence and physical AI. T…",
-      "url": "https://roboticsandautomationnews.com/2026/09/26/pal-robotics-launches-standalone-tiago-pro-arm-for-manipulation-and-physical-ai-research/105165/"
     }
   ]
 }
