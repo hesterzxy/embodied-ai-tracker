@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T12:35:56.799424+08:00",
+  "updated": "2026-10-01T20:37:57.850099+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 3,
-      "core": 0,
+      "entries": 19,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 18,
+      "entries": 59,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -166,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 8,
       "periphery": 1,
-      "new": 4
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -233,15 +233,15 @@
       "candidates": 69,
       "core": 19,
       "periphery": 8,
-      "new": 3
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-01T12:36:36.917866+08:00",
+    "generated_at": "2026-10-01T20:38:37.938214+08:00",
     "mode": "local",
-    "item_count": 49,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -254,11 +254,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，AMD宣布与World Labs达成最终收购协议；2026 年 1 月，爱诗科技提出“通用实时世界模型”这 一产品方向，并推出 R1。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，AMD宣布与World Labs达成最终收购协议；82亿美元，芯片巨头AMD以全股票形式收购世界模型公司World Labs。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.tmtpost.com/8155299.html",
-          "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html",
-          "https://www.ithome.com/1/007/931.htm"
+          "https://www.tmtpost.com/8157833.html",
+          "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html"
         ]
       },
       {
@@ -276,6 +276,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "10-01",
+            "title": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
+            "url": "https://www.tmtpost.com/8157833.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "09-30",
             "title": "越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题",
@@ -366,6 +373,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-01",
+            "title": "ANYbotics 推出 Shift，简化机器人队伍运营并扩大巡检规模 (ANYbotics launches Shift to streamline robot fleet operations, scale inspections)",
+            "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "09-30",
             "title": "Dyna发布Dyna-2.1与机器人Taku, Physical Agent走向模型、硬件与部署一体化",
@@ -621,13 +635,6 @@
             "url": "https://www.therobotreport.com/robotics-threshold-economic-autonomy-crypto-wallets-humanoids/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-28",
-            "title": "IBM申请通过人形机器人脚部进行无线充电的专利 (IBM files patent for wireless charging through humanoid robots’ feet)",
-            "url": "https://roboticsandautomationnews.com/2026/09/28/ibm-files-patent-for-wireless-charging-through-humanoid-robots-feet/105202/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -654,6 +661,24 @@
     ]
   },
   "items": [
+    {
+      "date": "10-01",
+      "company": "其他",
+      "title": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "82亿美元，芯片巨头AMD以全股票形式收购世界模型公司World Labs。 AMD在收购公告里写道：“World Labs 的模型经验，将帮助AMD更深入地理解工作负载如何演变，进而塑造未来的技术路线图。” 换句话说，AMD看中的，不只是World Labs今天的模型能力，更是世界模型这类前沿模型可能给芯片硬件研发带来的“前瞻性”。 董事长兼CEO苏姿丰（…",
+      "url": "https://www.tmtpost.com/8157833.html"
+    },
+    {
+      "date": "10-01",
+      "company": "其他",
+      "title": "ANYbotics 推出 Shift，简化机器人队伍运营并扩大巡检规模 (ANYbotics launches Shift to streamline robot fleet operations, scale inspections)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "ANYbotics designed Shift to help maintenance teams run industrial inspections, detect failing equipment, and turn data into work orders. The post appeared first on The Robot Report…",
+      "url": "https://www.therobotreport.com/anybotics-launches-shift-streamline-robot-fleet-operations-scale-autonomous-inspections/"
+    },
     {
       "date": "09-30",
       "company": "宇树科技",
@@ -1085,24 +1110,6 @@
       "category": "技术突破",
       "summary": "By Steven Yang, founder and editor, RoboSkin.ai Consider an assembly robot that encounters resistance while inserting a component. The camera suggests correct alignment, but the co…",
       "url": "https://roboticsandautomationnews.com/2026/09/28/opinion-what-embodied-ai-must-prove-before-it-has-its-gpt-moment/105223/"
-    },
-    {
-      "date": "09-28",
-      "company": "其他",
-      "title": "IBM申请通过人形机器人脚部进行无线充电的专利 (IBM files patent for wireless charging through humanoid robots’ feet)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "IBM has developed a concept for enabling humanoid robots to autonomously recharge by standing on specially equipped floor tiles, according to a recently published US patent applica…",
-      "url": "https://roboticsandautomationnews.com/2026/09/28/ibm-files-patent-for-wireless-charging-through-humanoid-robots-feet/105202/"
-    },
-    {
-      "date": "09-27",
-      "company": "特斯拉",
-      "title": "特斯拉，是Robotaxi的救星吗？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "文 | 定焦One，作者 | 金玙璠，编辑 | 魏佳 9月初，特斯拉Cybercab已经在美国奥斯汀开始收费载客。 截至9月3日，特斯拉在得州登记了420辆自动驾驶车辆，其中Cybercab有45辆，其余主要是Model Y。Cybercab目前还只在奥斯汀部分区域运营，规模不大。 华兴证券根据App和用户反馈统计，3至8英里的Cybercab订单，目前大约…",
-      "url": "https://www.tmtpost.com/8153223.html"
     }
   ]
 }
