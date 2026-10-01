@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-01T05:59:18.264855+08:00",
+  "updated": "2026-10-01T12:35:56.799424+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 3,
       "core": 0,
       "periphery": 0,
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -88,7 +88,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 58,
       "candidates": 18,
       "core": 0,
       "periphery": 0,
@@ -124,7 +124,7 @@
       "type": "html",
       "fetched": false,
       "attempts": 3,
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "error": "TimeoutError: The read operation timed out",
       "entries": 0,
       "candidates": 0,
       "core": 0,
@@ -155,7 +155,7 @@
       "candidates": 17,
       "core": 13,
       "periphery": 3,
-      "new": 3
+      "new": 1
     },
     {
       "name": "The Robot Report",
@@ -168,7 +168,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -194,7 +194,7 @@
       "candidates": 9,
       "core": 5,
       "periphery": 1,
-      "new": 5
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,7 +239,7 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-01T05:59:58.352748+08:00",
+    "generated_at": "2026-10-01T12:36:36.917866+08:00",
     "mode": "local",
     "item_count": 49,
     "insights": [
