@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T12:27:46.710426+08:00",
+  "updated": "2026-10-02T20:03:16.080964+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
-      "core": 2,
+      "entries": 17,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 21,
+      "entries": 59,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 11,
       "periphery": 1,
-      "new": 6
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 6,
+      "candidates": 12,
+      "core": 10,
       "periphery": 0,
-      "new": 2
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -234,23 +234,23 @@
       "candidates": 69,
       "core": 19,
       "periphery": 8,
-      "new": 2
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-02T12:28:26.854123+08:00",
+    "generated_at": "2026-10-02T20:03:56.135498+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，13361台订单，1500台交付：优必选U1给消费级机器人泼了盆冷水 我翻了翻优必选U1的时间线，发现一个刺眼的数据对比；我今天翻智元和长隆这场合作的细节时，脑子里反复闪过一个画面：过去两年我们看机器人，都是在工厂车间里搬货、拧螺丝、做质检。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，13361台订单，1500台交付：优必选U1给消费级机器人泼了盆冷水 我翻了翻优必选U1的时间线，发现一个刺眼的数据对比；假设一项机器人操作的成功率已经达到95%，听起来是不是相当可靠。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://robot.ofweek.com/2026-09/ART-898890-12003-30705128.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-8420-30704925.html",
-          "https://robot.ofweek.com/2026-09/ART-8321205-8110-30705346.html"
+          "https://robot.ofweek.com/2026-09/ART-8321205-8110-30705346.html",
+          "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/"
         ]
       },
       {
@@ -325,20 +325,6 @@
             "url": "https://www.ifanr.com/1682291?utm_source=rss&utm_medium=rss&utm_campaign=",
             "company": "其他",
             "source_name": "爱范儿"
-          },
-          {
-            "date": "09-28",
-            "title": "“中国具身大脑”获国际认可！蚂蚁灵波与阿拉伯数字经济联盟签署备忘录",
-            "url": "https://www.leiphone.com/category/industrynews/swRASiuHGdPbjWEY.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "09-28",
-            "title": "赌具身智能没有未来的人，是没有未来的 | 对谈伯克利Allen Yang博士",
-            "url": "https://www.tmtpost.com/8153646.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -346,6 +332,34 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-02",
+            "title": "特斯拉推出 Dog Mode Chew Toy 车载周边：适用宠物场景，20 美元",
+            "url": "https://www.ithome.com/1/009/340.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-02",
+            "title": "IDC数据显示，Agibot位居2026年上半年全球人形机器人出货量首位 (IDC data shows Agibot led global humanoid robot shipments in H1 2026)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463/",
+            "company": "智元机器人",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "波士顿动力为Atlas人形机器人推出全新四指机械手 (Boston Dynamics unveils new four-finger hand for Atlas humanoid robot)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/boston-dynamics-unveils-new-four-finger-hand-for-atlas-humanoid-robot/105440/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "Agibot与Chimelong推出大型具身AI主题公园，配备超300台机器人 (Agibot and Chimelong launch large-scale embodied AI theme park with more than 300 robots)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots/105428/",
+            "company": "智元机器人",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "10-01",
             "title": "ANYbotics 推出 Shift，简化机器人队伍运营并扩大巡检规模 (ANYbotics launches Shift to streamline robot fleet operations, scale inspections)",
@@ -408,20 +422,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705128.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-28",
-            "title": "全球首台搭载全国产化电子架构的具身智能机器人亮相，提供可完整替代国外方案技术选项",
-            "url": "https://www.ithome.com/1/007/678.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "09-28",
-            "title": "智元300台机器人进长隆：2万台交付，文旅场景被撕开一道口子",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704925.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -456,13 +456,6 @@
             "url": "https://www.jazzyear.com/study_info.html?id=179",
             "company": "其他",
             "source_name": "甲子光年"
-          },
-          {
-            "date": "09-28",
-            "title": "连城数控起诉晶盛机电，中国光伏企业在美国打起了内战！原因竟是特斯拉的30亿元订单？",
-            "url": "https://www.tmtpost.com/8153603.html",
-            "company": "特斯拉",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -518,13 +511,6 @@
             "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705229.html",
             "company": "优必选",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "09-28",
-            "title": "灵巧手价格战开打：宇树22自由度降至4万内，谁的估值先扛不住？",
-            "url": "https://robot.ofweek.com/2026-09/ART-8321201-12003-30704930.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -532,6 +518,27 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-02",
+            "title": "Neura Robotics 将实体 AI 带入医疗领域 (Neura Robotics brings physical AI to healthcare)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/neura-robotics-brings-physical-ai-to-healthcare/105460/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "Astribot将其T1人形机器人带到北美 (Astribot brings its T1 humanoid robot to North America)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "自主仓储机器人制造商 Cyngn 获得 ISO 27001 认证 (Autonomous warehouse robot maker Cyngn achieves ISO 27001 Certification)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/autonomous-warehouse-robot-maker-cyngn-achieves-iso-27001-certification/105445/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "10-01",
             "title": "致敬《终结者 2》：Figure 让 F.02 人形机器人亲自跳入熔炉，采纳施瓦辛格本人提议",
@@ -622,20 +629,6 @@
             "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-29",
-            "title": "认识 Flourish One：这款由 Raspberry Pi 驱动、为忙碌父母打造的人形机器人 (Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents)",
-            "url": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "09-28",
-            "title": "特斯拉赌产线，智元赌场景，宇树赌时间：机器人三条路谁能赢？",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704927.html",
-            "company": "智元机器人",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -643,6 +636,13 @@
         "category": "泛具身产业链",
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
+          {
+            "date": "10-02",
+            "title": "Flexiv在IROS 2026展示力控自适应机器人 (Flexiv showcases force-controlled adaptive robots at IROS 2026)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/flexiv-features-the-future-of-force-control-at-iros-2026/105435/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "09-29",
             "title": "Daimon Robotics推出触觉AI模型，赋予机器人感知物理交互的能力 (Daimon Robotics launches tactile AI model to give robots a sense of physical interaction)",
@@ -662,6 +662,78 @@
     ]
   },
   "items": [
+    {
+      "date": "10-02",
+      "company": "特斯拉",
+      "title": "特斯拉推出 Dog Mode Chew Toy 车载周边：适用宠物场景，20 美元",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 2 日消息，特斯拉美国现已在其官方商城上架了一款 Dog Mode Chew Toy（狗狗模式咬咬玩具），售价 20 美元 （IT之家注：现汇率约合 134.3 元人民币） ，中国市场尚未上架。 据特斯拉介绍，这款玩具尺寸约为 8.6×7.4×13.4 厘米，采用无毒橡胶材质打造，主打耐咬且易于清洗，其中空设计可以填入花生酱或零食，底部还…",
+      "url": "https://www.ithome.com/1/009/340.htm"
+    },
+    {
+      "date": "10-02",
+      "company": "智元机器人",
+      "title": "IDC数据显示，Agibot位居2026年上半年全球人形机器人出货量首位 (IDC data shows Agibot led global humanoid robot shipments in H1 2026)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Global humanoid robot shipments approached 25,000 units in the first half of 2026, up 432.1 percent year on year, according to the latest market data from International Data Corpor…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "Neura Robotics 将实体 AI 带入医疗领域 (Neura Robotics brings physical AI to healthcare)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Neura Robotics is entering healthcare. The company is bringing physical AI, and the cognitive robots built on it, to one of the most structurally strained sectors in modern economi…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/neura-robotics-brings-physical-ai-to-healthcare/105460/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "Astribot将其T1人形机器人带到北美 (Astribot brings its T1 humanoid robot to North America)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Astribot, a Shenzhen, China-based physical AI company, showcased its T1 humanoid robot to North America for the first time at IROS 2026, which took place from September 27 to Octob…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "自主仓储机器人制造商 Cyngn 获得 ISO 27001 认证 (Autonomous warehouse robot maker Cyngn achieves ISO 27001 Certification)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Autonomous warehouse robot maker Cyngn has achieved ISO/IEC 27001:2022 certification, an internationally recognized standard for information security management systems. ISO 27001…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/autonomous-warehouse-robot-maker-cyngn-achieves-iso-27001-certification/105445/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "波士顿动力为Atlas人形机器人推出全新四指机械手 (Boston Dynamics unveils new four-finger hand for Atlas humanoid robot)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Boston Dynamics has unveiled a new four-finger hand for its Atlas humanoid robot, designed to combine the dexterity needed for complex manipulation and tool use with the strength a…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/boston-dynamics-unveils-new-four-finger-hand-for-atlas-humanoid-robot/105440/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "Flexiv在IROS 2026展示力控自适应机器人 (Flexiv showcases force-controlled adaptive robots at IROS 2026)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Flexiv, a specialist developer of general-purpose robotics, has participated at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), which finished…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/flexiv-features-the-future-of-force-control-at-iros-2026/105435/"
+    },
+    {
+      "date": "10-02",
+      "company": "智元机器人",
+      "title": "Agibot与Chimelong推出大型具身AI主题公园，配备超300台机器人 (Agibot and Chimelong launch large-scale embodied AI theme park with more than 300 robots)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Agibot and Chimelong Group have launched the first phase of a large-scale embodied AI deployment at Chimelong Spaceship Park, with more than 300 robots integrated into entertainmen…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots/105428/"
+    },
     {
       "date": "10-01",
       "company": "其他",
@@ -1039,78 +1111,6 @@
       "category": "行业动态",
       "summary": "Attendees will learn about the many ways they can use force and torque sensors in humanoids and how to avoid breaking them while doing it. The post appeared first on The Robot Repo…",
       "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/"
-    },
-    {
-      "date": "09-29",
-      "company": "其他",
-      "title": "认识 Flourish One：这款由 Raspberry Pi 驱动、为忙碌父母打造的人形机器人 (Meet Flourish One, the Raspberry Pi-powered humanoid built for busy parents)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Flourish is releasing a $3,555 phone-trainable home robot, targeting busy parents with personalized, cloud-trained chore automation. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/meet-flourish-one-raspberry-pi-powered-humanoid-built-busy-parents/"
-    },
-    {
-      "date": "09-28",
-      "company": "其他",
-      "title": "全球首台搭载全国产化电子架构的具身智能机器人亮相，提供可完整替代国外方案技术选项",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 9 月 28 日消息，据央视新闻报道，国产化电子架构具身智能机器人发布会于今日（9 月 28 日）在湖北宜昌举行， 全球首台搭载全国产化电子架构的具身智能机器人正式亮相 。 电子架构是决定整机性能上限的“智能神经系统”，包括操作系统、网络、工具软件和 AI 计算芯片。专家介绍，如果把机器人看作一个“人”，那么电子架构就是它的神经系统 —— 大脑思考…",
-      "url": "https://www.ithome.com/1/007/678.htm"
-    },
-    {
-      "date": "09-28",
-      "company": "宇树科技",
-      "title": "灵巧手价格战开打：宇树22自由度降至4万内，谁的估值先扛不住？",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "9月21日晚，宇树科技发布新款五指灵巧手Dex5-S：单手22个自由度，与真人手1:1尺寸，起售价39900元。 单看参数，这是一场常规的产品迭代——拇指、小指各5个自由度，食指、中指、无名指各4个",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321201-12003-30704930.html"
-    },
-    {
-      "date": "09-28",
-      "company": "智元机器人",
-      "title": "特斯拉赌产线，智元赌场景，宇树赌时间：机器人三条路谁能赢？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "9月份以来，机器人重大事件频频，其中三家核心厂的重大事件同一时期发生。 特斯拉第三代Optimus的设计图从自家App安装包里流了出来。关节被黑色外壳和柔性盖板包裹，小腿处裸露的机械连接件全部密封。得",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30704927.html"
-    },
-    {
-      "date": "09-28",
-      "company": "智元机器人",
-      "title": "智元300台机器人进长隆：2万台交付，文旅场景被撕开一道口子",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "我今天翻智元和长隆这场合作的细节时，脑子里反复闪过一个画面：过去两年我们看机器人，都是在工厂车间里搬货、拧螺丝、做质检。今天，它们站在了游乐园的园区里，跟游客聊天、表演、导览。 这个场景切换，比表面看",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30704925.html"
-    },
-    {
-      "date": "09-28",
-      "company": "其他",
-      "title": "“中国具身大脑”获国际认可！蚂蚁灵波与阿拉伯数字经济联盟签署备忘录",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "近日，第五届全球数字贸易博览会的重要配套活动之一“中阿数字经济产业对接会”上，阿拉伯数字经济联盟（AFDE）与蚂蚁集团旗下具身智能公司蚂蚁灵波科技正式签署框架合作备忘录。 阿拉伯数字经济联盟助理秘书长艾曼·郭内姆（Dr. Ayman Ghoneim）博士与蚂蚁灵波科技商业化负责人俞靓代表双方签约。根据备忘录，双方将建立常态化合作机制，共同推进具身智能与机器人…",
-      "url": "https://www.leiphone.com/category/industrynews/swRASiuHGdPbjWEY.html"
-    },
-    {
-      "date": "09-28",
-      "company": "特斯拉",
-      "title": "连城数控起诉晶盛机电，中国光伏企业在美国打起了内战！原因竟是特斯拉的30亿元订单？",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "summary": "预见能源获悉，近日，连城数控全资子公司Linton Crystal Technologies向美国得克萨斯州东区联邦法院马歇尔分院提起诉讼，指控晶盛机电侵犯其两项CZ晶体生长设备专利，诉请永久禁令。这个日期，距离晶盛机电向特斯拉得州工厂交付30亿元单晶炉设备的Q3窗口，只剩不到十天。 把官司送到特斯拉工厂所在的州、送到有“专利诉讼天堂”之称的马歇尔分院，再精…",
-      "url": "https://www.tmtpost.com/8153603.html"
-    },
-    {
-      "date": "09-28",
-      "company": "其他",
-      "title": "赌具身智能没有未来的人，是没有未来的 | 对谈伯克利Allen Yang博士",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "宇树市值蒸发两千亿，一级市场却仍在加注。面对愈演愈烈的具身智能泡沫论，伯克利Allen Yang博士用85分钟深度播客给出回应：赌具身智能没有未来的人，可能才是没有未来的",
-      "url": "https://www.tmtpost.com/8153646.html"
     }
   ]
 }
