@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T20:03:16.080964+08:00",
+  "updated": "2026-10-03T01:51:07.075088+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,8 +89,8 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 11,
-      "core": 1,
+      "candidates": 16,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 10,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -179,7 +179,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 6,
+      "candidates": 5,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -193,9 +193,9 @@
       "error": "",
       "entries": 15,
       "candidates": 12,
-      "core": 10,
+      "core": 11,
       "periphery": 0,
-      "new": 9
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -232,15 +232,15 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 19,
+      "core": 20,
       "periphery": 8,
-      "new": 1
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-02T20:03:56.135498+08:00",
+    "generated_at": "2026-10-03T01:51:47.174402+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -277,6 +277,20 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "10-02",
+            "title": "FMC³ Robotics、Vector与PEM Motion拟成立具身AI合资企业 (FMC³ Robotics, Vector, and PEM Motion plan embodied AI joint venture)",
+            "url": "https://roboticsandautomationnews.com/2026/10/02/fmc%c2%b3-robotics-vector-and-pem-motion-plan-embodied-ai-joint-venture/105470/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "《Robot Talk》第164期——加速机器人学习：与Michelle Lu对谈 (Robot Talk Episode 164 – Accelerating robot learning, with Michelle Lu)",
+            "url": "https://robohub.org/robot-talk-episode-164-accelerating-robot-learning-with-michelle-lu/",
+            "company": "其他",
+            "source_name": "RoboHub"
+          },
           {
             "date": "10-01",
             "title": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
@@ -359,6 +373,13 @@
             "url": "https://roboticsandautomationnews.com/2026/10/02/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots/105428/",
             "company": "智元机器人",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-02",
+            "title": "特斯拉 2026 年第三季度交付超 48.6 万辆，同比下降 2%",
+            "url": "https://www.ithome.com/1/009/367.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
           },
           {
             "date": "10-01",
@@ -622,13 +643,6 @@
             "url": "https://www.leiphone.com/category/private/zoJ7chGiDi7IPHvN.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "09-29",
-            "title": "ForceN将在RoboBusiness上为人形机器人讲授力与扭矩传感速成课 (ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness)",
-            "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -640,20 +654,6 @@
             "date": "10-02",
             "title": "Flexiv在IROS 2026展示力控自适应机器人 (Flexiv showcases force-controlled adaptive robots at IROS 2026)",
             "url": "https://roboticsandautomationnews.com/2026/10/02/flexiv-features-the-future-of-force-control-at-iros-2026/105435/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-29",
-            "title": "Daimon Robotics推出触觉AI模型，赋予机器人感知物理交互的能力 (Daimon Robotics launches tactile AI model to give robots a sense of physical interaction)",
-            "url": "https://roboticsandautomationnews.com/2026/09/29/daimon-robotics-launches-tactile-ai-model-to-give-robots-a-sense-of-physical-interaction/105287/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-29",
-            "title": "英伟达发布 Isaac ROS 5.0，推出用于机器人开发的 AI 智能体 (Nvidia launches Isaac ROS 5.0 with AI agents for robotics development)",
-            "url": "https://roboticsandautomationnews.com/2026/09/29/nvidia-launches-isaac-ros-5-0-with-ai-agents-for-robotics-development/105283/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           }
@@ -733,6 +733,33 @@
       "category": "产品量产",
       "summary": "Agibot and Chimelong Group have launched the first phase of a large-scale embodied AI deployment at Chimelong Spaceship Park, with more than 300 robots integrated into entertainmen…",
       "url": "https://roboticsandautomationnews.com/2026/10/02/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots/105428/"
+    },
+    {
+      "date": "10-02",
+      "company": "特斯拉",
+      "title": "特斯拉 2026 年第三季度交付超 48.6 万辆，同比下降 2%",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 2 日消息，特斯拉今日宣布，2026 年第三季度，特斯拉全球生产了超 46.4 万辆电动车， 交付了超 48.6 万辆 ；储能产品装机量达 13.7 吉瓦时。 官方公告显示，2026 年第三季度特斯拉 Model 3/Y 生成 457,387 辆，交付 478,237 辆；其他车型生产 7,004 辆，交付 8,295 辆。 IT之家查询…",
+      "url": "https://www.ithome.com/1/009/367.htm"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "FMC³ Robotics、Vector与PEM Motion拟成立具身AI合资企业 (FMC³ Robotics, Vector, and PEM Motion plan embodied AI joint venture)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "At the recent Humanoid Robots Summit 2026 in Stuttgart, Vector Informatik, PEM Motion, and FMC³ Robotics signed a memorandum of understanding at Vector’s headquarters to jointly de…",
+      "url": "https://roboticsandautomationnews.com/2026/10/02/fmc%c2%b3-robotics-vector-and-pem-motion-plan-embodied-ai-joint-venture/105470/"
+    },
+    {
+      "date": "10-02",
+      "company": "其他",
+      "title": "《Robot Talk》第164期——加速机器人学习：与Michelle Lu对谈 (Robot Talk Episode 164 – Accelerating robot learning, with Michelle Lu)",
+      "source_name": "RoboHub",
+      "category": "技术突破",
+      "summary": "Claire chatted to Michelle Lu from Vsim Technology about using simulation and artificial intelligence to teach robots new skills. Michelle Lu is co-founder and CEO of Vsim Technolo…",
+      "url": "https://robohub.org/robot-talk-episode-164-accelerating-robot-learning-with-michelle-lu/"
     },
     {
       "date": "10-01",
@@ -1084,33 +1111,6 @@
       "category": "资本动态",
       "summary": "具身涌现9月29日讯，合肥零次方机器人有限公司近期官宣完成新一轮A轮融资，本轮投资方汇集无锡国联锡洲基金、清科产投、同创伟业、合肥产投资本等市场化机构与产业资本。 自2025年1月成立至今，这家本土人",
       "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705229.html"
-    },
-    {
-      "date": "09-29",
-      "company": "其他",
-      "title": "Daimon Robotics推出触觉AI模型，赋予机器人感知物理交互的能力 (Daimon Robotics launches tactile AI model to give robots a sense of physical interaction)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Daimon Robotics has launched Daimon-TWM, a new tactile-grounded world model designed to enable robots to interpret physical interactions such as force, friction, deformation and sl…",
-      "url": "https://roboticsandautomationnews.com/2026/09/29/daimon-robotics-launches-tactile-ai-model-to-give-robots-a-sense-of-physical-interaction/105287/"
-    },
-    {
-      "date": "09-29",
-      "company": "其他",
-      "title": "英伟达发布 Isaac ROS 5.0，推出用于机器人开发的 AI 智能体 (Nvidia launches Isaac ROS 5.0 with AI agents for robotics development)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Nvidia has released Isaac ROS 5.0, introducing AI agent capabilities designed to help developers build, customize and deploy robotics applications more quickly using the open-sourc…",
-      "url": "https://roboticsandautomationnews.com/2026/09/29/nvidia-launches-isaac-ros-5-0-with-ai-agents-for-robotics-development/105283/"
-    },
-    {
-      "date": "09-29",
-      "company": "其他",
-      "title": "ForceN将在RoboBusiness上为人形机器人讲授力与扭矩传感速成课 (ForceN to give a crash course on force and torque sensing for humanoids at RoboBusiness)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Attendees will learn about the many ways they can use force and torque sensors in humanoids and how to avoid breaking them while doing it. The post appeared first on The Robot Repo…",
-      "url": "https://www.therobotreport.com/forcen-gives-crash-course-force-torque-sensing-humanoids-robobusiness-2026/"
     }
   ]
 }
