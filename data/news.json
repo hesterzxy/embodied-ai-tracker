@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T05:55:51.722166+08:00",
+  "updated": "2026-10-03T12:10:31.040952+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 16,
-      "core": 2,
+      "entries": 58,
+      "candidates": 14,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 11,
       "periphery": 1,
-      "new": 3
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 10,
+      "core": 9,
       "periphery": 1,
-      "new": 7
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 12,
       "core": 11,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-03T05:56:31.806054+08:00",
+    "generated_at": "2026-10-03T12:11:11.173458+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
