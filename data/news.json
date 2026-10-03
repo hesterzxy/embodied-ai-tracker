@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-03T19:15:12.550727+08:00",
+  "updated": "2026-10-03T23:53:29.061204+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 12,
-      "core": 2,
+      "candidates": 11,
+      "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 0,
+      "entries": 15,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 14,
+      "candidates": 12,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -148,15 +148,14 @@
     {
       "name": "中国工控网机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 20,
-      "candidates": 17,
-      "core": 13,
-      "periphery": 3,
-      "new": 2
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "The Robot Report",
@@ -167,9 +166,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 9,
+      "core": 8,
       "periphery": 1,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,42 +239,25 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-03T19:15:52.701111+08:00",
-    "mode": "local",
+    "generated_at": "2026-10-03T23:53:53.655608+08:00",
+    "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，13361台订单，1500台交付：优必选U1给消费级机器人泼了盆冷水 我翻了翻优必选U1的时间线，发现一个刺眼的数据对比；假设一项机器人操作的成功率已经达到95%，听起来是不是相当可靠。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-09/ART-898890-12003-30705128.html",
-          "https://robot.ofweek.com/2026-09/ART-8321205-8110-30705346.html",
-          "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/"
-        ]
+        "label": "商业化验证集中在可部署、可验收的任务",
+        "text": "仓储、拣选和工业巡检出现了明确的部署进展，Iron Mountain扩大Dexory仓储机器人应用，Comau为迪卡侬开发并验证订单拣选方案，ANYbotics推出面向巡检团队的运营工具；相较泛化能力叙事，这些有具体流程和使用方的任务更便于检验落地效果。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，AMD宣布与World Labs达成最终收购协议；82亿美元，芯片巨头AMD以全股票形式收购世界模型公司World Labs。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8155299.html",
-          "https://www.tmtpost.com/8157833.html",
-          "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html"
-        ]
-      },
-      {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，交割完成后，李飞飞将加入AMD担任执行副总裁兼首席科学家，直接向董事长兼CEO苏姿丰汇报；> 具身涌现9月30日获悉，盟识科技已经完成A+轮超亿元融资交割，本轮投资方包含力鼎投资、杭州和达、汇孚投资，其中杭州和达为企业迁址杭州钱塘区之后入局的属地国资，公司B轮融资还在持续推进。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.qbitai.com/2026/09/499098.html",
-          "https://robot.ofweek.com/2026-09/ART-8321202-12003-30705431.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-12003-30705268.html"
-        ]
+        "label": "出货与交付数据让规模化能力接受检验",
+        "text": "IDC数据显示2026年上半年全球人形机器人出货接近2.5万台、同比增长432.1%，其中中国约1.9万台；与此同时，优必选U1相关报道列出13361台订单与1500台交付，提示订单和实际交付需分开观察，出货增长也不能单独代表稳定商业化。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术动态覆盖世界模型、机器人学习、空中操作和空间智能等方向，AMD与World Labs达成收购协议；现有信息以方向和事件为主，尚不足以判断相关能力已普遍转化为稳定任务表现。",
         "items": [
           {
             "date": "10-02",
@@ -344,7 +326,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "产品与部署信息呈现多种形态，IDC报告全球人形机器人上半年出货近2.5万台，Agibot与长隆启动配备300余台机器人的项目，工业巡检运营工具和Atlas新机械手也相继发布。",
         "items": [
           {
             "date": "10-02",
@@ -462,7 +444,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业应用主要落在仓储和电商履约，Iron Mountain扩大Dexory仓储机器人部署，Comau为迪卡侬开发并验证订单拣选系统；相关案例提供了明确场景，但公开材料未给出完整收益数据。",
         "items": [
           {
             "date": "09-30",
@@ -496,7 +478,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "融资与并购同时指向技术能力和具体应用，AMD与World Labs达成收购协议，盟识科技完成超亿元A+轮融资，RobotPlusPlus和Inbolt也披露融资进展，资金用途和后续交付仍需持续观察。",
         "items": [
           {
             "date": "10-01",
@@ -537,7 +519,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业新闻呈现应用边界拓展与落地配套并行，Neura Robotics进入医疗领域，优必选获哈萨克斯坦方面支持建设制造工厂，Cyngn取得信息安全认证，具体验收和持续运营数据仍较有限。",
         "items": [
           {
             "date": "10-02",
@@ -648,7 +630,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "产业链证据集中于力控与自适应能力，Flexiv在IROS展示相关机器人；现有信息尚未披露具体客户部署、性能指标或规模化进展，供应链机会仍需结合明确瓶颈判断。",
         "items": [
           {
             "date": "10-02",
