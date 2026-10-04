@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T00:36:05.306692+08:00",
+  "updated": "2026-10-05T04:58:45.433890+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -45,12 +45,13 @@
     {
       "name": "钛媒体",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "TimeoutError: The read operation timed out",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 15,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -149,7 +150,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 2,
+      "attempts": 1,
       "error": "",
       "entries": 20,
       "candidates": 17,
@@ -168,7 +169,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
