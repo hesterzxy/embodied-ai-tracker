@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-04T04:42:13.265586+08:00",
+  "updated": "2026-10-04T12:42:09.081787+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 0,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 12,
-      "core": 0,
+      "entries": 57,
+      "candidates": 13,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -148,15 +148,14 @@
     {
       "name": "中国工控网机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 20,
-      "candidates": 17,
-      "core": 13,
-      "periphery": 3,
-      "new": 2
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 500: Internal Server Error",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "The Robot Report",
@@ -240,7 +239,7 @@
   "weekly_report": {
     "start": "09-28",
     "end": "10-04",
-    "generated_at": "2026-10-04T04:42:53.350991+08:00",
+    "generated_at": "2026-10-04T12:42:49.189169+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -250,7 +249,7 @@
         "evidence_urls": [
           "https://robot.ofweek.com/2026-09/ART-898890-12003-30705128.html",
           "https://robot.ofweek.com/2026-09/ART-8321205-8110-30705346.html",
-          "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/"
+          "https://www.ithome.com/1/009/616.htm"
         ]
       },
       {
@@ -268,7 +267,7 @@
         "evidence_urls": [
           "https://www.qbitai.com/2026/09/499098.html",
           "https://robot.ofweek.com/2026-09/ART-8321202-12003-30705431.html",
-          "https://robot.ofweek.com/2026-09/ART-898890-12003-30705268.html"
+          "https://roboticsandautomationnews.com/2026/10/01/robotplusplus-raises-tens-of-millions-of-dollars-to-scale-working-at-height-robots/105412/"
         ]
       }
     ],
@@ -465,6 +464,13 @@
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
+            "date": "10-04",
+            "title": "现代汽车计划部署 2.5 万台波士顿动力 Atlas 机器人，并建设年产能 3 万台的美国工厂",
+            "url": "https://www.ithome.com/1/009/616.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
             "date": "09-30",
             "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
             "url": "https://www.qbitai.com/2026/09/499280.html",
@@ -484,13 +490,6 @@
             "url": "https://roboticsandautomationnews.com/2026/09/30/comau-develops-robotic-order-preparation-system-for-decathlon-e-commerce-operations/105352/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "09-29",
-            "title": "原创 2026个人机器人应用价值研究报告 人工智能 · 商业化 · 人工智能 报告 2026-09-20",
-            "url": "https://www.jazzyear.com/study_info.html?id=179",
-            "company": "其他",
-            "source_name": "甲子光年"
           }
         ]
       },
@@ -525,13 +524,6 @@
             "url": "https://www.qbitai.com/2026/09/499098.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "09-29",
-            "title": "贾跃亭的机器人“独立上市”！又一次资本腾挪",
-            "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705268.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -539,6 +531,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-03",
+            "title": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
+            "url": "https://www.ithome.com/1/009/584.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "10-02",
             "title": "Neura Robotics 将实体 AI 带入医疗领域 (Neura Robotics brings physical AI to healthcare)",
@@ -662,6 +661,24 @@
     ]
   },
   "items": [
+    {
+      "date": "10-04",
+      "company": "其他",
+      "title": "现代汽车计划部署 2.5 万台波士顿动力 Atlas 机器人，并建设年产能 3 万台的美国工厂",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 10 月 4 日消息，波士顿动力上周宣布，已在现代汽车集团位于美国佐治亚州萨凡纳附近的 Metaplant America 园区内启用机器人 Metaplant 应用中心（RMAC），作为人形机器人 Atlas 的测试与训练中心，用于将 Atlas 直接整合进现代汽车集团的汽车制造业务。 波士顿动力官方宣布，Atlas 机器人目前已在 RMAC 开…",
+      "url": "https://www.ithome.com/1/009/616.htm"
+    },
+    {
+      "date": "10-03",
+      "company": "特斯拉",
+      "title": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 4 日消息，特斯拉首席执行官埃隆 · 马斯克（Elon Musk）做出说明，该公司的 AI5 芯片不会采用 72GB 的 DDR5 内存，而是改用 96GB 内存。这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。 马斯克此前曾表示，特斯拉已经把 AI5 与 AI6 芯片的内存…",
+      "url": "https://www.ithome.com/1/009/584.htm"
+    },
     {
       "date": "10-02",
       "company": "特斯拉",
@@ -1093,24 +1110,6 @@
       "category": "技术突破",
       "summary": "算力焦虑下的双向奔赴 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
       "url": "https://www.ifanr.com/1682291?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "date": "09-29",
-      "company": "其他",
-      "title": "原创 2026个人机器人应用价值研究报告 人工智能 · 商业化 · 人工智能 报告 2026-09-20",
-      "source_name": "甲子光年",
-      "category": "商业订单",
-      "summary": "5\\u667A\\u80FD\"); return false;\">人工智能 · 科技投资 · 人工智能 报告 原创 AI原生组织：组织形态的重塑与管理科学新范式 科技产业 · 数字化 · 人工智能 报告</span",
-      "url": "https://www.jazzyear.com/study_info.html?id=179"
-    },
-    {
-      "date": "09-29",
-      "company": "行业",
-      "title": "贾跃亭的机器人“独立上市”！又一次资本腾挪",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "> 贾跃亭，又整活了！ 美东时间 9 月 28 日盘后，法拉第未来宣布，将把旗下机器人业务以约 2 亿美元的估值注入 AIxC。AIxC 将于 9 月 30 日更名为 FF EAI Robotics Ec 人形机器人",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705268.html"
     }
   ]
 }
