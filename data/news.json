@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T04:58:45.433890+08:00",
+  "updated": "2026-10-05T12:29:24.255948+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 3,
+      "entries": 16,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 12,
+      "entries": 57,
+      "candidates": 20,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 11,
+      "core": 10,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +156,7 @@
       "candidates": 17,
       "core": 13,
       "periphery": 3,
-      "new": 2
+      "new": 0
     },
     {
       "name": "The Robot Report",
@@ -237,8 +237,47 @@
       "new": 1
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "10-05",
+    "end": "10-11",
+    "generated_at": "2026-10-05T12:29:24.258459+08:00",
+    "mode": "local",
+    "item_count": 1,
+    "insights": [
+      {
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，据《商业内幕》报道，一位了解本次交易的人士透露，这家机器人企业正在融资 7 亿美元 （IT之家注：现汇率约合 46.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/009/746.htm"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "category": "资本动态",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "items": [
+          {
+            "date": "10-05",
+            "title": "“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
+            "url": "https://www.ithome.com/1/009/746.htm",
+            "company": "行业",
+            "source_name": "IT之家"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "10-05",
+      "company": "行业",
+      "title": "“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 10 月 5 日消息，FieldAI 正在为人形机器人、无人机等各类机器人打造一款通用大脑。投资者正为重押这一发展愿景投入巨资。 据《商业内幕》报道，一位了解本次交易的人士透露，这家机器人企业正在融资 7 亿美元 （IT之家注：现汇率约合 46.97 亿元人民币） ，投后估值达到 100 亿美元 （现汇率约合 671.04 亿元人民币） ；短短一年…",
+      "url": "https://www.ithome.com/1/009/746.htm"
+    },
     {
       "date": "10-04",
       "company": "其他",
@@ -679,15 +718,6 @@
       "category": "产品量产",
       "summary": "IT之家 9 月 29 日消息，国际数据公司（ IDC ）最新发布的全球人形机器人跟踪报告显示，2026 上半年，全球人形机器人出货量接近 2.5 万台，同比增长 432.1%，产业发展进一步从技术验证向商业化应用探索阶段迈进。 IDC 预计，2030 年全球人形机器人出货量将超过 75 万台，市场将进入规模化应用加速发展阶段。 2026 年以来，全球人形机…",
       "url": "https://www.ithome.com/1/008/202.htm"
-    },
-    {
-      "date": "09-29",
-      "company": "优必选",
-      "title": "优必选U1给消费级机器人泼了盆冷水：13361台订单，仅1500台交付",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "13361台订单，1500台交付：优必选U1给消费级机器人泼了盆冷水 我翻了翻优必选U1的时间线，发现一个刺眼的数据对比。 6月30日发布会，全渠道订单突破13361台，公司高管豪言“今年保证一万台交",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12003-30705128.html"
     }
   ]
 }
