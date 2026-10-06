@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T07:51:41.249135+08:00",
+  "updated": "2026-10-06T13:16:11.246284+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 2,
-      "core": 0,
+      "candidates": 5,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 15,
+      "entries": 59,
+      "candidates": 12,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -117,7 +117,7 @@
       "candidates": 10,
       "core": 8,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "OFweek机器人",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 10,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -148,13 +148,14 @@
     {
       "name": "中国工控网机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 20,
+      "candidates": 17,
+      "core": 13,
+      "periphery": 3,
       "new": 0
     },
     {
@@ -194,7 +195,7 @@
       "candidates": 12,
       "core": 7,
       "periphery": 2,
-      "new": 8
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,30 +240,43 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-06T07:51:59.172734+08:00",
+    "generated_at": "2026-10-06T13:16:43.283654+08:00",
     "mode": "aicodewith",
-    "item_count": 5,
+    "item_count": 7,
     "insights": [
       {
-        "label": "落地验证聚焦可验收的安保与基础设施任务",
-        "text": "Excelerate Technology获得欧空局联合资助合同，将在英国关键基础设施场所部署机器人安保系统，具身智能商业化继续沿着任务边界清晰、结果可验收的场景推进。",
+        "label": "具身智能先在可验收任务中落地",
+        "text": "欧空局支持Excelerate Technology为英国关键基础设施部署机器人安保系统，Figure 02在芬兰熔炉和宝马工厂运行并将故障记录反馈至下一代设计，Ency与Estun则推进机器人编程一体化，当前商业化更集中于安保、制造现场和工程交付等结果可核验的任务。",
         "evidence_urls": []
       },
       {
-        "label": "资本青睐通用能力与场景资源的结合",
-        "text": "FieldAI据报道拟融资7亿美元、估值达100亿美元，Donut Robotics则与日本养老院运营商Charm Care建立资本和业务联盟，资金与产业方资源开始同时指向机器人能力扩展和实际应用入口。",
+        "label": "模型能力开始连接真实任务数据",
+        "text": "World Labs在Marble上线后推出Atlas，并被AMD拟以82亿美元全股票收购；与此同时，工厂故障记录被用于产品迭代，SafeWorld获得1220万美元开发机器人安全仿真，模型竞争正逐步与运行数据、仿真验证和任务闭环结合。",
         "evidence_urls": []
       },
       {
-        "label": "安全仿真成为具身系统的配套投入方向",
-        "text": "SafeWorld完成隐身并获得1220万美元，用于开发机器人安全仿真技术，围绕真实部署风险的验证工具已获得独立融资，但其商业化进展仍缺乏进一步证据。",
+        "label": "资本和产业伙伴押注能力补齐",
+        "text": "据报道FieldAI拟融资7亿美元、估值达100亿美元，日本养老院运营商Charm Care与Donut Robotics建立资本及业务联盟，SafeWorld也获得1220万美元融资，资金与合作资源同时流向通用机器人能力、养老场景和安全仿真等具体短板。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
+        "category": "技术突破",
+        "summary": "World Labs推出Marble和Atlas后被AMD拟以82亿美元收购，模型公司的技术价值开始与产品进展、资本整合及真实任务数据联系起来。",
+        "items": [
+          {
+            "date": "10-06",
+            "title": "世界模型赛道：谁在收编，谁在突围？",
+            "url": "https://www.tmtpost.com/8159876.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
         "category": "产品量产",
-        "summary": "Ency Software与Estun启动一体化机器人编程技术合作，面向欧洲用户提升编程协同能力，但目前仍是合作推进，尚不足以确认规模量产或价格变化。",
+        "summary": "Ency与Estun开展一体化机器人编程合作，面向欧洲用户降低应用开发衔接成本，但现有证据主要体现产品协同，尚不足以判断规模化量产进展。",
         "items": [
           {
             "date": "10-05",
@@ -275,7 +289,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "Excelerate Technology获得欧空局合同，将机器人安保系统部署至英国关键基础设施场所，商业订单已进入具有明确任务边界的基础设施场景。",
+        "summary": "Excelerate Technology获得欧空局共同出资合同，将机器人安保系统部署到英国关键基础设施场地，具身应用继续从明确目标和验收标准的项目切入。",
         "items": [
           {
             "date": "10-05",
@@ -288,7 +302,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "FieldAI据报道拟融资7亿美元并达到100亿美元估值，Donut Robotics获得养老院运营商资本与业务合作，资金同时关注通用能力和具体应用资源。",
+        "summary": "FieldAI被报道拟融资7亿美元并达到100亿美元估值，Charm Care投资Donut Robotics并建立业务联盟，资本开始同时关注通用能力和养老等明确场景。",
         "items": [
           {
             "date": "10-05",
@@ -307,8 +321,21 @@
         ]
       },
       {
+        "category": "行业动态",
+        "summary": "Figure 02在芬兰熔炉和宝马工厂的运行故障被纳入下一代设计，制造现场正成为机器人暴露问题、积累数据和推动迭代的重要验证环境。",
+        "items": [
+          {
+            "date": "10-06",
+            "title": "想改造工厂的机器人，先被工厂改造了",
+            "url": "https://www.tmtpost.com/8159783.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
         "category": "泛具身产业链",
-        "summary": "SafeWorld获得1220万美元开发机器人安全仿真技术，产业链投资开始覆盖部署安全与验证工具，但目前尚不能据此判断供应链形成规模化需求。",
+        "summary": "SafeWorld完成隐身并获1220万美元开发机器人安全仿真技术，安全验证环节获得独立融资，产业链关注点从本体和模型延伸至部署前测试。",
         "items": [
           {
             "date": "10-05",
@@ -322,6 +349,24 @@
     ]
   },
   "items": [
+    {
+      "date": "10-06",
+      "company": "其他",
+      "title": "世界模型赛道：谁在收编，谁在突围？",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "9月28日，芯片巨头AMD宣布以82亿美元全股票交易收购World Labs，该公司成立仅两年多，员工约70人，首款商业产品Marble上线不到一年，新一代模型Atlas在这宗交易宣布前发布不到一个月。 消息公布当天， AMD股价收跌3.61%。市场在疑虑什么？一个没有收入、技术路线尚未收敛的实验室，凭什么值82亿美元，这笔账怎么算出来的，有人甚至认为这是一…",
+      "url": "https://www.tmtpost.com/8159876.html"
+    },
+    {
+      "date": "10-06",
+      "company": "其他",
+      "title": "想改造工厂的机器人，先被工厂改造了",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计",
+      "url": "https://www.tmtpost.com/8159783.html"
+    },
     {
       "date": "10-05",
       "company": "行业",
@@ -753,24 +798,6 @@
       "category": "行业动态",
       "summary": "特斯拉的Optimus进入产能爬坡阶段后，遇到了不少问题：灵巧手难以稳定装配，AI对新任务的适应能力有限，训练数据仍高度依赖人工采集。 根据《The Information》报道，最近几个月，Opti",
       "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30705485.html"
-    },
-    {
-      "date": "09-30",
-      "company": "优必选",
-      "title": "包揽全球前五！中国人形机器人领跑全球，优必选登顶赛道",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "文/杨剑勇 随着技术创新以及服务质量提高，智能手机、智能家电、AI眼镜、人形机器人及扫地机器人等各种智能设备，中国企业在全球科技舞台上的影响力持续得到提升。 在智能家电领域，海尔凭借构建起全球化品牌矩",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30705465.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "首台国产化电子架构具身机器人正式发布 构建自主可控的新一代机器人“智能神经系统”",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "9月28日，国产化电子架构具身智能机器人发布会在湖北宜昌举行，全球首台搭载全国产化电子架构的具身智能机器人正式亮相。 电子架构是决定整机性能上限的“智能神经系统”，包括操作系统、网络、工具软件和AI计",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8220-30705461.html"
     }
   ]
 }
