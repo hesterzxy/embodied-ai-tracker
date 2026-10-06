@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-06T13:16:11.246284+08:00",
+  "updated": "2026-10-06T20:55:25.515934+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 5,
+      "candidates": 4,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -66,7 +66,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 12,
-      "core": 0,
+      "entries": 60,
+      "candidates": 15,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 10,
       "periphery": 1,
-      "new": 3
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 7,
-      "periphery": 2,
-      "new": 4
+      "candidates": 14,
+      "core": 8,
+      "periphery": 3,
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-06T13:16:43.283654+08:00",
+    "generated_at": "2026-10-06T20:55:57.745196+08:00",
     "mode": "aicodewith",
-    "item_count": 7,
+    "item_count": 10,
     "insights": [
       {
-        "label": "具身智能先在可验收任务中落地",
-        "text": "欧空局支持Excelerate Technology为英国关键基础设施部署机器人安保系统，Figure 02在芬兰熔炉和宝马工厂运行并将故障记录反馈至下一代设计，Ency与Estun则推进机器人编程一体化，当前商业化更集中于安保、制造现场和工程交付等结果可核验的任务。",
+        "label": "落地验证聚焦可验收任务",
+        "text": "欧空局支持在英国关键基础设施部署机器人安保系统，Deliveroo与Coco Robotics计划在英国推出机器人配送，Figure 02的工厂故障记录进入下一代设计，具身智能的落地验证正集中在安保、配送和工业作业等结果可核验场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型能力开始连接真实任务数据",
-        "text": "World Labs在Marble上线后推出Atlas，并被AMD拟以82亿美元全股票收购；与此同时，工厂故障记录被用于产品迭代，SafeWorld获得1220万美元开发机器人安全仿真，模型竞争正逐步与运行数据、仿真验证和任务闭环结合。",
+        "label": "资本加码通用能力与场景结合",
+        "text": "AMD以82亿美元全股票交易收购成立两年多的World Labs，FieldAI拟融资7亿美元并达到100亿美元估值，日本养老院运营商Charm Care也与Donut Robotics开展资本和业务联盟，资金关注点同时覆盖世界模型能力、机器人通用大脑和明确服务场景。",
         "evidence_urls": []
       },
       {
-        "label": "资本和产业伙伴押注能力补齐",
-        "text": "据报道FieldAI拟融资7亿美元、估值达100亿美元，日本养老院运营商Charm Care与Donut Robotics建立资本及业务联盟，SafeWorld也获得1220万美元融资，资金与合作资源同时流向通用机器人能力、养老场景和安全仿真等具体短板。",
+        "label": "配套供给开始围绕部署性能展开",
+        "text": "瑞萨推出面向人形机器人、工厂自动化和工业电机驱动的100V氮化镓功率晶体管，Ency Software与Estun合作一体化编程，SafeWorld获1220万美元开发机器人安全仿真，供应链机会正落到供电、编程和安全等具体部署环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "World Labs推出Marble和Atlas后被AMD拟以82亿美元收购，模型公司的技术价值开始与产品进展、资本整合及真实任务数据联系起来。",
+        "summary": "AMD以82亿美元收购World Labs，交易涉及Marble产品和Atlas模型，世界模型赛道的竞争开始体现为模型能力、产品进展与平台资源的整合。",
         "items": [
           {
             "date": "10-06",
@@ -276,8 +276,15 @@
       },
       {
         "category": "产品量产",
-        "summary": "Ency与Estun开展一体化机器人编程合作，面向欧洲用户降低应用开发衔接成本，但现有证据主要体现产品协同，尚不足以判断规模化量产进展。",
+        "summary": "瑞萨推出面向人形机器人和工业应用的100V氮化镓功率晶体管，Ency与Estun推进一体化编程，产品化覆盖正从核心器件延伸到开发工具。",
         "items": [
+          {
+            "date": "10-06",
+            "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
+            "url": "https://www.ithome.com/1/010/015.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "10-05",
             "title": "Ency Software与Estun宣布开展一体化机器人编程技术合作 (Ency Software and Estun launch technology partnership for integrated robot programming)",
@@ -289,7 +296,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "Excelerate Technology获得欧空局共同出资合同，将机器人安保系统部署到英国关键基础设施场地，具身应用继续从明确目标和验收标准的项目切入。",
+        "summary": "Excelerate Technology获得欧空局支持的合同，将在英国关键基础设施部署机器人安保系统，机器人商业化继续从明确场景和可验收任务切入。",
         "items": [
           {
             "date": "10-05",
@@ -302,7 +309,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "FieldAI被报道拟融资7亿美元并达到100亿美元估值，Charm Care投资Donut Robotics并建立业务联盟，资本开始同时关注通用能力和养老等明确场景。",
+        "summary": "FieldAI被报道拟融资7亿美元并达到100亿美元估值，Charm Care与Donut Robotics建立资本和业务联盟，资金同时流向通用能力和养老服务场景。",
         "items": [
           {
             "date": "10-05",
@@ -322,7 +329,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "Figure 02在芬兰熔炉和宝马工厂的运行故障被纳入下一代设计，制造现场正成为机器人暴露问题、积累数据和推动迭代的重要验证环境。",
+        "summary": "Figure 02在芬兰熔炉及宝马工厂产线积累的故障记录进入后续设计，行业讨论则进一步抬高物理人工智能对汽车产业规模的预期。",
         "items": [
           {
             "date": "10-06",
@@ -330,13 +337,27 @@
             "url": "https://www.tmtpost.com/8159783.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "10-06",
+            "title": "Agile Robots首席执行官：‘物理AI的规模将是汽车行业的10倍’ (Agile Robots CEO: ‘Physical AI is going to be 10x bigger than automotive’)",
+            "url": "https://roboticsandautomationnews.com/2026/10/06/agile-robots-ceo-physical-ai-is-going-to-be-10x-bigger-than-automotive/105561/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "SafeWorld完成隐身并获1220万美元开发机器人安全仿真技术，安全验证环节获得独立融资，产业链关注点从本体和模型延伸至部署前测试。",
+        "summary": "Deliveroo与Coco Robotics计划在英国推出机器人配送服务，SafeWorld获1220万美元开发安全仿真，配送运营与安全基础设施同步获得推进。",
         "items": [
+          {
+            "date": "10-06",
+            "title": "Deliveroo与Coco Robotics将在英国推出机器人配送服务 (Deliveroo and Coco Robotics to roll out robot deliveries across the UK)",
+            "url": "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "10-05",
             "title": "SafeWorld完成隐身开发，获1,220万美元用于开发机器人安全仿真技术 (SafeWorld emerges from stealth with $12.2 million to develop robot safety simulation technology)",
@@ -366,6 +387,33 @@
       "category": "行业动态",
       "summary": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计",
       "url": "https://www.tmtpost.com/8159783.html"
+    },
+    {
+      "date": "10-06",
+      "company": "其他",
+      "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G…",
+      "url": "https://www.ithome.com/1/010/015.htm"
+    },
+    {
+      "date": "10-06",
+      "company": "其他",
+      "title": "Deliveroo与Coco Robotics将在英国推出机器人配送服务 (Deliveroo and Coco Robotics to roll out robot deliveries across the UK)",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "Deliveroo and Coco Robotics, one of the largest pavement delivery fleets across the US and Europe, are set to bring robot deliveries to towns and cities across the UK through a new…",
+      "url": "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/"
+    },
+    {
+      "date": "10-06",
+      "company": "其他",
+      "title": "Agile Robots首席执行官：‘物理AI的规模将是汽车行业的10倍’ (Agile Robots CEO: ‘Physical AI is going to be 10x bigger than automotive’)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Agile Robots CEO Zhaopeng Chen says “physical AI is going to be 10x bigger than automotive” as the Munich-based robotics company expands its manufacturing, AI development and human…",
+      "url": "https://roboticsandautomationnews.com/2026/10/06/agile-robots-ceo-physical-ai-is-going-to-be-10x-bigger-than-automotive/105561/"
     },
     {
       "date": "10-05",
@@ -771,33 +819,6 @@
       "category": "行业动态",
       "summary": "Innodata uses Vicon cameras to measure movements with sub-millimeter accuracy and to collect real-world training data for robots. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "Inbolt筹集1250万美元，为工业机器人赋予视觉与智能 (Inbolt raises $12.5 million to bring sight and intelligence to industrial robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Inbolt, which gives industrial robots the ability to see, think, and adapt in real time, has announced $12.5 million in funding. The round was led by new investor Shift4Good, a ven…",
-      "url": "https://roboticsandautomationnews.com/2026/09/30/inbolt-raises-12-5-million-to-bring-sight-and-intelligence-to-industrial-robots/105360/"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "柯马为迪卡侬电商业务开发机器人订单拣选系统 (Comau develops robotic order preparation system for Decathlon e-commerce operations)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Comau has designed and validated an order preparation solution tested within Decathlon’s e-commerce fulfillment operations as part of “MASTERLY”, a European initiative designed to…",
-      "url": "https://roboticsandautomationnews.com/2026/09/30/comau-develops-robotic-order-preparation-system-for-decathlon-e-commerce-operations/105352/"
-    },
-    {
-      "date": "09-30",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus周产数百台后, 又被困在灵巧手、AI能力和训练数据上",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "特斯拉的Optimus进入产能爬坡阶段后，遇到了不少问题：灵巧手难以稳定装配，AI对新任务的适应能力有限，训练数据仍高度依赖人工采集。 根据《The Information》报道，最近几个月，Opti",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321205-8420-30705485.html"
     }
   ]
 }
