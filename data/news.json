@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T06:26:19.287242+08:00",
+  "updated": "2026-10-07T12:44:30.830479+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 4,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 20,
-      "core": 1,
+      "entries": 59,
+      "candidates": 25,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -124,13 +124,13 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 22,
       "candidates": 22,
       "core": 10,
-      "periphery": 1,
-      "new": 6
+      "periphery": 0,
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -240,9 +240,9 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-07T06:26:59.372837+08:00",
+    "generated_at": "2026-10-07T12:45:10.984009+08:00",
     "mode": "local",
-    "item_count": 10,
+    "item_count": 12,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -308,6 +308,13 @@
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
+            "date": "10-07",
+            "title": "德国支持特斯拉 FSD 落地欧洲，前提是更名为 TAD、超速上限设为 10%",
+            "url": "https://www.ithome.com/1/010/165.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
             "date": "10-05",
             "title": "Excelerate Technology赢得欧空局合同，将为英国关键基础设施部署机器人安保系统 (Excelerate Technology wins ESA contract for robotic security system at UK critical infrastructure site)",
             "url": "https://roboticsandautomationnews.com/2026/10/05/excelerate-technology-wins-esa-contract-for-robotic-security-system-at-uk-critical-infrastructure-site/105511/",
@@ -340,6 +347,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-07",
+            "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
+            "url": "https://www.ithome.com/1/010/168.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
           {
             "date": "10-06",
             "title": "想改造工厂的机器人，先被工厂改造了",
@@ -379,6 +393,24 @@
     ]
   },
   "items": [
+    {
+      "date": "10-07",
+      "company": "特斯拉",
+      "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 7 日消息，特斯拉 Robotaxi 应用现已在更多国家开放下载。英国、澳大利亚、德国、意大利、瑞典、新加坡等地的苹果 App Store 以及谷歌 Play 商店都已经上架该软件，后续还会新增更多地区。 不过，现阶段不要以为伦敦或者柏林街头马上就能看到无人驾驶版 Model Y，或是没有方向盘的 Cybercab 上路运营。海外地区开放…",
+      "url": "https://www.ithome.com/1/010/168.htm"
+    },
+    {
+      "date": "10-07",
+      "company": "特斯拉",
+      "title": "德国支持特斯拉 FSD 落地欧洲，前提是更名为 TAD、超速上限设为 10%",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 10 月 7 日消息，德国已经准备好支持特斯拉的“FSD（监督版）”在欧洲落地，但前提是更换产品名称。根据用户 @tpgoebel 在 X 平台发布的帖子，德国联邦交通部（BMV）希望将 FSD 改称为 Tesla Assisted Driving（特斯拉辅助驾驶，简称 TAD），以此推动这项系统获得欧盟范围内的批准。 据报道，德国联邦交通部长比尔…",
+      "url": "https://www.ithome.com/1/010/165.htm"
+    },
     {
       "date": "10-06",
       "company": "其他",
@@ -711,123 +743,6 @@
       "category": "产品量产",
       "summary": "IT之家 10 月 2 日消息，全球首富埃隆 · 马斯克今天（10 月 2 日）在 X 平台发布推文，宣布为了调配充足的内存满足 Optimus 机器人量产，计划削减特斯拉 AI5 和 AI6 芯片的内存用量。 本次调整可以追溯到美光科技的预测，在其最新财报电话会议上，美光科技首席财务官指出人形机器人将成为内存需求新引擎： 每台设备需超 200GB DRAM…",
       "url": "https://www.ithome.com/1/009/196.htm"
-    },
-    {
-      "date": "09-30",
-      "company": "宇树科技",
-      "title": "GPT-6 丝滑「上身」宇树 G1，斯坦福把机器人控制链封装成了一套「专属 API」",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "summary": "空间记忆接导航，视觉伺服接抓取，全身运动负责落地。 作者丨 郑佳美 编辑丨岑 峰 这两天，斯坦福大学 The Movement Lab 和加州理工学院公开了一个有趣的研究项目 HomeBody。 团队把 GPT Astra 接进 Unitree G1，让人形机器人先自己探索陌生厨房，再根据人的指令完成找东西、拿药、扔垃圾和开抽屉等连续任务。 这并不是简单给…",
-      "url": "https://www.leiphone.com/category/ai/AVV9SvszqpZ3u8vU.html"
-    },
-    {
-      "date": "09-30",
-      "company": "优必选",
-      "title": "哈萨克斯坦总统托卡耶夫：支持优必选在阿拉木图建设机器人设备制造工厂",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 9 月 30 日消息，优必选科技公众号今天（30 日）发文称，9 月 25 日，在哈萨克斯坦 — 中国投资论坛期间，哈萨克斯坦总统哈斯穆-卓玛尔特 · 托卡耶夫在阿拉木图会见优必选副总裁钟永。 托卡耶夫表示，支持优必选在阿拉木图 建设一座机器人设备制造工厂 ，产品主要面向教育和服务领域。他指出，哈萨克斯坦将成为优必选在 中国境外的首个生产基地 。双…",
-      "url": "https://www.ithome.com/1/008/652.htm"
-    },
-    {
-      "date": "09-30",
-      "company": "行业",
-      "title": "把矿卡当机器人做！「盟识科技」斩获超亿元A+轮融资",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "> 具身涌现9月30日获悉，盟识科技已经完成A+轮超亿元融资交割，本轮投资方包含力鼎投资、杭州和达、汇孚投资，其中杭州和达为企业迁址杭州钱塘区之后入局的属地国资，公司B轮融资还在持续推进。 这笔融资射出矿 工业机器人",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321202-12003-30705431.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "Dyna发布Dyna-2.1与机器人Taku, Physical Agent走向模型、硬件与部署一体化",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "假设一项机器人操作的成功率已经达到95%，听起来是不是相当可靠？ 但如果机器人需要连续完成约79次操作，并简单假设每次操作相互独立、成功率均为95%，那么整轮流程在不需要人工介入的情况下完成的概率，只",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321205-8110-30705346.html"
-    },
-    {
-      "date": "09-30",
-      "company": "特斯拉",
-      "title": "周产600+台的特斯拉Optimus机器人，先点燃了A股",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "9月28日下午，一条消息在A股人形机器人板块炸开了水花：特斯拉Optimus周产量已从二季度的每周数十台跃升至600台以上，本月底准备冲刺周产千台。这个数字的分量要放在一个背景里看：今年7月，马斯克给",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-12001-30705333.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "全球首台国产化电子架构机器人发布：敢让攻击者先“黑”一遍再出厂",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "机器人被黑会失控？国产化电子架构说“不”，我看了国家工业信息安全发展研究中心做的那组测试，感觉还是有些突破的。关节破坏、网络攻击、病毒植入。三组极端场景，传统电子架构的机器人出现了线路失效、瞬间关机",
-      "url": "https://robot.ofweek.com/2026-09/ART-8321202-8420-30705331.html"
-    },
-    {
-      "date": "09-30",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus“只租不售”：机器人还不够聪明时，卖不如租",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "9月25日，The Information 援引多位知情人士的报道，把 Optimus 的家底掀开了一角。我先把关键事实按原样罗列，后面的分析都建立在这份底稿上。之前我们也有相关分析：机器人也能“逛超",
-      "url": "https://robot.ofweek.com/2026-09/ART-898890-8420-30705327.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了",
-      "source_name": "量子位",
-      "category": "商业订单",
-      "summary": "当下具身浪潮依旧汹涌，资本市场对机器人的热度未停，就说最近，宇树登陆科创板，梅卡曼德、优地机器人先后在港交所挂牌。9月底，本末科技和欢创科技也相继挂牌上市。 然而有消息称，对于具身智能机器人公司的上市，市场正在 趋于审慎 。 财联社月初从多位投行人士处获悉，监管正在调整部分人形机器人企业的上市节奏。 目前，监管部门尚未公开专项新规，但公开信息不断指向一套正在…",
-      "url": "https://www.qbitai.com/2026/09/499280.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "AI 视频的下一战：谁能让世界保持运行 作者丨Reah 编辑丨李娜 岑峰 大语言模型已经用 Scaling 证明模型、数据和算力可以持续换来更强能力，必须一边生成、一边回应用户的实时世界模型，能不能也走上这样一条路？ 2026 年 1 月，爱诗科技提出“通用实时世界模型”这 一产品方向，并推出 R1。 目前，PixVerse R2 已全量上线 用户可以直接进…",
-      "url": "https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "具身智能不只在地上跑：给无人机装上机械臂，它们要去天上「拧螺栓」了 | IROS 2026",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "具身智能的研究边界，正从地面移动操作向空中协同作业延伸。 作者丨 张岂萍 编辑丨 幸丽娟 机械臂抓取、移动机器人导航和多机器人协作，是具身智能研究的常见切口，但大多仍延续“地面机器人”范式：身体默认是地面移动机器人，环境是结构化可通行空间与离散物体，任务是感知、移动、抓取、搬运等。 但如果机器人离开地面 、 进入空中 ，还能 完成同样的操作 吗 ？ 没有固定…",
-      "url": "https://www.leiphone.com/category/academic/XSVcStujND4eWLFZ.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "从三维视觉到世界模型：空间智能为何成为 AI 走向物理世界的共同主线？| ECCV 2026复盘",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "AI 正从看懂画面，走向理解空间、预测变化、执行动作。 作者丨 张岂萍 编辑丨 幸丽娟 AI 已经越来越会生成一个“看起来真实”的世界，却依然很难真正理解并行动于这个世界。 物体在哪里、彼此是什么空间关系，遮挡之后还剩下什么；一个动作发生后，世界会怎样变化。这些问题的解法，共同指向空间智能。 而近两年具身智能与世界模型的爆火，进一步推动空间智能成为 AI 走…",
-      "url": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "Iron Mountain 扩大 Dexory 仓储机器人部署，新增 18 米高 AMR (Iron Mountain expands Dexory warehouse robotics deployment with 18-meter AMRs)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Iron Mountain has expanded its use of Dexory’s warehouse robotics technology, becoming the first customer to deploy the company’s new generation of autonomous inventory-scanning ro…",
-      "url": "https://roboticsandautomationnews.com/2026/09/30/iron-mountain-expands-dexory-warehouse-robotics-deployment-with-18-meter-amrs/105320/"
-    },
-    {
-      "date": "09-30",
-      "company": "其他",
-      "title": "Innodata 开设动作捕捉实验室，助力人形机器人实现更类人的运动 (Innodata opens motion-capture lab to help humanoids move more like people)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Innodata uses Vicon cameras to measure movements with sub-millimeter accuracy and to collect real-world training data for robots. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/innodata-opens-motion-capture-lab-help-humanoids-move-more-like-people/"
     }
   ]
 }
