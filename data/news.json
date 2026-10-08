@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T12:54:38.274241+08:00",
+  "updated": "2026-10-08T20:59:50.009145+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 11,
+      "entries": 17,
+      "candidates": 10,
       "core": 5,
       "periphery": 0,
-      "new": 5
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 20,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -79,7 +79,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 17,
-      "core": 3,
+      "entries": 60,
+      "candidates": 22,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 10,
+      "core": 13,
       "periphery": 0,
-      "new": 4
+      "new": 10
     },
     {
       "name": "新战略移动机器人",
@@ -182,7 +182,7 @@
       "candidates": 6,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 7,
+      "candidates": 12,
+      "core": 8,
       "periphery": 1,
-      "new": 2
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -219,9 +219,9 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 22,
-      "periphery": 7,
-      "new": 3
+      "core": 23,
+      "periphery": 6,
+      "new": 4
     },
     {
       "name": "RoboHub",
@@ -240,17 +240,17 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-08T12:55:18.339575+08:00",
+    "generated_at": "2026-10-08T21:00:30.098860+08:00",
     "mode": "local",
-    "item_count": 30,
+    "item_count": 41,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用；本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用；潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.ithome.com/1/010/376.htm",
-          "https://www.ithome.com/1/010/015.htm",
-          "https://roboticsandautomationnews.com/2026/10/05/excelerate-technology-wins-esa-contract-for-robotic-security-system-at-uk-critical-infrastructure-site/105511/"
+          "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html",
+          "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html"
         ]
       },
       {
@@ -302,7 +302,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "10-08",
@@ -310,6 +310,27 @@
             "url": "https://www.infoq.cn/article/akexM07HzNrRJzmjYNml?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
+          },
+          {
+            "date": "10-08",
+            "title": "为什么决定机器人能不能量产的，不是大脑，而是\"电子架构\"？",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "告别“铝板+橡胶”：人形机器人量产的最后一块拼图，智履科技如何破局？",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8210-30705719.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "TrinaTracker推出机器人，实现光伏电站建设和维护自动化 (TrinaTracker launches robots to automate solar farm construction and maintenance)",
+            "url": "https://roboticsandautomationnews.com/2026/10/08/trinatracker-launches-robots-to-automate-solar-farm-construction-and-maintenance/105710/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-06",
@@ -421,6 +442,55 @@
             "source_name": "IT之家"
           },
           {
+            "date": "10-08",
+            "title": "北醒李远：给机器造眼睛，与「自讨苦吃」的十一年|物理 AI 50人",
+            "url": "https://www.leiphone.com/category/robot/xhfZWtXZLLsnbNKt.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "10-08",
+            "title": "从家电龙头到“人形机器人第一股”：质量，成为广东产业链的公共底座",
+            "url": "https://www.tmtpost.com/8161267.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "10-08",
+            "title": "水下机器人Top10 : 谁能最终配得上「水下宇树」",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "Optimus V4传闻搅动港股：机器人直驱与减速器的路线摊牌",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30705724.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "Optimus机器人每台4公斤磁材, 伯恩斯坦报告揭关键瓶颈",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30705721.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "前Optimus AI负责人创业：不做人形机器人，专攻工业机器人",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-08",
+            "title": "Lumos Robotics在深圳上演“全球首场”人形机器人剧场秀 (Lumos Robotics stages the ‘world’s first’ humanoid robot theater in Shenzhen)",
+            "url": "https://roboticsandautomationnews.com/2026/10/08/lumos-robotics-stages-the-worlds-first-humanoid-robot-theater-in-shenzhen/105694/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-07",
             "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
             "url": "https://www.ithome.com/1/010/168.htm",
@@ -486,6 +556,13 @@
             "date": "10-08",
             "title": "吴佳俊 IROS 2026 演讲：结构化表征不是答案， 是机器人学会推理的脚手架 | IROS 2026",
             "url": "https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "10-08",
+            "title": "至简动力冯宗宝：在间隙仅 0.5 毫米的真实场景下，实现机器人造机器人 | IROS 2026",
+            "url": "https://www.leiphone.com/category/private/xCu836z16KSzx2Co.html",
             "company": "其他",
             "source_name": "雷峰网"
           },
@@ -611,6 +688,105 @@
       "category": "资本动态",
       "summary": "今年以来，机器人企业上市进程持续提速、赛道热度高涨。 近日，市场消息显示，蓝海机器人、他山科技已先后完成股改，国内机器人IPO大军有望再添两大主力选手。 蓝海机器人：深耕移动机器人及自动化仓储系统的研",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30705620.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "北醒李远：给机器造眼睛，与「自讨苦吃」的十一年|物理 AI 50人",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "summary": "作为中国发光学奠基人徐叙瑢院士的学生，十一年里，李远一直在做一件事：给机器造一双“眼睛”。 这些“眼睛”上天、下水、上路，装进了无人机、列车、汽车和各类机器人。 今天，当所有人开始讨论物理 AI，他也在重新思考：这双眼睛除了帮助机器看见，还能不能帮助机器理解世界。 从本科一路读到博士后，李远本想成为一名学者。2015年，他选择回国创业，创办北醒（Benewa…",
+      "url": "https://www.leiphone.com/category/robot/xhfZWtXZLLsnbNKt.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "至简动力冯宗宝：在间隙仅 0.5 毫米的真实场景下，实现机器人造机器人 | IROS 2026",
+      "source_name": "雷峰网",
+      "category": "泛具身产业链",
+      "summary": "具身智能从实验室走向真实工厂、迈向精密制造。 作者丨 邓哲敏 编辑丨 齐铖湧 你有没有想过，机器人也可以走进车间，亲手造出组装一台机器人所需要的零件？ 这听起来像个玩笑，实际却是具身智能最硬核的落地命题。机器人的关节、卡盘、精密结构件，无一不是靠 CNC（计算机数控）车床、铣床一道道加工出来的。如果机器人能自主照看这些机床，完成工件的抓取、上料、插入、取出与…",
+      "url": "https://www.leiphone.com/category/private/xCu836z16KSzx2Co.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "从家电龙头到“人形机器人第一股”：质量，成为广东产业链的公共底座",
+      "source_name": "钛媒体",
+      "category": "行业动态",
+      "summary": "9月下旬，作者随市场监管总局组织的“高质量发展中国行·质量强县看担当”采风团走完广东线，三天时间穿行三座城：佛山顺德、深圳南山、广州黄埔。 在前一站浙江线的行程中（详情见： 从“世界小商品之都”到“数字经济第一区”，质量正在成为浙江的底色 ），质量更像一套嵌进市场毛细血管的制度；到了广东，主角换成了产业链。这里是中国制造业体量最大的省份，顺德有全球家电龙头和…",
+      "url": "https://www.tmtpost.com/8161267.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "为什么决定机器人能不能量产的，不是大脑，而是\"电子架构\"？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "> 这是思维AI社的第142篇原创 全文约1520字，阅读时长预计5分钟 你有没有发现，现在评价一台人形机器人，大家比的都是它会不会翻跟头、能不能拧瓶盖、端咖啡洒不洒。 可这些都是\"看得见\"的本事。真正决 人形机器人",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html"
+    },
+    {
+      "date": "10-08",
+      "company": "宇树科技",
+      "title": "水下机器人Top10 : 谁能最终配得上「水下宇树」",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。 作业级整机在海洋工程、水下巡检和应急救援场景中已达成批量交付，消费级产品开始进入课堂",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html"
+    },
+    {
+      "date": "10-08",
+      "company": "特斯拉",
+      "title": "Optimus V4传闻搅动港股：机器人直驱与减速器的路线摊牌",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "本末科技9月29日港交所挂牌，10月6日早盘冲高12%，上市六个交易日较发行价涨了三成多——本末科技这波走势，明面上是新股炒作叠加稀土合作利好，但我更想聊的是它背后那场没怎么被认真讨论过的战争：人形机",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30705724.html"
+    },
+    {
+      "date": "10-08",
+      "company": "特斯拉",
+      "title": "Optimus机器人每台4公斤磁材, 伯恩斯坦报告揭关键瓶颈",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "10月7日，港股本末科技盘中继续涨超7%。前一日早盘一度涨超12%。消息面上只有一件事：本末科技与中国稀土集团旗下中稀科创签署战略合作协议，联合开发钕铁硼、聚磁环等高性能磁性材料，打通从稀土新材料到机",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30705721.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "告别“铝板+橡胶”：人形机器人量产的最后一块拼图，智履科技如何破局？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "导语： 当人形机器人从实验室的平顺地板走向工业现场的泥泞、坡坎与沙地，它们的“大脑”日益聪明，“关节”愈发灵活，但往往被忽视的“脚底”，却成了制约整机寿命与任务完成率的隐秘短板。今天，我们将深度拆解深",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8210-30705719.html"
+    },
+    {
+      "date": "10-08",
+      "company": "特斯拉",
+      "title": "前Optimus AI负责人创业：不做人形机器人，专攻工业机器人",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "特斯拉Optimus前AI负责人Ashish Kumar，最近创办了一家叫Intelligent Machines的公司，落地旧金山。种子轮目标募资约1亿美元，已经招揽了好几位Optimus的核心老成",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "TrinaTracker推出机器人，实现光伏电站建设和维护自动化 (TrinaTracker launches robots to automate solar farm construction and maintenance)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "TrinaTracker, a global provider of smart tracking systems and a wholly owned subsidiary of Trinasolar, has launched two self-developed robotic products: Buildex PV Module Installat…",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/trinatracker-launches-robots-to-automate-solar-farm-construction-and-maintenance/105710/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "Lumos Robotics在深圳上演“全球首场”人形机器人剧场秀 (Lumos Robotics stages the ‘world’s first’ humanoid robot theater in Shenzhen)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Humanoid robot developer Lumos Robotics recently staged what it described as “the world’s first humanoid robot theater performance” in Shenzhen, putting its robots through a 45-min…",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/lumos-robotics-stages-the-worlds-first-humanoid-robot-theater-in-shenzhen/105694/"
     },
     {
       "date": "10-07",
@@ -872,87 +1048,6 @@
       "category": "行业动态",
       "summary": "Astribot, a Shenzhen, China-based physical AI company, showcased its T1 humanoid robot to North America for the first time at IROS 2026, which took place from September 27 to Octob…",
       "url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "自主仓储机器人制造商 Cyngn 获得 ISO 27001 认证 (Autonomous warehouse robot maker Cyngn achieves ISO 27001 Certification)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Autonomous warehouse robot maker Cyngn has achieved ISO/IEC 27001:2022 certification, an internationally recognized standard for information security management systems. ISO 27001…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/autonomous-warehouse-robot-maker-cyngn-achieves-iso-27001-certification/105445/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "波士顿动力为Atlas人形机器人推出全新四指机械手 (Boston Dynamics unveils new four-finger hand for Atlas humanoid robot)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Boston Dynamics has unveiled a new four-finger hand for its Atlas humanoid robot, designed to combine the dexterity needed for complex manipulation and tool use with the strength a…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/boston-dynamics-unveils-new-four-finger-hand-for-atlas-humanoid-robot/105440/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "Flexiv在IROS 2026展示力控自适应机器人 (Flexiv showcases force-controlled adaptive robots at IROS 2026)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Flexiv, a specialist developer of general-purpose robotics, has participated at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026), which finished…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/flexiv-features-the-future-of-force-control-at-iros-2026/105435/"
-    },
-    {
-      "date": "10-02",
-      "company": "智元机器人",
-      "title": "Agibot与Chimelong推出大型具身AI主题公园，配备超300台机器人 (Agibot and Chimelong launch large-scale embodied AI theme park with more than 300 robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Agibot and Chimelong Group have launched the first phase of a large-scale embodied AI deployment at Chimelong Spaceship Park, with more than 300 robots integrated into entertainmen…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/agibot-and-chimelong-launch-large-scale-embodied-ai-theme-park-with-more-than-300-robots/105428/"
-    },
-    {
-      "date": "10-02",
-      "company": "特斯拉",
-      "title": "特斯拉 2026 年第三季度交付超 48.6 万辆，同比下降 2%",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 2 日消息，特斯拉今日宣布，2026 年第三季度，特斯拉全球生产了超 46.4 万辆电动车， 交付了超 48.6 万辆 ；储能产品装机量达 13.7 吉瓦时。 官方公告显示，2026 年第三季度特斯拉 Model 3/Y 生成 457,387 辆，交付 478,237 辆；其他车型生产 7,004 辆，交付 8,295 辆。 IT之家查询…",
-      "url": "https://www.ithome.com/1/009/367.htm"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "FMC³ Robotics、Vector与PEM Motion拟成立具身AI合资企业 (FMC³ Robotics, Vector, and PEM Motion plan embodied AI joint venture)",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "summary": "At the recent Humanoid Robots Summit 2026 in Stuttgart, Vector Informatik, PEM Motion, and FMC³ Robotics signed a memorandum of understanding at Vector’s headquarters to jointly de…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/fmc%c2%b3-robotics-vector-and-pem-motion-plan-embodied-ai-joint-venture/105470/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "《Robot Talk》第164期——加速机器人学习：与Michelle Lu对谈 (Robot Talk Episode 164 – Accelerating robot learning, with Michelle Lu)",
-      "source_name": "RoboHub",
-      "category": "技术突破",
-      "summary": "Claire chatted to Michelle Lu from Vsim Technology about using simulation and artificial intelligence to teach robots new skills. Michelle Lu is co-founder and CEO of Vsim Technolo…",
-      "url": "https://robohub.org/robot-talk-episode-164-accelerating-robot-learning-with-michelle-lu/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "Runway推出用于机器人的Praxis-1世界动作模型 (Runway introduces Praxis-1 world action model for robotics)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "When Runway does release Praxis-1 publicly, it plans to ship it with open weights rather than as a closed model. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/runway-introduces-praxis-1-world-action-model-robotics/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "行业组织A3发布工业移动机器人安全标准的最终部分 (Industry body A3 releases final part of safety standard for industrial mobile robots)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "The Association for Advancing Automation (A3) has announced ANSI/A3 R15.08-3-2026, American National Standard for Industrial Mobile Robots, Safety Requirements, Part 3: Use of IMR…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/industry-body-a3-releases-final-part-of-safety-standard-for-industrial-mobile-robots/105474/"
     }
   ]
 }
