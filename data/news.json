@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T20:59:50.009145+08:00",
+  "updated": "2026-10-09T07:02:47.382239+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 17,
       "candidates": 10,
-      "core": 5,
+      "core": 4,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -53,7 +53,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 22,
-      "core": 1,
+      "candidates": 11,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -130,7 +130,7 @@
       "candidates": 22,
       "core": 13,
       "periphery": 0,
-      "new": 10
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -167,9 +167,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 3,
-      "periphery": 0,
-      "new": 1
+      "core": 4,
+      "periphery": 1,
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 8,
-      "periphery": 1,
-      "new": 5
+      "candidates": 11,
+      "core": 6,
+      "periphery": 2,
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 23,
       "periphery": 6,
-      "new": 4
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -234,48 +234,36 @@
       "candidates": 69,
       "core": 19,
       "periphery": 7,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-08T21:00:30.098860+08:00",
-    "mode": "local",
-    "item_count": 41,
+    "generated_at": "2026-10-09T07:03:06.704131+08:00",
+    "mode": "aicodewith",
+    "item_count": 47,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用；潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.ithome.com/1/010/376.htm",
-          "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html",
-          "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html"
-        ]
+        "label": "落地验证集中在可量化任务",
+        "text": "优必选与一汽-大众推进人形机器人物流场景开发、测试和示范，Exotec在仓库部署后将拣选速度提升十倍，欧空局也支持机器人安保系统落地关键基础设施，当前商业化更集中于物流、巡检和安保等任务边界清晰、效果可验证的场景。",
+        "evidence_urls": []
       },
       {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，9月28日，芯片巨头AMD宣布以82亿美元全股票交易收购World Labs，该公司成立仅两年多，员工约70人，首款商业产品Marble上线不到一年，新一代模型Atlas在这宗交易宣布前发布不到一个月；世界模型、具身大模型、机器人数据众多公司从不同切入口布局物理AI，试图成为新风口之下的主角，相比之下，如祺出行选择了一条不那么显眼的路径，不自己训练大模型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8159876.html",
-          "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html",
-          "https://www.leiphone.com/category/private/VYRZFCnadDOcPDeX.html"
-        ]
+        "label": "模型竞争转向真实数据与工程闭环",
+        "text": "如祺出行强调真实数据是世界模型壁垒，IROS 2026将长期记忆评为最佳论文，AWS推出覆盖合成数据、训练、仿真和验证的具身工具链，模型能力的竞争正更多落到数据获取、记忆能力和任务验证流程。",
+        "evidence_urls": []
       },
       {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，当整个行业都在比拼人形机器人的躯体性能，比拼关节力矩、奔跑速度、灵巧手的灵活度，一家美国初创公司跳出了硬件竞赛的漩涡；近日，市场消息显示，蓝海机器人、他山科技已先后完成股改，国内机器人IPO大军有望再添两大主力选手。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-10/ART-8321205-8420-30705646.html",
-          "https://robot.ofweek.com/2026-10/ART-898890-8120-30705620.html",
-          "https://www.ithome.com/1/009/746.htm"
-        ]
+        "label": "资本关注能力补齐与垂直应用",
+        "text": "FieldAI据报道拟以7亿美元融资并达到100亿美元估值，Minerva Humanoids获约1000万美元开发危险工业机器人，Charm Care与Donut Robotics建立投资和业务联盟，资金关注点同时覆盖通用能力平台与明确行业任务，但规模化商业成效仍需后续订单验证。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "本周技术进展围绕长期记忆、真实数据和世界模型展开，论文成果与企业工具链同时推进，研究重点正从单项能力展示转向持续学习和任务闭环。",
         "items": [
           {
             "date": "10-08",
@@ -292,6 +280,13 @@
             "source_name": "雷峰网"
           },
           {
+            "date": "10-08",
+            "title": "Robbyant与AFDE合作，推动具身AI和机器人技术拓展至中东地区 (Robbyant and AFDE partner to expand embodied AI and robotics across Middle East)",
+            "url": "https://roboticsandautomationnews.com/2026/10/08/robbyant-and-afde-partner-to-expand-embodied-ai-and-robotics-across-middle-east/105750/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-06",
             "title": "世界模型赛道：谁在收编，谁在突围？",
             "url": "https://www.tmtpost.com/8159876.html",
@@ -302,7 +297,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
+        "summary": "量产讨论从模型性能延伸至电子架构、足部耐久、功率器件和仿真验证，AWS、Jabil等案例显示整机生产仍依赖软硬件协同与工程化体系。",
         "items": [
           {
             "date": "10-08",
@@ -333,6 +328,27 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "10-08",
+            "title": "捷普讨论人形机器人开发与生产的进展速度 (Jabil discusses the pace of humanoid robot development and production)",
+            "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "10-08",
+            "title": "AWS 推出开源机器人具身智能工具链 (AWS launches open-source Physical AI Toolchain for robotics)",
+            "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "10-08",
+            "title": "Odyssey推出可控制机器人、人形机器人、车辆和无人机的世界模型 (Odyssey launches world model to control robots, humanoids, vehicles and drones)",
+            "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-06",
             "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
             "url": "https://www.ithome.com/1/010/015.htm",
@@ -350,7 +366,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "summary": "商业落地主要分布在汽车物流、仓储拣选、关键设施安保和光伏维护，部分项目仍处于开发测试或扩大部署阶段，场景化验证特征较为明显。",
         "items": [
           {
             "date": "10-08",
@@ -358,6 +374,13 @@
             "url": "https://www.ithome.com/1/010/376.htm",
             "company": "优必选",
             "source_name": "IT之家"
+          },
+          {
+            "date": "10-08",
+            "title": "First Supply 部署 Exotec 机器人，将仓库拣选速度提升十倍 (First Supply deploys Exotec robots to increase warehouse picking speeds tenfold)",
+            "url": "https://roboticsandautomationnews.com/2026/10/08/first-supply-deploys-exotec-robots-to-increase-warehouse-picking-speeds-tenfold/105737/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-07",
@@ -384,7 +407,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "summary": "FieldAI的大额融资传闻、工业危险作业机器人融资及国内企业股改并行，资金既追逐物理AI平台，也关注垂直任务和潜在上市通道。",
         "items": [
           {
             "date": "10-08",
@@ -425,7 +448,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "summary": "行业关注点从人形机器人本体扩展至水下机器人、视觉传感、磁材、减速器和产业质量体系，路线选择与关键零部件供给成为讨论重点。",
         "items": [
           {
             "date": "10-08",
@@ -543,7 +566,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "summary": "数据采集、安全仿真、配送运营和精密制造等环节持续获得关注，产业链正围绕训练数据、部署安全和真实环境适配补齐基础能力。",
         "items": [
           {
             "date": "10-08",
@@ -565,6 +588,13 @@
             "url": "https://www.leiphone.com/category/private/xCu836z16KSzx2Co.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "10-08",
+            "title": "SafeWorld 走出隐身模式，开发并部署机器人安全仿真技术 (SafeWorld emerges from stealth to build, deploy robot safety simulation technologies)",
+            "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "10-07",
@@ -789,6 +819,60 @@
       "url": "https://roboticsandautomationnews.com/2026/10/08/lumos-robotics-stages-the-worlds-first-humanoid-robot-theater-in-shenzhen/105694/"
     },
     {
+      "date": "10-08",
+      "company": "其他",
+      "title": "SafeWorld 走出隐身模式，开发并部署机器人安全仿真技术 (SafeWorld emerges from stealth to build, deploy robot safety simulation technologies)",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "SafeWorld’s platform provides testing and simulation software to help enterprises evaluate and deploy robots safely and responsibly. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "捷普讨论人形机器人开发与生产的进展速度 (Jabil discusses the pace of humanoid robot development and production)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "Jabil, which is working with robot developers such as Apptronik, provides a design perspective on humanoid progress. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "AWS 推出开源机器人具身智能工具链 (AWS launches open-source Physical AI Toolchain for robotics)",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "The toolchain combines AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement. The post appeared…",
+      "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "Odyssey推出可控制机器人、人形机器人、车辆和无人机的世界模型 (Odyssey launches world model to control robots, humanoids, vehicles and drones)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Odyssey, an AI research company pioneering foundation world models, has announced Odyssey-3, its most powerful world model to date. The new model represents a significant advance t…",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "Robbyant与AFDE合作，推动具身AI和机器人技术拓展至中东地区 (Robbyant and AFDE partner to expand embodied AI and robotics across Middle East)",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Robbyant, an embodied AI company within Ant Group, and the Arab Federation for Digital Economy (AFDE) have signed a Memorandum of Understanding (MoU) to advance the deployment, loc…",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/robbyant-and-afde-partner-to-expand-embodied-ai-and-robotics-across-middle-east/105750/"
+    },
+    {
+      "date": "10-08",
+      "company": "其他",
+      "title": "First Supply 部署 Exotec 机器人，将仓库拣选速度提升十倍 (First Supply deploys Exotec robots to increase warehouse picking speeds tenfold)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "Warehouse robotics provider Exotec has deployed its Skypod solution in First Supply’s warehouse in West Salem, Wisconsin. Following the deployment, First Supply can now offer next-…",
+      "url": "https://roboticsandautomationnews.com/2026/10/08/first-supply-deploys-exotec-robots-to-increase-warehouse-picking-speeds-tenfold/105737/"
+    },
+    {
       "date": "10-07",
       "company": "特斯拉",
       "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
@@ -994,60 +1078,6 @@
       "category": "行业动态",
       "summary": "Agility Robotics, a humanoid robotics company, and FORT Robotics, a safety platform for machinery, have formed a a partnership to further advance the safety infrastructure of Digit…",
       "url": "https://roboticsandautomationnews.com/2026/10/04/agility-robotics-partners-with-fort-to-strengthen-safety-systems-for-digit-5/105492/"
-    },
-    {
-      "date": "10-04",
-      "company": "其他",
-      "title": "机器人技术和物理AI如何负责任地应对关键的实体安全挑战 (How robotics and physical AI can responsibly tackle key physical security challenges)",
-      "source_name": "The Robot Report",
-      "category": "技术突破",
-      "summary": "Cyber and physical security threats are rapidly evolving, but robotics and AI can evolve to meet them, writes a columnist. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/how-robotics-physical-ai-can-responsibly-tackle-key-physical-security-challenges/"
-    },
-    {
-      "date": "10-03",
-      "company": "特斯拉",
-      "title": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 4 日消息，特斯拉首席执行官埃隆 · 马斯克（Elon Musk）做出说明，该公司的 AI5 芯片不会采用 72GB 的 DDR5 内存，而是改用 96GB 内存。这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。 马斯克此前曾表示，特斯拉已经把 AI5 与 AI6 芯片的内存…",
-      "url": "https://www.ithome.com/1/009/584.htm"
-    },
-    {
-      "date": "10-02",
-      "company": "特斯拉",
-      "title": "特斯拉推出 Dog Mode Chew Toy 车载周边：适用宠物场景，20 美元",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 2 日消息，特斯拉美国现已在其官方商城上架了一款 Dog Mode Chew Toy（狗狗模式咬咬玩具），售价 20 美元 （IT之家注：现汇率约合 134.3 元人民币） ，中国市场尚未上架。 据特斯拉介绍，这款玩具尺寸约为 8.6×7.4×13.4 厘米，采用无毒橡胶材质打造，主打耐咬且易于清洗，其中空设计可以填入花生酱或零食，底部还…",
-      "url": "https://www.ithome.com/1/009/340.htm"
-    },
-    {
-      "date": "10-02",
-      "company": "智元机器人",
-      "title": "IDC数据显示，Agibot位居2026年上半年全球人形机器人出货量首位 (IDC data shows Agibot led global humanoid robot shipments in H1 2026)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Global humanoid robot shipments approached 25,000 units in the first half of 2026, up 432.1 percent year on year, according to the latest market data from International Data Corpor…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/idc-data-shows-agibot-led-global-humanoid-robot-shipments-in-h1-2026/105463/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "Neura Robotics 将实体 AI 带入医疗领域 (Neura Robotics brings physical AI to healthcare)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Neura Robotics is entering healthcare. The company is bringing physical AI, and the cognitive robots built on it, to one of the most structurally strained sectors in modern economi…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/neura-robotics-brings-physical-ai-to-healthcare/105460/"
-    },
-    {
-      "date": "10-02",
-      "company": "其他",
-      "title": "Astribot将其T1人形机器人带到北美 (Astribot brings its T1 humanoid robot to North America)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Astribot, a Shenzhen, China-based physical AI company, showcased its T1 humanoid robot to North America for the first time at IROS 2026, which took place from September 27 to Octob…",
-      "url": "https://roboticsandautomationnews.com/2026/10/02/astribot-brings-its-t1-humanoid-robot-to-north-america/105448/"
     }
   ]
 }
