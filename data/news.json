@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T20:44:11.970672+08:00",
+  "updated": "2026-10-10T06:23:41.986587+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 9,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 19,
-      "core": 1,
+      "candidates": 18,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -156,7 +156,7 @@
       "candidates": 19,
       "core": 14,
       "periphery": 2,
-      "new": 2
+      "new": 1
     },
     {
       "name": "The Robot Report",
@@ -179,7 +179,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 6,
+      "candidates": 7,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
+      "candidates": 13,
       "core": 5,
-      "periphery": 3,
-      "new": 5
+      "periphery": 4,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,30 +240,30 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-09T20:44:21.189730+08:00",
+    "generated_at": "2026-10-10T06:24:06.007751+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收任务",
-        "text": "本周具身智能的商业推进集中在物流、仓储、工厂和巡检维修等边界清晰的任务上，优必选与一汽-大众将共同开发并测试物流场景，CeMAT ASIA 2026也强调AI进入仓库、机器人加快上岗；企业更倾向用可部署、可测试、可示范的场景验证能力，而不是只展示通用人形能力。",
+        "label": "验收型任务先行",
+        "text": "本周优必选与一汽-大众围绕物流场景开展应用开发、测试和示范建设，Exotec在仓库部署机器人并称拣选速度提升十倍，商业化验证仍集中于物流、仓储和制造等流程清晰、结果可量化的任务。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定真实数据闭环",
-        "text": "世界模型仍是技术和资本关注焦点，AMD以82亿美元全股票交易收购World Labs，清华相关具身模型采用视频预测与动作学习分阶段训练，如祺出行则选择不自训大模型、强调真实数据壁垒；模型叙事正在从参数和架构扩展到数据来源、训练顺序和任务闭环。",
+        "label": "真实数据成为模型闭环变量",
+        "text": "星动纪元将视频预测与动作学习分阶段训练，如祺出行强调真实数据壁垒，IROS 2026最佳论文聚焦长期记忆，银河通用与清华团队则用不完美人类数据训练网球对打，模型竞争正从单项指标延伸到数据、记忆与动作协同。",
         "evidence_urls": []
       },
       {
-        "label": "量产能力被拆解到工程瓶颈",
-        "text": "本周量产讨论不只围绕机器人“大脑”，低压GaN功率器件、电子架构、足底部件、机器人复合材料铺层和光伏建设维护机器人等进入视野，至简动力还提出在0.5毫米间隙真实场景下实现机器人造机器人；供应链机会更依赖能否解决寿命、精度、功率和维护等具体瓶颈。",
+        "label": "工程化成本进入能力验证",
+        "text": "瑞萨推出面向人形机器人等场景的100V氮化镓器件，相关讨论把电子架构和足部设计列为量产瓶颈，市场还出现人形机器人日租金跌破千元的消息，续航、可靠性、维护和价格开始与动作能力共同接受验证。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧围绕世界模型、长期记忆和具身模型训练展开，清华相关模型强调视频预测与动作学习解耦，AMD收购World Labs抬高世界模型赛道关注度。",
+        "summary": "本周技术进展从世界模型并购与具身模型训练，延伸到长期记忆、结构化表征和真实数据采集，焦点由单一模型能力转向感知、记忆、推理与动作的任务闭环。",
         "items": [
           {
             "date": "10-09",
@@ -304,7 +304,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产议题从整机表演转向工程系统，电子架构、足底、低压GaN、复合材料铺层、光伏建设维护机器人和开源工具链共同指向可制造与可维护能力。",
+        "summary": "量产议题集中在电子架构、足部材料、功率器件和开发工具链，AWS、Jabil及多家零部件企业的动作显示，机器人规模化需要同时解决性能、可靠性和制造协同。",
         "items": [
           {
             "date": "10-09",
@@ -380,7 +380,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地集中在仓储物流和制造场景，优必选与一汽-大众推进物流应用测试，Exotec仓库方案提升拣选速度，行业展会也强调从概念走向真实场景。",
+        "summary": "商业落地继续围绕物流仓储和制造现场展开，优必选与一汽-大众启动物流场景开发测试，Exotec仓库部署披露效率提升，订单形态仍以试点、示范和局部流程导入为主。",
         "items": [
           {
             "date": "10-09",
@@ -421,7 +421,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "资本继续押注物理AI、世界模型和工业机器人，FieldAI完成7亿美元融资，世界模型创业项目获高估值关注，国内蓝海机器人、他山科技完成股改。",
+        "summary": "融资与上市准备覆盖物理AI、危险工业机器人、世界模型和机器人研发企业，FieldAI完成7亿美元融资并获较高估值，资本关注点同时落在场景定位、技术能力和后续扩张空间。",
         "items": [
           {
             "date": "10-09",
@@ -455,7 +455,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业关注从热度扩散到价格、估值和国际比较，优必选合作公告后股价下跌，机器人租赁价格回落，水下机器人和韩国市场比较显示赛道分化加剧。",
+        "summary": "行业关注从人形机器人展示扩展到租赁价格、手部设计、数据泛化和海外竞争，韩国国会展示引发对中韩差距的讨论，市场对战略合作和演示效果也开始进行更细的商业化评估。",
         "items": [
           {
             "date": "10-09",
@@ -477,6 +477,20 @@
             "url": "https://www.ithome.com/1/011/054.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "10-09",
+            "title": "为什么人形机器人演示仍未通过泛化能力测试 (Why humanoid robot demos still fail the generalization test)",
+            "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "10-09",
+            "title": "Boston Dynamics 透露其重新设计的人形机器人手部更多细节 (Boston Dynamics gives more insight into its redesigned humanoid hand)",
+            "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "10-08",
@@ -582,19 +596,12 @@
             "url": "https://www.tmtpost.com/8159783.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "10-06",
-            "title": "Agile Robots首席执行官：‘物理AI的规模将是汽车行业的10倍’ (Agile Robots CEO: ‘Physical AI is going to be 10x bigger than automotive’)",
-            "url": "https://roboticsandautomationnews.com/2026/10/06/agile-robots-ceo-physical-ai-is-going-to-be-10x-bigger-than-automotive/105561/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链新闻覆盖学术趋势、精密制造、安全仿真、配送机器人和机器人数据，IROS相关讨论强化推理、结构化表征和真实工厂制造能力的连接。",
+        "summary": "产业链议题覆盖机器人安全仿真、运动数据、精密制造、配送机器人和学术研究，0.5毫米间隙制造案例与安全测试平台表明，具身系统正向生产环境的精度、验证和运营环节延伸。",
         "items": [
           {
             "date": "10-08",
@@ -637,13 +644,6 @@
             "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
             "company": "行业",
             "source_name": "TechCrunch Robotics"
-          },
-          {
-            "date": "10-06",
-            "title": "Deliveroo与Coco Robotics将在英国推出机器人配送服务 (Deliveroo and Coco Robotics to roll out robot deliveries across the UK)",
-            "url": "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -721,6 +721,24 @@
       "category": "产品量产",
       "summary": "Monolithos has launched a public alpha of Robot Brain, a long-term memory and experience system designed to enable robots and embodied AI systems to retain information from previou…",
       "url": "https://roboticsandautomationnews.com/2026/10/09/monolithos-launches-long-term-memory-system-for-robots-and-embodied-ai/105780/"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "为什么人形机器人演示仍未通过泛化能力测试 (Why humanoid robot demos still fail the generalization test)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "How better data and human judgment can help robots move beyond demos toward reliable real-world performance. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/why-humanoid-robot-demos-still-fail-the-generalization-test/"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "Boston Dynamics 透露其重新设计的人形机器人手部更多细节 (Boston Dynamics gives more insight into its redesigned humanoid hand)",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "The Robot Report spoke with Alberto Rodriguez, the director of robot behavior for Atlas at Boston Dynamics, about the humanoid's new hand. The post appeared first on The Robot Repo…",
+      "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/"
     },
     {
       "date": "10-08",
@@ -1081,24 +1099,6 @@
       "category": "产品量产",
       "summary": "IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G…",
       "url": "https://www.ithome.com/1/010/015.htm"
-    },
-    {
-      "date": "10-06",
-      "company": "其他",
-      "title": "Deliveroo与Coco Robotics将在英国推出机器人配送服务 (Deliveroo and Coco Robotics to roll out robot deliveries across the UK)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Deliveroo and Coco Robotics, one of the largest pavement delivery fleets across the US and Europe, are set to bring robot deliveries to towns and cities across the UK through a new…",
-      "url": "https://roboticsandautomationnews.com/2026/10/06/deliveroo-and-coco-robotics-to-roll-out-robot-deliveries-across-the-uk/105572/"
-    },
-    {
-      "date": "10-06",
-      "company": "其他",
-      "title": "Agile Robots首席执行官：‘物理AI的规模将是汽车行业的10倍’ (Agile Robots CEO: ‘Physical AI is going to be 10x bigger than automotive’)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Agile Robots CEO Zhaopeng Chen says “physical AI is going to be 10x bigger than automotive” as the Munich-based robotics company expands its manufacturing, AI development and human…",
-      "url": "https://roboticsandautomationnews.com/2026/10/06/agile-robots-ceo-physical-ai-is-going-to-be-10x-bigger-than-automotive/105561/"
     }
   ]
 }
