@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T07:02:47.382239+08:00",
+  "updated": "2026-10-09T12:57:38.641111+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 0,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
+      "entries": 18,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 2,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 11,
+      "entries": 58,
+      "candidates": 16,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -128,9 +128,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 13,
+      "core": 12,
       "periphery": 0,
-      "new": 4
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +169,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 4
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -195,7 +195,7 @@
       "candidates": 11,
       "core": 6,
       "periphery": 2,
-      "new": 7
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,31 +240,50 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-09T07:03:06.704131+08:00",
-    "mode": "aicodewith",
-    "item_count": 47,
+    "generated_at": "2026-10-09T12:58:18.874760+08:00",
+    "mode": "local",
+    "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在可量化任务",
-        "text": "优必选与一汽-大众推进人形机器人物流场景开发、测试和示范，Exotec在仓库部署后将拣选速度提升十倍，欧空局也支持机器人安保系统落地关键基础设施，当前商业化更集中于物流、巡检和安保等任务边界清晰、效果可验证的场景。",
-        "evidence_urls": []
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用；潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/010/376.htm",
+          "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html",
+          "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html"
+        ]
       },
       {
-        "label": "模型竞争转向真实数据与工程闭环",
-        "text": "如祺出行强调真实数据是世界模型壁垒，IROS 2026将长期记忆评为最佳论文，AWS推出覆盖合成数据、训练、仿真和验证的具身工具链，模型能力的竞争正更多落到数据获取、记忆能力和任务验证流程。",
-        "evidence_urls": []
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，9月28日，芯片巨头AMD宣布以82亿美元全股票交易收购World Labs，该公司成立仅两年多，员工约70人，首款商业产品Marble上线不到一年，新一代模型Atlas在这宗交易宣布前发布不到一个月；星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.tmtpost.com/8159876.html",
+          "https://www.qbitai.com/2026/10/502125.html",
+          "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html"
+        ]
       },
       {
-        "label": "资本关注能力补齐与垂直应用",
-        "text": "FieldAI据报道拟以7亿美元融资并达到100亿美元估值，Minerva Humanoids获约1000万美元开发危险工业机器人，Charm Care与Donut Robotics建立投资和业务联盟，资金关注点同时覆盖通用能力平台与明确行业任务，但规模化商业成效仍需后续订单验证。",
-        "evidence_urls": []
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，当整个行业都在比拼人形机器人的躯体性能，比拼关节力矩、奔跑速度、灵巧手的灵活度，一家美国初创公司跳出了硬件竞赛的漩涡；近日，市场消息显示，蓝海机器人、他山科技已先后完成股改，国内机器人IPO大军有望再添两大主力选手。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-10/ART-8321205-8420-30705646.html",
+          "https://robot.ofweek.com/2026-10/ART-898890-8120-30705620.html",
+          "https://www.ithome.com/1/009/746.htm"
+        ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术进展围绕长期记忆、真实数据和世界模型展开，论文成果与企业工具链同时推进，研究重点正从单项能力展示转向持续学习和任务闭环。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "10-09",
+            "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+            "url": "https://www.qbitai.com/2026/10/502125.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "10-08",
             "title": "IROS 2026大奖揭晓：长期记忆拿下最佳论文，人形机器人打网球、端托盘双双获奖",
@@ -297,7 +316,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论从模型性能延伸至电子架构、足部耐久、功率器件和仿真验证，AWS、Jabil等案例显示整机生产仍依赖软硬件协同与工程化体系。",
+        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
             "date": "10-08",
@@ -366,7 +385,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地主要分布在汽车物流、仓储拣选、关键设施安保和光伏维护，部分项目仍处于开发测试或扩大部署阶段，场景化验证特征较为明显。",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
             "date": "10-08",
@@ -407,7 +426,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "FieldAI的大额融资传闻、工业危险作业机器人融资及国内企业股改并行，资金既追逐物理AI平台，也关注垂直任务和潜在上市通道。",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
             "date": "10-08",
@@ -448,8 +467,22 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业关注点从人形机器人本体扩展至水下机器人、视觉传感、磁材、减速器和产业质量体系，路线选择与关键零部件供给成为讨论重点。",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-09",
+            "title": "中国宇树智元机器人“踢馆”韩国国会：760家 vs 53家",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30706002.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-09",
+            "title": "优必选官宣合作当天跌6.9%：资本市场在重新定价“战略合作”",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30706000.html",
+            "company": "优必选",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-08",
             "title": "银河通用&清华 LATENT：用「不完美人类数据」让机器人学会网球对打 | IROS 2026",
@@ -566,7 +599,7 @@
       },
       {
         "category": "泛具身产业链",
-        "summary": "数据采集、安全仿真、配送运营和精密制造等环节持续获得关注，产业链正围绕训练数据、部署安全和真实环境适配补齐基础能力。",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
           {
             "date": "10-08",
@@ -629,6 +662,33 @@
     ]
   },
   "items": [
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」",
+      "url": "https://www.qbitai.com/2026/10/502125.html"
+    },
+    {
+      "date": "10-09",
+      "company": "智元机器人",
+      "title": "中国宇树智元机器人“踢馆”韩国国会：760家 vs 53家",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "中国机器人进了韩国国会，韩国议员当场承认：我们落后了，10月6日，韩国国会科学技术信息广播通信委员会国政监查现场，发生了罕见的一幕。 共同民主党议员李廷宪在质询科学技术信息通信部长官裴庆勋时，直接让两",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30706002.html"
+    },
+    {
+      "date": "10-09",
+      "company": "优必选",
+      "title": "优必选官宣合作当天跌6.9%：资本市场在重新定价“战略合作”",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "10月8日，优必选与一汽-大众达成战略合作的消息出现在各大财经媒体的推送里。双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，构建示范应用场景，加速人形机器人在智能制造领域的部署与应用。 同",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30706000.html"
+    },
     {
       "date": "10-08",
       "company": "其他",
@@ -1051,33 +1111,6 @@
       "category": "商业订单",
       "summary": "Excelerate Technology has been awarded a co-funded contract by the European Space Agency Business Applications and Space Solutions (ESA BASS) program to build and demonstrate an in…",
       "url": "https://roboticsandautomationnews.com/2026/10/05/excelerate-technology-wins-esa-contract-for-robotic-security-system-at-uk-critical-infrastructure-site/105511/"
-    },
-    {
-      "date": "10-04",
-      "company": "其他",
-      "title": "现代汽车计划部署 2.5 万台波士顿动力 Atlas 机器人，并建设年产能 3 万台的美国工厂",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 10 月 4 日消息，波士顿动力上周宣布，已在现代汽车集团位于美国佐治亚州萨凡纳附近的 Metaplant America 园区内启用机器人 Metaplant 应用中心（RMAC），作为人形机器人 Atlas 的测试与训练中心，用于将 Atlas 直接整合进现代汽车集团的汽车制造业务。 波士顿动力官方宣布，Atlas 机器人目前已在 RMAC 开…",
-      "url": "https://www.ithome.com/1/009/616.htm"
-    },
-    {
-      "date": "10-04",
-      "company": "OpenAI",
-      "title": "【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "（9月28日-10月3日）美国拟限制中国光模块进入国家安全系统；Manus将重新开拓中国市场；谷歌发布Gemini 4模型；Anthropic据悉计划在感恩节假期前进行大规模IPO； 博通筹集600亿美元，用于为Anthropic供应芯片……",
-      "url": "https://www.tmtpost.com/8158700.html"
-    },
-    {
-      "date": "10-04",
-      "company": "Agility Robotics",
-      "title": "Agility Robotics与FORT合作强化Digit 5安全系统 (Agility Robotics partners with FORT to strengthen safety systems for Digit 5)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Agility Robotics, a humanoid robotics company, and FORT Robotics, a safety platform for machinery, have formed a a partnership to further advance the safety infrastructure of Digit…",
-      "url": "https://roboticsandautomationnews.com/2026/10/04/agility-robotics-partners-with-fort-to-strengthen-safety-systems-for-digit-5/105492/"
     }
   ]
 }
