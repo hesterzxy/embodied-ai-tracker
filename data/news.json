@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T06:23:41.986587+08:00",
+  "updated": "2026-10-10T12:43:42.140368+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -38,7 +38,7 @@
       "error": "",
       "entries": 19,
       "candidates": 9,
-      "core": 2,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 18,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -97,14 +97,15 @@
     {
       "name": "中国机器人网",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 80,
+      "candidates": 80,
+      "core": 53,
+      "periphery": 3,
+      "new": 21
     },
     {
       "name": "甲子光年",
@@ -128,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 6,
       "periphery": 0,
-      "new": 4
+      "new": 6
     },
     {
       "name": "新战略移动机器人",
@@ -169,7 +170,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 2
+      "new": 0
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,30 +241,30 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-10T06:24:06.007751+08:00",
+    "generated_at": "2026-10-10T12:43:50.615875+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "验收型任务先行",
-        "text": "本周优必选与一汽-大众围绕物流场景开展应用开发、测试和示范建设，Exotec在仓库部署机器人并称拣选速度提升十倍，商业化验证仍集中于物流、仓储和制造等流程清晰、结果可量化的任务。",
+        "label": "落地验证转向可验收场景",
+        "text": "优必选与一汽-大众推进物流场景开发测试，CeMAT ASIA 2026信息显示AI与机器人加快进入仓库，Exotec在First Supply仓库部署后将拣选速度提升十倍，本周商业化线索更多集中在物流、仓储、制造等能用效率和流程结果验收的任务，泛化叙事正在让位于场景闭环。",
         "evidence_urls": []
       },
       {
-        "label": "真实数据成为模型闭环变量",
-        "text": "星动纪元将视频预测与动作学习分阶段训练，如祺出行强调真实数据壁垒，IROS 2026最佳论文聚焦长期记忆，银河通用与清华团队则用不完美人类数据训练网球对打，模型竞争正从单项指标延伸到数据、记忆与动作协同。",
+        "label": "模型竞争开始绑定真实数据",
+        "text": "星动纪元采用视频预测与动作学习分阶段训练，如祺出行选择不自训大模型而强调真实数据壁垒，IROS 2026奖项覆盖长期记忆、人形机器人打网球和端托盘，模型进展不再只看参数或榜单，真实任务数据、记忆能力和动作执行闭环成为更可比较的能力来源。",
         "evidence_urls": []
       },
       {
-        "label": "工程化成本进入能力验证",
-        "text": "瑞萨推出面向人形机器人等场景的100V氮化镓器件，相关讨论把电子架构和足部设计列为量产瓶颈，市场还出现人形机器人日租金跌破千元的消息，续航、可靠性、维护和价格开始与动作能力共同接受验证。",
+        "label": "供应链融资聚焦瓶颈部件",
+        "text": "酷灵机器人数千万元天使轮资金投向关节模组与关节热管理系统，灵感机器人融资背后是厚度5mm视触觉传感器和每平方厘米10万点以上力场追踪分辨率，特斯拉披露机器人手部三维柔性触觉传感器专利，资本与技术关注点正落到触觉、关节、热管理等限制量产可靠性的具体环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术进展从世界模型并购与具身模型训练，延伸到长期记忆、结构化表征和真实数据采集，焦点由单一模型能力转向感知、记忆、推理与动作的任务闭环。",
+        "summary": "本周技术线索集中在世界模型、长期记忆与任务执行方法。清华相关具身模型采用视频预测和动作学习解耦训练，IROS奖项覆盖长期记忆、网球和端托盘任务，真实数据与任务闭环权重上升。",
         "items": [
           {
             "date": "10-09",
@@ -271,6 +272,13 @@
             "url": "https://www.qbitai.com/2026/10/502125.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "10-09",
+            "title": "八大头部企业领衔 近百家具身智能企业集结 | 高交会亚洲机器人产业链展蓄势待发",
+            "url": "https://www.robot-china.com/news/202610/09/96918.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-08",
@@ -292,19 +300,12 @@
             "url": "https://roboticsandautomationnews.com/2026/10/08/robbyant-and-afde-partner-to-expand-embodied-ai-and-robotics-across-middle-east/105750/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-06",
-            "title": "世界模型赛道：谁在收编，谁在突围？",
-            "url": "https://www.tmtpost.com/8159876.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产议题集中在电子架构、足部材料、功率器件和开发工具链，AWS、Jabil及多家零部件企业的动作显示，机器人规模化需要同时解决性能、可靠性和制造协同。",
+        "summary": "量产讨论从整机演示延伸到工程架构和关键部件。特斯拉披露手部三维柔性触觉传感器专利，并有中国量产审厂信息；电子架构、脚底寿命、光伏运维机器人等议题指向可靠生产和现场维护。",
         "items": [
           {
             "date": "10-09",
@@ -319,6 +320,13 @@
             "url": "https://roboticsandautomationnews.com/2026/10/09/monolithos-launches-long-term-memory-system-for-robots-and-embodied-ai/105780/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-09",
+            "title": "特斯拉机器人触觉传感器新专利曝光，此前在中国启动量产审厂",
+            "url": "https://www.robot-china.com/news/202610/09/96925.html",
+            "company": "特斯拉",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-08",
@@ -368,19 +376,12 @@
             "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-06",
-            "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
-            "url": "https://www.ithome.com/1/010/015.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地继续围绕物流仓储和制造现场展开，优必选与一汽-大众启动物流场景开发测试，Exotec仓库部署披露效率提升，订单形态仍以试点、示范和局部流程导入为主。",
+        "summary": "商业落地主要围绕仓储、物流和线下销售展开。优必选与一汽-大众合作开发物流应用，CeMAT ASIA强调AI进入仓库，Exotec仓库方案提升拣选速度，启元机器人在上海开设线下门店。",
         "items": [
           {
             "date": "10-09",
@@ -388,6 +389,13 @@
             "url": "https://www.gongkong.com/news/202610/453719.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
+          },
+          {
+            "date": "10-09",
+            "title": "启元机器人全球首店落地上海，Q1、T1 进入线下销售",
+            "url": "https://www.robot-china.com/news/202610/09/96911.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-08",
@@ -402,33 +410,47 @@
             "url": "https://roboticsandautomationnews.com/2026/10/08/first-supply-deploys-exotec-robots-to-increase-warehouse-picking-speeds-tenfold/105737/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-07",
-            "title": "德国支持特斯拉 FSD 落地欧洲，前提是更名为 TAD、超速上限设为 10%",
-            "url": "https://www.ithome.com/1/010/165.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "10-07",
-            "title": "云端、本地部署还是混合：保障机器人基础设施安全 (Cloud, on-premises or hybrid: Securing robotics infrastructure)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/cloud-on-premises-or-hybrid-securing-robotics-infrastructure/105655/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "融资与上市准备覆盖物理AI、危险工业机器人、世界模型和机器人研发企业，FieldAI完成7亿美元融资并获较高估值，资本关注点同时落在场景定位、技术能力和后续扩张空间。",
+        "summary": "融资事件覆盖物理AI、世界模型、制药机器人和核心部件。FieldAI完成7亿美元融资，酷灵、灵感机器人获天使轮资金，产业资本进入Multiply Labs和钧舵机器人，资金更偏向清晰场景或能力补齐。",
         "items": [
+          {
+            "date": "10-10",
+            "title": "“双创博士”带队，「酷灵机器人」完成数千万元天使轮融资！",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30706319.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-10",
+            "title": "MIT公寓厨房诞生的制药机器人公司完成7500万美金融资，阿斯利康资本入局！",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30706318.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-09",
             "title": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
             "url": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "10-09",
+            "title": "灵感机器人完成数千万元天使轮融资",
+            "url": "https://www.robot-china.com/news/202610/09/96923.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-09",
+            "title": "获美的集团产业投资后，钧舵机器人将携“工业具身全栈”亮相2026工博会",
+            "url": "https://www.robot-china.com/news/202610/09/96919.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-08",
@@ -443,20 +465,34 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30705620.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-07",
-            "title": "Minerva Humanoids 筹集1000万美元，开发用于危险工业工作的机器人 (Minerva Humanoids raises $10 million to develop robots for dangerous industrial jobs)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/minerva-humanoids-raises-10-million-to-develop-robots-for-dangerous-industrial-jobs/105619/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业关注从人形机器人展示扩展到租赁价格、手部设计、数据泛化和海外竞争，韩国国会展示引发对中韩差距的讨论，市场对战略合作和演示效果也开始进行更细的商业化评估。",
+        "summary": "行业层面既有扩产与国际合作，也有估值和租赁价格调整。法拉第未来提出机器人工厂年底前运营目标，优必选获哈萨克斯坦建厂支持，同时战略合作股价反应和租赁降价显示市场定价更谨慎。",
         "items": [
+          {
+            "date": "10-10",
+            "title": "法拉第未来：机器人工厂目标年底前投入运营",
+            "url": "https://www.robot-china.com/news/202610/10/96928.html",
+            "company": "法拉第未来",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "哈萨克斯坦总统托卡耶夫：支持优必选在阿拉木图建设机器人设备制造工厂",
+            "url": "https://www.robot-china.com/news/202610/10/96926.html",
+            "company": "优必选",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "10月8日，特斯拉Optimus机器人最新专利公开：给机器人搞了一层能印刷的皮肤",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706244.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-09",
             "title": "中国宇树智元机器人“踢馆”韩国国会：760家 vs 53家",
@@ -491,6 +527,20 @@
             "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/",
             "company": "其他",
             "source_name": "The Robot Report"
+          },
+          {
+            "date": "10-09",
+            "title": "比亚迪自研人形机器人外观设计首次曝光：没有突出显示屏，躯干等部位设置大量关节结构",
+            "url": "https://www.robot-china.com/news/202610/09/96921.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-09",
+            "title": "人形机器人租赁热度回落：日租金从万元跌至不足千元",
+            "url": "https://www.robot-china.com/news/202610/09/96920.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-08",
@@ -561,47 +611,12 @@
             "url": "https://www.ithome.com/1/010/168.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-07",
-            "title": "马斯克否认台积电参与特斯拉“Terafab”芯片工厂项目传闻：我们自己建设运营",
-            "url": "https://www.ithome.com/1/010/241.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "10-07",
-            "title": "Minerva Humanoids首席执行官专访：“Roger旨在成为最理想的化身 (Interview with CEO of Minerva Humanoids: ‘Roger is engineered to be the best possible avatar’)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/interview-with-ceo-of-minerva-humanoids-roger-is-engineered-to-be-the-best-possible-avatar/105625/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-07",
-            "title": "为自动化而建：机器人就绪仓库对钢结构外壳的要求 (Building for Automation: What a Robot-Ready Warehouse Needs From its Steel Shell)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/building-for-automation-what-a-robot-ready-warehouse-needs-from-its-steel-shell/105665/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-07",
-            "title": "Faraday Future计划在美国建设机器人工厂，拓展电动汽车以外的业务 (Faraday Future plans US robot factory as it expands beyond electric vehicles)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/faraday-future-plans-us-robot-factory-as-it-expands-beyond-electric-vehicles/105658/",
-            "company": "法拉第未来",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-06",
-            "title": "想改造工厂的机器人，先被工厂改造了",
-            "url": "https://www.tmtpost.com/8159783.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链议题覆盖机器人安全仿真、运动数据、精密制造、配送机器人和学术研究，0.5毫米间隙制造案例与安全测试平台表明，具身系统正向生产环境的精度、验证和运营环节延伸。",
+        "summary": "产业链讨论聚焦机器人学方法、精密制造与安全仿真。IROS论文和演讲强调推理脚手架、机器人造机器人等真实工厂议题，SafeWorld进入安全仿真，部署前测试评估成为企业落地配套能力。",
         "items": [
           {
             "date": "10-08",
@@ -630,26 +645,57 @@
             "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-07",
-            "title": "Avride与Sodexo将在美国各校园扩大配送机器人规模 (Avride and Sodexo to scale delivery robots across US campuses)",
-            "url": "https://roboticsandautomationnews.com/2026/10/07/avride-and-sodexo-to-scale-delivery-robots-across-us-campuses/105608/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-07",
-            "title": "机器人数据初创公司 Mecka AI 获红杉资本 6000 万美元融资 (Robot data startup Mecka AI nabs $60M from Sequoia)",
-            "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/",
-            "company": "行业",
-            "source_name": "TechCrunch Robotics"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "10-10",
+      "company": "法拉第未来",
+      "title": "法拉第未来：机器人工厂目标年底前投入运营",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "法拉第未来在匹兹堡举办的国际智能机器人与系统大会（IROS）期间，举行了“Built in USA”发布及合作伙伴招募大会下半场、“四核全智”生态上游伙伴及产业生态共建专场暨 FFR（现 AIxC）拟独立上市及 FFAI 战略升级发布活动。法拉第未来公布了“Built in USA”加速计划第二阶段进一步执行方案：加快推进 Next Futurist 和 N…",
+      "url": "https://www.robot-china.com/news/202610/10/96928.html"
+    },
+    {
+      "date": "10-10",
+      "company": "优必选",
+      "title": "哈萨克斯坦总统托卡耶夫：支持优必选在阿拉木图建设机器人设备制造工厂",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "优必选科技公众号今天（30 日）发文称，9 月 25 日，在哈萨克斯坦 — 中国投资论坛期间，哈萨克斯坦总统哈斯穆-卓玛尔特 · 托卡耶夫在阿拉木图会见优必选副总裁钟永。托卡耶夫表示，支持优必选在阿拉木图建设一座机器人设备制造工厂，产品主要面向教育和服务领域。他指出，哈萨克斯坦将成为优必选在中国境外的首个生产基地。双方还就优必选技术广泛应用于 Amalty…",
+      "url": "https://www.robot-china.com/news/202610/10/96926.html"
+    },
+    {
+      "date": "10-10",
+      "company": "行业",
+      "title": "“双创博士”带队，「酷灵机器人」完成数千万元天使轮融资！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "南京酷灵机器人刚刚拿到数千万元天使轮融资，这笔资金由百联挚高基金管理的南京六合经开产业投资基金独家领投，这家2025年成立的初创企业，将把资金集中投向人形机器人、机器狗的关节模组与关节热管理系统的研发",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30706319.html"
+    },
+    {
+      "date": "10-10",
+      "company": "行业",
+      "title": "MIT公寓厨房诞生的制药机器人公司完成7500万美金融资，阿斯利康资本入局！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "硅谷制药机器人企业 Multiply Labs 刚刚完成7500万美元B轮融资，阿斯利康等产业资本入局，这家从MIT公寓厨房原型起步的创业公司，累计融资已经突破1亿美元。 当细胞疗法临床成果持续涌现",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30706318.html"
+    },
+    {
+      "date": "10-10",
+      "company": "特斯拉",
+      "title": "10月8日，特斯拉Optimus机器人最新专利公开：给机器人搞了一层能印刷的皮肤",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "10月8日，美国专利商标局公开了一份特斯拉有关人形机器人的的专利申请，编号US 2026/0310299 A1。标题很直白——“三维柔性触觉传感器阵列，具备多模态传感与可扩展制造方法”。发明人名单里列",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706244.html"
+    },
     {
       "date": "10-09",
       "company": "其他",
@@ -739,6 +785,69 @@
       "category": "行业动态",
       "summary": "The Robot Report spoke with Alberto Rodriguez, the director of robot behavior for Atlas at Boston Dynamics, about the humanoid's new hand. The post appeared first on The Robot Repo…",
       "url": "https://www.therobotreport.com/boston-dynamics-gives-more-insight-into-its-redesigned-humanoid-hand/"
+    },
+    {
+      "date": "10-09",
+      "company": "特斯拉",
+      "title": "特斯拉机器人触觉传感器新专利曝光，此前在中国启动量产审厂",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "近日，美国专利商标局公开了特斯拉全新技术专利，披露了其专为人形机器人手部打造的三维柔性触觉传感器技术。据报道，这项被称作“机器人仿生皮肤”的核心方案，具备全曲面柔性适配、像素级精准感知、支持电容式+电阻式双重感应等特点，补齐了人形机器人触感迟钝、适配性差、难量产的短板，真正实现了贴合人体手部生理结构。这被认为是特斯拉冲刺通用人形机器人规模化商用的关键一步…",
+      "url": "https://www.robot-china.com/news/202610/09/96925.html"
+    },
+    {
+      "date": "10-09",
+      "company": "行业",
+      "title": "灵感机器人完成数千万元天使轮融资",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "灵感机器人已于近日完成数千万元天使轮融资。本轮融资由力合资本、合肥创新投等知名投资机构参与，将用于产线建设、量产能力提升与触觉智能系统研发。作为国内最早一批研究和应用视触觉传感技术的团队，灵感机器人创始团队自2016年布局视触觉传感，2019年团队便研发出厚度仅5mm的超薄视触觉传感器，力场追踪分辨率达到每平方厘米10万点以上，在技术指标上大幅领先。此后，团…",
+      "url": "https://www.robot-china.com/news/202610/09/96923.html"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "比亚迪自研人形机器人外观设计首次曝光：没有突出显示屏，躯干等部位设置大量关节结构",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "10月9日消息，国家知识产权局公示了一项具身智能机器人的外观设计专利，比亚迪自研人形机器人的外观设计首次正式对外曝光。从专利附图可以看到，这款人形机器人采用黑白为主的机身配色，头部为圆润的弧面造型，没有突出的显示屏；躯干、手臂以及腿部设置了大量关节结构，四肢拥有较多活动自由度。此前，7月28日，比亚迪何志奇曾在社交平台发文预告“小迪”，并同步放出一张概念剪影…",
+      "url": "https://www.robot-china.com/news/202610/09/96921.html"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "人形机器人租赁热度回落：日租金从万元跌至不足千元",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "10月9日，CNMO科技获悉，国庆假期期间，多个景区出现人形机器人“员工”上岗。与以往主要在舞台上进行翻跟头、跳舞等表演不同，这批机器人开始进入实际服务场景，承担导览、互动等具体工作。报道显示，人形机器人租赁市场在假期前后出现明显变化。此前一度出现“抢租潮”，日租金最高达到万元级别，而目前日租金已跌破千元，部分机型日租金甚至不足千元。闲鱼等电商平台显示，有商…",
+      "url": "https://www.robot-china.com/news/202610/09/96920.html"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "获美的集团产业投资后，钧舵机器人将携“工业具身全栈”亮相2026工博会",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "2026年10月12日-16日，第二十六届中国国际工业博览会将在国家会展中心（上海）举办,在这场中国工业领域的年度盛会上，钧舵机器人将以“让精密执行拥有思考力”为主题，首次完整呈现其从精密执行部件到工业具身智能全栈能力的战略升级。这也是钧舵机器人在获得美的集团产业投资后，首次全面展示其从核心部件到工业具身解决方案的战略跃迁。从“能动”到“精准执行”：工业智能…",
+      "url": "https://www.robot-china.com/news/202610/09/96919.html"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "八大头部企业领衔 近百家具身智能企业集结 | 高交会亚洲机器人产业链展蓄势待发",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "11月26日至28日，高交会·亚洲机器人产业链展将在深圳国际会展中心（宝安）12号馆举办。本届高交会由深圳市人民政府主办，深圳振威国际展览有限公司承办。宇树科技、云深处、加速进化、松延动力、鹿明机器人、灵心巧手、因时机器人、新益昌机器人等八家代表性企业已确认参展，参展阵容覆盖人形机器人与四足机器人本体、运动控制、灵巧手、关节模组、精密执行器、具身智能开发平台…",
+      "url": "https://www.robot-china.com/news/202610/09/96918.html"
+    },
+    {
+      "date": "10-09",
+      "company": "其他",
+      "title": "启元机器人全球首店落地上海，Q1、T1 进入线下销售",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "9 月 28 日消息，据界面新闻今日报道，启元机器人全球首家线下门店在上海淮海中路开业，门店面积约 355 平方米，提供产品展示、销售及互动体验等服务。此前，启元已于 9 月 20 日发售 Q1、T1 两款个人机器人。目前，启元机器人已在广州、深圳、西安、厦门、杭州、武汉等城市布局线下体验店，开始拓展个人机器人的线下零售渠道。IT之家注意到，在 9 月 20…",
+      "url": "https://www.robot-china.com/news/202610/09/96911.html"
     },
     {
       "date": "10-08",
@@ -991,114 +1100,6 @@
       "category": "行业动态",
       "summary": "IT之家 10 月 7 日消息，特斯拉 Robotaxi 应用现已在更多国家开放下载。英国、澳大利亚、德国、意大利、瑞典、新加坡等地的苹果 App Store 以及谷歌 Play 商店都已经上架该软件，后续还会新增更多地区。 不过，现阶段不要以为伦敦或者柏林街头马上就能看到无人驾驶版 Model Y，或是没有方向盘的 Cybercab 上路运营。海外地区开放…",
       "url": "https://www.ithome.com/1/010/168.htm"
-    },
-    {
-      "date": "10-07",
-      "company": "特斯拉",
-      "title": "德国支持特斯拉 FSD 落地欧洲，前提是更名为 TAD、超速上限设为 10%",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 10 月 7 日消息，德国已经准备好支持特斯拉的“FSD（监督版）”在欧洲落地，但前提是更换产品名称。根据用户 @tpgoebel 在 X 平台发布的帖子，德国联邦交通部（BMV）希望将 FSD 改称为 Tesla Assisted Driving（特斯拉辅助驾驶，简称 TAD），以此推动这项系统获得欧盟范围内的批准。 据报道，德国联邦交通部长比尔…",
-      "url": "https://www.ithome.com/1/010/165.htm"
-    },
-    {
-      "date": "10-07",
-      "company": "特斯拉",
-      "title": "马斯克否认台积电参与特斯拉“Terafab”芯片工厂项目传闻：我们自己建设运营",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 7 日消息，日前有消息称，台积电正在探讨参与埃隆 · 马斯克位于美国得克萨斯州的“Terafab”芯片项目。 马斯克今日回应称， 该工厂将由公司自行建设和运营 ，“对此不存在任何疑问”。他表示，如果台积电有意，可以租赁 Terafab 的部分产能，但不会有更多参与。 IT之家注意到，马斯克还否认了 The Information 的爆料…",
-      "url": "https://www.ithome.com/1/010/241.htm"
-    },
-    {
-      "date": "10-07",
-      "company": "其他",
-      "title": "Minerva Humanoids首席执行官专访：“Roger旨在成为最理想的化身 (Interview with CEO of Minerva Humanoids: ‘Roger is engineered to be the best possible avatar’)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "The humanoid robotics industry is increasingly dominated by companies promising general-purpose machines capable of performing a growing range of industrial tasks. Minerva Humanoid…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/interview-with-ceo-of-minerva-humanoids-roger-is-engineered-to-be-the-best-possible-avatar/105625/"
-    },
-    {
-      "date": "10-07",
-      "company": "其他",
-      "title": "Minerva Humanoids 筹集1000万美元，开发用于危险工业工作的机器人 (Minerva Humanoids raises $10 million to develop robots for dangerous industrial jobs)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Minerva Humanoids has emerged from stealth with approximately $10 million in pre-seed funding to develop semi-autonomous humanoid robots for hazardous work in the energy and public…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/minerva-humanoids-raises-10-million-to-develop-robots-for-dangerous-industrial-jobs/105619/"
-    },
-    {
-      "date": "10-07",
-      "company": "其他",
-      "title": "Avride与Sodexo将在美国各校园扩大配送机器人规模 (Avride and Sodexo to scale delivery robots across US campuses)",
-      "source_name": "Robotics & Automation News",
-      "category": "泛具身产业链",
-      "summary": "Avride, an autonomous mobility company, and Sodexo Campus announced an agreement to accelerate autonomous robot delivery across Sodexo Campus partner colleges and universities in t…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/avride-and-sodexo-to-scale-delivery-robots-across-us-campuses/105608/"
-    },
-    {
-      "date": "10-07",
-      "company": "其他",
-      "title": "为自动化而建：机器人就绪仓库对钢结构外壳的要求 (Building for Automation: What a Robot-Ready Warehouse Needs From its Steel Shell)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "A robot-ready warehouse needs a building shell designed around the automation from the start, with the column grid, clear height, floor, roof loads and expansion path all set by th…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/building-for-automation-what-a-robot-ready-warehouse-needs-from-its-steel-shell/105665/"
-    },
-    {
-      "date": "10-07",
-      "company": "法拉第未来",
-      "title": "Faraday Future计划在美国建设机器人工厂，拓展电动汽车以外的业务 (Faraday Future plans US robot factory as it expands beyond electric vehicles)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Faraday Future is planning to bring a robotics factory online in the United States by the end of 2026 as the electric vehicle company accelerates its expansion into humanoid and ot…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/faraday-future-plans-us-robot-factory-as-it-expands-beyond-electric-vehicles/105658/"
-    },
-    {
-      "date": "10-07",
-      "company": "其他",
-      "title": "云端、本地部署还是混合：保障机器人基础设施安全 (Cloud, on-premises or hybrid: Securing robotics infrastructure)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "A robot arm doesn’t care where the server lives There is no single safest option. Cloud, on-premises and hybrid setups can all protect robotics systems well. They just split respon…",
-      "url": "https://roboticsandautomationnews.com/2026/10/07/cloud-on-premises-or-hybrid-securing-robotics-infrastructure/105655/"
-    },
-    {
-      "date": "10-07",
-      "company": "行业",
-      "title": "机器人数据初创公司 Mecka AI 获红杉资本 6000 万美元融资 (Robot data startup Mecka AI nabs $60M from Sequoia)",
-      "source_name": "TechCrunch Robotics",
-      "category": "泛具身产业链",
-      "summary": "Mecka AI collects and analyzes human motion data to train humanoid robots and other kinds of robots. The startup pays people to record everyday tasks.",
-      "url": "https://techcrunch.com/2026/10/07/robot-data-startup-mecka-ai-nabs-60m-from-sequoia/"
-    },
-    {
-      "date": "10-06",
-      "company": "其他",
-      "title": "世界模型赛道：谁在收编，谁在突围？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "9月28日，芯片巨头AMD宣布以82亿美元全股票交易收购World Labs，该公司成立仅两年多，员工约70人，首款商业产品Marble上线不到一年，新一代模型Atlas在这宗交易宣布前发布不到一个月。 消息公布当天， AMD股价收跌3.61%。市场在疑虑什么？一个没有收入、技术路线尚未收敛的实验室，凭什么值82亿美元，这笔账怎么算出来的，有人甚至认为这是一…",
-      "url": "https://www.tmtpost.com/8159876.html"
-    },
-    {
-      "date": "10-06",
-      "company": "其他",
-      "title": "想改造工厂的机器人，先被工厂改造了",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计",
-      "url": "https://www.tmtpost.com/8159783.html"
-    },
-    {
-      "date": "10-06",
-      "company": "其他",
-      "title": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 6 日消息，瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率晶体管系列， 面向 AI 数据中心、人形机器人、工厂自动化和工业电机驱动等应用领域 。 IT之家了解到，瑞萨本次推出的产品有 RTP100E005G1FL、RTP100E2P6G1FL、RTP100E1P8G…",
-      "url": "https://www.ithome.com/1/010/015.htm"
     }
   ]
 }
