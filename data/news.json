@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T12:43:42.140368+08:00",
+  "updated": "2026-10-10T20:04:08.328612+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 4,
       "core": 1,
       "periphery": 1,
       "new": 1
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 9,
-      "core": 1,
+      "entries": 17,
+      "candidates": 12,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 0,
+      "entries": 18,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 19,
+      "entries": 60,
+      "candidates": 23,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 53,
-      "periphery": 3,
-      "new": 21
+      "core": 56,
+      "periphery": 0,
+      "new": 14
     },
     {
       "name": "甲子光年",
@@ -114,7 +114,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 31,
+      "entries": 32,
       "candidates": 8,
       "core": 6,
       "periphery": 0,
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 6,
+      "core": 7,
       "periphery": 0,
-      "new": 6
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -183,7 +183,7 @@
       "candidates": 7,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -194,9 +194,9 @@
       "error": "",
       "entries": 15,
       "candidates": 13,
-      "core": 5,
+      "core": 6,
       "periphery": 4,
-      "new": 4
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,30 +241,30 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-10T12:43:50.615875+08:00",
+    "generated_at": "2026-10-10T20:04:16.479542+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证转向可验收场景",
-        "text": "优必选与一汽-大众推进物流场景开发测试，CeMAT ASIA 2026信息显示AI与机器人加快进入仓库，Exotec在First Supply仓库部署后将拣选速度提升十倍，本周商业化线索更多集中在物流、仓储、制造等能用效率和流程结果验收的任务，泛化叙事正在让位于场景闭环。",
+        "label": "落地验证集中在可验收任务",
+        "text": "优必选与一汽-大众达成战略合作，围绕物流场景开发、测试并构建示范应用，CeMAT ASIA 2026也强调AI走进仓库、机器人加快上岗，当前具身智能的商业推进更偏向工厂物流、仓储等边界清晰、结果可验收的任务，通用能力仍主要通过具体场景积累验证。",
         "evidence_urls": []
       },
       {
-        "label": "模型竞争开始绑定真实数据",
-        "text": "星动纪元采用视频预测与动作学习分阶段训练，如祺出行选择不自训大模型而强调真实数据壁垒，IROS 2026奖项覆盖长期记忆、人形机器人打网球和端托盘，模型进展不再只看参数或榜单，真实任务数据、记忆能力和动作执行闭环成为更可比较的能力来源。",
+        "label": "模型竞争转向数据与任务闭环",
+        "text": "清华相关具身模型采用视频预测与动作学习分阶段训练，IROS 2026奖项覆盖长期记忆、人形机器人打网球和端托盘，如祺出行则选择不自训大模型而强调真实数据壁垒，模型叙事正在从单纯参数或生成能力，收敛到真实数据、记忆机制和可执行任务表现。",
         "evidence_urls": []
       },
       {
-        "label": "供应链融资聚焦瓶颈部件",
-        "text": "酷灵机器人数千万元天使轮资金投向关节模组与关节热管理系统，灵感机器人融资背后是厚度5mm视触觉传感器和每平方厘米10万点以上力场追踪分辨率，特斯拉披露机器人手部三维柔性触觉传感器专利，资本与技术关注点正落到触觉、关节、热管理等限制量产可靠性的具体环节。",
+        "label": "资本投向能力短板与量产环节",
+        "text": "FieldAI完成7亿美元融资并避开单纯硬件竞赛，灵感机器人、墨现科技、酷灵机器人分别把资金投向触觉智能、数采手套、关节模组与热管理及量产能力建设，资金更愿意押注可定义场景中的关键能力补齐，而不是只追逐整机概念。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术线索集中在世界模型、长期记忆与任务执行方法。清华相关具身模型采用视频预测和动作学习解耦训练，IROS奖项覆盖长期记忆、网球和端托盘任务，真实数据与任务闭环权重上升。",
+        "summary": "本周技术进展集中在世界模型、长期记忆和机器人任务执行，清华相关模型采用视频预测与动作学习解耦训练，IROS奖项也显示研究评价更靠近可操作任务。",
         "items": [
           {
             "date": "10-09",
@@ -293,20 +293,34 @@
             "url": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "10-08",
-            "title": "Robbyant与AFDE合作，推动具身AI和机器人技术拓展至中东地区 (Robbyant and AFDE partner to expand embodied AI and robotics across Middle East)",
-            "url": "https://roboticsandautomationnews.com/2026/10/08/robbyant-and-afde-partner-to-expand-embodied-ai-and-robotics-across-middle-east/105750/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "产品量产",
-        "summary": "量产讨论从整机演示延伸到工程架构和关键部件。特斯拉披露手部三维柔性触觉传感器专利，并有中国量产审厂信息；电子架构、脚底寿命、光伏运维机器人等议题指向可靠生产和现场维护。",
+        "summary": "量产线索从整机扩展到传感器、服务数据和系统架构，特斯拉披露人形机器人手部三维柔性触觉传感器，云迹公布双节近2000万次服务运行数据。",
         "items": [
+          {
+            "date": "10-10",
+            "title": "双节服务近2000万次、AI语音通话同比翻倍——云迹科技发布《2026年中秋·国庆双节机器人服务运行数据报告》",
+            "url": "https://www.robot-china.com/news/202610/10/96938.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "OpenWAM统一视频预测与机器人控制，发布方自测LIBERO平均成功率98.6%",
+            "url": "https://www.robot-china.com/news/202610/10/96932.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "纽约与 Intuition Robotics 合作扩展 AI 陪伴计划 (New York extends AI companion program in partnership with Intuition Robotics)",
+            "url": "https://roboticsandautomationnews.com/2026/10/10/new-york-extends-ai-companion-program-in-partnership-with-intuition-robotics/105806/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "10-09",
             "title": "Cevotec 携手 KCompositeLab 将机器人复合材料铺层技术带入韩国 (Cevotec brings robotic composite lamination to South Korea with KCompositeLab partnership)",
@@ -348,40 +362,12 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8210-30705719.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-08",
-            "title": "TrinaTracker推出机器人，实现光伏电站建设和维护自动化 (TrinaTracker launches robots to automate solar farm construction and maintenance)",
-            "url": "https://roboticsandautomationnews.com/2026/10/08/trinatracker-launches-robots-to-automate-solar-farm-construction-and-maintenance/105710/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-08",
-            "title": "捷普讨论人形机器人开发与生产的进展速度 (Jabil discusses the pace of humanoid robot development and production)",
-            "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-08",
-            "title": "AWS 推出开源机器人具身智能工具链 (AWS launches open-source Physical AI Toolchain for robotics)",
-            "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-08",
-            "title": "Odyssey推出可控制机器人、人形机器人、车辆和无人机的世界模型 (Odyssey launches world model to control robots, humanoids, vehicles and drones)",
-            "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "商业订单",
-        "summary": "商业落地主要围绕仓储、物流和线下销售展开。优必选与一汽-大众合作开发物流应用，CeMAT ASIA强调AI进入仓库，Exotec仓库方案提升拣选速度，启元机器人在上海开设线下门店。",
+        "summary": "商业落地以物流、仓储和线下销售为主，优必选与一汽-大众推进车企物流场景测试，启元机器人在上海开出首店，场景仍以展示、测试和示范应用为主。",
         "items": [
           {
             "date": "10-09",
@@ -403,19 +389,12 @@
             "url": "https://www.ithome.com/1/010/376.htm",
             "company": "优必选",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-08",
-            "title": "First Supply 部署 Exotec 机器人，将仓库拣选速度提升十倍 (First Supply deploys Exotec robots to increase warehouse picking speeds tenfold)",
-            "url": "https://roboticsandautomationnews.com/2026/10/08/first-supply-deploys-exotec-robots-to-increase-warehouse-picking-speeds-tenfold/105737/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "融资事件覆盖物理AI、世界模型、制药机器人和核心部件。FieldAI完成7亿美元融资，酷灵、灵感机器人获天使轮资金，产业资本进入Multiply Labs和钧舵机器人，资金更偏向清晰场景或能力补齐。",
+        "summary": "融资事件密集，FieldAI完成7亿美元融资，灵感机器人、墨现科技、酷灵机器人获数千万元级融资，资金用途多指向触觉、数据采集、关节模组和量产建设。",
         "items": [
           {
             "date": "10-10",
@@ -430,6 +409,20 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30706318.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-10",
+            "title": "聚焦物理AI接触智能，灵感机器人完成数千万元天使轮融资",
+            "url": "https://www.robot-china.com/news/202610/10/96939.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "墨现科技完成数千万元产业轮融资 自变量机器人等加注",
+            "url": "https://www.robot-china.com/news/202610/10/96935.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-09",
@@ -470,7 +463,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业层面既有扩产与国际合作，也有估值和租赁价格调整。法拉第未来提出机器人工厂年底前运营目标，优必选获哈萨克斯坦建厂支持，同时战略合作股价反应和租赁降价显示市场定价更谨慎。",
+        "summary": "行业动态呈现产能、国际化与价格重估并行，法拉第未来提出机器人工厂年底前运营，优必选获哈萨克斯坦建厂支持，机器人租赁价格下探反映短期供需变化。",
         "items": [
           {
             "date": "10-10",
@@ -492,6 +485,20 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706244.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-10",
+            "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
+            "url": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "10-10",
+            "title": "百度、银河通用机器人等入股简智机器人",
+            "url": "https://www.robot-china.com/news/202610/10/96933.html",
+            "company": "银河通用",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-09",
@@ -597,27 +604,27 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-08",
-            "title": "Lumos Robotics在深圳上演“全球首场”人形机器人剧场秀 (Lumos Robotics stages the ‘world’s first’ humanoid robot theater in Shenzhen)",
-            "url": "https://roboticsandautomationnews.com/2026/10/08/lumos-robotics-stages-the-worlds-first-humanoid-robot-theater-in-shenzhen/105694/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-07",
-            "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
-            "url": "https://www.ithome.com/1/010/168.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链讨论聚焦机器人学方法、精密制造与安全仿真。IROS论文和演讲强调推理脚手架、机器人造机器人等真实工厂议题，SafeWorld进入安全仿真，部署前测试评估成为企业落地配套能力。",
+        "summary": "产业链讨论围绕世界模型能否被机器人使用、数据质量与信息密度、结构化表征和精密制造展开，研究焦点从宏观叙事转向真实工厂与任务约束。",
         "items": [
+          {
+            "date": "10-10",
+            "title": "JEPA、空间智能路线正面交锋：WorldArena 2.0 挑战赛开考「能不能被机器人真正用起来」| IROS 2026",
+            "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "10-10",
+            "title": "数据越多≠决策越好：从无人机滑翔到多机器人通信，重新审视数据与信息的关系 | IROS 2026",
+            "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "10-08",
             "title": "研究了1933篇 IROS 论文，我们看到了机器人学的六项新变化",
@@ -638,13 +645,6 @@
             "url": "https://www.leiphone.com/category/private/xCu836z16KSzx2Co.html",
             "company": "其他",
             "source_name": "雷峰网"
-          },
-          {
-            "date": "10-08",
-            "title": "SafeWorld 走出隐身模式，开发并部署机器人安全仿真技术 (SafeWorld emerges from stealth to build, deploy robot safety simulation technologies)",
-            "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       }
@@ -695,6 +695,87 @@
       "category": "行业动态",
       "summary": "10月8日，美国专利商标局公开了一份特斯拉有关人形机器人的的专利申请，编号US 2026/0310299 A1。标题很直白——“三维柔性触觉传感器阵列，具备多模态传感与可扩展制造方法”。发明人名单里列",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706244.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "JEPA、空间智能路线正面交锋：WorldArena 2.0 挑战赛开考「能不能被机器人真正用起来」| IROS 2026",
+      "source_name": "雷峰网",
+      "category": "泛具身产业链",
+      "summary": "JEPA 路线先下一城：视启未来 Track 1 第一，晨昏线 Track 2 第二。 作者丨 张岂萍 幸丽娟 编辑丨 幸丽娟 世界模型的竞争，正在从“生成未来”，走向“能不能被机器人真正用起来”。 视频可以生成得越来越逼真，但进入机器人系统后，世界模型还要回答更具体的问题：它能否预测动作执行后的状态变化，能否支持策略训练，最终能否在真实机器人上完成任务…",
+      "url": "https://www.leiphone.com/category/private/A0uKolgD2esWoUfT.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "数据越多≠决策越好：从无人机滑翔到多机器人通信，重新审视数据与信息的关系 | IROS 2026",
+      "source_name": "雷峰网",
+      "category": "泛具身产业链",
+      "summary": "决定智能上限的从来不是数据的绝对规模，而是数据的质量与信息密度。 作者丨岑峰 在生成式 AI 浪潮下，机器人社区正经历从传统控制向端到端学习的范式大迁徙。如同许多领域一样，这里也弥漫着一股对数据规模的迷信，深信“数据越多越智能”是通往通用具身智能的唯一坦途。 然而，在刚刚结束的 IEEE/RSJ 智能机器人与系统国际会议（IROS）上，昆士兰大学主力脚说 J…",
+      "url": "https://www.leiphone.com/category/private/1evshSdPUrUacuRC.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "单次RL后训练烧掉260万美元、每步37亿Token，小米披露MiMo-V2.6“规模化强化学习”路线",
+      "source_name": "InfoQ",
+      "category": "行业动态",
+      "summary": "Pro 的 RL 后训练成本约 260万美元，Flash 约 90万美元",
+      "url": "https://www.infoq.cn/article/gNdWoDM8ygkAjXfsLaBK?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "10-10",
+      "company": "行业",
+      "title": "聚焦物理AI接触智能，灵感机器人完成数千万元天使轮融资",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "近日，触觉智能企业灵感机器人（AGIMind Robotics）宣布完成数千万元天使轮融资，投资方包括力合资本、合肥创新投等知名投资机构，治臻咨询担任财务顾问。本轮融资将主要用于产线建设与量产能力优化，以及触觉智能系统研发。公司已发布Lux系列视触觉传感器并实现规模化交付，在此基础上进一步拓展触觉感知产品的应用场景。触觉感知：真实物理交互的基石精细的触觉感知…",
+      "url": "https://www.robot-china.com/news/202610/10/96939.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "双节服务近2000万次、AI语音通话同比翻倍——云迹科技发布《2026年中秋·国庆双节机器人服务运行数据报告》",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "北京，2026年10月9日 —— 北京云迹科技股份有限公司（以下简称云迹科技，股票代码：2670.HK）今日发布《2026年中秋·国庆双节机器人服务运行数据报告》（以下简称报告）。报告基于公司酒店数字化运营系统在双节假期的真实运行数据，呈现了服务机器人在客流高峰期的运行规模、客需结构与运营效率变化。服务近2000万次，累计节省人力187.7万工时报告显示，双…",
+      "url": "https://www.robot-china.com/news/202610/10/96938.html"
+    },
+    {
+      "date": "10-10",
+      "company": "行业",
+      "title": "墨现科技完成数千万元产业轮融资 自变量机器人等加注",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "《科创板日报》10日讯，墨现科技（东莞）有限公司（简称“墨现科技”）近日已完成数千万元产业轮融资，投资方包括自变量机器人、松山湖产投以及某头部具身智能公司，老股东清水湾基金继续加注。按照他们的计划，本轮资金将用于新一代数采手套研发迭代、供应链体系优化及量产能力建设。随着产品从机器人触觉传感器延伸到数据采集设备，墨现科技正在进一步建设产品制造和交付能力",
+      "url": "https://www.robot-china.com/news/202610/10/96935.html"
+    },
+    {
+      "date": "10-10",
+      "company": "银河通用",
+      "title": "百度、银河通用机器人等入股简智机器人",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "近日，简智机器人关联公司简智新创(北京)机器人科技有限公司发生工商变更，新增北京百度网讯科技有限公司、银河通用机器人旗下苏州盖博特科技有限公司等为股东。同时，公司注册资本由约19.3万元人民币增至约1052.4万元人民币。公开资料显示，简智新创(北京)机器人科技有限公司成立于2025年5月，法定代表人为陈建兴，经营范围包括服务消费机器人制造与销售、工业机器人…",
+      "url": "https://www.robot-china.com/news/202610/10/96933.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "OpenWAM统一视频预测与机器人控制，发布方自测LIBERO平均成功率98.6%",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "OpenWAM研究团队推出世界—动作模型框架，将视频预测与机器人控制放在共同架构中，支持比较“先预测画面再行动”等不同生成方式。项目要解决的问题是：现有系统采用不同的主干、数据集和训练方法，难以判断预测与控制如何配合更有效。团队同时提供训练、评估及视频到动作组合代码，并开放预训练视频模型权重。先学视频，再接入动作据项目页介绍，OpenWAM从Wan2.2-5…",
+      "url": "https://www.robot-china.com/news/202610/10/96932.html"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "纽约与 Intuition Robotics 合作扩展 AI 陪伴计划 (New York extends AI companion program in partnership with Intuition Robotics)",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "The New York State Office for the Aging (NYSOFA) has extended its partnership with Intuition Robotics to continue bringing the ElliQ proactive AI companion to aging New Yorkers at…",
+      "url": "https://roboticsandautomationnews.com/2026/10/10/new-york-extends-ai-companion-program-in-partnership-with-intuition-robotics/105806/"
     },
     {
       "date": "10-09",
@@ -1019,87 +1100,6 @@
       "category": "行业动态",
       "summary": "特斯拉Optimus前AI负责人Ashish Kumar，最近创办了一家叫Intelligent Machines的公司，落地旧金山。种子轮目标募资约1亿美元，已经招揽了好几位Optimus的核心老成",
       "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "TrinaTracker推出机器人，实现光伏电站建设和维护自动化 (TrinaTracker launches robots to automate solar farm construction and maintenance)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "TrinaTracker, a global provider of smart tracking systems and a wholly owned subsidiary of Trinasolar, has launched two self-developed robotic products: Buildex PV Module Installat…",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/trinatracker-launches-robots-to-automate-solar-farm-construction-and-maintenance/105710/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "Lumos Robotics在深圳上演“全球首场”人形机器人剧场秀 (Lumos Robotics stages the ‘world’s first’ humanoid robot theater in Shenzhen)",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Humanoid robot developer Lumos Robotics recently staged what it described as “the world’s first humanoid robot theater performance” in Shenzhen, putting its robots through a 45-min…",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/lumos-robotics-stages-the-worlds-first-humanoid-robot-theater-in-shenzhen/105694/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "SafeWorld 走出隐身模式，开发并部署机器人安全仿真技术 (SafeWorld emerges from stealth to build, deploy robot safety simulation technologies)",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "SafeWorld’s platform provides testing and simulation software to help enterprises evaluate and deploy robots safely and responsibly. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/safeworld-emerges-stealth-build-deploy-robot-safety-simulation-technologies/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "捷普讨论人形机器人开发与生产的进展速度 (Jabil discusses the pace of humanoid robot development and production)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "Jabil, which is working with robot developers such as Apptronik, provides a design perspective on humanoid progress. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/jabil-discusses-pace-humanoid-robot-development-production/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "AWS 推出开源机器人具身智能工具链 (AWS launches open-source Physical AI Toolchain for robotics)",
-      "source_name": "The Robot Report",
-      "category": "产品量产",
-      "summary": "The toolchain combines AWS and NVIDIA tools for synthetic data generation, model training, simulation and validation, edge deployment, and continuous improvement. The post appeared…",
-      "url": "https://www.therobotreport.com/aws-launches-open-source-physical-ai-toolchain-for-robotics/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "Odyssey推出可控制机器人、人形机器人、车辆和无人机的世界模型 (Odyssey launches world model to control robots, humanoids, vehicles and drones)",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Odyssey, an AI research company pioneering foundation world models, has announced Odyssey-3, its most powerful world model to date. The new model represents a significant advance t…",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/odyssey-launches-world-model-to-control-robots-humanoids-vehicles-and-drones/105756/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "Robbyant与AFDE合作，推动具身AI和机器人技术拓展至中东地区 (Robbyant and AFDE partner to expand embodied AI and robotics across Middle East)",
-      "source_name": "Robotics & Automation News",
-      "category": "技术突破",
-      "summary": "Robbyant, an embodied AI company within Ant Group, and the Arab Federation for Digital Economy (AFDE) have signed a Memorandum of Understanding (MoU) to advance the deployment, loc…",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/robbyant-and-afde-partner-to-expand-embodied-ai-and-robotics-across-middle-east/105750/"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "First Supply 部署 Exotec 机器人，将仓库拣选速度提升十倍 (First Supply deploys Exotec robots to increase warehouse picking speeds tenfold)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Warehouse robotics provider Exotec has deployed its Skypod solution in First Supply’s warehouse in West Salem, Wisconsin. Following the deployment, First Supply can now offer next-…",
-      "url": "https://roboticsandautomationnews.com/2026/10/08/first-supply-deploys-exotec-robots-to-increase-warehouse-picking-speeds-tenfold/105737/"
-    },
-    {
-      "date": "10-07",
-      "company": "特斯拉",
-      "title": "特斯拉 Robotaxi 应用多国上架，但打车服务仍仅限美国七城",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 7 日消息，特斯拉 Robotaxi 应用现已在更多国家开放下载。英国、澳大利亚、德国、意大利、瑞典、新加坡等地的苹果 App Store 以及谷歌 Play 商店都已经上架该软件，后续还会新增更多地区。 不过，现阶段不要以为伦敦或者柏林街头马上就能看到无人驾驶版 Model Y，或是没有方向盘的 Cybercab 上路运营。海外地区开放…",
-      "url": "https://www.ithome.com/1/010/168.htm"
     }
   ]
 }
