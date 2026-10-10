@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-10T20:04:08.328612+08:00",
+  "updated": "2026-10-11T05:17:17.174172+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 12,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 19,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -79,7 +79,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
+      "candidates": 17,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 56,
       "periphery": 0,
-      "new": 14
+      "new": 9
     },
     {
       "name": "甲子光年",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 1,
-      "new": 0
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -196,7 +196,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 4,
-      "new": 5
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,30 +241,30 @@
   "weekly_report": {
     "start": "10-05",
     "end": "10-11",
-    "generated_at": "2026-10-10T20:04:16.479542+08:00",
+    "generated_at": "2026-10-11T05:17:43.292792+08:00",
     "mode": "aicodewith",
     "item_count": 50,
     "insights": [
       {
-        "label": "落地验证集中在可验收任务",
-        "text": "优必选与一汽-大众达成战略合作，围绕物流场景开发、测试并构建示范应用，CeMAT ASIA 2026也强调AI走进仓库、机器人加快上岗，当前具身智能的商业推进更偏向工厂物流、仓储等边界清晰、结果可验收的任务，通用能力仍主要通过具体场景积累验证。",
+        "label": "落地验证聚焦可验收任务",
+        "text": "优必选与一汽-大众推进人形机器人在物流场景的开发测试，仓储展会也集中展示机器人上岗案例，叠加云迹科技披露双节服务近2000万次，具身智能的商业验证正更多落在物流、服务等可量化任务上。",
         "evidence_urls": []
       },
       {
         "label": "模型竞争转向数据与任务闭环",
-        "text": "清华相关具身模型采用视频预测与动作学习分阶段训练，IROS 2026奖项覆盖长期记忆、人形机器人打网球和端托盘，如祺出行则选择不自训大模型而强调真实数据壁垒，模型叙事正在从单纯参数或生成能力，收敛到真实数据、记忆机制和可执行任务表现。",
+        "text": "星动纪元采用视频预测与动作学习分阶段解耦训练，如祺出行将真实数据视为壁垒，IROS 2026最佳论文聚焦长期记忆，OpenWAM则以自测98.6%的LIBERO平均成功率展示控制效果，模型能力评价开始更多连接真实数据和任务完成。",
         "evidence_urls": []
       },
       {
-        "label": "资本投向能力短板与量产环节",
-        "text": "FieldAI完成7亿美元融资并避开单纯硬件竞赛，灵感机器人、墨现科技、酷灵机器人分别把资金投向触觉智能、数采手套、关节模组与热管理及量产能力建设，资金更愿意押注可定义场景中的关键能力补齐，而不是只追逐整机概念。",
+        "label": "资本押注能力补齐与制造准备",
+        "text": "FieldAI完成7亿美元融资，灵感机器人、墨现科技和酷灵机器人分别将资金投向触觉系统、数据采集手套、关节模组及热管理，并涉及产线和供应链建设，资金偏好正从单一整机叙事延伸至具体性能瓶颈和量产环节。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "本周技术进展集中在世界模型、长期记忆和机器人任务执行，清华相关模型采用视频预测与动作学习解耦训练，IROS奖项也显示研究评价更靠近可操作任务。",
+        "summary": "本周技术焦点集中在视频预测与动作学习解耦、真实数据、长期记忆和结构化推理，研究评价逐步从模型表现延伸到机器人实际使用能力。",
         "items": [
           {
             "date": "10-09",
@@ -298,7 +298,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "量产线索从整机扩展到传感器、服务数据和系统架构，特斯拉披露人形机器人手部三维柔性触觉传感器，云迹公布双节近2000万次服务运行数据。",
+        "summary": "产品与量产证据同时覆盖云迹机器人近2000万次节假日服务、特斯拉触觉传感器专利及中国量产审厂，服务规模与制造准备并行推进。",
         "items": [
           {
             "date": "10-10",
@@ -367,7 +367,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地以物流、仓储和线下销售为主，优必选与一汽-大众推进车企物流场景测试，启元机器人在上海开出首店，场景仍以展示、测试和示范应用为主。",
+        "summary": "商业化案例集中在物流和线下服务，优必选与一汽-大众推进车厂物流测试，启元机器人开设上海首店，场景部署与产品销售同步展开。",
         "items": [
           {
             "date": "10-09",
@@ -394,7 +394,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资事件密集，FieldAI完成7亿美元融资，灵感机器人、墨现科技、酷灵机器人获数千万元级融资，资金用途多指向触觉、数据采集、关节模组和量产建设。",
+        "summary": "融资项目覆盖物理AI、制药机器人、触觉传感、数据采集和关节热管理，资金用途普遍指向研发补强、产线建设、供应链优化和量产能力。",
         "items": [
           {
             "date": "10-10",
@@ -463,7 +463,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业动态呈现产能、国际化与价格重估并行，法拉第未来提出机器人工厂年底前运营，优必选获哈萨克斯坦建厂支持，机器人租赁价格下探反映短期供需变化。",
+        "summary": "行业动态显示制造基地、国际合作和核心传感器持续升温，同时强化学习成本与战略合作后的市场反应，开始成为衡量产业推进效率的补充指标。",
         "items": [
           {
             "date": "10-10",
@@ -499,6 +499,13 @@
             "url": "https://www.robot-china.com/news/202610/10/96933.html",
             "company": "银河通用",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-10",
+            "title": "专访：人形机器人发展迅速，大规模制造将成为下一项挑战 (Interview: Humanoid robots are advancing fast. Manufacturing them at scale is the next challenge)",
+            "url": "https://roboticsandautomationnews.com/2026/10/10/interview-humanoid-robots-are-advancing-fast-manufacturing-them-at-scale-is-the-next-challenge/105812/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-09",
@@ -597,19 +604,12 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30705721.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-08",
-            "title": "前Optimus AI负责人创业：不做人形机器人，专攻工业机器人",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "泛具身产业链",
-        "summary": "产业链讨论围绕世界模型能否被机器人使用、数据质量与信息密度、结构化表征和精密制造展开，研究焦点从宏观叙事转向真实工厂与任务约束。",
+        "summary": "IROS相关讨论聚焦世界模型路线、数据质量、结构化表征和精密制造，产业链关注点从单一模型规模扩展到通信、推理及真实工厂适配。",
         "items": [
           {
             "date": "10-10",
@@ -776,6 +776,15 @@
       "category": "产品量产",
       "summary": "The New York State Office for the Aging (NYSOFA) has extended its partnership with Intuition Robotics to continue bringing the ElliQ proactive AI companion to aging New Yorkers at…",
       "url": "https://roboticsandautomationnews.com/2026/10/10/new-york-extends-ai-companion-program-in-partnership-with-intuition-robotics/105806/"
+    },
+    {
+      "date": "10-10",
+      "company": "其他",
+      "title": "专访：人形机器人发展迅速，大规模制造将成为下一项挑战 (Interview: Humanoid robots are advancing fast. Manufacturing them at scale is the next challenge)",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "As humanoid robot developers race to move their machines from demonstrations and pilot projects into factories and other working environments, another challenge is rapidly coming i…",
+      "url": "https://roboticsandautomationnews.com/2026/10/10/interview-humanoid-robots-are-advancing-fast-manufacturing-them-at-scale-is-the-next-challenge/105812/"
     },
     {
       "date": "10-09",
@@ -1091,15 +1100,6 @@
       "category": "产品量产",
       "summary": "导语： 当人形机器人从实验室的平顺地板走向工业现场的泥泞、坡坎与沙地，它们的“大脑”日益聪明，“关节”愈发灵活，但往往被忽视的“脚底”，却成了制约整机寿命与任务完成率的隐秘短板。今天，我们将深度拆解深",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8210-30705719.html"
-    },
-    {
-      "date": "10-08",
-      "company": "特斯拉",
-      "title": "前Optimus AI负责人创业：不做人形机器人，专攻工业机器人",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "特斯拉Optimus前AI负责人Ashish Kumar，最近创办了一家叫Intelligent Machines的公司，落地旧金山。种子轮目标募资约1亿美元，已经招揽了好几位Optimus的核心老成",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321202-8420-30705718.html"
     }
   ]
 }
