@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T05:37:25.833996+08:00",
+  "updated": "2026-10-12T12:44:25.891135+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 2,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 19,
-      "core": 0,
+      "candidates": 23,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -114,24 +114,23 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 32,
-      "candidates": 8,
-      "core": 6,
+      "entries": 34,
+      "candidates": 11,
+      "core": 9,
       "periphery": 0,
       "new": 0
     },
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 22,
-      "candidates": 22,
-      "core": 7,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 502: Bad Gateway",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 4
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -238,8 +237,47 @@
       "new": 0
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "10-12",
+    "end": "10-18",
+    "generated_at": "2026-10-12T12:44:25.893071+08:00",
+    "mode": "local",
+    "item_count": 1,
+    "insights": [
+      {
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，小米官方宣布，米家扫拖机器人 7 Max 今日 10:00 正式开启预售，提供水箱版与薄嵌上下水版两个版本（下单赠送价值 448 元配件礼包，晒单还可返 20 元京豆）： 水箱版：4999 元，券后叠加国补 4498.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/011/775.htm"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "category": "产品量产",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "items": [
+          {
+            "date": "10-12",
+            "title": "小米推出米家扫拖机器人 7 Max：50℃ 热水喷淋定点拖地，4999 元起",
+            "url": "https://www.ithome.com/1/011/775.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "小米推出米家扫拖机器人 7 Max：50℃ 热水喷淋定点拖地，4999 元起",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 12 日消息，小米官方宣布，米家扫拖机器人 7 Max 今日 10:00 正式开启预售，提供水箱版与薄嵌上下水版两个版本（下单赠送价值 448 元配件礼包，晒单还可返 20 元京豆）： 水箱版：4999 元，券后叠加国补 4498.96 元 薄嵌上下水版：5299 元，券后叠加国补价 4769.01 元 京东 米家扫拖机器人 7 Max…",
+      "url": "https://www.ithome.com/1/011/775.htm"
+    },
     {
       "date": "10-11",
       "company": "银河通用",
@@ -680,15 +718,6 @@
       "category": "行业动态",
       "summary": "潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。 作业级整机在海洋工程、水下巡检和应急救援场景中已达成批量交付，消费级产品开始进入课堂",
       "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html"
-    },
-    {
-      "date": "10-08",
-      "company": "特斯拉",
-      "title": "Optimus V4传闻搅动港股：机器人直驱与减速器的路线摊牌",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "本末科技9月29日港交所挂牌，10月6日早盘冲高12%，上市六个交易日较发行价涨了三成多——本末科技这波走势，明面上是新股炒作叠加稀土合作利好，但我更想聊的是它背后那场没怎么被认真讨论过的战争：人形机",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30705724.html"
     }
   ]
 }
