@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T12:44:25.891135+08:00",
+  "updated": "2026-10-12T22:39:32.894085+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -40,7 +40,7 @@
       "candidates": 12,
       "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
-      "core": 1,
+      "entries": 16,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 23,
+      "candidates": 19,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 56,
+      "core": 57,
       "periphery": 0,
-      "new": 10
+      "new": 17
     },
     {
       "name": "甲子光年",
@@ -115,22 +115,23 @@
       "attempts": 1,
       "error": "",
       "entries": 34,
-      "candidates": 11,
-      "core": 9,
+      "candidates": 12,
+      "core": 10,
       "periphery": 0,
       "new": 0
     },
     {
       "name": "OFweek机器人",
       "type": "html",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 502: Bad Gateway",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 22,
+      "candidates": 22,
+      "core": 9,
       "periphery": 0,
-      "new": 0
+      "new": 9
     },
     {
       "name": "新战略移动机器人",
@@ -152,11 +153,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 22,
-      "candidates": 19,
-      "core": 14,
+      "entries": 23,
+      "candidates": 20,
+      "core": 15,
       "periphery": 2,
-      "new": 1
+      "new": 3
     },
     {
       "name": "The Robot Report",
@@ -232,30 +233,51 @@
       "error": "",
       "entries": 75,
       "candidates": 69,
-      "core": 18,
+      "core": 19,
       "periphery": 7,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-12T12:44:25.893071+08:00",
-    "mode": "local",
-    "item_count": 1,
+    "generated_at": "2026-10-12T22:39:41.054629+08:00",
+    "mode": "aicodewith",
+    "item_count": 14,
     "insights": [
       {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，小米官方宣布，米家扫拖机器人 7 Max 今日 10:00 正式开启预售，提供水箱版与薄嵌上下水版两个版本（下单赠送价值 448 元配件礼包，晒单还可返 20 元京豆）： 水箱版：4999 元，券后叠加国补 4498.。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://www.ithome.com/1/011/775.htm"
-        ]
+        "label": "落地验证转向可验收场景",
+        "text": "国家发展改革委提出以具身智能实训场和应用中试基地推动真实场景迭代，云深处相关报道也强调在实景试炼中形成应用闭环，工厂、维修、巡检等任务更容易用结果验收，短期落地节奏会更多围绕明确需求而不是泛化展示展开。",
+        "evidence_urls": []
+      },
+      {
+        "label": "量产叙事开始绑定价格与工艺",
+        "text": "人形机器人出货被多家机构判断正在放量，但统计口径仍有明显差异；同时慧灵科技发布9999元20自由度灵巧手、越擎科技推出面向激光切割的视觉编程系统、小米扫拖机器人7 Max以4999元起预售，产品能力正在通过价格、自由度、工艺适配等可比较指标接受市场检验。",
+        "evidence_urls": []
+      },
+      {
+        "label": "资本偏向场景清晰的能力补齐",
+        "text": "欧拉万象完成数亿元天使轮+融资，双派机器人完成A+轮融资且聚焦适老化智能出行机器人，近期资金并未只追逐通用人形概念，而是更愿意投向家庭、适老化等边界相对明确的应用方向，以及可补齐场景能力的公司。",
+        "evidence_urls": []
       }
     ],
     "groups": [
       {
+        "category": "技术突破",
+        "summary": "技术侧本周主要围绕世界模型展开，王鹏伟发布悟界·RoboBrain Orca，并提出当下世界模型仍只学到片面的世界，显示具身智能基础模型仍处于能力边界探索阶段。",
+        "items": [
+          {
+            "date": "10-12",
+            "title": "王鹏伟：当下的世界模型都只学到了片面的世界",
+            "url": "https://www.tmtpost.com/8041489.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          }
+        ]
+      },
+      {
         "category": "产品量产",
-        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "summary": "产品量产消息密集，覆盖小米扫拖机器人预售、小鹏人形机器人量产计划、慧灵灵巧手、越擎激光切割视觉编程系统以及思灵工博会展品，价格、交付时间和工艺适配成为主要看点。",
         "items": [
           {
             "date": "10-12",
@@ -263,6 +285,108 @@
             "url": "https://www.ithome.com/1/011/775.htm",
             "company": "其他",
             "source_name": "IT之家"
+          },
+          {
+            "date": "10-12",
+            "title": "人形机器人出货暴增4倍，钱被谁赚走了？",
+            "url": "https://www.tmtpost.com/8164863.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "10-12",
+            "title": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
+            "url": "https://www.ithome.com/1/012/094.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-12",
+            "title": "阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架",
+            "url": "https://www.ithome.com/1/012/066.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-12",
+            "title": "具身智能回到产业现场， 思灵机器人Agile Robots携12款展品亮相2026工博会",
+            "url": "https://www.robot-china.com/news/202610/12/96941.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-12",
+            "title": "9999元开启机器人“灵巧时代”：慧灵科技发布20自由度灵巧手，打造具身智能手脑闭环",
+            "url": "https://www.robot-china.com/news/202610/12/96947.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-12",
+            "title": "比亚迪人形机器人外观专利公布：黑白极简设计，量产时间未定",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706538.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-12",
+            "title": "直指激光切割卡点，越擎科技发布机器人激光切割视觉编程系统iRobotCAM Pro",
+            "url": "https://www.gongkong.com/news/202610/453767.html",
+            "company": "其他",
+            "source_name": "中国工控网机器人"
+          }
+        ]
+      },
+      {
+        "category": "商业订单",
+        "summary": "商业落地证据集中在真实场景验证，国家发展改革委强调以实训场和中试基地推动机器人围绕真实需求迭代，云深处案例则体现产业落地逻辑正从演示走向应用闭环。",
+        "items": [
+          {
+            "date": "10-12",
+            "title": "实景淬炼技术，从西湖试炼看云深处机器人产业落地逻辑",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30706544.html",
+            "company": "云深处",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "资本动态包括欧拉万象数亿元天使轮+融资和双派机器人A+轮融资，投资方向分别指向家庭机器人与适老化智能出行，资金更关注可定义用户与可落地场景。",
+        "items": [
+          {
+            "date": "10-12",
+            "title": "「双派机器人」完成A+轮融资！越疆机器人、云深处、视比特等公司资方投了",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706654.html",
+            "company": "云深处",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-12",
+            "title": "刚刚，「欧拉万象」完成数亿元天使轮+融资！半年四轮，家庭机器人的解法变了？",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706647.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "行业动态一方面出现迪生数字成为众擎URKL赛事动作捕捉合作伙伴，另一方面讨论人形机器人从冲刺、拳击转向洗衣等日常任务考验，行业评价标准更贴近日常实用性。",
+        "items": [
+          {
+            "date": "10-12",
+            "title": "官宣丨迪生数字正式成为众擎URKL赛事官方指定动作捕捉合作伙伴",
+            "url": "https://www.robot-china.com/news/202610/12/96950.html",
+            "company": "众擎机器人",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-12",
+            "title": "人形机器人会冲刺和拳击，但真正的考验是洗衣服 (Humanoid robots can sprint and box – but the real test is doing the laundry)",
+            "url": "https://robohub.org/humanoid-robots-can-sprint-and-box-but-the-real-test-is-doing-the-laundry/",
+            "company": "其他",
+            "source_name": "RoboHub"
           }
         ]
       }
@@ -277,6 +401,123 @@
       "category": "产品量产",
       "summary": "IT之家 10 月 12 日消息，小米官方宣布，米家扫拖机器人 7 Max 今日 10:00 正式开启预售，提供水箱版与薄嵌上下水版两个版本（下单赠送价值 448 元配件礼包，晒单还可返 20 元京豆）： 水箱版：4999 元，券后叠加国补 4498.96 元 薄嵌上下水版：5299 元，券后叠加国补价 4769.01 元 京东 米家扫拖机器人 7 Max…",
       "url": "https://www.ithome.com/1/011/775.htm"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "王鹏伟：当下的世界模型都只学到了片面的世界",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "王鹏伟终于带着他的悟界·RoboBrain Orca世界模型正式走上了牌桌",
+      "url": "https://www.tmtpost.com/8041489.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "人形机器人出货暴增4倍，钱被谁赚走了？",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "9月底，市场研究机构沙利文和IDC先后发布人形机器人报告，两家都判断行业在放量，但口径差了四成：IDC统计上半年全球出货接近2.5万台、同比涨432.1%；沙利文统计同期3.6万台，收入5.4亿美元，半年已超2025全年。 机器人公司账本上是另一番景象，收入份额第一的优必选，上半年亏损3.39亿元；另一家头部公司宇树科技，2025年出货超5500台、扣非净利…",
+      "url": "https://www.tmtpost.com/8164863.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 12 日消息，小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。 在人形机器人领域，近期，小鹏机器人生产线正式启用，全球首位高阶通用人形机器人完成自动化总装，自主走下产线亮相，标志着小鹏机器人完成从研发试制到产线制造的关键跨越，向规模量产迈出重要一步。 据介绍，小鹏 IRON 可以说是“社交天花…",
+      "url": "https://www.ithome.com/1/012/094.htm"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 12 日消息，阿里千问今日正式发布 QwenGyre，这是一款面向长程智能体任务的在线强化学习框架。 据官方介绍，当智能体承担复杂工作，一次执行往往持续数小时，模型与环境之间有数百轮相互依赖的交互，累计处理百万级 token。QwenGyre 通过弹性调度与轨迹处理， 让这类超长程任务成为有效的训练来源 ， 同时带来能力与效率提升 。 Q…",
+      "url": "https://www.ithome.com/1/012/066.htm"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "具身智能回到产业现场， 思灵机器人Agile Robots携12款展品亮相2026工博会",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10月12日至16日，第26届中国国际工业博览会在国家会展中心（上海）举行。思灵机器人Agile Robots携12款展品参展，以具身智能、具身模型、科研生态、消费应用、工业落地五大展区，系统呈现从人形机器人、模型、力控与感知技术、数据采集体系，到多元场景解决方案的全栈技术能力。跨越从模型到落地的距离过去两年，具身智能经历了从概念爆发到理性回归的完整周期。资…",
+      "url": "https://www.robot-china.com/news/202610/12/96941.html"
+    },
+    {
+      "date": "10-12",
+      "company": "众擎机器人",
+      "title": "官宣丨迪生数字正式成为众擎URKL赛事官方指定动作捕捉合作伙伴",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "近日，北京迪生数字娱乐科技股份有限公司（简称：迪生数字）正式成为众擎URKL全球人形机器人自由格斗联赛（简称：众擎URKL）官方指定动作捕捉合作伙伴，为巡回挑战赛与正赛提供高精度动作捕捉技术支持，并为参赛战队提供真值数据采集、仿真验证、闭环评估等全面服务。全球首创格斗赛事众擎URKL由深圳众擎机器人科技股份有限公司发起，是全球首个产业级人形机器人自由格斗赛事…",
+      "url": "https://www.robot-china.com/news/202610/12/96950.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "9999元开启机器人“灵巧时代”：慧灵科技发布20自由度灵巧手，打造具身智能手脑闭环",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "从2999元让机器人拥有手，到9999元让机器人拥有接近人类的手一年前，我们用2999元回答了一个问题：灵巧手贵不贵？今天，我们用9999元回答下一个问题：高自由度灵巧手，凭什么贵？长期以来，20自由度一直被视为人形机器人和精细操作领域的“门票级配置”。它意味着更复杂的运动能力、更接近人类的操作空间以及更强的环境适应能力。但与此同时，高自由度也意味着高成本…",
+      "url": "https://www.robot-china.com/news/202610/12/96947.html"
+    },
+    {
+      "date": "10-12",
+      "company": "云深处",
+      "title": "「双派机器人」完成A+轮融资！越疆机器人、云深处、视比特等公司资方投了",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "当很多养老机器人还停留在展会的演示台上，一款面向真实老人出行的智能设备，拿到了资本的持续下注。 近日，适老化智能出行机器人企业双派机器人宣布完成A+轮融资，由道生资本领投，灵动创投跟投。从天使轮到A轮 服务机器人",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706654.html"
+    },
+    {
+      "date": "10-12",
+      "company": "行业",
+      "title": "刚刚，「欧拉万象」完成数亿元天使轮+融资！半年四轮，家庭机器人的解法变了？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "资本正在用真金白银，投票给家庭具身智能这条艰难赛道。 10月12日，欧拉万象对外宣布完成数亿元天使轮+融资，诚元祥基金、芯能创投、锡洲国际、拓邦股份、弘毅投资等新老股东共同参与本轮投资。从今年3月公司",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706647.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "比亚迪人形机器人外观专利公布：黑白极简设计，量产时间未定",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "??比亚迪人形机器人真容曝光 10月9日，国家知识产权局今日公示了一项具身智能机器人的外观设计专利，专利权人为比亚迪股份有限公司。 根据专利简要说明，该外观设计产品用于具备行走、平衡及交互功能的智能机",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30706538.html"
+    },
+    {
+      "date": "10-12",
+      "company": "云深处",
+      "title": "实景淬炼技术，从西湖试炼看云深处机器人产业落地逻辑",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "今年，国家发展改革委明确提出，将聚焦务实管用、落地见效，以具身智能实训场和应用中试基地为抓手，让机器人在真实场景中迭代技术、围绕真实需求形成应用闭环。 这一产业导向，恰恰精准契合了云深处科技的发展底色",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30706544.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "直指激光切割卡点，越擎科技发布机器人激光切割视觉编程系统iRobotCAM Pro",
+      "source_name": "中国工控网机器人",
+      "category": "产品量产",
+      "summary": "近年来，随着激光产业链的成熟，激光切割设备的成本大幅下降，在自动化领域，激光工艺的应用正在进一步的挖掘，适逢具身智能的视觉应用大发展的趋势下，针对机器人激光切割的应用，越擎科技发布机器人激光切割视觉编程系统iRobotCAM Pro，为机器人装上一对双目相机，实现工件自动定位，模型自动纠偏等，大幅提升机器人激光切割的应用效.. 标签： 越擎科技",
+      "url": "https://www.gongkong.com/news/202610/453767.html"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "人形机器人会冲刺和拳击，但真正的考验是洗衣服 (Humanoid robots can sprint and box – but the real test is doing the laundry)",
+      "source_name": "RoboHub",
+      "category": "行业动态",
+      "summary": "By Wai-keung Fung, Cardiff Metropolitan University At the recent World Humanoid Robot Games 2026 in Beijing, robots sprinted, boxed, played football and tackled tasks inspired by f…",
+      "url": "https://robohub.org/humanoid-robots-can-sprint-and-box-but-the-real-test-is-doing-the-laundry/"
     },
     {
       "date": "10-11",
@@ -295,6 +536,15 @@
       "category": "技术突破",
       "summary": "与其挖金矿，不如充当卖铲人。在具身智能浪潮里，这一商业模式愈发受到资本青睐。 9月29日，做机器人关节模组的本末科技，在港交所成功上市。截至10月10日，其股价一路上涨，市值约为115.31亿港元，市销率近30倍。 高市值建立在本末科技的愿景上，创始人张笛说：“直驱一定会驱动世界，减速器必然走向消亡\"，并称公司是在“为具身智能领域开创一个新行业”。 本末科技…",
       "url": "https://www.tmtpost.com/8164407.html"
+    },
+    {
+      "date": "10-11",
+      "company": "优必选",
+      "title": "一万台机器人“入职”福建：优必选与建发在赌什么？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "2026年10月11日，优必选与厦门建发股份在厦门签署战略合作协议。双方将共建合资公司，打造“优生态科技中心福建总部”，计划到2030年共同完成不低于1万台优必选人形机器人的销售目标。 如果你只把这则",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30706534.html"
     },
     {
       "date": "10-10",
@@ -592,132 +842,6 @@
       "category": "技术突破",
       "summary": "在机器人领域，一个更大的模型并不能自动解决所有问题。 作者丨马晓宁 编辑丨岑 峰 当地时间 9 月 30 日，IROS 2026 主会在美国匹兹堡落下帷幕，本届大会的主要奖项也在最后一天正式揭晓。 AI科技 在现场获悉，今年的 Best Paper Award 最终颁给了一项关于机器人“长期记忆”的研究。Yumin Lee、Hyoseok Ju 和 Gise…",
       "url": "https://www.leiphone.com/category/private/VYRZFCnadDOcPDeX.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "研究了1933篇 IROS 论文，我们看到了机器人学的六项新变化",
-      "source_name": "雷峰网",
-      "category": "泛具身产业链",
-      "summary": "大模型并没有“吃掉”机器人学。 作者丨 马晓宁 编辑丨岑 峰 9月27日，IROS 2026 将在匹兹堡开幕。重隔31年后，IROS 重回这座钢铁之城。 作为全球规模最大的机器人学术会议之一，今年进入正式议程的论文达到 1933 篇。把这近两千篇论文铺开来看，它更像是一张 2026 年机器人研究的横截面：从强化学习、模仿学习，到路径规划、视觉感知、运动控制…",
-      "url": "https://www.leiphone.com/category/private/wEpCJ4T8v9cJFgCn.html"
-    },
-    {
-      "date": "10-08",
-      "company": "银河通用",
-      "title": "银河通用&清华 LATENT：用「不完美人类数据」让机器人学会网球对打 | IROS 2026",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "summary": "5小时动作碎片，最后变成了机器人的身体直觉。 作者丨 吴思梦 编辑丨 岑 峰 马晓宁 如果你玩过《Mario Tennis》或者《TopSpin》，大概不会觉得打网球是一件特别复杂的事。 球飞过来，移动人物，判断落点，在合适的时机按下击球键。 尤其在《Mario Tennis Aces》里，游戏甚至把网球进一步拆成了一套很直观的动作语言：正手、反手、上旋、切…",
-      "url": "https://www.leiphone.com/category/private/HkC1hSwn255e7hL9.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "吴佳俊 IROS 2026 演讲：结构化表征不是答案， 是机器人学会推理的脚手架 | IROS 2026",
-      "source_name": "雷峰网",
-      "category": "泛具身产业链",
-      "summary": "从结构化表征到无演示学习之路。 作者丨 吴思梦 编辑丨岑 峰 一个盘子，一只水龙头，一小团蓝色的洗洁精。 吴佳俊用这样一个几乎没有技术含量的厨房场景，开始了他在 IROS 2026 的演讲。 一个学生挤了洗洁精，打开水龙头，洗了一半，临时离开。现在，换成机器人接手。第一眼看过去，任务直接明确：把盘子洗干净，再放回去。但机器人真正需要处理的，并不是“洗盘子”这…",
-      "url": "https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "对话如祺出行COO韩锋：世界模型越强，真实数据才是真壁垒",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "过去一年，“物理AI”几乎成了自动驾驶、车企共同争夺的下一张船票。 世界模型、具身大模型、机器人数据……众多公司从不同切入口布局物理AI，试图成为新风口之下的主角，相比之下，如祺出行选择了一条不那么显眼的路径，不自己训练大模型，而是尝试成为模型背后的数据基础设施。 实际上，如祺出行在2023年就开始思考，除了提供包括Robotaxi等出行服务，一家出行平台还…",
-      "url": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "从 Rollout 到权重同步：Mooncake 如何支撑高性能强化学习系统｜QCon上海",
-      "source_name": "InfoQ",
-      "category": "产品量产",
-      "summary": "QCon 上海站聚焦 AI Native 时代工程落地，覆盖 AI Infra、Agent Runtime、Loop Engineering 等九大关键技术方向，汇集百余实战案例。 AI Native 架构需重构系统边界与协作范式；Agent Runtime 是生产级智能体的基础设施底座；Loop Engineering 强调人机协同闭环的工程化度量与迭代…",
-      "url": "https://www.infoq.cn/article/akexM07HzNrRJzmjYNml?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "10-08",
-      "company": "Figure",
-      "title": "黄仁勋焦虑 AI 需求降温，曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 8 日消息，当地时间 7 日，据 The Information 援引一名知情人士消息称，英伟达曾讨论向人形机器人制造商 Figure 再投资 10 亿美元 （IT之家注：现汇率约合 67.12 亿元人民币） ，此前尚无报道披露这笔投资计划。Figure 寻求更多融资，投前估值约为 380 亿美元 （现汇率约合 2,550.73 亿元人民…",
-      "url": "https://www.ithome.com/1/010/387.htm"
-    },
-    {
-      "date": "10-08",
-      "company": "优必选",
-      "title": "优必选机器人再进车企：携手一汽-大众推进人形机器人在物流场景应用落地",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 10 月 8 日消息，优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试，同时构建示范应用场景，加速人形机器人在智能制造领域的部署与应用。 IT之家此前报道，优必选 Walker S Lite 此前已进入一汽-大众青岛分公司的国家级智能制造示范工厂进行车辆质检实训，与工厂自动化控制…",
-      "url": "https://www.ithome.com/1/010/376.htm"
-    },
-    {
-      "date": "10-08",
-      "company": "行业",
-      "title": "估值100亿美元！物理AI机器人公司「FieldAI」完成7亿美元融资",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "当整个行业都在比拼人形机器人的躯体性能，比拼关节力矩、奔跑速度、灵巧手的灵活度，一家美国初创公司跳出了硬件竞赛的漩涡。 根据海外媒体Business Insider披露的消息，物理AI企业FieldA",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30705646.html"
-    },
-    {
-      "date": "10-08",
-      "company": "行业",
-      "title": "IPO大军有望再添主力！北广两家机器人研发商完成股改",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "今年以来，机器人企业上市进程持续提速、赛道热度高涨。 近日，市场消息显示，蓝海机器人、他山科技已先后完成股改，国内机器人IPO大军有望再添两大主力选手。 蓝海机器人：深耕移动机器人及自动化仓储系统的研",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30705620.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "北醒李远：给机器造眼睛，与「自讨苦吃」的十一年|物理 AI 50人",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "summary": "作为中国发光学奠基人徐叙瑢院士的学生，十一年里，李远一直在做一件事：给机器造一双“眼睛”。 这些“眼睛”上天、下水、上路，装进了无人机、列车、汽车和各类机器人。 今天，当所有人开始讨论物理 AI，他也在重新思考：这双眼睛除了帮助机器看见，还能不能帮助机器理解世界。 从本科一路读到博士后，李远本想成为一名学者。2015年，他选择回国创业，创办北醒（Benewa…",
-      "url": "https://www.leiphone.com/category/robot/xhfZWtXZLLsnbNKt.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "至简动力冯宗宝：在间隙仅 0.5 毫米的真实场景下，实现机器人造机器人 | IROS 2026",
-      "source_name": "雷峰网",
-      "category": "泛具身产业链",
-      "summary": "具身智能从实验室走向真实工厂、迈向精密制造。 作者丨 邓哲敏 编辑丨 齐铖湧 你有没有想过，机器人也可以走进车间，亲手造出组装一台机器人所需要的零件？ 这听起来像个玩笑，实际却是具身智能最硬核的落地命题。机器人的关节、卡盘、精密结构件，无一不是靠 CNC（计算机数控）车床、铣床一道道加工出来的。如果机器人能自主照看这些机床，完成工件的抓取、上料、插入、取出与…",
-      "url": "https://www.leiphone.com/category/private/xCu836z16KSzx2Co.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "从家电龙头到“人形机器人第一股”：质量，成为广东产业链的公共底座",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "9月下旬，作者随市场监管总局组织的“高质量发展中国行·质量强县看担当”采风团走完广东线，三天时间穿行三座城：佛山顺德、深圳南山、广州黄埔。 在前一站浙江线的行程中（详情见： 从“世界小商品之都”到“数字经济第一区”，质量正在成为浙江的底色 ），质量更像一套嵌进市场毛细血管的制度；到了广东，主角换成了产业链。这里是中国制造业体量最大的省份，顺德有全球家电龙头和…",
-      "url": "https://www.tmtpost.com/8161267.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "为什么决定机器人能不能量产的，不是大脑，而是\"电子架构\"？",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "> 这是思维AI社的第142篇原创 全文约1520字，阅读时长预计5分钟 你有没有发现，现在评价一台人形机器人，大家比的都是它会不会翻跟头、能不能拧瓶盖、端咖啡洒不洒。 可这些都是\"看得见\"的本事。真正决 人形机器人",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30705915.html"
-    },
-    {
-      "date": "10-08",
-      "company": "宇树科技",
-      "title": "水下机器人Top10 : 谁能最终配得上「水下宇树」",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "潮涌AI编辑部 水下机器人这个赛道，过去一年正逐渐从机器人行业里最安静的角落之一，变成资本和订单同时找上门的地方。 作业级整机在海洋工程、水下巡检和应急救援场景中已达成批量交付，消费级产品开始进入课堂",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30705725.html"
     }
   ]
 }
