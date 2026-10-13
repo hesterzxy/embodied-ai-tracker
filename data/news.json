@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T21:44:30.892204+08:00",
+  "updated": "2026-10-14T06:24:23.847158+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 5,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "36氪",
@@ -53,7 +53,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 25,
-      "core": 3,
+      "candidates": 24,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 55,
       "periphery": 4,
-      "new": 23
+      "new": 19
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 8,
       "periphery": 1,
-      "new": 9
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -180,10 +180,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 6,
+      "candidates": 8,
       "core": 1,
-      "periphery": 0,
-      "new": 1
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -196,7 +196,7 @@
       "candidates": 11,
       "core": 6,
       "periphery": 3,
-      "new": 5
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,9 +220,9 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 23,
-      "periphery": 6,
-      "new": 3
+      "core": 22,
+      "periphery": 7,
+      "new": 4
     },
     {
       "name": "RoboHub",
@@ -241,30 +241,30 @@
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-13T21:44:43.083257+08:00",
+    "generated_at": "2026-10-14T06:24:33.374045+08:00",
     "mode": "aicodewith",
-    "item_count": 34,
+    "item_count": 36,
     "insights": [
       {
         "label": "落地验证转向可验收任务",
-        "text": "本周多条线索集中在工厂、维修、巡检等场景，宝维塔发布柔性制造与车载电子测试方案，勃肯特推出面向柔性产线的混动双臂协作机器人，云深处强调在真实场景中迭代技术；具身智能的展示重心正从通用人形表演转向可定义工序和闭环验收，短期商业化更可能先在产业现场形成标杆。",
+        "text": "本周具身智能的展示重点更多落在工厂、柔性产线、车载电子测试、巡检和科考等真实场景，宝维塔发布柔性制造解决方案，勃肯特推出混动双臂协作机器人HS-Pro，云深处机器狗进入哀牢山科考；相比单纯人形展示，企业更倾向用明确工序和现场任务证明能力，短期商业化会优先发生在边界清晰、结果可验收的场景。",
         "evidence_urls": []
       },
       {
-        "label": "模型叙事开始接受真实任务检验",
-        "text": "上海具身智能技能大赛检阅赛将基于工信部征集的千余条应用场景数据，设置9大赛道和23份企业真实考卷，同时DeepSeek相关资本布局具身大脑、悟界发布世界模型；基础模型仍在升温，但评价方式正更多绑定真实岗位任务，企业能力差异会在数据采集、任务泛化和现场执行中被放大。",
+        "label": "模型叙事进入真实数据闭环",
+        "text": "上海国际具身智能技能大赛检阅赛基于工信部征集的千余条应用场景数据设置9大赛道和23份企业真实考卷，同时DeepSeek相关资本开始关注具身大脑方向，阿里发布面向长程智能体任务的在线强化学习框架；模型能力正从参数和演示叙事转向真实任务、数据采集和评测闭环，能否在岗位任务中稳定完成动作将成为更关键的验证标准。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景清晰与能力补齐",
-        "text": "欧拉万象半年内完成四轮融资并聚焦家庭机器人，视塔机器人获得华为哈勃、深高新投旗下基金等天使轮投资，双派机器人完成适老化智能出行机器人A+轮融资；资金仍在进入具身智能，但叙事从单纯Demo转向家庭服务、视觉能力、适老出行等更可描述的场景和模块，后续融资兑现压力会更依赖产品定义与交付节奏。",
+        "label": "资本偏好能力补齐与场景定义",
+        "text": "欧拉万象半年完成四轮融资并聚焦家庭机器人，视塔机器人完成华为哈勃等参与的天使轮融资，Ubitium获得1400万美元融资用于物理AI通用处理器；与此同时环动IPO撤单、深兰破产等案例被讨论，资金仍在进入具身智能，但更集中投向可定义应用场景、核心部件或计算能力补齐，单纯Demo驱动的融资逻辑承压。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧仍围绕具身大脑、世界模型和工业智能体展开，上海检阅赛引入千余条场景数据与企业考卷，模型能力开始被真实任务组织起来验证。",
+        "summary": "技术侧围绕具身大脑、世界模型和真实任务评测展开，Winverse AI、RoboBrain Orca、上海技能大赛等信息显示，模型能力正在被放入场景数据和岗位任务中检验。",
         "items": [
           {
             "date": "10-13",
@@ -298,7 +298,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品发布覆盖扫拖机器人、人形机器人、工业机器人和长程智能体框架，小鹏提出年底量产人形机器人，工博会展品强调更快部署与工业落地。",
+        "summary": "产品发布覆盖人形机器人、扫拖机器人、工业机器人和灵巧手，小鹏提出年底量产人形机器人，慧灵以9999元发布20自由度灵巧手，价格和交付节奏开始参与能力验证。",
         "items": [
           {
             "date": "10-13",
@@ -388,7 +388,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业侧一边出现遥操作数据采集、实景实训和真实岗位考核，一边有媒体质疑订单水分，行业对订单真实性和应用闭环的审视明显加强。",
+        "summary": "商业侧同时出现数据采集合作、真实场景试炼与订单水分质疑，大朋RoboPilot适配宇树双臂机器人，云深处强调实景闭环，行业对可核验订单的要求提高。",
         "items": [
           {
             "date": "10-13",
@@ -403,6 +403,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30706745.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-13",
+            "title": "Scan Computers 与 OLO Robotics 合作，让先进机器人更易部署 (Scan Computers partners with OLO Robotics to make advanced robots easier to implement)",
+            "url": "https://roboticsandautomationnews.com/2026/10/13/scan-computers-partners-with-olo-robotics-to-make-advanced-robots-easier-to-implement/105877/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-12",
@@ -422,7 +429,7 @@
       },
       {
         "category": "资本动态",
-        "summary": "融资事件集中在家庭机器人、视觉机器人、适老化出行机器人等方向，云深处IPO、环动撤单和深兰破产等消息共同压缩纯Demo叙事空间。",
+        "summary": "融资集中在家庭机器人、视觉机器人、适老化出行机器人和物理AI芯片等方向，欧拉万象、视塔机器人、双派机器人、Ubitium获投，但IPO撤单和破产案例提示分化加剧。",
         "items": [
           {
             "date": "10-13",
@@ -453,6 +460,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "10-13",
+            "title": "Ubitium 融资 1400 万美元，打造“首款面向物理 AI 的通用处理器 (Ubitium raises $14 million to build ‘first universal processor for physical AI’)",
+            "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/",
+            "company": "行业",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-12",
             "title": "「双派机器人」完成A+轮融资！越疆机器人、云深处、视比特等公司资方投了",
             "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706654.html",
@@ -477,7 +491,7 @@
       },
       {
         "category": "行业动态",
-        "summary": "行业活动从工博会新品、科考机器人、机器人赛事到海外住宅建造物理AI合作展开，柔性产线、野外巡检和家庭任务成为更常被讨论的落地入口。",
+        "summary": "行业活动和场景探索活跃，工博会新品、云深处山地科考、住宅建造物理AI合作、机器人赛事动作捕捉等案例并行，具身智能应用边界继续向工业、户外和建筑延伸。",
         "items": [
           {
             "date": "10-13",
@@ -685,6 +699,24 @@
       "category": "行业动态",
       "summary": "Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction. The post appeared first on The Robot Report…",
       "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/"
+    },
+    {
+      "date": "10-13",
+      "company": "行业",
+      "title": "Ubitium 融资 1400 万美元，打造“首款面向物理 AI 的通用处理器 (Ubitium raises $14 million to build ‘first universal processor for physical AI’)",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Ubitium, a semiconductor startup building a “universal processor” for machines that perceive, think and act in the real world, has announced $14 million in new seed funding. The ro…",
+      "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/"
+    },
+    {
+      "date": "10-13",
+      "company": "其他",
+      "title": "Scan Computers 与 OLO Robotics 合作，让先进机器人更易部署 (Scan Computers partners with OLO Robotics to make advanced robots easier to implement)",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "Scan Computers has entered into a partnership with Sheffield-based OLO Robotics, combining Scan’s robotics hardware, AI infrastructure and technical expertise with OLO’s browser-ba…",
+      "url": "https://roboticsandautomationnews.com/2026/10/13/scan-computers-partners-with-olo-robotics-to-make-advanced-robots-easier-to-implement/105877/"
     },
     {
       "date": "10-12",
@@ -964,24 +996,6 @@
       "category": "资本动态",
       "summary": "《科创板日报》10日讯，墨现科技（东莞）有限公司（简称“墨现科技”）近日已完成数千万元产业轮融资，投资方包括自变量机器人、松山湖产投以及某头部具身智能公司，老股东清水湾基金继续加注。按照他们的计划，本轮资金将用于新一代数采手套研发迭代、供应链体系优化及量产能力建设。随着产品从机器人触觉传感器延伸到数据采集设备，墨现科技正在进一步建设产品制造和交付能力",
       "url": "https://www.robot-china.com/news/202610/10/96935.html"
-    },
-    {
-      "date": "10-10",
-      "company": "银河通用",
-      "title": "百度、银河通用机器人等入股简智机器人",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "近日，简智机器人关联公司简智新创(北京)机器人科技有限公司发生工商变更，新增北京百度网讯科技有限公司、银河通用机器人旗下苏州盖博特科技有限公司等为股东。同时，公司注册资本由约19.3万元人民币增至约1052.4万元人民币。公开资料显示，简智新创(北京)机器人科技有限公司成立于2025年5月，法定代表人为陈建兴，经营范围包括服务消费机器人制造与销售、工业机器人…",
-      "url": "https://www.robot-china.com/news/202610/10/96933.html"
-    },
-    {
-      "date": "10-10",
-      "company": "其他",
-      "title": "OpenWAM统一视频预测与机器人控制，发布方自测LIBERO平均成功率98.6%",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "OpenWAM研究团队推出世界—动作模型框架，将视频预测与机器人控制放在共同架构中，支持比较“先预测画面再行动”等不同生成方式。项目要解决的问题是：现有系统采用不同的主干、数据集和训练方法，难以判断预测与控制如何配合更有效。团队同时提供训练、评估及视频到动作组合代码，并开放预训练视频模型权重。先学视频，再接入动作据项目页介绍，OpenWAM从Wan2.2-5…",
-      "url": "https://www.robot-china.com/news/202610/10/96932.html"
     }
   ]
 }
