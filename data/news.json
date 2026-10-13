@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T22:39:32.894085+08:00",
+  "updated": "2026-10-13T08:15:28.010328+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 12,
-      "core": 2,
+      "entries": 19,
+      "candidates": 14,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 4,
+      "entries": 15,
+      "candidates": 6,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 19,
-      "core": 2,
+      "entries": 58,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 57,
       "periphery": 0,
-      "new": 17
+      "new": 14
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 22,
       "core": 9,
       "periphery": 0,
-      "new": 9
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -157,7 +157,7 @@
       "candidates": 20,
       "core": 15,
       "periphery": 2,
-      "new": 3
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
+      "candidates": 12,
       "core": 6,
-      "periphery": 4,
-      "new": 6
+      "periphery": 3,
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -206,7 +206,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 14,
+      "candidates": 15,
       "core": 9,
       "periphery": 1,
       "new": 0
@@ -235,36 +235,36 @@
       "candidates": 69,
       "core": 19,
       "periphery": 7,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-12T22:39:41.054629+08:00",
+    "generated_at": "2026-10-13T08:15:35.326934+08:00",
     "mode": "aicodewith",
-    "item_count": 14,
+    "item_count": 16,
     "insights": [
       {
-        "label": "落地验证转向可验收场景",
-        "text": "国家发展改革委提出以具身智能实训场和应用中试基地推动真实场景迭代，云深处相关报道也强调在实景试炼中形成应用闭环，工厂、维修、巡检等任务更容易用结果验收，短期落地节奏会更多围绕明确需求而不是泛化展示展开。",
+        "label": "落地验证转向真实岗位",
+        "text": "本周商业侧证据集中指向实景考核，IEIC国际具身智能技能大赛将用真实岗位任务检验机器人落地能力，国家发改委也提出以实训场和应用中试基地推动真实场景迭代，行业评价口径正从展示性能转向工厂、维修、巡检等可验收任务。",
         "evidence_urls": []
       },
       {
-        "label": "量产叙事开始绑定价格与工艺",
-        "text": "人形机器人出货被多家机构判断正在放量，但统计口径仍有明显差异；同时慧灵科技发布9999元20自由度灵巧手、越擎科技推出面向激光切割的视觉编程系统、小米扫拖机器人7 Max以4999元起预售，产品能力正在通过价格、自由度、工艺适配等可比较指标接受市场检验。",
+        "label": "资本偏好更具体的场景解法",
+        "text": "欧拉万象完成数亿元天使轮+融资，双派机器人完成A+轮融资，分别对应家庭机器人和适老化智能出行等明确场景；与此同时，浙江环动机器人关节科技股份有限公司科创板IPO终止，融资分化使单纯Demo或泛零部件叙事更难获得持续认可。",
         "evidence_urls": []
       },
       {
-        "label": "资本偏向场景清晰的能力补齐",
-        "text": "欧拉万象完成数亿元天使轮+融资，双派机器人完成A+轮融资且聚焦适老化智能出行机器人，近期资金并未只追逐通用人形概念，而是更愿意投向家庭、适老化等边界相对明确的应用方向，以及可补齐场景能力的公司。",
+        "label": "价格与量产进入能力评估",
+        "text": "慧灵科技发布9999元20自由度灵巧手，小米米家扫拖机器人7 Max以4999元起开启预售，越擎科技发布面向机器人激光切割的视觉编程系统，产品开始把成本、交付形态和特定工艺卡点纳入竞争，量产可用性成为技术能力的一部分。",
         "evidence_urls": []
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧本周主要围绕世界模型展开，王鹏伟发布悟界·RoboBrain Orca，并提出当下世界模型仍只学到片面的世界，显示具身智能基础模型仍处于能力边界探索阶段。",
+        "summary": "本周技术突破信息较少，主要是悟界·RoboBrain Orca世界模型亮相，并伴随对现有世界模型片面性的讨论，仍偏方法与认知框架展示，缺少可量化场景验证。",
         "items": [
           {
             "date": "10-12",
@@ -277,7 +277,7 @@
       },
       {
         "category": "产品量产",
-        "summary": "产品量产消息密集，覆盖小米扫拖机器人预售、小鹏人形机器人量产计划、慧灵灵巧手、越擎激光切割视觉编程系统以及思灵工博会展品，价格、交付时间和工艺适配成为主要看点。",
+        "summary": "产品量产侧覆盖人形机器人、灵巧手、扫拖机器人和工业软件，小鹏披露年底量产计划，慧灵、小米、越擎发布具体产品，价格、交付时间和工艺适配成为更显性的卖点。",
         "items": [
           {
             "date": "10-12",
@@ -339,7 +339,7 @@
       },
       {
         "category": "商业订单",
-        "summary": "商业落地证据集中在真实场景验证，国家发展改革委强调以实训场和中试基地推动机器人围绕真实需求迭代，云深处案例则体现产业落地逻辑正从演示走向应用闭环。",
+        "summary": "商业订单信息更接近实景验证安排，IEIC检阅赛将用真实岗位任务考核落地能力，云深处案例呼应实训场和中试基地导向，订单证据不多但场景约束更清晰。",
         "items": [
           {
             "date": "10-12",
@@ -347,12 +347,19 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8120-30706544.html",
             "company": "云深处",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-12",
+            "title": "产业出题，科技答题：2026 IEIC国际具身智能技能大赛，用真实岗位任务考核机器人落地能力",
+            "url": "https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           }
         ]
       },
       {
         "category": "资本动态",
-        "summary": "资本动态包括欧拉万象数亿元天使轮+融资和双派机器人A+轮融资，投资方向分别指向家庭机器人与适老化智能出行，资金更关注可定义用户与可落地场景。",
+        "summary": "资本动态呈现冷热并存，欧拉万象获数亿元天使轮+融资，双派机器人完成A+轮融资，环动机器人IPO终止；资金更愿意押注家庭、适老化等可定义场景。",
         "items": [
           {
             "date": "10-12",
@@ -367,12 +374,19 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321203-8420-30706647.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-12",
+            "title": "环动IPO撤单、深兰破产：具身智能的“Demo时代”正在关闸",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30706523.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
           }
         ]
       },
       {
         "category": "行业动态",
-        "summary": "行业动态一方面出现迪生数字成为众擎URKL赛事动作捕捉合作伙伴，另一方面讨论人形机器人从冲刺、拳击转向洗衣等日常任务考验，行业评价标准更贴近日常实用性。",
+        "summary": "行业动态一方面出现众擎URKL引入迪生数字作为动作捕捉合作伙伴，另一方面讨论人形机器人从冲刺、拳击转向洗衣等日常任务，竞技展示与真实能力边界并存。",
         "items": [
           {
             "date": "10-12",
@@ -518,6 +532,24 @@
       "category": "行业动态",
       "summary": "By Wai-keung Fung, Cardiff Metropolitan University At the recent World Humanoid Robot Games 2026 in Beijing, robots sprinted, boxed, played football and tackled tasks inspired by f…",
       "url": "https://robohub.org/humanoid-robots-can-sprint-and-box-but-the-real-test-is-doing-the-laundry/"
+    },
+    {
+      "date": "10-12",
+      "company": "其他",
+      "title": "产业出题，科技答题：2026 IEIC国际具身智能技能大赛，用真实岗位任务考核机器人落地能力",
+      "source_name": "雷峰网",
+      "category": "商业订单",
+      "summary": "实景比拼赋能科创，助力人形机器人技术规模化落地！ 编辑丨李希 为深入贯彻落实工业和信息化部、国务院国资委《 2026年度人形机器人与具身智能实景实训专项行动》部署，加快推动我国机器人与具身智能技术创新突破与规模化落地，国际具身智能技能大赛检阅赛将于2026年10月23日至25日在上海举行。大赛以「劳动最光荣，选最能干活的机器劳模」为口号，坚持产业出题、科技答…",
+      "url": "https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html"
+    },
+    {
+      "date": "10-12",
+      "company": "行业",
+      "title": "环动IPO撤单、深兰破产：具身智能的“Demo时代”正在关闸",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "9月21日，上交所官网更新了一条信息：浙江环动机器人关节科技股份有限公司科创板IPO终止。这家筹备近三年、由双环传动分拆的RV减速器企业，在经历两轮问询后主动撤单。 三天前，上海浦东法院披露了深兰机器",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30706523.html"
     },
     {
       "date": "10-11",
@@ -824,24 +856,6 @@
       "category": "技术突破",
       "summary": "11月26日至28日，高交会·亚洲机器人产业链展将在深圳国际会展中心（宝安）12号馆举办。本届高交会由深圳市人民政府主办，深圳振威国际展览有限公司承办。宇树科技、云深处、加速进化、松延动力、鹿明机器人、灵心巧手、因时机器人、新益昌机器人等八家代表性企业已确认参展，参展阵容覆盖人形机器人与四足机器人本体、运动控制、灵巧手、关节模组、精密执行器、具身智能开发平台…",
       "url": "https://www.robot-china.com/news/202610/09/96918.html"
-    },
-    {
-      "date": "10-09",
-      "company": "其他",
-      "title": "启元机器人全球首店落地上海，Q1、T1 进入线下销售",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "9 月 28 日消息，据界面新闻今日报道，启元机器人全球首家线下门店在上海淮海中路开业，门店面积约 355 平方米，提供产品展示、销售及互动体验等服务。此前，启元已于 9 月 20 日发售 Q1、T1 两款个人机器人。目前，启元机器人已在广州、深圳、西安、厦门、杭州、武汉等城市布局线下体验店，开始拓展个人机器人的线下零售渠道。IT之家注意到，在 9 月 20…",
-      "url": "https://www.robot-china.com/news/202610/09/96911.html"
-    },
-    {
-      "date": "10-08",
-      "company": "其他",
-      "title": "IROS 2026大奖揭晓：长期记忆拿下最佳论文，人形机器人打网球、端托盘双双获奖",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "在机器人领域，一个更大的模型并不能自动解决所有问题。 作者丨马晓宁 编辑丨岑 峰 当地时间 9 月 30 日，IROS 2026 主会在美国匹兹堡落下帷幕，本届大会的主要奖项也在最后一天正式揭晓。 AI科技 在现场获悉，今年的 Best Paper Award 最终颁给了一项关于机器人“长期记忆”的研究。Yumin Lee、Hyoseok Ju 和 Gise…",
-      "url": "https://www.leiphone.com/category/private/VYRZFCnadDOcPDeX.html"
     }
   ]
 }
