@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T00:28:49.460913+08:00",
+  "updated": "2026-10-16T05:02:06.855523+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 59,
       "candidates": 19,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 53,
       "periphery": 4,
-      "new": 16
+      "new": 15
     },
     {
       "name": "甲子光年",
@@ -168,7 +168,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 9,
+      "core": 8,
       "periphery": 1,
       "new": 6
     },
@@ -183,7 +183,7 @@
       "candidates": 9,
       "core": 2,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 4,
-      "periphery": 2,
-      "new": 3
+      "candidates": 7,
+      "core": 2,
+      "periphery": 1,
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-16T00:28:49.645867+08:00",
+    "generated_at": "2026-10-16T05:02:06.979491+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
