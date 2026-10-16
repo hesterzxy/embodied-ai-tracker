@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-16T05:02:06.855523+08:00",
+  "updated": "2026-10-16T11:29:44.266850+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 4,
       "core": 2,
       "periphery": 0,
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 19,
-      "core": 0,
+      "entries": 58,
+      "candidates": 14,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 53,
       "periphery": 4,
-      "new": 15
+      "new": 14
     },
     {
       "name": "甲子光年",
@@ -115,10 +115,10 @@
       "attempts": 1,
       "error": "",
       "entries": 34,
-      "candidates": 10,
-      "core": 9,
+      "candidates": 11,
+      "core": 10,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -128,10 +128,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 20,
+      "candidates": 22,
       "core": 5,
-      "periphery": 0,
-      "new": 2
+      "periphery": 1,
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -154,10 +154,10 @@
       "attempts": 1,
       "error": "",
       "entries": 26,
-      "candidates": 23,
+      "candidates": 24,
       "core": 14,
       "periphery": 4,
-      "new": 8
+      "new": 6
     },
     {
       "name": "The Robot Report",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 6,
       "core": 2,
       "periphery": 1,
-      "new": 1
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-16T05:02:06.979491+08:00",
+    "generated_at": "2026-10-16T11:29:44.353436+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -278,6 +278,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "10-16",
+            "title": "张一鸣的世界模型，藏不住了",
+            "url": "https://www.tmtpost.com/8170379.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "10-15",
             "title": "数据驱动的具身智能：迈向规模化之路｜QCon 上海",
@@ -355,6 +362,13 @@
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
+            "date": "10-16",
+            "title": "特斯拉能飞：第二代 Roadster 预订意向金 33.2 万元起，马斯克宣布 2028 年量产",
+            "url": "https://www.ithome.com/1/013/748.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
             "date": "10-15",
             "title": "特斯拉Optimus万圣节预告露底牌：V3灵巧手22自由度，卡量产的关键环节",
             "url": "https://robot.ofweek.com/2026-10/ART-8321201-8110-30707178.html",
@@ -423,13 +437,6 @@
             "url": "https://www.robot-china.com/news/202610/13/96956.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-13",
-            "title": "ABB机器人亮相2026工博会，展示模仿学习、视觉与智能体AI前瞻技术",
-            "url": "https://www.gongkong.com/news/202610/453783.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       },
@@ -437,6 +444,13 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "10-16",
+            "title": "苏州机器人零部件研发商，拿下十万台亿元订单！",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30707402.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-15",
             "title": "“芯片筑基，工业向智”2026工博会具身智能商业化落地生态大会圆满举行！",
@@ -457,20 +471,6 @@
             "url": "https://www.robot-china.com/news/202610/13/96953.html",
             "company": "宇树科技",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-13",
-            "title": "财经、蓝鲸、福布斯同日开炮：具身智能订单里的水分得挤一挤",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30706745.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-13",
-            "title": "Scan Computers 与 OLO Robotics 合作，让先进机器人更易部署 (Scan Computers partners with OLO Robotics to make advanced robots easier to implement)",
-            "url": "https://roboticsandautomationnews.com/2026/10/13/scan-computers-partners-with-olo-robotics-to-make-advanced-robots-easier-to-implement/105877/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -478,6 +478,13 @@
         "category": "资本动态",
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
+          {
+            "date": "10-16",
+            "title": "宇树启动打新：机器人公司上市首日，市场都在买什么",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30707387.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-15",
             "title": "哈工深唯一持股的机器人大脑公司，刚拿下亿元融资！",
@@ -533,13 +540,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321203-12005-30706752.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-13",
-            "title": "Ubitium 融资 1400 万美元，打造“首款面向物理 AI 的通用处理器 (Ubitium raises $14 million to build ‘first universal processor for physical AI’)",
-            "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/",
-            "company": "行业",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -547,6 +547,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-16",
+            "title": "马斯克为Optimus机器人砍掉一半内存: AI5内存砍半，AI6砍三分之一",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8110-30707359.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-15",
             "title": "全球首发：万拿NOVA21灵巧手，拓展灵巧操作研究边界",
@@ -630,13 +637,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321206-8470-30706746.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-13",
-            "title": "Promise Robotics 与 D.R. Horton 合作，将物理 AI 用于住宅建造 (Promise Robotics partners with D.R. Horton on physical AI for homebuilding)",
-            "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -663,6 +663,51 @@
     ]
   },
   "items": [
+    {
+      "date": "10-16",
+      "company": "其他",
+      "title": "张一鸣的世界模型，藏不住了",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "没有任何预热，一条小红书笔记在科技圈广泛传开。博主橘AI写道，他去了影视飓风，Tim演示了字节最新的世界模型：造一个世界，并与之互动。把老电影当作一个世界模型，随意控制运镜；打开任意门，进入梦想中的世界；让机器人在虚拟世界里学会操作，包括自动驾驶；戴上VR眼镜，让医生这样的职业模拟学习。 这条笔记没有提任何模型的名字，字节也没有官宣。但1个月前，就有知情人士…",
+      "url": "https://www.tmtpost.com/8170379.html"
+    },
+    {
+      "date": "10-16",
+      "company": "特斯拉",
+      "title": "特斯拉能飞：第二代 Roadster 预订意向金 33.2 万元起，马斯克宣布 2028 年量产",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 16 日消息，今天（16 日）上午的特斯拉第二代 Roadster 发布会上，车辆演示了短时间的“飞行”效果。马斯克宣布，新车将于 2028 年开始生产 。 目前，该车已在特斯拉官网开放预订，Performance 版本预订意向金为 33.2 万元 。根据介绍，此版本可在公共道路上行驶，可乘坐两人，配备 主动空气动力学系统和多模式吸气系统…",
+      "url": "https://www.ithome.com/1/013/748.htm"
+    },
+    {
+      "date": "10-16",
+      "company": "宇树科技",
+      "title": "宇树启动打新：机器人公司上市首日，市场都在买什么",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "宇树打新火热，610亿元市值装进多少期待？ 8月10日，宇树科技正式启动科创板打新，网上申购代码为787836，股票代码为688836。根据发行公告，公司最终确定发行价为每股150.80元，对应发行市",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30707387.html"
+    },
+    {
+      "date": "10-16",
+      "company": "其他",
+      "title": "苏州机器人零部件研发商，拿下十万台亿元订单！",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "日前，苏州卓誉电气技术有限公司（简称“卓誉科技”）宣布，该公司成功斩获国家级客户十万台行星关节模组批量采购订单，合同执行金额超亿元。 与此同时，卓誉科技同步布局产能——2027 年关节模组产能可达二百",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30707402.html"
+    },
+    {
+      "date": "10-16",
+      "company": "特斯拉",
+      "title": "马斯克为Optimus机器人砍掉一半内存: AI5内存砍半，AI6砍三分之一",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "10月2日，马斯克在X上发了一条推文。内容不复杂：特斯拉将AI5芯片的RAM从144GB砍到72GB，直接减半；AI6芯片从216GB降到144GB，砍掉三分之一。带宽不变，性能影响“可以忽略”。 但",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8110-30707359.html"
+    },
     {
       "date": "10-15",
       "company": "特斯拉",
@@ -1067,51 +1112,6 @@
       "category": "行业动态",
       "summary": "在第26届工博会上，宇树科技创始人王兴兴说了一句话：“过去十几年我犯的最大的错误，就是对AI的相信还不太够。” 这话从一个机器人硬件出身的创始人嘴里说出来，分量不轻。王兴兴做机器人做了十几年，从四足到",
       "url": "https://robot.ofweek.com/2026-10/ART-8321206-8470-30706746.html"
-    },
-    {
-      "date": "10-13",
-      "company": "其他",
-      "title": "财经、蓝鲸、福布斯同日开炮：具身智能订单里的水分得挤一挤",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "10月10日，三家媒体同时开炮。 《财经》发了一篇深度调查，标题叫《数采商眼里的具身智能：层层倒卖与虚假订单》。蓝鲸新闻跟进，标题更直接：《谁在给人形机器人的“进厂”故事注水》。福布斯甩出第三篇，对准",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321206-8420-30706745.html"
-    },
-    {
-      "date": "10-13",
-      "company": "其他",
-      "title": "ABB机器人亮相2026工博会，展示模仿学习、视觉与智能体AI前瞻技术",
-      "source_name": "中国工控网机器人",
-      "category": "产品量产",
-      "summary": "在第26届中国国际工业博览会（CIIF 2026）上，ABB机器人集中展示了涵盖先进仿真、AI视觉的全栈软件工具链以及高柔性机器人产品阵容，全面呈现工业级物理AI演进路径。ABB机器人将在8.1号馆E001展位重磅展出一系列自主多功能机器人（AVR™），实现更快部署、简易适配，规模化落地更有保障。 标签： 物理AI <a href=\"//tags.gongk…",
-      "url": "https://www.gongkong.com/news/202610/453783.html"
-    },
-    {
-      "date": "10-13",
-      "company": "其他",
-      "title": "Promise Robotics 与 D.R. Horton 合作，将物理 AI 用于住宅建造 (Promise Robotics partners with D.R. Horton on physical AI for homebuilding)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Promise Robotics has signed a multi-year partnership with America's largest homebuilder by volume to bring physical AI to construction. The post appeared first on The Robot Report…",
-      "url": "https://www.therobotreport.com/promise-robotics-partners-d-r-horton-physical-ai-homebuilding/"
-    },
-    {
-      "date": "10-13",
-      "company": "行业",
-      "title": "Ubitium 融资 1400 万美元，打造“首款面向物理 AI 的通用处理器 (Ubitium raises $14 million to build ‘first universal processor for physical AI’)",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Ubitium, a semiconductor startup building a “universal processor” for machines that perceive, think and act in the real world, has announced $14 million in new seed funding. The ro…",
-      "url": "https://roboticsandautomationnews.com/2026/10/13/ubitium-raises-14-million-to-build-first-universal-processor-for-physical-ai/105882/"
-    },
-    {
-      "date": "10-13",
-      "company": "其他",
-      "title": "Scan Computers 与 OLO Robotics 合作，让先进机器人更易部署 (Scan Computers partners with OLO Robotics to make advanced robots easier to implement)",
-      "source_name": "Robotics & Automation News",
-      "category": "商业订单",
-      "summary": "Scan Computers has entered into a partnership with Sheffield-based OLO Robotics, combining Scan’s robotics hardware, AI infrastructure and technical expertise with OLO’s browser-ba…",
-      "url": "https://roboticsandautomationnews.com/2026/10/13/scan-computers-partners-with-olo-robotics-to-make-advanced-robots-easier-to-implement/105877/"
     }
   ]
 }
