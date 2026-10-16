@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T00:14:34.668872+08:00",
+  "updated": "2026-10-17T04:37:47.919615+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -50,8 +50,8 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 5,
-      "core": 3,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 58,
       "periphery": 0,
-      "new": 17
+      "new": 16
     },
     {
       "name": "甲子光年",
@@ -169,8 +169,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 8,
-      "periphery": 1,
-      "new": 6
+      "periphery": 0,
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -180,10 +180,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 9,
-      "core": 2,
-      "periphery": 1,
-      "new": 2
+      "candidates": 10,
+      "core": 3,
+      "periphery": 2,
+      "new": 4
     },
     {
       "name": "Robotics & Automation News",
@@ -193,9 +193,9 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 6,
       "core": 4,
-      "periphery": 1,
+      "periphery": 0,
       "new": 2
     },
     {
@@ -222,7 +222,7 @@
       "candidates": 30,
       "core": 22,
       "periphery": 7,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-17T00:14:34.881879+08:00",
+    "generated_at": "2026-10-17T04:37:48.047180+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -590,6 +590,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "10-16",
+            "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+            "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
+            "company": "其他",
+            "source_name": "TechCrunch Robotics"
+          },
+          {
             "date": "10-15",
             "title": "全球首发：万拿NOVA21灵巧手，拓展灵巧操作研究边界",
             "url": "https://www.leiphone.com/category/industrynews/ep1fzlxxZTkWwo67.html",
@@ -630,13 +637,6 @@
             "url": "https://www.tmtpost.com/8168516.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "10-14",
-            "title": "Timken Precision Drives 优先解决人形机器人的运动难题 (Timken Precision Drives puts the motion challenge first in humanoid robots)",
-            "url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -842,6 +842,15 @@
       "category": "技术突破",
       "summary": "10月12日至16日，2026中国国际工业博览会（CIIF）在上海举行。作为本届工博会的官方环节之一，第十二届中国机器人高峰论坛暨第九届CEO圆桌峰会于10月13日下午同期举办。它石智航联合创始人兼首席架构师陈同庆博士应邀出席，系统性阐释公司从基座模型到规模落地的具身智能工业化路径。从具身基座模型到产线落地，具身大脑正在越用越聪明陈同庆指出，当前工业自动化正…",
       "url": "https://www.robot-china.com/news/202610/16/97012.html"
+    },
+    {
+      "date": "10-16",
+      "company": "其他",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "source_name": "TechCrunch Robotics",
+      "category": "行业动态",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks lik…",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
     },
     {
       "date": "10-15",
@@ -1103,15 +1112,6 @@
       "category": "泛具身产业链",
       "summary": "随着具身智能加速发展，面向人形机器人与轮式双臂平台的机械臂产品不断涌现。自由度、负载、精度与力控能力，成为产品展示和选型的重要指标。这些指标拓展着机器人的操作能力，也让行业走到一个新的关口：当AI开始进入真实任务，手臂能否在长期、重复、复杂的使用中，持续发挥这些能力？理解“把连接器插入接口”，与真正完成插接之间，隔着一系列具体问题。接近目标时要避开设备，接触…",
       "url": "https://www.robot-china.com/news/202610/14/96992.html"
-    },
-    {
-      "date": "10-14",
-      "company": "其他",
-      "title": "Timken Precision Drives 优先解决人形机器人的运动难题 (Timken Precision Drives puts the motion challenge first in humanoid robots)",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Timken combines the expertise of Cone Drive, SPINEA, CGI Motion, and Timken Encoders to develop application-specific motion systems. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/timken-precision-drives-puts-motion-challenge-first-humanoid-robots/"
     }
   ]
 }
