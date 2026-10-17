@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-17T11:20:16.987052+08:00",
+  "updated": "2026-10-17T18:17:45.963703+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 6,
+      "candidates": 5,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 3,
-      "core": 0,
+      "entries": 17,
+      "candidates": 2,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 18,
+      "entries": 60,
+      "candidates": 17,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -157,7 +157,7 @@
       "candidates": 26,
       "core": 17,
       "periphery": 3,
-      "new": 11
+      "new": 12
     },
     {
       "name": "The Robot Report",
@@ -241,17 +241,17 @@
   "weekly_report": {
     "start": "10-12",
     "end": "10-18",
-    "generated_at": "2026-10-17T11:20:17.174940+08:00",
+    "generated_at": "2026-10-17T18:17:46.072672+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，睿尔曼智能正式发布全新产品——ECO62超紧凑嵌入式六轴机械臂；SZ）旗下机器人公司德迩象网等多家知名智能制造及现代物流企业达成深度战略合作。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，10月16日，工业自动化初创公司MicroFactory创始人披露，据其自述，在单次客户部署项目中，团队采用通用大模型生成控制方案、专用程序执行作业的路线；近日，睿尔曼智能正式发布全新产品——ECO62超紧凑嵌入式六轴机械臂。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
+          "https://www.tmtpost.com/8171971.html",
           "https://www.robot-china.com/news/202610/16/97008.html",
-          "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html",
-          "https://www.tmtpost.com/8168453.html"
+          "https://www.leiphone.com/category/industrynews/sDAmOLZ58Kpz8ZlD.html"
         ]
       },
       {
@@ -368,13 +368,6 @@
             "url": "https://www.infoq.cn/article/ZqJq0uHBPvvEewkc0ZFC?utm_source=rss&utm_medium=article",
             "company": "其他",
             "source_name": "InfoQ"
-          },
-          {
-            "date": "10-14",
-            "title": "工业级可靠性，走进具身智能：越疆七轴力控臂VEGA 7来了",
-            "url": "https://www.robot-china.com/news/202610/14/96980.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -382,6 +375,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-17",
+            "title": "通用大模型正在重做机器人的研发与交付",
+            "url": "https://www.tmtpost.com/8171971.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
           {
             "date": "10-16",
             "title": "特斯拉能飞：第二代 Roadster 预订意向金 33.2 万元起，马斯克宣布 2028 年量产",
@@ -663,6 +663,15 @@
     ]
   },
   "items": [
+    {
+      "date": "10-17",
+      "company": "其他",
+      "title": "通用大模型正在重做机器人的研发与交付",
+      "source_name": "钛媒体",
+      "category": "产品量产",
+      "summary": "这次，把机器人行业推到分叉路口的，是通用大模型这个“最熟悉的陌生人”—— 有人拿它“替掉”VLA，有人拿它“加速”VLA。 短短两天，两桩标志性事件先后落地，把这条分叉路的两端踩得异常清晰。 10月16日，工业自动化初创公司MicroFactory创始人披露，据其自述，在单次客户部署项目中，团队采用通用大模型生成控制方案、专用程序执行作业的路线，整套系统基于…",
+      "url": "https://www.tmtpost.com/8171971.html"
+    },
     {
       "date": "10-16",
       "company": "其他",
@@ -1103,15 +1112,6 @@
       "category": "产品量产",
       "summary": "ABB机器人进一步扩展其工业机器人产品组合，推出两款全新紧凑型高性能中型机器人IRB 1700与IRB 1700ID，与市场上其他同类产品相比，其节拍时间最高可缩短20%。“电子、汽车及通用工业等领域的精密制造，都面临着提升产能、保证质量、降低运营成本的多重压力。”ABB机器人工业业务单元全球负责人Craig McDonnell表示，“IRB 1700系列以…",
       "url": "https://www.robot-china.com/news/202610/14/96984.html"
-    },
-    {
-      "date": "10-14",
-      "company": "其他",
-      "title": "工业级可靠性，走进具身智能：越疆七轴力控臂VEGA 7来了",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "随着具身智能加速发展，面向人形机器人与轮式双臂平台的机械臂产品不断涌现。自由度、负载、精度与力控能力，成为产品展示和选型的重要指标。这些指标拓展着机器人的操作能力，也让行业走到一个新的关口：当AI开始进入真实任务，手臂能否在长期、重复、复杂的使用中，持续发挥这些能力?理解“把连接器插入接口”，与真正完成插接之间，隔着一系列具体问题。接近目标时要避开设备，接触…",
-      "url": "https://www.robot-china.com/news/202610/14/96980.html"
     }
   ]
 }
