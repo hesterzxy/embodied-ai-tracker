@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T11:36:43.309664+08:00",
+  "updated": "2026-10-19T20:22:55.582962+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,8 +37,8 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 7,
-      "core": 1,
+      "candidates": 9,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 16,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 1,
+      "entries": 17,
+      "candidates": 3,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 28,
-      "core": 5,
+      "entries": 60,
+      "candidates": 17,
+      "core": 2,
       "periphery": 0,
-      "new": 5
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 52,
-      "periphery": 1,
-      "new": 17
+      "core": 49,
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "甲子光年",
@@ -115,10 +115,10 @@
       "attempts": 1,
       "error": "",
       "entries": 34,
-      "candidates": 11,
-      "core": 10,
+      "candidates": 14,
+      "core": 13,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -128,10 +128,10 @@
       "attempts": 1,
       "error": "",
       "entries": 22,
-      "candidates": 21,
-      "core": 7,
-      "periphery": 1,
-      "new": 3
+      "candidates": 22,
+      "core": 4,
+      "periphery": 0,
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -155,9 +155,9 @@
       "error": "",
       "entries": 28,
       "candidates": 26,
-      "core": 17,
+      "core": 15,
       "periphery": 3,
-      "new": 9
+      "new": 8
     },
     {
       "name": "The Robot Report",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 4,
+      "candidates": 8,
+      "core": 7,
       "periphery": 0,
-      "new": 2
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -235,15 +235,15 @@
       "candidates": 69,
       "core": 18,
       "periphery": 7,
-      "new": 1
+      "new": 0
     }
   ],
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-19T11:36:43.434193+08:00",
+    "generated_at": "2026-10-19T20:22:55.648694+08:00",
     "mode": "local",
-    "item_count": 14,
+    "item_count": 19,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -260,16 +260,16 @@
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/19/97029.html",
           "https://www.robot-china.com/news/202610/19/97033.html",
-          "https://www.robot-china.com/news/202610/19/97028.html"
+          "https://www.ithome.com/1/015/002.htm"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，本轮融资资金将主要用于物理反演世界模型的大规模预训练与技术迭代、硬件与本体构建等，加快人才引进和规模扩充；中国机器人网获悉，近日，广西利拓智能科技股份有限公司（以下简称“利拓智能”）完成A轮融资签约，一举获得广投资本管理集团有限公司（以下简称“广投资本”）和广西柳州市产业投资发展集团有限公司（以下简称“柳州产业集团”）的联袂投资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，本轮融资资金将主要用于物理反演世界模型的大规模预训练与技术迭代、硬件与本体构建等，加快人才引进和规模扩充；当技术参数让位于订单、复购与现金流，拿到境外上市备案的合肥优艾智合机器人股份有限公司（简称：优艾智合），也将迎来资本市 工业机器人。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
           "https://www.ithome.com/1/014/652.htm",
-          "https://www.robot-china.com/news/202610/19/97034.html",
-          "https://www.robot-china.com/news/202610/19/97036.html"
+          "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html",
+          "https://www.robot-china.com/news/202610/19/97034.html"
         ]
       }
     ],
@@ -298,6 +298,13 @@
             "url": "https://www.robot-china.com/news/202610/19/97028.html",
             "company": "OpenAI",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-19",
+            "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
+            "url": "https://www.ithome.com/1/015/002.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           }
         ]
       },
@@ -311,6 +318,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30707632.html",
             "company": "OpenAI",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-19",
+            "title": "奇瑞将于 10 月 20 日举办全球创新大会，发布首个行业垂域大模型、人形机器人“墨宝”",
+            "url": "https://www.ithome.com/1/014/887.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           }
         ]
       },
@@ -365,6 +379,20 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707642.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-19",
+            "title": "优艾智合冲刺“移动操作机器人第一股”，赴港IPO迎工业落地大考",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-19",
+            "title": "Origin raises $20 million to scale general-purpose construction robots",
+            "url": "https://roboticsandautomationnews.com/2026/10/19/origin-raises-20-million-to-scale-general-purpose-construction-robots/106024/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -399,6 +427,13 @@
             "url": "https://www.robot-china.com/news/202610/19/97026.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-19",
+            "title": "The Robot Group opens UK enquiries for X-Humanoid robots",
+            "url": "https://roboticsandautomationnews.com/2026/10/19/the-robot-group-opens-uk-enquiries-for-x-humanoid-robots/106030/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -530,6 +565,51 @@
       "category": "产品量产",
       "summary": "最近OpenAI官网以“robotics”为关键词能搜出27个职位。今年5月这个数字还是11个。新增岗位横跨算法、控制、执行器、传感器、固件、数据采集、制造、供应链、安全和现场部署。在供应链岗位的招聘",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30707632.html"
+    },
+    {
+      "date": "10-19",
+      "company": "其他",
+      "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 10 月 19 日消息，国务院新闻办公室今日举行新闻发布会，介绍加快推进科技兴商有关情况，并答记者问。 会上介绍，具身智能是人工智能从“数字世界”走进“物理世界”的关键载体，正在成为培育新质生产力的重要抓手。工业和信息化部推动以人形机器人为代表的具身智能产业实现三个“加速”。 一是规模体量加速壮大。今年上半年，我国人形机器人整机产品突破 400 款…",
+      "url": "https://www.ithome.com/1/015/002.htm"
+    },
+    {
+      "date": "10-19",
+      "company": "其他",
+      "title": "奇瑞将于 10 月 20 日举办全球创新大会，发布首个行业垂域大模型、人形机器人“墨宝”",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 19 日消息，奇瑞将于 10 月 20 日在芜湖举办以“Change· 改变”为主题的 2026 奇瑞全球创新大会，发布首个行业垂域大模型。 本次创新大会，奇瑞将展望瑶光 2035 计划，以智能 AI 技术为支撑，系统标定从汽车企业迈向全球智能科技公司的路线蓝图。作为实现这一目标的技术底座， 大会上还将发布首个汽车行业垂域大模型 ，该模型…",
+      "url": "https://www.ithome.com/1/014/887.htm"
+    },
+    {
+      "date": "10-19",
+      "company": "行业",
+      "title": "优艾智合冲刺“移动操作机器人第一股”，赴港IPO迎工业落地大考",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者｜陈安 编辑｜陈肖冉 营收高增长，难掩盈利困境 机器人IPO的故事正在换挡。 当技术参数让位于订单、复购与现金流，拿到境外上市备案的合肥优艾智合机器人股份有限公司（简称：优艾智合），也将迎来资本市 工业机器人",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html"
+    },
+    {
+      "date": "10-19",
+      "company": "其他",
+      "title": "The Robot Group opens UK enquiries for X-Humanoid robots",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "The Robot Group, an authorised UK distributor for X-Humanoid (developed by the Beijing Humanoid Robot Innovation Center), is inviting expressions of interest from UK businesses and…",
+      "url": "https://roboticsandautomationnews.com/2026/10/19/the-robot-group-opens-uk-enquiries-for-x-humanoid-robots/106030/"
+    },
+    {
+      "date": "10-19",
+      "company": "其他",
+      "title": "Origin raises $20 million to scale general-purpose construction robots",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Origin, a full-stack physical AI company building general-purpose robots for interior construction, has emerged from stealth with $20 million in total funding, co-led by Accel and…",
+      "url": "https://roboticsandautomationnews.com/2026/10/19/origin-raises-20-million-to-scale-general-purpose-construction-robots/106024/"
     },
     {
       "date": "10-18",
@@ -809,51 +889,6 @@
       "category": "技术突破",
       "summary": "10月12日至16日，2026中国国际工业博览会（CIIF）在上海举行。作为本届工博会的官方环节之一，第十二届中国机器人高峰论坛暨第九届CEO圆桌峰会于10月13日下午同期举办。它石智航联合创始人兼首席架构师陈同庆博士应邀出席，系统性阐释公司从基座模型到规模落地的具身智能工业化路径。从具身基座模型到产线落地，具身大脑正在越用越聪明陈同庆指出，当前工业自动化正…",
       "url": "https://www.robot-china.com/news/202610/16/97012.html"
-    },
-    {
-      "date": "10-16",
-      "company": "其他",
-      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "source_name": "TechCrunch Robotics",
-      "category": "行业动态",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks lik…",
-      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/"
-    },
-    {
-      "date": "10-16",
-      "company": "其他",
-      "title": "清华特奖得主AI创业再+1：GeoPT一作入局物理世界模型",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "量子位获悉， 曾在2022年获清华特奖的吴海旭，已于今年悄然开启世界模型创业 。 公司名为物原科技，迄今为止迅速完成了多轮融资，公司估值来到数亿美元，投资方队伍中出现了蚂蚁、美团、达晨财智、星连等一线投资机构的的身影。 今年2月， 吴海旭为一作的工作GeoPT 在技术领域引起热议。 该工作提出了一种全新的动力学提升预训练范式，通过合成动力学（Syntheti…",
-      "url": "https://www.qbitai.com/2026/10/503880.html"
-    },
-    {
-      "date": "10-16",
-      "company": "其他",
-      "title": "从“看懂世界”到“预演下一步”：世界模型与 VLA，如何让机器人拥有真正的“具身大脑”？",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "上午的取药高峰，药房门店内订单不断。一台机器人接到线上订单，准确移动至货架前——药盒尺寸相近、包装密集，透明包装还映着灯光。它轻巧探出机械臂，精准夹取一盒，转身送达取药窗口。 指挥它的，是张江AI创新小镇企业蚂蚁灵波的“灵波通用大脑”。这款“大脑”在预训练阶段适配了17个主流机器人品牌、20种机器人构型，让同一个“大脑”可以跨本体、跨任务运行。搭载这款大脑的…",
-      "url": "https://www.qbitai.com/2026/10/503865.html"
-    },
-    {
-      "date": "10-16",
-      "company": "其他",
-      "title": "英特尔计划 2028 年面向物理 AI 领域推出 \"Razor Lake AX\" 处理器，平台算力 700 TOPS",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 17 日消息，据韩媒 THE ELEC 报道，Intel（英特尔）高级副总裁 조민성 昨日在韩国举行的“半导体驱动人形机器人”大会上表示，该企业计划 2027 年初面向物理 AI 领域推出 \"Nova Lake\" 处理器。 而在 \"Nova Lake\" 后， 英特尔还将在 2028 年为物理 AI 带来 \"Razor Lake AX\"…",
-      "url": "https://www.ithome.com/1/014/194.htm"
-    },
-    {
-      "date": "10-16",
-      "company": "其他",
-      "title": "深诣机器人工博会新品发布，以强化学习驱动自进化",
-      "source_name": "中国工控网机器人",
-      "category": "产品量产",
-      "summary": "10月12-16日，SEEN·E深诣机器人亮相2026中国国际工业博览会，自研具身基础模型SE-1及两款机器人产品——物流操作机器人Sculptor、工业操作双臂机器人Edge集中亮相。 标签： 深谙机器人 机器人",
-      "url": "https://www.gongkong.com/news/202610/453931.html"
     }
   ]
 }
