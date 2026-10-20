@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T00:29:31.392146+08:00",
+  "updated": "2026-10-21T05:22:28.077762+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 10,
+      "candidates": 9,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -45,13 +45,12 @@
     {
       "name": "钛媒体",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 17,
-      "candidates": 3,
-      "core": 2,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -89,7 +88,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 20,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -162,14 +161,15 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 15,
+      "candidates": 15,
+      "core": 3,
+      "periphery": 4,
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -182,7 +182,7 @@
       "candidates": 12,
       "core": 5,
       "periphery": 2,
-      "new": 6
+      "new": 4
     },
     {
       "name": "Robotics & Automation News",
@@ -195,7 +195,7 @@
       "candidates": 8,
       "core": 2,
       "periphery": 2,
-      "new": 2
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-21T00:29:31.562252+08:00",
+    "generated_at": "2026-10-21T05:22:28.240813+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -532,13 +532,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-19",
-            "title": "Origin raises $20 million to scale general-purpose construction robots",
-            "url": "https://roboticsandautomationnews.com/2026/10/19/origin-raises-20-million-to-scale-general-purpose-construction-robots/106024/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -603,6 +596,13 @@
             "source_name": "TechCrunch Robotics"
           },
           {
+            "date": "10-20",
+            "title": "Exotec expands warehouse robotics business in Japan with two major Skypod installations",
+            "url": "https://roboticsandautomationnews.com/2026/10/20/exotec-expands-warehouse-robotics-business-in-japan-with-two-major-skypod-installations/106138/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-19",
             "title": "马斯克：Optimus 人形机器人和 Cybercab 将构成特斯拉绝大部分价值",
             "url": "https://www.ithome.com/1/014/663.htm",
@@ -651,9 +651,9 @@
             "source_name": "中国机器人网"
           },
           {
-            "date": "10-19",
-            "title": "Daimon Robotics building the infrastructure layer for tactile intelligence",
-            "url": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/",
+            "date": "10-20",
+            "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
+            "url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/",
             "company": "其他",
             "source_name": "The Robot Report"
           }
@@ -933,6 +933,24 @@
       "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/"
     },
     {
+      "date": "10-20",
+      "company": "其他",
+      "title": "Reservoir launches new agricultural robotics incubator for Washington growers",
+      "source_name": "The Robot Report",
+      "category": "泛具身产业链",
+      "summary": "Reservoir hopes to put agricultural robotics startups to work in the orchards, vineyards and berry fields alongside researchers and growers. The post appeared first on The Robot Re…",
+      "url": "https://www.therobotreport.com/reservoir-launches-new-agricultural-robotics-incubator-for-washington-growers/"
+    },
+    {
+      "date": "10-20",
+      "company": "其他",
+      "title": "Exotec expands warehouse robotics business in Japan with two major Skypod installations",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Warehouse robotics company Exotec has announced the commissioning of two new Skypod systems in Japan with Mitsubishi Shokuhin, a major food distributor, and Trusco Nakayama, one of…",
+      "url": "https://roboticsandautomationnews.com/2026/10/20/exotec-expands-warehouse-robotics-business-in-japan-with-two-major-skypod-installations/106138/"
+    },
+    {
       "date": "10-19",
       "company": "特斯拉",
       "title": "马斯克：Optimus 人形机器人和 Cybercab 将构成特斯拉绝大部分价值",
@@ -1093,24 +1111,6 @@
       "category": "行业动态",
       "summary": "The Robot Group, an authorised UK distributor for X-Humanoid (developed by the Beijing Humanoid Robot Innovation Center), is inviting expressions of interest from UK businesses and…",
       "url": "https://roboticsandautomationnews.com/2026/10/19/the-robot-group-opens-uk-enquiries-for-x-humanoid-robots/106030/"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "Origin raises $20 million to scale general-purpose construction robots",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Origin, a full-stack physical AI company building general-purpose robots for interior construction, has emerged from stealth with $20 million in total funding, co-led by Accel and…",
-      "url": "https://roboticsandautomationnews.com/2026/10/19/origin-raises-20-million-to-scale-general-purpose-construction-robots/106024/"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "Daimon Robotics building the infrastructure layer for tactile intelligence",
-      "source_name": "The Robot Report",
-      "category": "泛具身产业链",
-      "summary": "The company is connecting tactile sensing, real-world data collection, simulation, and AI models to help robots perform physical tasks more reliably. The post appeared first on The…",
-      "url": "https://www.therobotreport.com/daimon-robotics-building-the-infrastructure-layer-for-tactile-intelligence/"
     }
   ]
 }
