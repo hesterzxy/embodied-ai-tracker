@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T05:22:28.077762+08:00",
+  "updated": "2026-10-21T11:38:59.924226+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -45,11 +45,12 @@
     {
       "name": "钛媒体",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error _ssl.c:999: The handshake operation timed out>",
-      "entries": 0,
-      "candidates": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 16,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -87,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 57,
       "candidates": 19,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -102,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 55,
+      "core": 53,
       "periphery": 0,
-      "new": 10
+      "new": 11
     },
     {
       "name": "甲子光年",
@@ -129,8 +130,8 @@
       "entries": 21,
       "candidates": 21,
       "core": 10,
-      "periphery": 0,
-      "new": 5
+      "periphery": 1,
+      "new": 9
     },
     {
       "name": "新战略移动机器人",
@@ -156,7 +157,7 @@
       "candidates": 26,
       "core": 15,
       "periphery": 3,
-      "new": 8
+      "new": 4
     },
     {
       "name": "The Robot Report",
@@ -182,7 +183,7 @@
       "candidates": 12,
       "core": 5,
       "periphery": 2,
-      "new": 4
+      "new": 3
     },
     {
       "name": "Robotics & Automation News",
@@ -193,9 +194,9 @@
       "error": "",
       "entries": 15,
       "candidates": 8,
-      "core": 2,
-      "periphery": 2,
-      "new": 3
+      "core": 3,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,17 +241,17 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-21T05:22:28.240813+08:00",
+    "generated_at": "2026-10-21T11:39:00.044678+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，10月20日，舍弗勒具身智能机器人太仓数智工厂正式启用；新增岗位横跨算法、控制、执行器、传感器、固件、数据采集、制造、供应链、安全和现场部署。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，10月20日，舍弗勒具身智能机器人太仓数智工厂正式启用；看多了机器人跳舞、打拳、跳钢水等酷炫的视频，Dyna确实很“无聊”：此前发布的Dyna-1主攻叠毛巾、叠衣服。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/20/97075.html",
-          "https://robot.ofweek.com/2026-10/ART-898890-8460-30707632.html",
-          "https://www.tmtpost.com/8174365.html"
+          "https://www.tmtpost.com/8174365.html",
+          "https://www.robot-china.com/news/202610/20/97052.html"
         ]
       },
       {
@@ -268,7 +269,7 @@
         "evidence_urls": [
           "https://www.ithome.com/1/014/652.htm",
           "https://www.robot-china.com/news/202610/20/97057.html",
-          "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html"
+          "https://robot.ofweek.com/2026-10/ART-8321205-12005-30708056.html"
         ]
       }
     ],
@@ -339,13 +340,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97028.html",
             "company": "OpenAI",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
-            "url": "https://www.ithome.com/1/015/002.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -353,6 +347,20 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-21",
+            "title": "未发布先登顶！镜识科技BPW获2026机器人勇士挑战赛秋季赛小组冠军，唯一全通关并揽双奖",
+            "url": "https://www.robot-china.com/news/202610/21/97081.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-21",
+            "title": "萝博派对发布RP1，黄一要拆掉具身智能的黑箱",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30708066.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-20",
             "title": "吉利汽车与曹操出行等联合打造，中国首款原生开发 Robotaxi 首台工程样车下线",
@@ -401,20 +409,6 @@
             "url": "https://www.robot-china.com/news/202610/20/97077.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "OpenAI扩招27个硬件岗，人形机器人只做演示不量产",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30707632.html",
-            "company": "OpenAI",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-19",
-            "title": "奇瑞将于 10 月 20 日举办全球创新大会，发布首个行业垂域大模型、人形机器人“墨宝”",
-            "url": "https://www.ithome.com/1/014/887.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -485,6 +479,13 @@
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
+            "date": "10-21",
+            "title": "傅利叶下注旧将创业，伊塔动力成立不到半年拿下超亿元融资",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321205-12005-30708056.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "10-20",
             "title": "小派科技获智元旗下觅蜂科技战略融资",
             "url": "https://www.robot-china.com/news/202610/20/97057.html",
@@ -518,20 +519,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97036.html",
             "company": "行业",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "融资16亿，割草机器人开始倒下",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707642.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-19",
-            "title": "优艾智合冲刺“移动操作机器人第一股”，赴港IPO迎工业落地大考",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -539,6 +526,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-21",
+            "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
+            "url": "https://www.robot-china.com/news/202610/21/97079.html",
+            "company": "OpenAI",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "10-20",
             "title": "美光：研发边缘推理内存EIM，预判人形机器人将引入HBM",
@@ -629,13 +623,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97026.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "The Robot Group opens UK enquiries for X-Humanoid robots",
-            "url": "https://roboticsandautomationnews.com/2026/10/19/the-robot-group-opens-uk-enquiries-for-x-humanoid-robots/106030/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -643,6 +630,20 @@
         "category": "泛具身产业链",
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
+          {
+            "date": "10-21",
+            "title": "卓誉科技十万台关节订单背后：国产核心零部件，撑起机器人规模化落地",
+            "url": "https://www.robot-china.com/news/202610/21/97078.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-21",
+            "title": "年产10万台！又一机器人关节模组产线正式投产",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30708071.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-20",
             "title": "英特尔向FCC申请豁免外国机器人禁令 以确保美国芯片工厂设备正常运行",
@@ -662,6 +663,60 @@
     ]
   },
   "items": [
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "卓誉科技十万台关节订单背后：国产核心零部件，撑起机器人规模化落地",
+      "source_name": "中国机器人网",
+      "category": "泛具身产业链",
+      "summary": "近日，机器人核心零部件企业卓誉科技拿下国家级客户批量采购订单，十万台行星关节模组，订单总金额超亿元。这笔订单落地，折射出国内机器人产业链正在迈向实景规模化部署。订单突破的背后，藏着行业共识：关节模组的成熟度，是具身智能机器人产业化落地的核心变量。也就是说，关节性能直接决定了机器人运动稳定性、作业能力与长期服役水平。奔跑、跳跃、重载作业时，机器人关节持续承受大…",
+      "url": "https://www.robot-china.com/news/202610/21/97078.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "未发布先登顶！镜识科技BPW获2026机器人勇士挑战赛秋季赛小组冠军，唯一全通关并揽双奖",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "【中国，北京，2026年10月18日】 2026机器人勇士挑战赛秋季赛今日在北京经济技术开发区南海子公园收官。镜识科技（北京）科技有限公司（以下简称镜识科技）自主研发的新一代工业级、模块化四足轮式机器人Black Panther W（BPW）出战遥控组四足轮式机器人组，以130分位列秋季赛积分榜第一，总用时4分20秒为全场最快，是小组中唯一完成全部关卡的机器…",
+      "url": "https://www.robot-china.com/news/202610/21/97081.html"
+    },
+    {
+      "date": "10-21",
+      "company": "OpenAI",
+      "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "近日消息，尽管 OpenAI 已经忙于开发人工智能模型和全新消费级硬件，但首席执行官萨姆 · 奥尔特曼（Sam Altman）及其团队显然还有精力推进另一个项目：人形机器人。奥尔特曼在《Sources》播客节目中解释，选择人形具备合理性，原因是“这个世界本身就是为人类设计的”。门、键盘和各类工具，都是按照特定人体形态打造。一台要在同类空间内活动的机器人，采用…",
+      "url": "https://www.robot-china.com/news/202610/21/97079.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "年产10万台！又一机器人关节模组产线正式投产",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "近日，季华驱界科技（佛山）有限公司年产10万台套高动态智能一体化关节模组产线正式投产。 “佛山科技”消息称，此次投产的",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30708071.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "萝博派对发布RP1，黄一要拆掉具身智能的黑箱",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "“如果封闭系统是权力的象征，那么开源就是文明的信仰。”萝博派对创始人黄一曾这样解释自己为什么坚持把机器人开源。 10月14日，萝博派对在X上正式发布RP1，强调这是一台为开发者打造的人形机器人。这条消",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30708066.html"
+    },
+    {
+      "date": "10-21",
+      "company": "行业",
+      "title": "傅利叶下注旧将创业，伊塔动力成立不到半年拿下超亿元融资",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "潮涌AI编辑部 具身智能操作平台与动力系统公司深圳伊塔动力科技有限公司（YITA Dynamics）宣布完成超亿元种子轮及种子+轮融资，由经纬创投、商汤国香资本、建银国际、L2F光源创业者基金、银河通",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321205-12005-30708056.html"
+    },
     {
       "date": "10-20",
       "company": "其他",
@@ -1057,60 +1112,6 @@
       "category": "行业动态",
       "summary": "市场研究机构Counterpoint Research发布报告称，全球人形机器人行业的DRAM需求预计将从今年约8300太比特（Tbit）增至2030年约17.2万Tbit，增幅超过20倍。在AI数据中心的高带宽存储HBM之后，机器人市场有望成为三星电子、SK海力士等存储芯片公司新的增长引擎。美光判断人形机器人将成为内存需求新引擎，每台设备需要超过200GB…",
       "url": "https://www.robot-china.com/news/202610/19/97026.html"
-    },
-    {
-      "date": "10-19",
-      "company": "行业",
-      "title": "融资16亿，割草机器人开始倒下",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "作者 | 铅笔道 松格 编辑 | 铅笔道 黄小贵 封面｜铅笔道制图 割草机器人赛道，一半是海水，一半是火焰。 截至9月22日，国内赛道年内融资接近16亿元；5月，乐动机器人登陆港交所，首日暴涨127.",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707642.html"
-    },
-    {
-      "date": "10-19",
-      "company": "OpenAI",
-      "title": "OpenAI扩招27个硬件岗，人形机器人只做演示不量产",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "最近OpenAI官网以“robotics”为关键词能搜出27个职位。今年5月这个数字还是11个。新增岗位横跨算法、控制、执行器、传感器、固件、数据采集、制造、供应链、安全和现场部署。在供应链岗位的招聘",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30707632.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 10 月 19 日消息，国务院新闻办公室今日举行新闻发布会，介绍加快推进科技兴商有关情况，并答记者问。 会上介绍，具身智能是人工智能从“数字世界”走进“物理世界”的关键载体，正在成为培育新质生产力的重要抓手。工业和信息化部推动以人形机器人为代表的具身智能产业实现三个“加速”。 一是规模体量加速壮大。今年上半年，我国人形机器人整机产品突破 400 款…",
-      "url": "https://www.ithome.com/1/015/002.htm"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "奇瑞将于 10 月 20 日举办全球创新大会，发布首个行业垂域大模型、人形机器人“墨宝”",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 19 日消息，奇瑞将于 10 月 20 日在芜湖举办以“Change· 改变”为主题的 2026 奇瑞全球创新大会，发布首个行业垂域大模型。 本次创新大会，奇瑞将展望瑶光 2035 计划，以智能 AI 技术为支撑，系统标定从汽车企业迈向全球智能科技公司的路线蓝图。作为实现这一目标的技术底座， 大会上还将发布首个汽车行业垂域大模型 ，该模型…",
-      "url": "https://www.ithome.com/1/014/887.htm"
-    },
-    {
-      "date": "10-19",
-      "company": "行业",
-      "title": "优艾智合冲刺“移动操作机器人第一股”，赴港IPO迎工业落地大考",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "作者｜陈安 编辑｜陈肖冉 营收高增长，难掩盈利困境 机器人IPO的故事正在换挡。 当技术参数让位于订单、复购与现金流，拿到境外上市备案的合肥优艾智合机器人股份有限公司（简称：优艾智合），也将迎来资本市 工业机器人",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30707802.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "The Robot Group opens UK enquiries for X-Humanoid robots",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "The Robot Group, an authorised UK distributor for X-Humanoid (developed by the Beijing Humanoid Robot Innovation Center), is inviting expressions of interest from UK businesses and…",
-      "url": "https://roboticsandautomationnews.com/2026/10/19/the-robot-group-opens-uk-enquiries-for-x-humanoid-robots/106030/"
     }
   ]
 }
