@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T19:20:20.960193+08:00",
+  "updated": "2026-10-22T00:45:50.439413+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 7,
+      "candidates": 8,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 13,
+      "entries": 15,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 20,
-      "core": 1,
+      "candidates": 25,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 10,
       "periphery": 1,
-      "new": 7
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 3,
+      "core": 4,
       "periphery": 4,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 9,
-      "core": 4,
+      "candidates": 7,
+      "core": 3,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-21T19:20:21.082104+08:00",
+    "generated_at": "2026-10-22T00:45:50.525773+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，前言：机器人如何在真实场景中稳定完成任务；EIM在逻辑裸片之上堆叠低功耗DRAM（LPDDR），以高速处理AI推理所需数据。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，EIM在逻辑裸片之上堆叠低功耗DRAM（LPDDR），以高速处理AI推理所需数据；近日，国家市场监督管理总局通过2026年第43号公告，集中批准发布GB/T 48317.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
-          "https://www.robot-china.com/news/202610/19/97029.html",
           "https://www.robot-china.com/news/202610/20/97052.html",
-          "https://www.robot-china.com/news/202610/20/97071.html"
+          "https://www.robot-china.com/news/202610/20/97071.html",
+          "https://www.robot-china.com/news/202610/19/97033.html"
         ]
       },
       {
@@ -276,8 +276,15 @@
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "10-21",
+            "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+            "url": "https://www.qbitai.com/2026/10/504653.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "10-20",
             "title": "DeepSeek新模型升级，梁文锋正在为具身智能铺路？",
@@ -324,13 +331,6 @@
             "date": "10-19",
             "title": "具身智能遇上磁悬浮传输：工业智造迎来全新柔性协同范式",
             "url": "https://www.robot-china.com/news/202610/19/97033.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "逐际动力、无界动力、自变量等齐聚，2026“中国芯”具身智能论坛嘉宾阵容公布",
-            "url": "https://www.robot-china.com/news/202610/19/97029.html",
             "company": "其他",
             "source_name": "中国机器人网"
           }
@@ -431,6 +431,13 @@
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
+            "date": "10-21",
+            "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+            "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
+            "company": "Agility Robotics",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "10-20",
             "title": "巡御机器人CIIF 2026工博会圆满落幕，具身智能赋能产业落地新实践",
             "url": "https://www.robot-china.com/news/202610/20/97061.html",
@@ -471,13 +478,6 @@
             "url": "https://www.therobotreport.com/gecko-robotics-earns-300m-contract-with-the-u-s-navy/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-19",
-            "title": "广交会70年｜机器人成“顶流”：不止看表演，采购商想要落地和海外仓",
-            "url": "https://www.robot-china.com/news/202610/19/97035.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -526,13 +526,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97034.html",
             "company": "行业",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "美团两次押注，法奥机器人完成近10亿元融资",
-            "url": "https://www.robot-china.com/news/202610/19/97036.html",
-            "company": "行业",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -553,6 +546,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-21",
+            "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+            "url": "https://www.qbitai.com/2026/10/504730.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "10-20",
@@ -752,6 +752,33 @@
       "category": "产品量产",
       "summary": "Voxel51 has launched version 3.0 of its data platform, adding new tools designed to help robotics and physical AI developers manage the huge quantities of camera, video and sensor…",
       "url": "https://roboticsandautomationnews.com/2026/10/21/voxel51-launches-new-data-platform-for-robotics-and-physical-ai/106155/"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "source_name": "量子位",
+      "category": "行业动态",
+      "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
+      "url": "https://www.qbitai.com/2026/10/504730.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用",
+      "url": "https://www.qbitai.com/2026/10/504653.html"
+    },
+    {
+      "date": "10-21",
+      "company": "Agility Robotics",
+      "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
+      "source_name": "The Robot Report",
+      "category": "商业订单",
+      "summary": "The Agility pilot, which is expected to begin in 2027, will begin at an AGCO production facility for agricultural equipment. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/"
     },
     {
       "date": "10-20",
@@ -1085,33 +1112,6 @@
       "category": "技术突破",
       "summary": "如果说近一年机器人领域最火的词是“具身智能”，那么工业传输领域最受关注的“黑科技”，非磁悬浮传输莫属。一个是能感知、会思考的新物种，一个是高精度、高柔性、智能化的新一代传输解决方案，当两者同台，会碰撞出什么火花？传统工业生产模式下，机器人与输送设备大多独立运行，机器人按照预设脚本完成固定点位作业，输送设备遵循既定节奏传输物料。面对日渐复杂多变的工况，一旦一方…",
       "url": "https://www.robot-china.com/news/202610/19/97033.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "逐际动力、无界动力、自变量等齐聚，2026“中国芯”具身智能论坛嘉宾阵容公布",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "前言：机器人如何在真实场景中稳定完成任务？模型能力怎样评测，端侧芯片如何支撑感知与计算，语音大模型又将带来怎样的交互体验？“中国芯”集成电路产业促进大会创办于2006年，是国内集成电路领域具有较强专业性、权威性和行业影响力的品牌活动。2026年大会以“智启芯途 协同共生”为主题，将于11月1日至4日在横琴及澳门举行，设置开幕式、主论坛及多场专题活动，涵盖芯片…",
-      "url": "https://www.robot-china.com/news/202610/19/97029.html"
-    },
-    {
-      "date": "10-19",
-      "company": "行业",
-      "title": "美团两次押注，法奥机器人完成近10亿元融资",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "summary": "10月16日，法奥机器人宣布连续完成C+轮及D轮融资，两轮累计融资规模近10亿元。法奥机器人这两轮融资获得了多家投资机构支持，分别由美团龙珠和美团领投，永鑫资本、狮山二期、苏创投等机构亦参与了本次系列投资，另外，国联民生资本、苏产投、清流资本等老股东在本次系列融资中继续追加投资。官方指出，本次融资资金将主要用于核心零部件的产能固投，以及工业具身智能领域的扩产…",
-      "url": "https://www.robot-china.com/news/202610/19/97036.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "广交会70年｜机器人成“顶流”：不止看表演，采购商想要落地和海外仓",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "上午10点，广交会服务机器人专区外的队伍已经延伸到几米开外，门口的限流提示牌竖了起来。队伍里挤着来自世界各地的采购商，也有举着稳定器直播的自媒体博主。这是第140届广交会第一期的现场。本期以“先进制造”为主题，聚焦新能源、智能制造、具身智能等全球采购热点，设置服务机器人、无人机、显示技术等17个新兴未来产业专区。以机器人、人工智能等为代表的“新三样”2.0…",
-      "url": "https://www.robot-china.com/news/202610/19/97035.html"
     }
   ]
 }
