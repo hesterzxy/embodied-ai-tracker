@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T00:45:50.439413+08:00",
+  "updated": "2026-10-22T05:21:40.313860+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 55,
       "periphery": 0,
-      "new": 10
+      "new": 11
     },
     {
       "name": "甲子光年",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 4,
       "periphery": 4,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,7 +193,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 5,
       "core": 3,
       "periphery": 1,
       "new": 2
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-22T00:45:50.525773+08:00",
+    "generated_at": "2026-10-22T05:21:40.401144+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
