@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T11:38:59.924226+08:00",
+  "updated": "2026-10-21T19:20:20.960193+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 9,
+      "entries": 18,
+      "candidates": 7,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
+      "entries": 13,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -63,10 +63,10 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 4,
-      "core": 1,
+      "candidates": 3,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 19,
+      "entries": 60,
+      "candidates": 20,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 53,
+      "core": 55,
       "periphery": 0,
-      "new": 11
+      "new": 10
     },
     {
       "name": "甲子光年",
@@ -115,7 +115,7 @@
       "attempts": 1,
       "error": "",
       "entries": 34,
-      "candidates": 14,
+      "candidates": 13,
       "core": 13,
       "periphery": 0,
       "new": 1
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 10,
       "periphery": 1,
-      "new": 9
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
-      "core": 3,
+      "candidates": 9,
+      "core": 4,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -232,8 +232,8 @@
       "attempts": 1,
       "error": "",
       "entries": 75,
-      "candidates": 69,
-      "core": 18,
+      "candidates": 68,
+      "core": 17,
       "periphery": 7,
       "new": 0
     }
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-21T11:39:00.044678+08:00",
+    "generated_at": "2026-10-21T19:20:21.082104+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -333,13 +333,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97029.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "OpenAI 发力人形机器人研发，将 AI 大脑作为核心突破口",
-            "url": "https://www.robot-china.com/news/202610/19/97028.html",
-            "company": "OpenAI",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -360,6 +353,27 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30708066.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-21",
+            "title": "奇瑞旗下墨甲机器人首款消费级家庭陪伴人形机器人“墨宝”发布：身高 0.9 米，22 个自由度支持行走与身体表达",
+            "url": "https://www.ithome.com/1/016/037.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-21",
+            "title": "Optimus量产在即！机器人三道坎特斯拉都没跨过，能否再造奇迹？",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30708170.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-21",
+            "title": "Voxel51 launches new data platform for robotics and physical AI",
+            "url": "https://roboticsandautomationnews.com/2026/10/21/voxel51-launches-new-data-platform-for-robotics-and-physical-ai/106155/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-20",
@@ -464,13 +478,6 @@
             "url": "https://www.robot-china.com/news/202610/19/97035.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "直击广交会：中国机器人出海面临机遇，需做好合规和服务落地",
-            "url": "https://www.robot-china.com/news/202610/19/97027.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -498,6 +505,13 @@
             "url": "https://www.robot-china.com/news/202610/20/97054.html",
             "company": "行业",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-20",
+            "title": "机器人IPO，开始踩刹车",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30707956.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "10-19",
@@ -532,6 +546,13 @@
             "url": "https://www.robot-china.com/news/202610/21/97079.html",
             "company": "OpenAI",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-21",
+            "title": "人形机器人股价狂奔，宇树却先给行业泼了一盆冷水",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "10-20",
@@ -602,27 +623,6 @@
             "url": "https://www.ithome.com/1/014/663.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-19",
-            "title": "充电9分钟工作90分钟, 人形机器人要忙起来了",
-            "url": "https://www.robot-china.com/news/202610/19/97032.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "上半年全球人形机器人市场，中国企业包揽了前五名",
-            "url": "https://www.robot-china.com/news/202610/19/97031.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-19",
-            "title": "人形机器人DRAM需求2030年将增20倍",
-            "url": "https://www.robot-china.com/news/202610/19/97026.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -716,6 +716,42 @@
       "category": "资本动态",
       "summary": "潮涌AI编辑部 具身智能操作平台与动力系统公司深圳伊塔动力科技有限公司（YITA Dynamics）宣布完成超亿元种子轮及种子+轮融资，由经纬创投、商汤国香资本、建银国际、L2F光源创业者基金、银河通",
       "url": "https://robot.ofweek.com/2026-10/ART-8321205-12005-30708056.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "奇瑞旗下墨甲机器人首款消费级家庭陪伴人形机器人“墨宝”发布：身高 0.9 米，22 个自由度支持行走与身体表达",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 21 日消息，2026 墨甲机器人全球发布会今日在安徽芜湖举行。墨甲机器人总经理张贵兵表示，墨甲机器人全球销量已超过 3000 台，覆盖 100 多个应用场景；产品与服务已进入 60 多个国家和地区。 奇瑞集团旗下墨甲机器人正式发布其 首款消费级家庭陪伴人形机器人 墨宝，同步开启全球预订。墨宝身高 0.9 米，圆润曲线和柔性材料增强亲和感…",
+      "url": "https://www.ithome.com/1/016/037.htm"
+    },
+    {
+      "date": "10-21",
+      "company": "宇树科技",
+      "title": "人形机器人股价狂奔，宇树却先给行业泼了一盆冷水",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "导语：这份公告来得正是时候。 10月19日，宇树科技股价大涨16.15%；10月20日，股价再涨6.07%，收于526.03元，总市值重回2100亿元上方。短短几个交易日，市场情绪迅速升温。 同时，公 人形机器人",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html"
+    },
+    {
+      "date": "10-21",
+      "company": "特斯拉",
+      "title": "Optimus量产在即！机器人三道坎特斯拉都没跨过，能否再造奇迹？",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "轮到特斯拉追赶中国企业的脚步了。 在迭代了三个版本后，特斯拉人形机器人Optimus终于走到了量产前夕。 本周一，特斯拉提交了年度股东会材料，首次以书面形式确认，第三代人形机器人Optimus已为大规",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30708170.html"
+    },
+    {
+      "date": "10-21",
+      "company": "其他",
+      "title": "Voxel51 launches new data platform for robotics and physical AI",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Voxel51 has launched version 3.0 of its data platform, adding new tools designed to help robotics and physical AI developers manage the huge quantities of camera, video and sensor…",
+      "url": "https://roboticsandautomationnews.com/2026/10/21/voxel51-launches-new-data-platform-for-robotics-and-physical-ai/106155/"
     },
     {
       "date": "10-20",
@@ -1006,6 +1042,15 @@
       "url": "https://roboticsandautomationnews.com/2026/10/20/exotec-expands-warehouse-robotics-business-in-japan-with-two-major-skypod-installations/106138/"
     },
     {
+      "date": "10-20",
+      "company": "行业",
+      "title": "机器人IPO，开始踩刹车",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者 | 铅笔道 松格 编辑 | 铅笔道 黄小贵 封面｜铅笔道制图 机器人公司，在交易所门口停下。 9月21日，环动科技撤回科创板IPO申请。10月12日，歌尔股份决定终止分拆歌尔微赴港上市。海康机器",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30707956.html"
+    },
+    {
       "date": "10-19",
       "company": "特斯拉",
       "title": "马斯克：Optimus 人形机器人和 Cybercab 将构成特斯拉绝大部分价值",
@@ -1067,51 +1112,6 @@
       "category": "商业订单",
       "summary": "上午10点，广交会服务机器人专区外的队伍已经延伸到几米开外，门口的限流提示牌竖了起来。队伍里挤着来自世界各地的采购商，也有举着稳定器直播的自媒体博主。这是第140届广交会第一期的现场。本期以“先进制造”为主题，聚焦新能源、智能制造、具身智能等全球采购热点，设置服务机器人、无人机、显示技术等17个新兴未来产业专区。以机器人、人工智能等为代表的“新三样”2.0…",
       "url": "https://www.robot-china.com/news/202610/19/97035.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "充电9分钟工作90分钟, 人形机器人要忙起来了",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "10月18日消息，AgilityRobotics的下一代人形机器人，设计目标是把一天中更多时间用于搬运货物，减少插电充电的时间。据IT之家了解，该公司为Digit5人形机器人选用了Nyobolt电池技术，目标实现24小时内可有效工作超20小时。这套新电池系统支持充电9分钟，就能运行90分钟。搭载该电池的机器人预计将于2027年上半年开启早期试用，面向制造、仓…",
-      "url": "https://www.robot-china.com/news/202610/19/97032.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "上半年全球人形机器人市场，中国企业包揽了前五名",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "全球人形机器人收入前五全是中国企业，前8个月深圳机器人出口激增超1200%近日，国际咨询机构弗若斯特沙利文发布《2026年全球人形机器人市场研究报告》。今年上半年，全球人形机器人销量达到3.6万台，超过2025年全年的3.5万台；市场收入达到5.4亿美元。按照收入计算，今年上半年全球人形机器人市场前五名全部由中国企业包揽，其中深圳企业占据两席。深圳海关数据显…",
-      "url": "https://www.robot-china.com/news/202610/19/97031.html"
-    },
-    {
-      "date": "10-19",
-      "company": "OpenAI",
-      "title": "OpenAI 发力人形机器人研发，将 AI 大脑作为核心突破口",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "10月18日消息，据Engadget报道，人工智能企业OpenAI正布局人形机器人研发赛道，企业首席执行官山姆·奥特曼对外披露相关项目进展，项目将把机器人智能系统研发作为核心攻关方向。在播客节目访谈中，奥特曼阐释了选择人形机器人技术路线的考量。他表示，现实世界各类设施、工具均围绕人类身体形态设计，门、键盘以及各类常用工具都适配人体形态，人形机器人能够更好适配…",
-      "url": "https://www.robot-china.com/news/202610/19/97028.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "直击广交会：中国机器人出海面临机遇，需做好合规和服务落地",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "机器人海外合规要求满足需“三个前置”：产品设计环节植入、供应商提前满足要求、员工提前培训。10月17日在第140届广交会期间举办的人工智能与机器人产业领航未来新赛道论坛上，与会者热议机器人出海。做大出海规模是中国机器人产业的重要机会之一，出口不只是卖硬件，而是需要与当地伙伴合作、做好本土化服务落地，而且需要把合规要求在产品设计等环节前置植入。机器人出海需完善…",
-      "url": "https://www.robot-china.com/news/202610/19/97027.html"
-    },
-    {
-      "date": "10-19",
-      "company": "其他",
-      "title": "人形机器人DRAM需求2030年将增20倍",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "市场研究机构Counterpoint Research发布报告称，全球人形机器人行业的DRAM需求预计将从今年约8300太比特（Tbit）增至2030年约17.2万Tbit，增幅超过20倍。在AI数据中心的高带宽存储HBM之后，机器人市场有望成为三星电子、SK海力士等存储芯片公司新的增长引擎。美光判断人形机器人将成为内存需求新引擎，每台设备需要超过200GB…",
-      "url": "https://www.robot-china.com/news/202610/19/97026.html"
     }
   ]
 }
