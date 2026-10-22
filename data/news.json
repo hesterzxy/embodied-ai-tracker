@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T19:18:46.097441+08:00",
+  "updated": "2026-10-23T00:47:05.530816+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 10,
-      "core": 1,
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 26,
-      "core": 4,
+      "entries": 60,
+      "candidates": 22,
+      "core": 1,
       "periphery": 0,
-      "new": 4
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -131,7 +131,7 @@
       "candidates": 22,
       "core": 6,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
+      "core": 3,
       "periphery": 4,
-      "new": 7
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,8 +193,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 5,
+      "candidates": 7,
+      "core": 6,
       "periphery": 1,
       "new": 5
     },
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-22T19:18:46.218363+08:00",
+    "generated_at": "2026-10-23T00:47:05.671236+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -312,13 +312,6 @@
             "url": "https://www.robot-china.com/news/202610/20/97055.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-20",
-            "title": "具身智能，卡在哪——王兴兴的\"一两年\"到底承诺了什么",
-            "url": "https://www.tmtpost.com/8174435.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -466,6 +459,13 @@
             "source_name": "IT之家"
           },
           {
+            "date": "10-22",
+            "title": "70 Years On: Canton Fair Rewrites Robotics Sourcing – From Showroom Prototypes to Task-Ready Deployable Systems",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/70-years-on-canton-fair-rewrites-robotics-sourcing-from-showroom-prototypes-to-taskready-deployable-systems/106200/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-21",
             "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
             "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
@@ -492,13 +492,6 @@
             "url": "https://www.tmtpost.com/8174365.html",
             "company": "其他",
             "source_name": "钛媒体"
-          },
-          {
-            "date": "10-20",
-            "title": "山东：探索“具身智能 + 旅游”落地应用，支持山岳型景区投放登山助力机器人",
-            "url": "https://www.ithome.com/1/015/388.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -580,6 +573,13 @@
             "title": "王兴兴明确宇树未来三大布局方向，将每年投入数千万元举办世界物理 AI 大赛",
             "url": "https://www.ithome.com/1/016/514.htm",
             "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-22",
+            "title": "小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化",
+            "url": "https://www.ithome.com/1/016/667.htm",
+            "company": "其他",
             "source_name": "IT之家"
           },
           {
@@ -815,6 +815,24 @@
       "category": "产品量产",
       "summary": "Robotiq has launched the 2FC physical AI gripper, a production-ready adaptive gripper with tactile sensing and embedded intelligence, helping robots learn from physical interaction…",
       "url": "https://roboticsandautomationnews.com/2026/10/22/robotiq-launches-the-2fc-physical-ai-gripper/106191/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 22 日消息，小鹏汽车今日宣布，上个月，第二代 VLA 开始理解“时间”；这个月，它来到小鹏 IRON 身上理解“你的下一步”。依赖同一个物理 AI 基座，第二代 VLA 大模型全新升级后，获得更强的时序理解与未来行为预测能力；这一能力也已端侧落地到小鹏人形机器人 IRON 上。 据介绍，小鹏 IRON 与人握手、碰拳、击掌，还能灵活应对…",
+      "url": "https://www.ithome.com/1/016/667.htm"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "70 Years On: Canton Fair Rewrites Robotics Sourcing – From Showroom Prototypes to Task-Ready Deployable Systems",
+      "source_name": "Robotics & Automation News",
+      "category": "商业订单",
+      "summary": "Seventy years after the inaugural Canton Fair opened for global sample-based procurement, the 140th edition lays bare a pivotal shift within robotics and automation. International…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/70-years-on-canton-fair-rewrites-robotics-sourcing-from-showroom-prototypes-to-taskready-deployable-systems/106200/"
     },
     {
       "date": "10-21",
@@ -1094,24 +1112,6 @@
       "category": "商业订单",
       "summary": "“全世界最无聊的机器人。”这是最近《纽约邮报》的一篇报道标题，而这家公司的创始人们却认为，这是“对一家机器人公司最高的赞美”，这家公司叫Dyna Robotics。 看多了机器人跳舞、打拳、跳钢水等酷炫的视频，Dyna确实很“无聊”：此前发布的Dyna-1主攻叠毛巾、叠衣服。这次发布Dyna-2之后，新机器人Taku进了洗衣房，默默把脏衣服放进洗衣机、操作机…",
       "url": "https://www.tmtpost.com/8174365.html"
-    },
-    {
-      "date": "10-20",
-      "company": "其他",
-      "title": "具身智能，卡在哪——王兴兴的\"一两年\"到底承诺了什么",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "具身智能的时间表随GPT版本号前移，市场把模型进步误读为具身进度。模型是翻译官，Agent是场景决策者，物理载体是手脚。三把尺子量下来：走完一整步，卡在第三步——迭代方向标准，它只由真实场景的数据主权决定",
-      "url": "https://www.tmtpost.com/8174435.html"
-    },
-    {
-      "date": "10-20",
-      "company": "其他",
-      "title": "山东：探索“具身智能 + 旅游”落地应用，支持山岳型景区投放登山助力机器人",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 10 月 20 日消息，山东省人民政府近日印发《山东省旅游业发展“十五五”规划》，其中提到深化“人工智能 + 旅游”应用，因地制宜发展新质生产力，构建“人工智能 + 旅游”发展生态。 IT之家注意到， 该《规划》提出探索“具身智能 + 旅游”落地应用 ， 支持山岳型景区投放登山助力机器人 。依托文旅科技平台打造“人工智能行程助手”，精准生成个性化旅…",
-      "url": "https://www.ithome.com/1/015/388.htm"
     }
   ]
 }
