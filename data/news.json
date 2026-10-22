@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T00:47:05.530816+08:00",
+  "updated": "2026-10-23T05:17:18.699811+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 22,
+      "candidates": 21,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -180,10 +180,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 12,
+      "candidates": 13,
       "core": 6,
-      "periphery": 2,
-      "new": 5
+      "periphery": 3,
+      "new": 6
     },
     {
       "name": "Robotics & Automation News",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
-      "core": 6,
-      "periphery": 1,
-      "new": 5
+      "candidates": 10,
+      "core": 9,
+      "periphery": 0,
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-23T00:47:05.671236+08:00",
+    "generated_at": "2026-10-23T05:17:18.833461+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -362,6 +362,20 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "10-22",
+            "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+            "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+            "company": "OpenAI",
+            "source_name": "TechCrunch Robotics"
+          },
+          {
+            "date": "10-22",
+            "title": "Cerence AI and Geely expand partnership from cars to robots",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/cerence-ai-and-geely-expand-partnership-from-cars-to-robots/106207/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-21",
             "title": "未发布先登顶！镜识科技BPW获2026机器人勇士挑战赛秋季赛小组冠军，唯一全通关并揽双奖",
             "url": "https://www.robot-china.com/news/202610/21/97081.html",
@@ -430,20 +444,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8480-30707874.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-20",
-            "title": "特斯拉官宣Optimus V3准备量产：留给供应链的是产能地狱",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30707843.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-20",
-            "title": "启元机器人新进展：北大董豪团队推出 HIL-UMI，让后训练摆脱「真机依赖」",
-            "url": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -478,20 +478,6 @@
             "url": "https://www.robot-china.com/news/202610/20/97061.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-20",
-            "title": "特斯拉Optimus机器人产能仍在爬坡，上游零部件订单已排至2027年",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30707849.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-20",
-            "title": "对话Dyna Robotics：被部署教训了300天后，找到机器人Scaling Law",
-            "url": "https://www.tmtpost.com/8174365.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -583,6 +569,34 @@
             "source_name": "IT之家"
           },
           {
+            "date": "10-22",
+            "title": "UK operators search 6.7 times more for CRM and ERP than for cash-cycle tools as factory robots pass five million",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/uk-operators-search-6-7-times-more-for-crm-and-erp-than-for-cash-cycle-tools-as-factory-robots-pass-five-million/106236/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-22",
+            "title": "Google DeepMind uses Gemini 4 Argon to teach Apptronik’s Apollo humanoid new skills from video",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/google-deepmind-uses-gemini-4-argon-to-teach-apptroniks-apollo-humanoid-new-skills-from-video/106227/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-22",
+            "title": "120ft emerges from stealth with €576,000 to build humanoid-powered microfactories",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/120ft-emerges-from-stealth-with-e576000-to-build-humanoid-powered-microfactories/106223/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-22",
+            "title": "Infineon names winners of humanoid robotics startup challenge",
+            "url": "https://roboticsandautomationnews.com/2026/10/22/infineon-names-winners-of-humanoid-robotics-startup-challenge/106216/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-21",
             "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
             "url": "https://www.robot-china.com/news/202610/21/97079.html",
@@ -616,20 +630,6 @@
             "url": "https://www.robot-china.com/news/202610/20/97051.html",
             "company": "OpenAI",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-20",
-            "title": "做人形机器人的「安卓」：3 万美元半价对标宇树，先卖给开发者",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-8140-30707854.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-20",
-            "title": "摩根大通喊300元，宇树今天大涨10%回470：机器人谁在抢跑？",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-12001-30707848.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -833,6 +833,60 @@
       "category": "商业订单",
       "summary": "Seventy years after the inaugural Canton Fair opened for global sample-based procurement, the 140th edition lays bare a pivotal shift within robotics and automation. International…",
       "url": "https://roboticsandautomationnews.com/2026/10/22/70-years-on-canton-fair-rewrites-robotics-sourcing-from-showroom-prototypes-to-taskready-deployable-systems/106200/"
+    },
+    {
+      "date": "10-22",
+      "company": "OpenAI",
+      "title": "Former OpenAI science lead launches Warp Science to automate wet labs with robots",
+      "source_name": "TechCrunch Robotics",
+      "category": "产品量产",
+      "summary": "Wearing cameras and sensor gloves, the startup’s human chemists will train robots to perform various lab tasks.",
+      "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "UK operators search 6.7 times more for CRM and ERP than for cash-cycle tools as factory robots pass five million",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "UK operators are searching about 6.7 times more for CRM and ERP software than for the tools that turn completed work into cash, according to a Klipboard analysis of UK search data,…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/uk-operators-search-6-7-times-more-for-crm-and-erp-than-for-cash-cycle-tools-as-factory-robots-pass-five-million/106236/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "Google DeepMind uses Gemini 4 Argon to teach Apptronik’s Apollo humanoid new skills from video",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Google DeepMind has demonstrated a new robotics training technique in which its Gemini 4 Argon AI model learns a physical task by watching video and then transfers the resulting be…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/google-deepmind-uses-gemini-4-argon-to-teach-apptroniks-apollo-humanoid-new-skills-from-video/106227/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "120ft emerges from stealth with €576,000 to build humanoid-powered microfactories",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Swedish robotics startup 120ft has emerged from stealth after raising €576,000 in angel funding to develop autonomous microfactories using humanoid robots for local manufacturing.…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/120ft-emerges-from-stealth-with-e576000-to-build-humanoid-powered-microfactories/106223/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "Infineon names winners of humanoid robotics startup challenge",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Infineon has named Italian robotics startup AdapTronics as the winner of its 2026 Startup Challenge, which focused on technologies for humanoid robots and physical AI. More than 10…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/infineon-names-winners-of-humanoid-robotics-startup-challenge/106216/"
+    },
+    {
+      "date": "10-22",
+      "company": "其他",
+      "title": "Cerence AI and Geely expand partnership from cars to robots",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Cerence, a developer of conversational AI-powered user experiences, has announced that its collaboration with Geely is expanding from intelligent cockpits to embodied robotics, wit…",
+      "url": "https://roboticsandautomationnews.com/2026/10/22/cerence-ai-and-geely-expand-partnership-from-cars-to-robots/106207/"
     },
     {
       "date": "10-21",
@@ -1058,60 +1112,6 @@
       "category": "产品量产",
       "summary": "这是思维AI社的第151篇原创 全文约940字，阅读时长预计3分钟 10月19日，北京市经信局发布消息：《人形机器人技术要求》首批五项国家标准正式发布，其中运动控制部分由北京人形机器人创新中心牵头起草",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8480-30707874.html"
-    },
-    {
-      "date": "10-20",
-      "company": "宇树科技",
-      "title": "做人形机器人的「安卓」：3 万美元半价对标宇树，先卖给开发者",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "想做人形机器人的「安卓」：3 万美元先卖给开发者，半价对标宇树，撞上美国市场国产替代窗口。 在硅谷的人形机器人赛道上，绝大多数玩家都在赌同一个宏大的梦：造出一具既能走路、又能干活的通用机器人，再配上一",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8140-30707854.html"
-    },
-    {
-      "date": "10-20",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus机器人产能仍在爬坡，上游零部件订单已排至2027年",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "最近证券之星发了一篇报道，标题挺直接：“Optimus还在爬坡，A股供应链的订单已排到2027年？” 我翻了翻里面的数据，越看越觉得这个行业正在发生一件反直觉的事。 特斯拉Optimus，被马斯克称为",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8420-30707849.html"
-    },
-    {
-      "date": "10-20",
-      "company": "宇树科技",
-      "title": "摩根大通喊300元，宇树今天大涨10%回470：机器人谁在抢跑？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "摩根大通9月底首次覆盖宇树，直接给了“减持”，目标价300元。野村更早，上市首日给“买入”，目标价370元。按节前450元的收盘价算，摩根大通认为还有33%的下跌空间。宇树科技4天腰斩：1100到60",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12001-30707848.html"
-    },
-    {
-      "date": "10-20",
-      "company": "特斯拉",
-      "title": "特斯拉官宣Optimus V3准备量产：留给供应链的是产能地狱",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "我翻了翻特斯拉刚刚向SEC提交的那份厚厚的DEF 14A委托书文件，视线直接越过那些繁琐的董事选举和高管薪酬条款，落在了配套流出的有关Optimus的一些资料上。 这份文件是特斯拉为即将在12月3日召",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30707843.html"
-    },
-    {
-      "date": "10-20",
-      "company": "其他",
-      "title": "启元机器人新进展：北大董豪团队推出 HIL-UMI，让后训练摆脱「真机依赖」",
-      "source_name": "雷峰网",
-      "category": "产品量产",
-      "summary": "继无本体之后，具身后训练范式有了新进展。 作者丨 齐铖湧 编辑丨岑 峰 最近，具身行业讨论“无本体进行后训练的可能性”的热度很高。国内外目前还没有团队做出可行方案。 说白了，无论是大模型还是具身机器人，想真正好用，光靠预训练打基础可不行，最终落地全靠“后训练”来调教。启元机器人首席科学家董豪告诉AI科技 ：“预训练提升的是下限，上限还得看后训练。” 当前具身…",
-      "url": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html"
-    },
-    {
-      "date": "10-20",
-      "company": "其他",
-      "title": "对话Dyna Robotics：被部署教训了300天后，找到机器人Scaling Law",
-      "source_name": "钛媒体",
-      "category": "商业订单",
-      "summary": "“全世界最无聊的机器人。”这是最近《纽约邮报》的一篇报道标题，而这家公司的创始人们却认为，这是“对一家机器人公司最高的赞美”，这家公司叫Dyna Robotics。 看多了机器人跳舞、打拳、跳钢水等酷炫的视频，Dyna确实很“无聊”：此前发布的Dyna-1主攻叠毛巾、叠衣服。这次发布Dyna-2之后，新机器人Taku进了洗衣房，默默把脏衣服放进洗衣机、操作机…",
-      "url": "https://www.tmtpost.com/8174365.html"
     }
   ]
 }
