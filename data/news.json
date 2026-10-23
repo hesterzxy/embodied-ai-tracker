@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T19:10:01.386842+08:00",
+  "updated": "2026-10-24T00:37:54.433257+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "entries": 16,
+      "candidates": 11,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 2,
-      "core": 2,
+      "entries": 14,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 13,
+      "candidates": 15,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 59,
       "periphery": 0,
-      "new": 22
+      "new": 18
     },
     {
       "name": "甲子光年",
@@ -118,7 +118,7 @@
       "candidates": 14,
       "core": 14,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "OFweek机器人",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 3,
       "periphery": 4,
-      "new": 6
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -183,7 +183,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 3,
-      "new": 5
+      "new": 4
     },
     {
       "name": "Robotics & Automation News",
@@ -194,8 +194,8 @@
       "error": "",
       "entries": 15,
       "candidates": 14,
-      "core": 12,
-      "periphery": 0,
+      "core": 11,
+      "periphery": 1,
       "new": 5
     },
     {
@@ -233,15 +233,15 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 17,
+      "core": 18,
       "periphery": 7,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-23T19:10:01.504791+08:00",
+    "generated_at": "2026-10-24T00:37:54.709453+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -548,6 +548,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "10-23",
+            "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube By Itself",
+            "url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot",
+            "company": "其他",
+            "source_name": "IEEE Spectrum Robotics"
+          },
+          {
             "date": "10-22",
             "title": "马斯克：计划建造 Optimus 人形机器人学校，Terafab 经济价值可跻身全球前 20 经济体",
             "url": "https://www.ithome.com/1/016/249.htm",
@@ -623,13 +630,6 @@
             "url": "https://www.robot-china.com/news/202610/21/97079.html",
             "company": "OpenAI",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-21",
-            "title": "人形机器人股价狂奔，宇树却先给行业泼了一盆冷水",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -815,6 +815,15 @@
       "category": "行业动态",
       "summary": "Generative Bionics is planning to build what it says will be Europe’s largest physical AI training facility for humanoid robots, using AMD computing infrastructure to combine real-…",
       "url": "https://roboticsandautomationnews.com/2026/10/23/generative-bionics-to-build-european-physical-ai-data-factory-for-humanoid-robots/106245/"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube By Itself",
+      "source_name": "IEEE Spectrum Robotics",
+      "category": "行业动态",
+      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events fo…",
+      "url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
     },
     {
       "date": "10-22",
@@ -1103,15 +1112,6 @@
       "category": "产品量产",
       "summary": "IT之家 10 月 21 日消息，2026 墨甲机器人全球发布会今日在安徽芜湖举行。墨甲机器人总经理张贵兵表示，墨甲机器人全球销量已超过 3000 台，覆盖 100 多个应用场景；产品与服务已进入 60 多个国家和地区。 奇瑞集团旗下墨甲机器人正式发布其 首款消费级家庭陪伴人形机器人 墨宝，同步开启全球预订。墨宝身高 0.9 米，圆润曲线和柔性材料增强亲和感…",
       "url": "https://www.ithome.com/1/016/037.htm"
-    },
-    {
-      "date": "10-21",
-      "company": "宇树科技",
-      "title": "人形机器人股价狂奔，宇树却先给行业泼了一盆冷水",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "导语：这份公告来得正是时候。 10月19日，宇树科技股价大涨16.15%；10月20日，股价再涨6.07%，收于526.03元，总市值重回2100亿元上方。短短几个交易日，市场情绪迅速升温。 同时，公 人形机器人",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html"
     }
   ]
 }
