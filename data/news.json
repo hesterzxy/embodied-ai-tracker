@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T11:42:54.844751+08:00",
+  "updated": "2026-10-23T19:10:01.386842+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "entries": 16,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 3,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -79,7 +79,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "IT之家",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 22,
-      "core": 1,
+      "candidates": 13,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 49,
-      "periphery": 7,
-      "new": 21
+      "core": 59,
+      "periphery": 0,
+      "new": 22
     },
     {
       "name": "甲子光年",
@@ -115,10 +115,10 @@
       "attempts": 1,
       "error": "",
       "entries": 34,
-      "candidates": 13,
-      "core": 13,
+      "candidates": 14,
+      "core": 14,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "OFweek机器人",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 6,
+      "core": 7,
       "periphery": 0,
-      "new": 5
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -153,11 +153,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 28,
-      "candidates": 26,
-      "core": 15,
+      "entries": 29,
+      "candidates": 27,
+      "core": 16,
       "periphery": 3,
-      "new": 0
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 9,
+      "candidates": 14,
+      "core": 12,
       "periphery": 0,
-      "new": 2
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,35 +241,35 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-23T11:42:54.947620+08:00",
+    "generated_at": "2026-10-23T19:10:01.504791+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，汇川技术发布液冷架构轮式具身机器人InoBot W1，作为业内首款液冷架构轮式机器人，该产品补齐了行业缺乏高可靠、高一致性本体这一短板，并与生态伙伴共同进行垂直场景样板点建设，直至形成商业闭环，为具身智能落地探索出一条可借鉴的路径；特斯拉 2026 年第三季度财报显示，公司已经在弗里蒙特工厂的一条大批量产产线上启动擎天柱（Optimus）人形机器人的生产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，汇川技术发布液冷架构轮式具身机器人InoBot W1，作为业内首款液冷架构轮式机器人，该产品补齐了行业缺乏高可靠、高一致性本体这一短板，并与生态伙伴共同进行垂直场景样板点建设，直至形成商业闭环，为具身智能落地探索出一条可借鉴的路径；2026年10月21日，以“车机协同 场景应用”为主题的2026墨甲机器人全球发布会在安徽芜湖举行。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/23/97121.html",
-          "https://www.ithome.com/1/016/218.htm",
-          "https://www.robot-china.com/news/202610/22/97096.html"
+          "https://www.robot-china.com/news/202610/23/97126.html",
+          "https://www.robot-china.com/news/202610/23/97134.html"
         ]
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，IT之家注意到，商务部商务大数据显示， 前三季度重点平台智能眼镜销售额增长 1.；结果，DeepSeek真的在本周末发布重磅消息：发布 DeepSeek-V4.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，IT之家注意到，商务部商务大数据显示， 前三季度重点平台智能眼镜销售额增长 1.；特斯拉 2026 年第三季度财报显示，公司已经在弗里蒙特工厂的一条大批量产产线上启动擎天柱（Optimus）人形机器人的生产。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.ithome.com/1/016/821.htm",
-          "https://www.tmtpost.com/8173675.html",
-          "https://www.ithome.com/1/016/218.htm"
+          "https://www.ithome.com/1/016/218.htm",
+          "https://robot.ofweek.com/2026-10/ART-898890-8110-30708224.html"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，DeepSeek 于四个月内完成两轮超大规模融资，第二轮达1000亿元，投前估值5000亿元；老股东腾讯、宁德时代各追加约100亿元，新进方聚焦硬科技与汽车产业链；三星电机已经与特斯拉签署长期倒装芯片球栅阵列（FC-BGA）基板供应协议，并扩大其世宗工厂的专用生产线。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，DeepSeek 于四个月内完成两轮超大规模融资，第二轮达1000亿元，投前估值5000亿元；老股东腾讯、宁德时代各追加约100亿元，新进方聚焦硬科技与汽车产业链；10月20日，具身智能芯片公司芯际无限完成Pre-A轮融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
           "https://www.infoq.cn/article/ViOyxiOSP2ihxuUyg1rD?utm_source=rss&utm_medium=article",
-          "https://www.ithome.com/1/016/630.htm",
-          "https://robot.ofweek.com/2026-10/ART-898890-12003-30708269.html"
+          "https://www.tmtpost.com/8178163.html",
+          "https://www.ithome.com/1/016/630.htm"
         ]
       }
     ],
@@ -305,20 +305,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30708224.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-21",
-            "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
-            "url": "https://www.qbitai.com/2026/10/504653.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "10-20",
-            "title": "DeepSeek新模型升级，梁文锋正在为具身智能铺路？",
-            "url": "https://www.tmtpost.com/8173675.html",
-            "company": "其他",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -339,6 +325,27 @@
             "url": "https://www.robot-china.com/news/202610/23/97121.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-23",
+            "title": "墨宝全球首发并开启预订，墨甲发布机器人产业化新路径",
+            "url": "https://www.robot-china.com/news/202610/23/97126.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-23",
+            "title": "智元发布Genie Studio 2.0 打通机器人“上岗”最后一公里",
+            "url": "https://www.robot-china.com/news/202610/23/97134.html",
+            "company": "智元机器人",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-23",
+            "title": "原创 Aether AI发布首个因果世界模型，世界模型开始思考“行动背后的因果” 人工智能 · 商业化 · 人工智能 作者：七月 | 编辑：栗子 2026-09-20",
+            "url": "https://www.jazzyear.com/article_info.html?id=1884",
+            "company": "其他",
+            "source_name": "甲子光年"
           },
           {
             "date": "10-22",
@@ -416,27 +423,6 @@
             "url": "https://www.ithome.com/1/016/037.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-21",
-            "title": "Optimus量产在即！机器人三道坎特斯拉都没跨过，能否再造奇迹？",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30708170.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-21",
-            "title": "Voxel51 launches new data platform for robotics and physical AI",
-            "url": "https://roboticsandautomationnews.com/2026/10/21/voxel51-launches-new-data-platform-for-robotics-and-physical-ai/106155/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-21",
-            "title": "Tesla starts Optimus robot production in California as profit falls 43%",
-            "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-            "company": "特斯拉",
-            "source_name": "TechCrunch Robotics"
           }
         ]
       },
@@ -444,6 +430,20 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "10-23",
+            "title": "2000平方米具身智能永久实训空间落地上海张江",
+            "url": "https://www.robot-china.com/news/202610/23/97125.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-23",
+            "title": "建筑机器人订单排至12月 市场规模有望突破800亿元",
+            "url": "https://www.robot-china.com/news/202610/23/97124.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "10-22",
             "title": "马斯克承认特斯拉 FSD 在华无领先优势，正积极争取监管审批加速落地",
@@ -457,13 +457,6 @@
             "url": "https://roboticsandautomationnews.com/2026/10/22/70-years-on-canton-fair-rewrites-robotics-sourcing-from-showroom-prototypes-to-taskready-deployable-systems/106200/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-21",
-            "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
-            "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/",
-            "company": "Agility Robotics",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -484,6 +477,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321205-12003-30708459.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-23",
+            "title": "智元两年投出47笔融资，多数投给了自家机器人的上游",
+            "url": "https://www.tmtpost.com/8178163.html",
+            "company": "智元机器人",
+            "source_name": "钛媒体"
           },
           {
             "date": "10-22",
@@ -539,6 +539,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708378.html",
             "company": "云深处",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-23",
+            "title": "Generative Bionics to build European ‘physical AI data factory’ for humanoid robots",
+            "url": "https://roboticsandautomationnews.com/2026/10/23/generative-bionics-to-build-european-physical-ai-data-factory-for-humanoid-robots/106245/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "10-22",
@@ -623,13 +630,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-21",
-            "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
-            "url": "https://www.qbitai.com/2026/10/504730.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
@@ -752,6 +752,69 @@
       "category": "行业动态",
       "summary": "1848年，美国加州的淘金热刚刚兴起，旧金山的一把铁锹已经卖到了10美元。 亲历这场淘金热的记者爱德华·巴芬，在当年的记录中还提到，一个淘金用的锡盘要5美元，一双普通靴子卖16美元。黄金能不能挖到还不",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708378.html"
+    },
+    {
+      "date": "10-23",
+      "company": "智元机器人",
+      "title": "智元两年投出47笔融资，多数投给了自家机器人的上游",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "10月20日，具身智能芯片公司芯际无限完成Pre-A轮融资。智元联合安徽省汽车创新中心、国元股权、合肥包河创投等现身投资方名单，融资金额未披露。 金额没有公开，但投资方的位置更值得琢磨。据科创板日报引用相关数据显示，2024年8月至2026年10月，智元作为投资方出现在47起投融资事件中，多集中在早期、小体量、位于智元整机上游的关键节点。需要说明的是，47起…",
+      "url": "https://www.tmtpost.com/8178163.html"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "墨宝全球首发并开启预订，墨甲发布机器人产业化新路径",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "2026年10月21日，以“车机协同 场景应用”为主题的2026墨甲机器人全球发布会在安徽芜湖举行。奇瑞集团旗下墨甲机器人正式发布其首款消费级家庭陪伴人形机器人墨宝，同步开启全球预订。政府领导、海内外客户、合作伙伴及媒体代表等2000余名嘉宾齐聚一堂，共同见证墨甲机器人向家庭陪伴市场拓展的重要进展。发布会以家庭场景切入，通过产品与技术发布、天使用户体验官颁证…",
+      "url": "https://www.robot-china.com/news/202610/23/97126.html"
+    },
+    {
+      "date": "10-23",
+      "company": "智元机器人",
+      "title": "智元发布Genie Studio 2.0 打通机器人“上岗”最后一公里",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10月23日，智元机器人发布一站式全流程具身智能作业平台Genie Studio 2.0。作为“AIWAVE”七连发第二弹，该平台瞄准机器人从模型能力走向真实作业的“最后一公里”，最快7天即可完成全新作业场景从0到1的部署验证。当前，具身智能行业面临“Demo（样品）惊艳、进厂水土不服”的尴尬：模型跑通只是第一步，机器人要读懂现场物料、对接产线设备、处理突发…",
+      "url": "https://www.robot-china.com/news/202610/23/97134.html"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "2000平方米具身智能永久实训空间落地上海张江",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "为了沉淀高质量数据集，凝结出可复用的技能包，10月23日至25日，2026全球开发者先锋大会暨国际具身智能技能大赛在上海张江科学会堂举办，届时改造2000平方米场地，打造永久性具身智能场景实训空间。10月22日，澎湃科技记者在张江科学会堂看到，百联集团把商超货架搬进了赛场，机器人在商超场景里整理货架、调酒、提供试吃。“我们把商超场景布局在这里，想看一下目前这…",
+      "url": "https://www.robot-china.com/news/202610/23/97125.html"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "建筑机器人订单排至12月 市场规模有望突破800亿元",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "据央视财经报道，具身智能正从实验室走向应用场景，建筑机器人市场快速放量。在广东，会自己找位绑钢筋的机器人、贴着高楼外墙行走的清洗机器人已经上岗。广州某建筑机器人企业产线负责人表示，目前量产的六款机器人几乎款款都有订单在手，排期排到12月份依然满足不了客户需求。深圳另一家建筑机器人企业今年产线满负荷运转，正在计划扩产，国内业绩收入增长超50%，国外增长超100…",
+      "url": "https://www.robot-china.com/news/202610/23/97124.html"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "原创 Aether AI发布首个因果世界模型，世界模型开始思考“行动背后的因果” 人工智能 · 商业化 · 人工智能 作者：七月 | 编辑：栗子 2026-09-20",
+      "source_name": "甲子光年",
+      "category": "产品量产",
+      "summary": "张麟 原创 中国对外贸易经济合作企业协会现面向行业征集人工智能服务机构相关情况及建议 人工智能 · 客户关系 · 人工智能 <div class=\"",
+      "url": "https://www.jazzyear.com/article_info.html?id=1884"
+    },
+    {
+      "date": "10-23",
+      "company": "其他",
+      "title": "Generative Bionics to build European ‘physical AI data factory’ for humanoid robots",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Generative Bionics is planning to build what it says will be Europe’s largest physical AI training facility for humanoid robots, using AMD computing infrastructure to combine real-…",
+      "url": "https://roboticsandautomationnews.com/2026/10/23/generative-bionics-to-build-european-physical-ai-data-factory-for-humanoid-robots/106245/"
     },
     {
       "date": "10-22",
@@ -1049,69 +1112,6 @@
       "category": "行业动态",
       "summary": "导语：这份公告来得正是时候。 10月19日，宇树科技股价大涨16.15%；10月20日，股价再涨6.07%，收于526.03元，总市值重回2100亿元上方。短短几个交易日，市场情绪迅速升温。 同时，公 人形机器人",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708173.html"
-    },
-    {
-      "date": "10-21",
-      "company": "特斯拉",
-      "title": "Optimus量产在即！机器人三道坎特斯拉都没跨过，能否再造奇迹？",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "轮到特斯拉追赶中国企业的脚步了。 在迭代了三个版本后，特斯拉人形机器人Optimus终于走到了量产前夕。 本周一，特斯拉提交了年度股东会材料，首次以书面形式确认，第三代人形机器人Optimus已为大规",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30708170.html"
-    },
-    {
-      "date": "10-21",
-      "company": "其他",
-      "title": "Voxel51 launches new data platform for robotics and physical AI",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Voxel51 has launched version 3.0 of its data platform, adding new tools designed to help robotics and physical AI developers manage the huge quantities of camera, video and sensor…",
-      "url": "https://roboticsandautomationnews.com/2026/10/21/voxel51-launches-new-data-platform-for-robotics-and-physical-ai/106155/"
-    },
-    {
-      "date": "10-21",
-      "company": "其他",
-      "title": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
-      "source_name": "量子位",
-      "category": "行业动态",
-      "summary": "10月21日，生数科技世界模型团队正式开启Motubrain 2.0训练全流程公开直播",
-      "url": "https://www.qbitai.com/2026/10/504730.html"
-    },
-    {
-      "date": "10-21",
-      "company": "其他",
-      "title": "LeCun押注的世界模型，中国一家清华系公司已经做进了机器人",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "世界模型赛道新看点：千诀隐变量可辨识性方向的研究，比LeCun相近工作早一年，不堆画面预测，主打物理规律与跨本体复用",
-      "url": "https://www.qbitai.com/2026/10/504653.html"
-    },
-    {
-      "date": "10-21",
-      "company": "Agility Robotics",
-      "title": "AGCO to deploy Agility Digit humanoid in Kansas factory",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "The Agility pilot, which is expected to begin in 2027, will begin at an AGCO production facility for agricultural equipment. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/agco-to-deploy-agility-digit-humanoid-in-kansas-factory/"
-    },
-    {
-      "date": "10-21",
-      "company": "特斯拉",
-      "title": "Tesla starts Optimus robot production in California as profit falls 43%",
-      "source_name": "TechCrunch Robotics",
-      "category": "产品量产",
-      "summary": "Tesla's revenue was flat and its expenses skyrocketed as it pressed the accelerator on its Optimus robots, AI, and autonomous driving.",
-      "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/"
-    },
-    {
-      "date": "10-20",
-      "company": "其他",
-      "title": "DeepSeek新模型升级，梁文锋正在为具身智能铺路？",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "文 | 数智奔流，作者 | 田渝，编辑 | 沈校 在前几天DeepSeek发生崩溃数小时事件后，AI圈很多人都在猜测DeepSeek要有大动作。结果，DeepSeek真的在本周末发布重磅消息：发布 DeepSeek-V4.1-Flash-1017版本，还打出一句口号：“许愿式编程一键成真”。从写代码到做项目，AI编程的门槛又降低了。 很多人在问既然升级幅度这…",
-      "url": "https://www.tmtpost.com/8173675.html"
     }
   ]
 }
