@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T11:37:29.402009+08:00",
+  "updated": "2026-10-24T18:27:07.820668+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 11,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 5,
-      "core": 2,
+      "entries": 19,
+      "candidates": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 16,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 58,
-      "candidates": 23,
-      "core": 0,
+      "candidates": 18,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 59,
+      "core": 58,
       "periphery": 0,
-      "new": 18
+      "new": 19
     },
     {
       "name": "甲子光年",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-24T11:37:29.553134+08:00",
+    "generated_at": "2026-10-24T18:27:07.998171+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -319,6 +319,20 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-24",
+            "title": "网传宇树科技机器人侧空翻表演甩断腿，系新发布的 H2-X 人形机器人",
+            "url": "https://www.ithome.com/1/017/383.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-24",
+            "title": "百台人形机器人齐舞破纪录：解析背后群控与量产落地硬实力",
+            "url": "https://www.robot-china.com/news/202610/24/97140.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "10-23",
             "title": "智元×北大联合发布 ViGAR：首个面向全尺寸人形机器人的世界—动作模型",
@@ -416,13 +430,6 @@
             "url": "https://www.robot-china.com/news/202610/21/97081.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-21",
-            "title": "萝博派对发布RP1，黄一要拆掉具身智能的黑箱",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30708066.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -511,6 +518,13 @@
             "url": "https://www.tmtpost.com/8179852.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "10-24",
+            "title": "百台同场，厘米协同：智元远征A3创下 “最多人形机器人同时跳舞” 吉尼斯世界纪录",
+            "url": "https://www.robot-china.com/news/202610/24/97139.html",
+            "company": "智元机器人",
+            "source_name": "中国机器人网"
           },
           {
             "date": "10-23",
@@ -623,13 +637,6 @@
             "url": "https://roboticsandautomationnews.com/2026/10/22/infineon-names-winners-of-humanoid-robotics-startup-challenge/106216/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-21",
-            "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
-            "url": "https://www.robot-china.com/news/202610/21/97079.html",
-            "company": "OpenAI",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -650,13 +657,6 @@
             "url": "https://www.robot-china.com/news/202610/21/97078.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-21",
-            "title": "年产10万台！又一机器人关节模组产线正式投产",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30708071.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       }
@@ -680,6 +680,33 @@
       "category": "行业动态",
       "summary": "车企入局人形机器人，依托汽车产业资金、制造与线下网络，先在工厂、门店落地测试迭代。各家路线分化：自研、合作验证、渠道联动并存。短期优化生产与门店体验，长期谋求第二增长曲线，但机器人仍需跨过可靠性、成本门槛，商业化前景尚不确定",
       "url": "https://www.tmtpost.com/8179852.html"
+    },
+    {
+      "date": "10-24",
+      "company": "宇树科技",
+      "title": "网传宇树科技机器人侧空翻表演甩断腿，系新发布的 H2-X 人形机器人",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 24 日消息，据界面新闻报道，在宇树科技“2026 世界物理 AI 大会暨宇树合作伙伴生态大会”现场，一段机器人侧空翻失误的视频引发热议。 画面中，一台白色人形机器人正在进行功夫动作演示，尝试侧空翻落地时失去平衡，侧摔在地，一条机械小腿从连接处脱落，掉落在一旁的黑色地垫上。 ▲ 图源界面新闻 据了解，发生意外的机器人为宇树科技 10 月…",
+      "url": "https://www.ithome.com/1/017/383.htm"
+    },
+    {
+      "date": "10-24",
+      "company": "其他",
+      "title": "百台人形机器人齐舞破纪录：解析背后群控与量产落地硬实力",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "近日，智元远征 A3 在济南黄河国际会展中心完成吉尼斯世界纪录挑战，110 台量产版全尺寸人形机器人完成协同舞蹈表演，成功创下 “最多人形机器人同时跳舞” 吉尼斯世界纪录，全部参演机器人均为市场量产机型，并非定制演示样机。活动后的媒体交流环节，中国机器人网针对群控平台技术、量产一致性、商业化落地难点向智元团队提出核心问题。针对灵动 LinkBots 群控平台…",
+      "url": "https://www.robot-china.com/news/202610/24/97140.html"
+    },
+    {
+      "date": "10-24",
+      "company": "智元机器人",
+      "title": "百台同场，厘米协同：智元远征A3创下 “最多人形机器人同时跳舞” 吉尼斯世界纪录",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "今天，智元远征A3在山东济南黄河国际会展中心发起吉尼斯世界纪录挑战，成功创下“最多人形机器人同时跳舞”纪录。110台智元远征A3全尺寸人形机器人同一时间协同起舞，根据指示进行协同舞蹈、波浪状、倒计时数字等，吉尼斯世界纪录认证官亲临现场见证，为挑战结果颁发官方证书。智元合伙人、高级副总裁王闯现场致辞智元合伙人、高级副总裁王闯现场说道：“今天台上的这百台机器人…",
+      "url": "https://www.robot-china.com/news/202610/24/97139.html"
     },
     {
       "date": "10-23",
@@ -1085,33 +1112,6 @@
       "category": "产品量产",
       "summary": "【中国，北京，2026年10月18日】 2026机器人勇士挑战赛秋季赛今日在北京经济技术开发区南海子公园收官。镜识科技（北京）科技有限公司（以下简称镜识科技）自主研发的新一代工业级、模块化四足轮式机器人Black Panther W（BPW）出战遥控组四足轮式机器人组，以130分位列秋季赛积分榜第一，总用时4分20秒为全场最快，是小组中唯一完成全部关卡的机器…",
       "url": "https://www.robot-china.com/news/202610/21/97081.html"
-    },
-    {
-      "date": "10-21",
-      "company": "OpenAI",
-      "title": "OpenAI 将研发人形机器人，奥尔特曼称核心是打造“大脑”",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "近日消息，尽管 OpenAI 已经忙于开发人工智能模型和全新消费级硬件，但首席执行官萨姆 · 奥尔特曼（Sam Altman）及其团队显然还有精力推进另一个项目：人形机器人。奥尔特曼在《Sources》播客节目中解释，选择人形具备合理性，原因是“这个世界本身就是为人类设计的”。门、键盘和各类工具，都是按照特定人体形态打造。一台要在同类空间内活动的机器人，采用…",
-      "url": "https://www.robot-china.com/news/202610/21/97079.html"
-    },
-    {
-      "date": "10-21",
-      "company": "其他",
-      "title": "年产10万台！又一机器人关节模组产线正式投产",
-      "source_name": "OFweek机器人",
-      "category": "泛具身产业链",
-      "summary": "近日，季华驱界科技（佛山）有限公司年产10万台套高动态智能一体化关节模组产线正式投产。 “佛山科技”消息称，此次投产的",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30708071.html"
-    },
-    {
-      "date": "10-21",
-      "company": "其他",
-      "title": "萝博派对发布RP1，黄一要拆掉具身智能的黑箱",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "“如果封闭系统是权力的象征，那么开源就是文明的信仰。”萝博派对创始人黄一曾这样解释自己为什么坚持把机器人开源。 10月14日，萝博派对在X上正式发布RP1，强调这是一台为开发者打造的人形机器人。这条消",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30708066.html"
     }
   ]
 }
