@@ -1,20 +1,19 @@
 {
-  "updated": "2026-10-25T04:23:27.761128+08:00",
+  "updated": "2026-10-25T11:40:27.182171+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 10,
-      "candidates": 4,
-      "core": 3,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -32,15 +31,14 @@
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 17,
-      "candidates": 9,
-      "core": 1,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -75,8 +73,8 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -87,8 +85,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 11,
+      "entries": 57,
+      "candidates": 14,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -240,7 +238,7 @@
   "weekly_report": {
     "start": "10-19",
     "end": "10-25",
-    "generated_at": "2026-10-25T04:23:27.891044+08:00",
+    "generated_at": "2026-10-25T11:40:27.300582+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
