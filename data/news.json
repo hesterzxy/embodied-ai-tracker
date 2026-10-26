@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T11:37:01.131405+08:00",
+  "updated": "2026-10-26T20:25:10.341700+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 4,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 9,
-      "core": 1,
+      "candidates": 10,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 16,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 0,
-      "core": 0,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 21,
-      "core": 3,
+      "entries": 59,
+      "candidates": 19,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 58,
-      "periphery": 2,
-      "new": 22
+      "core": 57,
+      "periphery": 1,
+      "new": 17
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 10,
       "periphery": 0,
-      "new": 7
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -153,11 +153,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 27,
-      "core": 16,
+      "entries": 30,
+      "candidates": 28,
+      "core": 18,
       "periphery": 3,
-      "new": 2
+      "new": 4
     },
     {
       "name": "The Robot Report",
@@ -183,7 +183,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 3,
-      "new": 4
+      "new": 5
     },
     {
       "name": "Robotics & Automation News",
@@ -193,8 +193,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 7,
+      "candidates": 9,
+      "core": 4,
       "periphery": 1,
       "new": 5
     },
@@ -233,25 +233,25 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 18,
+      "core": 19,
       "periphery": 7,
-      "new": 1
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-26T11:37:01.266156+08:00",
+    "generated_at": "2026-10-26T20:25:10.411890+08:00",
     "mode": "local",
-    "item_count": 12,
+    "item_count": 23,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，丰田高管们近期不断向全球投资者宣讲机器人战略：计划部署 40 万台机器人，配套每年 64 亿美元 （IT之家注：现汇率约合 427.；走进车间会发现：工业场景在“完成动作”之上，更追求“在生产节拍中持续、稳定、可预期地运转”。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，据智元披露，G2 Max 已在多条产线投入运行，在电商仓储场景中，作业成功率超过 99%；从XR全链路测试、智能制造产线集成、高精密制造装备，到高速光模块全域智造与具身智能，五位技术专家围绕产业热点与量产难点，分享了科瑞技术的思考、探索与实践。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
-          "https://www.ithome.com/1/017/778.htm",
-          "https://www.robot-china.com/news/202610/26/97144.html",
-          "https://www.ithome.com/1/017/795.htm"
+          "https://www.ithome.com/1/017/951.htm",
+          "https://www.robot-china.com/news/202610/26/97155.html",
+          "https://www.ithome.com/1/017/778.htm"
         ]
       },
       {
@@ -260,14 +260,16 @@
         "evidence_urls": [
           "https://www.ithome.com/1/017/778.htm",
           "https://robot.ofweek.com/2026-10/ART-898890-8110-30708636.html",
-          "https://robot.ofweek.com/2026-10/ART-898890-12003-30708584.html"
+          "https://www.robot-china.com/news/202610/26/97155.html"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，覆盖数据集、作业平台、重载机器人G2Max、具身Agent框架GenieMaster、仿真平台、基座大模型与群。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，2025年6月，中科慧灵曾完成由精密制造企业蓝思科技领投的近亿元A轮融资；覆盖数据集、作业平台、重载机器人G2Max、具身Agent框架GenieMaster、仿真平台、基座大模型与群。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
-          "https://www.tmtpost.com/8181407.html"
+          "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
+          "https://www.tmtpost.com/8181407.html",
+          "https://roboticsandautomationnews.com/2026/10/26/dream-labs-raises-90-million-seed-funding-to-build-the-brain-for-everyday-robots/106290/"
         ]
       }
     ],
@@ -282,6 +284,13 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708584.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-26",
+            "title": "精工筑基·智造光未来｜对话科瑞技术五位专家：从测试标定到具身智能，拆解精密智造的技术底座",
+            "url": "https://www.robot-china.com/news/202610/26/97155.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
           }
         ]
       },
@@ -316,6 +325,41 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708631.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-26",
+            "title": "智元发布重载具身机器人精灵 G2 Max，双臂额定负载 40kg",
+            "url": "https://www.ithome.com/1/017/951.htm",
+            "company": "智元机器人",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-26",
+            "title": "中科创达发布自主智能技术与产品体系 驱动智能汽车、智能硬件、具身智能全面跃迁",
+            "url": "https://www.robot-china.com/news/202610/26/97156.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-26",
+            "title": "AI机器人哪个品牌最强？从技术、量产、落地三维度拆解核心竞争力",
+            "url": "https://www.robot-china.com/news/202610/26/97154.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-26",
+            "title": "进化无边界，全链皆向前：2026移动机器人新品发布会回顾",
+            "url": "https://www.gongkong.com/news/202610/454167.html",
+            "company": "其他",
+            "source_name": "中国工控网机器人"
+          },
+          {
+            "date": "10-26",
+            "title": "Misumi launches $50 million early-stage investment fund targeting robotics",
+            "url": "https://roboticsandautomationnews.com/2026/10/26/misumi-launches-50-million-early-stage-investment-fund-targeting-robotics/106300/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -356,6 +400,20 @@
             "url": "https://www.tmtpost.com/8181407.html",
             "company": "智元机器人",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "10-26",
+            "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
+            "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article",
+            "company": "行业",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "10-26",
+            "title": "Dream Labs raises $90 million seed funding to ‘build the brain for everyday robots’",
+            "url": "https://roboticsandautomationnews.com/2026/10/26/dream-labs-raises-90-million-seed-funding-to-build-the-brain-for-everyday-robots/106290/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -383,6 +441,27 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30708636.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-26",
+            "title": "Counterpoint：英伟达引领人形机器人 AI 加速器市场，高通、英特尔、特斯拉、小鹏逐步崛起",
+            "url": "https://www.ithome.com/1/018/075.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-26",
+            "title": "刚吹完能抬汽车 宇树机器人翻跟头甩断腿",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708695.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-26",
+            "title": "Schaeffler opens lighthouse factory in Taicang where ‘humanoids will make humanoids’",
+            "url": "https://roboticsandautomationnews.com/2026/10/26/schaeffler-opens-lighthouse-factory-in-taicang-where-humanoids-will-make-humanoids/106303/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -496,6 +575,105 @@
       "category": "技术突破",
       "summary": "出品 | 子弹财经 作者 | 段楠楠 编辑 | 冯羽 美编 | 倩倩 审核 | 颂文 10月12日，第26届中国国际工业博览会在上海成功召开，作为机器人企业的爱仕达也参加了该次展会。相较于往年只展出工",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708584.html"
+    },
+    {
+      "date": "10-26",
+      "company": "行业",
+      "title": "中科慧灵完成数亿元A++轮融资：制鞋机器人订单超 4 亿元，具身智能开始拼量产交付",
+      "source_name": "InfoQ",
+      "category": "资本动态",
+      "summary": "2025年6月，中科慧灵曾完成由精密制造企业蓝思科技领投的近亿元A轮融资",
+      "url": "https://www.infoq.cn/article/2svt5BbWUOHbADdo0UZo?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "10-26",
+      "company": "特斯拉",
+      "title": "Counterpoint：英伟达引领人形机器人 AI 加速器市场，高通、英特尔、特斯拉、小鹏逐步崛起",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 26 日消息，根据 Counterpoint Research 最新发布的全球人形机器人追踪报告，预计到 2030 年 ，全球人形机器人 AI 加速器累计出货量将 突破 100 万台 ，2026 至 2030 年期间的 复合年增长率（CAGR）高达 144% 。 在计算架构方面，由于视觉-语言-行动（VLA）模型与世界模型逐步融合，GPU…",
+      "url": "https://www.ithome.com/1/018/075.htm"
+    },
+    {
+      "date": "10-26",
+      "company": "智元机器人",
+      "title": "智元发布重载具身机器人精灵 G2 Max，双臂额定负载 40kg",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 10 月 26 日消息，智元今日发布安规级重载具身机器人精灵 G2 Max，面向拆码垛、物料转运及产线供料等工业场景。该产品单臂负载 20kg、双臂额定负载 40kg， 双臂峰值负载可达 50kg ，手臂重复定位精度≤±0.5mm。 据智元披露，G2 Max 已在多条产线投入运行，在电商仓储场景中，作业成功率超过 99%，每小时可拆垛 80 箱、码…",
+      "url": "https://www.ithome.com/1/017/951.htm"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "中科创达发布自主智能技术与产品体系 驱动智能汽车、智能硬件、具身智能全面跃迁",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "人工智能正从以模型能力为中心的技术创新，逐步走向与行业知识、业务流程和物理设备深度融合的产业应用阶段。随着AI加速进入物理世界，尤其是汽车、物联网及机器人等领域，企业对智能化的需求也从单一功能的引入，进一步延伸至如何将自身业务经验、行业知识与技术能力融入产品和系统，构建更贴合实际场景、能够持续演进的智能化解决方案。这个过程中，如何让AI真正理解行业需求、融入…",
+      "url": "https://www.robot-china.com/news/202610/26/97156.html"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "精工筑基·智造光未来｜对话科瑞技术五位专家：从测试标定到具身智能，拆解精密智造的技术底座",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "第26届中国国际工业博览会圆满落幕，科瑞技术（股票代码：002957）以“精工筑基·智造光未来”为主题，连续两天带来五场前沿技术分享。从XR全链路测试、智能制造产线集成、高精密制造装备，到高速光模块全域智造与具身智能，五位技术专家围绕产业热点与量产难点，分享了科瑞技术的思考、探索与实践。展会期间，智博数字与五位专家展开深度对话，试图还原这些技术分享背后的产业…",
+      "url": "https://www.robot-china.com/news/202610/26/97155.html"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "AI机器人哪个品牌最强？从技术、量产、落地三维度拆解核心竞争力",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "在AI机器人赛道,“哪个品牌最强”几乎是每个从业者、采购方都会问的问题。有人看技术参数,有人看交付规模,有人看品牌名气,评判标准不同,得出的结论也天差地别。事实上,AI机器人不是单一品类,工业、商用、人形机器人的核心能力要求完全不同,不存在全场景通吃的“绝对最强”。真正有参考价值的判断,是从技术底座、量产交付、场景落地三个核心维度,拆解不同品牌的真实竞争力,…",
+      "url": "https://www.robot-china.com/news/202610/26/97154.html"
+    },
+    {
+      "date": "10-26",
+      "company": "宇树科技",
+      "title": "刚吹完能抬汽车 宇树机器人翻跟头甩断腿",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "这几天，宇树科技贡献了一个全网最大的V反转。刚发布的新款机器人“功夫传奇”，宣传片里号称能徒手抬汽车。结果10月22日在自家大会上表演侧空翻，落地没站稳，一条机械单腿当场脱落，直接甩飞了出去。前脚刚吹",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708695.html"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "进化无边界，全链皆向前：2026移动机器人新品发布会回顾",
+      "source_name": "中国工控网机器人",
+      "category": "产品量产",
+      "summary": "10月23日，海康机器人以“全链·进化”为主题，举办2026移动机器人新品发布会暨CeMAT预展专场，聚焦“存、拣、运”全流程，发布箱式方案全新升级并推出“明智”系列单体智能产品，构建覆盖箱式存拣与搬运配送的厂内物流全链路解决方案。 标签： 海康机器人Hikrob... <a href=\"//tags.gongkong.com/tags/机器人\" targe…",
+      "url": "https://www.gongkong.com/news/202610/454167.html"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "Schaeffler opens lighthouse factory in Taicang where ‘humanoids will make humanoids’",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Motion technology company Schaeffler has opened a state-of-the-art lighthouse factory for humanoid robotics in Taicang, China. It houses an intelligent assembly line, a training an…",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/schaeffler-opens-lighthouse-factory-in-taicang-where-humanoids-will-make-humanoids/106303/"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "Misumi launches $50 million early-stage investment fund targeting robotics",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Misumi Americas has launched Misumi Ventures, a $50 million early-stage investment fund targeting robotics, automation, advanced hardware, physical AI and industrial software compa…",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/misumi-launches-50-million-early-stage-investment-fund-targeting-robotics/106300/"
+    },
+    {
+      "date": "10-26",
+      "company": "其他",
+      "title": "Dream Labs raises $90 million seed funding to ‘build the brain for everyday robots’",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Dream Labs, an AI company building the brain for everyday robots, has announced $90 million in seed funding led by B Capital along with Kindred Ventures, with participation from A.…",
+      "url": "https://roboticsandautomationnews.com/2026/10/26/dream-labs-raises-90-million-seed-funding-to-build-the-brain-for-everyday-robots/106290/"
     },
     {
       "date": "10-25",
@@ -739,105 +917,6 @@
       "category": "行业动态",
       "summary": "Generative Bionics is planning to build what it says will be Europe’s largest physical AI training facility for humanoid robots, using AMD computing infrastructure to combine real-…",
       "url": "https://roboticsandautomationnews.com/2026/10/23/generative-bionics-to-build-european-physical-ai-data-factory-for-humanoid-robots/106245/"
-    },
-    {
-      "date": "10-23",
-      "company": "其他",
-      "title": "Video Friday: Quadruped Robot Solves Giant Rubik’s Cube By Itself",
-      "source_name": "IEEE Spectrum Robotics",
-      "category": "行业动态",
-      "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events fo…",
-      "url": "https://spectrum.ieee.org/video-friday-rubiks-cube-robot"
-    },
-    {
-      "date": "10-22",
-      "company": "宇树科技",
-      "title": "王兴兴：宇树 G1 已累计生产下线约 1-2 万台，是全球最畅销的人形机器人",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 22 日消息，据《科创板日报》报道，在 2026 世界物理 AI 大会暨宇树合作伙伴生态大会上，宇树科技创始人王兴兴表示，自 2024 年 5 月发布以来，宇树 G1 机器人已经累计生产下线约 1-2 万台，是全球最畅销的人形机器人。 延伸阅读 公开资料显示，本次大会主题为“宇十俱进，树业共生”，包括 3000 余名嘉宾、4000 余平方…",
-      "url": "https://www.ithome.com/1/016/258.htm"
-    },
-    {
-      "date": "10-22",
-      "company": "特斯拉",
-      "title": "马斯克：计划建造 Optimus 人形机器人学校，Terafab 经济价值可跻身全球前 20 经济体",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 22 日消息，特斯拉首席执行官埃隆 · 马斯克（Elon Musk）透露，计划为旗下擎天柱（Optimus）人形机器人建造一座“机器人学校”，保障人工智能训练顺利开展。马斯克在特斯拉第三季度财报电话会议上谈及了这项规划，同时表示，公司达成年产 100 万台机器人的目标，所需时间可能超过一年。他还介绍了 Terafab 芯片工厂项目，该项目…",
-      "url": "https://www.ithome.com/1/016/249.htm"
-    },
-    {
-      "date": "10-22",
-      "company": "特斯拉",
-      "title": "特斯拉开始在弗里蒙特工厂生产 Optimus 人形机器人，马斯克称达周产 2 万台仍需约一年甚至更久",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 22 日消息，特斯拉 2026 年第三季度财报显示，公司已经在弗里蒙特工厂的一条大批量产产线上启动擎天柱（Optimus）人形机器人的生产。不过首席执行官埃隆 · 马斯克（Elon Musk）表示，这条产线还需要大约一年甚至更久，才能达到每周 2 万台机器人的目标产能。 特斯拉在 2026 年第三季度业务更新报告中称，弗里蒙特产线下线的这…",
-      "url": "https://www.ithome.com/1/016/218.htm"
-    },
-    {
-      "date": "10-22",
-      "company": "其他",
-      "title": "2027人形机器人生态大会将于2027年4月15-18日举行",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "人形机器人生态大会（英文简称：HREC）是全球三大人形机器人展会之一，是国内高规格、高影响力的人形机器人行业盛会。大会由中国机器人网主办，创立于2024年，已成功举办3届，每年4月在上海汽车会展中心举办。大会以 “人机共融 智造未来” 为核心主题，已成为行业创新发展的闪亮名片，凭借强大行业震撼力与广泛影响力，持续推动人形机器人技术变革与产业发展。作为集会议研…",
-      "url": "https://www.robot-china.com/news/202610/22/96806.html"
-    },
-    {
-      "date": "10-22",
-      "company": "智元机器人",
-      "title": "智元“ AI WAVE”定档10月22日：具身智能新品连发，机器人赴便利店直播打工24小时",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "作为2026智元创新日（AGIBOT INNOVATION DAY）的前奏与延伸，10月22日起，智元将启动“AI WAVE”，连续发布数据集、作业平台、机器人本体、Agent框架、仿真平台、基座大模型及群体经验学习范式等七项成果，集中呈现全栈具身AI技术布局。发布不是终点——所有发布的技术，最后将接受真实场景的检验。11月2日至3日，6台G2机器人将走进便…",
-      "url": "https://www.robot-china.com/news/202610/22/97100.html"
-    },
-    {
-      "date": "10-22",
-      "company": "宇树科技",
-      "title": "宇树科技发布“H2-X功夫传奇”新机，人形机器人拓展至安保场景",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月21日，宇树发布新款机器人“H2-X 功夫传奇 守护”，把“会武术”升级成“会守护”，演示场景不再是舞台表演，而是定位为保护主人免受袭击、“徒手”抬起汽车、车祸瞬间扑救等安保与应急救援功能。H2-X最长续航约8小时，较基础款H2约3小时实现大幅跨越。研究机构表示，人形机器人产业进入量产验证与场景落地关键期，特斯拉与宇树科技进展较快，建议关注精密减速器…",
-      "url": "https://www.robot-china.com/news/202610/22/97097.html"
-    },
-    {
-      "date": "10-22",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus人形机器人正式投产! 马斯克预计明年底开始交付",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月22日消息，特斯拉在最新财报中宣布，备受关注的人形机器人Optimus已经在加利福尼亚州弗里蒙特工厂正式启动量产。特斯拉表示，目前从该产线下线的机器人已经达到首批可交付的质量标准，现有的制造工艺已经基本符合商业化产品的要求。在三季度财报电话会议上，首席执行官埃隆·马斯克指出，机器人的软硬件设计依然有一些细节需要微调。他强调，交付给客户的产品必须兼具安全…",
-      "url": "https://www.robot-china.com/news/202610/22/97096.html"
-    },
-    {
-      "date": "10-22",
-      "company": "其他",
-      "title": "2490美元!贾跃亭造出能塞背包的人形机器人，号称全美最便宜",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "贾跃亭的FFAI公司又发新品了。FF Nova迷你人形机器人正式发布，号称是美国目前最便宜的入门级具身智能人形机器人，小到能直接塞进背包里。贾跃亭这速度可以，上个月刚一口气发布9款机器人，这才不到一个月，又上新了。FF Nova本体售价2490美元，换算成人民币大概一万六千多，配套的开发者技能包还要390美元。这个价格在美国人形机器人市场是什么概念？这么说吧…",
-      "url": "https://www.robot-china.com/news/202610/22/97093.html"
-    },
-    {
-      "date": "10-22",
-      "company": "其他",
-      "title": "真机实干，产训一体：具身智能的下一座基础设施，为什么是“实景实训平台”？",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "机器人在哪里练，练成后用在哪里？越来越多的探索指向同一个答案：把训练放进真实的工位，这就是“实景实训平台”",
-      "url": "https://www.robot-china.com/news/202610/22/97089.html"
-    },
-    {
-      "date": "10-22",
-      "company": "智元机器人",
-      "title": "黄仁勋称物理AI将至，智元机器人开启七天公开技术大考",
-      "source_name": "OFweek机器人",
-      "category": "技术突破",
-      "summary": "昨天英伟达GTC上，黄仁勋刚说“物理AI的时刻正在逼近”。这边智元就反手甩出一张“排期表”：从今天（10月22日）起，连续七个工作日，连发七项全栈技术成果。黄仁勋GTC最新讲话：人形机器人的“Chat",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8110-30708224.html"
     }
   ]
 }
