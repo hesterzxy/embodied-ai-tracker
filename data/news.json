@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T19:44:39.221873+08:00",
+  "updated": "2026-10-28T01:37:17.952568+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 5,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 3,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 19,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 58,
       "periphery": 3,
-      "new": 19
+      "new": 18
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 6
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -157,7 +157,7 @@
       "candidates": 28,
       "core": 17,
       "periphery": 5,
-      "new": 7
+      "new": 6
     },
     {
       "name": "The Robot Report",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 3
+      "new": 2
     },
     {
       "name": "TechCrunch Robotics",
@@ -183,7 +183,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 3,
-      "new": 4
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-27T19:44:39.379933+08:00",
+    "generated_at": "2026-10-28T01:37:18.115937+08:00",
     "mode": "local",
     "item_count": 39,
     "insights": [
