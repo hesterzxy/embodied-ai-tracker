@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T01:37:17.952568+08:00",
+  "updated": "2026-10-28T05:55:02.078387+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 19,
+      "candidates": 18,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 1,
-      "new": 2
+      "new": 1
     },
     {
       "name": "TechCrunch Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-28T01:37:18.115937+08:00",
+    "generated_at": "2026-10-28T05:55:02.260660+08:00",
     "mode": "local",
     "item_count": 39,
     "insights": [
