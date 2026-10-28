@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:55:02.078387+08:00",
+  "updated": "2026-10-28T12:26:30.220005+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -36,7 +36,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 15,
       "candidates": 5,
       "core": 1,
       "periphery": 0,
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 2,
-      "core": 1,
+      "entries": 18,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -76,10 +76,10 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 18,
-      "core": 0,
+      "entries": 58,
+      "candidates": 25,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 58,
       "periphery": 3,
-      "new": 18
+      "new": 21
     },
     {
       "name": "甲子光年",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
+      "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -153,9 +153,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 30,
-      "candidates": 28,
-      "core": 17,
+      "entries": 29,
+      "candidates": 27,
+      "core": 16,
       "periphery": 5,
       "new": 6
     },
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
-      "core": 3,
+      "candidates": 10,
+      "core": 4,
       "periphery": 1,
-      "new": 2
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,9 +241,9 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-28T05:55:02.260660+08:00",
+    "generated_at": "2026-10-28T12:26:30.373371+08:00",
     "mode": "local",
-    "item_count": 39,
+    "item_count": 47,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -278,6 +278,13 @@
         "category": "技术突破",
         "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
+          {
+            "date": "10-28",
+            "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+            "url": "https://www.robot-china.com/news/202610/28/97186.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "10-27",
             "title": "超1800支参赛队伍创纪录，蚂蚁灵波具身模型挑战赛即将决赛",
@@ -319,6 +326,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "10-28",
+            "title": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
+            "url": "https://www.robot-china.com/news/202610/28/97181.html",
+            "company": "智元机器人",
+            "source_name": "中国机器人网"
+          },
           {
             "date": "10-27",
             "title": "RoboTwin、RoboDojo 双榜领跑，厘清智能发布两项学术成果，持续推进 Physical AI Infra 建设",
@@ -410,6 +424,20 @@
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
           {
+            "date": "10-28",
+            "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+            "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "10-28",
+            "title": "盛大开幕！ROBOTECH 2026智能机器人博览会首日热力全开，全景呈现具身智能落地新图景",
+            "url": "https://www.robot-china.com/news/202610/28/97187.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
             "date": "10-26",
             "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
             "url": "https://www.ithome.com/1/017/795.htm",
@@ -491,6 +519,34 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-28",
+            "title": "特斯拉计划用 Optimus 人形机器人给 Robotaxi 插拔充电枪，终极目标是无线充电",
+            "url": "https://www.ithome.com/1/018/743.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "10-28",
+            "title": "芯动源机器人AMR方案破解柔性产线物流难题",
+            "url": "https://www.robot-china.com/news/202610/28/97185.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-28",
+            "title": "特斯拉人形机器人找到新工作 为特斯拉CyberCab无人车充电",
+            "url": "https://www.robot-china.com/news/202610/28/97180.html",
+            "company": "特斯拉",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-28",
+            "title": "机器人两巨头隔空对线：宇树王兴兴叹“对齐”太难，智元直接开启24小时“裸奔”",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30709102.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-27",
             "title": "造型像火箭！特斯拉休斯顿 Robotaxi 服务范围扩至 10 倍，面积是 Waymo 的 5 倍",
@@ -586,6 +642,78 @@
     ]
   },
   "items": [
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+      "source_name": "InfoQ",
+      "category": "商业订单",
+      "summary": "家庭服务机器人正推进产品化落地，聚焦轻量化双臂本体、分层软件架构及仿真-真机数据闭环，探索rule-based与modular策略协同路径。 关键观点：提出RSI自我进化系统构建思路；验证端到端方法在现实约束下的性能缺口；实现软硬一体开发中自动化代码生成。 适合具身智能系统架构师、机器人嵌入式工程师、AI+硬件融合方向CTO阅读。 具身智能在家庭场景的落地正…",
+      "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "10-28",
+      "company": "特斯拉",
+      "title": "特斯拉计划用 Optimus 人形机器人给 Robotaxi 插拔充电枪，终极目标是无线充电",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 28 日消息，特斯拉的 Robotaxi 无人驾驶出租车已经能够自行驶入超级充电站，但目前仍需要工作人员手动插上充电枪。未来，这项工作可能交由特斯拉的人形机器人 Optimus 完成。 在近期接受 Munro Live 采访时，特斯拉车辆工程副总裁拉尔斯 · 莫拉维（Lars Moravy）和 Cybercab 项目负责人埃里克 · 厄利…",
+      "url": "https://www.ithome.com/1/018/743.htm"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "盛大开幕！ROBOTECH 2026智能机器人博览会首日热力全开，全景呈现具身智能落地新图景",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "今日，2026 ROBOTECH智能机器人博览会在深圳国际会展中心（宝安）盛大开幕。作为2026年具身智能与机器人领域的重要行业盛会，开展首日人气高涨，众多机器人本体、核心零部件、关键材料、整机研发、设计、二次开发、租赁平台及行业应用企业集中亮相，全面呈现具身智能从技术研发、产品制造到场景落地的全链路创新成果。立即登记，现场免排队全产业链展品集中亮相，从本体…",
+      "url": "https://www.robot-china.com/news/202610/28/97187.html"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "10月25日，2026全球开发者先锋大会暨国际具身智能技能大赛在上海张江科学会堂圆满落幕。大会汇聚300余家具身智能本体企业、200余家上下游供应链企业，聚集国内外近百个开源组织与开发者社区，以及500余位青年开发者及行业重磅嘉宾。吸引线下参会者近6万人次，全网发布报道6500余篇、曝光量超60亿次。大会集中推出“4+X”重大成果，构建具身智能全产业链生态支…",
+      "url": "https://www.robot-china.com/news/202610/28/97186.html"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "芯动源机器人AMR方案破解柔性产线物流难题",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "柔性制造与多品种混线生产加速普及，卷料、板材、PCB 等物料形态特殊、易损，跨平台搬运与辊道线、传送带等产线设备的精准衔接，成为生产物流中普遍存在的难点。芯动源机器人以 AMR（自主移动机器人）为核心的柔性产线物流方案，帮助制造企业提升物料流转效率、降低人工依赖，并增强生产全过程可追溯能力。卷材、板材、PCB 等物料对搬运平稳性与对接精度要求严苛，跨平台搬运…",
+      "url": "https://www.robot-china.com/news/202610/28/97185.html"
+    },
+    {
+      "date": "10-28",
+      "company": "智元机器人",
+      "title": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10 月 27 日消息，智元正式发布具身 Agent 框架 Genie Master，让机器人在上岗的过程中边解锁新技能。 据悉，搭载该框架的精灵 G2，在真实便利店上岗期间，不依赖人工示范与调试，自己定位失败原因、调整策略、沉淀经验，做到了在多个复杂精细任务上持续改进，实现“无人在环”的持续自我进化。这是行业首次跳出仿真环境、走出实验室，首次在真实业务场景…",
+      "url": "https://www.robot-china.com/news/202610/28/97181.html"
+    },
+    {
+      "date": "10-28",
+      "company": "特斯拉",
+      "title": "特斯拉人形机器人找到新工作 为特斯拉CyberCab无人车充电",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "10月27日消息，据报道，在近日的Munro Live采访中，特斯拉工程副总裁Lars Moravy与Eric Earley透露，特斯拉Optimus人形机器人正在学习给无人出租车充电，短期内预计将负责为Robotaxi车队插枪补能。 两人在采访中分享了不少Optimus与Cybercab的细节，据其介绍，Optimus的电池是一个约2.5kWh的独立模块…",
+      "url": "https://www.robot-china.com/news/202610/28/97180.html"
+    },
+    {
+      "date": "10-28",
+      "company": "智元机器人",
+      "title": "机器人两巨头隔空对线：宇树王兴兴叹“对齐”太难，智元直接开启24小时“裸奔”",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "最近物理AI圈里最有趣的画面，是两家中国机器人本体头部公司无意间打出的配合。 王兴兴在宇树大会上点出行业的死穴：具身智能最大挑战，是AI模型输入输出和真实机器人的“对齐”。宇树王兴兴戳破行业假象：大模",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321205-8420-30709102.html"
+    },
     {
       "date": "10-27",
       "company": "特斯拉",
@@ -963,78 +1091,6 @@
       "category": "产品量产",
       "summary": "IT之家 10 月 25 日消息，启元机器人今天宣布， 公司第 5000 台个人机器人正式下线 。 IT之家从启元机器人公众号获悉，该公司 9 月 20 日正式发售启元 Q1、启元 T1 两款个人机器人，如今迎来第 5000 台机器人下线， 代表其机器人规模化量产交付能力正在逐步形成 。 启元机器人联席总裁、中央研发部总裁高全中表示， 目前启元机器人已实现每…",
       "url": "https://www.ithome.com/1/017/672.htm"
-    },
-    {
-      "date": "10-25",
-      "company": "其他",
-      "title": "Teradyne Robotics partners with Sereact to scale physical AI in retail and logistics",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Sereact and Teradyne have already shipped hundreds of UR robots in dual-arm systems to live customer sites across Europe. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/teradyne-robotics-partners-sereact-scale-physical-ai-retail-logistics/"
-    },
-    {
-      "date": "10-24",
-      "company": "其他",
-      "title": "国产具身智能出海开启“减重计划”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "2026年上半年，国产机器人出口交出了一份近乎豪华的战绩单。 据海关数据，上半年出口额达248.5亿元，同比增长359.0%，仅半年规模就已远超过去数年总和。各类机器人合计出口额113.2亿元，全球每10台人形机器人里大约9台产自中国。国产机器人出海可谓是一片欣欣向荣。 但当把出货结构拆开，另一个事实便浮了出来。据高工机器人产业研究所数据，出口机器人中，文娱…",
-      "url": "https://www.tmtpost.com/8179676.html"
-    },
-    {
-      "date": "10-24",
-      "company": "其他",
-      "title": "车企造人形机器人，究竟图什么？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "车企入局人形机器人，依托汽车产业资金、制造与线下网络，先在工厂、门店落地测试迭代。各家路线分化：自研、合作验证、渠道联动并存。短期优化生产与门店体验，长期谋求第二增长曲线，但机器人仍需跨过可靠性、成本门槛，商业化前景尚不确定",
-      "url": "https://www.tmtpost.com/8179852.html"
-    },
-    {
-      "date": "10-24",
-      "company": "宇树科技",
-      "title": "网传宇树科技机器人侧空翻表演甩断腿，系新发布的 H2-X 人形机器人",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 10 月 24 日消息，据界面新闻报道，在宇树科技“2026 世界物理 AI 大会暨宇树合作伙伴生态大会”现场，一段机器人侧空翻失误的视频引发热议。 画面中，一台白色人形机器人正在进行功夫动作演示，尝试侧空翻落地时失去平衡，侧摔在地，一条机械小腿从连接处脱落，掉落在一旁的黑色地垫上。 ▲ 图源界面新闻 据了解，发生意外的机器人为宇树科技 10 月…",
-      "url": "https://www.ithome.com/1/017/383.htm"
-    },
-    {
-      "date": "10-24",
-      "company": "其他",
-      "title": "百台人形机器人齐舞破纪录：解析背后群控与量产落地硬实力",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "近日，智元远征 A3 在济南黄河国际会展中心完成吉尼斯世界纪录挑战，110 台量产版全尺寸人形机器人完成协同舞蹈表演，成功创下 “最多人形机器人同时跳舞” 吉尼斯世界纪录，全部参演机器人均为市场量产机型，并非定制演示样机。活动后的媒体交流环节，中国机器人网针对群控平台技术、量产一致性、商业化落地难点向智元团队提出核心问题。针对灵动 LinkBots 群控平台…",
-      "url": "https://www.robot-china.com/news/202610/24/97140.html"
-    },
-    {
-      "date": "10-24",
-      "company": "智元机器人",
-      "title": "百台同场，厘米协同：智元远征A3创下 “最多人形机器人同时跳舞” 吉尼斯世界纪录",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "今天，智元远征A3在山东济南黄河国际会展中心发起吉尼斯世界纪录挑战，成功创下“最多人形机器人同时跳舞”纪录。110台智元远征A3全尺寸人形机器人同一时间协同起舞，根据指示进行协同舞蹈、波浪状、倒计时数字等，吉尼斯世界纪录认证官亲临现场见证，为挑战结果颁发官方证书。智元合伙人、高级副总裁王闯现场致辞智元合伙人、高级副总裁王闯现场说道：“今天台上的这百台机器人…",
-      "url": "https://www.robot-china.com/news/202610/24/97139.html"
-    },
-    {
-      "date": "10-24",
-      "company": "其他",
-      "title": "Eka Robotics raises $150M to scale its vision-force-action model for robots",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Eka Robotics is building a vision-force-action, or VFA, model to develop an intuition of physics through reinforcement learning at scale. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/eka-robotics-raises-150m-scale-vision-force-action-model-robots/"
-    },
-    {
-      "date": "10-23",
-      "company": "其他",
-      "title": "人形机器人租金暴跌，厂商为什么还在铺渠道？",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付一台机器人，不必再多配一名跟在旁边的工程师",
-      "url": "https://www.tmtpost.com/8177860.html"
     }
   ]
 }
