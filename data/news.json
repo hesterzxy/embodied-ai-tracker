@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:17:25.524697+08:00",
+  "updated": "2026-10-29T06:18:39.102937+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 1,
+      "candidates": 7,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 3,
+      "entries": 13,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 24,
-      "core": 2,
+      "entries": 58,
+      "candidates": 20,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 57,
       "periphery": 2,
-      "new": 17
+      "new": 13
     },
     {
       "name": "甲子光年",
@@ -169,8 +169,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 6,
-      "periphery": 1,
-      "new": 3
+      "periphery": 0,
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -183,7 +183,7 @@
       "candidates": 13,
       "core": 6,
       "periphery": 3,
-      "new": 2
+      "new": 1
     },
     {
       "name": "Robotics & Automation News",
@@ -194,9 +194,9 @@
       "error": "",
       "entries": 15,
       "candidates": 13,
-      "core": 6,
+      "core": 7,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-28T20:17:25.672893+08:00",
+    "generated_at": "2026-10-29T06:18:39.243853+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -251,16 +251,16 @@
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/28/97189.html",
           "https://www.ithome.com/1/017/951.htm",
-          "https://www.robot-china.com/news/202610/26/97155.html"
+          "https://www.robot-china.com/news/202610/27/97164.html"
         ]
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.；官方数据显示：大赛共吸引了海内外1855支队伍、3252位选手报名。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.；模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/28/97193.html",
-          "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html",
-          "https://www.robot-china.com/news/202610/28/97190.html"
+          "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+          "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html"
         ]
       },
       {
@@ -293,6 +293,13 @@
             "source_name": "中国机器人网"
           },
           {
+            "date": "10-28",
+            "title": "具身智能军备竞赛，胜负手在工程生态",
+            "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
             "date": "10-27",
             "title": "超1800支参赛队伍创纪录，蚂蚁灵波具身模型挑战赛即将决赛",
             "url": "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html",
@@ -319,13 +326,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708584.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-26",
-            "title": "精工筑基·智造光未来｜对话科瑞技术五位专家：从测试标定到具身智能，拆解精密智造的技术底座",
-            "url": "https://www.robot-china.com/news/202610/26/97155.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -351,6 +351,13 @@
             "date": "10-28",
             "title": "Avride delivery robots expand to four US cities through Wonder partnership",
             "url": "https://roboticsandautomationnews.com/2026/10/28/avride-delivery-robots-expand-to-four-us-cities-through-wonder-partnership/106416/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-28",
+            "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
+            "url": "https://roboticsandautomationnews.com/2026/10/28/neura-robotics-and-tum-open-e17-million-robogym-and-unveil-new-humanoid/106435/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           },
@@ -416,20 +423,6 @@
             "url": "https://www.robot-china.com/news/202610/26/97156.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "AI机器人哪个品牌最强？从技术、量产、落地三维度拆解核心竞争力",
-            "url": "https://www.robot-china.com/news/202610/26/97154.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "进化无边界，全链皆向前：2026移动机器人新品发布会回顾",
-            "url": "https://www.gongkong.com/news/202610/454167.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       },
@@ -450,6 +443,13 @@
             "url": "https://www.robot-china.com/news/202610/28/97187.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-28",
+            "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
+            "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "10-26",
@@ -503,6 +503,13 @@
             "date": "10-28",
             "title": "Fort Robotics secures approximately $20 million in additional funding",
             "url": "https://roboticsandautomationnews.com/2026/10/28/fort-robotics-secures-approximately-20-million-in-additional-funding/106419/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-28",
+            "title": "Maxinsights raises $30 million to build training data platform for physical AI",
+            "url": "https://roboticsandautomationnews.com/2026/10/28/maxinsights-raises-30-million-to-build-training-data-platform-for-physical-ai/106432/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
           },
@@ -637,13 +644,6 @@
             "url": "https://www.ithome.com/1/018/075.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-26",
-            "title": "刚吹完能抬汽车 宇树机器人翻跟头甩断腿",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708695.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -815,6 +815,42 @@
       "category": "行业动态",
       "summary": "Teradyne Robotics and Sereact have formed a partnership to combine Sereact’s physical AI technology with Universal Robots’ collaborative robots for applications in retail, logistic…",
       "url": "https://roboticsandautomationnews.com/2026/10/28/teradyne-robotics-and-sereact-partner-to-drive-physical-ai-solutions-for-retail-and-logistics/106406/"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "具身智能军备竞赛，胜负手在工程生态",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨 邓哲敏 编辑丨 齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？ 模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决…",
+      "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
+      "source_name": "The Robot Report",
+      "category": "商业订单",
+      "summary": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the…",
+      "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Neura Robotics and the Technical University of Munich have opened a €17 million robotics research and training center near Munich Airport, while unveiling the latest generation of…",
+      "url": "https://roboticsandautomationnews.com/2026/10/28/neura-robotics-and-tum-open-e17-million-robogym-and-unveil-new-humanoid/106435/"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "Maxinsights raises $30 million to build training data platform for physical AI",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Maxinsights has raised $30 million in seed funding to expand its physical AI data platform, which pays people to record everyday activities such as cooking, cleaning and other work…",
+      "url": "https://roboticsandautomationnews.com/2026/10/28/maxinsights-raises-30-million-to-build-training-data-platform-for-physical-ai/106432/"
     },
     {
       "date": "10-27",
@@ -1076,42 +1112,6 @@
       "category": "产品量产",
       "summary": "人工智能正从以模型能力为中心的技术创新，逐步走向与行业知识、业务流程和物理设备深度融合的产业应用阶段。随着AI加速进入物理世界，尤其是汽车、物联网及机器人等领域，企业对智能化的需求也从单一功能的引入，进一步延伸至如何将自身业务经验、行业知识与技术能力融入产品和系统，构建更贴合实际场景、能够持续演进的智能化解决方案。这个过程中，如何让AI真正理解行业需求、融入…",
       "url": "https://www.robot-china.com/news/202610/26/97156.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "精工筑基·智造光未来｜对话科瑞技术五位专家：从测试标定到具身智能，拆解精密智造的技术底座",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "第26届中国国际工业博览会圆满落幕，科瑞技术（股票代码：002957）以“精工筑基·智造光未来”为主题，连续两天带来五场前沿技术分享。从XR全链路测试、智能制造产线集成、高精密制造装备，到高速光模块全域智造与具身智能，五位技术专家围绕产业热点与量产难点，分享了科瑞技术的思考、探索与实践。展会期间，智博数字与五位专家展开深度对话，试图还原这些技术分享背后的产业…",
-      "url": "https://www.robot-china.com/news/202610/26/97155.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "AI机器人哪个品牌最强？从技术、量产、落地三维度拆解核心竞争力",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "在AI机器人赛道,“哪个品牌最强”几乎是每个从业者、采购方都会问的问题。有人看技术参数,有人看交付规模,有人看品牌名气,评判标准不同,得出的结论也天差地别。事实上,AI机器人不是单一品类,工业、商用、人形机器人的核心能力要求完全不同,不存在全场景通吃的“绝对最强”。真正有参考价值的判断,是从技术底座、量产交付、场景落地三个核心维度,拆解不同品牌的真实竞争力,…",
-      "url": "https://www.robot-china.com/news/202610/26/97154.html"
-    },
-    {
-      "date": "10-26",
-      "company": "宇树科技",
-      "title": "刚吹完能抬汽车 宇树机器人翻跟头甩断腿",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "这几天，宇树科技贡献了一个全网最大的V反转。刚发布的新款机器人“功夫传奇”，宣传片里号称能徒手抬汽车。结果10月22日在自家大会上表演侧空翻，落地没站稳，一条机械单腿当场脱落，直接甩飞了出去。前脚刚吹",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708695.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "进化无边界，全链皆向前：2026移动机器人新品发布会回顾",
-      "source_name": "中国工控网机器人",
-      "category": "产品量产",
-      "summary": "10月23日，海康机器人以“全链·进化”为主题，举办2026移动机器人新品发布会暨CeMAT预展专场，聚焦“存、拣、运”全流程，发布箱式方案全新升级并推出“明智”系列单体智能产品，构建覆盖箱式存拣与搬运配送的厂内物流全链路解决方案。 标签： 海康机器人Hikrob... <a href=\"//tags.gongkong.com/tags/机器人\" targe…",
-      "url": "https://www.gongkong.com/news/202610/454167.html"
     }
   ]
 }
