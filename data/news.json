@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T12:44:40.856661+08:00",
+  "updated": "2026-10-29T20:27:22.482255+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 1,
-      "core": 1,
+      "candidates": 5,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "36氪",
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 7,
-      "core": 2,
+      "entries": 19,
+      "candidates": 6,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
-      "core": 1,
+      "entries": 17,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 13,
+      "entries": 60,
+      "candidates": 21,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 52,
       "periphery": 5,
-      "new": 14
+      "new": 18
     },
     {
       "name": "甲子光年",
@@ -127,11 +127,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 21,
-      "candidates": 21,
-      "core": 8,
+      "entries": 22,
+      "candidates": 22,
+      "core": 13,
       "periphery": 0,
-      "new": 8
+      "new": 9
     },
     {
       "name": "新战略移动机器人",
@@ -193,7 +193,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 13,
+      "candidates": 12,
       "core": 7,
       "periphery": 1,
       "new": 3
@@ -222,7 +222,7 @@
       "candidates": 30,
       "core": 22,
       "periphery": 7,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-29T12:44:40.966903+08:00",
+    "generated_at": "2026-10-29T20:27:22.616692+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -251,7 +251,7 @@
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/29/97203.html",
           "https://robot.ofweek.com/2026-10/ART-898890-12003-30709274.html",
-          "https://www.robot-china.com/news/202610/28/97189.html"
+          "https://www.robot-china.com/news/202610/29/97213.html"
         ]
       },
       {
@@ -260,7 +260,7 @@
         "evidence_urls": [
           "https://www.robot-china.com/news/202610/28/97193.html",
           "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
-          "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html"
+          "https://www.qbitai.com/2026/10/506098.html"
         ]
       },
       {
@@ -269,7 +269,7 @@
         "evidence_urls": [
           "https://www.ithome.com/1/018/971.htm",
           "https://robot.ofweek.com/2026-10/ART-8321204-8420-30709030.html",
-          "https://robot.ofweek.com/2026-10/ART-8321204-12005-30709318.html"
+          "https://www.ithome.com/1/019/144.htm"
         ]
       }
     ],
@@ -284,6 +284,20 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321202-12003-30709286.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-29",
+            "title": "长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报",
+            "url": "https://www.tmtpost.com/8186722.html",
+            "company": "其他",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "10-29",
+            "title": "字节跳动招人，入局具身智能",
+            "url": "https://www.tmtpost.com/8185152.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "10-28",
@@ -307,6 +321,20 @@
             "source_name": "雷峰网"
           },
           {
+            "date": "10-28",
+            "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+            "url": "https://www.qbitai.com/2026/10/506098.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "10-28",
+            "title": "威卡：用数据集链接具身智能和工程机械",
+            "url": "https://www.qbitai.com/2026/10/506063.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
             "date": "10-27",
             "title": "超1800支参赛队伍创纪录，蚂蚁灵波具身模型挑战赛即将决赛",
             "url": "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html",
@@ -319,13 +347,6 @@
             "url": "https://www.robot-china.com/news/202610/27/97177.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-27",
-            "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-            "url": "https://www.qbitai.com/2026/10/505865.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
@@ -362,6 +383,34 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "10-29",
+            "title": "艾图科技发布艾妮机器人与产线王，服装智造迈入具身AI量产时代",
+            "url": "https://www.robot-china.com/news/202610/29/97213.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-29",
+            "title": "机器人也要有KPI了？智元发布首个物理AI价值度量单位",
+            "url": "https://www.robot-china.com/news/202610/29/97208.html",
+            "company": "智元机器人",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-29",
+            "title": "智元通用AI机器人下线量破2万台 上半年营收近20亿元",
+            "url": "https://www.robot-china.com/news/202610/29/97207.html",
+            "company": "智元机器人",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-29",
+            "title": "特斯拉在加州量产 Optimus：人形机器人下产线，利润却跌了 43%",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30709381.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "10-28",
             "title": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
             "url": "https://www.robot-china.com/news/202610/28/97181.html",
@@ -390,6 +439,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "10-28",
+            "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+            "url": "https://www.qbitai.com/2026/10/506194.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
             "date": "10-27",
             "title": "RoboTwin、RoboDojo 双榜领跑，厘清智能发布两项学术成果，持续推进 Physical AI Infra 建设",
             "url": "https://www.robot-china.com/news/202610/27/97169.html",
@@ -409,27 +465,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30708850.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-26",
-            "title": "思灵机器人与英伟达联合发布科研人形机器人Agile ONE SN",
-            "url": "https://www.robot-china.com/news/202610/26/97149.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "启元机器人第5000台个人机器人正式下线",
-            "url": "https://www.robot-china.com/news/202610/26/97143.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "松延动力秘密递表港交所，万元级机器人迎来交付大考",
-            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708674.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -437,6 +472,20 @@
         "category": "商业订单",
         "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
         "items": [
+          {
+            "date": "10-29",
+            "title": "镜识科技：首创模块化架构，斩获亿元机器人订单",
+            "url": "https://www.robot-china.com/news/202610/29/97210.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-29",
+            "title": "资本狂飙+部署态落地，「智元」具身链主大考才刚刚开始 | 潮头No.02",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709385.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "10-28",
             "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
@@ -457,27 +506,6 @@
             "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
             "company": "其他",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-26",
-            "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
-            "url": "https://www.ithome.com/1/017/795.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "10-26",
-            "title": "在光学车间，拓斯达具身智能如何跨过“落地”这道坎？",
-            "url": "https://www.robot-china.com/news/202610/26/97144.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "具身智能加速落地 | 深谋空中带臂作业无人机「龙爪」中标国网电力",
-            "url": "https://www.robot-china.com/news/202610/26/97148.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -526,27 +554,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30709030.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-27",
-            "title": "真·资本永动机，贾跃亭的机器人公司，挂牌上市了！",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30708970.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-27",
-            "title": "云启资本独家投资！清华系具身智能义肢研发商「森越成行」完成千万级Pre-A轮融资",
-            "url": "https://robot.ofweek.com/2026-10/ART-8321204-12005-30709318.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-26",
-            "title": "IPO暂缓，智元机器人何去何从？",
-            "url": "https://www.tmtpost.com/8181407.html",
-            "company": "智元机器人",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -560,6 +567,20 @@
             "url": "https://www.tmtpost.com/8185429.html",
             "company": "特斯拉",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "10-29",
+            "title": "机器人变聪明，宇树利润变难看",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30709390.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "10-29",
+            "title": "超「宇树」、过「优必选」！「智元机器人」上半年营收曝光",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709378.html",
+            "company": "智元机器人",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "10-28",
@@ -630,33 +651,6 @@
             "url": "https://www.robot-china.com/news/202610/27/97162.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-26",
-            "title": "丰田发力人形机器人，挑战特斯拉与中国厂商",
-            "url": "https://www.ithome.com/1/017/778.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "10-26",
-            "title": "智元在山东济南组织 110 台人形机器人同时跳舞，创下吉尼斯世界纪录",
-            "url": "https://www.robot-china.com/news/202610/26/97146.html",
-            "company": "智元机器人",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
-        "items": [
-          {
-            "date": "10-27",
-            "title": "上海永铭携机器人与电机驱动电容解决方案亮相中国电源学会第二十九届学术年会：机器人与电机驱动篇",
-            "url": "https://www.gongkong.com/news/202610/454192.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       }
@@ -716,6 +710,96 @@
       "category": "产品量产",
       "summary": "摘要：当宇树Q3利润下滑、整机板块情绪分化时，舍弗勒却悄悄把4亿欧元人形机器人订单揣进兜里。我判断，真正的量产拐点不在整机的PPT里，而在零部件的“客户结构”中。 全文字数：约880字 预计阅读： 约",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709274.html"
+    },
+    {
+      "date": "10-29",
+      "company": "其他",
+      "title": "长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "人形机器人热度席卷A股市场。三季报披露前夕，人形机器人板块情绪持续升温，长盈精密在股价也随之走出一波上扬。 10月28日晚间披露的2026年三季报，却和股价呈现不样的走势。虽然公司整体营收持续扩张，新能源、具身智能两大新兴业务收入高速增长，其中具身智能业务更是同比增幅超5倍，但是公司前三季度的净利润却转为亏损，赛道红利尚未转化为账面利润。 财报数据显示，长盈…",
+      "url": "https://www.tmtpost.com/8186722.html"
+    },
+    {
+      "date": "10-29",
+      "company": "其他",
+      "title": "字节跳动招人，入局具身智能",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "近期，字节跳动在其 Seed Model 部门密集更新了公开的招聘信息。数十个专业岗位被同时放出，覆盖面极广：从硬件设计、灵巧操作、减速器控制，到物理模拟和数据算法工程。 这释放了一个极其明确的信号：字节不再只满足于通过财务投资参与具身智能，而是正试图亲自下场，打通一条面向人形机器人的“软硬件+数据”全栈管道，推动产品从“制作演示”真正走向“大规模生产”…",
+      "url": "https://www.tmtpost.com/8185152.html"
+    },
+    {
+      "date": "10-29",
+      "company": "其他",
+      "title": "艾图科技发布艾妮机器人与产线王，服装智造迈入具身AI量产时代",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10月28日，杰克科技旗下品牌艾图科技举办全球发布会，重磅推出两大核心成果：面向服装真实工位的具身智能缝制机器人——艾妮机器人，以及全球首条可量产落地的服装机器人成套产线——产线王。两项产品攻克柔性面料操控这一世界级技术难题，标志着服装制造向机器人规模化商用迈出关键一步，以新质生产力破解全球服装行业招工难、成本高、小单快反难的发展困局。发布会现场，杰克科技创…",
+      "url": "https://www.robot-china.com/news/202610/29/97213.html"
+    },
+    {
+      "date": "10-29",
+      "company": "其他",
+      "title": "镜识科技：首创模块化架构，斩获亿元机器人订单",
+      "source_name": "中国机器人网",
+      "category": "商业订单",
+      "summary": "近日，源自浙江大学机器人团队、拥有十年技术积淀、坚持全栈自研的镜识科技迎来商业化里程碑。企业于去年率先推出乐高式模块化架构四足机器人 Black Panther X（BPX），这款面向教育、巡检及集成商市场的标杆产品，上市不足一年便拿下亿元订单，标志国产模块化四足机器人商业化落地实现重大突破。依托十余年底层技术沉淀，镜识科技搭建起双产品矩阵：BPX （Bla…",
+      "url": "https://www.robot-china.com/news/202610/29/97210.html"
+    },
+    {
+      "date": "10-29",
+      "company": "智元机器人",
+      "title": "机器人也要有KPI了？智元发布首个物理AI价值度量单位",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10月29日，据每日经济新闻报道，在2026智元创新日上，智元联合创始人彭志辉发布了首个定义物理AI价值的度量衡：Worken（有效智能工时），用于衡量机器人自主作业的实际产出。在彭志辉看来，每一个产业时代，都有自己的“度量衡”：蒸汽时代用马力度量机器的力量，电力时代用千瓦时度量机器的能量，数字AI时代用token度量机器的思考。据介绍，Worken的计算公…",
+      "url": "https://www.robot-china.com/news/202610/29/97208.html"
+    },
+    {
+      "date": "10-29",
+      "company": "智元机器人",
+      "title": "智元通用AI机器人下线量破2万台 上半年营收近20亿元",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "10月29日，智元在AGIBOT创新日大会上公布最新经营数据：公司通用AI机器人累计下线量突破2万台，2026年上半年营收接近20亿元。智元表示，2万台下线意味着其供应链和批量交付体系已经成型。据Counterpoint统计，大会披露智元上半年出货约9700台、全球份额43%以上。需要注意的是，累计下线量反映生产端进展，出货量则对应实际对外交付，两项数据统计…",
+      "url": "https://www.robot-china.com/news/202610/29/97207.html"
+    },
+    {
+      "date": "10-29",
+      "company": "宇树科技",
+      "title": "机器人变聪明，宇树利润变难看",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "见微 出品:#市值财经 宇树科技（688836.SH）九个交易日涨了70%，成了过去几天市场里最热的话题之一。 但10月28日晚，一份业绩公告把市场拉回现实：第三季度营业收入6.65亿元，同比增",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30709390.html"
+    },
+    {
+      "date": "10-29",
+      "company": "智元机器人",
+      "title": "资本狂飙+部署态落地，「智元」具身链主大考才刚刚开始 | 潮头No.02",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "2026年，具身智能从“讲故事”切换到“算ROI”，我们替你翻了每一家的底牌。 褪去概念滤镜之后，所有具身智能企业都要直面真实产业的商业化考验。泡沫之下，谁在裸泳一目了然。 近几个月，智元机器人连环落",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709385.html"
+    },
+    {
+      "date": "10-29",
+      "company": "特斯拉",
+      "title": "特斯拉在加州量产 Optimus：人形机器人下产线，利润却跌了 43%",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "特斯拉在加州弗里蒙特启动 Optimus 人形机器人量产，马斯克称 2027 年底周产两万台；但当季利润下滑 43%，钱都烧在了机器人与 AI 上。 特斯拉把人形机器人 Optimus 真正搬上了量产",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30709381.html"
+    },
+    {
+      "date": "10-29",
+      "company": "智元机器人",
+      "title": "超「宇树」、过「优必选」！「智元机器人」上半年营收曝光",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "10月29日智元创新日披露的数据，搅动了整个行业的讨论，这家企业2026上半年营收接近20亿元，营收规模超过宇树科技、优必选同期水平，甚至可以比肩宇树前三季度的营收表现。 回望几年前，这家企业的营收还",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709378.html"
     },
     {
       "date": "10-28",
@@ -907,6 +991,33 @@
       "url": "https://roboticsandautomationnews.com/2026/10/28/maxinsights-raises-30-million-to-build-training-data-platform-for-physical-ai/106432/"
     },
     {
+      "date": "10-28",
+      "company": "其他",
+      "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "大概是大伙儿看到GPT-6 Astra凭一行API就能跨界给机器人下达指令的时候。 老O家还是有实力，抢先一步跟全世界证明，AI的通用能力足够惊艳，且远远没到头。 好消息：发动机性能比我们所有人想象中更强，AI模型仍然坐在超跑上！ 坏消息：把指令翻译成物理动作的工程底座 （Infra） 却还是一条坑洼土路…… 模型能力越强，就越需要一套好用、完善的具身Inf…",
+      "url": "https://www.qbitai.com/2026/10/506194.html"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "大概是大伙儿看到GPT-6 Astra凭一行API就能跨界给机器人下达指令的时候。 老O家还是有实力，抢先一步跟全世界证明，AI的通用能力足够惊艳，且远远没到头。 好消息：发动机性能比我们所有人想象中更强，AI模型仍然坐在超跑上！ 坏消息：把指令翻译成物理动作的工程底座（Infra）却还是一条坑洼土路…… 模型能力越强，就越需要一套好用、完善的具身Infra…",
+      "url": "https://www.qbitai.com/2026/10/506098.html"
+    },
+    {
+      "date": "10-28",
+      "company": "其他",
+      "title": "威卡：用数据集链接具身智能和工程机械",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "威卡：为工程机械的智能化与少人化，提供一条被验证的路径",
+      "url": "https://www.qbitai.com/2026/10/506063.html"
+    },
+    {
       "date": "10-27",
       "company": "特斯拉",
       "title": "造型像火箭！特斯拉休斯顿 Robotaxi 服务范围扩至 10 倍，面积是 Waymo 的 5 倍",
@@ -995,123 +1106,6 @@
       "category": "资本动态",
       "summary": "2026年10月27日，具身涌现从多家创投媒体处确认，清华系桌面机器人公司细胞壁智能（CyboPal）完成了新一轮战略融资，投资方是TCL实业战投和深创投，心流资本担任长期独家财务顾问。 距离上一轮东",
       "url": "https://robot.ofweek.com/2026-10/ART-8321204-8420-30709030.html"
-    },
-    {
-      "date": "10-27",
-      "company": "行业",
-      "title": "真·资本永动机，贾跃亭的机器人公司，挂牌上市了！",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "目标成全美前三 ” 作者｜王磊 编辑｜秦章勇 贾老板的资本功力还是太强了。 刚刚，贾跃亭的全球具身智能（EAI）生态公司Faraday Future与FFR（FF EAI Robotics Ecosy",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30708970.html"
-    },
-    {
-      "date": "10-27",
-      "company": "其他",
-      "title": "上海永铭携机器人与电机驱动电容解决方案亮相中国电源学会第二十九届学术年会：机器人与电机驱动篇",
-      "source_name": "中国工控网机器人",
-      "category": "泛具身产业链",
-      "summary": "上海永铭电子将于11月6日至7日参加中国电源学会第二十九届学术年会，进驻苏州国际博览中心B1馆D21展位。现场将全面展示新能源发电与储能、电气化交通、AI服务器、机器人与电机驱动、功率器件配套五大领域电容解决方案。 标签： 永铭 机器人",
-      "url": "https://www.gongkong.com/news/202610/454192.html"
-    },
-    {
-      "date": "10-27",
-      "company": "其他",
-      "title": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "人形机器人全套图纸开源！从关节到算法，下载就能自己造",
-      "url": "https://www.qbitai.com/2026/10/505865.html"
-    },
-    {
-      "date": "10-27",
-      "company": "行业",
-      "title": "云启资本独家投资！清华系具身智能义肢研发商「森越成行」完成千万级Pre-A轮融资",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "2008年，成都少年 刘得锐 站在电视前，看着汶川地震的废墟里走出许多失去下肢的人。那时的他不会想到，十八年后，自己造出的智能假肢会被欧洲用户穿在腿上，一步步走出家门。 2026年10月27日，这位清",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321204-12005-30709318.html"
-    },
-    {
-      "date": "10-26",
-      "company": "智元机器人",
-      "title": "IPO暂缓，智元机器人何去何从？",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "复购收入含金量上升，曾经仅凭样机、概念故事就能拿到高估值的时代已经过去。把内卷当作主要战场，很难跑出真正的商业闭环，头部企业需要寻找新的破局路径，这步棋，甚至可以比新能源汽车走的更早。 10月21日，智元宣布10月22日起连续七个工作日发布七项成果，覆盖数据集、作业平台、重载机器人G2Max、具身Agent框架GenieMaster、仿真平台、基座大模型与群…",
-      "url": "https://www.tmtpost.com/8181407.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
-      "source_name": "IT之家",
-      "category": "商业订单",
-      "summary": "IT之家 10 月 26 日消息，据每日经济新闻上周报道，一名自称是南京无境未来动力科技有限公司（以下简称“无境动力”）的员工表示，公司自今年 8 月起拖欠其工资，9 月停缴住房公积金，10 月停缴社保。据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞…",
-      "url": "https://www.ithome.com/1/017/795.htm"
-    },
-    {
-      "date": "10-26",
-      "company": "特斯拉",
-      "title": "丰田发力人形机器人，挑战特斯拉与中国厂商",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 26 日消息，据《金融时报》报道，丰田正立志成为全球机器人巨头。这家全球最大汽车制造商正在将生产线现代化，一方面对标中国同行，另一方面推动业务走出汽车行业、实现多元化发展。 丰田高管们近期不断向全球投资者宣讲机器人战略：计划部署 40 万台机器人，配套每年 64 亿美元 （IT之家注：现汇率约合 427.36 亿元人民币） 投入用于工厂自…",
-      "url": "https://www.ithome.com/1/017/778.htm"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "在光学车间，拓斯达具身智能如何跨过“落地”这道坎？",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "具身智能热度持续攀升，赛道正从技术验证阶段走向产业化落地的关键节点。走进车间会发现：工业场景在“完成动作”之上，更追求“在生产节拍中持续、稳定、可预期地运转”。面对光学玻璃擦拭这种极易产生划痕且高度依赖熟练工的传统痛点，具身智能到底怎么落地？今天，我们提前剧透几个拓斯达在真实客户车间里的落地场景。11月7-8日，TOPS DAY 2026拓斯达全球开放日将在…",
-      "url": "https://www.robot-china.com/news/202610/26/97144.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "具身智能加速落地 | 深谋空中带臂作业无人机「龙爪」中标国网电力",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "从整体上看，具身智能全面商业化还需克服几道难关，但从局部上看，已经有一些具身企业身先士卒，将产品部署到真实的场景中了。近日，深谋智能空中作业无人机“龙爪”中标国网电力《面向空中作业的高稳定无人机》项目，以“无人机+机械臂+灵巧手”的空中具身智能形态解决架空输电线路异物搭挂隐患，一方面降低电网一线工作人员的人身风险，另一方面提升电力公司整体智能带电作业水平，提…",
-      "url": "https://www.robot-china.com/news/202610/26/97148.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "思灵机器人与英伟达联合发布科研人形机器人Agile ONE SN",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "近日，思灵机器人与英伟达在柏林英伟达GTC大会上联合发布面向科研的人形机器人Agile ONE SN。该产品基于英伟达Isaac GR00T开发平台打造，出厂预配置完整软件栈，旨在为开发者与科研人员提供全栈人形机器人研发平台。图片 思灵机器人在硬件配置方面，Agile ONE SN本体高1.4米、重43公斤，具备31个自由度。其板载英伟达Jetson Tho…",
-      "url": "https://www.robot-china.com/news/202610/26/97149.html"
-    },
-    {
-      "date": "10-26",
-      "company": "智元机器人",
-      "title": "智元在山东济南组织 110 台人形机器人同时跳舞，创下吉尼斯世界纪录",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "据齐鲁晚报，智元机器人今天在山东济南黄河国际会展中心组织 110 台远征 A3 全尺寸人形机器人同场群舞，成功创下“最多人形机器人同时跳舞”吉尼斯世界纪录。IT之家获悉，此次挑战采用智元灵动 LinkBots 集群调控平台及 UWB 厘米级定位技术，实现多机同步动作与编队切换，110 台机器人以“量产机”阵容零失误通过认证。 现场吉尼斯世界纪录认证官亲临见证…",
-      "url": "https://www.robot-china.com/news/202610/26/97146.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "启元机器人第5000台个人机器人正式下线",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月25日， 。这一物理AI的里程碑式的跨越，标志着启元机器人在规模化制造、供应链协同与量产交付方面取得阶段性进展，个人机器人正式迈向批量生产和真实用户交付。从9月20日正式发售启元Q1、启元T1两款个人机器人，到一个月后迎来第5000台机器人下线，启元机器人规模化量产交付能力加速形成，随着产能快速爬坡、应用场景持续拓展，启元机器人也正加速打通从产品制造到…",
-      "url": "https://www.robot-china.com/news/202610/26/97143.html"
-    },
-    {
-      "date": "10-26",
-      "company": "其他",
-      "title": "松延动力秘密递表港交所，万元级机器人迎来交付大考",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "?? 从“卖得动”到“卖得深” 10月23日，据彭博社援引知情人士消息，北京机器人公司松延动力已秘密递交香港首次公开募股（IPO）申请，计划募资数亿美元。 知情人士称，该公司最早可能于明年上市。不过",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30708674.html"
     }
   ]
 }
