@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T12:45:13.452337+08:00",
+  "updated": "2026-10-30T20:19:17.757946+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 5,
-      "core": 4,
+      "candidates": 2,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "36氪",
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 5,
-      "core": 1,
+      "entries": 19,
+      "candidates": 16,
+      "core": 4,
       "periphery": 0,
-      "new": 0
+      "new": 4
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 3,
+      "entries": 17,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -63,7 +63,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 56,
-      "candidates": 14,
+      "entries": 59,
+      "candidates": 12,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 57,
       "periphery": 4,
-      "new": 22
+      "new": 20
     },
     {
       "name": "甲子光年",
@@ -127,11 +127,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 22,
-      "candidates": 22,
+      "entries": 21,
+      "candidates": 21,
       "core": 12,
       "periphery": 1,
-      "new": 9
+      "new": 8
     },
     {
       "name": "新战略移动机器人",
@@ -153,11 +153,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 29,
-      "candidates": 27,
-      "core": 14,
+      "entries": 30,
+      "candidates": 29,
+      "core": 15,
       "periphery": 7,
-      "new": 8
+      "new": 10
     },
     {
       "name": "The Robot Report",
@@ -235,13 +235,13 @@
       "candidates": 68,
       "core": 19,
       "periphery": 7,
-      "new": 2
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-30T12:45:13.605046+08:00",
+    "generated_at": "2026-10-30T20:19:17.922312+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,10 +256,10 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.；模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，”“具身智能公司真正的融资压力，或将在11月后集中显现；近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
+          "https://www.tmtpost.com/8187761.html",
           "https://www.robot-china.com/news/202610/28/97193.html",
-          "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
           "https://www.robot-china.com/news/202610/30/97214.html"
         ]
       },
@@ -284,6 +284,13 @@
             "url": "https://www.robot-china.com/news/202610/30/97214.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-30",
+            "title": "具身智能患上了焦虑症",
+            "url": "https://www.tmtpost.com/8187761.html",
+            "company": "其他",
+            "source_name": "钛媒体"
           },
           {
             "date": "10-29",
@@ -326,13 +333,6 @@
             "url": "https://www.robot-china.com/news/202610/28/97193.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-28",
-            "title": "具身智能军备竞赛，胜负手在工程生态",
-            "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -346,6 +346,27 @@
             "url": "https://www.robot-china.com/news/202610/30/97224.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-30",
+            "title": "大晓机器人联合南洋理工大学发布最新成果：",
+            "url": "https://www.robot-china.com/news/202610/30/97228.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-30",
+            "title": "真干活、真数据、真交付， 睿尔曼智能筑牢物理 AI 高质量数据供给基石",
+            "url": "https://www.robot-china.com/news/202610/30/97237.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "10-30",
+            "title": "一句指令，自己干活！「破壳机器人」发布RoboAPI！",
+            "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30709565.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
           },
           {
             "date": "10-29",
@@ -423,20 +444,6 @@
             "url": "https://roboticsandautomationnews.com/2026/10/28/avride-delivery-robots-expand-to-four-us-cities-through-wonder-partnership/106416/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-28",
-            "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
-            "url": "https://roboticsandautomationnews.com/2026/10/28/neura-robotics-and-tum-open-e17-million-robogym-and-unveil-new-humanoid/106435/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-28",
-            "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
-            "url": "https://www.qbitai.com/2026/10/506194.html",
-            "company": "其他",
-            "source_name": "量子位"
           }
         ]
       },
@@ -485,13 +492,6 @@
             "url": "https://www.robot-china.com/news/202610/28/97187.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-28",
-            "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
-            "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -521,6 +521,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "10-30",
+            "title": "具身智能“冰火两重天”，星海图如何撑起200亿估值？",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709522.html",
+            "company": "星海图",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "10-28",
             "title": "宇树科技上市后首份财报公布：2026 年前三季度归母净利润 3.87 亿元，同比增长 270.54%",
             "url": "https://www.ithome.com/1/019/144.htm",
@@ -547,13 +554,6 @@
             "url": "https://roboticsandautomationnews.com/2026/10/28/fort-robotics-secures-approximately-20-million-in-additional-funding/106419/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "10-28",
-            "title": "Maxinsights raises $30 million to build training data platform for physical AI",
-            "url": "https://roboticsandautomationnews.com/2026/10/28/maxinsights-raises-30-million-to-build-training-data-platform-for-physical-ai/106432/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -567,6 +567,13 @@
             "url": "https://www.tmtpost.com/8187159.html",
             "company": "智元机器人",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "10-30",
+            "title": "IROS 2026 观察：从 Demo 到生产力工具，灵巧手还要跨过几道坎？",
+            "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "10-29",
@@ -637,13 +644,6 @@
             "url": "https://www.robot-china.com/news/202610/28/97190.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-28",
-            "title": "Teradyne Robotics and Sereact partner to drive physical AI solutions for retail and logistics",
-            "url": "https://roboticsandautomationnews.com/2026/10/28/teradyne-robotics-and-sereact-partner-to-drive-physical-ai-solutions-for-retail-and-logistics/106406/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -743,6 +743,60 @@
       "category": "商业订单",
       "summary": "近日，浙江兆丰机电股份有限公司（以下简称 “兆丰股份”）控股子公司浙江兆聚智能有限公司（以下简称 “兆聚智能”）中标 “机器人创新服务平台项目” ，中标价约 3 亿元。 本次中标主体兆聚智能由兆丰股份",
       "url": "https://robot.ofweek.com/2026-10/ART-8321201-8120-30709436.html"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "IROS 2026 观察：从 Demo 到生产力工具，灵巧手还要跨过几道坎？",
+      "source_name": "雷峰网",
+      "category": "行业动态",
+      "summary": "灵巧手的设计逻辑，要由落地需求反推。 作者丨向 欣 编辑丨高景辉 今年 IROS，灵巧操作和触觉的热度比以往更盛，串珠子、插 USB、给帆布袋烫 logo、手内转笔、转球、调酒，各种演示在现场轮番上演。 从 ICRA，到 WRC，再到 IROS，我们追踪了今年几乎所有机器人领域的顶会，一个越来越清晰的感受是：对灵巧手而言，完成复杂动作已经越来越不是难事。 展…",
+      "url": "https://www.leiphone.com/category/robot/jv4zJUmQr2wkoN0i.html"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "具身智能患上了焦虑症",
+      "source_name": "钛媒体",
+      "category": "技术突破",
+      "summary": "文 | 物理AI大观，作者 | 此间少年，编辑 | 卢旭成 “智元机器人赴港上市节奏已经放缓。”“5折出售手中老股，无人愿意接手。”“为限制老股流出，部分具身智能公司已经不同意股改。”“具身智能公司真正的融资压力，或将在11月后集中显现。”“投资人既不关注世界模型，也不看具身智能项目了。” 2026年下半年以来，关于具身智能估值泡沫的争议持续发酵，融资数据直…",
+      "url": "https://www.tmtpost.com/8187761.html"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "大晓机器人联合南洋理工大学发布最新成果：",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "近日，大晓机器人联合南洋理工大学S-Lab发布面向具体环境构建，可探索、可交互的世界模型——Mundo。Mundo 支持与 Atlas 类似的场景重建、自由视角探索和时空模拟能力。相较于Atlas来说，Mundo可以将物体的质量、摩擦等物理属性纳入场景程序，通过物理引擎计算运动、接触与碰撞。同时，Mundo 支持调用智能体，通过代码编辑场景中的物体、属性与动…",
+      "url": "https://www.robot-china.com/news/202610/30/97228.html"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "真干活、真数据、真交付， 睿尔曼智能筑牢物理 AI 高质量数据供给基石",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "在刚刚落幕的2026 物理 AI 与世界模型大会上，物理 AI、世界模型成为行业焦点。行业普遍达成共识：物理 AI 的突破，离不开海量、真实、高质量的真机交互数据作为底层支撑。真实物理世界的机器人交互数据必须在现实场景中 “真干活、真产出”，高质量真机数据已成为具身时代的“硬通货”。作为在行业内明确提出“让机器人真干活”的企业，睿尔曼智能凭借 GLN 远程劳…",
+      "url": "https://www.robot-china.com/news/202610/30/97237.html"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "一句指令，自己干活！「破壳机器人」发布RoboAPI！",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "今天凌晨，破壳机器人做了一件在具身智能圈里显得有些",
+      "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30709565.html"
+    },
+    {
+      "date": "10-30",
+      "company": "星海图",
+      "title": "具身智能“冰火两重天”，星海图如何撑起200亿估值？",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "具身智能进入“淘汰赛”。 作者 | 刘亮 编辑 | 趣解商业 具身智能赛道正经历“冰火两重天”。 “火”的是，产业热度热仍在持续攀升，行业规模高速扩容。今年上半年，我国人形机器人整机产品突破400款",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709522.html"
     },
     {
       "date": "10-29",
@@ -1058,60 +1112,6 @@
       "category": "产品量产",
       "summary": "Wonder is expanding its partnership with autonomous technology developer Avride to scale AI-powered robot delivery across Jersey City and Hoboken in New Jersey, Arlington County in…",
       "url": "https://roboticsandautomationnews.com/2026/10/28/avride-delivery-robots-expand-to-four-us-cities-through-wonder-partnership/106416/"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "Teradyne Robotics and Sereact partner to drive physical AI solutions for retail and logistics",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Teradyne Robotics and Sereact have formed a partnership to combine Sereact’s physical AI technology with Universal Robots’ collaborative robots for applications in retail, logistic…",
-      "url": "https://roboticsandautomationnews.com/2026/10/28/teradyne-robotics-and-sereact-partner-to-drive-physical-ai-solutions-for-retail-and-logistics/106406/"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "具身智能军备竞赛，胜负手在工程生态",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨 邓哲敏 编辑丨 齐铖湧 一个模型在论文中取得好成绩，距离它真正驱动机器人完成任务，还有多远？ 模型能否接入现有的数据与训练流程，推理速度能否跟上机器人的控制节奏，生成的动作能否连续、稳定地执行，实验结果又能否在不同机器人上得到验证——这些问题，未必能靠再提升几个百分点的模型成功率来解决…",
-      "url": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "What Symbotic’s Walmart growth teaches robotics startups about anchor customers",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "Symbotic’s growth with Walmart shows how an anchor customer can fund a robotics startup’s scale while creating risks around customer concentration, contractual restrictions and the…",
-      "url": "https://www.therobotreport.com/what-symbotic-growth-with-walmart-teaches-robotics-startups-about-anchor-customers/"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "Neura Robotics and TUM open €17 million RoboGym and unveil new humanoid",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Neura Robotics and the Technical University of Munich have opened a €17 million robotics research and training center near Munich Airport, while unveiling the latest generation of…",
-      "url": "https://roboticsandautomationnews.com/2026/10/28/neura-robotics-and-tum-open-e17-million-robogym-and-unveil-new-humanoid/106435/"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "Maxinsights raises $30 million to build training data platform for physical AI",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Maxinsights has raised $30 million in seed funding to expand its physical AI data platform, which pays people to record everyday activities such as cooking, cleaning and other work…",
-      "url": "https://roboticsandautomationnews.com/2026/10/28/maxinsights-raises-30-million-to-build-training-data-platform-for-physical-ai/106432/"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "【图片中转测试，未发布】工程能力一键复用，专心卷新能力！轮子造一次就够了｜详解FluxVLA Engine技术报告",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "大概是大伙儿看到GPT-6 Astra凭一行API就能跨界给机器人下达指令的时候。 老O家还是有实力，抢先一步跟全世界证明，AI的通用能力足够惊艳，且远远没到头。 好消息：发动机性能比我们所有人想象中更强，AI模型仍然坐在超跑上！ 坏消息：把指令翻译成物理动作的工程底座 （Infra） 却还是一条坑洼土路…… 模型能力越强，就越需要一套好用、完善的具身Inf…",
-      "url": "https://www.qbitai.com/2026/10/506194.html"
     }
   ]
 }
