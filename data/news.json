@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:00:58.477798+08:00",
+  "updated": "2026-10-31T12:29:16.203099+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 15,
+      "candidates": 14,
       "core": 3,
       "periphery": 0,
       "new": 2
@@ -49,9 +49,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 1,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 20,
+      "candidates": 15,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
+      "candidates": 12,
       "core": 8,
       "periphery": 2,
-      "new": 10
+      "new": 8
     },
     {
       "name": "NVIDIA Robotics",
@@ -222,7 +222,7 @@
       "candidates": 30,
       "core": 22,
       "periphery": 7,
-      "new": 2
+      "new": 1
     },
     {
       "name": "RoboHub",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-31T06:00:58.578319+08:00",
+    "generated_at": "2026-10-31T12:29:16.357375+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，”“具身智能公司真正的融资压力，或将在11月后集中显现；近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，”“具身智能公司真正的融资压力，或将在11月后集中显现；导语：博银合创总部（苏州）正式启用，进一步集聚研发、制造、数据、验证与交付能力，加快工业具身智能在真实制造场景中的产业化应用。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.tmtpost.com/8187761.html",
-          "https://www.robot-china.com/news/202610/28/97193.html",
-          "https://www.robot-china.com/news/202610/30/97214.html"
+          "https://www.robot-china.com/news/202610/30/97214.html",
+          "https://www.tmtpost.com/8185152.html"
         ]
       },
       {
@@ -276,7 +276,7 @@
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "10-30",
@@ -331,13 +331,6 @@
             "date": "10-28",
             "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
             "url": "https://www.robot-china.com/news/202610/28/97186.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-28",
-            "title": "机器人策略有了“虚拟驾校”，开源世界模型平台开放体验",
-            "url": "https://www.robot-china.com/news/202610/28/97193.html",
             "company": "其他",
             "source_name": "中国机器人网"
           }
@@ -528,6 +521,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "10-30",
+            "title": "Bleu Robotics raises €5 million to scale humanoid robot deployment in factories",
+            "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "10-28",
             "title": "宇树科技上市后首份财报公布：2026 年前三季度归母净利润 3.87 亿元，同比增长 270.54%",
             "url": "https://www.ithome.com/1/019/144.htm",
@@ -540,13 +540,6 @@
             "url": "https://www.ithome.com/1/018/971.htm",
             "company": "宇树科技",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-28",
-            "title": "机器人全面爆发! 逾50只个股涨停, 宇树科技本轮大涨78%",
-            "url": "https://www.robot-china.com/news/202610/28/97192.html",
-            "company": "宇树科技",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -554,6 +547,13 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "10-31",
+            "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
+            "url": "https://www.ithome.com/1/020/408.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "10-30",
             "title": "智元创新日：从卖机器人到卖Worken",
@@ -663,6 +663,15 @@
     ]
   },
   "items": [
+    {
+      "date": "10-31",
+      "company": "其他",
+      "title": "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 31 日消息，据 Z Finance 昨晚消息， 字节跳动 Seed 核心负责人周畅已离职创业，方向为 Physical AI （物理 AI），并获得头部美元基金支持。具体投资方、融资金额及估值暂未披露。 周畅此前是 Seed 内管理范围较广的技术负责人之一，向 Seed 负责人吴永辉汇报，业务曾覆盖多模态交互、世界模型、视觉生成及机器人…",
+      "url": "https://www.ithome.com/1/020/408.htm"
+    },
     {
       "date": "10-30",
       "company": "智元机器人",
@@ -833,6 +842,15 @@
       "category": "技术突破",
       "summary": "Video Friday is your weekly selection of awesome robotics videos, collected by your friends at IEEE Spectrum robotics. We also post a weekly calendar of upcoming robotics events fo…",
       "url": "https://spectrum.ieee.org/video-friday-whole-body-manipulation"
+    },
+    {
+      "date": "10-30",
+      "company": "其他",
+      "title": "Bleu Robotics raises €5 million to scale humanoid robot deployment in factories",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Bleu Robotics, the Paris, France-based startup building AI models for industrial humanoid robots, has raised a €5 million pre-seed round, co-led by Contrarian Ventures and OVNI Cap…",
+      "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/"
     },
     {
       "date": "10-29",
@@ -1094,24 +1112,6 @@
       "category": "资本动态",
       "summary": "IT之家 10 月 28 日消息，今日，宇树科技联合红杉中国宣布，共同成立“杉宇 · 创计划”。宇树科技称，该计划专注于发掘和投资具身智能、机器人应用及其上下游关键技术、其他前沿硬科技等领域的早期创业项目，致力于成为创始人的“创业合伙人”，共同探索技术策源到产品应用的无限可能。 据介绍，“杉宇 · 创计划”可以将宇树科技的工程能力与红杉中国的投资能力强强结合…",
       "url": "https://www.ithome.com/1/018/971.htm"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "机器人策略有了“虚拟驾校”，开源世界模型平台开放体验",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "近日，地瓜机器人开源世界模型仿真平台Uranus，让策略在虚拟环境中连续运行、测试和比较，闭环评测相关性达0.98，并面向全球开放100个早期体验名额。训练机器人，好比教新手开车，受真机设备、时间和安全条件限制。真车上路成本高、风险大，传统仿真又像手工搭建一座三维驾校，场景、物理规则都要从头建。世界模型提供另一种思路：让模型从真实交互数据中学习“做一个动作…",
-      "url": "https://www.robot-china.com/news/202610/28/97193.html"
-    },
-    {
-      "date": "10-28",
-      "company": "宇树科技",
-      "title": "机器人全面爆发! 逾50只个股涨停, 宇树科技本轮大涨78%",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "summary": "10月28日，A股机器人概念迎来一波强势行情，板块内个股集体冲高，涨停个股批量涌现，赚钱效应集中释放，成为当日盘面最为亮眼的主线热点。截至发稿，机器人板块共有50只个股涨停，涨幅超9%的个股达到104只。机器人牢牢占据涨停榜C位近期机器人利好频出机器人概念持续走强，已然成为当前市场方向最为清晰的主线。从消息面来看，机器人赛道利好消息近期持续落地。行业发展，标…",
-      "url": "https://www.robot-china.com/news/202610/28/97192.html"
     }
   ]
 }
