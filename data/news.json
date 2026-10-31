@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T00:58:23.258356+08:00",
+  "updated": "2026-11-01T05:08:12.119390+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -92,7 +92,7 @@
       "candidates": 23,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 12,
       "periphery": 1,
-      "new": 6
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-11-01T00:58:23.379873+08:00",
+    "generated_at": "2026-11-01T05:08:12.232850+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
