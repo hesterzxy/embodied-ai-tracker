@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:50:14.243634+08:00",
+  "updated": "2026-11-01T00:58:23.258356+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "36氪",
@@ -38,9 +38,9 @@
       "error": "",
       "entries": 19,
       "candidates": 14,
-      "core": 3,
+      "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 1,
+      "entries": 19,
+      "candidates": 3,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 20,
-      "core": 0,
+      "entries": 57,
+      "candidates": 23,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -196,7 +196,7 @@
       "candidates": 12,
       "core": 8,
       "periphery": 2,
-      "new": 7
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-10-31T19:50:14.321213+08:00",
+    "generated_at": "2026-11-01T00:58:23.379873+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -260,7 +260,7 @@
         "evidence_urls": [
           "https://www.tmtpost.com/8187761.html",
           "https://www.qbitai.com/2026/10/506866.html",
-          "https://www.robot-china.com/news/202610/30/97214.html"
+          "https://www.ithome.com/1/020/611.htm"
         ]
       },
       {
@@ -284,6 +284,13 @@
             "url": "https://www.qbitai.com/2026/10/506866.html",
             "company": "其他",
             "source_name": "量子位"
+          },
+          {
+            "date": "10-31",
+            "title": "西湖大学成立世界模型研究中心，致力于突破核心瓶颈",
+            "url": "https://www.ithome.com/1/020/611.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "10-30",
@@ -430,13 +437,6 @@
             "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30709381.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "10-28",
-            "title": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
-            "url": "https://www.robot-china.com/news/202610/28/97181.html",
-            "company": "智元机器人",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -540,6 +540,13 @@
             "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-30",
+            "title": "上市首份三季报！宇树营收利润高增，加码具身智能研发投入",
+            "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709430.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -560,6 +567,13 @@
             "url": "https://roboticsandautomationnews.com/2026/10/31/first-insurance-policy-for-domestic-humanoid-robots-in-the-uk/106568/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "10-31",
+            "title": "无界动力与京东达成战略合作，机器人 K15 上岗七鲜咖啡",
+            "url": "https://www.ithome.com/1/020/598.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "10-30",
@@ -630,20 +644,6 @@
             "url": "https://www.ithome.com/1/018/743.htm",
             "company": "特斯拉",
             "source_name": "IT之家"
-          },
-          {
-            "date": "10-28",
-            "title": "芯动源机器人AMR方案破解柔性产线物流难题",
-            "url": "https://www.robot-china.com/news/202610/28/97185.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "10-28",
-            "title": "特斯拉人形机器人找到新工作 为特斯拉CyberCab无人车充电",
-            "url": "https://www.robot-china.com/news/202610/28/97180.html",
-            "company": "特斯拉",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -698,6 +698,24 @@
       "category": "资本动态",
       "summary": "Foundry Robotics has announced its oversubscribed $100 million Series A funding round led by Marlinspike Partners. Participating in the round are early backers Khosla Ventures and…",
       "url": "https://roboticsandautomationnews.com/2026/10/31/foundry-robotics-raises-100-million-to-build-americas-first-autonomous-factory-for-assembly/106564/"
+    },
+    {
+      "date": "10-31",
+      "company": "其他",
+      "title": "西湖大学成立世界模型研究中心，致力于突破核心瓶颈",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 10 月 31 日消息，10 月 31 日，西湖世界模型研究中心在西湖大学云谷校区成立。这是西湖大学面向物理智能领域设立的校级交叉科研平台。 该中心由西湖大学工学院博士生导师、助理教授，人工智能企业 KMind 联合创始人兼首席科学家于开丞担任主任，由西湖大学人工智能讲席教授、人工智能系系主任金耀初担任首席科学家，并有多位 PI （首席研究员）共同…",
+      "url": "https://www.ithome.com/1/020/611.htm"
+    },
+    {
+      "date": "10-31",
+      "company": "其他",
+      "title": "无界动力与京东达成战略合作，机器人 K15 上岗七鲜咖啡",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 10 月 31 日消息，10 月 31 日，无界动力宣布与京东正式签署战略合作协议，围绕零售场景应用、商业化平台与生态渠道、产业资源协同等多个维度开展立体化合作。 此次合作已迎来首批成果：10 月，双方首个零售合作项目落地， 无界动力机器人 K15 已于七鲜咖啡（西宸里店）和七鲜咖啡（长楹天街店）正式上岗 ；同期，首批机器人产品通过京东平台面向第三…",
+      "url": "https://www.ithome.com/1/020/598.htm"
     },
     {
       "date": "10-30",
@@ -878,6 +896,15 @@
       "category": "资本动态",
       "summary": "Bleu Robotics, the Paris, France-based startup building AI models for industrial humanoid robots, has raised a €5 million pre-seed round, co-led by Contrarian Ventures and OVNI Cap…",
       "url": "https://roboticsandautomationnews.com/2026/10/30/bleu-robotics-raises-e5-million-to-scale-humanoid-robot-deployment-in-factories/106554/"
+    },
+    {
+      "date": "10-30",
+      "company": "宇树科技",
+      "title": "上市首份三季报！宇树营收利润高增，加码具身智能研发投入",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "作者｜章启明 编辑｜陈肖冉 前三季度净利增270% 10月28日，宇树科技（688836.SH）披露登陆科创板后的首份三季报。 2026年前三季度，宇树科技营收、归母净利润实现大幅增长，公司同步大幅加",
+      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709430.html"
     },
     {
       "date": "10-29",
@@ -1085,33 +1112,6 @@
       "category": "技术突破",
       "summary": "10月25日，2026全球开发者先锋大会暨国际具身智能技能大赛在上海张江科学会堂圆满落幕。大会汇聚300余家具身智能本体企业、200余家上下游供应链企业，聚集国内外近百个开源组织与开发者社区，以及500余位青年开发者及行业重磅嘉宾。吸引线下参会者近6万人次，全网发布报道6500余篇、曝光量超60亿次。大会集中推出“4+X”重大成果，构建具身智能全产业链生态支…",
       "url": "https://www.robot-china.com/news/202610/28/97186.html"
-    },
-    {
-      "date": "10-28",
-      "company": "其他",
-      "title": "芯动源机器人AMR方案破解柔性产线物流难题",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "柔性制造与多品种混线生产加速普及，卷料、板材、PCB 等物料形态特殊、易损，跨平台搬运与辊道线、传送带等产线设备的精准衔接，成为生产物流中普遍存在的难点。芯动源机器人以 AMR（自主移动机器人）为核心的柔性产线物流方案，帮助制造企业提升物料流转效率、降低人工依赖，并增强生产全过程可追溯能力。卷材、板材、PCB 等物料对搬运平稳性与对接精度要求严苛，跨平台搬运…",
-      "url": "https://www.robot-china.com/news/202610/28/97185.html"
-    },
-    {
-      "date": "10-28",
-      "company": "智元机器人",
-      "title": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10 月 27 日消息，智元正式发布具身 Agent 框架 Genie Master，让机器人在上岗的过程中边解锁新技能。 据悉，搭载该框架的精灵 G2，在真实便利店上岗期间，不依赖人工示范与调试，自己定位失败原因、调整策略、沉淀经验，做到了在多个复杂精细任务上持续改进，实现“无人在环”的持续自我进化。这是行业首次跳出仿真环境、走出实验室，首次在真实业务场景…",
-      "url": "https://www.robot-china.com/news/202610/28/97181.html"
-    },
-    {
-      "date": "10-28",
-      "company": "特斯拉",
-      "title": "特斯拉人形机器人找到新工作 为特斯拉CyberCab无人车充电",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "10月27日消息，据报道，在近日的Munro Live采访中，特斯拉工程副总裁Lars Moravy与Eric Earley透露，特斯拉Optimus人形机器人正在学习给无人出租车充电，短期内预计将负责为Robotaxi车队插枪补能。 两人在采访中分享了不少Optimus与Cybercab的细节，据其介绍，Optimus的电池是一个约2.5kWh的独立模块…",
-      "url": "https://www.robot-china.com/news/202610/28/97180.html"
     }
   ]
 }
