@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T12:48:33.925175+08:00",
+  "updated": "2026-11-01T20:49:43.121228+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 14,
-      "core": 2,
+      "candidates": 12,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 4,
+      "entries": 19,
+      "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 9,
+      "entries": 60,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "10-26",
     "end": "11-01",
-    "generated_at": "2026-11-01T12:48:34.050880+08:00",
+    "generated_at": "2026-11-01T20:49:43.233517+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -260,7 +260,7 @@
         "evidence_urls": [
           "https://www.tmtpost.com/8188790.html",
           "https://www.tmtpost.com/8187761.html",
-          "https://www.qbitai.com/2026/10/506866.html"
+          "https://www.qbitai.com/2026/11/507031.html"
         ]
       },
       {
@@ -284,6 +284,13 @@
             "url": "https://www.tmtpost.com/8188790.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "11-01",
+            "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+            "url": "https://www.qbitai.com/2026/11/507031.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "10-31",
@@ -637,13 +644,6 @@
             "url": "https://www.therobotreport.com/agibot-introduces-worken-measure-robot-productivity-innovation-day-2026/",
             "company": "智元机器人",
             "source_name": "The Robot Report"
-          },
-          {
-            "date": "10-28",
-            "title": "特斯拉计划用 Optimus 人形机器人给 Robotaxi 插拔充电枪，终极目标是无线充电",
-            "url": "https://www.ithome.com/1/018/743.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -680,6 +680,15 @@
       "category": "产品量产",
       "summary": "IT之家 11 月 1 日消息，据汽车媒体 Electrek 前天报道，特斯拉现已在美国推出全新推荐奖励计划， 车主推荐好友购买车辆不再获得购车奖励 ，而是获得一个月 FSD 监督版使用权益。如果推荐对象随后开始订阅 FSD，推荐人可获得 1 个月免费 FSD 或价值 99 美元 （IT之家注：现汇率约合 660.4 元人民币） 的特斯拉积分。 据报道，特斯…",
       "url": "https://www.ithome.com/1/020/665.htm"
+    },
+    {
+      "date": "11-01",
+      "company": "其他",
+      "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "清华大学 姚期智和袁洋 老师领导的科研团队，搞出了一个重磅项目，叫「代数世界模型」 （Algebraic World Model,AWM） 。 如果让AI只学习牛顿发现万有引力之前的所有知识，它能自己把万有引力给推导出来吗？ 尴尬的是，训练数据容易被污染，很难复原出这样的情景：打造一个完全陌生的世界，让AI从0开始观察和实验。 但如今，代数世界模型给出了一种…",
+      "url": "https://www.qbitai.com/2026/11/507031.html"
     },
     {
       "date": "10-31",
@@ -1103,15 +1112,6 @@
       "category": "商业订单",
       "summary": "家庭服务机器人正推进产品化落地，聚焦轻量化双臂本体、分层软件架构及仿真-真机数据闭环，探索rule-based与modular策略协同路径。 关键观点：提出RSI自我进化系统构建思路；验证端到端方法在现实约束下的性能缺口；实现软硬一体开发中自动化代码生成。 适合具身智能系统架构师、机器人嵌入式工程师、AI+硬件融合方向CTO阅读。 具身智能在家庭场景的落地正…",
       "url": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "10-28",
-      "company": "特斯拉",
-      "title": "特斯拉计划用 Optimus 人形机器人给 Robotaxi 插拔充电枪，终极目标是无线充电",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 10 月 28 日消息，特斯拉的 Robotaxi 无人驾驶出租车已经能够自行驶入超级充电站，但目前仍需要工作人员手动插上充电枪。未来，这项工作可能交由特斯拉的人形机器人 Optimus 完成。 在近期接受 Munro Live 采访时，特斯拉车辆工程副总裁拉尔斯 · 莫拉维（Lars Moravy）和 Cybercab 项目负责人埃里克 · 厄利…",
-      "url": "https://www.ithome.com/1/018/743.htm"
     }
   ]
 }
