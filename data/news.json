@@ -1,20 +1,19 @@
 {
-  "updated": "2026-11-02T12:50:13.933030+08:00",
+  "updated": "2026-11-02T23:13:08.162893+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 10,
-      "candidates": 5,
-      "core": 4,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -32,12 +31,11 @@
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 20,
-      "candidates": 13,
+      "fetched": false,
+      "attempts": 3,
+      "error": "URLError: <urlopen error timed out>",
+      "entries": 0,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -49,7 +47,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 19,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +86,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 16,
-      "core": 3,
+      "entries": 59,
+      "candidates": 20,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -104,8 +102,8 @@
       "entries": 80,
       "candidates": 80,
       "core": 50,
-      "periphery": 4,
-      "new": 14
+      "periphery": 5,
+      "new": 17
     },
     {
       "name": "甲子光年",
@@ -127,11 +125,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 21,
-      "candidates": 21,
-      "core": 8,
-      "periphery": 1,
-      "new": 5
+      "entries": 22,
+      "candidates": 22,
+      "core": 5,
+      "periphery": 0,
+      "new": 4
     },
     {
       "name": "新战略移动机器人",
@@ -170,7 +168,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 3
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,10 +191,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 12,
-      "core": 8,
+      "candidates": 14,
+      "core": 9,
       "periphery": 2,
-      "new": 5
+      "new": 8
     },
     {
       "name": "NVIDIA Robotics",
@@ -234,16 +232,16 @@
       "entries": 75,
       "candidates": 68,
       "core": 20,
-      "periphery": 7,
-      "new": 2
+      "periphery": 6,
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-02T12:50:14.039475+08:00",
+    "generated_at": "2026-11-02T23:13:08.283461+08:00",
     "mode": "local",
-    "item_count": 4,
+    "item_count": 13,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -259,6 +257,15 @@
         "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，据 The Information 昨天报道，Meta 最近与中国企业傅利叶（Fourier）合作，打造一款名为 Max 的人形机器人原型。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.robot-china.com/news/202611/02/97240.html"
+        ]
+      },
+      {
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，阿茹娜 吕鑫燚 出品：物理AI｜研习社 传统产业里，并购和投资通常发生在什么阶段；11月2日消息，今天，北京数据与评测基础设施公司简智机器人宣布完成新一轮1亿美元（约合人民币6.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://robot.ofweek.com/2026-11/ART-898890-8420-30709692.html",
+          "https://www.robot-china.com/news/202611/02/97253.html",
+          "https://robot.ofweek.com/2026-11/ART-898890-8440-30709779.html"
         ]
       }
     ],
@@ -312,6 +319,81 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30709692.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-02",
+            "title": "简智机器人宣布完成新一轮1亿美元融资",
+            "url": "https://www.robot-china.com/news/202611/02/97253.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-02",
+            "title": "10月机器人行业月报：星尘智能披露10亿元融资，启元第5000台个人机器人下线",
+            "url": "https://robot.ofweek.com/2026-11/ART-898890-8440-30709779.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "items": [
+          {
+            "date": "11-02",
+            "title": "首届 CMG 世界机器人登泰山大赛收官，宇树斩获 1 金 2 银",
+            "url": "https://www.ithome.com/1/021/250.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-02",
+            "title": "宇树机器人 G1 因过热退出登泰山大赛，被担架抬下山",
+            "url": "https://www.ithome.com/1/021/222.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-02",
+            "title": "科技应用展示融入赛事保障 云深处交管机器人探索杭马交通服务新模式",
+            "url": "https://www.robot-china.com/news/202611/02/97259.html",
+            "company": "云深处",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-02",
+            "title": "首届CMG世界机器人登泰山大赛落幕，北京灵翌科技四足机器人夺冠",
+            "url": "https://www.robot-china.com/news/202611/02/97252.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-02",
+            "title": "Agility Robotics says more than 30 companies considering Digit humanoid robot",
+            "url": "https://roboticsandautomationnews.com/2026/11/02/agility-robotics-says-more-than-30-companies-considering-digit-humanoid-robot/106595/",
+            "company": "Agility Robotics",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-02",
+            "title": "What battery technology will power the next generation of humanoid robots?",
+            "url": "https://roboticsandautomationnews.com/2026/11/02/what-battery-technology-will-power-the-next-generation-of-humanoid-robots/106588/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "items": [
+          {
+            "date": "11-02",
+            "title": "Interview with TorqueAGI founder: ‘Most robot AI is a language or vision model with robot data added to it’",
+            "url": "https://roboticsandautomationnews.com/2026/11/02/interview-with-torqueagi-founder-most-robot-ai-is-a-language-or-vision-model-with-robot-data-added-to-it/106584/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       }
@@ -353,6 +435,87 @@
       "category": "资本动态",
       "summary": "阿茹娜 吕鑫燚 出品：物理AI｜研习社 传统产业里，并购和投资通常发生在什么阶段？大概率是在业务成熟之后。公司有了稳定现金流、产品在行业里站稳脚跟，才开始寻找第二增长曲线，通过并购、参股、 人形机器人",
       "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30709692.html"
+    },
+    {
+      "date": "11-02",
+      "company": "宇树科技",
+      "title": "首届 CMG 世界机器人登泰山大赛收官，宇树斩获 1 金 2 银",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 2 日消息，据新浪科技今日报道，首届 CMG 世界机器人登泰山大赛在山东泰安开赛。赛道从红门至中天门，全程 3.9 公里、3100 余级台阶，以连续石阶、陡坡弯道为核心挑战，考验机器人在复杂山地环境中的运动与自主决策能力。 足式机器人竞速赛中，宇树科技旗下北京灵翌科技队携宇树 A2 机器狗出战，以 41 分 41 秒的实际成绩（IT之家注…",
+      "url": "https://www.ithome.com/1/021/250.htm"
+    },
+    {
+      "date": "11-02",
+      "company": "宇树科技",
+      "title": "宇树机器人 G1 因过热退出登泰山大赛，被担架抬下山",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 2 日消息，据极目新闻报道，11 月 2 日，首届 CMG 世界机器人登泰山大赛在山东泰安开赛。随着裁判员一声令下，各机器人按照顺序每隔一分多钟出发。 报道提到，明星产品宇树机器人作为永达智诚的参赛选品亮相。据操作手介绍，该机器人为宇树机器人 G1 开发版本，即春晚同款。不过，宇树机器人并未完赛。在比赛中途， 该机器人因机器过热出现状况…",
+      "url": "https://www.ithome.com/1/021/222.htm"
+    },
+    {
+      "date": "11-02",
+      "company": "云深处",
+      "title": "科技应用展示融入赛事保障 云深处交管机器人探索杭马交通服务新模式",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "为扎实做好2026年杭州马拉松赛事交通秩序维护、现场服务保障与科技应用展示工作，11月1日，云深处联合杭州公安交管部门打造的双足机器人“杭行二号”首次亮相赛事，进驻黄龙体育中心周边4个重点点位，承担路口值守、自主巡航、交通违法劝导、公众咨询、人机互动与科技成果展示等任务，以具身智能技术助力大型体育赛事安保勤务转型升级，探索人形机器人在大型马拉松赛事交通保障场…",
+      "url": "https://www.robot-china.com/news/202611/02/97259.html"
+    },
+    {
+      "date": "11-02",
+      "company": "行业",
+      "title": "简智机器人宣布完成新一轮1亿美元融资",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "11月2日消息，今天，北京数据与评测基础设施公司简智机器人宣布完成新一轮1亿美元（约合人民币6.65亿元）融资。本轮融资由全球产业资本与财投共同参与。产业方包括上汽集团、马来西亚Eastworlds、百度集团、首程控股、GALBOT，财务方包括光合创投、SUNHELM、中信金石投资、中证投、建银国际、华泰紫金。简智机器人成立于2025年5月，专注于多模态数据…",
+      "url": "https://www.robot-china.com/news/202611/02/97253.html"
+    },
+    {
+      "date": "11-02",
+      "company": "其他",
+      "title": "首届CMG世界机器人登泰山大赛落幕，北京灵翌科技四足机器人夺冠",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "首届CMG世界机器人登泰山大赛于山东泰安举行，足式机器人竞速赛于2026年11月2日决出优胜者。北京灵翌科技队操控的B01号机器人以43分41秒的成绩完成全程，摘得该项目桂冠。本届赛事以“登高望远智竞泰山”为宗旨，赛道起于泰山红门，终至中天门，全长约3.9公里，共设3100余级台阶，累计垂直爬升近600米。近90支参赛队伍齐聚于此，在这条拥有千年历史的登山古…",
+      "url": "https://www.robot-china.com/news/202611/02/97252.html"
+    },
+    {
+      "date": "11-02",
+      "company": "行业",
+      "title": "10月机器人行业月报：星尘智能披露10亿元融资，启元第5000台个人机器人下线",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "行业大事件 1、卓益得团队获得EBiM辅助生活与喂食任务第一名 1日，EBiM Challenge 2026公布最终结果。卓益得技术团队组成的rl_alpha队获得Task 3“辅助生活与喂食”第一名",
+      "url": "https://robot.ofweek.com/2026-11/ART-898890-8440-30709779.html"
+    },
+    {
+      "date": "11-02",
+      "company": "Agility Robotics",
+      "title": "Agility Robotics says more than 30 companies considering Digit humanoid robot",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Agility Robotics is expanding the use of its Digit humanoid robot with logistics company GXO while reporting a pipeline of more than 30 prospective customers across manufacturing,…",
+      "url": "https://roboticsandautomationnews.com/2026/11/02/agility-robotics-says-more-than-30-companies-considering-digit-humanoid-robot/106595/"
+    },
+    {
+      "date": "11-02",
+      "company": "其他",
+      "title": "What battery technology will power the next generation of humanoid robots?",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Humanoid robots are an emerging technology that promises to revolutionize society. Designed and modeled on the human form, humanoid robots can navigate a world made for humans, and…",
+      "url": "https://roboticsandautomationnews.com/2026/11/02/what-battery-technology-will-power-the-next-generation-of-humanoid-robots/106588/"
+    },
+    {
+      "date": "11-02",
+      "company": "其他",
+      "title": "Interview with TorqueAGI founder: ‘Most robot AI is a language or vision model with robot data added to it’",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "As robotics companies race to develop increasingly capable AI models for machines operating in the physical world, TorqueAGI is taking a different approach: supplying the intellige…",
+      "url": "https://roboticsandautomationnews.com/2026/11/02/interview-with-torqueagi-founder-most-robot-ai-is-a-language-or-vision-model-with-robot-data-added-to-it/106584/"
     },
     {
       "date": "11-01",
@@ -686,87 +849,6 @@
       "category": "技术突破",
       "summary": "人形机器人热度席卷A股市场。三季报披露前夕，人形机器人板块情绪持续升温，长盈精密在股价也随之走出一波上扬。 10月28日晚间披露的2026年三季报，却和股价呈现不样的走势。虽然公司整体营收持续扩张，新能源、具身智能两大新兴业务收入高速增长，其中具身智能业务更是同比增幅超5倍，但是公司前三季度的净利润却转为亏损，赛道红利尚未转化为账面利润。 财报数据显示，长盈…",
       "url": "https://www.tmtpost.com/8186722.html"
-    },
-    {
-      "date": "10-29",
-      "company": "其他",
-      "title": "字节跳动招人，入局具身智能",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "近期，字节跳动在其 Seed Model 部门密集更新了公开的招聘信息。数十个专业岗位被同时放出，覆盖面极广：从硬件设计、灵巧操作、减速器控制，到物理模拟和数据算法工程。 这释放了一个极其明确的信号：字节不再只满足于通过财务投资参与具身智能，而是正试图亲自下场，打通一条面向人形机器人的“软硬件+数据”全栈管道，推动产品从“制作演示”真正走向“大规模生产”…",
-      "url": "https://www.tmtpost.com/8185152.html"
-    },
-    {
-      "date": "10-29",
-      "company": "其他",
-      "title": "艾图科技发布艾妮机器人与产线王，服装智造迈入具身AI量产时代",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月28日，杰克科技旗下品牌艾图科技举办全球发布会，重磅推出两大核心成果：面向服装真实工位的具身智能缝制机器人——艾妮机器人，以及全球首条可量产落地的服装机器人成套产线——产线王。两项产品攻克柔性面料操控这一世界级技术难题，标志着服装制造向机器人规模化商用迈出关键一步，以新质生产力破解全球服装行业招工难、成本高、小单快反难的发展困局。发布会现场，杰克科技创…",
-      "url": "https://www.robot-china.com/news/202610/29/97213.html"
-    },
-    {
-      "date": "10-29",
-      "company": "其他",
-      "title": "镜识科技：首创模块化架构，斩获亿元机器人订单",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "近日，源自浙江大学机器人团队、拥有十年技术积淀、坚持全栈自研的镜识科技迎来商业化里程碑。企业于去年率先推出乐高式模块化架构四足机器人 Black Panther X（BPX），这款面向教育、巡检及集成商市场的标杆产品，上市不足一年便拿下亿元订单，标志国产模块化四足机器人商业化落地实现重大突破。依托十余年底层技术沉淀，镜识科技搭建起双产品矩阵：BPX （Bla…",
-      "url": "https://www.robot-china.com/news/202610/29/97210.html"
-    },
-    {
-      "date": "10-29",
-      "company": "智元机器人",
-      "title": "机器人也要有KPI了？智元发布首个物理AI价值度量单位",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月29日，据每日经济新闻报道，在2026智元创新日上，智元联合创始人彭志辉发布了首个定义物理AI价值的度量衡：Worken（有效智能工时），用于衡量机器人自主作业的实际产出。在彭志辉看来，每一个产业时代，都有自己的“度量衡”：蒸汽时代用马力度量机器的力量，电力时代用千瓦时度量机器的能量，数字AI时代用token度量机器的思考。据介绍，Worken的计算公…",
-      "url": "https://www.robot-china.com/news/202610/29/97208.html"
-    },
-    {
-      "date": "10-29",
-      "company": "智元机器人",
-      "title": "智元通用AI机器人下线量破2万台 上半年营收近20亿元",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "10月29日，智元在AGIBOT创新日大会上公布最新经营数据：公司通用AI机器人累计下线量突破2万台，2026年上半年营收接近20亿元。智元表示，2万台下线意味着其供应链和批量交付体系已经成型。据Counterpoint统计，大会披露智元上半年出货约9700台、全球份额43%以上。需要注意的是，累计下线量反映生产端进展，出货量则对应实际对外交付，两项数据统计…",
-      "url": "https://www.robot-china.com/news/202610/29/97207.html"
-    },
-    {
-      "date": "10-29",
-      "company": "宇树科技",
-      "title": "机器人变聪明，宇树利润变难看",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "见微 出品:#市值财经 宇树科技（688836.SH）九个交易日涨了70%，成了过去几天市场里最热的话题之一。 但10月28日晚，一份业绩公告把市场拉回现实：第三季度营业收入6.65亿元，同比增",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321206-12003-30709390.html"
-    },
-    {
-      "date": "10-29",
-      "company": "智元机器人",
-      "title": "资本狂飙+部署态落地，「智元」具身链主大考才刚刚开始 | 潮头No.02",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "2026年，具身智能从“讲故事”切换到“算ROI”，我们替你翻了每一家的底牌。 褪去概念滤镜之后，所有具身智能企业都要直面真实产业的商业化考验。泡沫之下，谁在裸泳一目了然。 近几个月，智元机器人连环落",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709385.html"
-    },
-    {
-      "date": "10-29",
-      "company": "特斯拉",
-      "title": "特斯拉在加州量产 Optimus：人形机器人下产线，利润却跌了 43%",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "特斯拉在加州弗里蒙特启动 Optimus 人形机器人量产，马斯克称 2027 年底周产两万台；但当季利润下滑 43%，钱都烧在了机器人与 AI 上。 特斯拉把人形机器人 Optimus 真正搬上了量产",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-8460-30709381.html"
-    },
-    {
-      "date": "10-29",
-      "company": "智元机器人",
-      "title": "超「宇树」、过「优必选」！「智元机器人」上半年营收曝光",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "10月29日智元创新日披露的数据，搅动了整个行业的讨论，这家企业2026上半年营收接近20亿元，营收规模超过宇树科技、优必选同期水平，甚至可以比肩宇树前三季度的营收表现。 回望几年前，这家企业的营收还",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709378.html"
     }
   ]
 }
