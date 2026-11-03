@@ -1,19 +1,20 @@
 {
-  "updated": "2026-11-02T23:13:08.162893+08:00",
+  "updated": "2026-11-03T08:40:07.533794+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
     {
       "name": "量子位",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 10,
+      "candidates": 4,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -31,14 +32,15 @@
     {
       "name": "雷峰网",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "URLError: <urlopen error timed out>",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 18,
+      "candidates": 9,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -47,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -60,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -86,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 20,
-      "core": 2,
+      "entries": 56,
+      "candidates": 16,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -100,10 +102,10 @@
       "attempts": 1,
       "error": "",
       "entries": 80,
-      "candidates": 80,
-      "core": 50,
-      "periphery": 5,
-      "new": 17
+      "candidates": 78,
+      "core": 49,
+      "periphery": 6,
+      "new": 15
     },
     {
       "name": "甲子光年",
@@ -129,14 +131,14 @@
       "candidates": 22,
       "core": 5,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 2,
       "error": "",
       "entries": 0,
       "candidates": 0,
@@ -155,7 +157,7 @@
       "candidates": 29,
       "core": 15,
       "periphery": 7,
-      "new": 8
+      "new": 4
     },
     {
       "name": "The Robot Report",
@@ -166,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 5,
       "periphery": 0,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -191,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 14,
-      "core": 9,
-      "periphery": 2,
-      "new": 8
+      "candidates": 10,
+      "core": 6,
+      "periphery": 1,
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -239,9 +241,9 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-02T23:13:08.283461+08:00",
+    "generated_at": "2026-11-03T08:40:07.652702+08:00",
     "mode": "local",
-    "item_count": 13,
+    "item_count": 15,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -293,6 +295,13 @@
             "url": "https://www.ithome.com/1/020/888.htm",
             "company": "优必选",
             "source_name": "IT之家"
+          },
+          {
+            "date": "11-02",
+            "title": "具身下半场怎么打？智元用一场发布会，给出了自己的答案",
+            "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html",
+            "company": "智元机器人",
+            "source_name": "雷峰网"
           }
         ]
       },
@@ -333,6 +342,13 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8440-30709779.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-02",
+            "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+            "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
@@ -516,6 +532,24 @@
       "category": "泛具身产业链",
       "summary": "As robotics companies race to develop increasingly capable AI models for machines operating in the physical world, TorqueAGI is taking a different approach: supplying the intellige…",
       "url": "https://roboticsandautomationnews.com/2026/11/02/interview-with-torqueagi-founder-most-robot-ai-is-a-language-or-vision-model-with-robot-data-added-to-it/106584/"
+    },
+    {
+      "date": "11-02",
+      "company": "智元机器人",
+      "title": "具身下半场怎么打？智元用一场发布会，给出了自己的答案",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "GPT-6之后，机器人公司还有价值吗？智元用2万台出货量背后的“Worken”算力账本回应。 作者丨 齐铖湧 编辑丨岑 峰 2026年，具身智能赛道正在陷入一场前所未有的情绪焦虑。 GPT-6 Astra展示出的具身控制能力，让\"物理AI即将被AI击穿\"的论调甚嚣尘上；负责感知与决策的S2层，正在以肉眼可见的速度被通用智能接管。行业里甚至出现了明确的路线分化…",
+      "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
+    },
+    {
+      "date": "11-02",
+      "company": "其他",
+      "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
     },
     {
       "date": "11-01",
@@ -831,24 +865,6 @@
       "category": "产品量产",
       "summary": "最近各方都在疯狂猜测Optimus V3到底哪天发布，我也基于一些渠道发了一些猜测，然后我看到9月22日花旗发布的一份关于特斯拉Optimus的中国供应链调研报告《China Humanoid Rob",
       "url": "https://robot.ofweek.com/2026-10/ART-898890-8420-30709278.html"
-    },
-    {
-      "date": "10-29",
-      "company": "其他",
-      "title": "舍弗勒4亿欧元订单：人形机器人的量产拐点，不在整机在零件",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "摘要：当宇树Q3利润下滑、整机板块情绪分化时，舍弗勒却悄悄把4亿欧元人形机器人订单揣进兜里。我判断，真正的量产拐点不在整机的PPT里，而在零部件的“客户结构”中。 全文字数：约880字 预计阅读： 约",
-      "url": "https://robot.ofweek.com/2026-10/ART-898890-12003-30709274.html"
-    },
-    {
-      "date": "10-29",
-      "company": "其他",
-      "title": "长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "人形机器人热度席卷A股市场。三季报披露前夕，人形机器人板块情绪持续升温，长盈精密在股价也随之走出一波上扬。 10月28日晚间披露的2026年三季报，却和股价呈现不样的走势。虽然公司整体营收持续扩张，新能源、具身智能两大新兴业务收入高速增长，其中具身智能业务更是同比增幅超5倍，但是公司前三季度的净利润却转为亏损，赛道红利尚未转化为账面利润。 财报数据显示，长盈…",
-      "url": "https://www.tmtpost.com/8186722.html"
     }
   ]
 }
