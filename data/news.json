@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-03T21:47:05.685341+08:00",
+  "updated": "2026-11-04T06:59:39.301316+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 9,
-      "core": 1,
+      "candidates": 10,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 17,
-      "core": 1,
+      "candidates": 18,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 54,
       "periphery": 6,
-      "new": 23
+      "new": 16
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 4,
       "periphery": 1,
-      "new": 4
+      "new": 1
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 4,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -193,8 +193,8 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
-      "core": 4,
+      "candidates": 9,
+      "core": 5,
       "periphery": 1,
       "new": 2
     },
@@ -241,9 +241,9 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-03T21:47:05.843873+08:00",
+    "generated_at": "2026-11-04T06:59:39.539066+08:00",
     "mode": "local",
-    "item_count": 27,
+    "item_count": 30,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -318,6 +318,13 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8460-30709973.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-03",
+            "title": "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇",
+            "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "11-02",
@@ -434,6 +441,20 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30709972.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-03",
+            "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+            "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/",
+            "company": "Agility Robotics",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "11-03",
+            "title": "Humanoid Robots in Warehouses vs AMRs: Which Automation Makes Sense in 2026?",
+            "url": "https://roboticsandautomationnews.com/2026/11/03/humanoid-robots-in-warehouses-vs-amrs-which-automation-makes-sense-in-2026/106685/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "11-02",
@@ -609,6 +630,33 @@
       "category": "资本动态",
       "summary": "Tutor Intelligence, the robotics research and deployment company, today announced its $75 million Series B led by Andreessen Horowitz, bringing the company’s total capital raised t…",
       "url": "https://roboticsandautomationnews.com/2026/11/03/tutor-intelligence-raises-75-million-to-scale-robot-workforce/106645/"
+    },
+    {
+      "date": "11-03",
+      "company": "其他",
+      "title": "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇",
+      "source_name": "雷峰网",
+      "category": "产品量产",
+      "summary": "11月2日至5日，2026年世界互联网大会乌镇峰会在浙江乌镇举行，本届峰会的主题为“开源开放 共建共享——携手构建网络空间命运共同体”。蚂蚁集团旗下具身智能公司蚂蚁灵波，携全栈开源的机器人通用大脑亮相乌镇，展示模型研发、开源协作以及场景应用的新进展。 今天，开源正从语言、代码和内容生成，延伸至机器人对物理世界的感知、预测与行动。与数字世界不同，机器人本体千差…",
+      "url": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html"
+    },
+    {
+      "date": "11-03",
+      "company": "Agility Robotics",
+      "title": "Churchill Capital XI shareholders approve $2.5B Agility Robotics humanoid SPAC",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Deal is expected to provide approximately $465 million in gross capital as Agility expands deployments of its Digit humanoid with industrial customers. The post appeared first on T…",
+      "url": "https://www.therobotreport.com/agility-robotics-shareholders-approve-25b-humanoid-spac/"
+    },
+    {
+      "date": "11-03",
+      "company": "其他",
+      "title": "Humanoid Robots in Warehouses vs AMRs: Which Automation Makes Sense in 2026?",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Every warehouse automation conference seems to have the same scene: a crowd gathered around a walking humanoid robot, while a quieter booth nearby showcases autonomous mobile robot…",
+      "url": "https://roboticsandautomationnews.com/2026/11/03/humanoid-robots-in-warehouses-vs-amrs-which-automation-makes-sense-in-2026/106685/"
     },
     {
       "date": "11-02",
@@ -924,33 +972,6 @@
       "category": "技术突破",
       "summary": "文 | 物理AI大观，作者 | 此间少年，编辑 | 卢旭成 “智元机器人赴港上市节奏已经放缓。”“5折出售手中老股，无人愿意接手。”“为限制老股流出，部分具身智能公司已经不同意股改。”“具身智能公司真正的融资压力，或将在11月后集中显现。”“投资人既不关注世界模型，也不看具身智能项目了。” 2026年下半年以来，关于具身智能估值泡沫的争议持续发酵，融资数据直…",
       "url": "https://www.tmtpost.com/8187761.html"
-    },
-    {
-      "date": "10-30",
-      "company": "其他",
-      "title": "大晓机器人联合南洋理工大学发布最新成果：",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "近日，大晓机器人联合南洋理工大学S-Lab发布面向具体环境构建，可探索、可交互的世界模型——Mundo。Mundo 支持与 Atlas 类似的场景重建、自由视角探索和时空模拟能力。相较于Atlas来说，Mundo可以将物体的质量、摩擦等物理属性纳入场景程序，通过物理引擎计算运动、接触与碰撞。同时，Mundo 支持调用智能体，通过代码编辑场景中的物体、属性与动…",
-      "url": "https://www.robot-china.com/news/202610/30/97228.html"
-    },
-    {
-      "date": "10-30",
-      "company": "其他",
-      "title": "真干活、真数据、真交付， 睿尔曼智能筑牢物理 AI 高质量数据供给基石",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "在刚刚落幕的2026 物理 AI 与世界模型大会上，物理 AI、世界模型成为行业焦点。行业普遍达成共识：物理 AI 的突破，离不开海量、真实、高质量的真机交互数据作为底层支撑。真实物理世界的机器人交互数据必须在现实场景中 “真干活、真产出”，高质量真机数据已成为具身时代的“硬通货”。作为在行业内明确提出“让机器人真干活”的企业，睿尔曼智能凭借 GLN 远程劳…",
-      "url": "https://www.robot-china.com/news/202610/30/97237.html"
-    },
-    {
-      "date": "10-30",
-      "company": "其他",
-      "title": "一句指令，自己干活！「破壳机器人」发布RoboAPI！",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "今天凌晨，破壳机器人做了一件在具身智能圈里显得有些",
-      "url": "https://robot.ofweek.com/2026-10/ART-8321201-12003-30709565.html"
     }
   ]
 }
