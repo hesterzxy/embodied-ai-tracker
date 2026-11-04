@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T21:55:27.259732+08:00",
+  "updated": "2026-11-05T07:19:24.365090+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 2,
+      "candidates": 4,
+      "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "36氪",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 16,
-      "core": 4,
+      "entries": 58,
+      "candidates": 17,
+      "core": 2,
       "periphery": 0,
-      "new": 4
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 48,
       "periphery": 6,
-      "new": 16
+      "new": 11
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 22,
       "core": 7,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -196,7 +196,7 @@
       "candidates": 8,
       "core": 5,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "NVIDIA Robotics",
@@ -222,7 +222,7 @@
       "candidates": 30,
       "core": 22,
       "periphery": 7,
-      "new": 1
+      "new": 2
     },
     {
       "name": "RoboHub",
@@ -241,9 +241,9 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-04T21:55:27.394715+08:00",
+    "generated_at": "2026-11-05T07:19:24.445837+08:00",
     "mode": "local",
-    "item_count": 49,
+    "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，对于宇树科技而言，制造和部署上千台甚至上万台机器人采集数据，并不是最困难的事情；昨日，具身智能赛道迎来两笔重磅融资：通用具身智能企业 RoboScience 机器科学宣布完成 A2 轮数亿元融资，物理 AI 基础设施服务商简智机器人（GenRobot）官宣完成 1 亿美元 A + 轮融资。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，对于宇树科技而言，制造和部署上千台甚至上万台机器人采集数据，并不是最困难的事情；一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.robot-china.com/news/202611/04/97302.html",
-          "https://www.robot-china.com/news/202611/03/97267.html",
-          "https://www.ithome.com/1/022/356.htm"
+          "https://www.qbitai.com/2026/11/507647.html",
+          "https://www.robot-china.com/news/202611/03/97267.html"
         ]
       },
       {
@@ -312,6 +312,13 @@
             "url": "https://www.robot-china.com/news/202611/04/97294.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-04",
+            "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+            "url": "https://www.qbitai.com/2026/11/507647.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "11-03",
@@ -374,6 +381,13 @@
             "url": "https://roboticsandautomationnews.com/2026/11/04/from-human-experience-to-robot-action-liberai-launches-liber-0-world-action-model/106378/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-04",
+            "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+            "url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           },
           {
             "date": "11-03",
@@ -477,13 +491,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8440-30709779.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-02",
-            "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-            "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -828,6 +835,24 @@
       "url": "https://roboticsandautomationnews.com/2026/11/04/from-human-experience-to-robot-action-liberai-launches-liber-0-world-action-model/106378/"
     },
     {
+      "date": "11-04",
+      "company": "其他",
+      "title": "百度无人车搞出“黑客帝国”！世界模型实时推演全局，跑一天抵三年",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "大约是地月平均距离的2.6倍，足够沿着赤道绕地球25圈。 一套L4无人驾驶系统，如果要完成如此规模的真实路测，意味着什么？ 按照单辆车 每天行驶150公里 计算，相当于连续行驶超过 6600天 。即便投入上百辆测试车同时上路，也要 耗时两个多月 。何况真实道路上的复杂情况，很多时候也不会按照测试计划出现。 很长一段时间内，这都是无人驾驶规模化发展面临的一道现…",
+      "url": "https://www.qbitai.com/2026/11/507647.html"
+    },
+    {
+      "date": "11-04",
+      "company": "其他",
+      "title": "LiberAI Unveils Liber-0, a World Action Model That Grounds Human Experience in Robot Action",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "LiberAI introduces Liber-0, a world action model pretrained on more than 2.2 million hours of human experience to support zero-shot robot manipulation. The post appeared first on T…",
+      "url": "https://www.therobotreport.com/liberai-unveils-liber-0-a-world-action-model-that-grounds-human-experience-in-robot-action/"
+    },
+    {
       "date": "11-03",
       "company": "其他",
       "title": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相",
@@ -1087,24 +1112,6 @@
       "category": "产品量产",
       "summary": "GPT-6之后，机器人公司还有价值吗？智元用2万台出货量背后的“Worken”算力账本回应。 作者丨 齐铖湧 编辑丨岑 峰 2026年，具身智能赛道正在陷入一场前所未有的情绪焦虑。 GPT-6 Astra展示出的具身控制能力，让\"物理AI即将被AI击穿\"的论调甚嚣尘上；负责感知与决策的S2层，正在以肉眼可见的速度被通用智能接管。行业里甚至出现了明确的路线分化…",
       "url": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
-    },
-    {
-      "date": "11-02",
-      "company": "其他",
-      "title": "Tutor Intelligence raises Series B to scale model training, robot deployments",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Tutor Intelligence has raised funding to further develop its picking robots, networked intelligence, and commercial deployments. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/tutor-intelligence-raises-series-b-to-scale-model-training-robot-deployments/"
-    },
-    {
-      "date": "11-01",
-      "company": "其他",
-      "title": "具身智能的钱，流向机器人的“皮肤”",
-      "source_name": "钛媒体",
-      "category": "技术突破",
-      "summary": "2026年的具身智能赛道，融资风向正在发生变化。 IT桔子统计显示，2026年10月具身智能赛道发生33起融资、总额101.05亿元，而9月这个数字是60起、110.28亿元，下降趋势显著。 不过，资本追逐本体制造和大模型的热闹场面虽然有所降温，但还有一部分投资人开始选择把目光向上游迁移， 灵巧手、触觉传感器、电子皮肤这些决定机器人“身体能力”的核心零部件…",
-      "url": "https://www.tmtpost.com/8188790.html"
     }
   ]
 }
