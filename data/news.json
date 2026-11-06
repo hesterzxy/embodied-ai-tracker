@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T21:53:31.373887+08:00",
+  "updated": "2026-11-07T06:48:34.883013+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -34,7 +34,7 @@
       "type": "rss",
       "fetched": true,
       "parsed": true,
-      "attempts": 3,
+      "attempts": 1,
       "error": "",
       "entries": 17,
       "candidates": 13,
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 3,
+      "entries": 14,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 15,
-      "core": 2,
+      "candidates": 13,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 48,
       "periphery": 6,
-      "new": 13
+      "new": 9
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 0,
-      "new": 4
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -169,8 +169,8 @@
       "entries": 15,
       "candidates": 15,
       "core": 7,
-      "periphery": 1,
-      "new": 5
+      "periphery": 2,
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -183,7 +183,7 @@
       "candidates": 13,
       "core": 8,
       "periphery": 3,
-      "new": 1
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
+      "candidates": 9,
       "core": 5,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,8 +220,8 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 22,
-      "periphery": 7,
+      "core": 23,
+      "periphery": 6,
       "new": 2
     },
     {
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-06T21:53:31.488291+08:00",
+    "generated_at": "2026-11-07T06:48:35.021390+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -326,6 +326,13 @@
             "url": "https://www.tmtpost.com/8194579.html",
             "company": "其他",
             "source_name": "钛媒体"
+          },
+          {
+            "date": "11-05",
+            "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+            "url": "https://www.qbitai.com/2026/11/507834.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "11-04",
@@ -535,6 +542,13 @@
             "source_name": "TechCrunch Robotics"
           },
           {
+            "date": "11-06",
+            "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+            "url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "11-05",
             "title": "「伟势机器人」获数千万级种子轮融资！一条背光模组产线，正在给具身智能定价！",
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-8420-30710431.html",
@@ -636,20 +650,6 @@
             "title": "2名机器人便利店打工24小时转正失败 6台智元机器人完成1730项任务",
             "url": "https://www.robot-china.com/news/202611/04/97297.html",
             "company": "智元机器人",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-03",
-            "title": "首届CMG世界机器人登泰山大赛收官,宇树科技斩获1金2银",
-            "url": "https://www.robot-china.com/news/202611/03/97281.html",
-            "company": "宇树科技",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-03",
-            "title": "宇树机器狗“登泰山”斩获1金2银，官方未派出人形机器人参赛",
-            "url": "https://www.robot-china.com/news/202611/03/97276.html",
-            "company": "宇树科技",
             "source_name": "中国机器人网"
           }
         ]
@@ -755,6 +755,15 @@
       "category": "资本动态",
       "summary": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
       "url": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/"
+    },
+    {
+      "date": "11-06",
+      "company": "其他",
+      "title": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "China's prohibition of SoftBank's purchase of ABB Robotics reflects wider concerns about data and AI, say experts. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/"
     },
     {
       "date": "11-05",
@@ -872,6 +881,15 @@
       "category": "产品量产",
       "summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tool…",
       "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/"
+    },
+    {
+      "date": "11-05",
+      "company": "其他",
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "近日，2026 世界顶尖科学家论坛第二届国际工程智能大会举行。作为全球科学界极具影响力的年度盛会，本届大会汇聚了来自世界各地的顶尖科学家、院士与产业领军者，以 “工程智能” 为核心议题，共话智能时代的前沿趋势。 会上， 加拿大工程院外籍院士、智象元一（HiDream.ai）创始人兼 CEO 梅涛 发表演讲，提出 构建智能体化的全模态世界模型（Agentic…",
+      "url": "https://www.qbitai.com/2026/11/507834.html"
     },
     {
       "date": "11-04",
@@ -1088,24 +1106,6 @@
       "category": "技术突破",
       "summary": "具身智能进入实际应用，需要将不同类型的机器人与现场设备接入业务系统。机器狗、轮式机器人和摄像头的通信协议、控制接口与状态信息各不相同，应用团队完成设备接入后，还要持续处理运行监控、异常排查和版本更新。新增设备反复对接，异常信息分散查找，更新成果逐台部署，持续增加集成与运维投入。针对这些问题，像衍科技提供数据闭环具身智能大脑作为最佳解决方案。像衍科技数据闭环具…",
       "url": "https://www.robot-china.com/news/202611/03/97283.html"
-    },
-    {
-      "date": "11-03",
-      "company": "宇树科技",
-      "title": "首届CMG世界机器人登泰山大赛收官,宇树科技斩获1金2银",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛。赛道从红门至中天门，全程3.9公里、3100余级台阶，以连续石阶、陡坡弯道为核心挑战，考验机器人在复杂山地环境中的运动与自主决策能力。足式机器人竞速赛中，宇树科技旗下北京灵翌科技队携宇树A2机器狗出战，以41分41秒的实际成绩（最终成绩43分41秒，罚时2分钟）夺得足式机器人竞速赛冠军。A2全程采用全…",
-      "url": "https://www.robot-china.com/news/202611/03/97281.html"
-    },
-    {
-      "date": "11-03",
-      "company": "宇树科技",
-      "title": "宇树机器狗“登泰山”斩获1金2银，官方未派出人形机器人参赛",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "11月2日，首届CMG世界机器人登泰山大赛在山东泰安开赛。赛道从红门至中天门，全程3.9公里、3100余级台阶，以连续石阶、陡坡弯道为核心挑战，考验机器人在复杂山地环境中的运动与自主决策能力。宇树科技旗下北京灵翌科技队携A2机器狗出战，采用全自主模式，以41分41秒的实际成绩（最终成绩43分41秒，罚时2分钟）夺得足式机器人竞速赛冠军。上海高羿科技队获得两银…",
-      "url": "https://www.robot-china.com/news/202611/03/97276.html"
     }
   ]
 }
