@@ -6,7 +6,7 @@
   "companies": [
     {
       "name": "智元 AgiBot",
-      "reason": "公开披露量产规模领先 · 第20000台2026年9月下线",
+      "reason": "公开披露量产规模领先 · 第20000台2026年11月下线",
       "emphasis": false
     },
     {
@@ -61,7 +61,7 @@
                   ]
                 },
                 {
-                  "text": "第20000台2026年9月下线",
+                  "text": "第20000台2026年11月下线",
                   "sources": [
                     {
                       "name": "战略归纳",
@@ -2058,12 +2058,12 @@
               "summary": "20000台下线",
               "bullets": [
                 {
-                  "text": "9月第20000台精灵G2下线",
+                  "text": "11月第20000台精灵G2下线",
                   "sources": [
                     {
-                      "name": "雷峰网 2026-09",
-                      "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
-                      "evidence": "09-26，智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。。"
+                      "name": "中国机器人网 2026-11",
+                      "url": "https://www.robot-china.com/news/202611/06/97335.html",
+                      "evidence": "11-06，从浙江云芯机器人，看人形机器人零部件厂家怎么选。"
                     }
                   ]
                 },
@@ -2071,9 +2071,9 @@
                   "text": "20000台节点后继续爬坡",
                   "sources": [
                     {
-                      "name": "雷峰网 2026-09",
-                      "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
-                      "evidence": "09-26，智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。。"
+                      "name": "中国机器人网 2026-11",
+                      "url": "https://www.robot-china.com/news/202611/06/97335.html",
+                      "evidence": "11-06，从浙江云芯机器人，看人形机器人零部件厂家怎么选。"
                     }
                   ]
                 },
@@ -2081,9 +2081,9 @@
                   "text": "量产进度继续构成领先项",
                   "sources": [
                     {
-                      "name": "雷峰网 2026-09",
-                      "url": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html",
-                      "evidence": "09-26，智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。。"
+                      "name": "中国机器人网 2026-11",
+                      "url": "https://www.robot-china.com/news/202611/06/97335.html",
+                      "evidence": "11-06，从浙江云芯机器人，看人形机器人零部件厂家怎么选。"
                     }
                   ]
                 }
@@ -2091,7 +2091,7 @@
               "kind": "evidence",
               "updated_recent": true,
               "confidence": "high",
-              "note": "9月新增第20000台下线节点。"
+              "note": "11月新增第20000台下线节点。"
             },
             {
               "summary": "平台推进",
