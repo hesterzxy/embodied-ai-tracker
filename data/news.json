@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:36:55.605511+08:00",
+  "updated": "2026-11-08T05:33:32.880794+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 13,
+      "candidates": 12,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -53,7 +53,7 @@
       "candidates": 4,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 23,
+      "entries": 57,
+      "candidates": 22,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-07T20:36:55.715068+08:00",
+    "generated_at": "2026-11-08T05:33:33.014598+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
