@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:48:34.883013+08:00",
+  "updated": "2026-11-07T12:58:55.222588+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 14,
-      "candidates": 2,
+      "entries": 16,
+      "candidates": 1,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 13,
-      "core": 1,
+      "entries": 58,
+      "candidates": 19,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 7,
       "periphery": 2,
-      "new": 6
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-02",
     "end": "11-08",
-    "generated_at": "2026-11-07T06:48:35.021390+08:00",
+    "generated_at": "2026-11-07T12:58:55.339673+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -382,13 +382,6 @@
             "url": "https://www.robot-china.com/news/202611/03/97267.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-03",
-            "title": "在真实应用中如何降低多类型机器人接入与运维成本？像衍科技数据闭环具身智能大脑给出最佳实践",
-            "url": "https://www.robot-china.com/news/202611/03/97283.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -396,6 +389,13 @@
         "category": "产品量产",
         "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
         "items": [
+          {
+            "date": "11-07",
+            "title": "宇树科技联合巨星传奇发布首款消费级收藏机器狗 UNI-DOGGIE，首发价 43900 元",
+            "url": "https://www.ithome.com/1/023/636.htm",
+            "company": "宇树科技",
+            "source_name": "IT之家"
+          },
           {
             "date": "11-06",
             "title": "菜鸟发布与AI及具身智能产业合作计划",
@@ -657,6 +657,15 @@
     ]
   },
   "items": [
+    {
+      "date": "11-07",
+      "company": "宇树科技",
+      "title": "宇树科技联合巨星传奇发布首款消费级收藏机器狗 UNI-DOGGIE，首发价 43900 元",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 11 月 7 日消息，11 月 6 日，巨星传奇在第九届进博会上首发与宇树科技联合开发的 UNI-DOGGIE 机器狗，售价 43900 元。 IT之家从官方介绍获悉，UNI-DOGGIE 是巨星传奇与 宇树科技 联合打造的 赛博朋克潮流艺术机器狗 ，兼备陪伴功能与社交属性，同时也是宇树科技第一只消费级收藏机器狗。产品融合“明星 IP× 潮玩 ×…",
+      "url": "https://www.ithome.com/1/023/636.htm"
+    },
     {
       "date": "11-06",
       "company": "其他",
@@ -1097,15 +1106,6 @@
       "category": "技术突破",
       "summary": "昨日，具身智能赛道迎来两笔重磅融资：通用具身智能企业 RoboScience 机器科学宣布完成 A2 轮数亿元融资，物理 AI 基础设施服务商简智机器人（GenRobot）官宣完成 1 亿美元 A + 轮融资。两家聚焦具身智能不同环节的企业同日传出大额融资，标志着资本持续看好国内具身智能产业从底层数据、仿真模型到机器人本体落地的全链条发展机遇。其中，Robo…",
       "url": "https://www.robot-china.com/news/202611/03/97267.html"
-    },
-    {
-      "date": "11-03",
-      "company": "其他",
-      "title": "在真实应用中如何降低多类型机器人接入与运维成本？像衍科技数据闭环具身智能大脑给出最佳实践",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "具身智能进入实际应用，需要将不同类型的机器人与现场设备接入业务系统。机器狗、轮式机器人和摄像头的通信协议、控制接口与状态信息各不相同，应用团队完成设备接入后，还要持续处理运行监控、异常排查和版本更新。新增设备反复对接，异常信息分散查找，更新成果逐台部署，持续增加集成与运维投入。针对这些问题，像衍科技提供数据闭环具身智能大脑作为最佳解决方案。像衍科技数据闭环具…",
-      "url": "https://www.robot-china.com/news/202611/03/97283.html"
     }
   ]
 }
