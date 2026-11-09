@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T13:00:38.104891+08:00",
+  "updated": "2026-11-09T23:27:24.215067+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 2,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 12,
-      "core": 0,
+      "candidates": 10,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
+      "entries": 15,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -62,11 +62,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
+      "entries": 17,
       "candidates": 1,
-      "core": 0,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 20,
-      "candidates": 1,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 22,
+      "candidates": 19,
       "core": 1,
       "periphery": 0,
       "new": 1
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 48,
-      "periphery": 7,
-      "new": 10
+      "core": 53,
+      "periphery": 8,
+      "new": 20
     },
     {
       "name": "甲子光年",
@@ -114,9 +114,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 33,
-      "candidates": 13,
-      "core": 12,
+      "entries": 32,
+      "candidates": 11,
+      "core": 9,
       "periphery": 0,
       "new": 0
     },
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 20,
-      "core": 10,
+      "core": 9,
       "periphery": 0,
-      "new": 8
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -162,14 +162,15 @@
     {
       "name": "The Robot Report",
       "type": "rss",
-      "fetched": false,
-      "attempts": 3,
-      "error": "HTTPError: HTTP Error 403: Forbidden",
-      "entries": 0,
-      "candidates": 0,
-      "core": 0,
-      "periphery": 0,
-      "new": 0
+      "fetched": true,
+      "parsed": true,
+      "attempts": 1,
+      "error": "",
+      "entries": 15,
+      "candidates": 15,
+      "core": 6,
+      "periphery": 2,
+      "new": 5
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 8,
-      "core": 5,
+      "candidates": 9,
+      "core": 4,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -205,10 +206,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 15,
-      "core": 9,
+      "candidates": 16,
+      "core": 10,
       "periphery": 1,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IEEE Spectrum Robotics",
@@ -221,7 +222,7 @@
       "candidates": 30,
       "core": 23,
       "periphery": 6,
-      "new": 2
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -232,38 +233,72 @@
       "error": "",
       "entries": 75,
       "candidates": 68,
-      "core": 20,
+      "core": 21,
       "periphery": 6,
-      "new": 0
+      "new": 1
     }
   ],
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-09T13:00:38.215425+08:00",
+    "generated_at": "2026-11-09T23:27:24.330090+08:00",
     "mode": "local",
-    "item_count": 6,
+    "item_count": 19,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，但把周产爬坡、5000台订单和摩根大通那条1万到2万台的审慎指引摆在一起，这三个节点要兑现的是“它能自；展会现场，智元精灵G2机器人展示装配、泡茶及产线上下料等作业能力，远征A3系列机器人负责观众问询与酒店迎宾。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，但把周产爬坡、5000台订单和摩根大通那条1万到2万台的审慎指引摆在一起，这三个节点要兑现的是“它能自；10月28日，艾图科技重磅推出两大核心成果：全球第一台面向服装工厂真实工位打造的具身智能缝制机器人 —— 艾妮机器人，以及全球首条具备量产落地能力的服装机器人产线 —— 产线王。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
           "https://robot.ofweek.com/2026-11/ART-898890-12003-30710812.html",
-          "https://www.robot-china.com/news/202611/09/97338.html",
-          "https://robot.ofweek.com/2026-11/ART-898890-8120-30710809.html"
+          "https://www.robot-china.com/news/202611/09/97357.html",
+          "https://www.qbitai.com/2026/11/508716.html"
         ]
       },
       {
-        "label": "量产和价格开始成为能力验证的一部分",
-        "text": "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，但把周产爬坡、5000台订单和摩根大通那条1万到2万台的审慎指引摆在一起，这三个节点要兑现的是“它能自；11月6日，云深处科技正式发布四足机器人新产品——绝影X50。量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。",
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，11月6日，首届蚂蚁灵波具身大模型挑战赛决赛晋级战队正式出炉：15支战队、59位选手从全球1855支队伍、3252位选手中脱颖而出，锁定线下决赛资格；11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布 向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
-          "https://robot.ofweek.com/2026-11/ART-898890-12003-30710812.html",
-          "https://robot.ofweek.com/2026-11/ART-898890-8120-30710809.html",
-          "https://robot.ofweek.com/2026-11/ART-898890-8110-30710808.html"
+          "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
+          "https://www.qbitai.com/2026/11/508716.html",
+          "https://www.robot-china.com/news/202611/09/97350.html"
+        ]
+      },
+      {
+        "label": "资本更看重可定义场景和能力补齐",
+        "text": "融资和并购信号需要和用途一起看，近日，通用具身智能机器人企业优理奇机器人（UniX AI）宣布完成5亿元Pre-A轮融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "evidence_urls": [
+          "https://www.robot-china.com/news/202611/09/97356.html"
         ]
       }
     ],
     "groups": [
+      {
+        "category": "技术突破",
+        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "items": [
+          {
+            "date": "11-09",
+            "title": "具身智能出海，物流先行",
+            "url": "https://www.qbitai.com/2026/11/508716.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "11-09",
+            "title": "行业最大规模具身模型挑战赛迎来决赛：15支战队将展开48小时真机角逐",
+            "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "11-09",
+            "title": "以自主技术走向全球，万拿灵巧手入选首批出海名录",
+            "url": "https://www.robot-china.com/news/202611/09/97350.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          }
+        ]
+      },
       {
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
@@ -295,6 +330,34 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30710809.html",
             "company": "云深处",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-09",
+            "title": "14天实现下线量翻倍, 启元完成个人机器人万台下线里程碑",
+            "url": "https://www.robot-china.com/news/202611/09/97360.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-09",
+            "title": "艾图科技发布艾妮机器人与产线王，服装智造迈入具身AI量产时代",
+            "url": "https://www.robot-china.com/news/202611/09/97357.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-09",
+            "title": "云深处科技发布全新四足机器人 实现重载全地形持续作业",
+            "url": "https://www.robot-china.com/news/202611/09/97346.html",
+            "company": "云深处",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-09",
+            "title": "ABB Robotics launches AI Robot Trainer to simplify robot vision programming",
+            "url": "https://roboticsandautomationnews.com/2026/11/09/abb-robotics-launches-ai-robot-trainer-to-simplify-robot-vision-programming/106808/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -308,6 +371,26 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30710793.html",
             "company": "其他",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-09",
+            "title": "特斯拉 Robotaxi 无人驾驶出租车服务落地至圣安东尼奥，成迄今规模最大运营城市",
+            "url": "https://www.ithome.com/1/024/534.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "资本动态",
+        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
+        "items": [
+          {
+            "date": "11-09",
+            "title": "优理奇机器人（UniX AI）完成5亿元Pre-A轮融资",
+            "url": "https://www.robot-china.com/news/202611/09/97356.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
           }
         ]
       },
@@ -321,6 +404,34 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-12001-30710826.html",
             "company": "宇树科技",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-09",
+            "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
+            "url": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign=",
+            "company": "宇树科技",
+            "source_name": "爱范儿"
+          },
+          {
+            "date": "11-09",
+            "title": "科技应用展示融入赛事保障 云深处交管机器人探索杭马交通服务新模式",
+            "url": "https://www.robot-china.com/news/202611/09/97347.html",
+            "company": "云深处",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-09",
+            "title": "Precision Spatial Tracking for Autonomous Systems: Training Humanoid Robots and Drones with Optical Motion Capture",
+            "url": "https://roboticsandautomationnews.com/2026/11/09/precision-spatial-tracking-for-autonomous-systems-training-humanoid-robots-and-drones-with-optical-motion-capture/106784/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-09",
+            "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+            "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/",
+            "company": "其他",
+            "source_name": "NVIDIA Robotics"
           }
         ]
       }
@@ -380,6 +491,123 @@
       "category": "商业订单",
       "summary": "近日，TOPS DAY 2026 拓斯达全球开放日圆满收官。本届主题为“美好 拓手可达”，大会设置AI落地实践、具身智能前沿、新品方案发布、标杆案例分享、产业对话、战略合作等多个环节，集中展示拓斯达扎",
       "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30710793.html"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "具身智能出海，物流先行",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布 向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群。 具身机器人能接触到的物流任务可谓相当齐全。从仓储拣选、拆码垛，到自主导航配送、高空巡检，覆盖了物流作业的多个环节。 发布会上，菜鸟推出面向AI算力和具身智能企业的 科技出海三日达 服务，将全球三日达的能力延伸至高科技产品…",
+      "url": "https://www.qbitai.com/2026/11/508716.html"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "行业最大规模具身模型挑战赛迎来决赛：15支战队将展开48小时真机角逐",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "11月6日，首届蚂蚁灵波具身大模型挑战赛决赛晋级战队正式出炉：15支战队、59位选手从全球1855支队伍、3252位选手中脱颖而出，锁定线下决赛资格。 （图：首届蚂蚁灵波具身大模型挑战赛决赛入围名单） 15强集结，48小时真机黑客松决战 本届挑战赛聚焦具身大模型与物理世界的交互能力，吸引了全球13个国家、648所高校、科研院所、科技企业及具身智能团队参与。据…",
+      "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html"
+    },
+    {
+      "date": "11-09",
+      "company": "宇树科技",
+      "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
+      "source_name": "爱范儿",
+      "category": "行业动态",
+      "summary": "终于不是后空翻、跳舞、跑步了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
+      "url": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "date": "11-09",
+      "company": "特斯拉",
+      "title": "特斯拉 Robotaxi 无人驾驶出租车服务落地至圣安东尼奥，成迄今规模最大运营城市",
+      "source_name": "IT之家",
+      "category": "商业订单",
+      "summary": "IT之家 11 月 9 日消息，特斯拉 Robotaxi 无人驾驶出租车服务现已扩展至美国得克萨斯州圣安东尼奥市。特斯拉官方 Robotaxi 账号于当地时间周一午夜刚过在 X 平台宣布了这一消息，无人监督的自动驾驶出行服务于当天上午 5 点（美国中部时间）正式上线。 IT之家注意到，这是特斯拉连续两周开通新的 Robotaxi 运营城市。此前，该公司已于…",
+      "url": "https://www.ithome.com/1/024/534.htm"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "14天实现下线量翻倍, 启元完成个人机器人万台下线里程碑",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "11月8日，上纬新材（688585.SH）旗下启元机器人第10000台个人机器人正式下线。距离10月25日第5000台下线，只隔了14天。从5000到10000，启元把消费级人形机器人的量产爬坡速度，压缩到了“14天翻倍”的节奏。“目前，启元机器人在物料供应、质量控制和量产速度方面，均已处于行业头部水平。”启元机器人联席总裁、Q业务部总裁刘东方在现场给出一组…",
+      "url": "https://www.robot-china.com/news/202611/09/97360.html"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "艾图科技发布艾妮机器人与产线王，服装智造迈入具身AI量产时代",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "近日，杰克科技旗下艾图科技全球新品发布会引发行业广泛关注，央广网、央视频、中国日报、新京报、中国经营报、上海证券发布等主流官媒集中刊发报道。10月28日，艾图科技重磅推出两大核心成果：全球第一台面向服装工厂真实工位打造的具身智能缝制机器人 —— 艾妮机器人，以及全球首条具备量产落地能力的服装机器人产线 —— 产线王。两款产品成功攻克柔性面料操控这一世界级技术…",
+      "url": "https://www.robot-china.com/news/202611/09/97357.html"
+    },
+    {
+      "date": "11-09",
+      "company": "行业",
+      "title": "优理奇机器人（UniX AI）完成5亿元Pre-A轮融资",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "近日，通用具身智能机器人企业优理奇机器人（UniX AI）宣布完成5亿元Pre-A轮融资。老股东谢诺投资、涌铧投资连续多轮超额追加投资，新进机构包括绿地集团、柯力传感、华工创投、新景富盈、红鸟启航基金、玉林产投等产业及财务投资人。作为优理奇下游重要应用伙伴，绿地集团以战略投资人身份加入，并将与优理奇一同围绕安保、酒店、康养等场景，协同推进机器人模型、本体、数…",
+      "url": "https://www.robot-china.com/news/202611/09/97356.html"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "以自主技术走向全球，万拿灵巧手入选首批出海名录",
+      "source_name": "中国机器人网",
+      "category": "技术突破",
+      "summary": "从自主研发到真实作业，万拿机器人正以技术积累与工程实践，为灵巧操作产品及解决方案走向全球夯实基础。万拿Eco12轻量拟人型灵巧手、Std16A工业实战型灵巧手已入选《北京“一带一路”出海机器人优质企业名录（首批）》。该名录由北京市物联网智能技术应用协会等机构编制，于2026年服贸会期间发布，面向中亚、中东等重点市场，集中推介北京机器人企业的技术产品与解决方案…",
+      "url": "https://www.robot-china.com/news/202611/09/97350.html"
+    },
+    {
+      "date": "11-09",
+      "company": "云深处",
+      "title": "科技应用展示融入赛事保障 云深处交管机器人探索杭马交通服务新模式",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "为扎实做好2026年杭州马拉松赛事交通秩序维护、现场服务保障与科技应用展示工作，11月1日，云深处联合杭州公安交管部门打造的双足机器人“杭行二号”首次亮相赛事，进驻黄龙体育中心周边4个重点点位，承担路口值守、自主巡航、交通违法劝导、公众咨询、人机互动与科技成果展示等任务，以具身智能技术助力大型体育赛事安保勤务转型升级，探索人形机器人在大型马拉松赛事交通保障场…",
+      "url": "https://www.robot-china.com/news/202611/09/97347.html"
+    },
+    {
+      "date": "11-09",
+      "company": "云深处",
+      "title": "云深处科技发布全新四足机器人 实现重载全地形持续作业",
+      "source_name": "中国机器人网",
+      "category": "产品量产",
+      "summary": "11月6日，云深处科技正式发布四足机器人新产品——绝影X50。它通过“感控融合”全新升级，搭配高刚性高响应关节系统，实现了更大负载、更强通行与更稳姿态的综合突破。绝影X50四足机器人，不仅进一步拓展了四足机器人在极端环境下的重载作业边界，也为应急消防、能源电力等高风险行业提供了由“辅助工具”跃升为“核心生产力”的新选择。重载突破！50kg额定大负载，全地形稳…",
+      "url": "https://www.robot-china.com/news/202611/09/97346.html"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "ABB Robotics launches AI Robot Trainer to simplify robot vision programming",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "ABB Robotics is expanding OmniCore EyeMotion with AI Robot Trainer, enabling customers to train, deploy, and continuously improve AI-powered robot vision applications faster and wi…",
+      "url": "https://roboticsandautomationnews.com/2026/11/09/abb-robotics-launches-ai-robot-trainer-to-simplify-robot-vision-programming/106808/"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "Precision Spatial Tracking for Autonomous Systems: Training Humanoid Robots and Drones with Optical Motion Capture",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "A robot can repeat a movement convincingly while still getting its position wrong. That leaves researchers with a measurement problem: a successful-looking demonstration doesn’t re…",
+      "url": "https://roboticsandautomationnews.com/2026/11/09/precision-spatial-tracking-for-autonomous-systems-training-humanoid-robots-and-drones-with-optical-motion-capture/106784/"
+    },
+    {
+      "date": "11-09",
+      "company": "其他",
+      "title": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "source_name": "NVIDIA Robotics",
+      "category": "行业动态",
+      "summary": "Tapping into the country’s strengths in manufacturing and engineering, NVIDIA is helping advance Korea’s physical AI ecosystem. The country’s industry leaders are applying accelera…",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem/"
     },
     {
       "date": "11-08",
@@ -659,123 +887,6 @@
       "category": "产品量产",
       "summary": "Global commercial robotics specilaist showcased six product lines together for the first time at its 2026 European Partner Summit in Amsterdam Pudu Robotics, a global provider of c…",
       "url": "https://roboticsandautomationnews.com/2026/11/05/pudu-robotics-unveils-one-brain-multiple-embodiments-strategy-and-showcases-full-portfolio-in-european-first/106725/"
-    },
-    {
-      "date": "11-05",
-      "company": "智元机器人",
-      "title": "AGIBOT unveils GO-3 Preview and takes top spot on three embodied AI benchmarks",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "The new embodied foundation model connects pre-training, post-training and post-deployment learning, helping robots develop general-purpose capabilities and continuously improve th…",
-      "url": "https://roboticsandautomationnews.com/2026/11/05/agibot-unveils-go-3-preview-and-takes-top-spot-on-three-embodied-ai-benchmarks/106711/"
-    },
-    {
-      "date": "11-05",
-      "company": "其他",
-      "title": "How Ambi Robotics helps its customers prepare for peak season",
-      "source_name": "The Robot Report",
-      "category": "商业订单",
-      "summary": "Ambi Robotics' co-founder and COO Stephen McKinley says the company is installing eight new systems at customer sites before peak season. The post appeared first on The Robot Repor…",
-      "url": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/"
-    },
-    {
-      "date": "11-05",
-      "company": "其他",
-      "title": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Chinese authorities blocked the deal over concerns about robot data being transferred overseas and used to train AI models. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/"
-    },
-    {
-      "date": "11-05",
-      "company": "其他",
-      "title": "Serve Robotics launches new business to become the AWS for robots",
-      "source_name": "TechCrunch Robotics",
-      "category": "产品量产",
-      "summary": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tool…",
-      "url": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/"
-    },
-    {
-      "date": "11-05",
-      "company": "其他",
-      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "近日，2026 世界顶尖科学家论坛第二届国际工程智能大会举行。作为全球科学界极具影响力的年度盛会，本届大会汇聚了来自世界各地的顶尖科学家、院士与产业领军者，以 “工程智能” 为核心议题，共话智能时代的前沿趋势。 会上， 加拿大工程院外籍院士、智象元一（HiDream.ai）创始人兼 CEO 梅涛 发表演讲，提出 构建智能体化的全模态世界模型（Agentic…",
-      "url": "https://www.qbitai.com/2026/11/507834.html"
-    },
-    {
-      "date": "11-04",
-      "company": "其他",
-      "title": "大模型会击穿具身智能吗？稚晖君带领团队深刻复盘并解答",
-      "source_name": "InfoQ",
-      "category": "技术突破",
-      "summary": "具身智能进入部署态，智元如何打通技术与生产力之间的链条？",
-      "url": "https://www.infoq.cn/article/bFKTeyCOlydWMYi91H4q?utm_source=rss&utm_medium=article"
-    },
-    {
-      "date": "11-04",
-      "company": "宇树科技",
-      "title": "宇树王兴兴：大概率明年是机器人行业或机器人模型临界点",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 11 月 4 日消息，据中国新闻网今日报道，宇树科技创始人王兴兴在 2026 世界互联网大会乌镇峰会互联网企业家论坛上表示， 大概率明年将是机器人行业或机器人模型的临界点 。 综合IT之家此前报道， 在 2026 世界物理 AI 大会暨宇树合作伙伴生态大会上 ，王兴兴曾表示全世界几乎所有人，对 AI 的重视程度和信仰都还不够，包括他自己。 王兴兴表…",
-      "url": "https://www.ithome.com/1/022/026.htm"
-    },
-    {
-      "date": "11-04",
-      "company": "智元机器人",
-      "title": "6 台智元机器人直播在便利店 24 小时打工，4 台成功“转正”",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 11 月 4 日消息，智元 11 月 2 日发起机器人直播在便利店“打工”挑战，6 台精灵 G2 机器人连续 24 小时在岗。 11 月 3 日 10:00，智元“机器人打工不能停”便利店直播挑战结束，在全网超 200 万人的围观下， 最终 4 台机器人成功“转正” 。 在考核期间，机器人共完成任务 1730 次 / 件。其中，接待顾客 683 人…",
-      "url": "https://www.ithome.com/1/022/015.htm"
-    },
-    {
-      "date": "11-04",
-      "company": "其他",
-      "title": "意优科技与韩国大东集团达成合作，联合开发农业机器人",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "11月3日，盖世具身智能由意优科技官方获悉，其已于10月27日在上海同韩国大东集团（Daedong）签署合作谅解备忘录（MOU）。双方将围绕农业机器人关节模组开展联合研发与应用验证，并推进合资公司设立，共同拓展农业机器人市场。图片 意优科技根据合作内容，意优科技将负责机器人关节的设计、集成、测试及生产工艺落地，大东集团则依托旗下农业机器人产品，开展田间实际工…",
-      "url": "https://www.robot-china.com/news/202611/04/97287.html"
-    },
-    {
-      "date": "11-04",
-      "company": "Figure",
-      "title": "11月人形机器人谁先交卷：OptimusV3、Figure04、下一代Apollo",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "摘要：11-12月人形机器人迎来“压轴战”：特斯拉Optimus V3、Figure 04和Apptronik下一代Apollo的发布窗口高度重叠。这看似是产品节奏的巧合，实则是技术路线的集体秀肌肉",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30710156.html"
-    },
-    {
-      "date": "11-04",
-      "company": "行业",
-      "title": "雷军投的工业具身智能机器人研发商，融资数亿元！",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "硬氪消息称，近日，上海飒智智能科技有限公司（简称“飒智智能”）已完成数亿元Pre-B轮融资，投资方包括建投投资有限责任公司、南通投管和云启资本。 本轮融资将主要用于四个方向：大模型研发、多臂机器人本体",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30710157.html"
-    },
-    {
-      "date": "11-04",
-      "company": "其他",
-      "title": "不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "日常生活里人类的直觉判断，放到机器人身上，往往会变成棘手难题。 视频画面中物体位置看上去更高，并不等同于它在真实三维空间里处于更高位置；更换拍摄角度，家具外观发生改变，但它仍是同一个物体；画面内物体发生位移，有可能是物体本身发生移动，也可能仅仅是相机镜头产生转动…… 这些细微的空间、状态变化，人类一眼就能分辨，但对机器人的“具身大脑”来说，却是难以攻克的难题…",
-      "url": "https://www.qbitai.com/2026/11/507586.html"
-    },
-    {
-      "date": "11-04",
-      "company": "其他",
-      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "以“金融科技枢纽 联通世界 共建未来”为主题的香港金融科技周×StartmeupHK 2026在香港会议展览中心揭幕。作为全栈具身智能大模型公司，超维动力（Kinetix AI）携高动态人形机器人乒乓系统SMASH、全球最高自由度（117 DoF）的超高拟人人形机器人本体KAIBot、超高自由度灵巧手KAI Hand与第一人称数采头环KAI Halo等全栈矩…",
-      "url": "https://www.qbitai.com/2026/11/507574.html"
     }
   ]
 }
