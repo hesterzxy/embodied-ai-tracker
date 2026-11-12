@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-12T08:10:44.472597+08:00",
+  "updated": "2026-11-12T22:46:59.626825+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
+      "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "36氪",
@@ -36,8 +36,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 12,
+      "entries": 16,
+      "candidates": 8,
       "core": 2,
       "periphery": 0,
       "new": 2
@@ -49,8 +49,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
-      "candidates": 0,
+      "entries": 16,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -63,8 +63,8 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 18,
-      "core": 3,
+      "entries": 60,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -102,10 +102,10 @@
       "attempts": 1,
       "error": "",
       "entries": 80,
-      "candidates": 80,
-      "core": 51,
+      "candidates": 77,
+      "core": 45,
       "periphery": 6,
-      "new": 11
+      "new": 14
     },
     {
       "name": "甲子光年",
@@ -115,8 +115,8 @@
       "attempts": 1,
       "error": "",
       "entries": 32,
-      "candidates": 13,
-      "core": 10,
+      "candidates": 14,
+      "core": 11,
       "periphery": 0,
       "new": 2
     },
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 10,
-      "periphery": 1,
-      "new": 4
+      "core": 7,
+      "periphery": 3,
+      "new": 7
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 4,
+      "core": 5,
       "periphery": 2,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -183,7 +183,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 3,
-      "new": 3
+      "new": 2
     },
     {
       "name": "Robotics & Automation News",
@@ -193,10 +193,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
+      "candidates": 12,
       "core": 7,
-      "periphery": 0,
-      "new": 7
+      "periphery": 2,
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -235,48 +235,48 @@
       "candidates": 68,
       "core": 22,
       "periphery": 6,
-      "new": 3
+      "new": 2
     }
   ],
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-12T08:10:44.579347+08:00",
+    "generated_at": "2026-11-12T22:46:59.748559+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，对于加快市场布局的企业而言，连接真实采购需求、找到具备合作意向的伙伴，是推动产品应用和业务拓展的重要一步；9月12日，优必选在柳州的万台级工业人形机器人超级智慧工厂正式投产。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布；华为云今日宣布，华为云 CloudRobo 具身世界模型发布会将于 11 月 16 日 14:00-15:30 在线上直播。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
         "evidence_urls": [
-          "https://www.robot-china.com/news/202611/11/97393.html",
-          "https://robot.ofweek.com/2026-11/ART-898890-8420-30711356.html",
-          "https://www.qbitai.com/2026/11/509032.html"
+          "https://www.qbitai.com/2026/11/509281.html",
+          "https://www.ithome.com/1/026/288.htm",
+          "https://www.robot-china.com/news/202611/11/97393.html"
         ]
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，谷歌推出迄今为止能力最强的视觉-语言-动作（VLA）机器人模型 Gemini Robotics 2.；11月6日，首届蚂蚁灵波具身大模型挑战赛决赛晋级战队正式出炉：15支战队、59位选手从全球1855支队伍、3252位选手中脱颖而出，锁定线下决赛资格。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，11月11日，在CoRL2026期间，速腾聚创宣布与BitRobot达成战略合作，围绕三维感知与真实世界数据采集展开协同；2026年11月4日，中国上海讯 —— 随着具身人工智能（AI）从前沿研究走向实际应用，如何将AI模型、计算平台、传感器、运动控制、能源管理与通信能力整合为稳定可靠的系统，正成为推动具身智能产业化部署的关键挑战。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
-          "https://www.ithome.com/1/025/188.htm",
-          "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
-          "https://www.robot-china.com/news/202611/10/97375.html"
+          "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html",
+          "https://www.robot-china.com/news/202611/10/97375.html",
+          "https://www.robot-china.com/news/202611/11/97391.html"
         ]
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，据悉，本轮资金计划主要用于核心芯片与计算平台研发、软件工具链建设、研发团队扩充，以及与机器人厂商和行业客户开展联合验证，完成量产交付；摘要：优理奇5亿Pre-A轮，融资额不是重点。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，11月12日，总部位于德国慕尼黑的物理AI（Physical AI）领军企业思灵机器人Agile Robots宣布完成F轮融资，融资金额为5亿美元，投后估值85亿美元；11月9日，据UniX AI优理奇官微消息，优理奇机器人完成5亿元Pre-A轮融资。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
-          "https://www.ithome.com/1/025/807.htm",
-          "https://robot.ofweek.com/2026-11/ART-898890-12005-30711273.html",
-          "https://www.ithome.com/1/025/317.htm"
+          "https://www.robot-china.com/news/202611/12/97417.html",
+          "https://www.robot-china.com/news/202611/12/97400.html",
+          "https://www.ithome.com/1/025/807.htm"
         ]
       }
     ],
     "groups": [
       {
         "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
         "items": [
           {
             "date": "11-11",
@@ -291,27 +291,6 @@
             "url": "https://www.robot-china.com/news/202611/10/97375.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-10",
-            "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
-            "url": "https://www.ithome.com/1/025/188.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-09",
-            "title": "具身智能出海，物流先行",
-            "url": "https://www.qbitai.com/2026/11/508716.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "11-09",
-            "title": "行业最大规模具身模型挑战赛迎来决赛：15支战队将展开48小时真机角逐",
-            "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html",
-            "company": "其他",
-            "source_name": "雷峰网"
           }
         ]
       },
@@ -319,6 +298,34 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "11-12",
+            "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+            "url": "https://www.qbitai.com/2026/11/509281.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
+          {
+            "date": "11-12",
+            "title": "“行业 AI 梦工厂”首款昇腾原生世界模型，华为云 CloudRobo 具身世界模型发布会定档 11 月 16 日",
+            "url": "https://www.ithome.com/1/026/288.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-12",
+            "title": "北京发布具身智能机器人行动方案，细到给灵巧手定价单只万元内",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321201-8480-30711456.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-12",
+            "title": "Viam Launchpad aims to accelerate robotics deployments",
+            "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
           {
             "date": "11-11",
             "title": "成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”",
@@ -416,34 +423,6 @@
             "url": "https://www.qbitai.com/2026/11/509032.html",
             "company": "其他",
             "source_name": "量子位"
-          },
-          {
-            "date": "11-09",
-            "title": "智元携多款机器人亮相进博会 集中展示多场景落地应用成果",
-            "url": "https://www.robot-china.com/news/202611/09/97338.html",
-            "company": "智元机器人",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-09",
-            "title": "特斯拉Optimus的三个倒计时：V3机器人在等兑现，量产还在爬坡",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-12003-30710812.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-09",
-            "title": "新华社联合优必选发布仿生主播，大A人形机器人板块受催化活跃",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30710808.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-09",
-            "title": "50Kg大负载持续疾驰2公里！云深处发布绝影X50四足机器人",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30710809.html",
-            "company": "云深处",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -485,13 +464,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321206-8420-30711094.html",
             "company": "特斯拉",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-09",
-            "title": "以AI服务AI，拓斯达人形机器人等多项合作集中签约",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30710793.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -499,6 +471,27 @@
         "category": "资本动态",
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
+          {
+            "date": "11-12",
+            "title": "思灵机器人 Agile Robots 完成5亿美元F轮融资，估值达85亿美元",
+            "url": "https://www.robot-china.com/news/202611/12/97417.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-12",
+            "title": "优理奇机器人完成5亿元Pre-A轮融资，绿地集团参投",
+            "url": "https://www.robot-china.com/news/202611/12/97400.html",
+            "company": "行业",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-12",
+            "title": "水下船体清洗机器人研发商，完成首轮融资！",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321204-8120-30711439.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-11",
             "title": "马斯克、特斯拉因证券欺诈推文各缴 2000 万美元罚款，SEC 向 3350 名投资者分配 4153 万美元",
@@ -547,13 +540,6 @@
             "url": "https://roboticsandautomationnews.com/2026/11/10/genrobot-ai-raises-100-million-to-expand-robot-training-data-infrastructure/106905/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-10",
-            "title": "Path Robotics raises stunning $300 million at $2.45 billion valuation to expand physical AI in manufacturing",
-            "url": "https://roboticsandautomationnews.com/2026/11/10/path-robotics-raises-stunning-300-million-at-2-45-billion-valuation-to-expand-physical-ai-in-manufacturing/106929/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -561,6 +547,41 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "11-12",
+            "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
+            "url": "https://www.ithome.com/1/026/334.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-12",
+            "title": "人形机器人运动控制负责人为什么难招",
+            "url": "https://www.robot-china.com/news/202611/12/97402.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-12",
+            "title": "云深处科技与中国铁塔北京分公司签署战略合作协议",
+            "url": "https://www.robot-china.com/news/202611/12/97396.html",
+            "company": "云深处",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-12",
+            "title": "速腾聚创与BitRobot达成战略合作 物理AI数据入口获得新成果",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-12",
+            "title": "宇树科技站上800元：推它上去的不是机器人利润表，是筹码结构",
+            "url": "https://robot.ofweek.com/2026-11/ART-898890-12003-30711406.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-11",
             "title": "中国电信，要帮优必选卖机器人",
@@ -595,41 +616,6 @@
             "url": "https://www.robot-china.com/news/202611/10/97367.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-10",
-            "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
-            "url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "11-10",
-            "title": "Gritt and MasTec partner to bring physical AI to solar construction sites",
-            "url": "https://roboticsandautomationnews.com/2026/11/10/gritt-and-mastec-partner-to-bring-physical-ai-to-renewable-energy-construction-sites/106945/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-10",
-            "title": "Oversonic Robotics takes RoBee R20 humanoid robot to Munich and Lisbon",
-            "url": "https://roboticsandautomationnews.com/2026/11/10/oversonic-robotics-takes-robee-r20-humanoid-robot-to-munich-and-lisbon/106938/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-09",
-            "title": "中石油拿六成，宇树拿两成：机器人进油田，谁在给谁“打工”？",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-12001-30710826.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-09",
-            "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
-            "url": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign=",
-            "company": "宇树科技",
-            "source_name": "爱范儿"
           }
         ]
       },
@@ -637,6 +623,20 @@
         "category": "泛具身产业链",
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
+          {
+            "date": "11-12",
+            "title": "一颗为1079台机器人设计的芯片，要2028年才能量产",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321206-12003-30711489.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-12",
+            "title": "ESTUN Robotics integrates RoboDK simulation software to accelerate European expansion",
+            "url": "https://roboticsandautomationnews.com/2026/11/12/estun-robotics-and-robodk-announce-strategic-partnership-at-dfactory-barcelona-to-simplify-and-accelerate-the-adoption-of-industrial-robots-in-europe/107047/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
           {
             "date": "11-11",
             "title": "成立五个月融资两轮，模感科技想让机器人全身拥有触觉",
@@ -663,6 +663,132 @@
     ]
   },
   "items": [
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
+      "source_name": "量子位",
+      "category": "产品量产",
+      "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
+      "url": "https://www.qbitai.com/2026/11/509281.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 12 日消息，据路透社今天（12 日）报道，摩根大通最新预测显示，随着人形机器人从技术展示走向商业化应用，美国人形机器人产量 到 2030 年将达到 30 万至 40 万台 ，2035 年进一步增至约 150 万台。 劳动力短缺、使用成本下降和产能扩大，正推动制造、物流和仓储企业采用人形机器人，以替代重复性人工劳动。 不过，人形机器人的大…",
+      "url": "https://www.ithome.com/1/026/334.htm"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "“行业 AI 梦工厂”首款昇腾原生世界模型，华为云 CloudRobo 具身世界模型发布会定档 11 月 16 日",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 11 月 12 日消息，华为云今日宣布，华为云 CloudRobo 具身世界模型发布会将于 11 月 16 日 14:00-15:30 在线上直播。 海报显示，届时将发布“行业 AI 梦工厂”首款昇腾原生世界模型，具体名称为 CloudRobo-WM1.2 。 IT之家注：行业 AI 梦工厂是华为推出的行业 AI 平台，设计用于降低各行业应用 AI…",
+      "url": "https://www.ithome.com/1/026/288.htm"
+    },
+    {
+      "date": "11-12",
+      "company": "行业",
+      "title": "思灵机器人 Agile Robots 完成5亿美元F轮融资，估值达85亿美元",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "11月12日，总部位于德国慕尼黑的物理AI（Physical AI）领军企业思灵机器人Agile Robots宣布完成F轮融资，融资金额为5亿美元，投后估值85亿美元。本轮融资完成后，思灵累计融资总额达20亿美元。本轮融资由软银集团领投，汇聚了来自汽车、人工智能、数字技术和工业技术等领域的投资者，包括英伟达（NVIDIA）、日立集团（日立及Hitachi V…",
+      "url": "https://www.robot-china.com/news/202611/12/97417.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "人形机器人运动控制负责人为什么难招",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "——优必猎一例 28 天招聘项目的记录样机进入连续真机联调阶段后，一些此前不突出的问题会暴露出来。算法、机械、嵌入式三个团队各自完成开发，不代表整机能稳定运行。机器人动作异常、控制响应延迟时，企业要的不只是找出技术原因，而是有人对跨模块的排查、协调和验证结果负责。运动控制负责人就是这样的岗位。优必猎最近公开了一个案例：一家双足人形机器人企业的新一代样机进入连…",
+      "url": "https://www.robot-china.com/news/202611/12/97402.html"
+    },
+    {
+      "date": "11-12",
+      "company": "行业",
+      "title": "优理奇机器人完成5亿元Pre-A轮融资，绿地集团参投",
+      "source_name": "中国机器人网",
+      "category": "资本动态",
+      "summary": "11月9日，据UniX AI优理奇官微消息，优理奇机器人完成5亿元Pre-A轮融资。老股东谢诺投资、涌铧投资连续多轮超额追加投资，新进机构包括绿地集团、柯力传感、华工创投、新景富盈、红鸟启航基金、玉林产投等产业及财务投资人。作为优理奇下游重要应用伙伴，绿地集团以战略投资人身份加入，并将与优理奇一同围绕安保、酒店、康养等场景，协同推进机器人模型、本体、数据与解…",
+      "url": "https://www.robot-china.com/news/202611/12/97400.html"
+    },
+    {
+      "date": "11-12",
+      "company": "云深处",
+      "title": "云深处科技与中国铁塔北京分公司签署战略合作协议",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "11月7日，云深处科技股份有限公司（以下简称“云深处科技”）与中国铁塔北京市分公司（以下简称“北京铁塔”）举行战略合作协议签约仪式。云深处科技创始人兼CEO朱秋国与北京铁塔党委书记、总经理麻文军，共同见证签约；云深处科技总经理助理姚恒燕、北京铁塔副总经理边国栋代表双方签约，其他双方相关业务负责人参加活动。本次合作秉持“平等自愿、优势互补、互利共赢、长期稳定”…",
+      "url": "https://www.robot-china.com/news/202611/12/97396.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "速腾聚创与BitRobot达成战略合作 物理AI数据入口获得新成果",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "11月11日，在CoRL2026期间，速腾聚创宣布与BitRobot达成战略合作，围绕三维感知与真实世界数据采集展开协同。作为双方合作成果之一，BitRobot发布了RoboCap LiDAR-100 零部件 | <",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "一颗为1079台机器人设计的芯片，要2028年才能量产",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "曦选创智最近完成5亿元人民币天使轮融资，纪源资本、经纬创投联合领投。 这家公司2026年5月注册，6月对外宣布签约落地，注册资本1亿元。发起方是两家上市公司：国产GPU四小龙之一的沐曦股份，和人形机器",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321206-12003-30711489.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "北京发布具身智能机器人行动方案，细到给灵巧手定价单只万元内",
+      "source_name": "OFweek机器人",
+      "category": "产品量产",
+      "summary": "这是思维AI社的第167篇原创 全文约1016字，阅读时长预计3分钟 政策文件一般怎么写？定目标、画方向、提要求，剩下给市场。 11月11日，北京市经信局印发《北京市具身智能机器人产业高质量发展行动方",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321201-8480-30711456.html"
+    },
+    {
+      "date": "11-12",
+      "company": "行业",
+      "title": "水下船体清洗机器人研发商，完成首轮融资！",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "近日，上海泊展机器人有限公司（下称“泊展机器人”）完成数千万元首轮机构融资，由道彤投资领投，世达舶跟投。 所募得资金将主要用于核心产品研发、规模化生产及全球市场服务网络拓展。 虽说是首轮机构融资，但泊",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321204-8120-30711439.html"
+    },
+    {
+      "date": "11-12",
+      "company": "宇树科技",
+      "title": "宇树科技站上800元：推它上去的不是机器人利润表，是筹码结构",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "摘要：宇树站上800元，市值突破3200亿。Q3利润在往下走，推它上去的是摩根大通半个月内从300到995的评级反转，和一个不到8%的流通盘。两样东西都不在利润表里。 全文约 1,500 字 | 预计",
+      "url": "https://robot.ofweek.com/2026-11/ART-898890-12003-30711406.html"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "Viam Launchpad aims to accelerate robotics deployments",
+      "source_name": "The Robot Report",
+      "category": "产品量产",
+      "summary": "The Viam Launchpad is intended to provide the software and engineering infrastructure to help startups bring robots to commercial deployment. The post appeared first on The Robot R…",
+      "url": "https://www.therobotreport.com/viam-launchpad-aims-to-accelerate-robotics-deployments/"
+    },
+    {
+      "date": "11-12",
+      "company": "其他",
+      "title": "ESTUN Robotics integrates RoboDK simulation software to accelerate European expansion",
+      "source_name": "Robotics & Automation News",
+      "category": "泛具身产业链",
+      "summary": "ESTUN Robotics and RoboDK have formalized a Strategic Partnership to drive the integration of their technologies and facilitate the development, simulation and programming of indus…",
+      "url": "https://roboticsandautomationnews.com/2026/11/12/estun-robotics-and-robodk-announce-strategic-partnership-at-dfactory-barcelona-to-simplify-and-accelerate-the-adoption-of-industrial-robots-in-europe/107047/"
+    },
     {
       "date": "11-11",
       "company": "特斯拉",
@@ -986,132 +1112,6 @@
       "category": "产品量产",
       "summary": "全体起立！时隔一年半，英伟达的新一代机器人基础模型终于来了！ 刚刚，在今年奥斯汀举行的CoRL大会上，英伟达GEAR领导朱玉可和Jim Fan，搬出了新一代世界动作模型—— 在时长1分半的官方demo中，GR00T 2可以拿剪刀裁标签、安装显卡、擦火柴、切香蕉做早餐、擦咖啡、收桌子、卖爆米花。 看下来，几乎是样样全能。从双手精细操作到全身移动，模型的任务范围…",
       "url": "https://www.qbitai.com/2026/11/509032.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 11 月 10 日消息，谷歌推出迄今为止能力最强的视觉-语言-动作（VLA）机器人模型 Gemini Robotics 2.5 ，大幅提升机器人可学习的技能广度与学习速度。 该模型增强了机器人的灵巧度、可靠性与安全性，助力机器人走出实验室，进入更非结构化的真实环境，协助人类完成更多类型的任务。 谷歌今年早些时候已为包括人形机器人在内的多种机器人引入…",
-      "url": "https://www.ithome.com/1/025/188.htm"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Altera and Intel are working to make it easier to connect diverse sensors, turn data into real-time insights, and develop robotics. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "Gritt and MasTec partner to bring physical AI to solar construction sites",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Gritt has announced a partnership with MasTec, one of North America’s leading infrastructure builders, to deploy its AI-powered systems across MasTec Renewables projects and plans…",
-      "url": "https://roboticsandautomationnews.com/2026/11/10/gritt-and-mastec-partner-to-bring-physical-ai-to-renewable-energy-construction-sites/106945/"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "Oversonic Robotics takes RoBee R20 humanoid robot to Munich and Lisbon",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Oversonic Robotics, an Italian company specializing in the design and manufacturing of cognitive and collaborative humanoid robots, is accelerating its international expansion, bui…",
-      "url": "https://roboticsandautomationnews.com/2026/11/10/oversonic-robotics-takes-robee-r20-humanoid-robot-to-munich-and-lisbon/106938/"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "Path Robotics raises stunning $300 million at $2.45 billion valuation to expand physical AI in manufacturing",
-      "source_name": "Robotics & Automation News",
-      "category": "资本动态",
-      "summary": "Path Robotics, a developer of physical AI for manufacturing, has announced a staggering $300 million in Series E financing at a post-money valuation of $2.45 billion, led by Georgi…",
-      "url": "https://roboticsandautomationnews.com/2026/11/10/path-robotics-raises-stunning-300-million-at-2-45-billion-valuation-to-expand-physical-ai-in-manufacturing/106929/"
-    },
-    {
-      "date": "11-09",
-      "company": "智元机器人",
-      "title": "智元携多款机器人亮相进博会 集中展示多场景落地应用成果",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "11月5日，第九届中国国际进口博览会（以下简称“进博会”）开幕。智元创新（上海）科技股份有限公司（以下简称“智元”）携多款具身智能机器人亮相技术装备展区，集中展示机器人在工业制造、医疗导诊、酒店服务等场景的落地应用成果。展会现场，智元精灵G2机器人展示装配、泡茶及产线上下料等作业能力，远征A3系列机器人负责观众问询与酒店迎宾，灵犀X2机器人提供智能导览服务…",
-      "url": "https://www.robot-china.com/news/202611/09/97338.html"
-    },
-    {
-      "date": "11-09",
-      "company": "宇树科技",
-      "title": "中石油拿六成，宇树拿两成：机器人进油田，谁在给谁“打工”？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "11月4日，北京市市场监管局的一则公示，把一件酝酿了大半年的事摆上了台面：中国石油集团昆仑制造及其一致行动人昆仑资本，与宇树科技、北京泛界智能签署协议，拟新设一家合营企业，主攻工业具身智能机器人解决方",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-12001-30710826.html"
-    },
-    {
-      "date": "11-09",
-      "company": "特斯拉",
-      "title": "特斯拉Optimus的三个倒计时：V3机器人在等兑现，量产还在爬坡",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "摘要：12月前后，特斯拉给Optimus排了三个倒计时：股东会、硅谷峰会、马斯克的“无预设视频”。但把周产爬坡、5000台订单和摩根大通那条1万到2万台的审慎指引摆在一起，这三个节点要兑现的是“它能自",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-12003-30710812.html"
-    },
-    {
-      "date": "11-09",
-      "company": "优必选",
-      "title": "新华社联合优必选发布仿生主播，大A人形机器人板块受催化活跃",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "摘要：新华社联合优必选发布全球首个仿生人形机器人新闻主播，张艺谋任形象主创。这一事件不仅带动了A股相关板块的异动，更标志着具身智能在商业化落地中，正从高难度的工业操作向高交互价值的公共服务场景延伸",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30710808.html"
-    },
-    {
-      "date": "11-09",
-      "company": "云深处",
-      "title": "50Kg大负载持续疾驰2公里！云深处发布绝影X50四足机器人",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "11月6日，云深处科技正式发布四足机器人新产品——绝影X50。它通过“感控融合”全新升级，搭配高刚性高响应关节系统，实现了更大负载、更强通行与更稳姿态的综合突破。绝影X50四足机器人，不仅进一步拓展了",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30710809.html"
-    },
-    {
-      "date": "11-09",
-      "company": "其他",
-      "title": "以AI服务AI，拓斯达人形机器人等多项合作集中签约",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "近日，TOPS DAY 2026 拓斯达全球开放日圆满收官。本届主题为“美好 拓手可达”，大会设置AI落地实践、具身智能前沿、新品方案发布、标杆案例分享、产业对话、战略合作等多个环节，集中展示拓斯达扎",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30710793.html"
-    },
-    {
-      "date": "11-09",
-      "company": "其他",
-      "title": "具身智能出海，物流先行",
-      "source_name": "量子位",
-      "category": "技术突破",
-      "summary": "11月5日，菜鸟在香港智慧港举行AI及具身智能产业合作发布会，宣布 向AI与具身智能企业开放全球仓网，打造AI与具身智能物流实景训练集群。 具身机器人能接触到的物流任务可谓相当齐全。从仓储拣选、拆码垛，到自主导航配送、高空巡检，覆盖了物流作业的多个环节。 发布会上，菜鸟推出面向AI算力和具身智能企业的 科技出海三日达 服务，将全球三日达的能力延伸至高科技产品…",
-      "url": "https://www.qbitai.com/2026/11/508716.html"
-    },
-    {
-      "date": "11-09",
-      "company": "其他",
-      "title": "行业最大规模具身模型挑战赛迎来决赛：15支战队将展开48小时真机角逐",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "11月6日，首届蚂蚁灵波具身大模型挑战赛决赛晋级战队正式出炉：15支战队、59位选手从全球1855支队伍、3252位选手中脱颖而出，锁定线下决赛资格。 （图：首届蚂蚁灵波具身大模型挑战赛决赛入围名单） 15强集结，48小时真机黑客松决战 本届挑战赛聚焦具身大模型与物理世界的交互能力，吸引了全球13个国家、648所高校、科研院所、科技企业及具身智能团队参与。据…",
-      "url": "https://www.leiphone.com/category/industrynews/5ejIhKWAtmfZvdqx.html"
-    },
-    {
-      "date": "11-09",
-      "company": "宇树科技",
-      "title": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
-      "source_name": "爱范儿",
-      "category": "行业动态",
-      "summary": "终于不是后空翻、跳舞、跑步了 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
-      "url": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ]
 }
