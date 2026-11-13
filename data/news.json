@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T13:28:19.685736+08:00",
+  "updated": "2026-11-13T22:04:27.916297+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -12,7 +12,7 @@
       "error": "",
       "entries": 10,
       "candidates": 2,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
       "new": 0
     },
@@ -36,11 +36,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 9,
-      "core": 2,
+      "entries": 20,
+      "candidates": 12,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 20,
+      "entries": 18,
       "candidates": 2,
       "core": 0,
       "periphery": 0,
@@ -62,11 +62,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 0,
-      "core": 0,
+      "entries": 18,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "InfoQ",
@@ -88,8 +88,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 26,
+      "entries": 59,
+      "candidates": 17,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -102,10 +102,10 @@
       "attempts": 1,
       "error": "",
       "entries": 80,
-      "candidates": 79,
-      "core": 42,
-      "periphery": 6,
-      "new": 11
+      "candidates": 80,
+      "core": 41,
+      "periphery": 14,
+      "new": 15
     },
     {
       "name": "甲子光年",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 6,
+      "core": 4,
       "periphery": 3,
-      "new": 3
+      "new": 0
     },
     {
       "name": "新战略移动机器人",
@@ -153,11 +153,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 30,
-      "candidates": 29,
+      "entries": 27,
+      "candidates": 26,
       "core": 11,
-      "periphery": 6,
-      "new": 0
+      "periphery": 4,
+      "new": 2
     },
     {
       "name": "The Robot Report",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-13T13:28:19.752708+08:00",
+    "generated_at": "2026-11-13T22:04:28.023675+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，11月12日，在2026百度世界大会期间，百度与全球商用服务机器人领军企业深圳市普渡科技股份有限公司正式达成战略合作；11月11日，在CoRL2026期间，速腾聚创宣布与BitRobot达成战略合作，围绕三维感知与真实世界数据采集展开协同。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，11月12日，在2026百度世界大会期间，百度与全球商用服务机器人领军企业深圳市普渡科技股份有限公司正式达成战略合作；西湖世界模型研究中心成立，施一公亲自揭牌。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.leiphone.com/category/industrynews/AXjuWVSD7DdsPxls.html",
-          "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html",
-          "https://www.robot-china.com/news/202611/13/97424.html"
+          "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html",
+          "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html"
         ]
       },
       {
@@ -293,16 +293,23 @@
             "source_name": "中国机器人网"
           },
           {
+            "date": "11-13",
+            "title": "40 亿参数模型拿下 6 个评测第一，西湖大学团队押注「概念世界模型」",
+            "url": "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "11-13",
+            "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
+            "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign=",
+            "company": "其他",
+            "source_name": "爱范儿"
+          },
+          {
             "date": "11-11",
             "title": "科捷智能CeMAT ASIA圆满收官，具身智能与智能工厂方案引关注",
             "url": "https://www.robot-china.com/news/202611/11/97391.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-10",
-            "title": "具身智能迈向产业化：系统集成与应用导向的工程设计成为关键",
-            "url": "https://www.robot-china.com/news/202611/10/97375.html",
             "company": "其他",
             "source_name": "中国机器人网"
           }
@@ -407,13 +414,6 @@
             "date": "11-10",
             "title": "奥的斯携手联想发布电梯安装机器人",
             "url": "https://www.robot-china.com/news/202611/10/97377.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-10",
-            "title": "MIPS推出Actus平台，助力实现精准、安全的机器人运动控制",
-            "url": "https://www.robot-china.com/news/202611/10/97374.html",
             "company": "其他",
             "source_name": "中国机器人网"
           }
@@ -534,6 +534,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "11-13",
+            "title": "三星电子与现代汽车集团深化合作，从动力电池延伸至机器人电池",
+            "url": "https://www.robot-china.com/news/202611/13/97436.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
             "date": "11-12",
             "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
             "url": "https://www.ithome.com/1/026/334.htm",
@@ -602,13 +609,6 @@
             "url": "https://www.ithome.com/1/025/140.htm",
             "company": "Figure",
             "source_name": "IT之家"
-          },
-          {
-            "date": "11-10",
-            "title": "三星SDI将为波士顿动力Atlas人形机器人供应电池",
-            "url": "https://www.robot-china.com/news/202611/10/97367.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -716,6 +716,33 @@
       "category": "行业动态",
       "summary": "摘要：摩根士丹利维持宇树500元目标价和“中性”评级，摩根大通却给出995元。两家投行几乎同时、对同一家公司给出方向相反的判断。拆开AlphaWise那份调查，大摩的谨慎不是没来由的：企业愿意买，但时",
       "url": "https://robot.ofweek.com/2026-11/ART-898890-12003-30711593.html"
+    },
+    {
+      "date": "11-13",
+      "company": "其他",
+      "title": "40 亿参数模型拿下 6 个评测第一，西湖大学团队押注「概念世界模型」",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "西湖世界模型研究中心成立，施一公亲自揭牌。 作者丨 张岂萍 编辑丨 幸丽娟 世界模型赛道已经不缺创业公司。 海外李飞飞、Yann LeCun 等学术大佬亲自下场，国内极佳视界、逆矩阵、流形空间等创业公司高密度入场。 但最近几个月，入场的力量开始发生变化，下场的不再只是公司，高校和地方政府也开始组织力量，参与这场技术竞争。 今年 7 月，北京大学与逆矩阵科技成…",
+      "url": "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html"
+    },
+    {
+      "date": "11-13",
+      "company": "其他",
+      "title": "李飞飞最新世界模型正式开放，我用它一句话造出重庆山城",
+      "source_name": "爱范儿",
+      "category": "技术突破",
+      "summary": "世界模型的竞争要开始了吗 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上",
+      "url": "https://www.ifanr.com/1689379?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "date": "11-13",
+      "company": "其他",
+      "title": "三星电子与现代汽车集团深化合作，从动力电池延伸至机器人电池",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "据韩联社11月10日报道，三星电子与现代汽车集团9日举行首次集团层面交流活动，双方合作正从电动汽车电池向机器人电池延伸。三星SDI将于2026-2032年向现代汽车欧洲市场下一代电动汽车供应第六代方形电池P6，搭载车型已增至起亚EV2、现代IONIQ 3、捷尼赛思GV90三款。双方2024年签署机器人专用电池共同开发协议，三星SDI负责材料与设计，现代起亚机…",
+      "url": "https://www.robot-china.com/news/202611/13/97436.html"
     },
     {
       "date": "11-12",
@@ -1085,33 +1112,6 @@
       "category": "产品量产",
       "summary": "全球知名的电梯及自动扶梯制造、安装、维保与更新改造企业奥的斯（纽约证券交易所：OTIS）携手联想集团，推出可实现电梯井道钻孔作业自动化的机器人。此次合作融合奥的斯在电梯与安装技术的实力，以及联想在人工智能、计算和工业机器人领域的技术优势，旨在推动电梯安装更安全、高效。 该机器人技术率先应用于中国在建结构最高建筑——天津117项目，该崭新超高层地标将拥有提升高…",
       "url": "https://www.robot-china.com/news/202611/10/97377.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "具身智能迈向产业化：系统集成与应用导向的工程设计成为关键",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "2026年11月4日，中国上海讯 —— 随着具身人工智能（AI）从前沿研究走向实际应用，如何将AI模型、计算平台、传感器、运动控制、能源管理与通信能力整合为稳定可靠的系统，正成为推动具身智能产业化部署的关键挑战。这是安富利、国家地方共建人形机器人创新中心及古月居机器人开发者社区联合发布的《从专用到通用：2026具身智能技术演进与产业落地白皮书》提出的核心洞察…",
-      "url": "https://www.robot-china.com/news/202611/10/97375.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "MIPS推出Actus平台，助力实现精准、安全的机器人运动控制",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "•MIPS发布Actus参考平台的最新进展。Actus是一个节能、开放的RISC-V平台，集成实时控制、推理和通信功能，将物理AI转化为精准、可信的运动。•Actus基于格罗方德的节能型FDX™平台打造，集成双MIPS Atlas M8500实时RISC-V微控制器，具备加速电机控制处理和边缘推理功能，专为紧凑型机器人关节设计。•Actus集成确定性的时间敏…",
-      "url": "https://www.robot-china.com/news/202611/10/97374.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "三星SDI将为波士顿动力Atlas人形机器人供应电池",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "11 月 9 日消息，韩媒 The Elec 近日报道称，三星 SDI 将为波士顿动力（现代汽车集团旗下机器人子公司）开发的人形机器人 Atlas 供应电池。 虽然 LG 新能源也被选为供应商，但由于产能有限，预计三星 SDI 将负责几乎所有初期出货，并在一段时间内保持独家供应商的地位。同时 Atlas 计划 2028 年或之后量产，现代汽车已将 Atlas…",
-      "url": "https://www.robot-china.com/news/202611/10/97367.html"
     }
   ]
 }
