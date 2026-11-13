@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-13T22:04:27.916297+08:00",
+  "updated": "2026-11-14T07:20:41.723460+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -38,7 +38,7 @@
       "error": "",
       "entries": 20,
       "candidates": 12,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -66,7 +66,7 @@
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "InfoQ",
@@ -89,7 +89,7 @@
       "attempts": 1,
       "error": "",
       "entries": 59,
-      "candidates": 17,
+      "candidates": 16,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 41,
       "periphery": 14,
-      "new": 15
+      "new": 14
     },
     {
       "name": "甲子光年",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 5,
+      "core": 6,
       "periphery": 1,
-      "new": 5
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -194,9 +194,9 @@
       "error": "",
       "entries": 15,
       "candidates": 13,
-      "core": 8,
+      "core": 9,
       "periphery": 2,
-      "new": 3
+      "new": 5
     },
     {
       "name": "NVIDIA Robotics",
@@ -220,8 +220,8 @@
       "error": "",
       "entries": 30,
       "candidates": 30,
-      "core": 23,
-      "periphery": 6,
+      "core": 24,
+      "periphery": 5,
       "new": 2
     },
     {
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-13T22:04:28.023675+08:00",
+    "generated_at": "2026-11-14T07:20:41.831250+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，11月12日，在2026百度世界大会期间，百度与全球商用服务机器人领军企业深圳市普渡科技股份有限公司正式达成战略合作；西湖世界模型研究中心成立，施一公亲自揭牌。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，八年研究，两个落地系统，超六万GitHub Stars；11月12日，在2026百度世界大会期间，百度与全球商用服务机器人领军企业深圳市普渡科技股份有限公司正式达成战略合作。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
+          "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
           "https://www.leiphone.com/category/industrynews/AXjuWVSD7DdsPxls.html",
-          "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html",
-          "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711540.html"
+          "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html"
         ]
       },
       {
@@ -278,6 +278,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "11-14",
+            "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+            "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
           {
             "date": "11-13",
             "title": "百度智能云与普渡机器人达成战略合作 聚焦具身模型训练、真实场景数据等四大方向",
@@ -409,13 +416,6 @@
             "url": "https://www.ithome.com/1/025/122.htm",
             "company": "智元机器人",
             "source_name": "IT之家"
-          },
-          {
-            "date": "11-10",
-            "title": "奥的斯携手联想发布电梯安装机器人",
-            "url": "https://www.robot-china.com/news/202611/10/97377.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -443,20 +443,6 @@
             "url": "https://roboticsandautomationnews.com/2026/11/11/anybotics-begins-deliveries-of-explosion-proof-quadruped-robot-to-industrial-customers/106995/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-10",
-            "title": "大晓机器人双脑协同架构首次落地酒店洗衣场景，具身智能 RSI 驱动技能持续进化",
-            "url": "https://www.robot-china.com/news/202611/10/97376.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-10",
-            "title": "机器人“上岗”前，先来丰台这个“实训营” 用具身大脑专治落地“水土不服”",
-            "url": "https://www.robot-china.com/news/202611/10/97379.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -539,6 +525,20 @@
             "url": "https://www.robot-china.com/news/202611/13/97436.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-13",
+            "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+            "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+            "company": "智元机器人",
+            "source_name": "The Robot Report"
+          },
+          {
+            "date": "11-13",
+            "title": "Why Build a Humanoid Robot From the Sensor Up? The Thinking Behind GENTO’s CoRL 2026 Debut",
+            "url": "https://roboticsandautomationnews.com/2026/11/13/why-build-a-humanoid-robot-from-the-sensor-up-the-thinking-behind-gentos-corl-2026-debut/107075/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           },
           {
             "date": "11-12",
@@ -664,6 +664,15 @@
   },
   "items": [
     {
+      "date": "11-14",
+      "company": "其他",
+      "title": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨 李秋悦 编辑丨 吴 彤 一支女团跳舞，镜头不必再听导演安排，观众甚至能看到拍摄时不存在的机位。 传统MV拍摄，摄影机架在哪里，观众看到的就是哪个角度。现在用多台摄像机同时记录舞者动作，再重建出一个三维动态场景，镜头可以任意调换位置；从队形正面绕到侧面，穿过舞者之间，甚至换一个从未真正架设过的机…",
+      "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html"
+    },
+    {
       "date": "11-13",
       "company": "其他",
       "title": "百度智能云与普渡机器人达成战略合作 聚焦具身模型训练、真实场景数据等四大方向",
@@ -743,6 +752,24 @@
       "category": "行业动态",
       "summary": "据韩联社11月10日报道，三星电子与现代汽车集团9日举行首次集团层面交流活动，双方合作正从电动汽车电池向机器人电池延伸。三星SDI将于2026-2032年向现代汽车欧洲市场下一代电动汽车供应第六代方形电池P6，搭载车型已增至起亚EV2、现代IONIQ 3、捷尼赛思GV90三款。双方2024年签署机器人专用电池共同开发协议，三星SDI负责材料与设计，现代起亚机…",
       "url": "https://www.robot-china.com/news/202611/13/97436.html"
+    },
+    {
+      "date": "11-13",
+      "company": "智元机器人",
+      "title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Four of the six robots pass a performance assessment as the trial puts customer service, retail operations and embodied AI capabilities to the test in a working store. The post app…",
+      "url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/"
+    },
+    {
+      "date": "11-13",
+      "company": "其他",
+      "title": "Why Build a Humanoid Robot From the Sensor Up? The Thinking Behind GENTO’s CoRL 2026 Debut",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "At CoRL 2026 in Austin, GENTO showed humanoid robots and a new dexterous hand that sit on top of a stack Tianji Intelligence has been building since 2015, starting with a single co…",
+      "url": "https://roboticsandautomationnews.com/2026/11/13/why-build-a-humanoid-robot-from-the-sensor-up-the-thinking-behind-gentos-corl-2026-debut/107075/"
     },
     {
       "date": "11-12",
@@ -1085,33 +1112,6 @@
       "category": "产品量产",
       "summary": "IT之家 11 月 10 日消息，“智元 AGIBOT”公众号今天（10 日）晚间发文宣布，智元正式发布 WITA-Omni（硅光动语全模态大模型）。 根据官方介绍，该模型也是 行业首个具身全模态端到端交互大模型 。WITA-Omni 基于机器人本体感知数据深度训练，除了音视频输入输出，还新增支持 触觉、本体状态等输入 ，以及 机器人动作、表情等输出 ，让机…",
       "url": "https://www.ithome.com/1/025/122.htm"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "大晓机器人双脑协同架构首次落地酒店洗衣场景，具身智能 RSI 驱动技能持续进化",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "从客房取衣，穿过走廊抵达洗衣房，打开洗衣机、放入衣物，再完成烘干、装篮并送回客房。一项看似日常的酒店服务，背后涉及空间理解、设备操作、物理交互和多步骤任务协同。大晓机器人将双脑协同架构带入酒店洗衣场景，首次集中呈现了世界模型、通用模型与具身智能 RSI 的协同应用。在环境侧，以开悟世界模型为核心的世界模型技术体系中，Mundo世界模型是围绕开悟世界模型的能力…",
-      "url": "https://www.robot-china.com/news/202611/10/97376.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "机器人“上岗”前，先来丰台这个“实训营” 用具身大脑专治落地“水土不服”",
-      "source_name": "中国机器人网",
-      "category": "商业订单",
-      "summary": "不久前，有一00后女生一口气租30套房只为采集机器人“做家务”所需的多种真实家庭数据；一西北青年团队通过自学反弹琵琶等传统舞蹈动作“调教”人形机器人说兰州话、跳敦煌舞；清华大学联合团队让96台机器人互相“组团学习”……这些“大手笔”的举动，折射出同一个现实：让机器人真正“上岗”，最难的往往不是造出一个本体，而是“喂”给它足够多、足够真、足够复杂的数据，让它适…",
-      "url": "https://www.robot-china.com/news/202611/10/97379.html"
-    },
-    {
-      "date": "11-10",
-      "company": "其他",
-      "title": "奥的斯携手联想发布电梯安装机器人",
-      "source_name": "中国机器人网",
-      "category": "产品量产",
-      "summary": "全球知名的电梯及自动扶梯制造、安装、维保与更新改造企业奥的斯（纽约证券交易所：OTIS）携手联想集团，推出可实现电梯井道钻孔作业自动化的机器人。此次合作融合奥的斯在电梯与安装技术的实力，以及联想在人工智能、计算和工业机器人领域的技术优势，旨在推动电梯安装更安全、高效。 该机器人技术率先应用于中国在建结构最高建筑——天津117项目，该崭新超高层地标将拥有提升高…",
-      "url": "https://www.robot-china.com/news/202611/10/97377.html"
     }
   ]
 }
