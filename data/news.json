@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T21:05:44.424139+08:00",
+  "updated": "2026-11-15T06:03:55.725009+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
+      "candidates": 0,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 57,
-      "candidates": 18,
-      "core": 2,
+      "entries": 58,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -241,7 +241,7 @@
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-14T21:05:44.530431+08:00",
+    "generated_at": "2026-11-15T06:03:55.846363+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
