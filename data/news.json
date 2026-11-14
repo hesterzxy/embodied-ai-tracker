@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T13:18:11.480416+08:00",
+  "updated": "2026-11-14T21:05:44.424139+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -51,9 +51,9 @@
       "error": "",
       "entries": 17,
       "candidates": 2,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 14,
-      "core": 1,
+      "entries": 57,
+      "candidates": 18,
+      "core": 2,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -196,7 +196,7 @@
       "candidates": 13,
       "core": 8,
       "periphery": 2,
-      "new": 7
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -235,13 +235,13 @@
       "candidates": 68,
       "core": 22,
       "periphery": 6,
-      "new": 2
+      "new": 3
     }
   ],
   "weekly_report": {
     "start": "11-09",
     "end": "11-15",
-    "generated_at": "2026-11-14T13:18:11.586926+08:00",
+    "generated_at": "2026-11-14T21:05:44.530431+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -256,11 +256,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，八年研究，两个落地系统，超六万GitHub Stars；11月12日，在2026百度世界大会期间，百度与全球商用服务机器人领军企业深圳市普渡科技股份有限公司正式达成战略合作。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，八年研究，两个落地系统，超六万GitHub Stars；在昨日举行的 AUDI DAY 上，官方宣布奥迪 E7X 将搭载由 Momenta R7 世界模型赋能的奥迪全景辅助驾驶，计划于 12 月通过 OTA 推送上线。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
-          "https://www.leiphone.com/category/industrynews/AXjuWVSD7DdsPxls.html",
-          "https://www.leiphone.com/category/academic/nhzldlwI6rJVyXIl.html"
+          "https://www.ithome.com/1/027/218.htm",
+          "https://www.leiphone.com/category/industrynews/AXjuWVSD7DdsPxls.html"
         ]
       },
       {
@@ -284,6 +284,13 @@
             "url": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html",
             "company": "其他",
             "source_name": "雷峰网"
+          },
+          {
+            "date": "11-14",
+            "title": "上汽奥迪 AUDI E7X 计划于 12 月 OTA 推送升级 Momenta R7 世界模型",
+            "url": "https://www.ithome.com/1/027/218.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "11-13",
@@ -616,13 +623,6 @@
             "url": "https://roboticsandautomationnews.com/2026/11/11/fmc%c2%b3-robotics-introduces-doceo-system-to-help-industrial-robots-learn-from-factory-workers/107021/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-11",
-            "title": "Lincoln Electric introduces XpertLINC to bring physical AI to robotic welding",
-            "url": "https://roboticsandautomationnews.com/2026/11/11/lincoln-electric-introduces-xpertlinc-a-physical-ai-technology-platform-that-redefines-the-future-of-robotic-automation/107017/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -725,6 +725,15 @@
       "category": "行业动态",
       "summary": "ABB Robotics has launched its first end-to-end vision-based industrial-grade physical AI solution, integrating AI Robot Trainer into its Fashion Inductor module to help system inte…",
       "url": "https://roboticsandautomationnews.com/2026/11/14/abb-robotics-brings-industrial-grade-physical-ai-to-fashion-logistics/107087/"
+    },
+    {
+      "date": "11-14",
+      "company": "其他",
+      "title": "上汽奥迪 AUDI E7X 计划于 12 月 OTA 推送升级 Momenta R7 世界模型",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 11 月 14 日消息，在昨日举行的 AUDI DAY 上，官方宣布奥迪 E7X 将搭载由 Momenta R7 世界模型赋能的奥迪全景辅助驾驶，计划于 12 月通过 OTA 推送上线。 本次 OTA 升级，奥迪全景辅助驾驶将 解锁车位到车位、漫游模式、车头泊入等能力； 系统安全能力同步全面进阶，官方称高速场景安全感全面提升，其中高速恐慌应对提升…",
+      "url": "https://www.ithome.com/1/027/218.htm"
     },
     {
       "date": "11-13",
@@ -1103,15 +1112,6 @@
       "category": "行业动态",
       "summary": "FMC³ Robotics has introduced its Doceo series, a collection of data acquisition and processing technologies designed to help industrial robots learn manufacturing tasks from real-w…",
       "url": "https://roboticsandautomationnews.com/2026/11/11/fmc%c2%b3-robotics-introduces-doceo-system-to-help-industrial-robots-learn-from-factory-workers/107021/"
-    },
-    {
-      "date": "11-11",
-      "company": "其他",
-      "title": "Lincoln Electric introduces XpertLINC to bring physical AI to robotic welding",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Lincoln Electric has launched XpertLINC, a proprietary physical AI-enabled technology platform that integrates vision, coordinated motion, process control, and decades of welding e…",
-      "url": "https://roboticsandautomationnews.com/2026/11/11/lincoln-electric-introduces-xpertlinc-a-physical-ai-technology-platform-that-redefines-the-future-of-robotic-automation/107017/"
     }
   ]
 }
