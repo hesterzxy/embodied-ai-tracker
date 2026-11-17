@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T23:04:14.543795+08:00",
+  "updated": "2026-11-17T09:42:33.213062+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 2,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "36氪",
@@ -37,10 +37,10 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 11,
-      "core": 4,
+      "candidates": 12,
+      "core": 3,
       "periphery": 0,
-      "new": 3
+      "new": 2
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 3,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
@@ -88,9 +88,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 20,
-      "core": 1,
+      "entries": 59,
+      "candidates": 19,
+      "core": 2,
       "periphery": 0,
       "new": 1
     },
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 42,
       "periphery": 15,
-      "new": 23
+      "new": 22
     },
     {
       "name": "甲子光年",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 9,
+      "core": 10,
       "periphery": 0,
-      "new": 6
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 6,
+      "core": 7,
       "periphery": 1,
-      "new": 5
+      "new": 7
     },
     {
       "name": "TechCrunch Robotics",
@@ -196,7 +196,7 @@
       "candidates": 14,
       "core": 9,
       "periphery": 2,
-      "new": 4
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -241,9 +241,9 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-16T23:04:14.614419+08:00",
+    "generated_at": "2026-11-17T09:42:33.322558+08:00",
     "mode": "local",
-    "item_count": 16,
+    "item_count": 21,
     "insights": [
       {
         "label": "落地验证集中在工厂、维修、巡检等可验收任务",
@@ -265,8 +265,9 @@
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，备案信息显示，该项目位于珠海市金湾区三灶镇大门路东侧、定湾十路北侧，总投资9000万元，规划总占地面积39267.；潮涌AI编辑部 11月13日，机器人应用与服务平台擎天租宣布完成数亿元战略融资交割，和达投资、芒果产业投资方（厚为资本）、中联即送等产业与文娱资本共同参与。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，南京光力精工有限公司年产1000万套机器人轴承生产线项目近日在南京溧水区正式开工建设；备案信息显示，该项目位于珠海市金湾区三灶镇大门路东侧、定湾十路北侧，总投资9000万元，规划总占地面积39267.。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
+          "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html",
           "https://robot.ofweek.com/2026-11/ART-8321202-8120-30711790.html",
           "https://robot.ofweek.com/2026-11/ART-8321206-12005-30711876.html"
         ]
@@ -345,6 +346,13 @@
             "url": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-16",
+            "title": "Richtech Robotics to unveil AI-powered cleaning system at ISSA Show 2026",
+            "url": "https://roboticsandautomationnews.com/2026/11/16/richtech-robotics-to-unveil-ai-powered-cleaning-system-at-issa-show-2026/107210/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -373,6 +381,13 @@
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
           {
+            "date": "11-17",
+            "title": "投资6个亿！年产1000万套机器人轴承生产线在南京开工",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html",
+            "company": "其他",
+            "source_name": "OFweek机器人"
+          },
+          {
             "date": "11-16",
             "title": "总投资9000万元！国内桁架机器人龙头珠海新基地完成备案",
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-8120-30711790.html",
@@ -385,6 +400,20 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30711876.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-16",
+            "title": "特斯拉将投资 30 亿欧元扩建德国工厂，目标年产 100 万辆 Cybercab",
+            "url": "https://www.ithome.com/1/027/993.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-16",
+            "title": "Agile Robots raises $500M to increase production capacity",
+            "url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       },
@@ -412,12 +441,28 @@
             "url": "https://roboticsandautomationnews.com/2026/11/16/opinion-moravecs-paradox-explains-why-physical-ai-needs-a-sense-of-touch/107204/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-16",
+            "title": "The hidden reason most robots fail on the factory floor",
+            "url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/",
+            "company": "其他",
+            "source_name": "The Robot Report"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "11-17",
+      "company": "其他",
+      "title": "投资6个亿！年产1000万套机器人轴承生产线在南京开工",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "据南京日报消息，南京光力精工有限公司年产1000万套机器人轴承生产线项目近日在南京溧水区正式开工建设。这是溧水近期落地的又一个机器人及高端装备制造项目，也折射出核心零部件环节持续升温的产业节奏。 本次 零部件 | <",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html"
+    },
     {
       "date": "11-16",
       "company": "其他",
@@ -561,6 +606,42 @@
       "category": "产品量产",
       "summary": "GXO Logistics has signed an agreement with AI-powered robotics company Apptronik to expand development of Apptronik technology for deployment at scale through a Robotics-as-a-Servi…",
       "url": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/"
+    },
+    {
+      "date": "11-16",
+      "company": "特斯拉",
+      "title": "特斯拉将投资 30 亿欧元扩建德国工厂，目标年产 100 万辆 Cybercab",
+      "source_name": "IT之家",
+      "category": "资本动态",
+      "summary": "IT之家 11 月 16 日消息，特斯拉周一宣布，将向位于德国柏林郊外的工厂投资 30 亿欧元 （IT之家注：现汇率约合 220.83 亿元人民币） ，扩大当地生产能力。与此同时，德国本土汽车制造商正面临成本高企、市场需求疲软等压力。 特斯拉首席执行官埃隆 · 马斯克（Elon Musk）旗下的电动汽车制造商计划在德国格林海德（Gruenheide）的超级工…",
+      "url": "https://www.ithome.com/1/027/993.htm"
+    },
+    {
+      "date": "11-16",
+      "company": "其他",
+      "title": "The hidden reason most robots fail on the factory floor",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Evan Beard explains how AI-native robotics could make automation easier to program and help American manufacturing compete globally. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/the-hidden-reason-most-robots-fail-on-the-factory-floor/"
+    },
+    {
+      "date": "11-16",
+      "company": "其他",
+      "title": "Agile Robots raises $500M to increase production capacity",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Agile Robots builds and deploys a range of robots, including humanoids, mobile robots, robotic arms, and robotics hands. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/agile-robots-raises-500m-to-increase-production-capacity/"
+    },
+    {
+      "date": "11-16",
+      "company": "其他",
+      "title": "Richtech Robotics to unveil AI-powered cleaning system at ISSA Show 2026",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Richtech Robotics, a Nevada-based provider of AI-driven service robots, announced its participation in ISSA Show North America 2026, taking place November 17-19, 2026, at the Manda…",
+      "url": "https://roboticsandautomationnews.com/2026/11/16/richtech-robotics-to-unveil-ai-powered-cleaning-system-at-issa-show-2026/107210/"
     },
     {
       "date": "11-15",
@@ -822,51 +903,6 @@
       "category": "技术突破",
       "summary": "IT之家 11 月 14 日消息，《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。OpenAI 向该媒体确认了此次组织调整， 只是强调本次调整并非退出机器人领域，机器人仍是其长期愿景的核心，重组旨在加快研发。 在架构调整方面，机器人研究人员并入核心研究团队，向首席研究官马克 · 陈（Mar…",
       "url": "https://www.ithome.com/1/027/004.htm"
-    },
-    {
-      "date": "11-13",
-      "company": "其他",
-      "title": "2027年西部-成都国际具身智能及机器人展会",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "2027西部具身智能及机器人产业博览会时间：4月27-29日 地址：西部国际博览城展会背景：当前，具身智能与人形机器人是新质生产力核心赛道，也是国家“人工智能+”战略重点发展方向。四川省高度重视机器人与人工智能产业发展，已出台人形机器人专项发展方案，明确以成都、绵阳为产业核心承载区，构建全域协同的产业发展布局，设定清晰的产业规模增长目标，全力推动关键技术攻关…",
-      "url": "https://www.robot-china.com/news/202611/13/97439.html"
-    },
-    {
-      "date": "11-13",
-      "company": "其他",
-      "title": "Melexis推出首款触觉指尖模组，赋能人形机器人触觉感知",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "2026年11月13日，比利时泰森德洛·哈姆——全球微电子工程公司迈来芯（Melexis）正式发布触觉指尖模组MLX90901，为人形机器人指尖提供三维力感知能力，可检测法向力与切向力。这是迈来芯首款",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30711930.html"
-    },
-    {
-      "date": "11-12",
-      "company": "其他",
-      "title": "“双十一”机器人在物流仓“埋头苦干”：昆腾动力开启具身智能规模化获客与交付阶段",
-      "source_name": "量子位",
-      "category": "产品量产",
-      "summary": "跨境称重量方等场景完成PMF验证并出现客户复购，新一代构型机器人计划12月底发布",
-      "url": "https://www.qbitai.com/2026/11/509281.html"
-    },
-    {
-      "date": "11-12",
-      "company": "其他",
-      "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 11 月 12 日消息，据路透社今天（12 日）报道，摩根大通最新预测显示，随着人形机器人从技术展示走向商业化应用，美国人形机器人产量 到 2030 年将达到 30 万至 40 万台 ，2035 年进一步增至约 150 万台。 劳动力短缺、使用成本下降和产能扩大，正推动制造、物流和仓储企业采用人形机器人，以替代重复性人工劳动。 不过，人形机器人的大…",
-      "url": "https://www.ithome.com/1/026/334.htm"
-    },
-    {
-      "date": "11-12",
-      "company": "其他",
-      "title": "“行业 AI 梦工厂”首款昇腾原生世界模型，华为云 CloudRobo 具身世界模型发布会定档 11 月 16 日",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 11 月 12 日消息，华为云今日宣布，华为云 CloudRobo 具身世界模型发布会将于 11 月 16 日 14:00-15:30 在线上直播。 海报显示，届时将发布“行业 AI 梦工厂”首款昇腾原生世界模型，具体名称为 CloudRobo-WM1.2 。 IT之家注：行业 AI 梦工厂是华为推出的行业 AI 平台，设计用于降低各行业应用 AI…",
-      "url": "https://www.ithome.com/1/026/288.htm"
     }
   ]
 }
