@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T23:38:49.178687+08:00",
+  "updated": "2026-11-18T08:40:37.465275+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "36氪",
@@ -40,16 +40,15 @@
       "candidates": 13,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 1
     },
     {
       "name": "钛媒体",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 15,
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 503: Service Unavailable",
+      "entries": 0,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -62,7 +61,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +87,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 17,
-      "core": 3,
+      "entries": 59,
+      "candidates": 18,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -103,9 +102,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 52,
+      "core": 53,
       "periphery": 6,
-      "new": 23
+      "new": 21
     },
     {
       "name": "甲子光年",
@@ -131,7 +130,7 @@
       "candidates": 22,
       "core": 8,
       "periphery": 0,
-      "new": 5
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -157,7 +156,7 @@
       "candidates": 26,
       "core": 13,
       "periphery": 4,
-      "new": 6
+      "new": 5
     },
     {
       "name": "The Robot Report",
@@ -169,21 +168,20 @@
       "entries": 15,
       "candidates": 15,
       "core": 7,
-      "periphery": 1,
-      "new": 5
+      "periphery": 0,
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
       "type": "rss",
-      "fetched": true,
-      "parsed": true,
-      "attempts": 1,
-      "error": "",
-      "entries": 20,
-      "candidates": 14,
-      "core": 10,
-      "periphery": 3,
-      "new": 1
+      "fetched": false,
+      "attempts": 3,
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "entries": 0,
+      "candidates": 0,
+      "core": 0,
+      "periphery": 0,
+      "new": 0
     },
     {
       "name": "Robotics & Automation News",
@@ -196,7 +194,7 @@
       "candidates": 14,
       "core": 8,
       "periphery": 3,
-      "new": 2
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -235,13 +233,13 @@
       "candidates": 68,
       "core": 22,
       "periphery": 8,
-      "new": 4
+      "new": 3
     }
   ],
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-17T23:38:49.282504+08:00",
+    "generated_at": "2026-11-18T08:40:37.587964+08:00",
     "mode": "local",
     "item_count": 36,
     "insights": [
