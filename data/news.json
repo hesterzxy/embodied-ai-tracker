@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T23:16:03.290593+08:00",
+  "updated": "2026-11-19T07:59:56.528322+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -40,7 +40,7 @@
       "candidates": 11,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "钛媒体",
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 15,
+      "entries": 14,
       "candidates": 1,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 16,
-      "core": 1,
+      "entries": 57,
+      "candidates": 19,
+      "core": 3,
       "periphery": 0,
-      "new": 1
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -105,7 +105,7 @@
       "candidates": 80,
       "core": 53,
       "periphery": 6,
-      "new": 24
+      "new": 16
     },
     {
       "name": "甲子光年",
@@ -131,7 +131,7 @@
       "candidates": 21,
       "core": 9,
       "periphery": 0,
-      "new": 7
+      "new": 3
     },
     {
       "name": "新战略移动机器人",
@@ -168,9 +168,9 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 7,
+      "core": 9,
       "periphery": 0,
-      "new": 3
+      "new": 8
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 11,
-      "core": 7,
-      "periphery": 2,
-      "new": 5
+      "candidates": 8,
+      "core": 3,
+      "periphery": 1,
+      "new": 3
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-18T23:16:03.408847+08:00",
+    "generated_at": "2026-11-19T07:59:56.671558+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -255,11 +255,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，米哈游旗下《崩坏》系列 AI 研发团队现已公布通用视觉语言动作基础模型“Gamer”；作者丨 齐铖湧 编辑丨岑 峰 2026年11月，CoRL（机器人学习顶会）在奥斯汀开幕。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，今年早些时候，谷歌推出了实验性研究原型 Project Genie，可让用户生成并探索交互式虚拟世界；米哈游旗下《崩坏》系列 AI 研发团队现已公布通用视觉语言动作基础模型“Gamer”。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
+          "https://www.ithome.com/1/029/129.htm",
           "https://www.ithome.com/1/028/503.htm",
-          "https://www.leiphone.com/category/ai/zV4No5T5XDHJcupr.html",
-          "https://www.robot-china.com/news/202611/18/97481.html"
+          "https://www.leiphone.com/category/ai/zV4No5T5XDHJcupr.html"
         ]
       },
       {
@@ -290,6 +290,13 @@
             "url": "https://www.robot-china.com/news/202611/18/97473.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-18",
+            "title": "史诗级进化！谷歌 Genie 4 世界模型开放体验：支持边玩边改天气、召唤角色，所见皆可互动",
+            "url": "https://www.ithome.com/1/029/129.htm",
+            "company": "其他",
+            "source_name": "IT之家"
           },
           {
             "date": "11-17",
@@ -408,13 +415,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321203-8140-30711871.html",
             "company": "其他",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-16",
-            "title": "GXO and Apptronik plan rollout of up to 1,000 humanoid robots",
-            "url": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -492,6 +492,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "11-18",
+            "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+            "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "11-17",
             "title": "投资6个亿！年产1000万套机器人轴承生产线在南京开工",
             "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html",
@@ -532,13 +539,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30711876.html",
             "company": "智元机器人",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-16",
-            "title": "特斯拉将投资 30 亿欧元扩建德国工厂，目标年产 100 万辆 Cybercab",
-            "url": "https://www.ithome.com/1/027/993.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -596,6 +596,13 @@
             "source_name": "Robotics & Automation News"
           },
           {
+            "date": "11-18",
+            "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+            "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
+            "company": "其他",
+            "source_name": "The Robot Report"
+          },
+          {
             "date": "11-17",
             "title": "靠机器人缓解成本压力，通用汽车计划到 2028 年将北美工厂自动化规模提升 20%",
             "url": "https://www.ithome.com/1/028/561.htm",
@@ -629,13 +636,6 @@
             "url": "https://www.ithome.com/1/027/541.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "11-16",
-            "title": "Opinion: Moravec’s paradox explains why physical AI needs a sense of touch",
-            "url": "https://roboticsandautomationnews.com/2026/11/16/opinion-moravecs-paradox-explains-why-physical-ai-needs-a-sense-of-touch/107204/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -814,6 +814,33 @@
       "category": "行业动态",
       "summary": "Boston Dynamics, a specialist in mobile robotics, and GlobalFoundries, a manufacturer of semiconductors, has announced an expansion of their collaboration to deploy Spot for autono…",
       "url": "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/"
+    },
+    {
+      "date": "11-18",
+      "company": "其他",
+      "title": "史诗级进化！谷歌 Genie 4 世界模型开放体验：支持边玩边改天气、召唤角色，所见皆可互动",
+      "source_name": "IT之家",
+      "category": "技术突破",
+      "summary": "IT之家 11 月 19 日消息， 今年早些时候，谷歌推出了实验性研究原型 Project Genie，可让用户生成并探索交互式虚拟世界。 早期测试用户反馈，希望能对世界内发生的内容有更强控制力，同时拥有更便捷的建造、分享方式。 如今，谷歌面向符合资格的 Google AI Ultra 订阅用户推出全新 Project Genie 体验，让这些虚拟世界的响应…",
+      "url": "https://www.ithome.com/1/029/129.htm"
+    },
+    {
+      "date": "11-18",
+      "company": "其他",
+      "title": "Humyn Labs raises $47M to collect real-world data for robotics",
+      "source_name": "The Robot Report",
+      "category": "资本动态",
+      "summary": "Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post appeared first on The Robot Report .",
+      "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/"
+    },
+    {
+      "date": "11-18",
+      "company": "其他",
+      "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
+      "source_name": "The Robot Report",
+      "category": "行业动态",
+      "summary": "Robotics is advancing rapidly. New AI models and increasingly capable hardware are expanding what machines can perceive, understand and do. The post appeared first on The Robot Rep…",
+      "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/"
     },
     {
       "date": "11-17",
@@ -1084,33 +1111,6 @@
       "category": "产品量产",
       "summary": "摘要：多机协作的场景正在从演示走向产线、仓库和家庭，但“怎么通信”的路线分歧远未收敛。今天借着星尘智能CoMind发布，刚好简单聊一聊这个多机器人协作场景以及国内外的解法。 全文约780字，预计阅读时",
       "url": "https://robot.ofweek.com/2026-11/ART-8321203-8140-30711871.html"
-    },
-    {
-      "date": "11-16",
-      "company": "其他",
-      "title": "Opinion: Moravec’s paradox explains why physical AI needs a sense of touch",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Ron Zukerman, innovation director at Vishay Precision Group When people first started trying to build human‑like robots, the roadmap seemed clear. The assumption was simple: if som…",
-      "url": "https://roboticsandautomationnews.com/2026/11/16/opinion-moravecs-paradox-explains-why-physical-ai-needs-a-sense-of-touch/107204/"
-    },
-    {
-      "date": "11-16",
-      "company": "其他",
-      "title": "GXO and Apptronik plan rollout of up to 1,000 humanoid robots",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "GXO Logistics has signed an agreement with AI-powered robotics company Apptronik to expand development of Apptronik technology for deployment at scale through a Robotics-as-a-Servi…",
-      "url": "https://roboticsandautomationnews.com/2026/11/16/gxo-and-apptronik-plan-rollout-of-up-to-1000-humanoid-robots/107200/"
-    },
-    {
-      "date": "11-16",
-      "company": "特斯拉",
-      "title": "特斯拉将投资 30 亿欧元扩建德国工厂，目标年产 100 万辆 Cybercab",
-      "source_name": "IT之家",
-      "category": "资本动态",
-      "summary": "IT之家 11 月 16 日消息，特斯拉周一宣布，将向位于德国柏林郊外的工厂投资 30 亿欧元 （IT之家注：现汇率约合 220.83 亿元人民币） ，扩大当地生产能力。与此同时，德国本土汽车制造商正面临成本高企、市场需求疲软等压力。 特斯拉首席执行官埃隆 · 马斯克（Elon Musk）旗下的电动汽车制造商计划在德国格林海德（Gruenheide）的超级工…",
-      "url": "https://www.ithome.com/1/027/993.htm"
     }
   ]
 }
