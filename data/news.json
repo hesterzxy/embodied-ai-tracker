@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-20T04:04:26.026004+08:00",
+  "updated": "2026-11-20T14:02:32.084572+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,7 +11,7 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 9,
-      "core": 2,
+      "entries": 19,
+      "candidates": 8,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 16,
-      "candidates": 1,
-      "core": 0,
+      "entries": 20,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -76,7 +76,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
+      "entries": 60,
       "candidates": 21,
-      "core": 1,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -103,9 +103,9 @@
       "error": "",
       "entries": 80,
       "candidates": 80,
-      "core": 50,
-      "periphery": 7,
-      "new": 20
+      "core": 48,
+      "periphery": 8,
+      "new": 15
     },
     {
       "name": "甲子光年",
@@ -115,8 +115,8 @@
       "attempts": 1,
       "error": "",
       "entries": 33,
-      "candidates": 15,
-      "core": 12,
+      "candidates": 14,
+      "core": 13,
       "periphery": 0,
       "new": 0
     },
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 22,
-      "core": 7,
-      "periphery": 0,
-      "new": 4
+      "core": 9,
+      "periphery": 1,
+      "new": 8
     },
     {
       "name": "新战略移动机器人",
@@ -157,7 +157,7 @@
       "candidates": 26,
       "core": 13,
       "periphery": 4,
-      "new": 5
+      "new": 3
     },
     {
       "name": "The Robot Report",
@@ -168,7 +168,7 @@
       "error": "",
       "entries": 15,
       "candidates": 15,
-      "core": 8,
+      "core": 7,
       "periphery": 0,
       "new": 4
     },
@@ -195,7 +195,7 @@
       "candidates": 10,
       "core": 4,
       "periphery": 1,
-      "new": 5
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-20T04:04:26.147417+08:00",
+    "generated_at": "2026-11-20T14:02:32.171013+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -264,11 +264,11 @@
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，摘要：新华社中经社的一篇文章，把具身智能的融资标尺从“技术想象力”拨向了“交付确定性”；导语 11月18日，柏川数据宣布完成5000万元Pre-A轮融资，投资方包括元禾厚望、毅峰资本和星海图。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，摘要：新华社中经社的一篇文章，把具身智能的融资标尺从“技术想象力”拨向了“交付确定性”；宇树的王兴兴，在为各路投资人赚得盆满钵满、只留自己继续创业后，明显开始更多活跃于公共舆论与“微博热搜”之间，开始更多push宇树机器人的最新突破，向市场传递技术落地的信心。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
           "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html",
-          "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712553.html",
-          "https://www.robot-china.com/news/202611/18/97475.html"
+          "https://www.tmtpost.com/8211952.html",
+          "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html"
         ]
       }
     ],
@@ -277,6 +277,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "11-20",
+            "title": "宇树增收不增利、优必选还在亏，雷赛智能净利却涨了86.8%：具身智能的钱被谁赚走了？",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712596.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-19",
             "title": "飞阔科技携手擎天曜，温州具身智能机器人8S中心盛大启幕！",
@@ -449,13 +456,6 @@
             "url": "https://www.robot-china.com/news/202611/17/97465.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-17",
-            "title": "数百台机器人落地常州！它石智航携手艾博格打造工业具身原生应用样板，迈向规模落地新阶段",
-            "url": "https://www.gongkong.com/news/202611/454810.html",
-            "company": "其他",
-            "source_name": "中国工控网机器人"
           }
         ]
       },
@@ -463,6 +463,20 @@
         "category": "资本动态",
         "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
         "items": [
+          {
+            "date": "11-20",
+            "title": "人形机器人遇冷：日租价从3000继续掉到1800，7月后融资普遍下滑",
+            "url": "https://www.tmtpost.com/8211952.html",
+            "company": "行业",
+            "source_name": "钛媒体"
+          },
+          {
+            "date": "11-20",
+            "title": "打造具身智能量产底座！「博理科技」完成超5亿元融资",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-19",
             "title": "获5000万元融资，柏川数据如何把智驾经验用到机器人训练？",
@@ -511,20 +525,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-12005-30712103.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-17",
-            "title": "「智动未来」完成亿元级Pre-A+轮融资！具身智能的上岗样本成型",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321203-8420-30712096.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-17",
-            "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
-            "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/",
-            "company": "其他",
-            "source_name": "TechCrunch Robotics"
           }
         ]
       },
@@ -532,6 +532,20 @@
         "category": "行业动态",
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
+          {
+            "date": "11-20",
+            "title": "马斯克又定时间表：Optimus机器人去挖矿，这次准吗？",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321202-8460-30712609.html",
+            "company": "特斯拉",
+            "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-20",
+            "title": "董明珠只做零件，宇树死磕整机：人形机器人谁更赚？",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321206-8420-30712607.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-19",
             "title": "马斯克要让机器人去挖矿冶炼!特斯拉Optimus即将展示真本事",
@@ -615,20 +629,6 @@
             "url": "https://www.ithome.com/1/028/561.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "11-17",
-            "title": "优必选拿下永达400台机器人：进店卖车还是当“花瓶”？",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8460-30712080.html",
-            "company": "优必选",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-17",
-            "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-            "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -636,6 +636,13 @@
         "category": "泛具身产业链",
         "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
         "items": [
+          {
+            "date": "11-20",
+            "title": "当人类干活的样子成了教材，又一家具身数据采集公司完成4700万美元A轮融资！",
+            "url": "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712648.html",
+            "company": "行业",
+            "source_name": "OFweek机器人"
+          },
           {
             "date": "11-19",
             "title": "柯力传感战略投资知行机器人，打通“感知—控制—执行”链路",
@@ -649,19 +656,66 @@
             "url": "https://www.robot-china.com/news/202611/18/97477.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-17",
-            "title": "Robot swarms trained by trial and error in simulation keep working on real robots",
-            "url": "https://robohub.org/robot-swarms-trained-by-trial-and-error-in-simulation-keep-working-on-real-robots/",
-            "company": "其他",
-            "source_name": "RoboHub"
           }
         ]
       }
     ]
   },
   "items": [
+    {
+      "date": "11-20",
+      "company": "行业",
+      "title": "人形机器人遇冷：日租价从3000继续掉到1800，7月后融资普遍下滑",
+      "source_name": "钛媒体",
+      "category": "资本动态",
+      "summary": "文 | 木禾商业财经，作者 I 龚正，编辑 I 杨晶 具身智能机器人，在2026年只走过两个季节。一是疯狂的火热夏季，二是寒意开吹的冬天。 宇树的王兴兴，在为各路投资人赚得盆满钵满、只留自己继续创业后，明显开始更多活跃于公共舆论与“微博热搜”之间，开始更多push宇树机器人的最新突破，向市场传递技术落地的信心。 智元机器人等这一波，本想趁热上市，却因各种原因…",
+      "url": "https://www.tmtpost.com/8211952.html"
+    },
+    {
+      "date": "11-20",
+      "company": "行业",
+      "title": "打造具身智能量产底座！「博理科技」完成超5亿元融资",
+      "source_name": "OFweek机器人",
+      "category": "资本动态",
+      "summary": "具身涌现获悉，近日，3D打印企业博理科技连续完成B2轮与B+轮融资，合计超过5亿元。B2轮由基石资本与老股东金沙江联合资本联合领投，格致资本、天堂硅谷、中时资本、云锦资本、卓璞基金跟投；B+轮由经纬创",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html"
+    },
+    {
+      "date": "11-20",
+      "company": "行业",
+      "title": "当人类干活的样子成了教材，又一家具身数据采集公司完成4700万美元A轮融资！",
+      "source_name": "OFweek机器人",
+      "category": "泛具身产业链",
+      "summary": "具身涌现讯，近日，印度班加罗尔一家叫Humyn Labs的公司宣布完成4700万美元A轮融资。钱分成两块：2600万股权由Accel领投，2100万是风险债务，由Lighthouse Canton牵头",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712648.html"
+    },
+    {
+      "date": "11-20",
+      "company": "特斯拉",
+      "title": "马斯克又定时间表：Optimus机器人去挖矿，这次准吗？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "摘要：马斯克11月19日在奥斯汀峰会上再次给出Optimus的“两个月内演示”时间表，并把采矿、冶炼列为优先场景。而一个月前Q3财报会上，他的口径还是“一两个月”。时间窗口在滚动，但重工业的试金石逻辑",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321202-8460-30712609.html"
+    },
+    {
+      "date": "11-20",
+      "company": "宇树科技",
+      "title": "董明珠只做零件，宇树死磕整机：人形机器人谁更赚？",
+      "source_name": "OFweek机器人",
+      "category": "行业动态",
+      "summary": "摘要：APEC工商峰会上，董明珠、王兴兴、周剑同台发声，清晰展现了人形机器人赛道的路线分化。格力选择做核心零部件，宇树和优必选坚持整机突围。这不是观点的冲突，而是基于各自优势的理性分工：有人下场造机器",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321206-8420-30712607.html"
+    },
+    {
+      "date": "11-20",
+      "company": "宇树科技",
+      "title": "宇树增收不增利、优必选还在亏，雷赛智能净利却涨了86.8%：具身智能的钱被谁赚走了？",
+      "source_name": "OFweek机器人",
+      "category": "技术突破",
+      "summary": "摘要：具身智能火了，最先赚钱的不是造机器人的，是卖零件的 想淘金，先买铲。 当新产业兴起之时，最先赚钱的，往往是“卖铲子”的。 具身智能行业也是一样。 根据商务部发布的数据，今年前三季度，重点平台具身",
+      "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712596.html"
+    },
     {
       "date": "11-19",
       "company": "其他",
@@ -1057,60 +1111,6 @@
       "category": "资本动态",
       "summary": "具身涌现获悉，近日，艾利特智能机器人股份有限公司完成2亿元新一轮融资，由建信股权领投，原有战略股东继续跟投。这距离它上一笔6亿元的D+轮融资只过去了7个月，两轮加起来，这家公司在半年多时间里拿到了8亿",
       "url": "https://robot.ofweek.com/2026-11/ART-8321202-12005-30712103.html"
-    },
-    {
-      "date": "11-17",
-      "company": "行业",
-      "title": "「智动未来」完成亿元级Pre-A+轮融资！具身智能的上岗样本成型",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "第140届广交会的展厅里，一台轮式人形机器人停在展柜前，转身、调整角度，向来客介绍身边的展品。它的同伴分布在别的点位，有的送咖啡，有的做零售。 几乎同一时间，广州琶洲的朗豪酒店、西安大唐不夜城和香港黄",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321203-8420-30712096.html"
-    },
-    {
-      "date": "11-17",
-      "company": "优必选",
-      "title": "优必选拿下永达400台机器人：进店卖车还是当“花瓶”？",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "摘要：优必选400台U1 Pro进永达豪车门店，市场看到的是“人形机器人进店服务”。但拆开产品逻辑和财务结构，这笔订单更准确的定性是一次消费级情感陪伴机器人借高净值渠道完成的渠道杠杆测试——港股双双异",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8460-30712080.html"
-    },
-    {
-      "date": "11-17",
-      "company": "其他",
-      "title": "数百台机器人落地常州！它石智航携手艾博格打造工业具身原生应用样板，迈向规模落地新阶段",
-      "source_name": "中国工控网机器人",
-      "category": "商业订单",
-      "summary": "11月16日，在2026常州工业具身智能创新大会上，它石智航创始人、董事长李震宇表示，公司在常州的产业化布局正在提速：一方面以千台级量产为起点、面向未来走向万台级规模；另一方面与常州线束制造企业艾博格签署战略合作，推动机器人进入真实产线，加快工业具身智能的规模化落地。 标签： 机器人 石智航<",
-      "url": "https://www.gongkong.com/news/202611/454810.html"
-    },
-    {
-      "date": "11-17",
-      "company": "其他",
-      "title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Boston Dynamics’ Atlas humanoid robot will undergo its first trials outside the automotive industry at a major semiconductor manufacturer in early 2027. The post appeared first on…",
-      "url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/"
-    },
-    {
-      "date": "11-17",
-      "company": "其他",
-      "title": "Genesis AI raises $500 million to deploy glove-wearing robots",
-      "source_name": "TechCrunch Robotics",
-      "category": "资本动态",
-      "summary": "Genesis AI's novel approach to training dexterous robots earned it $500 million in Series A funding.",
-      "url": "https://techcrunch.com/2026/11/17/genesis-ai-raises-500-million-to-deploy-electric-glove-wearing-robots/"
-    },
-    {
-      "date": "11-17",
-      "company": "其他",
-      "title": "Robot swarms trained by trial and error in simulation keep working on real robots",
-      "source_name": "RoboHub",
-      "category": "泛具身产业链",
-      "summary": "Reinforcement learning lets robots learn behaviors on their own, through trial and error, usually inside a computer simulation. Moving what they learn onto physical robots is anoth…",
-      "url": "https://robohub.org/robot-swarms-trained-by-trial-and-error-in-simulation-keep-working-on-real-robots/"
     }
   ]
 }
