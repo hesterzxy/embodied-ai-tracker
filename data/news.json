@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T22:22:16.833192+08:00",
+  "updated": "2026-11-22T06:52:32.048179+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -14,7 +14,7 @@
       "candidates": 3,
       "core": 3,
       "periphery": 0,
-      "new": 2
+      "new": 0
     },
     {
       "name": "36氪",
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 15,
+      "candidates": 16,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 0,
-      "new": 4
+      "new": 6
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-21T22:22:16.938779+08:00",
+    "generated_at": "2026-11-22T06:52:32.172716+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
