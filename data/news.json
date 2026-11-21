@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T13:57:06.823481+08:00",
+  "updated": "2026-11-21T22:22:16.833192+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,10 +11,10 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 2,
-      "core": 1,
+      "candidates": 3,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "36氪",
@@ -50,10 +50,10 @@
       "attempts": 1,
       "error": "",
       "entries": 19,
-      "candidates": 3,
-      "core": 1,
+      "candidates": 0,
+      "core": 0,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 59,
-      "candidates": 20,
-      "core": 0,
+      "entries": 60,
+      "candidates": 15,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -192,7 +192,7 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
+      "candidates": 6,
       "core": 5,
       "periphery": 0,
       "new": 3
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-21T13:57:06.951931+08:00",
+    "generated_at": "2026-11-21T22:22:16.938779+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -255,11 +255,11 @@
       },
       {
         "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在世界建模、动作生成、数据规模化学习和工程部署等方面持续演进；近日，卓世科技AI研究院（Zoellent AI Lab） 正式发布 GR-SAC（Gated Residual Soft Actor-Critic） ，并开源模型代码、参考权重及技术报告。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在世界建模、动作生成、数据规模化学习和工程部署等方面持续演进；2Astra操控双臂机器人 完成16项操作任务的综合成功率 ，从两个月前GPT-6Astra的19.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
         "evidence_urls": [
           "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
-          "https://www.robot-china.com/news/202611/20/97514.html",
-          "https://www.robot-china.com/news/202611/19/97501.html"
+          "https://www.qbitai.com/2026/11/511779.html",
+          "https://www.robot-china.com/news/202611/20/97514.html"
         ]
       },
       {
@@ -277,6 +277,13 @@
         "category": "技术突破",
         "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
         "items": [
+          {
+            "date": "11-21",
+            "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+            "url": "https://www.qbitai.com/2026/11/511779.html",
+            "company": "其他",
+            "source_name": "量子位"
+          },
           {
             "date": "11-20",
             "title": "宇树增收不增利、优必选还在亏，雷赛智能净利却涨了86.8%：具身智能的钱被谁赚走了？",
@@ -311,6 +318,13 @@
             "url": "https://www.robot-china.com/news/202611/20/97510.html",
             "company": "其他",
             "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-20",
+            "title": "米哈游发了个VLA论文",
+            "url": "https://www.qbitai.com/2026/11/511740.html",
+            "company": "其他",
+            "source_name": "量子位"
           },
           {
             "date": "11-19",
@@ -360,6 +374,13 @@
         "category": "产品量产",
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
+          {
+            "date": "11-21",
+            "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
+            "url": "https://www.ithome.com/1/030/410.htm",
+            "company": "其他",
+            "source_name": "IT之家"
+          },
           {
             "date": "11-20",
             "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
@@ -511,20 +532,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-18",
-            "title": "Humyn Labs raises $47M to collect real-world data for robotics",
-            "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "11-17",
-            "title": "投资6个亿！年产1000万套机器人轴承生产线在南京开工",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -622,13 +629,6 @@
             "url": "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-18",
-            "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
-            "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/",
-            "company": "其他",
-            "source_name": "The Robot Report"
           }
         ]
       },
@@ -662,6 +662,24 @@
     ]
   },
   "items": [
+    {
+      "date": "11-21",
+      "company": "其他",
+      "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "GPT-6.2 Astra又给具身智能上强度了，狠狠来了一计天马流星拳。 机器人基础设施公司XDOF的最新实测中，GPT-6.2Astra操控双臂机器人 完成16项操作任务的综合成功率 ，从两个月前GPT-6Astra的19.6%飙升至41.2%，翻了一倍有余。 打结、展开T恤 这两项此前无AI通关的操作，这次也被它拿下。 公布成绩后，OpenAI Deve…",
+      "url": "https://www.qbitai.com/2026/11/511779.html"
+    },
+    {
+      "date": "11-21",
+      "company": "其他",
+      "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 11 月 21 日消息，蔚来今日宣布，在即将于 11 月 25 日举办的 NIO IN 2026 蔚来创新科技日上， 将正式发布 NWM 3.0 世界模型 。 官方表示，NWM 3.0 将会在 模型架构、闭环训练、跨域融合 等方面，带来蔚来智能辅助驾驶团队对物理世界人工智能的最新思考与探索成果，敬请期待。 据IT之家此前报道，2024 年 7 月…",
+      "url": "https://www.ithome.com/1/030/410.htm"
+    },
     {
       "date": "11-20",
       "company": "行业",
@@ -796,6 +814,15 @@
       "category": "产品量产",
       "summary": "MassRobotics plans to open the marine-focused facility in early 2028, with programming starting throughout 2027. The post appeared first on The Robot Report .",
       "url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/"
+    },
+    {
+      "date": "11-20",
+      "company": "其他",
+      "title": "米哈游发了个VLA论文",
+      "source_name": "量子位",
+      "category": "技术突破",
+      "summary": "米哈游，您是准备亲自下场研究“官方脚本”了？ （doge） 就在米哈游崩坏AI研发团队最新发布的研究 Gamer 中—— 碰上场景机关，也能自己上手。走到“气泡弹珠”前启动装置，把自己弹到另一片区域，落地接着跑。 跟着NPC跑图同样可以，流萤在前面带路，AI就在后面跟着，上楼梯、拐弯，一路跑到广场。 我勒个乖乖，这打Boss、开机关、跟人跑图，都让AI学会了…",
+      "url": "https://www.qbitai.com/2026/11/511740.html"
     },
     {
       "date": "11-19",
@@ -1084,33 +1111,6 @@
       "category": "技术突破",
       "summary": "IT之家 11 月 19 日消息， 今年早些时候，谷歌推出了实验性研究原型 Project Genie，可让用户生成并探索交互式虚拟世界。 早期测试用户反馈，希望能对世界内发生的内容有更强控制力，同时拥有更便捷的建造、分享方式。 如今，谷歌面向符合资格的 Google AI Ultra 订阅用户推出全新 Project Genie 体验，让这些虚拟世界的响应…",
       "url": "https://www.ithome.com/1/029/129.htm"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "Humyn Labs raises $47M to collect real-world data for robotics",
-      "source_name": "The Robot Report",
-      "category": "资本动态",
-      "summary": "Humyn Labs provides data collected from real-world operations for frontier AI labs, robotics companies, and world-model developers. The post appeared first on The Robot Report .",
-      "url": "https://www.therobotreport.com/humyn-labs-raises-47m-to-collect-real-world-data-for-robotics/"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "From Commercial Scale to Embodied Intelligence: The Next Challenge for Robotics",
-      "source_name": "The Robot Report",
-      "category": "行业动态",
-      "summary": "Robotics is advancing rapidly. New AI models and increasingly capable hardware are expanding what machines can perceive, understand and do. The post appeared first on The Robot Rep…",
-      "url": "https://www.therobotreport.com/from-commercial-scale-to-embodied-intelligence-the-next-challenge-for-robotics/"
-    },
-    {
-      "date": "11-17",
-      "company": "其他",
-      "title": "投资6个亿！年产1000万套机器人轴承生产线在南京开工",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "据南京日报消息，南京光力精工有限公司年产1000万套机器人轴承生产线项目近日在南京溧水区正式开工建设。这是溧水近期落地的又一个机器人及高端装备制造项目，也折射出核心零部件环节持续升温的产业节奏。 本次 零部件 | <",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321201-8120-30712053.html"
     }
   ]
 }
