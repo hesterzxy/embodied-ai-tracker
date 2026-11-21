@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T07:46:04.399884+08:00",
+  "updated": "2026-11-21T13:57:06.823481+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
-      "candidates": 2,
-      "core": 0,
+      "entries": 19,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "爱范儿",
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 17,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -75,7 +75,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 20,
       "candidates": 2,
       "core": 1,
       "periphery": 0,
@@ -88,7 +88,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
+      "entries": 59,
       "candidates": 20,
       "core": 0,
       "periphery": 0,
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 8,
       "periphery": 0,
-      "new": 5
+      "new": 4
     },
     {
       "name": "TechCrunch Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-21T07:46:04.527022+08:00",
+    "generated_at": "2026-11-21T13:57:06.951931+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
