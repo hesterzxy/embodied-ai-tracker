@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T13:30:28.101445+08:00",
+  "updated": "2026-11-22T22:13:54.109588+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 3,
-      "core": 3,
+      "candidates": 1,
+      "core": 1,
       "periphery": 0,
       "new": 0
     },
@@ -36,7 +36,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 18,
       "candidates": 8,
       "core": 1,
       "periphery": 0,
@@ -50,7 +50,7 @@
       "attempts": 1,
       "error": "",
       "entries": 17,
-      "candidates": 0,
+      "candidates": 1,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 20,
-      "core": 3,
+      "entries": 60,
+      "candidates": 17,
+      "core": 1,
       "periphery": 0,
-      "new": 3
+      "new": 1
     },
     {
       "name": "中国机器人网",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 6,
-      "core": 5,
+      "candidates": 7,
+      "core": 6,
       "periphery": 0,
-      "new": 3
+      "new": 4
     },
     {
       "name": "NVIDIA Robotics",
@@ -221,7 +221,7 @@
       "candidates": 30,
       "core": 24,
       "periphery": 5,
-      "new": 4
+      "new": 3
     },
     {
       "name": "RoboHub",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-22T13:30:28.321925+08:00",
+    "generated_at": "2026-11-22T22:13:54.219731+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -264,11 +264,11 @@
       },
       {
         "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，摘要：新华社中经社的一篇文章，把具身智能的融资标尺从“技术想象力”拨向了“交付确定性”；宇树的王兴兴，在为各路投资人赚得盆满钵满、只留自己继续创业后，明显开始更多活跃于公共舆论与“微博热搜”之间，开始更多push宇树机器人的最新突破，向市场传递技术落地的信心。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
+        "text": "融资和并购信号需要和用途一起看，宇树的王兴兴，在为各路投资人赚得盆满钵满、只留自己继续创业后，明显开始更多活跃于公共舆论与“微博热搜”之间，开始更多push宇树机器人的最新突破，向市场传递技术落地的信心；具身涌现获悉，近日，3D打印企业博理科技连续完成B2轮与B+轮融资，合计超过5亿元。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
         "evidence_urls": [
-          "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html",
           "https://www.tmtpost.com/8211952.html",
-          "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html"
+          "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html",
+          "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712553.html"
         ]
       }
     ],
@@ -368,6 +368,13 @@
         "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
         "items": [
           {
+            "date": "11-22",
+            "title": "Runway releases Praxis-1 open-weight world action model for robotics",
+            "url": "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "11-21",
             "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
             "url": "https://www.ithome.com/1/030/410.htm",
@@ -436,13 +443,6 @@
             "url": "https://www.ithome.com/1/029/087.htm",
             "company": "其他",
             "source_name": "IT之家"
-          },
-          {
-            "date": "11-18",
-            "title": "小鹏机器人量产倒计时：先在自己门店“跑腿”，明年Q2对外销售",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30712241.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -525,13 +525,6 @@
             "url": "https://www.robot-china.com/news/202611/18/97470.html",
             "company": "行业",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "新华社定调机器人融资：光有PPT和框架订单，不灵了",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
           }
         ]
       },
@@ -544,6 +537,13 @@
             "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
             "url": "https://www.ithome.com/1/030/563.htm",
             "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-22",
+            "title": "马斯克：SpaceX 首个被“筷子”机械臂捕获的星舰上面级将退役，会公开展出",
+            "url": "https://www.ithome.com/1/030/684.htm",
+            "company": "其他",
             "source_name": "IT之家"
           },
           {
@@ -670,6 +670,24 @@
       "category": "行业动态",
       "summary": "IT之家 11 月 22 日消息， 特斯拉今日宣布在美国市场推出 FSD v15 ，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）。 随后全新的“Tesla Reality View”迅速引发网友热议。博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD…",
       "url": "https://www.ithome.com/1/030/563.htm"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "马斯克：SpaceX 首个被“筷子”机械臂捕获的星舰上面级将退役，会公开展出",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 22 日消息，SpaceX 首艘成功返回并被发射塔机械臂捕获的星舰（Starship）上面级，将不会再次执行飞行任务，而是被保留下来作为公开展品。 这艘飞船名为 Ship 42，于 11 月 13 日参加了星舰第 15 次试飞。一天后，它从轨道返回地球，平稳降落在 SpaceX 位于美国得克萨斯州南部星际基地（Starbase）的发射塔上…",
+      "url": "https://www.ithome.com/1/030/684.htm"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Runway releases Praxis-1 open-weight world action model for robotics",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Runway, which claims to be “the world’s top rated AI video model”, has released Praxis-1, an open-weight world action model designed to enable robots to learn physical tasks using…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/"
     },
     {
       "date": "11-21",
@@ -1093,24 +1111,6 @@
       "category": "商业订单",
       "summary": "摘要：欠薪、借款460万美元买房、伪造3亿美元订单、唯一董事——美国军用人形机器人初创公司Foundation把治理风险一次性踩全了。比起“离谱丑闻”，更值得追问的是：这套漏洞百出的叙事，为什么能撑到",
       "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712242.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "小鹏机器人量产倒计时：先在自己门店“跑腿”，明年Q2对外销售",
-      "source_name": "OFweek机器人",
-      "category": "产品量产",
-      "summary": "摘要：小鹏IRON人形机器人商业化时间表出炉：Q1进自家门店试用，Q2对外部客户发布。这不仅是发布预告，更是造车新势力用“场景自供”养大机器人、用“车规级供应链”降维打击的路径验证。估值故事开始了，但",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8110-30712241.html"
-    },
-    {
-      "date": "11-18",
-      "company": "行业",
-      "title": "新华社定调机器人融资：光有PPT和框架订单，不灵了",
-      "source_name": "OFweek机器人",
-      "category": "资本动态",
-      "summary": "摘要：新华社中经社的一篇文章，把具身智能的融资标尺从“技术想象力”拨向了“交付确定性”。上半年千亿狂欢与10月骤降的温差，背后是资本在重估溢价。没有回款的订单，正在变成废纸。 全文约750字，预计阅读",
-      "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html"
     }
   ]
 }
