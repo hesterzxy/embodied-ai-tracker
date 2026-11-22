@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T06:52:32.048179+08:00",
+  "updated": "2026-11-22T13:30:28.101445+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
+      "entries": 17,
       "candidates": 0,
       "core": 0,
       "periphery": 0,
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 16,
-      "core": 1,
+      "entries": 58,
+      "candidates": 20,
+      "core": 3,
       "periphery": 0,
-      "new": 0
+      "new": 3
     },
     {
       "name": "中国机器人网",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-16",
     "end": "11-22",
-    "generated_at": "2026-11-22T06:52:32.172716+08:00",
+    "generated_at": "2026-11-22T13:30:28.321925+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -360,13 +360,6 @@
             "url": "https://www.robot-china.com/news/202611/18/97473.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "史诗级进化！谷歌 Genie 4 世界模型开放体验：支持边玩边改天气、召唤角色，所见皆可互动",
-            "url": "https://www.ithome.com/1/029/129.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -379,6 +372,13 @@
             "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
             "url": "https://www.ithome.com/1/030/410.htm",
             "company": "其他",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-21",
+            "title": "特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI",
+            "url": "https://www.ithome.com/1/030/512.htm",
+            "company": "特斯拉",
             "source_name": "IT之家"
           },
           {
@@ -540,6 +540,13 @@
         "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
         "items": [
           {
+            "date": "11-22",
+            "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+            "url": "https://www.ithome.com/1/030/563.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
             "date": "11-20",
             "title": "马斯克又定时间表：Optimus机器人去挖矿，这次准吗？",
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-8460-30712609.html",
@@ -622,13 +629,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30712312.html",
             "company": "云深处",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-18",
-            "title": "Boston Dynamics and GlobalFoundries expand Spot operations and prepare to test Atlas humanoid",
-            "url": "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
           }
         ]
       },
@@ -663,6 +663,15 @@
   },
   "items": [
     {
+      "date": "11-22",
+      "company": "特斯拉",
+      "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 22 日消息， 特斯拉今日宣布在美国市场推出 FSD v15 ，带来了全新可视化界面 ——“Tesla Reality View”（特斯拉实景视图）。 随后全新的“Tesla Reality View”迅速引发网友热议。博主 @旌旗超智能 分析，特斯拉是在硬件劣势的情况做了 3D 高斯全场景重建。他称自己今天仔细检查了一下特斯拉 FSD…",
+      "url": "https://www.ithome.com/1/030/563.htm"
+    },
+    {
       "date": "11-21",
       "company": "其他",
       "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
@@ -679,6 +688,15 @@
       "category": "产品量产",
       "summary": "IT之家 11 月 21 日消息，蔚来今日宣布，在即将于 11 月 25 日举办的 NIO IN 2026 蔚来创新科技日上， 将正式发布 NWM 3.0 世界模型 。 官方表示，NWM 3.0 将会在 模型架构、闭环训练、跨域融合 等方面，带来蔚来智能辅助驾驶团队对物理世界人工智能的最新思考与探索成果，敬请期待。 据IT之家此前报道，2024 年 7 月…",
       "url": "https://www.ithome.com/1/030/410.htm"
+    },
+    {
+      "date": "11-21",
+      "company": "特斯拉",
+      "title": "特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 11 月 22 日消息，特斯拉今日宣布在美国市场推出 FSD v15，目前已向早期体验计划（EAP）成员推送首批版本。官方宣称， 本次更新对安全关键场景的处理能力提升了 25 倍 。 IT之家了解到，本次更新还带来了“Tesla Reality View”全新可视化界面，车机屏幕上可显示摄像头画面叠加 FSD 行驶规划，支持全屏显示、地图或分屏视图…",
+      "url": "https://www.ithome.com/1/030/512.htm"
     },
     {
       "date": "11-20",
@@ -1093,24 +1111,6 @@
       "category": "资本动态",
       "summary": "摘要：新华社中经社的一篇文章，把具身智能的融资标尺从“技术想象力”拨向了“交付确定性”。上半年千亿狂欢与10月骤降的温差，背后是资本在重估溢价。没有回款的订单，正在变成废纸。 全文约750字，预计阅读",
       "url": "https://robot.ofweek.com/2026-11/ART-8321206-12005-30712237.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "Boston Dynamics and GlobalFoundries expand Spot operations and prepare to test Atlas humanoid",
-      "source_name": "Robotics & Automation News",
-      "category": "行业动态",
-      "summary": "Boston Dynamics, a specialist in mobile robotics, and GlobalFoundries, a manufacturer of semiconductors, has announced an expansion of their collaboration to deploy Spot for autono…",
-      "url": "https://roboticsandautomationnews.com/2026/11/18/boston-dynamics-and-globalfoundries-expand-spot-operations-and-prepare-to-test-atlas-humanoid/107266/"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "史诗级进化！谷歌 Genie 4 世界模型开放体验：支持边玩边改天气、召唤角色，所见皆可互动",
-      "source_name": "IT之家",
-      "category": "技术突破",
-      "summary": "IT之家 11 月 19 日消息， 今年早些时候，谷歌推出了实验性研究原型 Project Genie，可让用户生成并探索交互式虚拟世界。 早期测试用户反馈，希望能对世界内发生的内容有更强控制力，同时拥有更便捷的建造、分享方式。 如今，谷歌面向符合资格的 Google AI Ultra 订阅用户推出全新 Project Genie 体验，让这些虚拟世界的响应…",
-      "url": "https://www.ithome.com/1/029/129.htm"
     }
   ]
 }
