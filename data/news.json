@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T22:13:54.109588+08:00",
+  "updated": "2026-11-23T07:20:34.863233+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 8,
+      "candidates": 10,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 18,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -89,10 +89,10 @@
       "attempts": 1,
       "error": "",
       "entries": 60,
-      "candidates": 17,
+      "candidates": 18,
       "core": 1,
       "periphery": 0,
-      "new": 1
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -151,7 +151,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 1,
+      "attempts": 3,
       "error": "",
       "entries": 27,
       "candidates": 26,
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 7,
-      "core": 6,
+      "candidates": 13,
+      "core": 9,
       "periphery": 0,
-      "new": 4
+      "new": 9
     },
     {
       "name": "NVIDIA Robotics",
@@ -237,430 +237,7 @@
       "new": 3
     }
   ],
-  "weekly_report": {
-    "start": "11-16",
-    "end": "11-22",
-    "generated_at": "2026-11-22T22:13:54.219731+08:00",
-    "mode": "local",
-    "item_count": 50,
-    "insights": [
-      {
-        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
-        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，11月18日，艾芬达控股子公司浙江云芯机器人宣布与北美头部机器人整机企业达成精密结构件供应合作，首批订单已排入产线；据外媒 Interesting Engineering 昨天报道，波士顿动力 Atlas 人形机器人即将首次进入半导体制造领域，格罗方德（GlobalFoundries）正准备从 2027 年初开始在旗下工厂测试 Atlas。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
-        "evidence_urls": [
-          "https://robot.ofweek.com/2026-11/ART-8321201-8420-30712438.html",
-          "https://www.robot-china.com/news/202611/18/97478.html",
-          "https://www.robot-china.com/news/202611/18/97471.html"
-        ]
-      },
-      {
-        "label": "模型叙事正在落到真实数据和任务闭环",
-        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，在世界建模、动作生成、数据规模化学习和工程部署等方面持续演进；2Astra操控双臂机器人 完成16项操作任务的综合成功率 ，从两个月前GPT-6Astra的19.。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
-        "evidence_urls": [
-          "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
-          "https://www.qbitai.com/2026/11/511779.html",
-          "https://www.robot-china.com/news/202611/20/97514.html"
-        ]
-      },
-      {
-        "label": "资本更看重可定义场景和能力补齐",
-        "text": "融资和并购信号需要和用途一起看，宇树的王兴兴，在为各路投资人赚得盆满钵满、只留自己继续创业后，明显开始更多活跃于公共舆论与“微博热搜”之间，开始更多push宇树机器人的最新突破，向市场传递技术落地的信心；具身涌现获悉，近日，3D打印企业博理科技连续完成B2轮与B+轮融资，合计超过5亿元。真正有价值的是资金能否换来数据、客户、工程团队或明确场景，而不是单纯扩大“机器人”叙事。",
-        "evidence_urls": [
-          "https://www.tmtpost.com/8211952.html",
-          "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html",
-          "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712553.html"
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "category": "技术突破",
-        "summary": "技术侧主线集中在世界模型、VLA、触觉感知和真机评测，判断标准正在从概念发布转向真实任务中的数据闭环和成功率。",
-        "items": [
-          {
-            "date": "11-21",
-            "title": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-            "url": "https://www.qbitai.com/2026/11/511779.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "11-20",
-            "title": "宇树增收不增利、优必选还在亏，雷赛智能净利却涨了86.8%：具身智能的钱被谁赚走了？",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712596.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-20",
-            "title": "昇腾算力训出了双榜SOTA的具身世界模型，华为云这次想把整套底座开放出来",
-            "url": "https://www.qbitai.com/2026/11/511610.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "11-20",
-            "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-            "url": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
-            "company": "其他",
-            "source_name": "InfoQ"
-          },
-          {
-            "date": "11-20",
-            "title": "卓世科技开源GR-SAC强化学习技术斩获 RoboMME Standard Track SOTA！",
-            "url": "https://www.robot-china.com/news/202611/20/97514.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-20",
-            "title": "一目科技入围具身智能百强企业",
-            "url": "https://www.robot-china.com/news/202611/20/97510.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-20",
-            "title": "米哈游发了个VLA论文",
-            "url": "https://www.qbitai.com/2026/11/511740.html",
-            "company": "其他",
-            "source_name": "量子位"
-          },
-          {
-            "date": "11-19",
-            "title": "飞阔科技携手擎天曜，温州具身智能机器人8S中心盛大启幕！",
-            "url": "https://www.robot-china.com/news/202611/19/97496.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "快手 CEO 程一笑：Kling 4.0 模型已经进入游戏和具身智能等场景",
-            "url": "https://www.ithome.com/1/029/686.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-19",
-            "title": "深度访谈 | 郭嵩院士、埃斯顿、飞渡科技：物理AI如何驱动具身智能真正走进工厂",
-            "url": "https://www.robot-china.com/news/202611/19/97501.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "具身智能转向长程任务系统能力阶段：华睿智普以端侧算力平台构建物理AI差异化优势",
-            "url": "https://www.robot-china.com/news/202611/18/97481.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "雷军：具身智能机器人想象空间将超过汽车",
-            "url": "https://www.robot-china.com/news/202611/18/97473.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "产品量产",
-        "summary": "产品侧出现量产、首秀和场景服务信号，重点应继续跟踪真实部署规模、运维能力和客户复购。",
-        "items": [
-          {
-            "date": "11-22",
-            "title": "Runway releases Praxis-1 open-weight world action model for robotics",
-            "url": "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-21",
-            "title": "蔚来官宣 NWM 3.0 世界模型，11 月 25 日在 NIO IN 2026 蔚来创新科技日发布",
-            "url": "https://www.ithome.com/1/030/410.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-21",
-            "title": "特斯拉海外推出 FSD v15：安全关键场景处理能力提升 25 倍，全新可视化 UI",
-            "url": "https://www.ithome.com/1/030/512.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-20",
-            "title": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
-            "url": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "11-20",
-            "title": "京瓷亮相2026高交会，全景呈现具身智能核心零部件解决方案",
-            "url": "https://www.robot-china.com/news/202611/20/97520.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-20",
-            "title": "MassRobotics launching marine robotics facility on Boston Harbor",
-            "url": "https://www.therobotreport.com/massrobotics-launching-marine-robotics-facility-on-boston-harbor/",
-            "company": "其他",
-            "source_name": "The Robot Report"
-          },
-          {
-            "date": "11-19",
-            "title": "工业和信息化部发布5项人形机器人领域行业标准",
-            "url": "https://www.robot-china.com/news/202611/19/97499.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "宇树王兴兴最新发声：机器人卡点不止泛化，量产更难",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321206-8470-30712425.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-19",
-            "title": "Boston Dynamics launches next-generation Stretch robot with major reliability upgrades",
-            "url": "https://roboticsandautomationnews.com/2026/11/19/boston-dynamics-launches-next-generation-stretch-robot-with-major-reliability-upgrades/107354/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-19",
-            "title": "Realbotix launches Echo humanoid robots for education, wellness and companionship",
-            "url": "https://roboticsandautomationnews.com/2026/11/19/realbotix-launches-echo-humanoid-robots-for-education-wellness-and-companionship/107339/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-18",
-            "title": "消息称三星电子计划在 CES 2027 发布 2 款人形机器人",
-            "url": "https://www.ithome.com/1/029/087.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          }
-        ]
-      },
-      {
-        "category": "商业订单",
-        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
-        "items": [
-          {
-            "date": "11-20",
-            "title": "从工业制造到太空任务：灵掌机器人展示灵巧操作落地新进展",
-            "url": "https://www.robot-china.com/news/202611/20/97512.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "小马智行三季报：Robotaxi撑起四成营收，商业化进程提速",
-            "url": "https://www.tmtpost.com/8210512.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "11-19",
-            "title": "北美头部订单排产背后：人形机器人供应链，先兑现的是“关节”",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321201-8420-30712438.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-18",
-            "title": "清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026",
-            "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "11-18",
-            "title": "美国军用人形机器人公司暴雷：CEO借460万买房，伪造3亿订单",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712242.html",
-            "company": "其他",
-            "source_name": "OFweek机器人"
-          }
-        ]
-      },
-      {
-        "category": "资本动态",
-        "summary": "资本动态继续围绕具身大脑、数据基础设施和明确场景展开，关键是融资后是否转化为客户、数据和交付能力。",
-        "items": [
-          {
-            "date": "11-20",
-            "title": "人形机器人遇冷：日租价从3000继续掉到1800，7月后融资普遍下滑",
-            "url": "https://www.tmtpost.com/8211952.html",
-            "company": "行业",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "11-20",
-            "title": "打造具身智能量产底座！「博理科技」完成超5亿元融资",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321201-12003-30712656.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-19",
-            "title": "获5000万元融资，柏川数据如何把智驾经验用到机器人训练？",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712553.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-18",
-            "title": "亚华+浙商+光谷投资的骅羲科技养老机器人上市，稳步迈向规模化落地",
-            "url": "https://www.robot-china.com/news/202611/18/97475.html",
-            "company": "行业",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元",
-            "url": "https://www.robot-china.com/news/202611/18/97470.html",
-            "company": "行业",
-            "source_name": "中国机器人网"
-          }
-        ]
-      },
-      {
-        "category": "行业动态",
-        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
-        "items": [
-          {
-            "date": "11-22",
-            "title": "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力",
-            "url": "https://www.ithome.com/1/030/563.htm",
-            "company": "特斯拉",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-22",
-            "title": "马斯克：SpaceX 首个被“筷子”机械臂捕获的星舰上面级将退役，会公开展出",
-            "url": "https://www.ithome.com/1/030/684.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-20",
-            "title": "马斯克又定时间表：Optimus机器人去挖矿，这次准吗？",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321202-8460-30712609.html",
-            "company": "特斯拉",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-20",
-            "title": "董明珠只做零件，宇树死磕整机：人形机器人谁更赚？",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321206-8420-30712607.html",
-            "company": "宇树科技",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-20",
-            "title": "2027年深圳国际人形机器人产业展会（8月）",
-            "url": "https://www.robot-china.com/news/202611/20/97506.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "马斯克要让机器人去挖矿冶炼!特斯拉Optimus即将展示真本事",
-            "url": "https://www.robot-china.com/news/202611/19/97491.html",
-            "company": "特斯拉",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "大晓机器人联手快客达，让机器人去便利店“上班”了",
-            "url": "https://www.robot-china.com/news/202611/19/97489.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-19",
-            "title": "Serve Robotics opens its physical AI technology to other robot companies",
-            "url": "https://roboticsandautomationnews.com/2026/11/19/serve-robotics-opens-its-physical-ai-technology-to-other-robot-companies/107358/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-18",
-            "title": "纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人",
-            "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "11-18",
-            "title": "第一批打工的人形机器人，有的已经失业了",
-            "url": "https://www.tmtpost.com/8209375.html",
-            "company": "其他",
-            "source_name": "钛媒体"
-          },
-          {
-            "date": "11-18",
-            "title": "波士顿动力人形机器人首次进入半导体制造领域，Atlas明年在格罗方德工厂测试",
-            "url": "https://www.robot-china.com/news/202611/18/97478.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "负载、速度、通过性兼得！绝影X50四足机器人性能拉满",
-            "url": "https://www.robot-china.com/news/202611/18/97476.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "董明珠APEC现场邀合作! 力荐格力机器人零件：你要什么就提供什么",
-            "url": "https://www.robot-china.com/news/202611/18/97471.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "破解重载四足机器人实战困局 云深处绝影新款机器狗重塑生产力边界",
-            "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30712312.html",
-            "company": "云深处",
-            "source_name": "OFweek机器人"
-          }
-        ]
-      },
-      {
-        "category": "泛具身产业链",
-        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
-        "items": [
-          {
-            "date": "11-20",
-            "title": "当人类干活的样子成了教材，又一家具身数据采集公司完成4700万美元A轮融资！",
-            "url": "https://robot.ofweek.com/2026-11/ART-8321205-12005-30712648.html",
-            "company": "行业",
-            "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-19",
-            "title": "柯力传感战略投资知行机器人，打通“感知—控制—执行”链路",
-            "url": "https://www.robot-china.com/news/202611/19/97492.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-18",
-            "title": "三星、SK 海力士、美光罕见联手，要给芯片工厂的机器人统一充电标准",
-            "url": "https://www.robot-china.com/news/202611/18/97477.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
-          }
-        ]
-      }
-    ]
-  },
+  "weekly_report": {},
   "items": [
     {
       "date": "11-22",
@@ -688,6 +265,69 @@
       "category": "产品量产",
       "summary": "Runway, which claims to be “the world’s top rated AI video model”, has released Praxis-1, an open-weight world action model designed to enable robots to learn physical tasks using…",
       "url": "https://roboticsandautomationnews.com/2026/11/22/runway-releases-praxis-1-open-weight-world-action-model-for-robotics/107430/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Multiway Robotics showcases wheeled humanoid and autonomous forklifts at CeMAT Asia 2026",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Multiway Robotics showcased five autonomous material handling solutions at CeMAT Asia 2026 in Shanghai, including a wheeled humanoid robot designed for flexible industrial operatio…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/multiway-robotics-showcases-wheeled-humanoid-and-autonomous-forklifts-at-cemat-asia-2026/107492/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "From GTA 6 to robot fighting: Humanoid combat league prepares for Melbourne debut",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "The launch of Grand Theft Auto VI has once again demonstrated the enormous cultural influence of video games. But while millions of players explore Rockstar Games’ latest virtual w…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/from-gta-6-to-robot-fighting-humanoid-combat-league-prepares-for-melbourne-debut/107481/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Robotics investment set to reach $60.7 billion in 2026, but funding boom raises concerns",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Global robotics investment is on course for a record year in 2026, with funding projected to reach $60.7 billion, although much of the growth is concentrated in a relatively small…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/robotics-investment-set-to-reach-60-7-billion-in-2026-but-funding-boom-raises-concerns/107478/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Nvidia expands Isaac robotics platform with new humanoid and AI development tools",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Nvidia has announced a major expansion of its Isaac robotics development platform, introducing new simulation frameworks, AI training tools, datasets and a reference humanoid robot…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/nvidia-expands-isaac-robotics-platform-with-new-humanoid-and-ai-development-tools/107472/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Schunk spin-off Tactilia Robotics launches to develop dexterous robot hands",
+      "source_name": "Robotics & Automation News",
+      "category": "产品量产",
+      "summary": "Schunk has renamed its humanoid robotics spin-off Tactilia Robotics, establishing a Munich-based company focused on developing modular robotic hands for industrial automation appli…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/schunk-spin-off-tactilia-robotics-launches-to-develop-dexterous-robot-hands/107466/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Genesis AI raises $500 million to scale general-purpose robotics",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Genesis AI, a robotics company with operations in Paris and California, has raised $500 million in Series A funding at a post-money valuation of $3.5 billion to accelerate developm…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/genesis-ai-raises-500-million-to-scale-general-purpose-robotics/107458/"
+    },
+    {
+      "date": "11-22",
+      "company": "其他",
+      "title": "Remedy Robotics raises $62 million to advance AI-powered cardiovascular surgery robot",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Remedy Robotics, a San Francisco-based medical robotics company, has raised $62 million in Series B funding to advance its AI-enabled N1 System for cardiovascular and neurovascular…",
+      "url": "https://roboticsandautomationnews.com/2026/11/22/remedy-robotics-raises-62-million-to-advance-ai-powered-cardiovascular-surgery-robot/107450/"
     },
     {
       "date": "11-21",
@@ -1048,69 +688,6 @@
       "category": "泛具身产业链",
       "summary": "11 月 18 日消息，据《首尔经济日报》本月报道，三星、SK 海力士、美光将罕见联手，为机器人充电树立统一标准。三星电子、SK 海力士和美光正在为半导体制造工厂中使用的机器人制定充电标准。该项目旨在统一电池规格和充电站操作方式，从而更便捷管理不同制造商的机器人。报道称，三家公司的员工已成立早期咨询机构，包括 SEMI（国际半导体产业协会）在内的主要行业协会…",
       "url": "https://www.robot-china.com/news/202611/18/97477.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "负载、速度、通过性兼得！绝影X50四足机器人性能拉满",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "四足机器人正在从技术展示阶段进入规模化落地阶段，评价标准也从单项峰值参数，转向组合工况下的实际作业能力。参数表上的第一名的机器人，未必是现场最能干活的那一台。落到复杂地形的重载作业，关键需求有三项：负载、速度、通过性。但这三项此消彼长：负载做上去，自重和关节负荷跟着上去，同样的功率要分给更重的机身，速度就会回落；速度做上去，结构就得减重，负载和抗扰一起让步…",
-      "url": "https://www.robot-china.com/news/202611/18/97476.html"
-    },
-    {
-      "date": "11-18",
-      "company": "行业",
-      "title": "亚华+浙商+光谷投资的骅羲科技养老机器人上市，稳步迈向规模化落地",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "summary": "中国具身养老机器人公司骅羲科技，公布其新发布的居家多功能具身养老机器人HT-X2 新品上市市场数据：产品上市 10 天，全球预定量1058 台，并在双11期间成为京东平台人形机器人热卖榜TOP1，目前正在京东电商、国内及国外线下渠道销售中。依托软件全栈自研、硬件核心自控的底层能力，骅羲科技HT-X2 有望在后续生命周期实现从数千台到万台级规模化应用，标志国内…",
-      "url": "https://www.robot-china.com/news/202611/18/97475.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "雷军：具身智能机器人想象空间将超过汽车",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "2026年APEC工商领导人峰会在深圳举行。小米集团创始人雷军在发言中提到，随着具身智能技术发展，具身智能机器人近期特别火热。据他介绍，前不久，小米的具身智能机器人已在工厂实习，能够完整工作8小时，中间还能两次自己去充电，表现非常出色。雷军认为，未来具身智能机器人将会是一个巨大的产业机会，其想象力会超过汽车产业。同时，小米特别看好AI走向物理世界以后带来的空…",
-      "url": "https://www.robot-china.com/news/202611/18/97473.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "董明珠APEC现场邀合作! 力荐格力机器人零件：你要什么就提供什么",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "11月17日消息，今日，2026年亚太经合组织（APEC）工商领导人峰会在深圳举行，格力电器董事长董明珠出席活动，并在现场向机器人企业发出合作邀请。据媒体报道，在谈及机器人产业发展时，董明珠主动向同台的优必选科技创始人、董事会主席兼CEO周剑发出合作邀约，表示格力能够提供机器人所需的核心零部件。董明珠称，格力已经研发机器人十余年，目前企业自动化生产线上的机器…",
-      "url": "https://www.robot-china.com/news/202611/18/97471.html"
-    },
-    {
-      "date": "11-18",
-      "company": "行业",
-      "title": "欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元",
-      "source_name": "中国机器人网",
-      "category": "资本动态",
-      "summary": "11 月 18 日消息，据路透社报道，法国通用机器人公司 Genesis AI 现已完成 5 亿美元（IT之家注：现汇率约合 33.4 亿元人民币）A 轮融资，估值达 35 亿美元（现汇率约合 233.8 亿元人民币）。这是欧洲机器人行业规模最大的融资项目之一。据报道，参与融资的机构和个人有谷歌前 CEO 施密特、硅谷风投公司 Khosla Ventures…",
-      "url": "https://www.robot-china.com/news/202611/18/97470.html"
-    },
-    {
-      "date": "11-18",
-      "company": "云深处",
-      "title": "破解重载四足机器人实战困局 云深处绝影新款机器狗重塑生产力边界",
-      "source_name": "OFweek机器人",
-      "category": "行业动态",
-      "summary": "四足机器人正在从技术展示阶段进入规模化落地阶段，评价标准也从单项峰值参数，转向组合工况下的实际作业能力。参数表上的第一名的机器人，未必是现场最能干活的那一台。落到复杂地形的重载作业，关键需求有三项：负",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8120-30712312.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "美国军用人形机器人公司暴雷：CEO借460万买房，伪造3亿订单",
-      "source_name": "OFweek机器人",
-      "category": "商业订单",
-      "summary": "摘要：欠薪、借款460万美元买房、伪造3亿美元订单、唯一董事——美国军用人形机器人初创公司Foundation把治理风险一次性踩全了。比起“离谱丑闻”，更值得追问的是：这套漏洞百出的叙事，为什么能撑到",
-      "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712242.html"
     }
   ]
 }
