@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T07:20:34.863233+08:00",
+  "updated": "2026-11-23T14:08:47.281447+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -37,7 +37,7 @@
       "attempts": 1,
       "error": "",
       "entries": 18,
-      "candidates": 10,
+      "candidates": 11,
       "core": 1,
       "periphery": 0,
       "new": 0
@@ -49,7 +49,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 18,
+      "entries": 16,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -62,7 +62,7 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
+      "entries": 16,
       "candidates": 1,
       "core": 0,
       "periphery": 0,
@@ -77,9 +77,9 @@
       "error": "",
       "entries": 20,
       "candidates": 2,
-      "core": 1,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 1
     },
     {
       "name": "IT之家",
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 60,
-      "candidates": 18,
-      "core": 1,
+      "entries": 59,
+      "candidates": 22,
+      "core": 2,
       "periphery": 0,
-      "new": 0
+      "new": 2
     },
     {
       "name": "中国机器人网",
@@ -104,8 +104,8 @@
       "entries": 80,
       "candidates": 80,
       "core": 48,
-      "periphery": 8,
-      "new": 16
+      "periphery": 7,
+      "new": 17
     },
     {
       "name": "甲子光年",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 21,
-      "core": 10,
+      "core": 7,
       "periphery": 1,
-      "new": 4
+      "new": 5
     },
     {
       "name": "新战略移动机器人",
@@ -151,7 +151,7 @@
       "type": "html",
       "fetched": true,
       "parsed": true,
-      "attempts": 3,
+      "attempts": 1,
       "error": "",
       "entries": 27,
       "candidates": 26,
@@ -195,7 +195,7 @@
       "candidates": 13,
       "core": 9,
       "periphery": 0,
-      "new": 9
+      "new": 2
     },
     {
       "name": "NVIDIA Robotics",
@@ -237,8 +237,201 @@
       "new": 3
     }
   ],
-  "weekly_report": {},
+  "weekly_report": {
+    "start": "11-23",
+    "end": "11-29",
+    "generated_at": "2026-11-23T14:08:47.395924+08:00",
+    "mode": "local",
+    "item_count": 8,
+    "insights": [
+      {
+        "label": "落地验证集中在工厂、维修、巡检等可验收任务",
+        "text": "本周最有支撑的落地信号来自边界清楚的作业任务，近日，2026 年 APEC 工商领导人峰会举行，格力电器董事长董明珠在现场主动寻找机器人领域的合作机会；摘要：具身智能不再只讲“先工厂后家用”的单一叙事。这些场景能直接看服务覆盖、连续运行、故障率和人工替代比例，比展示型动作更能验证商业化。",
+        "evidence_urls": [
+          "https://www.robot-china.com/news/202611/23/97526.html",
+          "https://robot.ofweek.com/2026-11/ART-898890-8420-30712872.html",
+          "https://robot.ofweek.com/2026-11/ART-898890-8420-30712884.html"
+        ]
+      },
+      {
+        "label": "模型叙事正在落到真实数据和任务闭环",
+        "text": "技术侧更值得看的不是模型名称，而是数据如何回流到机器人能力，近日，2026 年 APEC 工商领导人峰会举行，格力电器董事长董明珠在现场主动寻找机器人领域的合作机会；摘要：具身智能不再只讲“先工厂后家用”的单一叙事。如果数据采集、触觉感知和任务评测不能闭环，模型发布很难转化为稳定部署。",
+        "evidence_urls": [
+          "https://www.robot-china.com/news/202611/23/97526.html",
+          "https://robot.ofweek.com/2026-11/ART-898890-8420-30712872.html"
+        ]
+      },
+      {
+        "label": "量产和价格开始成为能力验证的一部分",
+        "text": "产品侧的重点从“发布了什么”转向“能否持续制造和部署”，特斯拉 CEO 埃隆 · 马斯克今日在 X 平台发文回复博主 Sawyer Merritt， 升级版 AI4.；近日，2026 年 APEC 工商领导人峰会举行，格力电器董事长董明珠在现场主动寻找机器人领域的合作机会。量产和价格只有和真实场景部署、数据回流、售后能力连在一起，才是有效信号。",
+        "evidence_urls": [
+          "https://www.ithome.com/1/030/780.htm",
+          "https://www.robot-china.com/news/202611/23/97526.html"
+        ]
+      }
+    ],
+    "groups": [
+      {
+        "category": "技术突破",
+        "summary": "技术更新指向全身协同和通用操作，行业仍在从演示能力向可复现实测能力过渡。",
+        "items": [
+          {
+            "date": "11-23",
+            "title": "具身智能进入大浪淘沙阶段，企业需要怎样的人才？",
+            "url": "https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z?utm_source=rss&utm_medium=article",
+            "company": "其他",
+            "source_name": "InfoQ"
+          },
+          {
+            "date": "11-23",
+            "title": "启元抢渠道，宇树建底座：具身智能不止“进厂打工”一条路",
+            "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712872.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "产品量产",
+        "summary": "产品动态偏早期发布，仍需继续跟踪交付规模和客户复购。",
+        "items": [
+          {
+            "date": "11-23",
+            "title": "特斯拉 AI4.5 芯片有望明年推出，马斯克称内存太贵、从 32GB 降到 24GB",
+            "url": "https://www.ithome.com/1/030/780.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          }
+        ]
+      },
+      {
+        "category": "商业订单",
+        "summary": "商业化动态数量不多，优先关注是否有明确客户、订单规模、部署地点和可持续运营指标。",
+        "items": [
+          {
+            "date": "11-23",
+            "title": "宇树科技联合韩娱打造K-pop机器人女团：人形机器人商业化另辟蹊径",
+            "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712884.html",
+            "company": "宇树科技",
+            "source_name": "OFweek机器人"
+          }
+        ]
+      },
+      {
+        "category": "行业动态",
+        "summary": "行业讨论的重点不是是否看好具身智能，而是数据、感知、执行、成本和场景验证哪一环会成为下一阶段瓶颈。",
+        "items": [
+          {
+            "date": "11-23",
+            "title": "马斯克称存储芯片涨价使特斯拉 AI4 车载电脑成本翻倍",
+            "url": "https://www.ithome.com/1/030/777.htm",
+            "company": "特斯拉",
+            "source_name": "IT之家"
+          },
+          {
+            "date": "11-23",
+            "title": "董明珠APEC现场求合作，称格力研发机器人十几年了",
+            "url": "https://www.robot-china.com/news/202611/23/97526.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          },
+          {
+            "date": "11-23",
+            "title": "特斯拉人形机器人Optimus最新动态！12-18个月有望搞定家务",
+            "url": "https://www.robot-china.com/news/202611/23/97523.html",
+            "company": "特斯拉",
+            "source_name": "中国机器人网"
+          }
+        ]
+      },
+      {
+        "category": "泛具身产业链",
+        "summary": "产业链机会需要绑定具体性能瓶颈，传感、减速器、电池和数据采集等环节只有进入量产方案才算强信号。",
+        "items": [
+          {
+            "date": "11-23",
+            "title": "机器人长出“空间触觉”，感知不再止于接触",
+            "url": "https://www.robot-china.com/news/202611/23/97522.html",
+            "company": "其他",
+            "source_name": "中国机器人网"
+          }
+        ]
+      }
+    ]
+  },
   "items": [
+    {
+      "date": "11-23",
+      "company": "其他",
+      "title": "具身智能进入大浪淘沙阶段，企业需要怎样的人才？",
+      "source_name": "InfoQ",
+      "category": "技术突破",
+      "summary": "在潮水退去后仍然保留下来的知识、经验和能力，也许会在下一轮浪潮中，获得意想不到的回报",
+      "url": "https://www.infoq.cn/article/a22y9GDY1yHuAJkOIF8z?utm_source=rss&utm_medium=article"
+    },
+    {
+      "date": "11-23",
+      "company": "特斯拉",
+      "title": "特斯拉 AI4.5 芯片有望明年推出，马斯克称内存太贵、从 32GB 降到 24GB",
+      "source_name": "IT之家",
+      "category": "产品量产",
+      "summary": "IT之家 11 月 23 日消息，特斯拉 CEO 埃隆 · 马斯克今日在 X 平台发文回复博主 Sawyer Merritt， 升级版 AI4.5 芯片的性能提升较小，主要是将内存升级到 LPDDR5X 。 马斯克表示 AI5 芯片将专属于特斯拉 Optimus 机器人，汽车将继续使用 AI4。Sawyer Merritt 则表示， AI4.5 芯片有望在明…",
+      "url": "https://www.ithome.com/1/030/780.htm"
+    },
+    {
+      "date": "11-23",
+      "company": "特斯拉",
+      "title": "马斯克称存储芯片涨价使特斯拉 AI4 车载电脑成本翻倍",
+      "source_name": "IT之家",
+      "category": "行业动态",
+      "summary": "IT之家 11 月 23 日消息，特斯拉 CEO 埃隆 · 马斯克 11 月 22 日表示，受全球 DRAM 内存和 NAND 闪存价格上涨影响， 特斯拉 AI4 车载计算机的物料成本已经翻倍 。 他在 X 平台上回应有关特斯拉最新版完全自动驾驶（FSD）监督版 v15.0.1 计算需求的讨论时称，“由于内存和存储价格上涨， AI4 现在的成本是原来的两倍…",
+      "url": "https://www.ithome.com/1/030/777.htm"
+    },
+    {
+      "date": "11-23",
+      "company": "其他",
+      "title": "机器人长出“空间触觉”，感知不再止于接触",
+      "source_name": "中国机器人网",
+      "category": "泛具身产业链",
+      "summary": "导语：在 2026 世界计算大会《具身智能计算论坛：脑体协同 算启具身》上，粤海信创始人、董事长李静做了一场不太像硬件公司的演讲。她没有从参数讲起，而是从人类文明讲起。“人类每一次跃迁，背后都是一次感官外延。”李静说，火延伸了手，文字与印刷延伸了记忆，望远镜与显微镜延伸了眼睛，声呐延伸了耳朵，深空与深海延伸了双脚。“而空间触觉，延伸的是皮肤与身体。”在这场演…",
+      "url": "https://www.robot-china.com/news/202611/23/97522.html"
+    },
+    {
+      "date": "11-23",
+      "company": "其他",
+      "title": "董明珠APEC现场求合作，称格力研发机器人十几年了",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "近日，2026 年 APEC 工商领导人峰会举行，格力电器董事长董明珠在现场主动寻找机器人领域的合作机会。董明珠表示，具身智能机器人需要减速机、驱动器、伺服电机等核心零部件，而格力已经研发机器人十几年，目前格力电器自动化生产线上的机器人全部由格力自主完成。谈及合作，她更是主动向现场嘉宾发出邀请：“我相信我们会成为你很好的合作伙伴，你要什么部件，提供什么部件…",
+      "url": "https://www.robot-china.com/news/202611/23/97526.html"
+    },
+    {
+      "date": "11-23",
+      "company": "特斯拉",
+      "title": "特斯拉人形机器人Optimus最新动态！12-18个月有望搞定家务",
+      "source_name": "中国机器人网",
+      "category": "行业动态",
+      "summary": "近日，特斯拉 CEO 埃隆・马斯克在视频连线采访中对外披露 Optimus（擎天柱）人形机器人最新进展。他表示，Optimus 有望在未来 12 至 18 个月内，独立完成倒垃圾、洗碗、收纳餐具等多步骤家务任务；产品落地路径将优先面向重工业场景，之后再逐步走进家庭。最受行业关注的是，马斯克透露，特斯拉计划在未来一两个月内，举办新一轮 Optimus 实机演示…",
+      "url": "https://www.robot-china.com/news/202611/23/97523.html"
+    },
+    {
+      "date": "11-23",
+      "company": "宇树科技",
+      "title": "宇树科技联合韩娱打造K-pop机器人女团：人形机器人商业化另辟蹊径",
+      "source_name": "OFweek机器人",
+      "category": "商业订单",
+      "summary": "摘要：宇树联合韩娱公司打造 K-pop 机器人女团。当行业扎堆工厂、家务赛道，容错更高的文娱场景，或许能率先跑出人形机器人现金流。 全文约700字，预计阅读时间2分钟。 当前讨论人形机器人，目光大多锁",
+      "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712884.html"
+    },
+    {
+      "date": "11-23",
+      "company": "宇树科技",
+      "title": "启元抢渠道，宇树建底座：具身智能不止“进厂打工”一条路",
+      "source_name": "OFweek机器人",
+      "category": "技术突破",
+      "summary": "摘要：具身智能不再只讲“先工厂后家用”的单一叙事。启元进消费渠道、宇树联手索辰建仿真底座，这并非全行业的全部路线，却代表了两种截然不同的突围思路。资本正用“交付能力”和“闭环能力”两套逻辑重新估值",
+      "url": "https://robot.ofweek.com/2026-11/ART-898890-8420-30712872.html"
+    },
     {
       "date": "11-22",
       "company": "特斯拉",
@@ -616,78 +809,6 @@
       "category": "产品量产",
       "summary": "Boston Dynamics has unveiled Stretch Gen 2, the next generation of its autonomous mobile trailer unloading robot. Built on insights from first-generation deployments, Stretch Gen 2…",
       "url": "https://roboticsandautomationnews.com/2026/11/19/boston-dynamics-launches-next-generation-stretch-robot-with-major-reliability-upgrades/107354/"
-    },
-    {
-      "date": "11-19",
-      "company": "其他",
-      "title": "Realbotix launches Echo humanoid robots for education, wellness and companionship",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "Realbotix has launched a new range of humanoid robots designed for education, wellness and personal companionship, with the first units scheduled for delivery in the second half of…",
-      "url": "https://roboticsandautomationnews.com/2026/11/19/realbotix-launches-echo-humanoid-robots-for-education-wellness-and-companionship/107339/"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人",
-      "source_name": "雷峰网",
-      "category": "行业动态",
-      "summary": "做了十多年自动驾驶之后，杨睿刚决定把下一次创业的方向，从高速公路转向居民社区。 在此之前，他曾在美国高校研究三维视觉，后来加入百度研究院，负责机器人与自动驾驶实验室，又担任嬴彻科技CTO，推动自动驾驶重卡前装量产。从研究算法到让几十吨重的卡车真正跑上高速公路，他经历了自动驾驶从技术探索走向商业化的过程。 2024年，杨睿刚开始筹备第二次创业。彼时，人形机器人…",
-      "url": "https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026",
-      "source_name": "雷峰网",
-      "category": "商业订单",
-      "summary": "人机交互不只是目标，更是解决方案。 作者丨 邓哲敏 编辑丨 齐铖湧 2026 年 11 月 12 日，CoRL 2026 “Learn@Deploy”（机器人部署中学习）半日研讨会上，清华大学交叉信息研究院助理教授徐梦迪以 Keynote 讲者身份做开场报告 。 徐梦迪从清华车辆工程专业毕业后，前往卡内基梅隆大学机械工程系读博，师从 Safe AI Lab…",
-      "url": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "第一批打工的人形机器人，有的已经失业了",
-      "source_name": "钛媒体",
-      "category": "行业动态",
-      "summary": "不久前，智元机器人在一家便利店试岗直播时，就出现了六名选手淘汰两名的事儿，以为是HE结局的观众，亲眼见证了BE时刻。 另一边，银河通用、宇树科技等具身智能厂商，也在把自家产品送入便利店深造，让机器人替代便利店店员的工作。 具身智能厂商们，纷纷让机器人去便利店工作，原因似乎在于技术难度适中、数据场景恰当，以及有流量广告效应。 而在便利店之外，提出Worken理…",
-      "url": "https://www.tmtpost.com/8209375.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "消息称三星电子计划在 CES 2027 发布 2 款人形机器人",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 11 月 18 日消息，韩媒《韩民族日报》当地时间昨日报道称，三星电子计划在明年 1 月举行的 CES 2027 消费电子展上发布 2 款人形机器人。 这两款产品的 名称分别为 HR (Human Reference) 和 HE (Humanoid Extreme) ，分别为入门和高端型号，其中 HE 具备更多的关节自由度。 据悉，HR 和 HR…",
-      "url": "https://www.ithome.com/1/029/087.htm"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "具身智能转向长程任务系统能力阶段：华睿智普以端侧算力平台构建物理AI差异化优势",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "2026年的下半年，具身智能行业的关注点正逐步从技术演示转向商业化落地。随着机器人加速进入工厂、仓库等复杂环境，如何实现长期稳定运行，成为产业发展需要解决的关键问题。业内普遍认为，具身智能的竞争已从单点技术突破进入系统能力竞争阶段。机器人不仅需要具备环境感知、自主决策能力，还要兼顾实时控制、运行可靠性与部署成本等一系列工程要求。当前，行业面临三方面突出挑战：…",
-      "url": "https://www.robot-china.com/news/202611/18/97481.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "波士顿动力人形机器人首次进入半导体制造领域，Atlas明年在格罗方德工厂测试",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "据外媒 Interesting Engineering 昨天报道，波士顿动力 Atlas 人形机器人即将首次进入半导体制造领域，格罗方德（GlobalFoundries）正准备从 2027 年初开始在旗下工厂测试 Atlas。波士顿动力的四足机器人 Spot 此前已在格罗方德工厂投入运营。双方将在此合作中评估人形机器人“进厂打工”的潜在应用场景，并计划对特定…",
-      "url": "https://www.robot-china.com/news/202611/18/97478.html"
-    },
-    {
-      "date": "11-18",
-      "company": "其他",
-      "title": "三星、SK 海力士、美光罕见联手，要给芯片工厂的机器人统一充电标准",
-      "source_name": "中国机器人网",
-      "category": "泛具身产业链",
-      "summary": "11 月 18 日消息，据《首尔经济日报》本月报道，三星、SK 海力士、美光将罕见联手，为机器人充电树立统一标准。三星电子、SK 海力士和美光正在为半导体制造工厂中使用的机器人制定充电标准。该项目旨在统一电池规格和充电站操作方式，从而更便捷管理不同制造商的机器人。报道称，三家公司的员工已成立早期咨询机构，包括 SEMI（国际半导体产业协会）在内的主要行业协会…",
-      "url": "https://www.robot-china.com/news/202611/18/97477.html"
     }
   ]
 }
