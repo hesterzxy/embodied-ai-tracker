@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T15:11:04.791350+08:00",
+  "updated": "2026-11-27T05:02:09.754968+08:00",
   "source": "RSS自动抓取",
   "source_count": 18,
   "source_stats": [
@@ -11,8 +11,8 @@
       "attempts": 1,
       "error": "",
       "entries": 10,
-      "candidates": 4,
-      "core": 2,
+      "candidates": 3,
+      "core": 1,
       "periphery": 0,
       "new": 1
     },
@@ -36,9 +36,9 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 14,
+      "entries": 16,
       "candidates": 9,
-      "core": 2,
+      "core": 4,
       "periphery": 0,
       "new": 2
     },
@@ -49,11 +49,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 19,
-      "candidates": 6,
-      "core": 3,
+      "entries": 18,
+      "candidates": 2,
+      "core": 0,
       "periphery": 0,
-      "new": 3
+      "new": 0
     },
     {
       "name": "爱范儿",
@@ -62,8 +62,8 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 17,
-      "candidates": 1,
+      "entries": 18,
+      "candidates": 2,
       "core": 0,
       "periphery": 0,
       "new": 0
@@ -88,11 +88,11 @@
       "parsed": true,
       "attempts": 1,
       "error": "",
-      "entries": 58,
-      "candidates": 16,
-      "core": 4,
+      "entries": 60,
+      "candidates": 12,
+      "core": 0,
       "periphery": 0,
-      "new": 4
+      "new": 0
     },
     {
       "name": "中国机器人网",
@@ -102,10 +102,10 @@
       "attempts": 1,
       "error": "",
       "entries": 80,
-      "candidates": 79,
-      "core": 45,
+      "candidates": 80,
+      "core": 43,
       "periphery": 7,
-      "new": 15
+      "new": 13
     },
     {
       "name": "甲子光年",
@@ -129,9 +129,9 @@
       "error": "",
       "entries": 22,
       "candidates": 19,
-      "core": 7,
+      "core": 5,
       "periphery": 1,
-      "new": 6
+      "new": 2
     },
     {
       "name": "新战略移动机器人",
@@ -170,7 +170,7 @@
       "candidates": 15,
       "core": 6,
       "periphery": 0,
-      "new": 2
+      "new": 3
     },
     {
       "name": "TechCrunch Robotics",
@@ -192,10 +192,10 @@
       "attempts": 1,
       "error": "",
       "entries": 15,
-      "candidates": 10,
-      "core": 3,
-      "periphery": 2,
-      "new": 2
+      "candidates": 13,
+      "core": 7,
+      "periphery": 1,
+      "new": 7
     },
     {
       "name": "NVIDIA Robotics",
@@ -240,7 +240,7 @@
   "weekly_report": {
     "start": "11-23",
     "end": "11-29",
-    "generated_at": "2026-11-26T15:11:04.918937+08:00",
+    "generated_at": "2026-11-27T05:02:09.822974+08:00",
     "mode": "local",
     "item_count": 50,
     "insights": [
@@ -292,6 +292,27 @@
             "source_name": "中国机器人网"
           },
           {
+            "date": "11-26",
+            "title": "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验",
+            "url": "https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html",
+            "company": "其他",
+            "source_name": "雷峰网"
+          },
+          {
+            "date": "11-26",
+            "title": "Researchers develop 3D-printable humanoid robotic hand costing less than $650",
+            "url": "https://roboticsandautomationnews.com/2026/11/26/researchers-develop-3d-printable-humanoid-robotic-hand-costing-less-than-650/107748/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-26",
+            "title": "Physical AI model outpaces human operator in robot manipulation tests",
+            "url": "https://roboticsandautomationnews.com/2026/11/26/physical-ai-model-outpaces-human-operator-in-robot-manipulation-tests/107719/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "11-25",
             "title": "世界模型变天了",
             "url": "https://www.tmtpost.com/8216357.html",
@@ -318,20 +339,6 @@
             "url": "https://www.gongkong.com/news/202611/454985.html",
             "company": "其他",
             "source_name": "中国工控网机器人"
-          },
-          {
-            "date": "11-24",
-            "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
-            "url": "https://www.leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html",
-            "company": "其他",
-            "source_name": "雷峰网"
-          },
-          {
-            "date": "11-24",
-            "title": "开放原子人形机器人开源社区工作委员会正式成立",
-            "url": "https://www.robot-china.com/news/202611/24/97540.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -387,20 +394,6 @@
             "url": "https://www.robot-china.com/news/202611/24/97537.html",
             "company": "其他",
             "source_name": "中国机器人网"
-          },
-          {
-            "date": "11-24",
-            "title": "ASRock Industrial launches ‘robotics-in-a-box’ for physical AI development",
-            "url": "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/",
-            "company": "其他",
-            "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-24",
-            "title": "东擎发布基于英特尔酷睿 Ultra X7 处理器 358H 的整合式物理 AI 开发平台",
-            "url": "https://www.ithome.com/1/031/880.htm",
-            "company": "其他",
-            "source_name": "IT之家"
           }
         ]
       },
@@ -464,6 +457,13 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "11-26",
+            "title": "Lute raises $20 million to give robots a sense of touch",
+            "url": "https://roboticsandautomationnews.com/2026/11/26/lute-raises-20-million-to-give-robots-a-sense-of-touch/107756/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "11-25",
             "title": "华南理工大学教授创深水机器人公司，「振海智能」完成数千万元Pre-A轮融资！",
             "url": "https://robot.ofweek.com/2026-11/ART-8321202-12005-30713506.html",
@@ -518,13 +518,6 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321203-12005-30713274.html",
             "company": "行业",
             "source_name": "OFweek机器人"
-          },
-          {
-            "date": "11-24",
-            "title": "具身智能48小时三笔亿元级融资：热钱全绕开了“人形整机”",
-            "url": "https://www.tmtpost.com/8216201.html",
-            "company": "行业",
-            "source_name": "钛媒体"
           }
         ]
       },
@@ -582,6 +575,20 @@
             "source_name": "OFweek机器人"
           },
           {
+            "date": "11-26",
+            "title": "Volvo Cars begins training Hexagon humanoid robots for factory work",
+            "url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
+            "date": "11-26",
+            "title": "Designing Robot Gripper Fingers for Repeatable Changeovers",
+            "url": "https://roboticsandautomationnews.com/2026/11/26/designing-robot-gripper-fingers-for-repeatable-changeovers/107707/",
+            "company": "其他",
+            "source_name": "Robotics & Automation News"
+          },
+          {
             "date": "11-25",
             "title": "十国开发者齐聚自贡高新区！优必选海外人形机器人实训营收官",
             "url": "https://www.robot-china.com/news/202611/25/97555.html",
@@ -615,20 +622,6 @@
             "url": "https://roboticsandautomationnews.com/2026/11/25/bentic-prepares-for-us-expansion-as-physical-ai-robot-installations-approach-100/107656/",
             "company": "其他",
             "source_name": "Robotics & Automation News"
-          },
-          {
-            "date": "11-24",
-            "title": "小鹏放出 IRON 人形机器人预热视频：可自主拿起书本、倒酒、充电",
-            "url": "https://www.ithome.com/1/031/818.htm",
-            "company": "其他",
-            "source_name": "IT之家"
-          },
-          {
-            "date": "11-24",
-            "title": "热血机甲燃动金陵！URKL人形机器人自由格斗联赛南京站圆满落幕",
-            "url": "https://www.robot-china.com/news/202611/24/97543.html",
-            "company": "其他",
-            "source_name": "中国机器人网"
           }
         ]
       },
@@ -642,6 +635,13 @@
             "url": "https://robot.ofweek.com/2026-11/ART-8321205-12005-30713680.html",
             "company": "行业",
             "source_name": "OFweek机器人"
+          },
+          {
+            "date": "11-26",
+            "title": "深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效",
+            "url": "https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html",
+            "company": "其他",
+            "source_name": "雷峰网"
           },
           {
             "date": "11-25",
@@ -805,6 +805,69 @@
       "category": "行业动态",
       "summary": "摘要：三星HR/HE双版本人形瞄准CES 2027，灵巧手走直驱路线、复用折叠屏铰链。韩系两条分支分化，精密装配成消费电子巨头的入局切口。 全文约1180字 | 预计阅读4分钟i 据韩媒11月下旬报道",
       "url": "https://robot.ofweek.com/2026-11/ART-8321201-8140-30713616.html"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效",
+      "source_name": "雷峰网",
+      "category": "泛具身产业链",
+      "summary": "近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1系列。该产品通过结构精简，驱控板与编码器一体化设计，在压缩体积、提升集成度的同时保持控制精度与运行稳定性，为人形机器人整机设计与规模化生产提供了新的核心零部件选择。 当前，人形机器人产业正从“能走能动”的样机验证阶段，加速迈向“可批量、可交…",
+      "url": "https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验",
+      "source_name": "雷峰网",
+      "category": "技术突破",
+      "summary": "聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨 齐铖湧 编辑丨岑 峰 近日，行业独角兽企业 生数科技 正式发布 Motubrain 2.0，并宣布将于近期开源。 这次发布包括一个 20B 参数的世界动作模型（WAM），以及一套名为 Motubrain-Harness 的智能体系统。 过去一个月里，生数科技把 Motubrai…",
+      "url": "https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "Lute raises $20 million to give robots a sense of touch",
+      "source_name": "Robotics & Automation News",
+      "category": "资本动态",
+      "summary": "Lute, a physical AI startup developing foundation models that enable robots to use tactile information alongside visual data, has raised $20 million in seed and pre-seed funding to…",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/lute-raises-20-million-to-give-robots-a-sense-of-touch/107756/"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "Researchers develop 3D-printable humanoid robotic hand costing less than $650",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "Researchers at the New Jersey Institute of Technology (NJIT) have developed a dexterous humanoid robotic hand that can be manufactured using an affordable 3D printer and readily av…",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/researchers-develop-3d-printable-humanoid-robotic-hand-costing-less-than-650/107748/"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "Volvo Cars begins training Hexagon humanoid robots for factory work",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "Volvo Cars has begun training and testing Hexagon Robotics’ AEON humanoid robots at its manufacturing plant in Ghent, Belgium, with the aim of introducing the machines into product…",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/volvo-cars-begins-training-hexagon-humanoid-robots-for-factory-work/107733/"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "Physical AI model outpaces human operator in robot manipulation tests",
+      "source_name": "Robotics & Automation News",
+      "category": "技术突破",
+      "summary": "A new physical AI model developed by robotics company mimic has outperformed a human operator in speed tests involving everyday robotic manipulation tasks, according to results pub…",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/physical-ai-model-outpaces-human-operator-in-robot-manipulation-tests/107719/"
+    },
+    {
+      "date": "11-26",
+      "company": "其他",
+      "title": "Designing Robot Gripper Fingers for Repeatable Changeovers",
+      "source_name": "Robotics & Automation News",
+      "category": "行业动态",
+      "summary": "A robot can return to its programmed position while the part in its gripper arrives somewhere slightly different. After a finger change, the cause may be mechanical: a contact surf…",
+      "url": "https://roboticsandautomationnews.com/2026/11/26/designing-robot-gripper-fingers-for-repeatable-changeovers/107707/"
     },
     {
       "date": "11-25",
@@ -1048,69 +1111,6 @@
       "category": "技术突破",
       "summary": "2030年国内人形关节模组市场规模预计将突破260亿元，作为机器人核心部件的关节模组正迎来需求爆发期。近期，新时达全新发布的高性能人形关节模组系列产品，依托无框电机、驱动器、编码器及减速机领域的全链技术沉淀，以模块化设计实现“即插即用”，大幅缩短部署周期。 标签： 新时达 </li",
       "url": "https://www.gongkong.com/news/202611/454985.html"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "ASRock Industrial launches ‘robotics-in-a-box’ for physical AI development",
-      "source_name": "Robotics & Automation News",
-      "category": "产品量产",
-      "summary": "ASRock Industrial, a Taiwanese provider of industrial computing and edge AI solutions, has announced the launch of RBK-100 Robotics-in-a-Box. Designed to simplify robotic AI develo…",
-      "url": "https://roboticsandautomationnews.com/2026/11/24/asrock-industrial-launches-robotics-in-a-box-for-physical-ai-development/107570/"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "百度智能云等发起香港前沿科技产业发展联盟，助力具身智能企业拓展全球市场",
-      "source_name": "雷峰网",
-      "category": "技术突破",
-      "summary": "11月23日，第十六届香港国际金融论坛暨第七届领航“9+2”粤港澳大湾区发展论坛举办。作为论坛重要活动，香港国际具身智能领袖峰会同期举行，并正式发布香港前沿科技产业发展联盟。该联盟由百度智能云、香港特区政府商务及经济发展局、香港特区政府创新科技署、投资家网，以及智平方、零次方、众擎、地瓜机器人、帕西尼、贝塔无限、零次方、破壳、亮源新创、松应、智动未来等企业共…",
-      "url": "https://www.leiphone.com/category/industrynews/uFuwhvMHGUY0Qeu0.html"
-    },
-    {
-      "date": "11-24",
-      "company": "行业",
-      "title": "具身智能48小时三笔亿元级融资：热钱全绕开了“人形整机”",
-      "source_name": "钛媒体",
-      "category": "资本动态",
-      "summary": "文 | 芯智能头条，作者 | 绵绵，编辑 | Mark 11月23日到24日，短短48小时里，章鱼动力、傲意科技、英汉思动力先后拿到亿元级融资。三家公司成立时间跨度从十个月到十年，切入点截然不同，却有一个刺眼的共同点——它们都不造通用双足人形机器人。2026年底，具身智能的钱正在逃离整机内卷，往更能算清账的核心部件、操作闭环和垂直爆品里扎堆。 11月下旬这周…",
-      "url": "https://www.tmtpost.com/8216201.html"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "东擎发布基于英特尔酷睿 Ultra X7 处理器 358H 的整合式物理 AI 开发平台",
-      "source_name": "IT之家",
-      "category": "产品量产",
-      "summary": "IT之家 11 月 24 日消息，东擎 (ASRock Industrial) 今日宣布携手 Intel（英特尔），推出基于酷睿 Ultra X7 处理器 358H 的整合式物理 AI 开发平台 RBK-100。 RBK-100 是一款 Robotics-in-a-Box 解决方案， 结合东擎 NUC BOX-358H 迷你主机、RGB-D 深度摄像头、6…",
-      "url": "https://www.ithome.com/1/031/880.htm"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "小鹏放出 IRON 人形机器人预热视频：可自主拿起书本、倒酒、充电",
-      "source_name": "IT之家",
-      "category": "行业动态",
-      "summary": "IT之家 11 月 24 日消息，随着 2026 年小鹏科技日临近，小鹏汽车于今日公布了旗下人形机器人 IRON 的最新预热视频。短片重点展现了该机器人在无人工遥控状态下，独立完成多项贴近日常生活的精细化任务，为即将召开的科技日提前造势。 IT之家注意到，根据此次公开的画面，IRON 在模拟居家环境中成功执行了抓取书籍、向杯中斟酒以及自主连接电源充电等一系列…",
-      "url": "https://www.ithome.com/1/031/818.htm"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "热血机甲燃动金陵！URKL人形机器人自由格斗联赛南京站圆满落幕",
-      "source_name": "中国机器人网",
-      "category": "行业动态",
-      "summary": "当紫色机甲“紫金麒麟”在八角笼内振臂宣告胜利，获颁象征荣耀的金拳套，“为城市主场英雄而战”的叙事推至最高潮。继深圳全球揭幕赛、城市巡回挑战赛·上海站之后，11月21日，URKL城市巡回挑战赛登陆南京建邺，在南京国际博览中心13号馆上演“金陵有麒麟 觉醒！”的机甲巅峰对决。 本场赛事与世界智能制造大会同频共振，秉持“以赛促研、以赛育才、以赛促产”的初衷，旨在为…",
-      "url": "https://www.robot-china.com/news/202611/24/97543.html"
-    },
-    {
-      "date": "11-24",
-      "company": "其他",
-      "title": "开放原子人形机器人开源社区工作委员会正式成立",
-      "source_name": "中国机器人网",
-      "category": "技术突破",
-      "summary": "11月20日，2026开放原子开发者大会将在郑州举行。大会期间， 。智元创新（上海）科技股份有限公司、乐聚智能（深圳）股份有限公司、上海具脑磐石科技有限公司、国家地方共建人形机器人创新中心、启元新创（上海）科技有限公司、芯元时代（上海）科技有限公司、上海爱仕达人形机器人股份有限公司、河南众诚信息科技股份有限公司和中国科学院软件研究所作为社区创始单位，共同见证…",
-      "url": "https://www.robot-china.com/news/202611/24/97540.html"
     }
   ]
 }
